@@ -79,7 +79,8 @@ $keySignatureAccidentals = @{
 function Get-KeySignature {
     param([string]$KeyLine)
     
-    if ($KeyLine -match 'K:\s*([A-Ga-g])([#b]?)\s*(\w+)?') {
+    # Updated regex to capture modes with hyphens (e.g., "mixo-lydian")
+    if ($KeyLine -match 'K:\s*([A-Ga-g])([#b]?)\s*([\w-]+)?') {
         $note = $Matches[1].ToUpper()
         $accidental = $Matches[2]
         $mode = if ($Matches[3]) { $Matches[3].ToLower() } else { '' }
@@ -87,6 +88,7 @@ function Get-KeySignature {
         # Modal keys: Dorian, Phrygian, etc. use different key signatures
         # D Dorian, E Phrygian, F Lydian, G Mixolydian, A Aeolian, B Locrian all use C major (no accidentals)
         # Map modal root to equivalent major key signature
+        # Hypo- modes use the same key signature as their authentic counterpart
         $modalKeyMap = @{
             # Dorian mode: root note maps to major key a whole step below
             'dor' = @{ 'D' = 'C'; 'E' = 'D'; 'F#' = 'E'; 'G' = 'F'; 'A' = 'G'; 'B' = 'A'; 'C' = 'Bb' }
@@ -100,6 +102,7 @@ function Get-KeySignature {
             # Mixolydian mode: root note maps to major key a fifth below
             'mix' = @{ 'G' = 'C'; 'A' = 'D'; 'B' = 'E'; 'C' = 'F'; 'D' = 'G'; 'E' = 'A'; 'F#' = 'B' }
             'mixolydian' = @{ 'G' = 'C'; 'A' = 'D'; 'B' = 'E'; 'C' = 'F'; 'D' = 'G'; 'E' = 'A'; 'F#' = 'B' }
+            'mixo-lydian' = @{ 'G' = 'C'; 'A' = 'D'; 'B' = 'E'; 'C' = 'F'; 'D' = 'G'; 'E' = 'A'; 'F#' = 'B' }
             # Aeolian (natural minor): root note maps to relative major
             'aeo' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }
             'aeolian' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }

@@ -4,7 +4,7 @@
   "title": "Psalm 30",
   "category": "psalm",
   "mode": "hypo-mixolydisch (Bourgois 1551)",
-  "keySignature": "G",
+  "keySignature": "C",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -12,12 +12,12 @@
       {
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" }
         ]
       },
@@ -37,7 +37,7 @@
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
@@ -65,7 +65,7 @@
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["d/4"], "duration": "h" }
         ]
@@ -139,7 +139,7 @@
         ["Geeft", "lof", "den", "HEER’,", "die", "eeu-", "wig", "leeft:"],
         ["Zijn", "vlek-", "ke-", "lo-", "ze", "hei-", "lig-", "heid"],
         ["Zij", "ter-", "ge-", "dach-", "te-", "nis", "ver-", "breid."],
-        ["Een", "o-","gen-", "blik", "moog’", "ons", "doen", "be-", "ven,"],
+        ["Een", "ogen-", "blik", "moog’", "ons", "doen", "be-", "ven,", "-"],
         ["Zijn", "gunst", "ver-", "duurt", "een", "eeu-", "wig", "le-", "ven."]
       ]
     },
