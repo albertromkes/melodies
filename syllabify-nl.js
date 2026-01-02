@@ -83,6 +83,40 @@ function fixVowelConsonantVowel(word, syllables) {
   return syllables;
 }
 
+// Fix words ending in common suffixes that hypher doesn't split
+// e.g., "fijnste" -> ["fijn", "ste"], "grootste" -> ["groot", "ste"]
+function fixUnsplitSuffixes(word, syllables) {
+  // Only fix if hypher returned the word unsplit (1 syllable)
+  if (syllables.length !== 1) return syllables;
+  
+  const syl = syllables[0];
+  
+  // Common Dutch suffixes that should be split
+  // -ste (superlative), -heid, -lijk, -nis, -ing, -sel, etc.
+  const suffixPatterns = [
+    { pattern: /^(.{2,})(ste)$/i, minRootVowels: 1 },      // fijnste -> fijn-ste
+    { pattern: /^(.{2,})(heid)$/i, minRootVowels: 1 },     // schoonheid -> schoon-heid
+    { pattern: /^(.{2,})(nis)$/i, minRootVowels: 1 },      // kennis -> ken-nis
+    { pattern: /^(.{2,})(sel)$/i, minRootVowels: 1 },      // voedsel -> voed-sel
+    { pattern: /^(.{3,})(lijk)$/i, minRootVowels: 1 },     // eerlijk -> eer-lijk (but not 'lijk' itself)
+  ];
+  
+  for (const { pattern, minRootVowels } of suffixPatterns) {
+    const match = syl.match(pattern);
+    if (match) {
+      const root = match[1];
+      const suffix = match[2];
+      // Check that root has at least minRootVowels vowels
+      const vowelCount = (root.match(/[aeiouij]/gi) || []).length;
+      if (vowelCount >= minRootVowels) {
+        return [root, suffix];
+      }
+    }
+  }
+  
+  return syllables;
+}
+
 for (const word of words) {
   if (!word || word.length < 3) {
     result[word] = [word];
@@ -98,7 +132,10 @@ for (const word of words) {
     const prefix = dPrefixMatch[1];
     const rest = dPrefixMatch[2];
     const [core, punct] = splitPunctuation(rest);
-    let syllables = fixVowelConsonantVowel(core, fixCompoundSyllables(h.hyphenate(core)));
+    let syllables = h.hyphenate(core);
+    syllables = fixCompoundSyllables(syllables);
+    syllables = fixVowelConsonantVowel(core, syllables);
+    syllables = fixUnsplitSuffixes(core, syllables);
     if (syllables.length > 0) {
       // Combine prefix with first syllable
       syllables[0] = prefix + syllables[0];
@@ -122,7 +159,10 @@ for (const word of words) {
     const prefix = tPrefixMatch[1];
     const rest = tPrefixMatch[2];
     const [core, punct] = splitPunctuation(rest);
-    let syllables = fixVowelConsonantVowel(core, fixCompoundSyllables(h.hyphenate(core)));
+    let syllables = h.hyphenate(core);
+    syllables = fixCompoundSyllables(syllables);
+    syllables = fixVowelConsonantVowel(core, syllables);
+    syllables = fixUnsplitSuffixes(core, syllables);
     if (syllables.length > 0) {
       // Combine prefix with first syllable (with space for readability)
       syllables[0] = prefix + " " + syllables[0];
@@ -138,6 +178,7 @@ for (const word of words) {
 
   // Apostrophe handling for other cases (' or ')
   // e.g., vrees'lijk -> ["vrees", "'lijk"]
+  // e.g., onvergank'lijk -> ["on", "ver", "gank", "'lijk"] (syllabify the part before apostrophe)
   // BUT NOT HEER', where apostrophe is at end (possibly followed by punctuation)
   // Apostrophe can be ' (0027) or ' (2019 curly)
   const aposMatch = word.match(/^(.+?)(['\u2019].+)$/);
@@ -145,13 +186,23 @@ for (const word of words) {
     const afterApos = aposMatch[2].slice(1); // Everything after the apostrophe
     // Only split if there's actual content after apostrophe (not just punctuation)
     if (afterApos && !/^[.,;:!?"]*$/.test(afterApos)) {
-      result[word] = [aposMatch[1], aposMatch[2]];
+      const beforeApos = aposMatch[1];
+      // Syllabify the part before apostrophe
+      let beforeSyllables = h.hyphenate(beforeApos);
+      beforeSyllables = fixCompoundSyllables(beforeSyllables);
+      beforeSyllables = fixVowelConsonantVowel(beforeApos, beforeSyllables);
+      beforeSyllables = fixUnsplitSuffixes(beforeApos, beforeSyllables);
+      // Combine with the apostrophe part
+      result[word] = [...beforeSyllables, aposMatch[2]];
       continue;
     }
   }
 
   const [core, punct] = splitPunctuation(word);
-  const syllables = fixVowelConsonantVowel(core, fixCompoundSyllables(h.hyphenate(core)));
+  let syllables = h.hyphenate(core);
+  syllables = fixCompoundSyllables(syllables);
+  syllables = fixVowelConsonantVowel(core, syllables);
+  syllables = fixUnsplitSuffixes(core, syllables);
 
   if (syllables.length === 0) {
     result[word] = [word];

@@ -685,11 +685,40 @@ function Get-MatchedSyllables {
                 
                 # If word not in cache (e.g., combined apostrophe words), syllabify on demand
                 if (-not $parts -or $parts.Count -eq 0) {
-                    $onDemand = Get-DutchSyllables -Words @($word)
-                    if ($onDemand -and $onDemand.$word) {
-                        $parts = @($onDemand.$word)
+                    # Check if this is an apostrophe-prefixed word like "'t fijnste" or "d'onschuld"
+                    # Extract the prefix and syllabify the main word separately
+                    $apostrophePrefix = ""
+                    $mainWord = $word
+                    
+                    # Pattern 1: "'t word" or "'k word" (apostrophe + letter + space + word)
+                    if ($word -match "^(['$curlyApos][a-zA-Z])\s+(.+)$") {
+                        $apostrophePrefix = $Matches[1] + " "
+                        $mainWord = $Matches[2]
+                    }
+                    # Pattern 2: "d'word" or "m'word" (letter + apostrophe + word, no space)
+                    elseif ($word -match "^([a-zA-Z]['$curlyApos])(.+)$") {
+                        $apostrophePrefix = $Matches[1]
+                        $mainWord = $Matches[2]
+                    }
+                    
+                    if ($apostrophePrefix -and $mainWord) {
+                        # Syllabify just the main word
+                        $onDemand = Get-DutchSyllables -Words @($mainWord)
+                        if ($onDemand -and $onDemand.$mainWord -and $onDemand.$mainWord.Count -gt 1) {
+                            # Prepend the apostrophe prefix to the first syllable
+                            $mainParts = @($onDemand.$mainWord)
+                            $mainParts[0] = $apostrophePrefix + $mainParts[0]
+                            $parts = $mainParts
+                        } else {
+                            $parts = @($word)
+                        }
                     } else {
-                        $parts = @($word)
+                        $onDemand = Get-DutchSyllables -Words @($word)
+                        if ($onDemand -and $onDemand.$word) {
+                            $parts = @($onDemand.$word)
+                        } else {
+                            $parts = @($word)
+                        }
                     }
                 }
                 
