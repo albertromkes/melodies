@@ -1,0 +1,217 @@
+{
+  "id": "psalm-020",
+  "number": 20,
+  "title": "Psalm 20",
+  "category": "psalm",
+  "mode": "dorisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Dat op uw klacht de hemel scheure;",
+        "Dat zich de HEER’ ontdekk’!",
+        "De God van vader Jakob beure",
+        "U in een hoog vertrek.",
+        "Hij doe in gunstrijk welbehagen,",
+        "Uit Sions tempelzalen,",
+        "Om u te helpen en te schragen,",
+        "Zijn zegen nederdalen."
+      ],
+      "syllables": [
+        ["Dat", "op", "uw", "klacht", "de", "he-", "mel", "scheu-", "re;"],
+        ["Dat", "zich", "de", "HEER’", "ont-", "dek-", "k’!"],
+        ["De", "God", "van", "va-", "der", "Ja-", "kob", "beu-", "re"],
+        ["U", "in", "een", "hoog", "ver-", "trek."],
+        ["Hij", "doe", "in", "gunst-", "rijk", "wel-", "be-", "ha-", "gen,"],
+        ["Uit", "Si-", "ons", "tem-", "pel-", "za-", "len,"],
+        ["Om", "u", "te", "hel-", "pen", "en", "te", "schra-", "gen,"],
+        ["Zijn", "ze-", "gen", "ne-", "der-", "da-", "len."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Hij will’ uw offerspijz’ gedenken;",
+        "De hemelvlam verteer’,",
+        "Wat g’op het brandaltaar zult schenken,",
+        "Tot ’s Allerhoogsten eer.",
+        "Hij geev’ u, naar uw wens, t’ontvangen,",
+        "Geluk in al uw daden,",
+        "Zijn gunst bestier’ naar uw verlangen",
+        "Al wat gij moogt beraden."
+      ],
+      "syllables": [
+        ["Hij", "will’", "uw", "of-", "fer-", "spij-", "z’ge-", "den-", "ken;"],
+        ["De", "he-", "mel-", "vlam", "ver-", "teer’,"],
+        ["Wat", "g-", "’op", "het", "brandal-", "taar", "zult", "schen-", "ken,"],
+        ["Tot", "’s Al-", "ler-", "hoog-", "sten", "eer."],
+        ["Hij", "geev’", "u,", "naar", "uw", "wens,", "t-", "’ont-", "van-", "gen,"],
+        ["Ge-", "luk", "in", "al", "uw", "da-", "den,"],
+        ["Zijn", "gunst", "be-", "stier’", "naar", "uw", "ver-", "lan-", "gen"],
+        ["Al", "wat", "gij", "moogt", "be-", "ra-", "den."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Dan zal ’t gejuich ten hemel dringen,",
+        "Dan zullen wij Gods eer,",
+        "Bij opgestoken vaandels, zingen.",
+        "Uw wens vervull’ de HEER’,",
+        "’k Weet nu, dat Gods gezalfden Koning",
+        "Geen heilgoed zal ontbreken,",
+        "Want God zal, uit Zijn hemelwoning",
+        "Hem sterken op zijn smeken."
+      ],
+      "syllables": [
+        ["Dan", "zal", "’t ge-", "juich", "ten", "he-", "mel", "drin-", "gen,"],
+        ["Dan", "zul-", "len", "wij", "Gods", "eer,"],
+        ["Bij", "op-", "ge-", "sto-", "ken", "vaan-", "dels,", "zin-", "gen."],
+        ["Uw", "wens", "ver-", "vul-", "l’de", "HEER’,"],
+        ["’k Weet", "nu,", "dat", "Gods", "ge-", "zalf-", "den", "Ko-", "ning"],
+        ["Geen", "heil-", "goed", "zal", "ont-", "bre-", "ken,"],
+        ["Want", "God", "zal,", "uit", "Zijn", "he-", "mel-", "wo-", "ning"],
+        ["Hem", "ster-", "ken", "op", "zijn", "sme-", "ken."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Op wagens, paarden, en op helden,",
+        "Zij onze vijand stout;",
+        "Wij zullen d’ eer en grootheid melden",
+        "Van God, die ons behoudt!",
+        "Zij zijn gekromd, terneer gestoten,",
+        "Van moed beroofd en krachten;",
+        "Maar wij, wij hebben ’t heil genoten,",
+        "Waarop ons God deed wachten."
+      ],
+      "syllables": [
+        ["Op", "wa-", "gens,", "paar-", "den,", "en", "op", "hel-", "den,"],
+        ["Zij", "on-", "ze", "vij-", "and", "stout;"],
+        ["Wij", "zul-", "len", "d’eer", "en", "groot-", "heid", "mel-", "den"],
+        ["Van", "God,", "die", "ons", "be-", "houdt!"],
+        ["Zij", "zijn", "ge-", "kromd,", "ter-", "neer", "ge-", "sto-", "ten,"],
+        ["Van", "moed", "be-", "roofd", "en", "krach-", "ten;"],
+        ["Maar", "wij,", "wij", "heb-", "ben", "’t heil", "ge-", "no-", "ten,"],
+        ["Waar-", "op", "ons", "God", "deed", "wach-", "ten."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Behoud, o HEER’, wil bijstand zenden,",
+        "Verlos, bewaar, verschoon.",
+        "Die Koning hoor’, als w’in ellenden",
+        "Aanbidden voor Zijn troon."
+      ],
+      "syllables": [
+        ["Be-", "houd,", "o", "HEER’,", "wil", "bij-", "stand", "zen-", "den,"],
+        ["Ver-", "los,", "be-", "waar,", "ver-", "schoon."],
+        ["Die", "Ko-", "ning", "hoor’,", "als", "w’in", "el-", "len-", "den"],
+        ["Aan-", "bid-", "den", "voor", "Zijn", "troon."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "id": "psalm-021",
+  "number": 21,
+  "title": "Psalm 21",
+  "category": "psalm",
+  "mode": "lydisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "O HEER’, de Koning is verheugd",
+        "Om Uw geducht vermogen;",
+        "Uw heil zweeft hem voor d’ ogen,",
+        "En met wat blijde zielevreugd",
+        "Zal hij, door al Uw daân.",
+        "Verrukt, ten reie gaan!"
+      ],
+      "syllables": [
+        ["O", "HEER’,", "de", "Ko-", "ning", "is", "ver-", "heugd"],
+        ["Om", "Uw", "ge-", "ducht", "ver-", "mo-", "gen;"],
+        ["Uw", "heil", "zweeft", "hem", "voor", "d’o-", "gen,"],
+        ["En", "met", "wat", "blij-", "de", "zie-", "le-", "vreugd"],
+        ["Zal", "hij,", "door", "al", "Uw", "daân."],
+        ["Ver-", "rukt,", "ten", "rei","e", "gaan!"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Wat hij U smeekt, uit ’s harten grond",
+        "En al zijn rein verlangen,",
+        "Hebt Gij hem doen ontvangen.",
+        "Ook hebt Gij d’ uitspraak van zijn mond,",
+        "Al wat hij heeft begeerd;",
+        "Geweigerd, noch geweerd."
+      ],
+      "syllables": [
+        ["Wat", "hij", "U", "smeekt,", "uit", "’s har-", "ten", "grond"],
+        ["En", "al", "zijn", "rein", "ver-", "lan-", "gen,"],
+        ["Hebt", "Gij", "hem", "doen", "ont-", "van-", "gen."],
+        ["Ook", "hebt", "Gij", "d’uit-", "spraak", "van", "zijn", "mond,"],
+        ["Al", "wat", "hij", "heeft", "be-", "geerd;"],
+        ["Ge-", "wei-", "gerd,", "noch", "ge-", "weerd."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gij, die hem gunstig hebt gered,",
+        "Zijt hem met volle stromen",
+        "Van zegen voorgekomen.",
+        "Ook hebt Gij hem op ’t hoofd gezet,",
+        "Hem, die op U betrouwt,",
+        "Een kroon van ’t fijnste goud."
+      ],
+      "syllables": [
+        ["Gij,", "die", "hem", "gun-", "stig", "hebt", "ge-", "red,"],
+        ["Zijt", "hem", "met", "vol-", "le", "stro-", "men"],
+        ["Van", "ze-", "gen", "voor-", "ge-", "ko-", "men."],
+        ["Ook", "hebt", "Gij", "hem", "op", "’t hoofd", "ge-", "zet,"],
+        ["Hem,", "die", "op", "U", "be-", "trouwt,"],
+        ["Een", "kroon", "van", "’t fijnste", "goud.", "-"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Hij heeft, O God, van U begeerd",
+        "Het onvergank’lijk leven;",
+        "Gij hebt het hem gegeven.",
+        "Zo zijn de dagen hem vermeerd,",
+        "Zo leeft de Vorst altoos,",
+        "Zo leeft hij eindeloos."
+      ],
+      "syllables": [
+        ["Hij", "heeft,", "O", "God,", "van", "U", "be-", "geerd"],
+        ["Het", "onvergank-", "’lijk", "le-", "ven;", "-", "-"],
+        ["Gij", "hebt", "het", "hem", "ge-", "ge-", "ven."],
+        ["Zo", "zijn", "de", "da-", "gen", "hem", "ver-", "meerd,"],
+        ["Zo", "leeft", "de", "Vorst", "al-", "toos,"],
+        ["Zo", "leeft", "hij", "ein-", "de-", "loos."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Hoe groot en schitt’rend is zijn eer,",
+        "Door ’t heil, aan hem bewezen!",
+        "Hoe is zijn roem gerezen!",
+        "O alvermogend, Opperheer,",
+        "Wat glans, wat majesteit.",
+        "Hebt Gij dien Vorst bereid!"
+      ],
+      "syllables": [
+        ["Hoe", "groot", "en", "schitt-", "’rend", "is", "zijn", "eer,"],
+        ["Door", "’t heil,", "aan", "hem", "be-", "we-", "zen!"],
+        ["Hoe", "is", "zijn", "roem", "ge-", "re-", "zen!"],
+        ["O", "al-", "ver-", "mo-", "gend,", "Op-", "per-", "heer,"],
+        ["Wat", "glans,", "wat", "ma-", "jes-", "teit."],
+        ["Hebt", "Gij", "dien", "Vorst", "be-", "reid!"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Gewis, Gij zult, all’ eeuwen door",
+        "Hem met Uw gunst verzellen,",
+        "En tot een zegen stellen.",
+        "Ja, Gij geleidt hem op het spoor",
+        "Dervreugde, bij het licht",
+        "Van ’t Godd’ lijk aangezicht."
+      ],
+      "syllables": [
+        ["Ge-", "wis,", "Gij", "zult,", "all’", "eeu-", "wen", "door"],
+        ["Hem", "met", "Uw", "gunst", "ver-", "zel-", "len,"],
+        ["En", "tot", "een", "ze-", "gen", "stel-", "len."],
+        ["Ja,", "Gij", "ge-", "leidt", "hem", "op", "het", "spoor"],
+        ["Der-", "vreug-", "de,", "bij", "het", "licht"],
+        ["Van", "’t Godd’", "lijk", "aan-", "ge-", "zicht."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "De Koning rust op Uwe trouw,",
+        "O eeuwig Opperwezen.",
+        "Uw goedheid, nooit volprezen,",
+        "Duldt niet, dat hij ooit wanklen zou.",
+        "Neen, d’ Allerhoogste zal",
+        "Hem hoeden voor den val."
+      ],
+      "syllables": [
+        ["De", "Ko-", "ning", "rust", "op", "U-", "we", "trouw,"],
+        ["O", "eeu-", "wig", "Op-", "per-", "we-", "zen."],
+        ["Uw", "goed-", "heid,", "nooit", "vol-", "pre-", "zen,"],
+        ["Duldt", "niet,", "dat", "hij", "ooit", "wank-", "len", "zou."],
+        ["Neen,", "d’Al-", "ler-", "hoog-", "ste", "zal"],
+        ["Hem", "hoe-", "den", "voor", "den", "val."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Uw sterke hand zal onverwacht",
+        "Al Uwe haters vinden.",
+        "Uw wraak zal hen verslinden.",
+        "Uw rechterhand zal eens met kracht,",
+        "Vernielen en verslaan",
+        "Hen, die Uw rijk weerstaan."
+      ],
+      "syllables": [
+        ["Uw", "ster-", "ke", "hand", "zal", "on-", "ver-", "wacht"],
+        ["Al", "U-", "we", "ha-", "ters", "vin-", "den."],
+        ["Uw", "wraak", "zal", "hen", "ver-", "slin-", "den."],
+        ["Uw", "rech-", "ter-", "hand", "zal", "eens", "met", "kracht,"],
+        ["Ver-", "nie-", "len", "en", "ver-", "slaan"],
+        ["Hen,", "die", "Uw", "rijk", "weer-", "staan."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Dan doet Uw toornig aangezicht",
+        "Hen, als een oven roken,",
+        "Door ’t heetste vuur ontstoken.",
+        "Dan wordt in ’s HEEREN strafgericht,",
+        "De gloed, die hen verteert,",
+        "Met vlam op vlam vermeerd."
+      ],
+      "syllables": [
+        ["Dan", "doet", "Uw", "toor-", "nig", "aan-", "ge-", "zicht"],
+        ["Hen,", "als", "een", "o-", "ven", "ro-", "ken,"],
+        ["Door", "’t heet-", "ste", "vuur", "ont-", "sto-", "ken."],
+        ["Dan", "wordt", "in", "’s HEE-", "REN", "straf-", "ge-", "richt,"],
+        ["De", "gloed,", "die", "hen", "ver-", "teert,"],
+        ["Met", "vlam", "op", "vlam", "ver-", "meerd."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "De vruchten van hun huw’lijksbed",
+        "Zult Gij van d’ aard verderven,",
+        "En doen door rampen sterven.",
+        "Totdat men, waar men zoek’ of lett’,",
+        "Geen nakroost meer bespeurt,",
+        "Dat hunnen dood betreurt."
+      ],
+      "syllables": [
+        ["De", "vruch-", "ten", "van", "hun", "huw-", "’lijks-", "bed"],
+        ["Zult", "Gij", "van", "d’aard", "ver-", "der-", "ven,"],
+        ["En", "doen", "door", "ram-", "pen", "ster-", "ven."],
+        ["Tot-", "dat", "men,", "waar", "men", "zoek’", "of", "lett’,"],
+        ["Geen", "na-", "kroost", "meer", "be-", "speurt,"],
+        ["Dat", "hun-", "nen", "dood", "be-", "treurt."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Want tegen U heeft dit geslacht",
+        "Een godd’ loos kwaad besloten",
+        "En met zijn bondgenoten,",
+        "Een schandelijke daad bedacht,",
+        "Doch al dat listig woên,",
+        "Zal leed noch hinder doen."
+      ],
+      "syllables": [
+        ["Want", "te-", "gen", "U", "heeft", "dit", "ge-", "slacht"],
+        ["Een", "godd’", "loos", "kwaad", "be-", "slo-", "ten"],
+        ["En", "met", "zijn", "bond-", "ge-", "no-", "ten,"],
+        ["Een", "schan-", "de-", "lij-", "ke", "daad", "be-", "dacht,"],
+        ["Doch", "al", "dat", "lis-", "tig", "woên,"],
+        ["Zal", "leed", "noch", "hin-", "der", "doen."]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "Want Uw alziend en toornig oog",
+        "Zal hen ten doelwit zetten.",
+        "Gij zult Uw pijlen wetten,",
+        "En doen ze, van Uw stalen boog,",
+        "Tot hun verderf gericht;",
+        "Hun vliegen in ’t gezicht."
+      ],
+      "syllables": [
+        ["Want", "Uw", "al-", "ziend", "en", "toor-", "nig", "oog"],
+        ["Zal", "hen", "ten", "doel-", "wit", "zet-", "ten."],
+        ["Gij", "zult", "Uw", "pij-", "len", "wet-", "ten,"],
+        ["En", "doen", "ze,", "van", "Uw", "sta-", "len", "boog,"],
+        ["Tot", "hun", "ver-", "derf", "ge-", "richt;"],
+        ["Hun", "vlie-", "gen", "in", "’t ge-", "zicht."]
+      ]
+    },
+    {
+      "number": 13,
+      "lines": [
+        "Verhoog, o HEER’, Uw naam en kracht;",
+        "Zo zal ons vrolijk zingen",
+        "Door lucht en wolken dringen.",
+        "Zo wordt Uw heerschappij en macht",
+        "Door ons, nog eeuwen lang,",
+        "Geloofd met psalmgezang."
+      ],
+      "syllables": [
+        ["Ver-", "hoog,", "o", "HEER’,", "Uw", "naam", "en", "kracht;"],
+        ["Zo", "zal", "ons", "vro-", "lijk", "zin-", "gen"],
+        ["Door", "lucht", "en", "wol-", "ken", "drin-", "gen."],
+        ["Zo", "wordt", "Uw", "heer-", "schap-", "pij", "en", "macht"],
+        ["Door", "ons,", "nog", "eeu-", "wen", "lang,"],
+        ["Ge-", "loofd", "met", "psalm-", "ge-", "zang."]
+      ]
+    }
+  ]
+}
