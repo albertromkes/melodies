@@ -1,0 +1,249 @@
+{
+  "id": "psalm-036",
+  "number": 36,
+  "title": "Psalm 36",
+  "category": "psalm",
+  "mode": "lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Het trots gedrag desbozen doet",
+        "Mij spreken in ’t beklemd gemoed:",
+        "„Gods vrees is uit zijn ogen,”",
+        "Wijl hij zolang zichzelven vleit,",
+        "Tot God zijn ongerechtigheid",
+        "Niet langer kan gedogen.",
+        "Bedrog en onrecht spreekt zijn mond:",
+        "’t Verstand laat na, den waren grond",
+        "Van ’t weldoen op te merken;",
+        "Desnachts is ’t kwaad zijn overleg.",
+        "Hij stelt zich op een bozen weg,",
+        "En schuwt geen snode werken."
+      ],
+      "syllables": [
+        ["Het", "trots", "ge-", "drag", "des-", "bo-", "zen", "doet"],
+        ["Mij", "spre-", "ken", "in", "’t be-", "klemd", "ge-", "moed:"],
+        ["„Gods", "vrees", "is", "uit", "zijn", "o-", "gen,”"],
+        ["Wijl", "hij", "zo-", "lang", "zich-", "zel-", "ven", "vleit,"],
+        ["Tot", "God", "zijn", "on-", "ge-", "rech-", "tig-", "heid"],
+        ["Niet", "lan-", "ger", "kan", "ge-", "do-", "gen."],
+        ["Be-", "drog", "en", "on-", "recht", "spreekt", "zijn", "mond:"],
+        ["’t Ver-", "stand", "laat", "na,", "den", "wa-", "ren", "grond"],
+        ["Van", "’t wel-", "doen", "op", "te", "mer-", "ken;"],
+        ["Des-", "nachts", "is", "’t kwaad", "zijn", "o-", "ver-", "leg."],
+        ["Hij", "stelt", "zich", "op", "een", "bo-", "zen", "weg,"],
+        ["En", "schuwt", "geen", "sno-", "de", "wer-", "ken."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uw goedheid, HEER’, is hemelhoog,",
+        "Uw waarheid tot den wolkenboog,",
+        "Uw recht is als Gods bergen,",
+        "Uw oordeel grond’ loos; Gij behoedt,",
+        "En zegent mens en beest, en doet",
+        "Uw hulp nooit vruchtloos vergen.",
+        "Hoe groot is Uw goedgunstigheid,",
+        "Hoe zijn Uw vleug’len uitgebreid!",
+        "Hier wordt de rust geschonken;",
+        "Hier ’t vette van Uw huis gesmaakt.",
+        "Een volle beek van wellust maakt,",
+        "Hier elk in liefde dronken."
+      ],
+      "syllables": [
+        ["Uw", "goed-", "heid,", "HEER’,", "is", "he-", "mel-", "hoog,"],
+        ["Uw", "waar-", "heid", "tot", "den", "wol-", "ken-", "boog,"],
+        ["Uw", "recht", "is", "als", "Gods", "ber-", "gen,"],
+        ["Uw", "oor-", "deel", "grond’", "loos;", "Gij", "be-", "hoedt,"],
+        ["En", "ze-", "gent", "mens", "en", "beest,", "en", "doet"],
+        ["Uw", "hulp", "nooit", "vrucht-", "loos", "ver-", "gen."],
+        ["Hoe", "groot", "is", "Uw", "goed-", "gun-", "stig-", "heid,"],
+        ["Hoe", "zijn", "Uw", "vleug-", "’len", "uit-", "ge-", "breid!"],
+        ["Hier", "wordt", "de", "rust", "ge-", "schon-", "ken;"],
+        ["Hier", "’t vet-", "te", "van", "Uw", "huis", "ge-", "smaakt."],
+        ["Een", "vol-", "le", "beek", "van", "wel-", "lust", "maakt,"],
+        ["Hier", "elk", "in", "lief-", "de", "dron-", "ken."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Bij U, HEER’, is de levensbron;",
+        "Uw licht doet, klaarder dan de zon,",
+        "Ons ’t heug’lijk licht aanschouwen.",
+        "Wees, die U kennen, mild en goed,",
+        "En toon d’ oprechten van gemoed",
+        "Uw recht, waar z’op vertrouwen.",
+        "Dat mij nooit trotse voet vertrapp’,",
+        "Noch boze hand in ballingschap",
+        "Ellendig om doe zwerven.",
+        "Daar zijn de werkers van het kwaad",
+        "Gevallen in een jammerstaat,",
+        "Waarin zij hulp’loos sterven."
+      ],
+      "syllables": [
+        ["Bij", "U,", "HEER’,", "is", "de", "le-", "vens-", "bron;"],
+        ["Uw", "licht", "doet,", "klaar-", "der", "dan", "de", "zon,"],
+        ["Ons", "’t heug-", "’lijk", "licht", "aan-", "schou-", "wen."],
+        ["Wees,", "die", "U", "ken-", "nen,", "mild", "en", "goed,"],
+        ["En", "toon", "d’op-", "rech-", "ten", "van", "ge-", "moed"],
+        ["Uw", "recht,", "waar", "z’op", "ver-", "trou-", "wen."],
+        ["Dat", "mij", "nooit", "trotse", "voet", "ver-", "trap-", "p’,"],
+        ["Noch", "bo-", "ze", "hand", "in", "bal-", "ling-", "schap"],
+        ["El-", "len-", "dig", "om", "doe", "zwer-", "ven."],
+        ["Daar", "zijn", "de", "wer-", "kers", "van", "het", "kwaad"],
+        ["Ge-", "val-", "len", "in", "een", "jam-", "mer-", "staat,"],
+        ["Waar-", "in", "zij", "hulp-", "’loos", "ster-", "ven."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "psalm-039",
+  "number": 39,
+  "title": "Psalm 39",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Ik zei: „Nu zal ik letten op mijn paân,",
+        "Om met mijn tong niet t’overtreên.",
+        "Ik zal geen woord uit mijnen mond doen gaan,",
+        "Maar breid’ len dien in tegenheên;",
+        "Terwijl hij, die mij boos’lijk tegenstreeft,",
+        "Nog daag’lijks mij voor ogen zweeft.”"
+      ],
+      "syllables": [
+        ["Ik", "zei:", "„Nu", "zal", "ik", "let-", "ten", "op", "mijn", "paân,"],
+        ["Om", "met", "mijn", "tong", "niet", "t-", "’over-", "treên."],
+        ["Ik", "zal", "geen", "woord", "uit", "mij-", "nen", "mond", "doen", "gaan,"],
+        ["Maar", "breid’", "len", "dien", "in", "te-", "gen-", "heên;"],
+        ["Ter-", "wijl", "hij,", "die", "mij", "boos-", "’lijk", "te-", "gen-", "streeft,"],
+        ["Nog", "daag-", "’lijks", "mij", "voor", "o-", "gen", "zweeft.”"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Ik was verstomd, ik sprak van ’t goede niet;",
+        "Maar dit verzwaarde mijne smart.",
+        "Mijn geest werd heet in ’t binnenst’ door verdriet;",
+        "Een vuur ontstak mijn peinzend hart,",
+        "Dat, ondanks mijn besluiten, in mijn leed,",
+        "Mijn tong op ’t laatst dus spreken deed:"
+      ],
+      "syllables": [
+        ["Ik", "was", "ver-", "stomd,", "ik", "sprak", "van", "’t goe-", "de", "niet;"],
+        ["Maar", "dit", "ver-", "zwaar-", "de", "mij-", "ne", "smart."],
+        ["Mijn", "geest", "werd", "heet", "in", "’t bin-", "nenst’", "door", "ver-", "driet;"],
+        ["Een", "vuur", "ont-", "stak", "mijn", "pein-", "zend", "hart,"],
+        ["Dat,", "on-", "danks", "mijn", "be-", "slui-", "ten,", "in", "mijn", "leed,"],
+        ["Mijn", "tong", "op", "’t laatst", "dus", "spre-", "ken", "deed:"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "„O HEER’, ontdek mijn levenseind aan mij,",
+        "Mijn dagen zijn bij U geteld.",
+        "Ai, leer mij hoe vergankelijk ik zij;",
+        "Een handbreed is mijn tijd gesteld,",
+        "Ja, die is niets; want, schoon de mens zich vleit,",
+        "De sterkst, is enkel ijdelheid.”"
+      ],
+      "syllables": [
+        ["„O", "HEER’,", "ont-", "dek", "mijn", "le-", "vens-", "eind", "aan", "mij,"],
+        ["Mijn", "da-", "gen", "zijn", "bij", "U", "ge-", "teld."],
+        ["Ai,", "leer", "mij", "hoe", "ver-", "gan-", "ke-", "lijk", "ik", "zij;"],
+        ["Een", "hand-", "breed", "is", "mijn", "tijd", "ge-", "steld,"],
+        ["Ja,", "die", "is", "niets;", "want,", "schoon", "de", "mens", "zich", "vleit,"],
+        ["De", "sterkst,", "is", "en-", "kel", "ij-", "del-", "heid.”"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gaat niet de mens, als in een beeld, daarheen,",
+        "Gelijk een schaduw, die verdwijnt?",
+        "Men woelt vergeefs; men brengt met zorg bijeen,",
+        "Al wat op aard’ begeerlijk schijnt;",
+        "En niemand is verzekerd, wie eens al",
+        "Die goed’ ren naar zich nemen zal.”"
+      ],
+      "syllables": [
+        ["Gaat", "niet", "de", "mens,", "als", "in", "een", "beeld,", "daar-", "heen,"],
+        ["Ge-", "lijk", "een", "scha-", "duw,", "die", "ver-", "dwijnt?"],
+        ["Men", "woelt", "ver-", "geefs;", "men", "brengt", "met", "zorg", "bij-", "een,"],
+        ["Al", "wat", "op", "aard’", "be-", "geer-", "lijk", "schijnt;"],
+        ["En", "nie-", "mand", "is", "ver-", "ze-", "kerd,", "wie", "eens", "al"],
+        ["Die", "goe-", "d’ren", "naar", "zich", "ne-", "men", "zal.”"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Nu dan, o HEER’, wat is ’t, dat ik verwacht?",
+        "Mijn hope staat op U alleen.",
+        "Verlos mij, door Uw onweerstaanb’re kracht,",
+        "Van al mijn ongerechtigheên,",
+        "En stel mij niet, getrouwe Toeverlaat,",
+        "Den dwazen sterv’ling tot een smaad."
+      ],
+      "syllables": [
+        ["Nu", "dan,", "o", "HEER’,", "wat", "is", "’t,", "dat", "ik", "verwacht?"],
+        ["Mijn", "ho-", "pe", "staat", "op", "U", "al-", "leen."],
+        ["Ver-", "los", "mij,", "door", "Uw", "on-", "weer-", "staanb-", "’re", "kracht,"],
+        ["Van", "al", "mijn", "on-", "ge-", "rech-", "tig-", "heên,"],
+        ["En", "stel", "mij", "niet,", "ge-", "trou-", "we", "Toe-", "ver-", "laat,"],
+        ["Den", "dwa-", "zen", "sterv-", "’ling", "tot", "een", "smaad."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Ik ben verstomd, en zal mijn mond voortaan",
+        "Niet opendoen; wijl Gij het deedt.",
+        "Neem Uwe plaag van mij, houd op met slaan,",
+        "En maak een einde aan mijn leed!",
+        "Mijn kracht bezwijkt, omdat mij Uwe hand",
+        "Zo fel bestrijdt van allen kant."
+      ],
+      "syllables": [
+        ["Ik", "ben", "ver-", "stomd,", "en", "zal", "mijn", "mond", "voort-", "aan"],
+        ["Niet", "o-","pen-", "doen;", "wijl", "Gij", "het", "deedt."],
+        ["Neem", "U-", "we", "plaag", "van", "mij,", "houd", "op", "met", "slaan,"],
+        ["En", "maak", "een", "ein-", "de", "aan", "mijn", "leed!"],
+        ["Mijn", "kracht", "be-", "zwijkt,", "om-", "dat", "mij", "U-", "we", "hand"],
+        ["Zo", "fel", "be-", "strijdt", "van", "al-", "len", "kant."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Wanneer Uw straf op enen sterv’ling stort,",
+        "Omdat hij Uwe wet vergeet,",
+        "Verdwijnt zijn glans, zijn kracht vergaat in ’t kort,",
+        "Gelijk de schoonheid van een kleed,",
+        "Waarover zich alom de mot verspreidt:",
+        "Gewis, de mens is ijdelheid."
+      ],
+      "syllables": [
+        ["Wan-", "neer", "Uw", "straf", "op", "e-", "nen", "sterv-", "’ling", "stort,"],
+        ["Om-", "dat", "hij", "U-", "we", "wet", "ver-", "geet,"],
+        ["Ver-", "dwijnt", "zijn", "glans,", "zijn", "kracht", "ver-", "gaat", "in", "’t kort,"],
+        ["Ge-", "lijk", "de", "schoon-", "heid", "van", "een", "kleed,"],
+        ["Waar-", "o-", "ver", "zich", "al-", "om", "de", "mot", "ver-", "spreidt:"],
+        ["Ge-", "wis,", "de", "mens", "is", "ij-", "del-", "heid."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Hoor mijn gebed, mijn bang geroep, o HEER’,",
+        "Daar ’k schreiend U mijn leed vertoon;",
+        "Ik, die bij U als vreemdeling verkeer,",
+        "En hier, gelijk mijn vaders woon,",
+        "Ai, wend Uw hand en plagen van mij af;",
+        "Verkwik mij, eer ik daal in ’t graf."
+      ],
+      "syllables": [
+        ["Hoor", "mijn", "ge-", "bed,", "mijn", "bang", "ge-", "roep,", "o", "HEER’,"],
+        ["Daar", "’k schrei-", "end", "U", "mijn", "leed", "ver-", "toon;"],
+        ["Ik,", "die", "bij", "U", "als", "vreem-", "de-", "ling", "ver-", "keer,"],
+        ["En", "hier,", "ge-", "lijk", "mijn", "va-", "ders", "woon,"],
+        ["Ai,", "wend", "Uw", "hand", "en", "pla-", "gen", "van", "mij", "af;"],
+        ["Ver-", "kwik", "mij,", "eer", "ik", "daal", "in", "’t graf."]
+      ]
+    }
+  ]
+}
