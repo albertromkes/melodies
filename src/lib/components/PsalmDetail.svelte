@@ -189,14 +189,22 @@
     flex-direction: column;
     gap: 0.5rem;
     padding: 0.5rem;
+    padding-top: 0;
     max-width: 800px;
     margin: 0 auto;
   }
 
   .psalm-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    padding: 0.5rem;
+    margin: -0.5rem -0.5rem 0 -0.5rem;
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--border-color);
   }
 
   .back-btn {
@@ -300,10 +308,13 @@
     .psalm-detail {
       gap: 0.35rem;
       padding: 0.35rem;
+      padding-top: 0;
     }
 
     .psalm-header {
       gap: 0.35rem;
+      padding: 0.35rem;
+      margin: 0 -0.35rem;
     }
 
     .back-btn {
