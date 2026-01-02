@@ -1,0 +1,148 @@
+/* CSS Variables for theming */
+:root {
+  /* Light theme (default fallback) */
+  --primary-color: #4a6da7;
+  --bg-color: #ffffff;
+  --text-color: #1a1a2e;
+  --muted-color: #6b7280;
+  --border-color: #e5e7eb;
+  --card-bg: #f9fafb;
+  --card-hover-bg: #f3f4f6;
+  --input-bg: #ffffff;
+  --tag-bg: #e5e7eb;
+  --staff-bg: #ffffff;
+
+  /* Base styles */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --primary-color: #6b8cce;
+  --bg-color: #1a1a2e;
+  --text-color: #e5e7eb;
+  --muted-color: #9ca3af;
+  --border-color: #374151;
+  --card-bg: #242442;
+  --card-hover-bg: #2d2d4a;
+  --input-bg: #1f1f3a;
+  --tag-bg: #374151;
+  --staff-bg: #f9fafb;
+}
+
+/* Light theme explicit */
+[data-theme="light"] {
+  --primary-color: #4a6da7;
+  --bg-color: #ffffff;
+  --text-color: #1a1a2e;
+  --muted-color: #6b7280;
+  --border-color: #e5e7eb;
+  --card-bg: #f9fafb;
+  --card-hover-bg: #f3f4f6;
+  --input-bg: #ffffff;
+  --tag-bg: #e5e7eb;
+  --staff-bg: #ffffff;
+}
+
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#app {
+  width: 100%;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons reset */
+button {
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+/* Input reset */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted-color);
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 640px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* Utility classes */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

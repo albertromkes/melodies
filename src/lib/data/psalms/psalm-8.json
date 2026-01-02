@@ -1,0 +1,210 @@
+{
+  "id": "psalm-008",
+  "number": 8,
+  "title": "Psalm 8",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["e/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q", "rest": true },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "HEER’, onze Heer, grootmachtig Opperwezen;",
+        "Hoe wordt Uw Naam op aard’ alom geprezen!",
+        "Gij, die den glans van Uwe majesteit,",
+        "Hebt boven lucht en heemlen uitgebreid."
+      ],
+      "syllables": [
+        ["HEER-", "’,", "onze", "Heer,", "groot-", "mach-", "tig", "Op-", "per-", "we-", "zen;"],
+        ["Hoe", "wordt", "Uw", "Naam", "op", "aar-", "d’alom", "ge-", "pre-", "zen!", "-"],
+        ["Gij,", "die", "den", "glans", "van", "Uwe", "ma-", "jes-", "teit,", "-"],
+        ["Hebt", "bo-", "ven", "lucht", "en", "heem-", "len", "uit-", "ge-", "breid."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uw mogendheid heeft sterkte willen gronden,",
+        "Uit kind’ ren, ja, uit zuigelingen monden;",
+        "Zo breekt Uw hand desvijands boos geweld,",
+        "Daar Gij zijn haat en wraakzucht, palen stelt."
+      ],
+      "syllables": [
+        ["Uw", "mo-", "gend-", "heid", "heeft", "sterk-", "te", "wil-", "len", "gron-", "den,"],
+        ["Uit", "kind’", "ren,", "ja,", "uit", "zui-", "ge-", "lin-", "gen", "mon-", "den;"],
+        ["Zo", "breekt", "Uw", "hand", "des-", "vij-", "ands", "boos", "ge-", "weld,"],
+        ["Daar", "Gij", "zijn", "haat", "en", "wraak-", "zucht,", "pa-", "len", "stelt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Sla ik naar ’t ruim derheld’ re hemelbogen,",
+        "Dat heerlijk werk van Uwe ving’ren, d’ ogen;",
+        "Zie ik bedaard den glans derzilv’ren maan,",
+        "En ’t sterrenheir, door U geschapen, aan."
+      ],
+      "syllables": [
+        ["Sla", "ik", "naar", "’t ruim", "der-", "held’", "re", "he-", "mel-", "bo-", "gen,"],
+        ["Dat", "heer-", "lijk", "werk", "van", "Uwe", "ving-", "’ren,", "d’ogen;", "-", "-"],
+        ["Zie", "ik", "be-", "daard", "den", "glans", "derzilv-", "’ren", "maan,", "-"],
+        ["En", "’t ster-", "ren-", "heir,", "door", "U", "ge-", "scha-", "pen,", "aan."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Mijn God, wat is de mens dan op deez’ aarde!",
+        "De broze mens, hoe klimt hij tot die waarde,",
+        "Dat Gij aan hem in zoveel gunst gedenkt;",
+        "En ’s mensen zoon Uw teerste liefde schenkt!"
+      ],
+      "syllables": [
+        ["Mijn", "God,", "wat", "is", "de", "mens", "dan", "op", "deez’", "aar-", "de!"],
+        ["De", "bro-", "ze", "mens,", "hoe", "klimt", "hij", "tot", "die", "waar-", "de,"],
+        ["Dat", "Gij", "aan", "hem", "in", "zo-", "veel", "gunst", "ge-", "denkt;"],
+        ["En", "’s -", "men-", "sen", "zoon", "Uw", "teerste", "lief-", "de", "schenkt!"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Gij deedt hem wel, een weinig tijds, beneden",
+        "Het eng’lenheir een rang en plaats bekleden.",
+        "Maar hebt hem ook Uw rijkste gunst betoond,",
+        "En hem met eer en heerlijkheid gekroond."
+      ],
+      "syllables": [
+        ["Gij", "deedt", "hem", "wel,", "een", "wei-", "nig", "tijds,", "be-", "ne-", "den"],
+        ["Het", "eng-", "’len-", "heir", "een", "rang", "en", "plaats", "be-", "kle-", "den."],
+        ["Maar", "hebt", "hem", "ook", "Uw", "rijk-", "ste", "gunst", "be-", "toond,"],
+        ["En", "hem", "met", "eer", "en", "heer-", "lijk-", "heid", "ge-", "kroond."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Gij geeft hem, wijd en zijd in alle landen,",
+        "De heerschappij derwerken Uwer handen.",
+        "Ja, zet èn aard èn zee voor ’s mensen Zoon,",
+        "Door Uw gezag, tervoetbank van zijn troon."
+      ],
+      "syllables": [
+        ["Gij", "geeft", "hem,", "wijd", "en", "zijd", "in", "al-", "le", "lan-", "den,"],
+        ["De", "heer-", "schap-", "pij", "der-", "wer-", "ken", "Uwer", "han-", "den.", "-"],
+        ["Ja,", "zet", "èn", "aard", "èn", "zee", "voor", "’s -", "men-", "sen", "Zoon,"],
+        ["Door", "Uw", "ge-", "zag,", "ter-", "voet-", "bank", "van", "zijn", "troon."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Waar schapen zijn, of ossen in de weiden,",
+        "Waar enig vee op bergen zij of heiden,",
+        "Waar ’t wild gediert’ ook zwerv’ in woud en veld,",
+        "Gij hebt het al in zijne macht gesteld."
+      ],
+      "syllables": [
+        ["Waar", "scha-", "pen", "zijn,", "of", "os-", "sen", "in", "de", "wei-", "den,"],
+        ["Waar", "enig", "vee", "op", "ber-", "gen", "zij", "of", "hei-", "den,", "-"],
+        ["Waar", "’t wild", "ge-", "diert’", "ook", "zwerv’", "in", "woud", "en", "veld,"],
+        ["Gij", "hebt", "het", "al", "in", "zij-", "ne", "macht", "ge-", "steld."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Wat voog’len door den ruimen luchtkring zweven,",
+        "Wat vissen erin stroom en beken leven;",
+        "En wat de paân doorwandelt van de zee;",
+        "Zijn hoog bevel deelt hij aan allen mee."
+      ],
+      "syllables": [
+        ["Wat", "voog-", "’len", "door", "den", "rui-", "men", "lucht-", "kring", "zwe-", "ven,"],
+        ["Wat", "vis-", "sen", "er-", "in", "stroom", "en", "be-", "ken", "le-", "ven;"],
+        ["En", "wat", "de", "paân", "door-", "wan-", "delt", "van", "de", "zee;"],
+        ["Zijn", "hoog", "be-", "vel", "deelt", "hij", "aan", "al-", "len", "mee."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "HEER’, onze Heer, grootmachtig Opperwezen,",
+        "Hoe billijk wordt Uw grote Naam geprezen!",
+        "Hoe heerlijk rolt, uit aller vromen mond,",
+        "Die grote naam door ’t ganse wereldrond!"
+      ],
+      "syllables": [
+        ["HEER-", "’,", "onze", "Heer,", "groot-", "mach-", "tig", "Op-", "per-", "we-", "zen,"],
+        ["Hoe", "bil-", "lijk", "wordt", "Uw", "gro-", "te", "Naam", "ge-", "pre-", "zen!"],
+        ["Hoe", "heer-", "lijk", "rolt,", "uit", "al-", "ler", "vro-", "men", "mond,"],
+        ["Die", "gro-", "te", "naam", "door", "’t gan-", "se", "we-", "reld-", "rond!"]
+      ]
+    }
+  ]
+}

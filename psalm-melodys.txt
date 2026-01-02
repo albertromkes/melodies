@@ -1,0 +1,2084 @@
+X: 1
+T: Psalm 1
+G: lydisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: D ionian
+A2 B2 A2 F2 A2 G F G2 E2 D2
+z D F2 G2 A2 A2 B A F G A2 z2
+A2 A G F2 F2 F E F A G2 F2 z2
+F2 A G F2 B2 B B A G F2 E2
+z F A2 A2 B2 d2 c B A2 B2 A2 z2
+A2 B2 A2 F2 A2 G F G2 E2 D4 |
+
+X: 2
+T: Psalm 2
+G: dorisch
+C: Straatsburg 1539 / Lyon 1548
+M: C|
+K: D dorian
+D2 F E D C F A G F E2 z2
+F2 E D A G F E D F E2 D2 z2
+D2 F E D C F A G F E2 z2
+D2 F G A2 c2 B A G F D2 E2 D2 z2
+d2 d d c2 A2 c B A G A2 D2 z2
+D2 F G A2 B2 c d c B A2 z2
+d2 d d c2 A2 c B A G A2 D2 z2
+D2 F G A2 G2 G F G2 E2 D4 |
+
+X: 3
+T: Psalm 3
+G: lydisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: D ionian
+D2 A2 A2 B c d2 z2
+d2 c B A G A2 z2
+F2 F D G F E2 D2 z2
+A2 A B A G F2 z2
+F2 A A G F E2 z2
+F2 G F D F E2 D2 z2
+D2 D E F G A2 z2
+A2 B c d B A2 z2
+A2 A A B A G2 F2 z2
+D2 F A A ^G A2 z2
+A2 B d d c d2 z2
+d2 B A G F E2 D4 |
+
+X: 4
+T: Psalm 4
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: F aeolian
+A2 A A G E F G A2 G2 z2
+A2 B2 F2 A G A2 G2 F2 z2
+c2 c c F2 c2 B G A2 G2 z2
+E2 F G A c B A B2 A2 z2
+A2 B2 A2 F G A2 G2 F2 z2
+c2 c c F2 c2 B G A2 G2 z2
+A2 c c B G B2 A2 G2 z2
+c2 c c B E F G A2 G2 z2
+A2 A A F F G A B2 A2 z2
+c2 B A G F G2 G2 F4 |
+
+X: 5
+T: Psalm 5
+G: dorisch
+C: Straatsburg/Genève 1542
+M: C|
+K: D dorian
+D2 A B c2 c2 d c B2 A2 z2
+d2 d d c B A2 F2 E2 z2
+A2 A A G A c2 B2 A2 z2
+F2 F G A2 A2 _B A G2 F2 z2
+A2 G F E2 D4 |
+
+X: 6
+T: Psalm 6
+G: dorisch
+C: Straatsburg/Genève 1542
+M: C|
+K: E aeolian
+E2 E E D2 D2 E-G2-F G2 z2
+B2 B d c B A2 G2 z2
+D2 E G F E B2 z2
+d2 d c B A G2 E2 z2
+A2 A G F E G2 D2 z2
+E2 B B A2 F2 E4 |
+
+X: 7
+T: Psalm 7
+G: hypo-dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: G dorian
+G2 G A B G c B A2 G2 z2
+G2 G F G D F F E2 D2 z2
+D2 F F G A B B A2 z2
+F2 G B A G G ^F G2 z2
+G2 B B A d c B c2 B2 z2
+d2 c B A F G F E2 D2 z2
+G2 G F E D F2 G2 A2 z2
+D2 F E D G G ^F G4 |
+
+X: 8
+T: Psalm 8
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: D dorian
+D2 F2 G2 A2 d2 c B A c B2 A2 z2
+d2 d d c2 e2 d A _B A G2 F2 z2
+F2 E E D2 A2 c c G2 _B2 A2
+z A c2 d2 A2 c2 A G F2 E2 D4 |
+
+X: 9
+T: Psalm 9
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1547
+M: C|
+K: D dorian
+D2 D D A2 c2 B B A2 z2
+c2 B2 A2 G E F2 G2 A2 z2
+A2 c c d2 A2 c c B2 A2
+z E F2 A2 G E F G E2 D4 |
+
+X: 10
+T: Psalm 10
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: D dorian
+A2 _B2 G2 F2 F2 E D F2 G2 A2 z2
+A2 A B c B A G F2 E2 D2 z2
+A2 _B2 G2 F2 F2 E D F2 G2 A2 z2
+A2 A B c B A G F2 E2 D2 z2
+d2 c B A G A B c2 B2 A2 z2
+c2 B A G2 E2 F G A G F2 E2 z2
+A2 c c d2 d2 c B A G F2-E2 D4 |
+
+X: 11
+T: Psalm 11
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: D dorian
+A2 c2 B2 A A B c d c B2 A2 z2
+d2 c2 d2 A c B A A ^G A2 z2
+A2 A G F F _B A G F E2 D2 z2
+F2 F G A2 c2 B A B c d2 z2
+A2 B d c B A A G F G2 F2 z2
+A2 G F E2 E2 D C F2 F2 E2 z2
+A2 G A D A c A G F E2 D4 |
+
+X: 12
+T: Psalm 12
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: D dorian
+A2 F G A2 c2 A F G F E2 D2 z2
+A2 A G A2 d2 A d c2 B2 A2 z2
+D2 F F E2 D2 A A G E F2 E2 z2
+A2 c A F2 G2 A D F2 E2 D4 |
+
+X: 13
+T: Psalm 13
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1547
+M: C|
+K: D dorian
+D2 D D F F G G A2 z2
+A2 B c A d2 c B2 A2 z2
+A2 G F E F G A G2 F2 z2
+F2 G G A2 c2 c B A2-F2 E2 z2
+A2 G E G2 F D E2 D4 |
+
+X: 14
+T: Psalm 14
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: D dorian
+d2 d d G2 A2 c d B B A2 z2
+c2 c B A2 G2 F A G F E2 D2 z2
+F2 A A D E F G A c B2 A2 z2
+A2 A G F2 A2 _B A G G F2 z2
+G2 F E D4 |
+
+X: 15
+T: Psalm 15
+G: mixolydisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: F mixo-lydian
+F2 F F G2 B2 A A G2 z2
+G2 A B c2 G2 B B A2 G2 z2
+G2 G G F2 F2 G A B2 z2
+d2 c B A2 G2 B B A2 z2
+c2 B G A2 G2 A B G2 F4 |
+
+X: 16
+T: Psalm 16
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: B aeolian
+d2 c2 B2 A F A A G G F2 z2
+F2 E D A2 A2 B B c A d2 c2 z2
+d2 d d A2 B2 A G2 F2 E F2 z2
+D2 E2 G2 F B B A B d c2 B2 z2
+F2 G E D2 A2 G F G A B2 A2 z2
+F2 A2 B2 F A B d c B2 ^A B4 |
+
+X: 17
+T: Psalm 17
+G: hypo-frygisch
+C: Bourgois 1551
+M: C|
+K: F phrygian
+G2 F2 A2 B A G E F2 z2
+D2 A A B2 B2 d d c2 B2 z2
+F2 B B A2 d2 d c B2 A2 z2
+F2 E D E2 F2 G G F2 z2
+A2 B2 d2 B G A A G2 F2 z2
+F2 E D G G F2 E2 D2 z2
+D2 E G F D E2 E2 F2 z2
+A2 B2 A2 G E F A G2 F4 |
+
+X: 18
+T: Psalm 18
+G: hypo-dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G aeolian
+G2 B2 B2 A A B c d c B2 A2 z2
+F2 G B A2 c2 B B A G A2 G2 z2
+G2 B B A2 G2 F G F E D2 z2
+D2 F F G2 B2 A G G ^F G2 z2
+d2 c B A2 F2 G A B d c2 B2 z2
+B2 A G c2 d2 c B A G A2 G2 z2
+B2 A G F2 G2 F G F E D2 z2
+F2 G A B2 c2 B B A A G4 |
+
+X: 19
+T: Psalm 19
+G: mixolydisch
+C: Straatsburg 1539 / Lyon 1548
+M: C|
+K: D mixo-lydian
+D2 A A B2 A2 G2 z2
+G2 A B c2 B2 A2 z2
+E2 G G F2 E2 D2 z2
+D2 A A B2 A2 G2 z2
+G2 A B c2 B2 A2 z2
+E2 G G F2 E2 D2 z2
+d2 d d c2 B2 A2 z2
+G2 A B c2 B2 A2 z2
+B2 A G F G E2 D2 z2
+d2 G A c2 B2 A2 z2
+G2 F E F2 G2 A2 z2
+A2 B A G F E2 D4 |
+
+X: 20
+T: Psalm 20
+G: dorisch
+C: Bourgois 1551
+M: C|
+K: E dorian
+B2 B A B d c B2 ^A B
+G G G F E D2 z2
+G2 A B =c B A G F2 E
+G F E E ^D E2 z2
+E2 B B A A B d c2 B2 z2
+d2 c B A G A2 G2 z2
+G2 E F G A B A G2 F2 z2
+G2 A B A G F2 E4 |
+
+X: 21
+T: Psalm 21
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+A2 A G F2 B2 A G F2 z2
+D2 F G A A B2 A2 z2
+A2 F F D F E2 D2 z2
+A2 B B c2 A2 B c d2 z2
+A2 B B A2 G2 F2 z2
+D2 E G F2 E2 D4 |
+
+X: 22
+T: Psalm 22
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1548
+M: C|
+K: E aeolian
+G2 E2 A2 G G c c B2 A2 G2 z2
+D2 G A B2 B2 A G E2 E2 F2 z2
+G2 A B E B c B A2 A2 G2 z2
+B2 A G F2 E2 z2
+B2 B B A2 D2 G A B c B2 A2 z2
+B2 B B E2 F2 G A B A G2 F2 z2
+D2 E F G G A B c B A2 G2 z2
+B2 A2 F2 E4 |
+
+X: 23
+T: Psalm 23
+G: hypo-dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G dorian
+G2 G G D2 D2 F G A G F2 G2 z2
+B2 A2 G2 F2 D2 F G A G F2 G2 z2
+d2 d d G2 c2 c B A G F2 D
+G G F G2 F2 G F G A B2 A2 z2
+B2 A G F2 D2 F F G F E2 D2 z2
+d2 c B A2 F2 G B c B A2 G4 |
+
+X: 24
+T: Psalm 24
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1548
+M: C|
+K: E dorian
+E2 B2 G2 A2 A G F2 E2 z2
+E2 G A B d c c B2 z2
+B2 =c B A G F E F2 E2 z2
+G2 G G A2 G F E2 D2 z2
+E2 B B G B A2 G2 F2 z2
+B2 A G F E G A F2 E4 |
+
+X: 25
+T: Psalm 25
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+G2 F E D G2 A B2 G2 z2
+B2 B2 c B G2 A2 G2 z2
+G2 F E D G2 A B2 G2 z2
+B2 B2 c B G2 A2 G2 z2
+G2 A2 B G c c B2 z2
+G2 E F2 D E G F2 G2 z2
+B2 B2 G c B A G2 z2
+B2 d2 c B A G A2 G4 |
+
+X: 26
+T: Psalm 26
+G: frygisch
+C: Bourgois 1551
+M: C|
+K: E phrygian
+E2 A2 G2 F F E2 z2
+A2 G E F G A2 z2
+c2 B A G2 E2 F D E2 z2
+G2 A B c B A2 G2 z2
+c2 B d A c B2 A2 z2
+A2 c2 B2 A G F F E4 |
+
+X: 27
+T: Psalm 27
+G: mixolydisch
+C: Bourgois 1551
+M: C|
+K: D mixo-lydian
+A2 F2 G2 A A d d c d B2 A2 z2
+E2 F2 A2 G E A G F2 E2 D2 z2
+A2 F2 G2 A A d d c d B2 A2 z2
+E2 F2 A2 G E A G F2 E2 D2 z2
+d2 c B A A c c B2 c2 d2 z2
+G2 A B c c B A A ^G A2 z2
+A2 c c B G A E G2 F2 E2 z2
+c2 B2 A2 B B A G F2 E2 D4 |
+
+X: 28
+T: Psalm 28
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: G dorian
+G2 A2 F2 D D E G ^F2 G2 z2
+B2 B c d d c B A2 G2 z2
+D2 G2 B2 A G F F E2 D2 z2
+G2 B2 A2 G F G B2 A B2 z2
+d2 B c G B A2 G2 F2 z2
+B2 A G F G G ^F G4 |
+
+X: 29
+T: Psalm 29
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+A2 B2 A B c2 d2 A2 z2
+d2 c2 B d c B A2 z2
+A2 F B2 A G F E2 z2
+F2 G A2 G F E D2 z2
+D2 A2 A F G A B2 A2 z2
+D2 A2 A F G A B2 A2 z2
+A2 B2 d c B A G2 F2 z2
+D2 F A2 E G F E2 D4 |
+
+X: 30
+T: Psalm 30
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: G mixo-lydian
+G2 F2 E2 D D E F G2 z2
+c2 c A c2 B2 A A G2 z2
+G2 E2 F2 G G A2 c2 B2 z2
+G2 c B c d2 c2 B c2 z2
+c2 B2 A2 G A G F E2 D2 z2
+G2 A2 B2 c B A G2 ^F G4 |
+
+X: 31
+T: Psalm 31
+G: hypo-frygisch
+C: Bourgois 1551
+M: C|
+K: E phrygian
+A2 G E F F G A2 ^G A2 z2
+D2 E F G2 A2 D2 z2
+E2 G G F F E2 z2
+G2 A B c2 B2 A G A2 B2 z2
+A2 d c B A G2 A2 z2
+D2 E F G G F2 E4 |
+
+X: 32
+T: Psalm 32
+G: lydisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: D ionian
+D2 F2 G2 A2 A2 A F G A B2 A
+G F F E2 A2 B A G F E2 D2 z2
+D2 F G A2 A2 B A G G F2 z2
+A2 G F E2 F2 G F D2 E2 D2 z2
+d2 d d c2 A2 B c d c B2 A2 z2
+A2 A A B2 A2 G B A G F2 E2 z2
+A2 A A B2 d2 c A B B A2 z2
+A2 B B A2 G2 F E D2 E2 D4 |
+
+X: 33
+T: Psalm 33
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+D2 A A c B A G F2 E2 z2
+E2 F G A d c2 B2 A2 z2
+D2 A A c B A G F2 E2 z2
+E2 F G A d c2 B2 A2 z2
+E E G G F2 E2 z2
+E E G G F2 E2 z2
+c2 B A2 ^G A2 z2
+d d e d c2 A2 z2
+E2 G2 A B c2 A2 z2
+A2 G F E2 D4 |
+
+X: 34
+T: Psalm 34
+G: dorisch
+C: Bourgois 1551
+M: C|
+K: E dorian
+E2 G F G2 A2 B2 z2
+B2 B B d c B2 A2 G2 z2
+B2 A G F A2 G2 F G2 z2
+B2 G E A2 F2 E2 z2
+E2 G F E E D2 z2
+G2 F G A2 B2 B ^A B2 z2
+B2 d d c2 B2 A G F2 z2
+A2 G F2 E2 ^D E4 |
+
+X: 35
+T: Psalm 35
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: F ionian
+F2 F G A G2 F2 E F2 z2
+A2 A G A2 c2 B A G2 z2
+A2 c c d c B A G2 F2 z2
+C2 D E F A G F E2 F2 z2
+F2 G2 A2 F G A B c2 z2
+F2 G2 A2 F E D D C2 z2
+c2 c A F2 B2 A G A2 z2
+A2 G F E2 G2 F E F4 |
+
+X: 36
+T: Psalm 36
+G: lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D ionian
+D2 D E F D F G A2 z2
+A2 G F E D F G A2 z2
+B2 A G F D E2 D2 z2
+D2 D E F D F G A2 z2
+A2 G F E D F G A2 z2
+B2 A G F D E2 D2 z2
+d2 d d c A B B A2 z2
+d2 d d c A B B A2 z2
+F2 G B A F G2 F2 z2
+E2 F G A G F F E2 z2
+A2 B c d c B B A2 z2
+D2 E F G F E2 D4 |
+
+X: 37
+T: Psalm 37
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: C dorian
+C2 C C G G B B F G A2 G2 z2
+c2 c c d2 c2 B B A A G2 z2
+c2 B A G2 E2 F G F E D2 C2 z2
+c2 c c d2 c2 B B A A G2 z2
+B2 B A G G _A G F E F2 E2 z2
+E2 F _A G2 E2 F E D D C4 |
+
+X: 38
+T: Psalm 38
+G: dorisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: G aeolian
+B2 A2 G A B c d2 c2
+z d2 c B2 A2 z2
+c c d2 B c A2 G2 z2
+d2 d2 c B G A B2 A2
+z B2 A G2 F2 z2
+B2 d2 c B G2 A2 G4 |
+
+X: 39
+T: Psalm 39
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: A aeolian
+E2 E F G2 A2 G c c B c2 z2
+c2 c c B A2 G2 ^F G2 z2
+G2 A A B2 G2 c B A A G2 z2
+E2 G A c B2 A2 ^G A2 z2
+E2 F F E2 D2 G G A2 B2 c2 z2
+c2 B A d2 c2 B B A4 |
+
+X: 40
+T: Psalm 40
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: G dorian
+D2 D D F2 G2 B A2 G2 ^F G2 z2
+G2 B B A A G2 G2 F2 z2
+B2 A G F D F2 G2 D2 z2
+G2 B2 c2 d B c d B2 A2 G2 z2
+D2 G G F F E2 D2 z2
+D2 G G F F E2 D2 z2
+d2 c B B A B2 z2
+B2 B B A2 G2 F2 z2
+B2 B B A2 G2 F2 z2
+D2 E G G ^F G4 |
+
+X: 41
+T: Psalm 41
+G: dorisch
+C: Bourgois 1551
+M: C|
+K: C dorian
+G2 c c B2 c2 d c B2 A2 G
+E F G G ^F G2 z2
+C2 G2 _A2 G B c d2 c2 =B c
+G G F E2 D2 C2 z2
+C2 E D C2 G2 G G _A2 F2 E
+G A B c A G2 z2
+c2 G2 c2 B G B A G2 F2 E
+_A G F E2 D2 C4 |
+
+X: 42
+T: Psalm 42
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: F ionian
+F2 G A2 G F E D2 C2 z2
+F2 G A2 B A2 G2 F2 z2
+F2 G A2 G F E D2 C2 z2
+F2 G A2 B A2 G2 F2 z2
+A2 A c2 B A G A2 z2
+c2 c d2 c B A G2 z2
+A2 c B2 A F G A2 F2 z2
+A2 A B2 A G F2 E F4 |
+
+X: 43
+T: Psalm 43
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+G2 A2 A2 G G c c B2 A2
+z G A2 c2 B A2 G2 F G2 z2
+B2 B B A A B d2 ^c d2 z2
+A2 A A B2 A2 G F E2 D2 z2
+B2 d c B A B2 c2 B
+B A G G F G4 |
+
+X: 44
+T: Psalm 44
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: A mixo-lydian
+A2 A B c2 d2 d c B2 A2 z2
+A2 G F A2 E2 G F E2 D2 z2
+D2 A2 B2 G A B c d2 z2
+d2 c B A B2 A2 ^G A2 z2
+A2 B A G2 E2 F G A2 z2
+A2 G2 E2 B B A G F2 E2 z2
+A2 B c A A B2 d2 c2 z2
+d2 d d B2 A2 G A B2 A4 |
+
+X: 45
+T: Psalm 45
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+F2 G G A2 A2 _B A G F E2 D2 z2
+A2 F G A2 c2 c c B A ^G2 A2 z2
+d2 c B A2 d2 e c d2 B2 A2 z2
+F2 G A _B A G F G2 E2 D2 z2
+D2 F G A2 d2 c B A G F2 E2 z2
+A2 G G F D F G A _B G2 F2 z2
+D2 A A G F E D F2 G2 A2 z2
+d2 c B A2 G2 F G F2 E2 D4 |
+
+X: 46
+T: Psalm 46
+G: mixolydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D mixo-lydian
+A2 A A B G A c B2 A2 z2
+A2 A E G G F D E2 D2 z2
+D2 A B G A c2 B2 A2 z2
+E2 F A E G F2 E2 D2 z2
+A2 A c B A B c d2 A2 z2
+A2 A c B A B c d2 A2 z2
+d2 d c B A G2 F2 E2 z2
+A2 c B A G F2 E2 D4 |
+
+X: 47
+T: Psalm 47
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+A2 F2 D E F
+G2 F E E D2 z2
+A2 A2 B c d
+A2 B G A F2 z2
+D2 E2 F G F
+E2 D D C D2 z2
+A2 B2 A G F
+F2 E F G A2 z2
+d2 c2 B B A
+B2 A G F E2 z2
+D2 F2 A G F
+E2 D D C D4 |
+
+X: 48
+T: Psalm 48
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+F2 _B B A2 A2 G G F2 z2
+F2 _B B A2 A2 G G F2 z2
+A2 _B A F A G F E2 D2 z2
+A2 _B A F A G F E2 D2 z2
+F2 G2 A B c B A2
+d c B A A ^G A2 z2
+A2 A2 _B A G F G2 F2 z2
+A2 A2 _B A G F G2 F2 z2
+D2 D2 A A c c B2 A2 z2
+c2 B2 A F G F E2 D4 |
+
+X: 49
+T: Psalm 49
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+G2 G2 A2 B B c B A2 A2 G2 z2
+d2 d c B2 d2 c B B A B2 z2
+B2 B B A2 B2 c B A G F2 z2
+G2 E A G2 B2 A G G F G2 z2
+D2 E F G2 B2 d d c c B2 z2
+d2 G A B2 d2 c B B A B2 z2
+G2 G A B2 c2 B A G F E2 D2 z2
+d2 c B A2 d2 c B A G A2 G4 |
+
+X: 50
+T: Psalm 50
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: E dorian
+B2 A G F2 A2 B A G F E2 z2
+E2 B B A2 B2 c d c c B2 z2
+B2 B B A2 F2 G B A G F2 z2
+B2 B B A2 F2 G B A G F
+A G F E2 D2 E F G A B2 F2 z2
+F2 A A B2 d2 c B A G F2 E4 |
+
+X: 51
+T: Psalm 51
+G: hypo-frygisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: E phrygian
+E2 G G A2 E2 G G D2 F2 E2 z2
+E2 E D C2 E2 E F G A ^G2 A2 z2
+A2 F F E2 C2 D E F E D2 C2 z2
+E2 G A B2 G2 A c B B A2 z2
+A2 A A G2 E2 A A G2 F2 E2 z2
+A2 A B c2 A2 G E F G A2 E2 z2
+E2 F D E2 C2 D E F2 D2 E2 z2
+A2 G G A2 c2 c B A G F2 E4 |
+
+X: 52
+T: Psalm 52
+G: lydisch
+C: Genève 1554 / Genève 1562
+M: C|
+K: D ionian
+A2 A2 B c d2 d c B2 A2
+F2 B B A G A2 z2
+F2 G2 A2 F D G F E2 D2
+A2 G F D E F2 z2
+F2 D E F A G2 F2 E
+A G F D2 E2 D4 |
+
+X: 53
+T: Psalm 53
+G: dorisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: D dorian
+d2 d d G2 A2 c d B B A2 z2
+c2 c B A2 G2 F A G F E2 D2 z2
+F2 A A D E F G A c B2 A2 z2
+A2 A G F2 A2 _B A G G F2 z2
+G2 F E D4 |
+
+X: 54
+T: Psalm 54
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+B2 G G A2 B2 c c B2 z2
+B2 B A B d c B A2 B2 z2
+B2 B A G2 E2 F G E2 D2 z2
+D2 E2 F2 D G G F G2 z2
+d2 G A B G c c B2 z2
+d2 c B A d c B A2 B2 z2
+B2 c B G B A G F2 G2 z2
+d2 c B A G B2 A2 G4 |
+
+X: 55
+T: Psalm 55
+G: hypo-dorisch
+C: Genève 1562
+M: C|
+K: B aeolian
+F2 A A B2 A2 d c B2 A2 z2
+A2 B B A2 F2 G F E2 D2 z2
+A2 B B A2 d2 c d B2 A2 z2
+B2 A G F2 B2 A G F2 z2
+A2 B c d2 A2 B c d2 z2
+d2 c B c2 A2 B d c2 B4 |
+
+X: 56
+T: Psalm 56
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: F ionian
+F2 D C F2 F G2 A B2 A2 G2 z2
+F2 G G A2 c2 c B G2 B2 A2 z2
+G2 A G E2 E2 F E D D C2
+c2 B A G F G2 F2 z2
+F2 B B A2 G2 A B c c d2 c2 z2
+c2 F G A2 F2 G A B A G2 A2 z2
+A2 A A G2 A2 B A G F E2 C2
+c2 B A G G F4 |
+
+X: 57
+T: Psalm 57
+G: mixolydisch
+C: Genève 1554 / Genève 1562
+M: C|
+K: D mixo-lydian
+A2 c2 B2 A2 d2 c A B B A2 z2
+A2 B c d2 d2 c A B B A2 z2
+A2 c c B2 A2 G B A G F2 E
+G A B c2 c2 B A A ^G A2 z2
+A2 c B A2 E2 F A G F E2 D4 |
+
+X: 58
+T: Psalm 58
+G: hypo-mixolydisch
+C: Genève 1562
+M: C|
+K: A mixo-lydian
+A2 B B A2 d2 c d B2 A2 z2
+A2 F F D G F2 E2 D2 z2
+D2 F G A2 A2 B c d2 z2
+d2 c B A B A G F2 E2 z2
+E2 F G A2 F2 B B A2 z2
+d2 c B A d c2 B2 A4 |
+
+X: 59
+T: Psalm 59
+G: dorisch
+C: Genève 1562
+M: C|
+K: C dorian
+c2 G G c c B B A2 G2 z2
+G2 A c B G B B A2 G2 z2
+E2 F _A G E G2 F2 E2 z2
+G2 E E C E F2 D2 C2 z2
+C2 E F G2 B2 G F E2 D2 z2
+G2 E F G A B c A2 G2 z2
+G2 c c B B c2 A2 G2 z2
+E2 F G C F E2 D2 C4 |
+
+X: 60
+T: Psalm 60
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+G2 c c B A2 G2 F G2 z2
+G2 G c B A B2 c2 d2 z2
+B2 d d c B A2 G2 F2 z2
+D2 E F G A2 G2 F G2 z2
+B2 B A G2 c2 B A B2 z2
+B2 B A G2 c2 B A B2 z2
+B2 d c B2 A2 G F E2 D2 z2
+G2 A B G2 c2 B B A2 G4 |
+
+X: 61
+T: Psalm 61
+G: hypo-dorisch
+C: Genève 1562
+M: C|
+K: A dorian
+E2 A A G c2 B A2 G
+c2 B A2 G2 z2
+E2 G2 E A A ^G A2 z2
+A2 E2 A A G G F2 E
+A2 B c2 B2 z2
+B2 d2 c B2 A2 ^G A4 |
+
+X: 62
+T: Psalm 62
+G: dorisch
+C: Genève 1562 / Lyon 1548
+M: C|
+K: E dorian
+E2 B2 G2 A2 A G F2 E2 z2
+E2 G A B d c c B2 z2
+B2 =c B A G F E F2 E2 z2
+G2 G G A2 G F E2 D2 z2
+E2 B B G B A2 G2 F2 z2
+B2 A G F E G A F2 E4 |
+
+X: 63
+T: Psalm 63
+G: hypo-frygisch
+C: Genève 1554 / Bourgois 1551
+M: C|
+K: F phrygian
+G2 F2 A2 B A G E F2 z2
+D2 A A B2 B2 d d c2 B2 z2
+F2 B B A2 d2 d c B2 A2 z2
+F2 E D E2 F2 G G F2 z2
+A2 B2 d2 B G A A G2 F2 z2
+F2 E D G G F2 E2 D2 z2
+D2 E G F D E2 E2 F2 z2
+A2 B2 A2 G E F A G2 F4 |
+
+X: 64
+T: Psalm 64
+G: dorisch
+C: Genève 1554 / Bourgois 1551
+M: C|
+K: D dorian
+D2 A B c2 c2 d c B2 A2 z2
+d2 d d c B A2 F2 E2 z2
+A2 A A G A c2 B2 A2 z2
+F2 F G A2 A2 _B A G2 F2 z2
+A2 G F E2 D4 |
+
+X: 65
+T: Psalm 65
+G: dorisch
+C: Genève 1554 / Bourgois 1551
+M: C|
+K: E aeolian
+B2 B B E2 B2 c B A2 G2 z2
+A2 B A G2 F2 E2 z2
+B2 B B E2 B2 c B A2 G2 z2
+A2 B A G2 F2 E2 z2
+E2 G G F F G A B2 A2 z2
+B2 c B A A G2 z2
+B2 A G F D E F G2 F2 z2
+G2 A G F F E4 |
+
+X: 66
+T: Psalm 66
+G: hypo-lydisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: G ionian
+G2 E D G G A c B2 A2 z2
+d2 B B G c B2 A2 G2 z2
+G2 E D G G A c B2 A2 z2
+d2 c B A G G F G2 z2
+d2 d c B2 A2 G F E2 D2 z2
+D2 G G F E G2 A2 B2 z2
+G2 G A B G c c B2 A2 z2
+d2 c B A G G F G4 |
+
+X: 67
+T: Psalm 67
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+D2 A A c B A G F2 E2 z2
+E2 F G A d c2 B2 A2 z2
+D2 A A c B A G F2 E2 z2
+E2 F G A d c2 B2 A2 z2
+E E G G F2 E2 z2
+E E G G F2 E2 z2
+c2 B A2 ^G A2 z2
+d d e d c2 A2 z2
+E2 G2 A B c2 A2 z2
+A2 G F E2 D4 |
+
+X: 68
+T: Psalm 68
+G: lydisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: D ionian
+D2 D E F D F G A2 z2
+A2 G F E D F G A2 z2
+B2 A G F D E2 D2 z2
+D2 D E F D F G A2 z2
+A2 G F E D F G A2 z2
+B2 A G F D E2 D2 z2
+d2 d d c A B B A2 z2
+d2 d d c A B B A2 z2
+F2 G B A F G2 F2 z2
+E2 F G A G F F E2 z2
+A2 B c d c B B A2 z2
+D2 E F G F E2 D4 |
+
+X: 69
+T: Psalm 69
+G: hypo-frygisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: E phrygian
+E2 G G A2 E2 G G D2 F2 E2 z2
+E2 E D C2 E2 E F G A ^G2 A2 z2
+A2 F F E2 C2 D E F E D2 C2 z2
+E2 G A B2 G2 A c B B A2 z2
+A2 A A G2 E2 A A G2 F2 E2 z2
+A2 A B c2 A2 G E F G A2 E2 z2
+E2 F D E2 C2 D E F2 D2 E2 z2
+A2 G G A2 c2 c B A G F2 E4 |
+
+X: 70
+T: Psalm 70
+G: hypo-frygisch
+C: Bourgois 1551
+M: C|
+K: F phrygian
+G2 F2 A2 B A G E F2 z2
+D2 A A B2 B2 d d c2 B2 z2
+F2 B B A2 d2 d c B2 A2 z2
+F2 E D E2 F2 G G F2 z2
+A2 B2 d2 B G A A G2 F2 z2
+F2 E D G G F2 E2 D2 z2
+D2 E G F D E2 E2 F2 z2
+A2 B2 A2 G E F A G2 F4 |
+
+X: 71
+T: Psalm 71
+G: hypo-frygisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: E phrygian
+A2 G E F F G A2 ^G A2 z2
+D2 E F G2 A2 D2 z2
+E2 G G F F E2 z2
+G2 A B c2 B2 A G A2 B2 z2
+A2 d c B A G2 A2 z2
+D2 E F G G F2 E4 |
+
+X: 72
+T: Psalm 72
+G: dorisch
+C: Franc 1543 / Lyon 1548
+M: C|
+K: E aeolian
+B2 B B E2 B2 c B A2 G2 z2
+A2 B A G2 F2 E2 z2
+B2 B B E2 B2 c B A2 G2 z2
+A2 B A G2 F2 E2 z2
+E2 G G F F G A B2 A2 z2
+B2 c B A A G2 z2
+B2 A G F D E F G2 F2 z2
+G2 A G F F E4 |
+
+X: 73
+T: Psalm 73
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+A2 B d c B2 A2 ^G A2 z2
+d2 c B d2 A2 B c d2 z2
+A2 B B A2 F2 G A B2 A2 z2
+F2 A A F2 D2 G F E2 D2 z2
+A2 B c d B A2 G2 F2 z2
+F2 G A B2 A G F2 E2 z2
+A2 B c A d c2 B2 A2 z2
+F2 G A E G F2 E2 D4 |
+
+X: 74
+T: Psalm 74
+G: hypo-mixolydisch
+C: Genève 1562
+M: C|
+K: F mixo-lydian
+c2 A B c2 c2 A B G G F2 z2
+F2 A B c2 B2 A G A c =B2 c2 z2
+c2 B A G2 c2 B A B c d2 c2 z2
+G2 A B c2 G2 A B G G F4 |
+
+X: 75
+T: Psalm 75
+G: lydisch
+C: Genève 1562
+M: C|
+K: F ionian
+c2 B2 A d c2 B2 A
+d c2 B2 A2 G G F2 z2
+F2 A2 G c c =B c2
+d d c A B B A2 z2
+c2 B2 A c B A G2 z2
+A2 c2 F B A2 G2 F4 |
+
+X: 76
+T: Psalm 76
+G: hypo-mixolydisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: G mixo-lydian
+G2 F2 E2 D D E F G2 z2
+c2 c A c2 B2 A A G2 z2
+G2 E2 F2 G G A2 c2 B2 z2
+G2 c B c d2 c2 B c2 z2
+c2 B2 A2 G A G F E2 D2 z2
+G2 A2 B2 c B A G2 ^F G4 |
+
+X: 77
+T: Psalm 77
+G: hypo-dorisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: G dorian
+G2 G2 F G A B A2 G2 z2
+G2 G2 F G A B A2 G2 z2
+B2 A2 G B A G F2 z2
+F2 E2 D G G ^F G2 z2
+B2 c2 d d c B c2 B2 z2
+B2 c2 d d c B c2 B2 z2
+B2 A2 G B A G F2 z2
+F2 E2 D G G ^F G4 |
+
+X: 78
+T: Psalm 78
+G: dorisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: D dorian
+A2 A2 d2 c A c c B A ^G2 A2 z2
+A2 F D A2 A2 c B A d2 ^c d2 z2
+A2 _B G A2 F2 G A D F E2 D2 z2
+A2 B c d2 A2 d d c c B2 A2 z2
+A2 G2 A2 F D A _B A2 G2 F2 z2
+A2 d2 c2 A F G D F2 E2 D4 |
+
+X: 79
+T: Psalm 79
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+D2 G2 A2 B2 B2 B B A c B2 A2 z2
+D2 G A B2 c2 B A B c d2 B
+B A A G2 G2 G F G F E2 D2 z2
+G2 G F G2 D2 E G A B A2 G2 z2
+D2 G F G2 A2 B2 z2
+D2 G F G2 A2 B2 z2
+B2 B B A c B2 A2 z2
+d2 c B A2 c2 B2 z2
+B2 A G F E D2 z2
+D2 E G A B A2 G4 |
+
+X: 80
+T: Psalm 80
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+D2 D C D F G F E2 D2 z2
+A2 G E G F D F E2 D2 z2
+A2 c d A2 F2 G G A2 z2
+A2 c d A2 F2 G G A2 z2
+A2 c B A G2 F2 E F2 z2
+_B2 G2 A2 F D G2 E2 D4 |
+
+X: 81
+T: Psalm 81
+G: dorisch
+C: Genève 1562
+M: C|
+K: D ionian
+A2 A2 B c d2
+d2 c2 B A B2 A2 z2
+A2 A2 B c d2
+A B A2 G2 F2 z2
+A B A2 G2 F2
+B A G F E2 D4 |
+
+X: 82
+T: Psalm 82
+G: mixolydisch
+C: Genève 1562 / Bourgois 1551
+M: C|
+K: D mixo-lydian
+A2 A A B G A c B2 A2 z2
+A2 A E G G F D E2 D2 z2
+D2 A B G A c2 B2 A2 z2
+E2 F A E G F2 E2 D2 z2
+A2 A c B A B c d2 A2 z2
+A2 A c B A B c d2 A2 z2
+d2 d c B A G2 F2 E2 z2
+A2 c B A G F2 E2 D4 |
+
+X: 83
+T: Psalm 83
+G: frygisch
+C: Genève 1562
+M: C|
+K: F phrygian
+B2 A A B2 d2 c c B2 z2
+A2 B c d c B2 B2 A2 z2
+B2 d c B A F A G2 F2 z2
+D2 F G A F G A B2 A2 z2
+F2 A A B A d d c2 B2 z2
+B2 A B d2 c2 B A G2 F4 |
+
+X: 84
+T: Psalm 84
+G: lydisch
+C: Genève 1562
+M: C|
+K: D ionian
+D2 A2 G F E D E2 F2 z2
+F2 B B A F A2 G2 F2 z2
+A2 G F E A G F E2 D2 z2
+D2 F G A2 B2 A ^G A2 z2
+D2 F G A2 B2 A ^G A2 z2
+d2 c B A2 F2 G A B2 A2 z2
+A2 A G F2 B2 A G F2 z2
+D2 F A E G F2 E2 D4 |
+
+X: 85
+T: Psalm 85
+G: mixolydisch
+C: Genève 1562
+M: C|
+K: D mixo-lydian
+D2 D D E2 G2 F G B2 A2 G2 z2
+G2 G F G A B A G2 F2 E2 z2
+G2 E F D2 E2 F A2 G2 F G2 z2
+D2 G A B2 A2 G F E E D2 z2
+D2 E F G2 D2 G F G A B2 z2
+B2 d c B2 A2 G c B2 A2 G2 z2
+G2 A2 B2 G G c B G2 A2 B2 z2
+B2 A A G2 E2 F G E E D4 |
+
+X: 86
+T: Psalm 86
+G: hypo-dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G dorian
+G2 G2 F G A B A2 G2 z2
+G2 G2 F G A B A2 G2 z2
+B2 A2 G B A G F2 z2
+F2 E2 D G G ^F G2 z2
+B2 c2 d d c B c2 B2 z2
+B2 c2 d d c B c2 B2 z2
+B2 A2 G B A G F2 z2
+F2 E2 D G G ^F G4 |
+
+X: 87
+T: Psalm 87
+G: mixolydisch
+C: Genève 1562
+M: C|
+K: F mixo-lydian
+F2 D2 G2 F F G A B A G2 F2 z2
+B2 c c d2 c2 A B G G F2 z2
+F2 G2 A2 F F G B B A B2 z2
+B2 G F B2 A2 F G A B G2 F4 |
+
+X: 88
+T: Psalm 88
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+A2 F G A d c2 B2 A2 z2
+d2 c c d c A c B2 A2 z2
+A2 c B A2 G2 A _B G2 F2 z2
+F2 G A D E F2 E2 D2 z2
+D2 F G A2 d2 A c B2 A2 z2
+A2 _B G A2 F2 G F E2 D4 |
+
+X: 89
+T: Psalm 89
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+G2 E D G A B2 B2 d c B2 A2 G2 z2
+G2 E D G A B2 B2 d c B2 A2 G2 z2
+B2 B A G c B2 G2 A F G F E2 D2 z2
+D2 E G G F G2 D2 G A B G c2 B2 z2
+d2 c B A A G2 c2 B A G F E2 D2 z2
+A2 B A2 G2 F G2 A2 B d c B A2 G4 |
+
+X: 90
+T: Psalm 90
+G: dorisch
+C: Bourgois 1551
+M: C|
+K: D dorian
+A2 A2 d2 c A c c B A ^G2 A2 z2
+A2 F D A2 A2 c B A d2 ^c d2 z2
+A2 _B G A2 F2 G A D F E2 D2 z2
+A2 B c d2 A2 d d c c B2 A2 z2
+A2 G2 A2 F D A _B A2 G2 F2 z2
+A2 d2 c2 A F G D F2 E2 D4 |
+
+X: 91
+T: Psalm 91
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+D2 A A G E F2 G2 A2 z2
+A2 c c B G A2-B2 A2 z2
+D2 A A G E F2 G2 A2 z2
+A2 c c B G A2-B2 A2 z2
+A2 G E F F G2 A2 D2 z2
+d2 A c B A G2 F2 z2
+A2 _B A G F E D E2 z2
+A2 G D F G E2 D4 |
+
+X: 92
+T: Psalm 92
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+A2 A A d c B2 A
+c B A A ^G A2 z2
+A2 A A _B2 G2 F
+F G A D F E2 D2 z2
+F2 E D F G A2 A
+c B c d B A2 z2
+D2 A A G2 F2 E
+A A G F D E2 D4 |
+
+X: 93
+T: Psalm 93
+G: hypo-mixolydisch
+C: Genève 1562
+M: C|
+K: G mixo-lydian
+G2 E2 F2 G G A c c B c2 z2
+c2 A2 c2 B G A B c2 A2 G2 z2
+E2 F G A2 G2 F D E E D2 z2
+G2 G G A2 c2 c B c2 A2 G4 |
+
+X: 94
+T: Psalm 94
+G: frygisch
+C: Genève 1562
+M: C|
+K: E phrygian
+E2 A A G2 c2 A B c2 B2 z2
+B2 c A B G A c B2 A2 z2
+B2 c G A2 G2 F F E2 z2
+E2 E D E G G ^F G2 z2
+A2 G E F A A ^G A2 z2
+E2 E A G2 E2 F F E4 |
+
+X: 95
+T: Psalm 95
+G: dorisch
+C: Genève 1562 / Lyon 1548
+M: C|
+K: E dorian
+E2 B2 G2 A2 A G F2 E2 z2
+E2 G A B d c c B2 z2
+B2 =c B A G F E F2 E2 z2
+G2 G G A2 G F E2 D2 z2
+E2 B B G B A2 G2 F2 z2
+B2 A G F E G A F2 E4 |
+
+X: 96
+T: Psalm 96
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+d2 d d c2 A2 c d B2 A2 z2
+A2 d d c2 A2 G F E2 D2 z2
+F2 E F G2 A2 F G A2 z2
+E2 F G A E G2 F2 E2 z2
+A2 G A D E F G E2 D4 |
+
+X: 97
+T: Psalm 97
+G: lydisch
+C: Genève 1562
+M: C|
+K: D ionian
+A2 B d d c d2 z2
+d2 B c d B A2
+A2 d B c d B2 A2 z2
+D2 F A G F E2 D2 z2
+F2 E A A ^G A2 z2
+F2 E A A ^G A2 z2
+F2 B B A2 G2 F
+F B B A2 G2 F2 z2
+A2 D G F2 E2 D4 |
+
+X: 98
+T: Psalm 98
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+G2 E D G G A c B2 A2 z2
+d2 B B G c B2 A2 G2 z2
+G2 E D G G A c B2 A2 z2
+d2 c B A G G F G2 z2
+d2 d c B2 A2 G F E2 D2 z2
+D2 G G F E G2 A2 B2 z2
+G2 G A B G c c B2 A2 z2
+d2 c B A G G F G4 |
+
+X: 99
+T: Psalm 99
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+G2 D2 E F G
+B2 B c A G2 z2
+d2 d2 B c d
+B2 d c c B2 z2
+d2 c2 B A G
+E2 F G E D2 z2
+D2 G2 A B c2 B
+G2 A B c A2 G4 |
+
+X: 100
+T: Psalm 100
+G: frygisch
+C: Bourgois 1551
+M: C|
+K: D phrygian
+G2 A2 F B A G2 ^F G2 z2
+D2 G F G2 B2 B A B2 z2
+B2 c2 d2 G A B2 G2 F2 z2
+F2 G B F2 G2 F E D4 |
+
+X: 101
+T: Psalm 101
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+D2 G2 B2 A A B d c B A2 G2 z2
+G2 F E D D G G A B c2 B2 z2
+B2 d c B2 A2 G F G A B2 z2
+c2 B2 A2 G4 |
+
+X: 102
+T: Psalm 102
+G: frygisch
+C: Genève 1562
+M: C|
+K: E phrygian
+B2 c2 B A G A F2 E2 z2
+G2 A2 B G A c B2 A2 z2
+A2 c2 B A A ^G A2 z2
+E2 F2 G A A ^G A2 z2
+A2 G2 A B c B A2 G2 z2
+A2 G2 E F G E F2 E2 z2
+E2 A2 G G A B c2 B2 z2
+G2 A2 G E G G F2 E4 |
+
+X: 103
+T: Psalm 103
+G: hypo-mixolydisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: A mixo-lydian
+A2 B c d2 d2 c B c d B2 A2 z2
+A2 A G F2 F2 F E F G E2 D2
+z A B2 d2 c2 B2 c d B B A2 z2
+d2 d c B2 A2 A B A G F2 E2 z2
+E2 A A B2 A2 A A B c d2 c2
+z A B2 d2 c2 B2 c d B B A4 |
+
+X: 104
+T: Psalm 104
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1548
+M: C|
+K: D dorian
+D2 D2 F2 D2 C2 F F G G A2
+z A c2 c2 d2 d2 c A c2 B2 A2 z2
+D2 A A G2 c2 B A G2 A2 F2 E2 z2
+D2 F2 A2 G2 A2 G F E D E2 D2 z2
+d2 d d c2 G2 A c B B A2 z2
+D2 D D A2 F2 G A F F E2 z2
+F2 E D A A c c d c B2 A2 z2
+A2 A A D2 E2 F G F D E2 D4 |
+
+X: 105
+T: Psalm 105
+G: lydisch
+C: Genève 1562
+M: C|
+K: D ionian
+D2 F G A2 d2 c d B2 A2 z2
+A2 d c B2 A2 F D E2 D2 z2
+G2 F G A B2 A2 ^G A2 z2
+A2 F G A B2 A2 ^G A2 z2
+A2 d c B A G2 F2 E2 z2
+A2 F B A G F2 E2 D4 |
+
+X: 106
+T: Psalm 106
+G: hypo-dorisch
+C: Genève 1562
+M: C|
+K: B aeolian
+d2 c2 B d2 c B B A2 z2
+A2 B d c A d2 c2 B2 z2
+B2 d c B2 A2 G F E2 D2 z2
+D2 F G A2 F2 G G F2 z2
+F2 A B c2 A2 d c B2 A2 z2
+A2 d d B A d2 c2 B4 |
+
+X: 107
+T: Psalm 107
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+D2 D2 A2 d d c2 A2 z2
+A2 _B A F2 G2 F2 z2
+D2 D2 A2 d d c2 A2 z2
+F2 G A F2 E2 D2 z2
+d2 A B c2 B2 A2 z2
+d2 e d A c B2 A2 z2
+A2 c B A2 G2 F2 z2
+F2 G A G F E2 D4 |
+
+X: 108
+T: Psalm 108
+G: hypo-lydisch
+C: Genève 1562
+M: C|
+K: G ionian
+G2 c c B A2 G2 F G2 z2
+G2 G c B A B2 c2 d2 z2
+B2 d d c B A2 G2 F2 z2
+D2 E F G A2 G2 F G2 z2
+B2 B A G2 c2 B A B2 z2
+B2 B A G2 c2 B A B2 z2
+B2 d c B2 A2 G F E2 D2 z2
+G2 A B G2 c2 B B A2 G4 |
+
+X: 109
+T: Psalm 109
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: G dorian
+G2 A2 F2 D D E G ^F2 G2 z2
+B2 B c d d c B A2 G2 z2
+D2 G2 B2 A G F F E2 D2 z2
+G2 B2 A2 G F G B2 A B2 z2
+d2 B c G B A2 G2 F2 z2
+B2 A G F G G ^F G4 |
+
+X: 110
+T: Psalm 110
+G: hypo-dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G aeolian
+G2 F G A2 B2 c d c B A2 G2 z2
+B2 A G F2 G2 A G G ^F G2 z2
+D2 G G F2 G2 B A G F E2 D
+F G A B2 B2 c G B2 A2 G4 |
+
+X: 111
+T: Psalm 111
+G: dorisch
+C: Straatsburg/Genève 1542 / Lyon 1548
+M: C|
+K: E dorian
+E2 B2 G2 A2 A G F2 E2 z2
+E2 G A B d c c B2 z2
+B2 =c B A G F E F2 E2 z2
+G2 G G A2 G F E2 D2 z2
+E2 B B G B A2 G2 F2 z2
+B2 A G F E G A F2 E4 |
+
+X: 112
+T: Psalm 112
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+A2 c B A2 F2 G F E2 D2 z2
+F2 D E F G A c B2 A2 z2
+A2 _B A F G A _B G2 F2 z2
+F2 G F D E F G A2 D2 z2
+d2 c d A B c d B2 A2 z2
+A2 B2 c2 A F G F E2 D4 |
+
+X: 113
+T: Psalm 113
+G: hypo-mixolydisch
+C: Straatsburg/Genève 1542 / Bourgois 1551
+M: C|
+K: A mixo-lydian
+A2 B2 c2 A d d c d2 z2
+d2 B2 c2 A d d c d2 z2
+A2 B G A2 F2 G F E2 D2 z2
+D2 F G A F B2 B2 A2 z2
+A2 A G F F B2 B2 A2 z2
+d2 c B A2 d2 c d B2 A4 |
+
+X: 114
+T: Psalm 114
+G: dorisch
+C: Straatsburg 1539 / Lyon 1548
+M: C|
+K: D dorian
+D2 D D A2 c2 d2 d c B2 A2 z2
+c2 c B A2 F2 G2 G F E2 D2 z2
+F2 G A _B A G2 F2 z2
+A2 A A D2 G2 F E D D C2 z2
+F2 G G A2 B2 c d c B A2 z2
+A2 _B A G F E2 D4 |
+
+X: 115
+T: Psalm 115
+G: dorisch
+C: Straatsburg 1539 / Lyon 1547
+M: C|
+K: D dorian
+A2 c B A2 D2 F F G G A2
+z A c2 c2 d d c A _B2 G2 F2 z2
+A2 G F E F D2 C2 z2
+F2 F G A2 B2 c d c B A2 z2
+c2 c B A2 E2 F A G F E2 z2
+A2 G E F G E2 D4 |
+
+X: 116
+T: Psalm 116
+G: hypo-mixolydisch
+C: Genève 1562
+M: C|
+K: F mixo-lydian
+c2 A B c2 c2 A B G G F2 z2
+F2 A B c2 B2 A G A c =B2 c2 z2
+c2 B A G2 c2 B A B c d2 c2 z2
+G2 A B c2 G2 A B G G F4 |
+
+X: 117
+T: Psalm 117
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: A mixo-lydian
+A2 d d c A B c d2 z2
+d2 c B A G F2 E2 D2 z2
+D2 E F G A A ^G A2 z2
+A2 B B d d c2 B2 A2 z2
+A2 G F B A G2 F2 E2 z2
+E2 F G A B2 A2 ^G A4 |
+
+X: 118
+T: Psalm 118
+G: hypo-lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G ionian
+G2 E D G G A c B2 A2 z2
+d2 B B G c B2 A2 G2 z2
+G2 E D G G A c B2 A2 z2
+d2 c B A G G F G2 z2
+d2 d c B2 A2 G F E2 D2 z2
+D2 G G F E G2 A2 B2 z2
+G2 G A B G c c B2 A2 z2
+d2 c B A G G F G4 |
+
+X: 119
+T: Psalm 119
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: F ionian
+F2 G A F2 A2 c c B A G2 z2
+A2 F E D2 C2 F G A c B2 A2 z2
+c2 B A G2 A2 G F F E F2 z2
+c2 A B c2 B2 A G F E D2 C2 z2
+F2 E F G2 A2 B A G F E2 z2
+F2 G A B2 A2 G F E F G2 F4 |
+
+X: 120
+T: Psalm 120
+G: hypo-dorisch
+C: Bourgois 1551
+M: C|
+K: G dorian
+G2 A F B A G F E2 D2 z2
+D2 F G A B A G2 ^F G2 z2
+D2 D E F F G A B2 G2 z2
+d2 c B A G F G A2 G2 z2
+B2 B B A F G A F2 D2 z2
+F2 G G A F G A B2 A2 z2
+B2 c d c B A2 G2 F2 z2
+D2 F G A2 G2 G ^F G4 |
+
+X: 121
+T: Psalm 121
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: F mixo-lydian
+F2 G2 F B2 A G G F2 z2
+B2 B A B2 c2 d
+d c B B A B2 z2
+F2 G A B A2 G2 ^F G2 z2
+B2 A G F E D2 C
+F F G A2 B2 G2 F4 |
+
+X: 122
+T: Psalm 122
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+A2 A B A d c2 B2 A2 z2
+A2 F G A2 B2 A G F2 z2
+A2 F G A2 B2 A G F2 z2
+d2 c B A F G2 B2 A2 z2
+F2 A A E F G F D2 z2
+F2 A A E F G F D2 z2
+d2 c d A A B d2 c d2 z2
+A2 d c B B A2 G2 F2 z2
+A2 d c B B A2 G2 F2 z2
+D2 D E F2 A2 G F E2 D4 |
+
+X: 123
+T: Psalm 123
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: F ionian
+A2 F2 G2 A A G F A2 B2 c
+A A G2 F2 E F2 z2
+F2 F G A A c B A2 G2 F2 E
+F G A B2 A2 G2 F2 z2
+A2 A B c2 B2 A G F G A2 G
+B A G F E D2 C2 z2
+F2 A B c2 c2 A A F2 G2 A
+A G B A2 G2 F4 |
+
+X: 124
+T: Psalm 124
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: F ionian
+F2 G A B2 A2 G F F E F2 z2
+A2 B c d2 c2 B A G2 F2 E2 z2
+C2 F F E2 F2 G B2 A2 G A2 z2
+c2 c B A2 G2 A c c =B c2 z2
+A2 G F E2 F2 G B A2 G2 F4 |
+
+X: 125
+T: Psalm 125
+G: dorisch
+C: Bourgois 1551
+M: C|
+K: D dorian
+A2 A c B2 A2 G F E2 D2 z2
+F2 F E F2 G2 A2 z2
+A2 c c B2 d2 A2 z2
+D2 A2 B2 c B A A G2 F2 z2
+A2 A A d2 c2 B A2 ^G A2 z2
+F2 G F E2 D4 |
+
+X: 126
+T: Psalm 126
+G: mixolydisch
+C: Bourgois 1551
+M: C|
+K: D mixo-lydian
+G2 F G A B2 A2 ^G A2 z2
+A2 B2 c2 A A B c d2 z2
+d2 c c d A c2 B2 A2 z2
+A2 G A E G F2 E2 D2 z2
+D2 A A E F G A F2 E2 z2
+D2 A A E F G A F2 E2 z2
+A2 B B G G c2 B2 A2 z2
+A2 A B G A F2 E2 D4 |
+
+X: 127
+T: Psalm 127
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: A mixo-lydian
+A2 d d c A B c d2 z2
+d2 c B A G F2 E2 D2 z2
+D2 E F G A A ^G A2 z2
+A2 B B d d c2 B2 A2 z2
+A2 G F B A G2 F2 E2 z2
+E2 F G A B2 A2 ^G A4 |
+
+X: 128
+T: Psalm 128
+G: dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D dorian
+D2 A A A G F2 E
+E F A A ^G A2 z2
+A2 d d c B A2 A
+G F D F E D2 z2
+D2 F E F G A2 G2 z2
+A2 c B A ^G A2 z2
+d2 c B A G F2 E2 z2
+D2 G F E E D4 |
+
+X: 129
+T: Psalm 129
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: G dorian
+G2 G F E2 D2 F A2 G2 ^F G2 z2
+A2 c B A2 G2 A B G A G2 F2 z2
+G2 G F G2 A2 c G A2 B2 A2 z2
+A2 A G F2 D2 F G A G2 ^F G4 |
+
+X: 130
+T: Psalm 130
+G: dorisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: D dorian
+A2 D E F E D2 C2 z2
+F2 D E F2 G2 A2 z2
+A2 G A B c B2 A2 z2
+d2 c A c2 B2 A2 z2
+A2 c2 A2 G F E2 D2 z2
+G2 F E D D C2 z2
+F2 F G A _B G2 F2 z2
+A2 G F G2 E2 D4 |
+
+X: 131
+T: Psalm 131
+G: frygisch
+C: Bourgois 1551
+M: C|
+K: D phrygian
+G2 A2 F B A G2 ^F G2 z2
+D2 G F G2 B2 B A B2 z2
+B2 c2 d2 G A B2 G2 F2 z2
+F2 G B F2 G2 F E D4 |
+
+X: 132
+T: Psalm 132
+G: hypo-frygisch
+C: Bourgois 1551
+M: C|
+K: F phrygian
+F2 E G F2 B2 A G F2 z2
+F2 G F E D G2 F2 E2 z2
+B2 c d B d c2 B2 A2 z2
+F2 A A B2 c2 d c B2 z2
+F2 A2 E2 G F A2 G2 F4 |
+
+X: 133
+T: Psalm 133
+G: lydisch
+C: Bourgois 1551
+M: C|
+K: D ionian
+D2 F2 E2 D A B d c A B2 A2 z2
+d2 d c d2 A2 B B A F G2 F2 z2
+A2 F2 B2 A G F2 E2 D2 z2
+D2 F G A2 B2 c A B c d2 z2
+d2 c B A2 F2 B B A ^G A2 z2
+D2 A2 B2 A G F2 E2 D4 |
+
+X: 134
+T: Psalm 134
+G: hypo-lydisch
+C: Bourgois 1551
+M: C|
+K: G ionian
+G2 G F E D G2 A2 B2 z2
+B2 B B A G c2 B2 A2 z2
+G2 A B A G E2 F2 G2 z2
+d2 B2 G2 A c B2 A2 G4 |
+
+X: 135
+T: Psalm 135
+G: lydisch
+C: Genève 1562
+M: C|
+K: D ionian
+d2 B2 A A B c d2 z2
+A2 B2 A G F2 E2 D2 z2
+D2 F2 E D F G A2 z2
+F2 A2 B c d B A2 z2
+A2 G2 F A G F E2 z2
+E2 F2 A G F2 E2 D4 |
+
+X: 136
+T: Psalm 136
+G: mixolydisch
+C: Genève 1562
+M: C|
+K: D mixo-lydian
+D2 D2 G A B c d2 z2
+B2 d2 c B G2 A2 G2 z2
+B2 A2 G G c c B2 z2
+G2 A2 F G E E D4 |
+
+X: 137
+T: Psalm 137
+G: dorisch
+C: Straatsburg 1539 / Bourgois 1551
+M: C|
+K: D dorian
+D2 F G A2 A2 A G A B c2 A2 z2
+c2 A G F2 G2 G A G F E2 D2
+z D F2 A2 G2 F2 E D E E D2 z2
+A2 A G F2 A2 c c B B A2 z2
+F2 E D A2 c2 B A G A F2 E2 z2
+D2 F G A2 G2 G A G F E2 D4 |
+
+X: 138
+T: Psalm 138
+G: lydisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: D ionian
+D2 F G A2 d2 c2 B2 A2 z2
+A2 B A F2
+F2 G F E2 D2 z2
+D2 F G A2 d2 c2 B2 A2 z2
+A2 B A F2
+F2 G F E2 D2 z2
+d2 c B A d c2 B2 A2 z2
+A2 E2 G2 F
+E F G A2-B2 A2 z2
+D2 D E F D F2 G2 A2 z2
+A2 E2 G2 F
+A G F E2 D4 |
+
+X: 139
+T: Psalm 139
+G: hypo-mixolydisch
+C: Bourgois 1551
+M: C|
+K: G mixo-lydian
+G2 F2 E2 D D E F G2 z2
+c2 c A c2 B2 A A G2 z2
+G2 E2 F2 G G A2 c2 B2 z2
+G2 c B c d2 c2 B c2 z2
+c2 B2 A2 G A G F E2 D2 z2
+G2 A2 B2 c B A G2 ^F G4 |
+
+X: 140
+T: Psalm 140
+G: hypo-lydisch
+C: Franc 1543 / Lyon 1548
+M: C|
+K: G ionian
+G2 G A B2 B c2 c B2 A2 z2
+B2 c B A G F2 G2 A2 z2
+d2 c B A2 F2 G F E2 D2 z2
+B2 c B A G B2 A2 G4 |
+
+X: 141
+T: Psalm 141
+G: hypo-frygisch
+C: Genève 1562
+M: C|
+K: F phrygian
+F2 E D2 F A2 G F B2 A2 z2
+A2 B B A2 F G2 E F2 z2
+A2 G E F2 G F2 E D2 z2
+D2 F G A2 A2 F A G2 F4 |
+
+X: 142
+T: Psalm 142
+G: frygisch
+C: Bourgois 1551
+M: C|
+K: D phrygian
+G2 A2 F B A G2 ^F G2 z2
+D2 G F G2 B2 B A B2 z2
+B2 c2 d2 G A B2 G2 F2 z2
+F2 G B F2 G2 F E D4 |
+
+X: 143
+T: Psalm 143
+G: dorisch
+C: Straatsburg 1539 / Lyon 1547
+M: C|
+K: D dorian
+D2 A2 A2 G A B c B2 A2 z2
+d2 d d c B A c B2 A2 z2
+D2 A A G A c2 B2 A2 z2
+d2 d d c B A c B2 A2 z2
+c2 B A G F G2 E2 D4 |
+
+X: 144
+T: Psalm 144
+G: hypo-dorisch
+C: Franc 1543 / Bourgois 1551
+M: C|
+K: G aeolian
+G2 B2 B2 A A B c d c B2 A2 z2
+F2 G B A2 c2 B B A G A2 G2 z2
+G2 B B A2 G2 F G F E D2 z2
+D2 F F G2 B2 A G G ^F G2 z2
+d2 c B A2 F2 G A B d c2 B2 z2
+B2 A G c2 d2 c B A G A2 G2 z2
+B2 A G F2 G2 F G F E D2 z2
+F2 G A B2 c2 B B A A G4 |
+
+X: 145
+T: Psalm 145
+G: mixolydisch
+C: Genève 1562
+M: C|
+K: D mixo-lydian
+A2 B G A2 d2 c A B B A2 z2
+A2 B A F2 A2 G F E E D2 z2
+D2 A2 B2 G A c B2 A2 ^G A2 z2
+A2 B2 G2 E G A G F2 E2 D2 z2
+G2 F G A2 d2 A B c d B2 A2 z2
+c2 A2 B2 A F G B A G F2 E2 z2
+E2 F G A2 B2 A G A B c2 B2 z2
+d2 c B A2 B2 A G F D E2 D4 |
+
+X: 146
+T: Psalm 146
+G: hypo-dorisch
+C: Genève 1562
+M: C|
+K: A dorian
+B2 c2 B G A G F2 E2 z2
+E2 G2 F E E ^D E2 z2
+G2 E2 G A B G c2 B2 z2
+B2 c2 B A A ^G A2 z2
+A2 B2 G E G F E2 z2
+E2 G2 E A A ^G A4 |
+
+X: 147
+T: Psalm 147
+G: hypo-frygisch
+C: Genève 1562
+M: C|
+K: F phrygian
+D2 A2 B2 A B d c B2 A2 z2
+B2 B c d2 B2 A G F2 E2 z2
+E2 F G A2 F2 G A B2 A2 z2
+B2 d c B2 A2 F A G2 F2 z2
+F2 E D A2 F2 G F E2 D2 z2
+A2 F B A F G A B2 A2 z2
+A2 d2 B2 c A B d c2 B2 z2
+d2 B B A F A A G2 F4 |
+
+X: 148
+T: Psalm 148
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+F2 E D F2 G A2 ^G A2 z2
+A2 d d c A c2 B2 A2 z2
+A2 c B A G2 F2 E F2 z2
+F2 G _B A G F2 E2 D2 z2
+d2 c c d A c c B2 A2 z2
+d2 c c d A c c B2 A2 z2
+A2 B c A d d ^c d2 z2
+A2 c B A G F2 E2 D4 |
+
+X: 149
+T: Psalm 149
+G: dorisch
+C: Genève 1562
+M: C|
+K: D dorian
+d2 c B A2 c2 d c B2 A2 z2
+A2 B c d2 A2 c c B2 A2 z2
+A2 c2 B2 A c B A G2 F
+A _B A G F E2 D2 z2
+D D A2 A F G G A2 z2
+D D A2 A F G G A2 z2
+F2 G A c B A2 G2 F
+_B A G F2 E2 D4 |
+
+X: 150
+T: Psalm 150
+G: lydisch
+C: Genève 1562
+M: C|
+K: D ionian
+D2 F2 E D F G A2
+D2 F2 E D F G A2 z2
+F2 B2 A d d c d2
+A2 d2 B A A ^G A2 z2
+F2 A2 B A G F E2 D2 z2
+D2 G2 F E F G A2 z2
+D2 G2 F E F G A2 z2
+d2 B2 A G F D E2 D4 |
+

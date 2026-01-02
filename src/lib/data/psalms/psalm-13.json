@@ -1,0 +1,164 @@
+{
+  "id": "psalm-013",
+  "number": 13,
+  "title": "Psalm 13",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Lyon 1547)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Hoe lang, o HEER’, mijn toeverlaat,",
+        "Vergeet Gij mijnen jammerstaat?",
+        "Hoe lang zult Gij, in mijn ellenden,",
+        "Van mij Uw vriend’ lijk aanschijn wenden?",
+        "Daar al mijn moed en kracht vergaat."
+      ],
+      "syllables": [
+        ["Hoe", "lang,", "o", "HEER’,", "mijn", "toe-", "ver-", "laat,"],
+        ["Ver-", "geet", "Gij", "mij-", "nen", "jam-", "mer-", "staat?"],
+        ["Hoe", "lang", "zult", "Gij,", "in", "mijn", "el-", "len-", "den,"],
+        ["Van", "mij", "Uw", "vriend’", "lijk", "aan-", "schijn", "wen-", "-", "den?"],
+        ["Daar", "al", "mijn", "moed", "en", "kracht", "ver-", "gaat."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Hoe lang zal ik, door tegenheên,",
+        "In ’t hart vergeefs ontwerpen smeen;",
+        "En vruchtloos schreien ganse dagen?",
+        "Hoe lang zal mij mijn vijand plagen;",
+        "En mij verachtelijk vertreên?"
+      ],
+      "syllables": [
+        ["Hoe", "lang", "zal", "ik,", "door", "te-", "gen-", "heên,"],
+        ["In", "’t hart", "ver-", "geefs", "ont-", "wer-", "pen", "smeen;"],
+        ["En", "vrucht-", "loos", "schrei-", "en", "gan-", "se", "da-", "gen?"],
+        ["Hoe", "lang", "zal", "mij", "mijn", "vij-", "and", "pla-", "-", "gen;"],
+        ["En", "mij", "ver-", "ach-", "te-", "lijk", "ver-", "treên?"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Aanschouw mijn ramp, verhoor mij, HEER’;",
+        "Ai, zie op al mijn lijden neer.",
+        "Verlicht, mijn God, verlicht mijn ogen,",
+        "En laat Uw goedheid niet gedogen,",
+        "Dat mij de slaap desdoods verteer’."
+      ],
+      "syllables": [
+        ["Aan-", "schouw", "mijn", "ramp,", "ver-", "hoor", "mij,", "HEER’;"],
+        ["Ai,", "zie", "op", "al", "mijn", "lij-", "den", "neer."],
+        ["Ver-", "licht,", "mijn", "God,", "ver-", "licht", "mijn", "o-", "gen,"],
+        ["En", "laat", "Uw", "goed-", "heid", "niet", "ge-", "do-", "-", "gen,"],
+        ["Dat", "mij", "de", "slaap", "des-", "doods", "ver-", "teer’."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Opdat de vijand, die mij haat,",
+        "Niet juich’ in mijn bedrukten staat,",
+        "Mij nooit van God verlaten noeme;",
+        "Noch in mijn wanklen zich beroeme,",
+        "Dat mij hun overmacht verslaat."
+      ],
+      "syllables": [
+        ["Op-", "dat", "de", "vij-", "and,", "die", "mij", "haat,"],
+        ["Niet", "juich’", "in", "mijn", "be-", "druk-", "ten", "staat,"],
+        ["Mij", "nooit", "van", "God", "ver-", "la-", "ten", "noe-", "me;"],
+        ["Noch", "in", "mijn", "wank-", "len", "zich", "be-", "roe-", "-", "me,"],
+        ["Dat", "mij", "hun", "o-","ver-", "macht", "ver-", "slaat."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Maar, in dit smartelijk verdriet,",
+        "Mistrouwt mijn hart Uw goedheid niet.",
+        "Neen, ’t zal zich in Uw heil verblijden.",
+        "Ik zal den HEER’ mijn lofzang wijden,",
+        "Die mij genadig bijstand biedt."
+      ],
+      "syllables": [
+        ["Maar,", "in", "dit", "smar-", "te-", "lijk", "ver-", "driet,"],
+        ["Mis-", "trouwt", "mijn", "hart", "Uw", "goed-", "heid", "niet."],
+        ["Neen,", "’t zal", "zich", "in", "Uw", "heil", "ver-", "blij-", "den."],
+        ["Ik", "zal", "den", "HEER’", "mijn", "lof-", "zang", "wij-","-", "den," ],
+        ["Die", "mij", "ge-", "na-", "dig", "bij-", "stand", "biedt."]
+      ]
+    }
+  ]
+}

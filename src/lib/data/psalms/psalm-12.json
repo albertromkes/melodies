@@ -1,0 +1,194 @@
+{
+  "id": "psalm-012",
+  "number": 12,
+  "title": "Psalm 12",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Behoud, o HEER’, wil ons te hulpe komen;",
+        "Daar ’t volk ontbreekt, dat liefd’ en vreê betracht.",
+        "De trouw bezwijkt, en ’t klein getal dervromen,",
+        "Nog kleiner wordt in ’t menselijk geslacht."
+      ],
+      "syllables": [
+        ["Be-", "houd,", "o", "HEER’,", "wil", "ons", "te", "hul-", "pe", "ko-", "men;"],
+        ["Daar", "’t volk", "ont-", "breekt,", "dat", "liefd’", "en", "vreê", "be-", "tracht."],
+        ["De", "trouw", "be-", "zwijkt,", "en", "’t klein", "ge-", "tal", "der-", "vro-", "men,"],
+        ["Nog", "klei-", "ner", "wordt", "in", "’t men-", "se-", "lijk", "ge-", "slacht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "’t Is al bedrog en valsheid, wat zij spreken.",
+        "De vleierij, een bron van bitt’re smart,",
+        "Glijdt van de tong als vloeiend, oliebeken.",
+        "Zij spreken niet dan met een dubbel hart."
+      ],
+      "syllables": [
+        ["’t Is", "al", "be-", "drog", "en", "vals-", "heid,", "wat", "zij", "spre-", "ken."],
+        ["De", "vlei-", "e-", "rij,", "een", "bron", "van", "bitt-", "’re", "smart,"],
+        ["Glijdt", "van", "de", "tong", "als", "vloei-", "end,", "olie-", "be-", "ken.", "-"],
+        ["Zij", "spre-", "ken", "niet", "dan", "met", "een", "dub-", "bel", "hart."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "De HEER’, Die ’t waar, van ’t vals, kan onderscheien,",
+        "En ’s mensen hart, hoe listig ook, doorziet.",
+        "Snij, spoedig af de lippen, die ons vleien,",
+        "De trotse tong, wier grootspraak elk verdriet."
+      ],
+      "syllables": [
+        ["De", "HEER’,", "Die", "’t waar,", "van", "’t vals,", "kan", "on-", "der-", "schei-", "en,"],
+        ["En", "’s -", "men-", "sen", "hart,", "hoe", "listig", "ook,", "door-", "ziet."],
+        ["Snij,", "spoe-", "dig", "af", "de", "lip-", "pen,", "die", "ons", "vlei-", "en,"],
+        ["De", "trot-", "se", "tong,", "wier", "groot-", "spraak", "elk", "ver-", "driet."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Die zeggen: „Wij, wij zullen zegepralen,",
+        "Met onze tong, zij staat in ons geweld.",
+        "Wat oppermacht zet onze lippen palen?",
+        "Wie is de HEER’, die ons de wetten stelt?”"
+      ],
+      "syllables": [
+        ["Die", "zeg-", "gen:", "„Wij,", "wij", "zul-", "len", "ze-", "ge-", "pra-", "len,"],
+        ["Met", "on-", "ze", "tong,", "zij", "staat", "in", "ons", "ge-", "weld."],
+        ["Wat", "op-", "per-", "macht", "zet", "on-", "ze", "lip-", "pen", "pa-", "len?"],
+        ["Wie", "is", "de", "HEER’,", "die", "ons", "de", "wetten", "stel-", "t?”"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "„Omdat Mijn volk verwoest wordt en verdreven,",
+        "Omdat het kermt, nooddruftig treurt, en zucht,",
+        "Zal Ik,” zegt God, „Mij nu terhulp begeven;",
+        "En drijven, die hen aanblaast, op de vlucht.”"
+      ],
+      "syllables": [
+        ["„Om-", "dat", "Mijn", "volk", "ver-", "woest", "wordt", "en", "ver-", "dre-", "ven,"],
+        ["Om-", "dat", "het", "kermt,", "nood-", "druf-", "tig", "treurt,", "en", "zucht,"],
+        ["Zal", "Ik,”", "zegt", "God,", "„Mij", "nu", "ter-", "hulp", "be-", "ge-", "ven;"],
+        ["En", "drij-", "ven,", "die", "hen", "aan-", "blaast,", "op", "de", "vlucht.”"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Des HEEREN woord is rein, en al Zijn spreken",
+        "Is zuiver, als het allerfijnst metaal;",
+        "Nooit is het schuim van ’t zilver zo geweken;",
+        "Schoon in den kroes gelouterd zevenmaal."
+      ],
+      "syllables": [
+        ["Des", "HEE-", "REN", "woord", "is", "rein,", "en", "al", "Zijn", "spre-", "ken"],
+        ["Is", "zui-", "ver,", "als", "het", "al-", "ler-", "fijnst", "me-", "taal;"],
+        ["Nooit", "is", "het", "schuim", "van", "’t zil-", "ver", "zo", "ge-", "we-", "ken;"],
+        ["Schoon", "in", "den", "kroes", "ge-", "lou-", "terd", "ze-", "ven-", "maal."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Gij zult Uw volk, in bange tegenspoeden,",
+        "Hoe ’t ga, o HEER’, bewaren door Uw kracht;",
+        "Uw arm zal hen in eeuwigheid behoeden,",
+        "Voor dit verdraaid en wrevelig geslacht."
+      ],
+      "syllables": [
+        ["Gij", "zult", "Uw", "volk,", "in", "ban-", "ge", "te-", "gen-", "spoe-", "den,"],
+        ["Hoe", "’t ga,", "o", "HEER’,", "be-", "wa-", "ren", "door", "Uw", "kracht;"],
+        ["Uw", "arm", "zal", "hen", "in", "eeu-", "wig-", "heid", "be-", "hoe-", "den,"],
+        ["Voor", "dit", "ver-", "draaid", "en", "wre-", "ve-", "lig", "ge-", "slacht."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "De boze keurt zich vrij van alle banden,",
+        "En draaft rondom, terwijl hij ’t land beroert.",
+        "Daar ’t snoodste volk de teugels krijgt in handen,",
+        "En tot den top van eer wordt opgevoerd."
+      ],
+      "syllables": [
+        ["De", "bo-", "ze", "keurt", "zich", "vrij", "van", "al-", "le", "ban-", "den,"],
+        ["En", "draaft", "rond-", "om,", "ter-", "wijl", "hij", "’t land", "be-", "roert."],
+        ["Daar", "’t snoods-", "te", "volk", "de", "teu-", "gels", "krijgt", "in", "han-", "den,"],
+        ["En", "tot", "den", "top", "van", "eer", "wordt", "op-", "ge-", "voerd."]
+      ]
+    }
+  ]
+}

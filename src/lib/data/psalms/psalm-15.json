@@ -1,0 +1,163 @@
+{
+  "id": "psalm-015",
+  "number": 15,
+  "title": "Psalm 15",
+  "category": "psalm",
+  "mode": "mixolydisch (Straatsburg 1539 / Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Wie zal verkeren, grote God,",
+        "In Uwe tent? Wien zult Gij kronen",
+        "Met zulk een onwaardeerbaar lot,",
+        "Dat hij, bij ’t heug’lijkst gunstgenot",
+        "Uw heilig Sion moog’ bewonen?"
+      ],
+      "syllables": [
+        ["Wie", "zal", "ver-", "ke-", "ren,", "gro-", "te", "God,"],
+        ["In", "U-", "we", "tent?", "Wien", "zult", "Gij", "kro-", "nen"],
+        ["Met", "zulk", "een", "on-", "waar-", "deer-", "baar", "lot,"],
+        ["Dat", "hij,", "bij", "’t heug’-", "lijkst", "gunst-", "ge-", "not"],
+        ["Uw", "hei-", "lig", "Si-", "on", "moog’", "be-", "wo-", "nen?"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Die in zijn wandel zich oprecht;",
+        "En wars betoont van valse streken;",
+        "Zijn aandacht aan Uw wetten hecht;",
+        "Zich op de deugd met ijver legt;",
+        "En waarheid met zijn hart blijft spreken."
+      ],
+      "syllables": [
+        ["Die", "in", "zijn", "wan-", "del", "zich", "op-", "recht;"],
+        ["En", "wars", "be-", "toont", "van", "val-", "se", "stre-", "ken;"],
+        ["Zijn", "aan-", "dacht", "aan", "Uw", "wet-", "ten", "hecht;"],
+        ["Zich", "op", "de", "deugd", "met", "ij-", "ver", "legt;"],
+        ["En", "waar-", "heid", "met", "zijn", "hart", "blijft", "spre-", "ken."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Die met zijn tong niet achterklapt;",
+        "Geen kwaad doet aan zijn metgezellen;",
+        "Niet in het spoor van laster stapt;",
+        "Maar, zo men iemands eer vertrapt,",
+        "Dien smaad wil horen noch vertellen."
+      ],
+      "syllables": [
+        ["Die", "met", "zijn", "tong", "niet", "ach-", "ter-", "klapt;"],
+        ["Geen", "kwaad", "doet", "aan", "zijn", "met-", "ge-", "zel-", "len;"],
+        ["Niet", "in", "het", "spoor", "van", "las-", "ter", "stapt;"],
+        ["Maar,", "zo", "men", "ie-", "mands", "eer", "ver-", "trapt,"],
+        ["Dien", "smaad", "wil", "ho-", "ren", "noch", "ver-", "tel-", "len."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Wiens oog verworpenen veracht,",
+        "Maar hen eerbiedigt, die God vrezen.",
+        "Die zich voor roek’loos zweren wacht,",
+        "Doch ’t geen hij zweert, getrouw betracht,",
+        "Al zou ’t hem ook tot schade wezen."
+      ],
+      "syllables": [
+        ["Wiens", "oog", "ver-", "wor-", "pe-", "nen", "ver-", "acht,"],
+        ["Maar", "hen", "eer-", "bie-", "digt,", "die", "God", "vre-", "zen."],
+        ["Die", "zich", "voor", "roek-", "’loos", "zwe-", "ren", "wacht,"],
+        ["Doch", "’t geen", "hij", "zweert,", "ge-", "trouw", "be-", "tracht,"],
+        ["Al", "zou", "’t hem", "ook", "tot", "scha-", "de", "we-", "zen."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Die nooit zijn geld op woeker geeft;",
+        "Die, d’ onschuld en het recht genegen;",
+        "Het oog op geen geschenken heeft.",
+        "Wie dus oprecht en deugdzaam leeft,",
+        "Zal nimmer wanklen op zijn wegen."
+      ],
+      "syllables": [
+        ["Die", "nooit", "zijn", "geld", "op", "woe-", "ker", "geeft;"],
+        ["Die,", "d’on-", "schuld", "en", "het", "recht", "ge-", "ne-", "gen;"],
+        ["Het", "oog", "op", "geen", "ge-", "schen-", "ken", "heeft."],
+        ["Wie", "dus", "op-", "recht", "en", "deugd-", "zaam", "leeft,"],
+        ["Zal", "nim-", "mer", "wank-", "len", "op", "zijn", "we-", "gen."]
+      ]
+    }
+  ]
+}
