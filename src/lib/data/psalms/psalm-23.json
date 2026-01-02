@@ -1,0 +1,163 @@
+{
+  "id": "psalm-023",
+  "number": 23,
+  "title": "Psalm 23",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "De God desheils wil mij ten Herder wezen.",
+        "’k Heb geen gebrek, ’k heb geen gevaar te vrezen.",
+        "Hij zal mij zacht, in liefelijke weiden,",
+        "Aan d’ oevers van zeer stille waat’ren leiden.",
+        "Hij sterkt mijn ziel; richt, om Zijn Naam, mijn treden",
+        "In ’t effen spoor van Zijn gerechtigheden."
+      ],
+      "syllables": [
+        ["De", "God", "des-", "heils", "wil", "mij", "ten", "Her-", "der", "we-", "zen."],
+        ["’k Heb", "geen", "ge-", "brek,", "’k heb", "geen", "ge-", "vaar", "te", "vre-", "zen."],
+        ["Hij", "zal", "mij", "zacht,", "in", "lie-", "fe-", "lij-", "ke", "wei-", "den,"],
+        ["Aan", "d’oe-", "vers", "van", "zeer", "stil-", "le", "waat-", "’ren", "lei-", "den."],
+        ["Hij", "sterkt", "mijn", "ziel;", "richt,", "om", "Zijn", "Naam,", "mijn", "tre-", "den"],
+        ["In", "’t ef-", "fen", "spoor", "van", "Zijn", "ge-", "rech-", "tig-", "he-", "den."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Ik vrees niet, neen, schoon ik door duist’re dalen,",
+        "In doodsgevaar bekommerd om moest dwalen.",
+        "Gij blijft mij bij in alle tegenspoeden;",
+        "Uw stok en staf zal mij altoos behoeden.",
+        "Gij troost mijn ziel, en richt, in mededogen,",
+        "De tafel aan, voor mijner haat’ren ogen."
+      ],
+      "syllables": [
+        ["Ik", "vrees", "niet,", "neen,", "schoon", "ik", "door", "duist-", "’re", "da-", "len,"],
+        ["In", "doods-", "ge-", "vaar", "be-", "kom-", "merd", "om", "moest", "dwa-", "len."],
+        ["Gij", "blijft", "mij", "bij", "in", "al-", "le", "te-", "gen-", "spoe-", "den;"],
+        ["Uw", "stok", "en", "staf", "zal", "mij", "al-", "toos", "be-", "hoe-", "den."],
+        ["Gij", "troost", "mijn", "ziel,", "en", "richt,", "in", "me-", "de-", "do-", "gen,"],
+        ["De", "ta-", "fel", "aan,", "voor", "mij-", "ner", "haat-", "’ren", "o-", "gen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gij zalft mijn hoofd, Gij doet mijn blijdschap groeien,",
+        "En van Uw heil mijn beker overvloeien,",
+        "Het zalig goed, mij door Uw gunst gegeven,",
+        "Verlaat mij niet, maar volgt mij al mijn leven.",
+        "Zodat ik in het heilig huis des HEEREN,",
+        "Een lange reeks van dagen, blijf verkeren."
+      ],
+      "syllables": [
+        ["Gij", "zalft", "mijn", "hoofd,", "Gij", "doet", "mijn", "blijd-", "schap", "groei-", "en,"],
+        ["En", "van", "Uw", "heil", "mijn", "be-", "ker", "over-", "vloei-", "en,", "-"],
+        ["Het", "za-", "lig", "goed,", "mij", "door", "Uw", "gunst", "ge-", "ge-", "ven,"],
+        ["Ver-", "laat", "mij", "niet,", "maar", "volgt", "mij", "al", "mijn", "le-", "ven."],
+        ["Zo-", "dat", "ik", "in", "het", "hei-", "lig", "huis", "des", "HEE-", "REN,"],
+        ["Een", "lan-", "ge", "reeks", "van", "da-", "gen,", "blijf", "ver-", "ke-", "ren."]
+      ]
+    }
+  ]
+}

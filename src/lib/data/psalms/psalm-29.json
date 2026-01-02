@@ -1,0 +1,238 @@
+{
+  "id": "psalm-029",
+  "number": 29,
+  "title": "Psalm 29",
+  "category": "psalm",
+  "mode": "lydisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Aardse machten, looft den HEER’!",
+        "Geeft den HEERE sterkt’ en eer.",
+        "Dat de lof van ’s Hoogsten Naam,",
+        "Aller groten roem beschaam’.",
+        "Vorsten, ’t voegt u, Hem, in ’t midden;",
+        "Van Zijn heiligdom t’aanbidden,",
+        "’t Voegt u, met de Godgetrouwen,",
+        "’s HEEREN heerlijkheid t’ontvouwen."
+      ],
+      "syllables": [
+        ["Aard-", "se", "mach-", "ten,", "looft", "den", "HEER’!"],
+        ["Geeft", "den", "HEE-", "RE", "sterkt’", "en", "eer."],
+        ["Dat", "de", "lof", "van", "’s Hoog-", "sten", "Naam,"],
+        ["Al-", "ler", "gro-", "ten", "roem", "be-", "schaam’."],
+        ["Vor-", "sten,", "’t voegt", "u,", "Hem,", "in", "’t mid-", "den;"],
+        ["Van", "Zijn", "hei-", "lig-", "dom", "t-", "’aan-", "bid-", "den,"],
+        ["’t Voegt", "u,", "met", "de", "God-", "ge-", "trou-", "wen,"],
+        ["’s HEEREN", "heer-", "lijk-", "heid", "t-", "’ont-", "vou-", "wen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "’s HEEREN stem, op ’t hoogst geducht,",
+        "Rolt en klatert door de lucht.",
+        "Berst, met vreselijk geluid,",
+        "Op de grote waat’ren uit.",
+        "Klinkt, met nadruk en vermogen,",
+        "Heerlijk uit de hemelbogen.",
+        "’t Schepsel beeft en staat verwonderd,",
+        "Als de God derere dondert."
+      ],
+      "syllables": [
+        ["’s HEE-", "REN", "stem,", "op", "’t hoogst", "ge-", "ducht,"],
+        ["Rolt", "en", "kla-", "tert", "door", "de", "lucht."],
+        ["Berst,", "met", "vre-", "se-", "lijk", "ge-", "luid,"],
+        ["Op", "de", "gro-", "te", "waat-", "’ren", "uit."],
+        ["Klinkt,", "met", "na-", "druk", "en", "ver-", "mo-", "gen,"],
+        ["Heer-", "lijk", "uit", "de", "he-", "mel-", "bo-", "gen."],
+        ["’t Schep-", "sel", "beeft", "en", "staat", "ver-", "won-", "derd,"],
+        ["Als", "de", "God", "de-", "re-", "re", "don-", "dert."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "’s HEEREN wonderstem verbreekt,",
+        "Als Zijn grimmigheid ontsteekt,",
+        "’t Ceed’ renbos van Libanon,",
+        "Schudt den hogen Sirion.",
+        "Ceed’ ren, uit den grond gewrongen,",
+        "Hupp’len als derrund’ ren jongen,",
+        "Bergen voelen sidderingen,",
+        "Daar z’als wilde stieren springen."
+      ],
+      "syllables": [
+        ["’s HEE-", "REN", "won-", "der-", "stem", "ver-", "breekt,"],
+        ["Als", "Zijn", "grim-", "mig-", "heid", "ont-", "steekt,"],
+        ["’t Ceed’", "ren-", "bos", "van", "Li-", "ba-", "non,"],
+        ["Schudt", "den", "ho-", "gen", "Si-", "ri-", "on."],
+        ["Ceed’", "ren,", "uit", "den", "grond", "ge-", "wron-", "gen,"],
+        ["Hupp-", "’len", "als", "der-", "rund’", "ren", "jon-", "gen,"],
+        ["Ber-", "gen", "voe-", "len", "sid-", "de-", "rin-", "gen,"],
+        ["Daar", "z-", "’als", "wilde", "stie-", "ren", "sprin-", "gen."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’s HEEREN stem verbaast natuur,",
+        "Houwt uit bergen vlammend vuur.",
+        "Schiet van ’t zwerk den bliksem neer.",
+        "Kades beeft voor ’t buldrend weer.",
+        "Woestenijen slaan aan ’t zuchten.",
+        "Hinden krijgen, onder ’t vluchten,",
+        "Barenswee; door vrees gedrongen,",
+        "Werpen z’, in dien nood, haar jongen."
+      ],
+      "syllables": [
+        ["’s HEE-", "REN", "stem", "ver-", "baast", "na-", "tuur,"],
+        ["Houwt", "uit", "ber-", "gen", "vlam-", "mend", "vuur."],
+        ["Schiet", "van", "’t zwerk", "den", "blik-", "sem", "neer."],
+        ["Ka-", "des", "beeft", "voor", "’t buld-", "rend", "weer."],
+        ["Woes-", "te-", "nij-", "en", "slaan", "aan", "’t zuch-", "ten."],
+        ["Hin-", "den", "krij-", "gen,", "on-", "der", "’t vluch-", "ten,"],
+        ["Ba-", "rens-", "wee;", "door", "vrees", "ge-", "dron-", "gen,"],
+        ["Werpen", "z’,", "in", "dien", "nood,", "haar", "jon-", "gen."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "’s HEEREN stem ontbloot het woud;",
+        "Maar hij, die op God vertrouwt,",
+        "Buigt zich veilig, Hem tereer,",
+        "Juichend in Zijn tempel neer.",
+        "’t Is de HEER’, Wiens wenk de stromen",
+        "In hun woede kon betomen;",
+        "Die, in macht nooit af te meten,",
+        "Eeuwig is ten troon gezeten."
+      ],
+      "syllables": [
+        ["’s HEE-", "REN", "stem", "ont-", "bloot", "het", "woud;"],
+        ["Maar", "hij,", "die", "op", "God", "ver-", "trouwt,"],
+        ["Buigt", "zich", "vei-", "lig,", "Hem", "te-", "reer,"],
+        ["Jui-", "chend", "in", "Zijn", "tem-", "pel", "neer."],
+        ["’t Is", "de", "HEER’,", "Wiens", "wenk", "de", "stro-", "men"],
+        ["In", "hun", "woe-", "de", "kon", "be-", "to-", "men;"],
+        ["Die,", "in", "macht", "nooit", "af", "te", "me-", "ten,"],
+        ["Eeu-", "wig", "is", "ten", "troon", "ge-", "ze-", "ten."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Looft den HEER’, die wond’ ren werkt;",
+        "Israël, Zijn volk, versterkt.",
+        "Hem, die Jakobs heilig kroost",
+        "Zeegnen zal met vreed’ en troost."
+      ],
+      "syllables": [
+        ["Looft", "den", "HEER’,", "die", "wond’", "ren", "werkt;"],
+        ["Is-", "ra-", "ël,", "Zijn", "volk,", "ver-", "sterkt."],
+        ["Hem,", "die", "Ja-", "kobs", "hei-", "lig", "kroost"],
+        ["Zeeg-", "nen", "zal", "met", "vreed’", "en", "troost."]
+      ]
+    }
+  ]
+}

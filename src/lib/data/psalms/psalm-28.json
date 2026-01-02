@@ -1,0 +1,206 @@
+{
+  "id": "psalm-028",
+  "number": 28,
+  "title": "Psalm 28",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Ik roep tot U, o eeuwig Wezen!",
+        "Mijn rotssteen, nooit naar eis volprezen.",
+        "Wend niet, als doof, van mij Uw oren!",
+        "Zwijg niet; laat mij Uw antwoord horen.",
+        "Opdat ik niet gerekend word’,",
+        "Met die in ’t graf zijn neergestort."
+      ],
+      "syllables": [
+        ["Ik", "roep", "tot", "U,", "o", "eeu-", "wig", "We-", "zen!"],
+        ["Mijn", "rots-", "steen,", "nooit", "naar", "eis", "vol-", "pre-", "zen."],
+        ["Wend", "niet,", "als", "doof,", "van", "mij", "Uw", "o-", "ren!"],
+        ["Zwijg", "niet;", "laat", "mij", "Uw", "ant-", "woord", "ho-", "ren."],
+        ["Opdat", "ik", "niet", "ge-", "re-", "kend", "wor-", "d’,"],
+        ["Met", "die", "in", "’t graf", "zijn", "neer-", "ge-", "stort."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Hoor naar mijn stem en kermend smeken,",
+        "Als ik mijn handen op zal steken,",
+        "Naar d’ aanspraakplaats, uw heilge woning.",
+        "Trek mij niet weg, o Opperkoning,",
+        "Met hen, wier argelistigheid,",
+        "In schijn van vrede, kwaad bereidt."
+      ],
+      "syllables": [
+        ["Hoor", "naar", "mijn", "stem", "en", "ker-", "mend", "sme-", "ken,"],
+        ["Als", "ik", "mijn", "han-", "den", "op", "zal", "ste-", "ken,"],
+        ["Naar", "d’aan-", "spraak-", "plaats,", "uw", "heil-", "ge", "wo-", "ning."],
+        ["Trek", "mij", "niet", "weg,", "o", "Op-", "per-", "ko-", "ning,"],
+        ["Met", "hen,", "wier", "ar-", "ge-", "lis-", "tig-", "heid,"],
+        ["In", "schijn", "van", "vre-", "de,", "kwaad", "be-", "reidt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Doe ’t kwade, bij hen ondernomen,",
+        "Op hen, naar hun verdiensten, komen.",
+        "Geef hun, opdat z’Uw hoogheid merken,",
+        "Naar hun verkeerd’ en boze werken.",
+        "Dat Uw gestrenge geselroê",
+        "Hun, naar het recht, vergelding doe."
+      ],
+      "syllables": [
+        ["Doe", "’t kwa-", "de,", "bij", "hen", "on-", "der-", "no-", "men,"],
+        ["Op", "hen,", "naar", "hun", "ver-", "dien-", "sten,", "ko-", "men."],
+        ["Geef", "hun,", "op-", "dat", "z’Uw", "hoog-", "heid", "mer-", "ken,"],
+        ["Naar", "hun", "ver-", "keer-", "d’en", "bo-", "ze", "wer-", "ken."],
+        ["Dat", "Uw", "ge-", "stren-", "ge", "ge-", "sel-", "roê"],
+        ["Hun,", "naar", "het", "recht,", "ver-", "gel-", "ding", "doe."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Omdat zij nooit naar ’t werk des HEEREN,",
+        "Oplettend hart of ogen keren;",
+        "Maar onbedacht en stout versmaden,",
+        "Het oogwit Zijner grote daden,",
+        "Zal Hij hen doen te gronde gaan.",
+        "Ontbloot van hulp om op te staan."
+      ],
+      "syllables": [
+        ["Om-", "dat", "zij", "nooit", "naar", "’t werk", "des", "HEE-", "REN,"],
+        ["Op-", "let-", "tend", "hart", "of", "o-", "gen", "ke-", "ren;"],
+        ["Maar", "on-", "be-", "dacht", "en", "stout", "ver-", "sma-", "den,"],
+        ["Het", "oog-", "wit", "Zij-", "ner", "gro-", "te", "da-", "den,"],
+        ["Zal", "Hij", "hen", "doen", "te", "gron-", "de", "gaan."],
+        ["Ont-", "bloot", "van", "hulp", "om", "op", "te", "staan."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Geloofd zij God, wiens open oren,",
+        "Mijn smeekstem gunstig wilden horen.",
+        "Hij is mijn sterkt’ en schild in ’t strijden,",
+        "’k Vertrouwd’ op Hem, Hij hielp m’ uit lijden;",
+        "Dies springt mijn hart van juichensstof,",
+        "En zingt des Allerhoogsten lof."
+      ],
+      "syllables": [
+        ["Ge-", "loofd", "zij", "God,", "wiens", "o-", "pen", "o-", "ren,"],
+        ["Mijn", "smeek-", "stem", "gun-", "stig", "wil-", "den", "ho-", "ren."],
+        ["Hij", "is", "mijn", "sterkt’", "en", "schild", "in", "’t strij-", "den,"],
+        ["’k Ver-", "trouw-", "d’op", "Hem,", "Hij", "hielp", "m’uit", "lij-", "den;"],
+        ["Dies", "springt", "mijn", "hart", "van", "jui-", "chens-", "stof,"],
+        ["En", "zingt", "des", "Al-", "ler-", "hoog-", "sten", "lof."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "God geeft Zijn gunstvolk moed en krachten,",
+        "Hij zal, in weerwil aller machten,",
+        "Zijn Rijksgezalfde staag behoeden,",
+        "Red, HEER’, Uw Isrel uit al ’t woeden.",
+        "Geef zegen aan Uw erv’, en weid",
+        "Uw volk, verhef z’in eeuwigheid."
+      ],
+      "syllables": [
+        ["God", "geeft", "Zijn", "gunst-", "volk", "moed", "en", "krach-", "ten,"],
+        ["Hij", "zal,", "in", "weer-", "wil", "al-", "ler", "mach-", "ten,"],
+        ["Zijn", "Rijks-", "ge-", "zalf-", "de", "staag", "be-", "hoe-", "den,"],
+        ["Red,", "HEER’,", "Uw", "Is-", "rel", "uit", "al", "’t woe-", "den."],
+        ["Geef", "ze-", "gen", "aan", "Uw", "erv’,", "en", "weid"],
+        ["Uw", "volk,", "ver-", "hef", "z’in", "eeu-", "wig-", "heid."]
+      ]
+    }
+  ]
+}

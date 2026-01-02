@@ -1,0 +1,185 @@
+{
+  "id": "psalm-024",
+  "number": 24,
+  "title": "Psalm 24",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Lyon 1548)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Al d’ aard’ en alles wat zij geeft,",
+        "Met al wat zich beweegt en leeft,",
+        "Zijn ’t wettig eigendom des HEEREN.",
+        "Hij heeft z’, in haren ochtendstond,",
+        "Op ongemeten zeên gegrond,",
+        "Doorsneden met rivier en meren."
+      ],
+      "syllables": [
+        ["Al", "d’aar-", "d’en", "al-", "les", "wat", "zij", "geeft,"],
+        ["Met", "al", "wat", "zich", "be-", "weegt", "en", "leeft,"],
+        ["Zijn", "’t wet-", "tig", "ei-", "gen-", "dom", "des", "HEE-", "REN."],
+        ["Hij", "heeft", "z’,", "in", "haren", "och-", "tend-", "stond,"],
+        ["Op", "on-", "ge-", "me-", "ten", "zeên", "ge-", "grond,"],
+        ["Door-", "sne-", "den", "met", "ri-", "vier", "en", "me-", "ren."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Wie klimt den berg des HEEREN op?",
+        "Wie zal dien Godgewijden top,",
+        "Voor ’t oog van Sions God, betreden?",
+        "De man, die, rein van hart en hand,",
+        "Zich niet aan ijdelheid verpandt,",
+        "En geen bedrog pleegt in zijn eden."
+      ],
+      "syllables": [
+        ["Wie", "klimt", "den", "berg", "des", "HEE-", "REN", "op?"],
+        ["Wie", "zal", "dien", "God-", "ge-", "wij-", "den", "top,"],
+        ["Voor", "’t oog", "van", "Si-", "ons", "God,", "be-", "tre-", "den?"],
+        ["De", "man,", "die,", "rein", "van", "hart", "en", "hand,"],
+        ["Zich", "niet", "aan", "ij-", "del-", "heid", "ver-", "pandt,"],
+        ["En", "geen", "be-", "drog", "pleegt", "in", "zijn", "e-", "den."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Die zal, door ’s HEEREN gunst geleid,",
+        "En zegen en gerechtigheid",
+        "Van God, den God zijns heils ontvangen.",
+        "Dit ’s Jakob, dit is ’t vroom geslacht,",
+        "Dat naar God vraagt, Zijn wet betracht",
+        "En zoekt Zijn aanschijn met verlangen."
+      ],
+      "syllables": [
+        ["Die", "zal,", "door", "’s HEE-", "REN", "gunst", "ge-", "leid,"],
+        ["En", "ze-", "gen", "en", "ge-", "rech-", "tig-", "heid"],
+        ["Van", "God,", "den", "God", "zijns", "heils", "ont-", "van-", "gen."],
+        ["Dit", "’s Ja-", "kob,", "dit", "is", "’t vroom", "ge-", "slacht,"],
+        ["Dat", "naar", "God", "vraagt,", "Zijn", "wet", "be-", "tracht"],
+        ["En", "zoekt", "Zijn", "aan-", "schijn", "met", "ver-", "lan-", "gen."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Verhoogt, o poorten, nu den boog!",
+        "Rijst, eeuwge deuren, rijst omhoog!",
+        "Opdat de Koning in moog’ rijden.",
+        "Wie is die Vorst, zo groot in eer?",
+        "’t Is God, d’ almachtig, Opperheer.",
+        "’t Is God, geweldig in het strijden."
+      ],
+      "syllables": [
+        ["Ver-", "hoogt,", "o", "poor-", "ten,", "nu", "den", "boog!"],
+        ["Rijst,", "eeuw-", "ge", "deu-", "ren,", "rijst", "om-", "hoog!"],
+        ["Op-", "dat", "de", "Ko-", "ning", "in", "moog’", "rij-", "den."],
+        ["Wie", "is", "die", "Vorst,", "zo", "groot", "in", "eer?"],
+        ["’t Is", "God,", "d’al-", "mach-", "tig,", "Op-", "per-", "heer."],
+        ["’t Is", "God,", "ge-", "wel-", "dig", "in", "het", "strij-", "den."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Verhoogt, o poorten, nu den boog!",
+        "Rijst, eeuwge deuren, rijst omhoog!",
+        "Opdat g’uw Koning moogt ontvangen.",
+        "Wie is die Vorst, zo groot in kracht?",
+        "’t Is ’t Hoofd van ’s hemels legermacht;",
+        "Hem eren wij met lofgezangen."
+      ],
+      "syllables": [
+        ["Ver-", "hoogt,", "o", "poor-", "ten,", "nu", "den", "boog!"],
+        ["Rijst,", "eeuw-", "ge", "deu-", "ren,", "rijst", "om-", "hoog!"],
+        ["Op-", "dat", "g’uw", "Ko-", "ning", "moogt", "ont-", "van-", "gen."],
+        ["Wie", "is", "die", "Vorst,", "zo", "groot", "in", "kracht?"],
+        ["’t Is", "’t Hoofd", "van", "’s he-", "mels", "le-", "ger-", "macht;"],
+        ["Hem", "e-", "ren", "wij", "met", "lof-", "ge-", "zan-", "gen."]
+      ]
+    }
+  ]
+}
