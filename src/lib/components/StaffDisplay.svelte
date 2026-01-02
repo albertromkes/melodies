@@ -52,6 +52,10 @@
           // VexFlow wraps content in a group with the scale transform
           const vexflowGroup = svg.querySelector('g') || svg;
           
+          // Use a fixed small font size that won't overlap at any zoom level
+          // At higher zoom, notes are closer in coordinate space, so we need small text
+          const lyricsFontSize = 11;
+          
           // Get all staves to find note positions per line
           const staves = svg.querySelectorAll('.vf-stave');
           
@@ -133,6 +137,7 @@
                     textEl.setAttribute('y', String(lyricsY));
                     textEl.setAttribute('class', 'lyrics-syllable');
                     textEl.setAttribute('fill', 'currentColor');
+                    textEl.setAttribute('font-size', `${lyricsFontSize}px`);
                     textEl.textContent = noteData.syllable;
                     vexflowGroup.appendChild(textEl);
                   }
@@ -179,6 +184,7 @@
                   textEl.setAttribute('y', String(lyricsY));
                   textEl.setAttribute('class', 'lyrics-line');
                   textEl.setAttribute('fill', 'currentColor');
+                  textEl.setAttribute('font-size', `${lyricsFontSize}px`);
                   textEl.setAttribute('textLength', String(textWidth));
                   textEl.setAttribute('lengthAdjust', 'spacing');
                   textEl.textContent = measure.lyrics;

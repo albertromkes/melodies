@@ -112,25 +112,27 @@
     <button class="back-btn" onclick={onBack} aria-label="Back to psalm list">
       ←
     </button>
-    <h1 class="psalm-title">Psalm {psalm.number}</h1>
-    <div class="scale-controls">
-      <button 
-        class="scale-btn" 
-        onclick={decreaseScale} 
-        disabled={scale <= MIN_SCALE}
-        aria-label="Decrease notation size"
-      >
-        −
-      </button>
-      <span class="scale-value">{Math.round(scale * 100)}%</span>
-      <button 
-        class="scale-btn" 
-        onclick={increaseScale} 
-        disabled={scale >= MAX_SCALE}
-        aria-label="Increase notation size"
-      >
-        +
-      </button>
+    <div class="header-center">
+      <h1 class="psalm-title">Psalm {psalm.number}</h1>
+      <div class="scale-controls">
+        <button 
+          class="scale-btn" 
+          onclick={decreaseScale} 
+          disabled={scale <= MIN_SCALE}
+          aria-label="Decrease notation size"
+        >
+          −
+        </button>
+        <span class="scale-value">{Math.round(scale * 100)}%</span>
+        <button 
+          class="scale-btn" 
+          onclick={increaseScale} 
+          disabled={scale >= MAX_SCALE}
+          aria-label="Increase notation size"
+        >
+          +
+        </button>
+      </div>
     </div>
   </header>
 
@@ -196,8 +198,15 @@
     color: var(--primary-color);
   }
 
-  .psalm-title {
+  .header-center {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .psalm-title {
     margin: 0;
     font-size: 1.1rem;
     color: var(--primary-color);
