@@ -249,18 +249,20 @@
   }
 
   .staff-container :global(.lyrics-line) {
-    font-family: serif;
-    font-size: 14px;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    /* font-style: italic; */
+    font-weight: 400;
     fill: #1a1a2e;
   }
 
   .staff-container :global(.lyrics-syllable) {
-    font-family: serif;
-    font-size: 14px;
-    font-style: italic;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 17px;
+    /* font-style: italic; */
+    font-weight: 400;
     fill: #1a1a2e;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
   }
 
   .staff-container :global(.melisma-line) {

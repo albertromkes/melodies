@@ -1,7 +1,6 @@
 <script lang="ts">
   import type { PsalmData, Measure, VerseLyrics } from '../types/music';
   import StaffDisplay from './StaffDisplay.svelte';
-  import TransposeControls from './TransposeControls.svelte';
   import VerseSelector from './VerseSelector.svelte';
 
   interface Props {
@@ -114,24 +113,50 @@
     </button>
     <div class="header-center">
       <h1 class="psalm-title">Psalm {psalm.number}</h1>
-      <div class="scale-controls">
-        <button 
-          class="scale-btn" 
-          onclick={decreaseScale} 
-          disabled={scale <= MIN_SCALE}
-          aria-label="Decrease notation size"
-        >
-          −
-        </button>
-        <span class="scale-value">{Math.round(scale * 100)}%</span>
-        <button 
-          class="scale-btn" 
-          onclick={increaseScale} 
-          disabled={scale >= MAX_SCALE}
-          aria-label="Increase notation size"
-        >
-          +
-        </button>
+      <div class="header-controls">
+        <div class="transpose-controls">
+          <button 
+            class="control-btn" 
+            onclick={() => transposeSemitones--}
+            aria-label="Transpose down one semitone"
+          >
+            −1
+          </button>
+          <button 
+            class="control-btn original-btn" 
+            class:active={transposeSemitones === 0}
+            onclick={() => transposeSemitones = 0}
+            aria-label="Reset to original key"
+          >
+            Original
+          </button>
+          <button 
+            class="control-btn" 
+            onclick={() => transposeSemitones++}
+            aria-label="Transpose up one semitone"
+          >
+            +1
+          </button>
+        </div>
+        <div class="scale-controls">
+          <button 
+            class="control-btn" 
+            onclick={decreaseScale} 
+            disabled={scale <= MIN_SCALE}
+            aria-label="Decrease notation size"
+          >
+            −
+          </button>
+          <span class="scale-value">{Math.round(scale * 100)}%</span>
+          <button 
+            class="control-btn" 
+            onclick={increaseScale} 
+            disabled={scale >= MAX_SCALE}
+            aria-label="Increase notation size"
+          >
+            +
+          </button>
+        </div>
       </div>
     </div>
   </header>
@@ -144,13 +169,6 @@
       {transposeSemitones}
       {showLyrics}
       {scale}
-    />
-  </section>
-
-  <section class="controls-section">
-    <TransposeControls
-      currentSemitones={transposeSemitones}
-      onTranspose={handleTranspose}
     />
   </section>
 
@@ -204,6 +222,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    flex-wrap: wrap;
   }
 
   .psalm-title {
@@ -212,17 +231,25 @@
     color: var(--primary-color);
   }
 
+  .header-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .transpose-controls,
   .scale-controls {
     display: flex;
     align-items: center;
     gap: 0.15rem;
   }
 
-  .scale-btn {
-    width: 24px;
+  .control-btn {
+    min-width: 24px;
     height: 24px;
-    font-size: 0.875rem;
-    font-weight: bold;
+    padding: 0 0.3rem;
+    font-size: 0.75rem;
+    font-weight: 500;
     border: 1px solid var(--border-color);
     border-radius: 4px;
     background: var(--bg-color);
@@ -234,14 +261,24 @@
     justify-content: center;
   }
 
-  .scale-btn:hover:not(:disabled) {
+  .control-btn:hover:not(:disabled) {
     border-color: var(--primary-color);
     color: var(--primary-color);
   }
 
-  .scale-btn:disabled {
+  .control-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+  }
+
+  .control-btn.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+  }
+
+  .original-btn {
+    font-size: 0.65rem;
   }
 
   .scale-value {
@@ -275,18 +312,27 @@
     }
 
     .psalm-title {
-      font-size: 1rem;
+      font-size: 0.9rem;
     }
 
-    .scale-btn {
-      width: 22px;
-      height: 22px;
-      font-size: 0.8rem;
+    .header-controls {
+      gap: 0.3rem;
+    }
+
+    .control-btn {
+      min-width: 20px;
+      height: 20px;
+      font-size: 0.65rem;
+      padding: 0 0.2rem;
+    }
+
+    .original-btn {
+      font-size: 0.55rem;
     }
 
     .scale-value {
-      font-size: 0.65rem;
-      min-width: 1.8rem;
+      font-size: 0.6rem;
+      min-width: 1.6rem;
     }
   }
 </style>
