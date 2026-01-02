@@ -7,25 +7,49 @@
     2. Scrapes verses from elrenkema.nl
     3. Outputs complete psalm JSON in the application format
 
-.PARAMETER PsalmNumber
-    The psalm number to generate (required).
+.PARAMETER PsalmRange
+    The psalm number(s) to generate. Can be a single number (e.g., "3") 
+    or a range (e.g., "23-30" generates psalms 23 through 30).
 
 .PARAMETER OutputFile
-    Output file path. Defaults to psalm-{number}_generated.json
+    Output file path. Only used when generating a single psalm.
+    Defaults to psalm-{number}.json in the data folder.
 
 .EXAMPLE
-    .\generate-psalms.ps1 -PsalmNumber 3
+    .\generate-psalms.ps1 -PsalmRange 3
     Generates Psalm 3 JSON file.
+
+.EXAMPLE
+    .\generate-psalms.ps1 -PsalmRange 23-30
+    Generates Psalm 23, 24, 25, 26, 27, 28, 29, and 30 JSON files.
 #>
 
 param(
     [Parameter(Mandatory = $true, Position = 0)]
-    [int]$PsalmNumber,
+    [Alias("PsalmNumber")]
+    [string]$PsalmRange,
     
     [string]$InputFile = "$PSScriptRoot\psalm-melodys.txt",
     
     [string]$OutputFile = ""
 )
+
+# Parse the psalm range
+$psalmNumbers = @()
+if ($PsalmRange -match '^(\d+)-(\d+)$') {
+    $start = [int]$Matches[1]
+    $end = [int]$Matches[2]
+    if ($start -gt $end) {
+        Write-Error "Invalid range: start ($start) must be less than or equal to end ($end)"
+        exit 1
+    }
+    $psalmNumbers = $start..$end
+} elseif ($PsalmRange -match '^\d+$') {
+    $psalmNumbers = @([int]$PsalmRange)
+} else {
+    Write-Error "Invalid psalm range format. Use a single number (e.g., '3') or a range (e.g., '23-30')"
+    exit 1
+}
 
 $ErrorActionPreference = "Stop"
 $ProgressPreference = "SilentlyContinue"
@@ -868,21 +892,36 @@ function Get-DutchSyllables {
 # MAIN: Combineer melodie en verzen
 # ============================================================================
 
-Write-Host "`n=== Psalm $PsalmNumber genereren ===" -ForegroundColor Cyan
-
-# 1. Haal melodie op
-Write-Host "`n[1] Melodie ophalen uit: $InputFile" -ForegroundColor Yellow
-
 if (-not (Test-Path $InputFile)) {
     Write-Error "Input file niet gevonden: $InputFile"
     exit 1
 }
 
+$totalPsalms = $psalmNumbers.Count
+$currentPsalm = 0
+$successCount = 0
+$failedPsalms = @()
+
+foreach ($PsalmNumber in $psalmNumbers) {
+    $currentPsalm++
+    
+    if ($totalPsalms -gt 1) {
+        Write-Host "`n================================================================================" -ForegroundColor Magenta
+        Write-Host "  Psalm $PsalmNumber ($currentPsalm van $totalPsalms)" -ForegroundColor Magenta
+        Write-Host "================================================================================" -ForegroundColor Magenta
+    } else {
+        Write-Host "`n=== Psalm $PsalmNumber genereren ===" -ForegroundColor Cyan
+    }
+
+    # 1. Haal melodie op
+    Write-Host "`n[1] Melodie ophalen uit: $InputFile" -ForegroundColor Yellow
+
 $psalmMelody = Get-PsalmMelodyFromAbc -FilePath $InputFile -PsalmNum $PsalmNumber
 
 if (-not $psalmMelody) {
-    Write-Error "Psalm $PsalmNumber niet gevonden in $InputFile"
-    exit 1
+    Write-Warning "Psalm $PsalmNumber niet gevonden in $InputFile - overgeslagen"
+    $failedPsalms += $PsalmNumber
+    continue
 }
 
 Write-Host "  Titel: $($psalmMelody.Title)" -ForegroundColor Gray
@@ -969,16 +1008,16 @@ $jsonObj = [ordered]@{
 }
 
 # Bepaal output bestand
-if (-not $OutputFile) {
-    #$OutputFile = "$PSScriptRoot\Psalm${PsalmNumber}_generated.json"
-    $OutputFile = "$PSScriptRoot\src\lib\data\psalms\psalm-${PsalmNumber}.json"
+$currentOutputFile = $OutputFile
+if (-not $currentOutputFile) {
+    $currentOutputFile = "$PSScriptRoot\src\lib\data\psalms\psalm-${PsalmNumber}.json"
 }
 
 # Converteer naar JSON met goede formatting
 $json = $jsonObj | ConvertTo-Json -Depth 10
 
 # Schrijf naar bestand
-$json | Out-File -FilePath $OutputFile -Encoding UTF8
+$json | Out-File -FilePath $currentOutputFile -Encoding UTF8
 
 Write-Host "`n[6] JSON formatteren met format-psalm.js" -ForegroundColor Yellow
 
@@ -986,7 +1025,7 @@ Write-Host "`n[6] JSON formatteren met format-psalm.js" -ForegroundColor Yellow
 $formatScript = "$PSScriptRoot\format-psalm.js"
 if (Test-Path $formatScript) {
     try {
-        $nodeResult = & node $formatScript $OutputFile 2>&1
+        $nodeResult = & node $formatScript $currentOutputFile 2>&1
         Write-Host "  $nodeResult" -ForegroundColor Gray
     } catch {
         Write-Warning "Kon format-psalm.js niet uitvoeren: $($_.Exception.Message)"
@@ -995,7 +1034,25 @@ if (Test-Path $formatScript) {
     Write-Warning "format-psalm.js niet gevonden op: $formatScript"
 }
 
-Write-Host "`n=== Klaar! ===" -ForegroundColor Green
-Write-Host "Output: $OutputFile" -ForegroundColor Cyan
+Write-Host "`n  Psalm $PsalmNumber voltooid!" -ForegroundColor Green
+Write-Host "  Output: $currentOutputFile" -ForegroundColor Cyan
 Write-Host "  - $($measures.Count) maten in melodie"
 Write-Host "  - $($verses.Count) verzen met tekst"
+    
+$successCount++
+
+}  # End foreach loop
+
+# Summary
+if ($totalPsalms -gt 1) {
+    Write-Host "`n================================================================================" -ForegroundColor Magenta
+    Write-Host "  SAMENVATTING" -ForegroundColor Magenta
+    Write-Host "================================================================================" -ForegroundColor Magenta
+    Write-Host "  Succesvol gegenereerd: $successCount van $totalPsalms psalmen" -ForegroundColor $(if ($successCount -eq $totalPsalms) { "Green" } else { "Yellow" })
+    
+    if ($failedPsalms.Count -gt 0) {
+        Write-Host "  Mislukt: $($failedPsalms -join ', ')" -ForegroundColor Red
+    }
+} else {
+    Write-Host "`n=== Klaar! ===" -ForegroundColor Green
+}

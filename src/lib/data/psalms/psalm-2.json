@@ -145,7 +145,7 @@
         ["Wat", "drift", "be-", "heerst", "het", "woe-", "dend", "hei-", "den-", "dom,"],
         ["En", "heeft", "het", "hart", "der-", "vol-", "ken", "in-", "ge-", "no-", "men?"],
         ["De", "ko-", "nin-", "gen", "ver-", "hef-", "fen", "zich", "al-", "om,"],
-        ["De", "vor-", "sten", "zijn", "ver-", "me-", "tel", "saam-", "ge-", "ko-", "-", "men"],
+        ["De", "vor-", "sten", "zijn", "ver-", "me-", "tel", "saam-", "ge-", "ko-", "men,", "-"],
         ["Om", "God,", "den", "HEER’,", "zelfs", "naar", "de", "kroon", "te", "ste-", "ken,"],
         ["En", "te-", "gen", "Zijn", "Ge-", "zalf-", "de", "op", "te", "staan."],
         ["Zij", "spre-", "ken", "saam:", "„Laat", "ons", "hun", "ban-", "den", "bre-", "ken,"],
@@ -168,7 +168,7 @@
         ["Maar", "d’Op-", "per-", "heer,", "die", "Zijn", "ge-", "duch-", "ten", "stoel"],
         ["Op", "star-", "ren", "sticht,", "en", "grond-", "vest", "op", "de", "wol-", "ken,"],
         ["Zal", "la-", "chen", "met", "dat", "vruch-", "te-", "loos", "ge-", "woel,"],
-        ["En", "spot-", "ten", "met", "den", "waan", "der-", "dwa-", "ze", "vol-", "-", "ken"],
+        ["En", "spot-", "ten", "met", "den", "waan", "der-", "dwa-", "ze", "vol-","-", "ken,"],
         ["God", "zal", "Zijn", "wraak", "ont-", "dek-", "ken", "voor", "hun", "o-", "gen."],
         ["Straks", "gloeit", "de", "lucht", "door", "’t vlam-", "mend", "blik-", "sem-", "licht;"],
         ["’t Is", "God", "die", "spreekt;", "Hij", "don-", "dert", "uit", "den", "ho-", "ge,"],
@@ -191,7 +191,7 @@
         ["„Durft", "gij", "be-", "staan", "te", "twis-", "ten", "met", "Mijn", "kracht?"],
         ["Zal", "nie-", "tig", "stof", "Mij", "’t hoog", "ge-", "zag", "ont-", "wrin-", "gen,"],
         ["Of", "weer-", "stand", "biên", "aan", "Mijn", "ge-", "duch-", "te", "macht?"],
-        ["Ont-", "ziet", "Mijn", "toorn,", "ver-", "dool-", "de", "ster-", "ve-", "lin-", "-", "gen."],
+        ["Ont-", "ziet", "Mijn", "toorn,", "ver-", "dool-", "de", "ster-", "ve-", "lin-", "-", "gen." ],
         ["Gij", "zult", "ver-", "geefs", "Mijn", "rijks-", "be-", "stel", "weer-", "stre-", "ven."],
         ["Mijn", "Ko-", "ning", "is", "ge-", "zalfd", "door", "Mijn", "be-", "leid;"],
         ["Hij,", "door", "Mijn", "hand", "op", "Si-", "ons", "troon", "ver-", "he-", "ven,"],
@@ -214,9 +214,9 @@
         ["„En", "Ik,", "die", "Vorst,", "met", "zo-", "veel", "macht", "be-", "deeld,"],
         ["Zal", "Gods", "be-", "sluit", "aan", "’t we-", "reld-", "rond", "doen", "ho-", "ren."],
         ["Hij", "sprak", "tot", "Mij:", "„’k", "Heb", "heden", "U", "ge-", "teeld;"],
-        ["Gij", "zijt", "Mijn", "Zoon,", "Gij", "zijt", "Mijn", "een", "ge-", "bo-", "-", "ren;"],
+        ["Gij", "zijt", "Mijn", "Zoon,", "Gij", "zijt", "Mijn", "een", "ge-", "bo-", "-","ren;"],
         ["Zeg", "vrij", "Uw", "eis;", "Ik", "zal", "Uw", "macht", "ver-", "ho-", "gen,"],
-        ["Op-", "dat", "Uw", "Naam", "al-", "om", "ontzag-", "’lijk", "zij;", "-"],
+        ["Op-", "dat", "Uw", "Naam", "al-", "om", "ont-", "zag-", "’lijk", "zij;"],
         ["Het", "hei-", "den-", "dom", "ligg’", "voor", "Uw", "stoel", "ge-", "bo-", "gen,"],
         ["En", "’t eind", "der-", "aard", "er-", "ken-", "n’Uw", "heer-", "schap-", "pij.”"]
       ]
@@ -237,7 +237,7 @@
         ["„Uw", "ijz-", "’ren", "staf,", "die", "al", "hun", "macht", "ver-", "plet,"],
         ["Maak’", "hen", "eer-", "lang", "eer-", "bie-", "dig’", "on-", "der-", "za-", "ten,"],
         ["En", "nood-", "zaak,", "hen", "te", "bui-", "gen", "voor", "Uw", "wet,"],
-        ["Of", "sla", "z’aan", "gruis,", "als", "pot-", "ten-", "bak-", "kers-", "va-","-", "ten!”"],
+        ["Of", "sla", "z’aan", "gruis,", "als", "pot-", "ten-", "bak-", "kers-", "va-", "-","ten!”"],
         ["O", "vor-", "sten,", "wilt", "de", "wet", "der-", "wijs-", "heid", "ho-", "ren,"],
         ["Eer", "gij", "God", "zelv’", "en", "Zijn", "Ge-", "zalf-", "de", "hoont."],
         ["O", "rech-", "ters,", "tot", "den", "stoel", "de-", "reer", "ge-", "ko-", "ren,"],
@@ -260,7 +260,7 @@
         ["Vreest", "’s HEE-", "REN", "macht", "en", "dient", "Zijn", "Ma-", "jes-", "teit;"],
         ["Juicht,", "be-", "vend", "op", "’t ge-", "zicht", "van", "Zijn", "ver-", "mo-", "gen,"],
         ["En", "kust", "den", "Zoon,", "van", "ouds", "u", "toe-", "ge-", "zeid;"],
-        ["Eer", "u", "Zijn", "toorn", "ver-", "delg", "’voor", "al-", "ler", "o-", "-", "gen,"],
+        ["Eer", "u", "Zijn", "toorn", "ver-", "del", "’voor", "al-", "ler", "o-", "-","gen,"],
         ["U", "op", "uw’", "weg", "tot", "stof", "doe", "we-", "der-", "ke-", "ren;"],
         ["Wan-", "neer", "Zijn", "wraak,", "ge-", "tergd", "door", "uw", "ge-", "drag,"],
         ["U,", "on-", "ver-", "hoeds,", "zou", "door", "haar", "gloed", "ver-", "te-", "ren,"],
@@ -279,7 +279,7 @@
         ["Wel-", "za-", "lig", "zij,", "die,", "naar", "Zijn", "rei-", "ne", "leer,"],
         ["In", "Hem", "hun", "heil,", "hun", "hoogst", "ge-", "luk", "be-", "schou-", "wen."],
         ["Die", "Si-", "ons", "Vorst", "er-", "ken-", "nen", "voor", "hun", "HEER’;"],
-        ["Wel-", "za-", "lig", "zij,", "die", "vast", "op", "Hem", "be-", "trou-", "-", "wen."]
+        ["Wel-", "za-", "lig", "zij,", "die", "vast", "op", "Hem", "be-", "trou-", "-","wen."]
       ]
     }
   ]
