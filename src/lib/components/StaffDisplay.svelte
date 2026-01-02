@@ -10,26 +10,13 @@
     timeSignature: [number, number];
     transposeSemitones: number;
     showLyrics: boolean;
+    scale: number;
   }
 
-  let { measures, keySignature, timeSignature, transposeSemitones, showLyrics }: Props = $props();
+  let { measures, keySignature, timeSignature, transposeSemitones, showLyrics, scale }: Props = $props();
 
   let containerRef: HTMLDivElement | null = $state(null);
   let containerWidth = $state(600);
-  
-  // Scale state with min/max bounds
-  let scale = $state(1.0);
-  const MIN_SCALE = 0.6;
-  const MAX_SCALE = 2.0;
-  const SCALE_STEP = 0.1;
-
-  function increaseScale() {
-    scale = Math.min(MAX_SCALE, Math.round((scale + SCALE_STEP) * 10) / 10);
-  }
-
-  function decreaseScale() {
-    scale = Math.max(MIN_SCALE, Math.round((scale - SCALE_STEP) * 10) / 10);
-  }
 
   // Compute transposed key first (needed for note transposition with accidentals)
   let displayKey = $derived(getTransposedKey(keySignature, transposeSemitones));
@@ -224,26 +211,6 @@
 </script>
 
 <div class="staff-display">
-  <div class="scale-controls">
-    <button 
-      class="scale-btn" 
-      onclick={decreaseScale} 
-      disabled={scale <= MIN_SCALE}
-      aria-label="Decrease notation size"
-    >
-      −
-    </button>
-    <span class="scale-value">{Math.round(scale * 100)}%</span>
-    <button 
-      class="scale-btn" 
-      onclick={increaseScale} 
-      disabled={scale >= MAX_SCALE}
-      aria-label="Increase notation size"
-    >
-      +
-    </button>
-  </div>
-  
   <div
     bind:this={containerRef}
     class="staff-container"
@@ -256,61 +223,16 @@
   .staff-display {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .scale-controls {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 0.5rem;
-    padding: 0.5rem 1rem;
-    background: var(--staff-bg);
-    border-radius: 8px 8px 0 0;
-    border-bottom: 1px solid var(--border-color);
-  }
-
-  .scale-btn {
-    width: 32px;
-    height: 32px;
-    font-size: 1.25rem;
-    font-weight: bold;
-    border: 1px solid var(--border-color);
-    border-radius: 4px;
-    background: var(--bg-color);
-    color: var(--text-color);
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .scale-btn:hover:not(:disabled) {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
-  }
-
-  .scale-btn:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-  }
-
-  .scale-value {
-    font-size: 0.875rem;
-    color: var(--muted-color);
-    min-width: 3rem;
-    text-align: center;
   }
 
   .staff-container {
     width: 100%;
-    min-height: 200px;
+    min-height: 100px;
     background: var(--staff-bg);
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
     overflow-x: auto;
-    padding: 1rem;
-    padding-right: 3rem;
+    padding: 0.25rem;
+    padding-right: 1rem;
     /* Force dark color for musical notation on white background */
     color: #1a1a2e;
   }
@@ -329,12 +251,22 @@
 
   .staff-container :global(.lyrics-syllable) {
     font-family: serif;
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
     fill: #1a1a2e;
+    letter-spacing: 0.5px;
   }
 
   .staff-container :global(.melisma-line) {
     stroke: #1a1a2e;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .staff-container {
+      padding: 0.15rem;
+      padding-right: 0.5rem;
+      min-height: 80px;
+    }
   }
 </style>

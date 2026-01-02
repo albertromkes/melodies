@@ -90,15 +90,47 @@
   function handleToggleLyrics(show: boolean) {
     showLyrics = show;
   }
+
+  // Scale state for notation size
+  const isMobile = typeof window !== 'undefined' && window.innerWidth <= 640;
+  let scale = $state(isMobile ? 0.7 : 1.0);
+  const MIN_SCALE = 0.5;
+  const MAX_SCALE = 2.0;
+  const SCALE_STEP = 0.1;
+
+  function increaseScale() {
+    scale = Math.min(MAX_SCALE, Math.round((scale + SCALE_STEP) * 10) / 10);
+  }
+
+  function decreaseScale() {
+    scale = Math.max(MIN_SCALE, Math.round((scale - SCALE_STEP) * 10) / 10);
+  }
 </script>
 
 <div class="psalm-detail">
   <header class="psalm-header">
     <button class="back-btn" onclick={onBack} aria-label="Back to psalm list">
-      ← Back
+      ←
     </button>
-    <div class="psalm-title-section">
-      <h1>Psalm {psalm.number}</h1>
+    <h1 class="psalm-title">Psalm {psalm.number}</h1>
+    <div class="scale-controls">
+      <button 
+        class="scale-btn" 
+        onclick={decreaseScale} 
+        disabled={scale <= MIN_SCALE}
+        aria-label="Decrease notation size"
+      >
+        −
+      </button>
+      <span class="scale-value">{Math.round(scale * 100)}%</span>
+      <button 
+        class="scale-btn" 
+        onclick={increaseScale} 
+        disabled={scale >= MAX_SCALE}
+        aria-label="Increase notation size"
+      >
+        +
+      </button>
     </div>
   </header>
 
@@ -109,6 +141,7 @@
       timeSignature={psalm.timeSignature}
       {transposeSemitones}
       {showLyrics}
+      {scale}
     />
   </section>
 
@@ -134,20 +167,20 @@
   .psalm-detail {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    padding: 1rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
     max-width: 800px;
     margin: 0 auto;
   }
 
   .psalm-header {
     display: flex;
-    align-items: flex-start;
-    gap: 1rem;
+    align-items: center;
+    gap: 0.5rem;
   }
 
   .back-btn {
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     font-size: 0.875rem;
     border: 1px solid var(--border-color);
     border-radius: 4px;
@@ -163,14 +196,50 @@
     color: var(--primary-color);
   }
 
-  .psalm-title-section {
+  .psalm-title {
     flex: 1;
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--primary-color);
   }
 
-  .psalm-title-section h1 {
-    margin: 0;
-    font-size: 1.5rem;
+  .scale-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .scale-btn {
+    width: 24px;
+    height: 24px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scale-btn:hover:not(:disabled) {
+    border-color: var(--primary-color);
     color: var(--primary-color);
+  }
+
+  .scale-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+  }
+
+  .scale-value {
+    font-size: 0.7rem;
+    color: var(--muted-color);
+    min-width: 2rem;
+    text-align: center;
   }
 
   .staff-section {
@@ -178,5 +247,37 @@
     border-radius: 8px;
     border: 1px solid var(--border-color);
     overflow: hidden;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .psalm-detail {
+      gap: 0.35rem;
+      padding: 0.35rem;
+    }
+
+    .psalm-header {
+      gap: 0.35rem;
+    }
+
+    .back-btn {
+      padding: 0.2rem 0.4rem;
+      font-size: 0.7rem;
+    }
+
+    .psalm-title {
+      font-size: 1rem;
+    }
+
+    .scale-btn {
+      width: 22px;
+      height: 22px;
+      font-size: 0.8rem;
+    }
+
+    .scale-value {
+      font-size: 0.65rem;
+      min-width: 1.8rem;
+    }
   }
 </style>

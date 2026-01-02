@@ -147,4 +147,39 @@
     color: var(--muted-color);
     font-style: italic;
   }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .verse-selector {
+      gap: 0.5rem;
+      padding: 0.5rem;
+    }
+
+    .verse-header h3 {
+      font-size: 0.875rem;
+    }
+
+    .toggle-label {
+      font-size: 0.75rem;
+      gap: 0.25rem;
+    }
+
+    .verse-buttons {
+      gap: 0.25rem;
+    }
+
+    .verse-btn {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.75rem;
+    }
+
+    .verse-text {
+      padding: 0.5rem;
+    }
+
+    .verse-text p {
+      font-size: 0.875rem;
+      line-height: 1.4;
+    }
+  }
 </style>

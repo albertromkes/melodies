@@ -56,8 +56,8 @@
   .transpose-controls {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-    padding: 1rem;
+    gap: 0.5rem;
+    padding: 0.75rem;
     background: var(--card-bg);
     border-radius: 8px;
     border: 1px solid var(--border-color);
@@ -67,13 +67,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.75rem;
   }
 
   .transpose-btn {
-    width: 48px;
-    height: 48px;
-    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
     font-weight: bold;
     border: 2px solid var(--primary-color);
     border-radius: 50%;
@@ -93,10 +93,10 @@
   }
 
   .current-transposition {
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     color: var(--text-color);
-    min-width: 5rem;
+    min-width: 4rem;
     text-align: center;
   }
 
@@ -126,5 +126,37 @@
     background: var(--primary-color);
     border-color: var(--primary-color);
     color: white;
+  }
+
+  /* Mobile optimizations */
+  @media (max-width: 640px) {
+    .transpose-controls {
+      gap: 0.35rem;
+      padding: 0.5rem;
+    }
+
+    .transpose-main {
+      gap: 0.5rem;
+    }
+
+    .transpose-btn {
+      width: 32px;
+      height: 32px;
+      font-size: 0.875rem;
+    }
+
+    .current-transposition {
+      font-size: 0.875rem;
+      min-width: 3rem;
+    }
+
+    .transpose-presets {
+      gap: 0.25rem;
+    }
+
+    .preset-btn {
+      padding: 0.3rem 0.5rem;
+      font-size: 0.75rem;
+    }
   }
 </style>
