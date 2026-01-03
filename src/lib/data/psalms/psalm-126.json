@@ -1,0 +1,183 @@
+{
+  "id": "psalm-126",
+  "number": 126,
+  "title": "Psalm 126",
+  "category": "psalm",
+  "mode": "mixolydisch (Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Wanneer de HEER’, uit ’s vijands macht,",
+        "’t Gevangen Sion wederbracht,",
+        "En dat verlost’ uit nood en pijn,",
+        "Scheen ’t ons een blijde droom te zijn.",
+        "Wij lachten, juichten; onze tongen",
+        "Verhieven ’s HEEREN Naam en zongen.",
+        "Toen hieven zelfs de heid’ nen aan:",
+        "„De HEER’ heeft hun wat groots gedaan.”"
+      ],
+      "syllables": [
+        ["Wan-", "neer", "de", "HEER’,", "uit", "’s vij-", "ands", "macht,"],
+        ["’t Ge-", "van-", "gen", "Si-", "on", "we-", "der-", "bracht,"],
+        ["En", "dat", "ver-", "los-", "t’uit", "nood", "en", "pijn,"],
+        ["Scheen", "’t ons", "een", "blij-", "de", "droom", "te", "zijn."],
+        ["Wij", "lach-", "ten,", "juich-", "ten;", "o-", "n-", "ze", "ton-", "gen"],
+        ["Ver-", "hie-", "ven", "’s HEE-", "REN", "Naam", "en", "zon-", "gen."],
+        ["Toen", "hie-", "ven", "zelfs", "de", "heid’", "nen", "aan:"],
+        ["„De", "HEER’", "heeft", "hun", "wat", "groots", "ge-", "daan.”"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "God heeft bij ons wat groots verricht;",
+        "Hij zelf heeft onzen druk verlicht;",
+        "Hij heeft door wond’ ren ons bevrijd;",
+        "Dies juichen wij, en zijn verblijd.",
+        "Breng, HEER’, al Uw gevangnen weder;",
+        "Zie verder op Uw erfvolk neder;",
+        "Verkwik het, als de watervloed,",
+        "Die ’t zuiderland herleven doet."
+      ],
+      "syllables": [
+        ["God", "heeft", "bij", "ons", "wat", "groots", "ver-", "richt;"],
+        ["Hij", "zelf", "heeft", "o-", "n-", "zen", "druk", "ver-", "licht;"],
+        ["Hij", "heeft", "door", "wond’", "ren", "ons", "be-", "vrijd;"],
+        ["Dies", "jui-", "chen", "wij,", "en", "zijn", "ver-", "blijd."],
+        ["Breng,", "HEER’,", "al", "Uw", "ge-", "vang-", "nen", "we-", "der;"],
+        ["Zie", "ver-", "der", "op", "Uw", "e-", "rf-", "volk", "neder;"],
+        ["Ver-", "kwik", "het,", "als", "de", "wa-", "ter-", "vloed,"],
+        ["Die", "’t zui-", "der-", "land", "her-", "le-", "ven", "doet."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Die hier bedrukt met tranen zaait,",
+        "Zal juichen, als hij vruchten maait;",
+        "Die ’t zaad draagt, dat men zaaien zal,",
+        "Gaat wenend voort, en zaait het al;",
+        "Maar hij zal, zonder ramp te schromen,",
+        "Eerlang met blijdschap wederkomen,",
+        "En met gejuich, te goeder uur",
+        "Zijn schoven dragen in de schuur."
+      ],
+      "syllables": [
+        ["Die", "hier", "be-", "drukt", "met", "tra-", "nen", "zaait,"],
+        ["Zal", "jui-", "chen,", "als", "hij", "vruch-", "ten", "maait;"],
+        ["Die", "’t zaad", "draagt,", "dat", "men", "zaai-", "en", "zal,"],
+        ["Gaat", "we-", "nend", "voort,", "en", "zaait", "het", "al;"],
+        ["Maar", "hij", "zal,", "zon-", "der", "ramp", "te", "schro-", "men,"],
+        ["Eer-", "lang", "met", "blijd-", "schap", "we-", "der-", "ko-", "men,"],
+        ["En", "met", "ge-", "juich,", "te", "goe-", "der", "uur"],
+        ["Zijn", "scho-", "ven", "dra-", "gen", "in", "de", "schuur."]
+      ]
+    }
+  ]
+}

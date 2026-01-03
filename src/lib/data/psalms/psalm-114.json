@@ -1,0 +1,170 @@
+{
+  "id": "psalm-114",
+  "number": 114,
+  "title": "Psalm 114",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg 1539 / Lyon 1548)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Toen Israël ’t Egyptisch rijksgebied,",
+        "En ’t volk, zo vreemd van aard en taal, verliet,",
+        "Werd Juda God terwoning.",
+        "Hij wijdde zich dit volk ten heiligdom",
+        "En stichtte daar den troon, dien Hij beklom",
+        "Als Isrels God en Koning."
+      ],
+      "syllables": [
+        ["Toen", "I-", "s-", "ra-", "ël", "’t E-", "gyp-", "tisch", "rijks-", "ge-", "bied,"],
+        ["En", "’t volk,", "zo", "vreemd", "van", "aard", "en", "taal,", "ver-", "liet,"],
+        ["Werd", "Ju-", "da", "God", "ter-", "wo-", "ning."],
+        ["Hij", "wijd-", "de", "zich", "dit", "volk", "ten", "hei-", "lig-", "dom"],
+        ["En", "sticht-", "te", "daar", "den", "troon,", "dien", "Hij", "be-", "klom"],
+        ["Als", "I-", "s-", "rels", "God", "en", "Ko-", "ning."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Dit zag de zee met bevend’ ogen aan,",
+        "En vlood terug; de bruisende Jordaan",
+        "Werd achterwaarts gedreven.",
+        "Het hoog en laag gebergt’ sprong op in ’t rond,",
+        "Als ’t wollig vee, dat dartelt op den grond,",
+        "En deed de velden beven."
+      ],
+      "syllables": [
+        ["Dit", "zag", "de", "zee", "met", "be-", "vend’", "o-", "gen", "aan,"],
+        ["En", "vlood", "te-", "rug;", "de", "brui-", "sen-", "de", "Jor-", "daan"],
+        ["Werd", "a-", "ch-", "ter-", "waarts", "ge-", "dre-", "ven."],
+        ["Het", "hoog", "en", "laag", "ge-", "bergt’", "sprong", "op", "in", "’t rond,"],
+        ["Als", "’t wol-", "lig", "vee,", "dat", "dar-", "telt", "op", "den", "grond,"],
+        ["En", "deed", "de", "vel-", "den", "be-", "ven."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Wat was ’t, o zee, dat u zo vluchten deed?",
+        "En gij, Jordaan, wat angst, wat prangend leed,",
+        "Kon u teruggedringen?",
+        "Gij bergen, en gij heuvels, wat gerucht",
+        "Deed u met schrik dus steig’ren naar de lucht,",
+        "Als lammeren, die springen?"
+      ],
+      "syllables": [
+        ["Wat", "was", "’t,", "o", "zee,", "dat", "u", "zo", "vluchten", "deed?"],
+        ["En", "gij,", "Jor-", "daan,", "wat", "angst,", "wat", "pran-", "gend", "leed,"],
+        ["Kon", "u", "te-", "rug-", "ge-", "drin-", "gen?"],
+        ["Gij", "ber-", "gen,", "en", "gij", "heu-", "vels,", "wat", "ge-", "rucht"],
+        ["Deed", "u", "met", "schrik", "dus", "steig-", "’ren", "naar", "de", "lucht,"],
+        ["Als", "lam-", "me-", "ren,", "die", "sprin-", "gen?"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Beef aarde, beef voor ’s HEEREN aangezicht,",
+        "Voor Jakobs God, die uit het eeuwig licht",
+        "Zijn Isrel hulp wou zenden!",
+        "Hij is ’t, Wiens macht de rots verand’ ren kon",
+        "In enen vloed, den keisteen in een bron,",
+        "Voor Isrels matte benden."
+      ],
+      "syllables": [
+        ["Beef", "aar-", "de,", "beef", "voor", "’s HEE-", "REN", "aan-", "ge-", "zicht,"],
+        ["Voor", "Ja-", "kobs", "God,", "die", "uit", "het", "eeu-", "wig", "licht"],
+        ["Zijn", "I-", "s-", "rel", "hulp", "wou", "zen-", "den!"],
+        ["Hij", "is", "’t,", "Wiens", "macht", "de", "rots", "verand’", "ren", "kon"],
+        ["In", "e-", "nen", "vloed,", "den", "kei-", "steen", "in", "een", "bron,"],
+        ["Voor", "I-", "s-", "rels", "matte", "ben-", "den."]
+      ]
+    }
+  ]
+}

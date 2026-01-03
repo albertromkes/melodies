@@ -1,0 +1,109 @@
+{
+  "id": "psalm-134",
+  "number": 134,
+  "title": "Psalm 134",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Looft, looft nu aller heren HEER’,",
+        "Gij zijne knechten, geeft Hem eer,",
+        "Gij, die desnachts Zijn huis bewaakt",
+        "En voor Zijn dienst in ijver blaakt!"
+      ],
+      "syllables": [
+        ["Looft,", "looft", "nu", "a-", "l-", "ler", "heren", "HEER’,"],
+        ["Gij", "zij-", "ne", "knech-", "ten,", "geeft", "Hem", "eer,"],
+        ["Gij,", "die", "des-", "nachts", "Zijn", "huis", "be-", "waakt"],
+        ["En", "voor", "Zijn", "dienst", "in", "i-", "j-", "ver", "blaakt!"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Heft uwe handen naar omhoog,",
+        "Slaat naar het Heiligdom uw oog,",
+        "En knielt eerbiedig voor Hem neer:",
+        "Looft, looft nu aller heren HEER’!"
+      ],
+      "syllables": [
+        ["Heft", "uwe", "han-", "den", "naar", "o-", "m-", "hoog,"],
+        ["Slaat", "naar", "het", "Hei-", "lig-", "dom", "uw", "oog,"],
+        ["En", "knielt", "eer-", "bie-", "dig", "voor", "Hem", "neer:"],
+        ["Looft,", "looft", "nu", "a-", "l-", "ler", "heren", "HEER’!"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Dat ’s HEEREN zegen op u daal’;",
+        "Zijn gunst uit Sion u bestraal’.",
+        "Hij schiep ’t heelal, Zijn Naam tereer:",
+        "Looft, looft dan aller heren HEER’!"
+      ],
+      "syllables": [
+        ["Dat", "’s HEE-", "REN", "ze-", "gen", "op", "u", "daal’;"],
+        ["Zijn", "gunst", "uit", "Si-", "on", "u", "be-", "straal’."],
+        ["Hij", "schiep", "’t heel-", "al,", "Zijn", "Naam", "te-", "reer:"],
+        ["Looft,", "looft", "dan", "a-", "l-", "ler", "heren", "HEER’!"]
+      ]
+    }
+  ]
+}

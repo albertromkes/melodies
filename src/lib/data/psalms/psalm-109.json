@@ -1,0 +1,434 @@
+{
+  "id": "psalm-109",
+  "number": 109,
+  "title": "Psalm 109",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "O God, zo waardig mijn gezangen,",
+        "Zwijg niet, laat mij mijn recht erlangen.",
+        "De boze, die bedrog durft plegen,",
+        "Staat, wars van deugd, mij bitter tegen;",
+        "Hij heeft zijn mond wijd opgedaan,",
+        "Mij met een valse tong verraan."
+      ],
+      "syllables": [
+        ["O", "God,", "zo", "waar-", "dig", "mijn", "ge-", "zan-", "gen,"],
+        ["Zwijg", "niet,", "laat", "mij", "mijn", "recht", "e-", "r-", "lan-", "gen."],
+        ["De", "bo-", "ze,", "die", "be-", "drog", "durft", "ple-", "gen,"],
+        ["Staat,", "wars", "van", "deugd,", "mij", "bit-", "ter", "te-", "gen;"],
+        ["Hij", "heeft", "zijn", "mond", "wijd", "o-", "p-", "ge-", "daan,"],
+        ["Mij", "met", "een", "val-", "se", "tong", "ver-", "raan."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Z’omringden mij met boze woorden,",
+        "Die mij, als priemen, ’t hart doorboorden;",
+        "Ik werd op ’t allerfelst bestreden,",
+        "Verdrukt, mishandeld tegen reden.",
+        "’k Heb voor mijn liefde haat behaald;",
+        "Ik bad, maar ’k werd met vloek betaald."
+      ],
+      "syllables": [
+        ["Z-", "’om-", "ring-", "den", "mij", "met", "boze", "woor-", "den,"],
+        ["Die", "mij,", "als", "prie-", "men,", "’t hart", "door-", "boor-", "den;"],
+        ["Ik", "werd", "op", "’t a-", "l-", "ler-", "felst", "be-", "stre-", "den,"],
+        ["Ver-", "drukt,", "mis-", "han-", "deld", "te-", "gen", "re-", "den."],
+        ["’k Heb", "voor", "mijn", "lief-", "de", "haat", "be-", "haald;"],
+        ["Ik", "bad,", "maar", "’k werd", "met", "vloek", "be-", "taald."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zij hebben kwaad voor goed vergolden,",
+        "Voor liefde haat; mijn deugd gescholden.",
+        "Gij, God derwraak, straf dezen boze,",
+        "Stel over hem een goddeloze;",
+        "De satan bie hem tegenstand,",
+        "En sta aan zijne rechterhand."
+      ],
+      "syllables": [
+        ["Zij", "heb-", "ben", "kwaad", "voor", "goed", "ver-", "gol-", "den,"],
+        ["Voor", "lief-", "de", "haat;", "mijn", "deugd", "ge-", "schol-", "den."],
+        ["Gij,", "God", "der-", "wraak,", "straf", "de-", "zen", "bo-", "ze,"],
+        ["Stel", "o-", "ver", "hem", "een", "god-", "de-", "lo-", "ze;"],
+        ["De", "sa-", "tan", "bie", "hem", "te-", "gen-", "stand,"],
+        ["En", "sta", "aan", "zij-", "ne", "rech-", "ter-", "hand."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Verklaar hem schuldig in ’t gerichte;",
+        "Verdrijf hem van Uw aangezichte;",
+        "Houdt zijn gebeden zelfs voor zonden:",
+        "Hij heeft zich tegen God verbonden.",
+        "Verkort zijn dagen; vel hem neer;",
+        "Een ander neem’ zijn ambt en eer."
+      ],
+      "syllables": [
+        ["Ver-", "klaar", "hem", "schul-", "dig", "in", "’t ge-", "rich-", "te;"],
+        ["Ver-", "drijf", "hem", "van", "Uw", "aan-", "ge-", "zich-", "te;"],
+        ["Houdt", "zijn", "ge-", "be-", "den", "zelfs", "voor", "zon-", "den:"],
+        ["Hij", "heeft", "zich", "te-", "gen", "God", "ver-", "bon-", "den."],
+        ["Ver-", "kort", "zijn", "da-", "gen;", "vel", "hem", "neer;"],
+        ["Een", "a-", "n-", "der", "neem’", "zijn", "ambt", "en", "eer."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Laat zijne kinderen als wezen,",
+        "Zijn vrouw als weduw’ hulp’loos vrezen.",
+        "Laat hier en ginds zijn kind’ ren zwerven,",
+        "Steeds beed’ len en de nooddruft derven,",
+        "Die ’t huisgezin, gesmaad, gevloekt,",
+        "Uit zijn verwoeste plaatsen zoekt."
+      ],
+      "syllables": [
+        ["Laat", "zij-", "ne", "kin-", "de-", "ren", "als", "we-", "zen,"],
+        ["Zijn", "vrouw", "als", "we-", "duw’", "hulp-", "’loos", "vre-", "zen."],
+        ["Laat", "hier", "en", "ginds", "zijn", "kind’", "ren", "zwer-", "ven,"],
+        ["Steeds", "beed’", "len", "en", "de", "nood-", "druft", "der-", "ven,"],
+        ["Die", "’t huis-", "ge-", "zin,", "ge-", "smaad,", "ge-", "vloekt,"],
+        ["Uit", "zijn", "ver-", "woes-", "te", "plaat-", "sen", "zoekt."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Al wat hij heeft, hoe hij moog’ klagen,",
+        "Word’ om zijn schulden aangeslagen.",
+        "Hij zie de vrucht van al zijn sloven",
+        "Door woeste vreemdelingen roven.",
+        "Dat niemand hem in nood verblij’,",
+        "Of zijnen wezen gunstig zij."
+      ],
+      "syllables": [
+        ["Al", "wat", "hij", "heeft,", "hoe", "hij", "moog’", "kla-", "gen,"],
+        ["Word’", "om", "zijn", "schul-", "den", "aan-", "ge-", "sla-", "gen."],
+        ["Hij", "zie", "de", "vrucht", "van", "al", "zijn", "slo-", "ven"],
+        ["Door", "woes-", "te", "vreem-", "de-", "lin-", "gen", "ro-", "ven."],
+        ["Dat", "nie-", "mand", "hem", "in", "nood", "ver-", "blij’,"],
+        ["Of", "zij-", "nen", "we-", "zen", "gun-", "stig", "zij."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Laat kwaad op kwaad zijn huis omringen;",
+        "Roei uit al zijn nakomelingen,",
+        "En dat in ’t volgende geslachte",
+        "Elk hun verstorven naam verachte.",
+        "Dervaad’ ren misdaad zelfs verschaff’",
+        "Den HEERE reden tot zijn straf."
+      ],
+      "syllables": [
+        ["Laat", "kwaad", "op", "kwaad", "zijn", "huis", "o-", "m-", "rin-", "gen;"],
+        ["Roei", "uit", "al", "zijn", "na-", "ko-", "me-", "lin-", "gen,"],
+        ["En", "dat", "in", "’t vol-", "gen-", "de", "ge-", "slach-", "te"],
+        ["Elk", "hun", "ver-", "stor-", "ven", "naam", "ver-", "ach-", "te."],
+        ["Der-", "vaad’", "ren", "misdaad", "zelfs", "ver-", "schaf-", "f’"],
+        ["Den", "HEE-", "RE", "re-", "den", "tot", "zijn", "straf."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Dat niets uit Gods gedachtenisse",
+        "De zonde zijner moeder wisse.",
+        "Laat die, door God hun toegerekend,",
+        "Gedurig staan voor Hem getekend.",
+        "Dat God daarover steeds zich belg’,",
+        "En hunnen naam van d’ aard’ verdelg’."
+      ],
+      "syllables": [
+        ["Dat", "niets", "uit", "Gods", "ge-", "dach-", "te-", "nis-", "se"],
+        ["De", "zon-", "de", "zij-", "ner", "moe-", "der", "wis-", "se."],
+        ["Laat", "die,", "door", "God", "hun", "toe-", "ge-", "re-", "kend,"],
+        ["Ge-", "du-", "rig", "staan", "voor", "Hem", "ge-", "te-", "kend."],
+        ["Dat", "God", "daar-", "over", "steeds", "zich", "bel-", "g’,"],
+        ["En", "hunnen", "naam", "van", "d’aard’", "ver-", "del-", "g’."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Omdat hij, tegen zijn geweten,",
+        "Het weldoen trouw’loos heeft vergeten,",
+        "En de ellendigen en armen",
+        "Vervolgd’ in plaats van zich t’erbarmen;",
+        "Ja, den verslagene van geest",
+        "Is tot een moordenaar geweest."
+      ],
+      "syllables": [
+        ["O-", "m-", "dat", "hij,", "tegen", "zijn", "ge-", "we-", "ten,"],
+        ["Het", "wel-", "doen", "trouw-", "’loos", "heeft", "ver-", "ge-", "ten,"],
+        ["En", "de", "e-", "l-", "len-", "di-", "gen", "en", "armen"],
+        ["Vervolgd’", "in", "plaats", "van", "zich", "t-", "’er-", "bar-", "men;"],
+        ["Ja,", "den", "ver-", "sla-", "ge-", "ne", "van", "geest"],
+        ["Is", "tot", "een", "moor-", "de-", "naar", "ge-", "weest."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Hij heeft den vloek op zich genomen;",
+        "Laat dan dien vloek hem overkomen.",
+        "Hij heeft geen lust gehad tot zegen,",
+        "Dies word’ die nooit van hem verkregen;",
+        "Maar dat de vloek hem overdekk’,",
+        "En tot een aaklig kleed verstrekk’."
+      ],
+      "syllables": [
+        ["Hij", "heeft", "den", "vloek", "op", "zich", "ge-", "no-", "men;"],
+        ["Laat", "dan", "dien", "vloek", "hem", "o-", "ver-", "ko-", "men."],
+        ["Hij", "heeft", "geen", "lust", "ge-", "had", "tot", "ze-", "gen,"],
+        ["Dies", "word’", "die", "nooit", "van", "hem", "ver-", "kre-", "gen;"],
+        ["Maar", "dat", "de", "vloek", "hem", "o-", "ver-", "dek-", "k’,"],
+        ["En", "tot", "een", "aaklig", "kleed", "ver-", "strek-", "k’."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Laat dien, om al zijn handelingen,",
+        "Tot in zijn hart, als water, dringen.",
+        "Als olie, rijkelijk geschonken,",
+        "En door de beend’ ren ingedronken.",
+        "Dat hem die vloek zijn deksel geev’,",
+        "En als een gordel aan hem kleev’."
+      ],
+      "syllables": [
+        ["Laat", "dien,", "om", "al", "zijn", "han-", "de-", "lin-", "gen,"],
+        ["Tot", "in", "zijn", "hart,", "als", "wa-", "ter,", "drin-", "gen."],
+        ["Als", "o-", "lie,", "rij-", "ke-", "lijk", "ge-", "schon-", "ken,"],
+        ["En", "door", "de", "beend’", "ren", "i-", "n-", "ge-", "dron-", "ken."],
+        ["Dat", "hem", "die", "vloek", "zijn", "dek-", "sel", "geev’,"],
+        ["En", "als", "een", "gordel", "aan", "hem", "klee-", "v’."]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "Dit loon krijg, elk van ’s HEEREN handen,",
+        "Die zo godd’ loos mij aan durft randen,",
+        "En met zijn lastertong mij doden!",
+        "Maar Gij, o HEER’, o God dergoden,",
+        "Dat Uwe hand mij heil bestell’,",
+        "Doe om Uws Naams wil aan mij wel!"
+      ],
+      "syllables": [
+        ["Dit", "loon", "krijg,", "elk", "van", "’s HEE-", "REN", "han-", "den,"],
+        ["Die", "zo", "godd’", "loos", "mij", "aan", "durft", "ran-", "den,"],
+        ["En", "met", "zijn", "las-", "ter-", "tong", "mij", "do-", "den!"],
+        ["Maar", "Gij,", "o", "HEER’,", "o", "God", "der-", "go-", "den,"],
+        ["Dat", "Uwe", "hand", "mij", "heil", "be-", "stel-", "l’,"],
+        ["Doe", "om", "Uws", "Naams", "wil", "aan", "mij", "wel!"]
+      ]
+    },
+    {
+      "number": 13,
+      "lines": [
+        "Uw gunst is groot, zij is bestendig.",
+        "Verlos mij dan, ik ben ellendig,",
+        "Nooddruftig, ’k voel mijn kracht verbroken,",
+        "Mijn hart met wond op wond doorstoken.",
+        "Ik ga gelijk de schaduw heen,",
+        "Wanneer de zon snelt naar beneen."
+      ],
+      "syllables": [
+        ["Uw", "gunst", "is", "groot,", "zij", "is", "be-", "sten-", "dig."],
+        ["Verlos", "mij", "dan,", "ik", "ben", "e-", "l-", "len-", "dig,"],
+        ["Nood-", "druf-", "tig,", "’k voel", "mijn", "kracht", "ver-", "bro-", "ken,"],
+        ["Mijn", "hart", "met", "wond", "op", "wond", "door-", "sto-", "ken."],
+        ["Ik", "ga", "ge-", "lijk", "de", "scha-", "duw", "heen,"],
+        ["Wan-", "neer", "de", "zon", "snelt", "naar", "ben-", "een."]
+      ]
+    },
+    {
+      "number": 14,
+      "lines": [
+        "Gelijk een sprinkhaan, omgedreven,",
+        "Berg ik nu hier, dan daar, mijn leven.",
+        "Mijn knieën weig’ren mij te schragen;",
+        "En ’t afgematte lijf te dragen.",
+        "Mijn vlees is mager, uitgeteerd,",
+        "Zodat het alle vet ontbeert."
+      ],
+      "syllables": [
+        ["Gelijk", "een", "sprink-", "haan,", "o-", "m-", "ge-", "dre-", "ven,"],
+        ["Berg", "ik", "nu", "hier,", "dan", "daar,", "mijn", "le-", "ven."],
+        ["Mijn", "knie-", "ën", "weig-", "’ren", "mij", "te", "schra-", "gen;"],
+        ["En", "’t a-", "f-", "ge-", "mat-", "te", "lijf", "te", "dragen."],
+        ["Mijn", "vlees", "is", "ma-", "ger,", "uit-", "ge-", "teerd,"],
+        ["Zo-", "dat", "het", "alle", "vet", "o-", "nt-", "beert."]
+      ]
+    },
+    {
+      "number": 15,
+      "lines": [
+        "Al ben ik met die smart beladen,",
+        "Nog gaan zij voort met mij te smaden,",
+        "Met mij, al schimpende te groeten.",
+        "Zij schudden ’t hoofd, die mij ontmoeten.",
+        "O HEER’, help mij, die U verbeidt,",
+        "Naar Uwe goedertierenheid."
+      ],
+      "syllables": [
+        ["Al", "ben", "ik", "met", "die", "smart", "be-", "la-", "den,"],
+        ["Nog", "gaan", "zij", "voort", "met", "mij", "te", "sma-", "den,"],
+        ["Met", "mij,", "al", "schim-", "pen-", "de", "te", "groe-", "ten."],
+        ["Zij", "schudden", "’t hoofd,", "die", "mij", "o-", "nt-", "moe-", "ten."],
+        ["O", "HEER’,", "help", "mij,", "die", "U", "ver-", "beidt,"],
+        ["Naar", "U-", "we", "goe-", "der-", "tie-", "ren-", "heid."]
+      ]
+    },
+    {
+      "number": 16,
+      "lines": [
+        "Opdat zij weten en belijden,",
+        "Dat Uwe hand mij wil bevrijden,",
+        "Dat Gij, o HEER’, mijn recht doet gelden.",
+        "Laat hen dan vloeken, last’ren, schelden.",
+        "Maar zegen Gij mij, o mijn God;",
+        "Gij zijt mijn erfdeel en mijn lot."
+      ],
+      "syllables": [
+        ["O-", "p-", "dat", "zij", "weten", "en", "be-", "lij-", "den,"],
+        ["Dat", "U-", "we", "hand", "mij", "wil", "be-", "vrij-", "den,"],
+        ["Dat", "Gij,", "o", "HEER’,", "mijn", "recht", "doet", "gel-", "den."],
+        ["Laat", "hen", "dan", "vloe-", "ken,", "last-", "’ren,", "schel-", "den."],
+        ["Maar", "ze-", "gen", "Gij", "mij,", "o", "mijn", "God;"],
+        ["Gij", "zijt", "mijn", "e-", "rf-", "deel", "en", "mijn", "lot."]
+      ]
+    },
+    {
+      "number": 17,
+      "lines": [
+        "Beschaam hun raadslag t’allen tijde;",
+        "Maar dat het heil Uw knecht verblijde!",
+        "Dat schande mijnen vijand dekke,",
+        "Dat schaamte hem ten kleed verstrekke,",
+        "Dat zij hem tot een mantel dien’,",
+        "Waarmee wij hem omhangen zien."
+      ],
+      "syllables": [
+        ["Be-", "schaam", "hun", "raad-", "slag", "t-", "’al-", "len", "tijde;"],
+        ["Maar", "dat", "het", "heil", "Uw", "knecht", "ver-", "blij-", "de!"],
+        ["Dat", "schan-", "de", "mij-", "nen", "vij-", "and", "dek-", "ke,"],
+        ["Dat", "schaam-", "te", "hem", "ten", "kleed", "ver-", "strek-", "ke,"],
+        ["Dat", "zij", "hem", "tot", "een", "man-", "tel", "dien’,"],
+        ["Waarmee", "wij", "hem", "o-", "m-", "han-", "gen", "zien."]
+      ]
+    },
+    {
+      "number": 18,
+      "lines": [
+        "Ik zal den HEER’ op ’t hoogste prijzen,",
+        "’k Zal Hem bij velen eer bewijzen;",
+        "Want Hij zal zich gewis erbarmen",
+        "En staan terrechterhand desarmen;",
+        "Hem redden uit het snood gericht,",
+        "Waar ’t vonnis tot zijn doodstraf ligt."
+      ],
+      "syllables": [
+        ["Ik", "zal", "den", "HEER’", "op", "’t hoog-", "ste", "prij-", "zen,"],
+        ["’k Zal", "Hem", "bij", "ve-", "len", "eer", "be-", "wij-", "zen;"],
+        ["Want", "Hij", "zal", "zich", "gewis", "e-", "r-", "bar-", "men"],
+        ["En", "staan", "ter-", "rech-", "ter-", "hand", "des-", "ar-", "men;"],
+        ["Hem", "red-", "den", "uit", "het", "snood", "ge-", "richt,"],
+        ["Waar", "’t von-", "nis", "tot", "zijn", "dood-", "straf", "ligt."]
+      ]
+    }
+  ]
+}

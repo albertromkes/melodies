@@ -1,0 +1,356 @@
+{
+  "id": "psalm-139",
+  "number": 139,
+  "title": "Psalm 139",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Niets is, o Oppermajesteit,",
+        "Bedekt voor Uw alwetendheid;",
+        "Gij kent mij, Gij doorgrondt mijn daân;",
+        "Gij weet mijn zitten en mijn staan;",
+        "Wat ik beraad’, of wil betrachten,",
+        "Gij kent van verre mijn gedachten."
+      ],
+      "syllables": [
+        ["Niets", "is,", "o", "O-", "p-", "per-", "ma-", "jes-", "teit,"],
+        ["Bedekt", "voor", "Uw", "a-", "l-", "we-", "tend-", "heid;"],
+        ["Gij", "kent", "mij,", "Gij", "door-", "grondt", "mijn", "daân;"],
+        ["Gij", "weet", "mijn", "zit-", "ten", "en", "mijn", "staan;"],
+        ["Wat", "ik", "be-", "raad’,", "of", "wil", "be-", "trach-", "ten,"],
+        ["Gij", "kent", "van", "ver-", "re", "mijn", "ge-", "dach-", "ten."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "G’omringt mijn gaan en liggen, Gij,",
+        "O HEER’, zijt altoos nevens mij;",
+        "Uw onbepaalde wetenschap",
+        "Kent mijnen weg van stap tot stap;",
+        "Geen woord is nog mijn tong ontgleden,",
+        "Of Gij, Gij weet alreeds mijn reden."
+      ],
+      "syllables": [
+        ["G-", "’om-", "ringt", "mijn", "gaan", "en", "liggen,", "Gij,"],
+        ["O", "HEER’,", "zijt", "a-", "l-", "toos", "nevens", "mij;"],
+        ["Uw", "o-", "n-", "be-", "paal-", "de", "we-", "ten-", "schap"],
+        ["Kent", "mij-", "nen", "weg", "van", "stap", "tot", "stap;"],
+        ["Geen", "woord", "is", "nog", "mijn", "tong", "o-", "nt-", "gle-", "den,"],
+        ["Of", "Gij,", "Gij", "weet", "a-", "l-", "reeds", "mijn", "reden."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gij hebt van acht’ren mij bezet;",
+        "Vooruit wordt mij de vlucht belet;",
+        "Ik word bepaald door Uwe hand.",
+        "Hoe zou ik met mijn zwak verstand",
+        "Naar Uwe wond’ re kennis streven?",
+        "Z’is mij te groot, te hoog verheven."
+      ],
+      "syllables": [
+        ["Gij", "hebt", "van", "acht-", "’ren", "mij", "be-", "zet;"],
+        ["Voor-", "uit", "wordt", "mij", "de", "vlucht", "be-", "let;"],
+        ["Ik", "word", "be-", "paald", "door", "U-", "we", "hand."],
+        ["Hoe", "zou", "ik", "met", "mijn", "zwak", "ver-", "stand"],
+        ["Naar", "U-", "we", "wond’", "re", "ken-", "nis", "stre-", "ven?"],
+        ["Z’is", "mij", "te", "groot,", "te", "hoog", "ver-", "he-", "ven."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Waar zou ik Uwen Geest ontvliên?",
+        "Waar zou m’ o HEER’, Uw oog niet zien?",
+        "Al voer ik op naar ’s hemels trans,",
+        "Daar zijt Gij, daar vertoont G’Uw glans;",
+        "Al daald’ ik zelfs terhelle neder,",
+        "Daar vond ik ook Uw aanschijn weder."
+      ],
+      "syllables": [
+        ["Waar", "zou", "ik", "Uwen", "Geest", "o-", "nt-", "vliên?"],
+        ["Waar", "zou", "m’o", "HEER’,", "Uw", "oog", "niet", "zien?"],
+        ["Al", "voer", "ik", "op", "naar", "’s he-", "mels", "trans,"],
+        ["Daar", "zijt", "Gij,", "daar", "ver-", "toont", "G’Uw", "glans;"],
+        ["Al", "daald’", "ik", "zelfs", "ter-", "hel-", "le", "ne-", "der,"],
+        ["Daar", "vond", "ik", "ook", "Uw", "aan-", "schijn", "we-", "der."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Al nam ik van den dageraad",
+        "De vleugelen deslichts te baat;",
+        "Al waar’ aan ’t uiterste derzee",
+        "De plaats van mijne legerstee;",
+        "Dáár zoud’ ook Uwe hand mij leiden,",
+        "Uw rechterhand niet van mij scheiden."
+      ],
+      "syllables": [
+        ["Al", "nam", "ik", "van", "den", "da-", "ge-", "raad"],
+        ["De", "vleu-", "ge-", "len", "des-", "lichts", "te", "baat;"],
+        ["Al", "waar’", "aan", "’t ui-", "ter-", "ste", "der-", "zee"],
+        ["De", "plaats", "van", "mij-", "ne", "le-", "ger-", "stee;"],
+        ["Dáár", "zou-", "d’ook", "U-", "we", "hand", "mij", "lei-", "den,"],
+        ["Uw", "rech-", "ter-", "hand", "niet", "van", "mij", "schei-", "den."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Indien ik zeg: „De donkerheid",
+        "Bedekt mij voor Uw majesteit”,",
+        "Dan is de nacht een helder licht,",
+        "Dat mij ontdekt aan Uw gezicht.",
+        "Voor U, o HEER’, is ’t aaklig duister",
+        "Den dag gelijk in glans en luister."
+      ],
+      "syllables": [
+        ["I-", "n-", "dien", "ik", "zeg:", "„De", "don-", "ker-", "heid"],
+        ["Be-", "dekt", "mij", "voor", "Uw", "ma-", "jes-", "teit”,"],
+        ["Dan", "is", "de", "nacht", "een", "hel-", "der", "licht,"],
+        ["Dat", "mij", "o-", "nt-", "dekt", "aan", "Uw", "ge-", "zicht."],
+        ["Voor", "U,", "o", "HEER’,", "is", "’t aak-", "lig", "duis-", "ter"],
+        ["Den", "dag", "ge-", "lijk", "in", "glans", "en", "luis-", "ter."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Gij hebt mijn gans gestel doorgrond,",
+        "Zelfs voor mijn eersten levensstond.",
+        "Ik ben verbazend voortgebracht.",
+        "Op ’t nagaan van Uw wond’ re macht,",
+        "Sla ik verrukt het oog naar boven:",
+        "’k Zal U, mijn Schepper, altoos loven."
+      ],
+      "syllables": [
+        ["Gij", "hebt", "mijn", "gans", "ge-", "stel", "door-", "grond,"],
+        ["Zelfs", "voor", "mijn", "eer-", "sten", "le-", "vens-", "stond."],
+        ["Ik", "ben", "ver-", "ba-", "zend", "voort-", "ge-", "bracht."],
+        ["Op", "’t na-", "gaan", "van", "Uw", "wond’", "re", "macht,"],
+        ["Sla", "ik", "ver-", "rukt", "het", "oog", "naar", "bo-", "ven:"],
+        ["’k Zal", "U,", "mijn", "Schep-", "per,", "a-", "l-", "toos", "loven."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Mijn ziel bepeinst uw wonderdaân,",
+        "Die al ’t begrip te boven gaan.",
+        "Uw oog heeft mijn gebeent’ verzeld,",
+        "Toen ik, verborgen saamgesteld,",
+        "Als een borduursel, lag verscholen:",
+        "Van mij was niets voor U verholen."
+      ],
+      "syllables": [
+        ["Mijn", "ziel", "be-", "peinst", "uw", "won-", "der-", "daân,"],
+        ["Die", "al", "’t be-", "grip", "te", "bo-", "ven", "gaan."],
+        ["Uw", "oog", "heeft", "mijn", "ge-", "beent’", "ver-", "zeld,"],
+        ["Toen", "ik,", "ver-", "bor-", "gen", "saam-", "ge-", "steld,"],
+        ["Als", "een", "bor-", "duur-", "sel,", "lag", "ver-", "scho-", "len:"],
+        ["Van", "mij", "was", "niets", "voor", "U", "ver-", "ho-", "len."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Gij hebt, wijl niets Uw oog weerhoudt,",
+        "Mijn ongevormden klomp beschouwd;",
+        "Ja Gij, Wiens wijsheid nimmer faalt,",
+        "Hadt mijn geboortestond bepaald;",
+        "Eer iets van mij begon te leven,",
+        "Was alles in Uw boek geschreven."
+      ],
+      "syllables": [
+        ["Gij", "hebt,", "wijl", "niets", "Uw", "oog", "weer-", "houdt,"],
+        ["Mijn", "o-", "n-", "ge-", "vorm-", "den", "klomp", "beschouwd;"],
+        ["Ja", "Gij,", "Wiens", "wijs-", "heid", "nim-", "mer", "faalt,"],
+        ["Hadt", "mijn", "ge-", "boor-", "te-","stond", "be-", "paald;"],
+        ["Eer", "iets", "van", "mij", "be-", "gon", "te", "le-", "ven,"],
+        ["Was", "a-", "l-", "les", "in", "Uw", "boek", "ge-", "schre-", "ven."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Hoe dierbaar zijn m’ Uw wonderdaân!",
+        "Zij zijn onmoog’lijk na te gaan.",
+        "Hoe menigvuldig zijn z’, o HEER’!",
+        "Zou ik die tellen ’k zou veeleer",
+        "’t Getal derkorr’len zands bepalen.",
+        "Uw wond’ ren zijn niet af te malen."
+      ],
+      "syllables": [
+        ["Hoe", "dier-", "baar", "zijn", "m’Uw", "won-", "der-", "daân!"],
+        ["Zij", "zijn", "o-", "n-", "moog-", "’lijk", "na", "te", "gaan."],
+        ["Hoe", "me-", "nig-", "vul-", "dig", "zijn", "z’,", "o", "HEER’!"],
+        ["Zou", "ik", "die", "tel-", "len", "’k zou", "veel-", "eer"],
+        ["’t Ge-", "tal", "der-", "korr-", "’len", "zands", "be-", "pa-", "len."],
+        ["Uw", "wond’", "ren", "zijn", "niet", "af", "te", "ma-", "len."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Wanneer ik in den nacht ontwaak,",
+        "Ben ik bij U, mijn zielsvermaak.",
+        "O God, laat door Uw grote macht",
+        "De bozen worden omgebracht;",
+        "Doe, doe hen voor Uw arm bezwijken.",
+        "Gij, bloedvergieters, gij moet wijken."
+      ],
+      "syllables": [
+        ["Wanneer", "ik", "in", "den", "nacht", "o-", "nt-", "waak,"],
+        ["Ben", "ik", "bij", "U,", "mijn", "ziels-", "ver-", "maak."],
+        ["O", "God,", "laat", "door", "Uw", "gro-", "te", "macht"],
+        ["De", "bozen", "wor-", "den", "o-", "m-", "ge-", "bracht;"],
+        ["Doe,", "doe", "hen", "voor", "Uw", "arm", "be-", "zwij-", "ken."],
+        ["Gij,", "bloed-", "ver-", "gie-", "ters,", "gij", "moet", "wij-", "ken."]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "Stel hunnen hoogmoed perk en paal,",
+        "Zij honen U door snode taal;",
+        "Z’ontzien zich niet U t’allen stond’",
+        "Te lasteren met hart en mond;",
+        "Daar zij, ten spot van Uw vermogen,",
+        "Al Uwer haat’ren trots verhogen."
+      ],
+      "syllables": [
+        ["Stel", "hun-", "nen", "hoog-", "moed", "perk", "en", "paal,"],
+        ["Zij", "ho-", "nen", "U", "door", "sno-", "de", "taal;"],
+        ["Z-", "’ont-", "zien", "zich", "niet", "U", "t’allen", "stond’"],
+        ["Te", "las-", "te-", "ren", "met", "hart", "en", "mond;"],
+        ["Daar", "zij,", "ten", "spot", "van", "Uw", "ver-", "mo-", "gen,"],
+        ["Al", "U-", "wer", "haat-", "’ren", "trots", "ver-", "ho-", "gen."]
+      ]
+    },
+    {
+      "number": 13,
+      "lines": [
+        "Zou ’k hen niet haten in mijn hart,",
+        "Wier snode haat Uw goedheid tart?",
+        "Zou ik hen, die U weerstand biên,",
+        "Niet met verdrietig’ ogen zien?",
+        "’k Zal hen altijd volkomen haten,",
+        "Die trots’lijk Uwen dienst verlaten."
+      ],
+      "syllables": [
+        ["Zou", "’k hen", "niet", "ha-", "ten", "in", "mijn", "hart,"],
+        ["Wier", "sno-", "de", "haat", "Uw", "goed-", "heid", "tart?"],
+        ["Zou", "ik", "hen,", "die", "U", "weer-", "stand", "biên,"],
+        ["Niet", "met", "ver-", "drie-", "tig’", "o-", "gen", "zien?"],
+        ["’k Zal", "hen", "a-", "l-", "tijd", "vol-", "ko-", "men", "haten,"],
+        ["Die", "trots-", "’lijk", "U-", "wen", "dienst", "ver-", "la-", "ten."]
+      ]
+    },
+    {
+      "number": 14,
+      "lines": [
+        "Doorgrond m’ en ken mijn hart, o HEER’;",
+        "Is ’t geen ik denk niet tot Uw eer?",
+        "Beproef m’ en zie of mijn gemoed",
+        "Iets kwaads, iets onbehoorlijks voed’,",
+        "En doe mij toch met vaste schreden",
+        "Den weg terzaligheid betreden."
+      ],
+      "syllables": [
+        ["Door-", "grond", "m’en", "ken", "mijn", "hart,", "o", "HEER’;"],
+        ["Is", "’t geen", "ik", "denk", "niet", "tot", "Uw", "eer?"],
+        ["Be-", "proef", "m’en", "zie", "of", "mijn", "ge-", "moed"],
+        ["Iets", "kwaads,", "iets", "o-", "n-", "be-", "hoor-", "lijks", "voed’,"],
+        ["En", "doe", "mij", "toch", "met", "vas-", "te", "schre-", "den"],
+        ["Den", "weg", "ter-", "za-", "lig-", "heid", "be-", "tre-", "den."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": "psalm-133",
+  "number": 133,
+  "title": "Psalm 133",
+  "category": "psalm",
+  "mode": "lydisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Ai, ziet, hoe goed, hoe lieflijk is ’t, dat zonen",
+        "Van ’t zelfde huis, als broeders samen wonen,",
+        "Daar ’t liefdevuur niet wordt verdoofd;",
+        "’t Is als de zalf op ’s Hogepriesters hoofd,",
+        "De zalf, waarmee hij is aan God gewijd,",
+        "Die door haar reuk het hart verblijdt."
+      ],
+      "syllables": [
+        ["Ai,", "ziet,", "hoe", "goed,", "hoe", "lief-", "lijk", "is", "’t,", "dat", "zonen"],
+        ["Van", "’t zelf-", "de", "huis,", "als", "broe-", "ders", "sa-", "men", "wo-", "nen,"],
+        ["Daar", "’t lief-", "de-", "vuur", "niet", "wordt", "ver-", "doofd;"],
+        ["’t Is", "als", "de", "zalf", "op", "’s Ho-", "ge-", "pries-", "ters", "hoofd,"],
+        ["De", "zalf,", "waar-", "mee", "hij", "is", "aan", "God", "ge-", "wijd,"],
+        ["Die", "door", "haar", "reuk", "het", "hart", "ver-", "blijdt."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Die liefdegeur moet elk tot liefde nopen,",
+        "Als d’ olie, die, van Arons hoofd gedropen,",
+        "Zijn baard en klederzoom doortrekt;",
+        "Z’is als de dauw, die Hermons kruin bedekt,",
+        "Die Sions top met vruchtbaar vocht besproeit,",
+        "En op zijn bergen nedervloeit."
+      ],
+      "syllables": [
+        ["Die", "lief-", "de-", "geur", "moet", "elk", "tot", "lief-", "de", "no-", "pen,"],
+        ["Als", "d’o-", "lie,", "die,", "van", "A-","rons", "hoofd", "ge-", "dro-", "pen,"],
+        ["Zijn", "baard", "en", "kle-", "der-", "zoom", "door-", "trekt;"],
+        ["Z’is", "als", "de", "dauw,", "die", "Her-", "mons", "kruin", "be-", "dekt,"],
+        ["Die", "Si-", "ons", "top", "met", "vrucht-", "baar", "vocht", "be-", "sproeit,"],
+        ["En", "op", "zijn", "ber-", "gen", "ne-", "der-", "vloeit."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Waar liefde woont, gebiedt de HEER’ den zegen:",
+        "Daar woont Hij Zelf, daar wordt Zijn heil verkregen,",
+        "En ’t leven tot in eeuwigheid."
+      ],
+      "syllables": [
+        ["Waar", "lief-", "de", "woont,", "ge-", "biedt", "de", "HEER’", "den", "ze-", "gen:"],
+        ["Daar", "woont", "Hij", "Zelf,", "daar", "wordt", "Zijn", "heil", "ver-", "kre-", "gen,"],
+        ["En", "’t le-", "ven", "tot", "in", "eeu-", "wig-", "heid."]
+      ]
+    }
+  ]
+}

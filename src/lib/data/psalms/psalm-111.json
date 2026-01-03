@@ -1,0 +1,204 @@
+{
+  "id": "psalm-111",
+  "number": 111,
+  "title": "Psalm 111",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Lyon 1548)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Looft, Hallelujah, looft den HEER’;",
+        "Mijn ganse hart verheft Zijn eer.",
+        "Ik zal Zijn Naam en grootheid prijzen;",
+        "’k Zal, met d’ oprechten onderling,",
+        "Vereend, in hun vergadering",
+        "En raad, Hem plechtig eer bewijzen."
+      ],
+      "syllables": [
+        ["Looft,", "Hal-", "le-", "lu-", "jah,", "looft", "den", "HEER’;"],
+        ["Mijn", "gan-", "se", "hart", "ver-", "heft", "Zijn", "eer."],
+        ["Ik", "zal", "Zijn", "Naam", "en", "groot-", "heid", "prij-", "zen;"],
+        ["’k Zal,", "met", "d’o-", "p-", "rech-", "ten", "o-", "n-", "der-", "ling,"],
+        ["Ver-", "eend,", "in", "hun", "ver-", "ga-", "de-", "ring"],
+        ["En", "raad,", "Hem", "plech-", "tig", "eer", "be-", "wij-", "zen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Des HEEREN werken zijn zeer groot;",
+        "Wie ooit daarin zijn lust genoot,",
+        "Doorzoekt die ijv’rig en bestendig;",
+        "Zijn doen is enkel majesteit,",
+        "Aanbiddelijke heerlijkheid,",
+        "En Zijn gerechtigheid onendig."
+      ],
+      "syllables": [
+        ["Des", "HEE-", "REN", "wer-", "ken", "zijn", "zeer", "groot;"],
+        ["Wie", "ooit", "daar-", "in", "zijn", "lust", "ge-", "noot,"],
+        ["Door-", "zoekt", "die", "ijv-", "’rig", "en", "be-", "sten-", "dig;"],
+        ["Zijn", "doen", "is", "e-", "n-", "kel", "ma-", "jes-", "teit,"],
+        ["Aan-", "bid-", "de-", "lij-", "ke", "heer-", "lijk-", "heid,"],
+        ["En", "Zijn", "ge-", "rech-", "tig-", "heid", "o-", "n-", "en-", "dig."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Hij maakte, Hij, die heerlijk is,",
+        "Zijn wond’ ren een gedachtenis;",
+        "Hij is barmhartig en genadig;",
+        "Hij gaf hun, die Hem vrezen, spijs;",
+        "En Zijnen groten Naam ten prijs,",
+        "Gedenkt Hij Zijns verbonds gestadig."
+      ],
+      "syllables": [
+        ["Hij", "maak-", "te,", "Hij,", "die", "heer-", "lijk", "is,"],
+        ["Zijn", "wond’", "ren", "een", "ge-", "dach-", "te-", "nis;"],
+        ["Hij", "is", "barm-", "har-", "tig", "en", "ge-", "na-", "dig;"],
+        ["Hij", "gaf", "hun,", "die", "Hem", "vre-", "zen,", "spijs;"],
+        ["En", "Zij-", "nen", "gro-", "ten", "Naam", "ten", "prijs,"],
+        ["Ge-", "denkt", "Hij", "Zijns", "ver-", "bonds", "ge-", "sta-", "dig."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Hij heeft de kracht Zijns werks getoond",
+        "Aan ’t volk, waarbij Hij gunstrijk woont.",
+        "Hij gaf, ten hunnen nutt’ en voordeel,",
+        "Hun d’ erve van het heidendom.",
+        "Des HEEREN werken zijn alom",
+        "En altoos waarheid, recht en oordeel."
+      ],
+      "syllables": [
+        ["Hij", "heeft", "de", "kracht", "Zijns", "werks", "ge-", "toond"],
+        ["Aan", "’t volk,", "waar-", "bij", "Hij", "gunst-", "rijk", "woont."],
+        ["Hij", "gaf,", "ten", "hun-", "nen", "nutt’", "en", "voor-", "deel,"],
+        ["Hun", "d’e-", "r-", "ve", "van", "het", "hei-", "den-", "dom."],
+        ["Des", "HEE-", "REN", "wer-", "ken", "zijn", "a-", "l-", "om"],
+        ["En", "a-", "l-", "toos", "waar-", "heid,", "recht", "en", "oor-", "deel."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "’t Is trouw, al wat Hij ooit beval;",
+        "Het staat op recht en waarheid pal,",
+        "Als op onwrikb’re steunpilaren.",
+        "Hij is het, die verlossing zond",
+        "Aan al Zijn volk; Hij zal ’t verbond",
+        "Met hen in eeuwigheid bewaren."
+      ],
+      "syllables": [
+        ["’t Is", "trouw,", "al", "wat", "Hij", "ooit", "be-", "val;"],
+        ["Het", "staat", "op", "recht", "en", "waar-", "heid", "pal,"],
+        ["Als", "op", "o-", "n-", "wrikb-", "’re", "steun-", "pi-", "la-", "ren."],
+        ["Hij", "is", "het,", "die", "ver-", "los-", "sing", "zond"],
+        ["Aan", "al", "Zijn", "volk;", "Hij", "zal", "’t ver-", "bond"],
+        ["Met", "hen", "in", "eeu-", "wig-", "heid", "be-", "wa-", "ren."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Zijn Naam is heilig en geducht;",
+        "De vijand beeft op Zijn gerucht!",
+        "Maar ’s HEEREN vrees zal altoos wezen",
+        "’t Begin derwijsheid: wien Gods hand",
+        "Die doet betrachten, heeft verstand.",
+        "Zijn Naam blijft eeuwig’lijk geprezen."
+      ],
+      "syllables": [
+        ["Zijn", "Naam", "is", "hei-", "lig", "en", "ge-", "ducht;"],
+        ["De", "vij-", "and", "beeft", "op", "Zijn", "ge-", "rucht!"],
+        ["Maar", "’s HEE-", "REN", "vrees", "zal", "a-", "l-", "toos", "wezen"],
+        ["’t Be-", "gin", "der-", "wijs-", "heid:", "wien", "Gods", "hand"],
+        ["Die", "doet", "be-", "trach-", "ten,", "heeft", "ver-", "stand."],
+        ["Zijn", "Naam", "blijft", "eeu-", "wig-", "’lijk", "ge-", "pre-", "zen."]
+      ]
+    }
+  ]
+}

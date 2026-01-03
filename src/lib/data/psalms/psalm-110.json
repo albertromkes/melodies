@@ -1,0 +1,179 @@
+{
+  "id": "psalm-110",
+  "number": 110,
+  "title": "Psalm 110",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Dus heeft de HEER’ tot mijnen Heer’ gesproken:",
+        "„Zit op den troon terrechterhand naast Mij,",
+        "Tot Ik de macht Uws vijands hebb’ verbroken,",
+        "En u zijn nek tot ene voetbank zij.”"
+      ],
+      "syllables": [
+        ["Dus", "heeft", "de", "HEER’", "tot", "mij-", "nen", "Heer’", "ge-", "spro-", "ken:"],
+        ["„Zit", "op", "den", "troon", "ter-", "rech-", "ter-", "hand", "naast", "Mij,"],
+        ["Tot", "Ik", "de", "macht", "Uws", "vij-", "ands", "hebb’", "ver-", "bro-", "ken,"],
+        ["En", "u", "zijn", "nek", "tot", "e-", "ne", "voet-", "bank", "zij.”"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uit Sion zal de HEER’ Uw schepter zenden,",
+        "Den schepter van Uw oppermogendheid,",
+        "En zeggen: „Heers tot ’s werelds uiterst’ enden,",
+        "Zover de macht Uws vijands zich verspreidt.”"
+      ],
+      "syllables": [
+        ["Uit", "Si-", "on", "zal", "de", "HEER’", "Uw", "schep-", "ter", "zen-", "den,"],
+        ["Den", "schepter", "van", "Uw", "o-", "p-", "per-", "mo-", "gend-", "heid,"],
+        ["En", "zeg-", "gen:", "„Heers", "tot", "’s we-", "relds", "ui-", "ter-", "st’", "enden,"],
+        ["Zo-", "ver", "de", "macht", "Uws", "vij-", "ands", "zich", "ver-", "spreidt.”"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Uw volk zal op Uw heirdag tot het strijden",
+        "Gewillig zijn, in heilig krijgssieraad.",
+        "U zal de dauw van Uwe jeugd verblijden,",
+        "Geboren uit den vroegen dageraad."
+      ],
+      "syllables": [
+        ["Uw", "volk", "zal", "op", "Uw", "heir-", "dag", "tot", "het", "strij-", "den"],
+        ["Ge-", "wil-", "lig", "zijn,", "in", "hei-", "lig", "krijgs-", "sie-", "raad."],
+        ["U", "zal", "de", "dauw", "van", "U-", "we", "jeugd", "ver-", "blij-", "den,"],
+        ["Ge-", "bo-", "ren", "uit", "den", "vroe-", "gen", "da-", "ge-", "raad."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "U heeft de HEER’, Wien ’t nooit berouwt, gezworen:",
+        "„’k Heb U, Mijn volk tot heil, Mijn Naam ten prijs,",
+        "In Mijnen raad het priesterambt beschoren,",
+        "Dat eeuwig duurt naar Melchizedeks wijs.”"
+      ],
+      "syllables": [
+        ["U", "heeft", "de", "HEER’,", "Wien", "’t nooit", "be-", "rouwt,", "ge-", "zwo-", "ren:"],
+        ["„’k", "HebU,", "Mijn", "volk", "tot", "heil,", "Mijn", "Naam", "ten", "prijs,"],
+        ["In", "Mij-", "nen", "raad", "het", "pries-", "ter-", "ambt", "be-", "scho-", "ren,"],
+        ["Dat", "eeu-", "wig", "duurt", "naar", "Mel-", "chi-", "ze-", "deks", "wijs.”"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "De HEER’ zal steeds Uw rechterhand verzellen,",
+        "Zijn mogendheid met U ten strijde gaan,",
+        "En koningen, die tegen U zich stellen,",
+        "Ten dage van Zijn grimmigheid verslaan."
+      ],
+      "syllables": [
+        ["De", "HEER’", "zal", "steeds", "Uw", "rech-", "ter-", "hand", "ver-", "zel-", "len,"],
+        ["Zijn", "mo-", "gend-", "heid", "met", "U", "ten", "strij-", "de", "gaan,"],
+        ["En", "ko-", "nin-", "gen,", "die", "te-", "gen", "U", "zich", "stel-", "len,"],
+        ["Ten", "da-", "ge", "van", "Zijn", "grim-", "mig-", "heid", "ver-", "slaan."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Hij zal naar ’t recht de woeste heid’ nen richten,",
+        "Met lijken ’t veld bezaaien door Zijn hand.",
+        "Zijn strijdb’re hand zal straks het hoofd doen zwichten,",
+        "’t Weerbarstig hoofd van een zeer machtig land."
+      ],
+      "syllables": [
+        ["Hij", "zal", "naar", "’t recht", "de", "woes-", "te", "heid’", "nen", "rich-", "ten,"],
+        ["Met", "lij-", "ken", "’t veld", "be-", "zaai-", "en", "door", "Zijn", "hand."],
+        ["Zijn", "strijdb-", "’re", "hand", "zal", "straks", "het", "hoofd", "doen", "zwich-", "ten,"],
+        ["’t Weer-", "bar-", "stig", "hoofd", "van", "een", "zeer", "mach-", "tig", "land."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Hij zal op weg eens drinken uit de beken,",
+        "Daar Hij gevaar, noch strijd, noch moeit’ ontziet;",
+        "Daarom zal Hij het hoofd naar boven steken,",
+        "Met eer bekroond in ’t Godd’ lijk rijksgebied."
+      ],
+      "syllables": [
+        ["Hij", "zal", "op", "weg", "eens", "drin-", "ken", "uit", "de", "be-", "ken,"],
+        ["Daar", "Hij", "gevaar,", "noch", "strijd,", "noch", "moeit’", "o-", "nt-", "ziet;"],
+        ["Daar-", "om", "zal", "Hij", "het", "hoofd", "naar", "bo-", "ven", "ste-", "ken,"],
+        ["Met", "eer", "be-", "kroond", "in", "’t Godd’", "lijk", "rijks-", "ge-", "bied."]
+      ]
+    }
+  ]
+}

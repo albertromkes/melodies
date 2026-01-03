@@ -1,0 +1,169 @@
+{
+  "id": "psalm-142",
+  "number": 142,
+  "title": "Psalm 142",
+  "category": "psalm",
+  "mode": "frygisch (Bourgois 1551)",
+  "keySignature": "Bb",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["eb/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "’k Riep tot den HEER’ met luider stem;",
+        "Ik smeekt’ en riep vol angst tot Hem.",
+        "’k Heb, voor Zijn aangezicht, mijn klacht",
+        "In mijn benauwdheid voortgebracht."
+      ],
+      "syllables": [
+        ["’k Riep", "tot", "den", "HEER’", "met", "lui-", "der", "stem;"],
+        ["Ik", "smeekt’", "en", "riep", "vol", "angst", "tot", "Hem."],
+        ["’k Heb,", "voor", "Zijn", "aan-", "ge-", "zicht,", "mijn", "klacht"],
+        ["In", "mijn", "be-", "nauwd-", "heid", "voort-", "ge-", "bracht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Als mij geen hulp of uitkomst bleek,",
+        "Wanneer mijn geest in mij bezweek,",
+        "En overstelpt was door ellend’,",
+        "Hebt Gij, o HEER’, mijn pad gekend."
+      ],
+      "syllables": [
+        ["Als", "mij", "geen", "hulp", "of", "uit-", "komst", "bleek,"],
+        ["Wan-", "neer", "mijn", "geest", "in", "mij", "be-", "zweek,"],
+        ["En", "o-", "ver-", "stelpt", "was", "door", "e-", "l-", "lend’,"],
+        ["Hebt", "Gij,", "o", "HEER’,", "mijn", "pad", "ge-", "kend."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zij hebben vol arglistigheid",
+        "Een strik op mijnen weg gespreid.",
+        "’k Zag uit, in nood, terrechterhand,",
+        "Maar vond noch vriend, noch onderstand."
+      ],
+      "syllables": [
+        ["Zij", "hebben", "vol", "a-", "rg-", "lis-", "tig-", "heid"],
+        ["Een", "strik", "op", "mij-", "nen", "weg", "ge-", "spreid."],
+        ["’k Zag", "uit,", "in", "nood,", "ter-", "rech-", "ter-", "hand,"],
+        ["Maar", "vond", "noch", "vriend,", "noch", "o-", "n-", "der-", "stand."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’k Wou vluchten, maar kon nergens heen,",
+        "Zodat mijn dood voorhanden scheen,",
+        "En alle hoop mij gans ontviel,",
+        "Daar niemand zorgde voor mijn ziel."
+      ],
+      "syllables": [
+        ["’k Wou", "vluch-", "ten,", "maar", "kon", "ner-", "gens", "heen,"],
+        ["Zo-", "dat", "mijn", "dood", "voor-", "han-", "den", "scheen,"],
+        ["En", "alle", "hoop", "mij", "gans", "o-", "nt-", "viel,"],
+        ["Daar", "nie-", "mand", "zorg-", "de", "voor", "mijn", "ziel."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Ik riep tot U, ik zeid’: o HEER’,",
+        "Gij zijt mijn toevlucht, sterkt’ en eer;",
+        "Gij zijt, zolang ik leef, mijn deel,",
+        "Mijn God, Wien ik mij aanbeveel."
+      ],
+      "syllables": [
+        ["Ik", "riep", "tot", "U,", "ik", "zeid’:", "o", "HEER’,"],
+        ["Gij", "zijt", "mijn", "toe-", "vlucht,", "sterkt’", "en", "eer;"],
+        ["Gij", "zijt,", "zo-", "lang", "ik", "leef,", "mijn", "deel,"],
+        ["Mijn", "God,", "Wien", "ik", "mij", "aan-", "be-", "veel."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Hoor mijn geschrei! ’k Ben uitgeteerd,",
+        "Door mijn vervolgers overheerd;",
+        "Ai, help en red mij uit den nood,",
+        "Want hunne macht is mij te groot."
+      ],
+      "syllables": [
+        ["Hoor", "mijn", "ge-", "schrei!", "’k Ben", "uit-", "ge-", "teerd,"],
+        ["Door", "mijn", "ver-", "vol-", "gers", "o-", "ver-", "heerd;"],
+        ["Ai,", "help", "en", "red", "mij", "uit", "den", "nood,"],
+        ["Want", "hun-", "ne", "macht", "is", "mij", "te", "groot."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Voer mij uit mijn gevangenis,",
+        "Tot roem Uws Naams, die heerlijk is.",
+        "Dat mij ’t rechtvaardig volk omring’",
+        "En vrolijk van Uw weldaân zing’."
+      ],
+      "syllables": [
+        ["Voer", "mij", "uit", "mijn", "ge-", "van-", "ge-", "nis,"],
+        ["Tot", "roem", "Uws", "Naams,", "die", "heer-", "lijk", "is."],
+        ["Dat", "mij", "’t recht-", "vaar-", "dig", "volk", "o-", "m-", "ring’"],
+        ["En", "vro-", "lijk", "van", "Uw", "wel-", "daân", "zing’."]
+      ]
+    }
+  ]
+}

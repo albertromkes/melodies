@@ -1,0 +1,200 @@
+{
+  "id": "psalm-137",
+  "number": 137,
+  "title": "Psalm 137",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg 1539 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q", "rest": true },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Wij zaten neer, wij weenden langs de zomen",
+        "Van Babylons wijd uitgebreide stromen.",
+        "Elk stortte daar zijn bitt’re jammerklacht,",
+        "Als hij met smart aan ’t heilig Sion dacht.",
+        "Elk, wars van vreugd en vrolijke gezangen,",
+        "Liet daar zijn harp aan somb’re wilgen hangen."
+      ],
+      "syllables": [
+        ["Wij", "za-", "ten", "neer,", "wij", "ween-", "den", "langs", "de", "zo-", "men"],
+        ["Van", "Ba-", "by-", "lons", "wijd", "uit-", "ge-", "brei-", "de", "stro-", "men."],
+        ["Elk", "stort-", "te", "daar", "zijn", "bitt-", "’re", "jam-", "mer-", "klacht,"],
+        ["Als", "hij", "met", "smart", "aan", "’t hei-", "lig", "Si-", "on", "dacht."],
+        ["Elk,", "wars", "van", "vreugd", "en", "vro-", "lij-", "ke", "ge-", "zan-", "gen,"],
+        ["Liet", "daar", "zijn", "harp", "aan", "somb-", "’re", "wil-", "gen", "han-", "gen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De vijand dorst, bij al ons leed, ons tergen,",
+        "’t Gevangen volk, in zijne jamm’ ren, vergen;",
+        "Dat elk zijn hart, schoon overstelpt, bedwong,",
+        "En een gezang uit Sions lied’ ren zong.",
+        "„Hoe zou” (zeid’ elk) „ons, die in rampen zwoegen,",
+        "In ’t vreemd gewest een lied des HEEREN voegen?”"
+      ],
+      "syllables": [
+        ["De", "vij-", "and", "dorst,", "bij", "al", "ons", "leed,", "ons", "ter-", "gen,"],
+        ["’t Ge-", "van-", "gen", "volk,", "in", "zij-", "ne", "jamm’", "ren,", "ver-", "gen;"],
+        ["Dat", "elk", "zijn", "hart,", "schoon", "o-", "ver-", "stelpt,", "be-", "dwong,"],
+        ["En", "een", "ge-", "zang", "uit", "Si-", "ons", "lied’", "ren", "zong."],
+        ["„Hoe", "zou”", "(zeid’", "elk)", "„ons,", "die", "in", "ram-", "pen", "zwoe-", "gen,"],
+        ["In", "’t vreemd", "ge-", "west", "een", "lied", "des", "HEE-", "REN", "voe-", "gen?”"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Jeruzalem, dat, zo ik u vergete,",
+        "Mijn rechterhand niet van zichzelve wete;",
+        "Dat mijne tong aan mijn gehemelt’ kleev’,",
+        "Indien ik u niet steeds mijn achting geev’;",
+        "Zo ramp of leed mijn hart van Sion scheure,",
+        "En ik Gods stad mijn hoogste vreugd niet keure."
+      ],
+      "syllables": [
+        ["Je-", "ru-", "za-", "lem,", "dat,", "zo", "ik", "u", "ver-", "ge-", "te,"],
+        ["Mijn", "rech-", "ter-", "hand", "niet", "van", "zich-", "zel-", "ve", "we-", "te;"],
+        ["Dat", "mij-", "ne", "tong", "aan", "mijn", "ge-", "he-", "mel-", "t’kleev’,"],
+        ["Indien", "ik", "u", "niet", "steeds", "mijn", "a-", "ch-", "ting", "geev’;"],
+        ["Zo", "ramp", "of", "leed", "mijn", "hart", "van", "Si-", "on", "scheu-", "re,"],
+        ["En", "ik", "Gods", "stad", "mijn", "hoog-", "ste", "vreugd", "niet", "keu-", "re."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gedenk, o HEER’, gedenk aan d’ Edomieten,",
+        "Aan Salems dag, toen wij ons land verlieten,",
+        "Dien bitt’ren dag, zo vol van grievend leed.",
+        "Gedenk aan hen, die zo ontaard en wreed",
+        "Nog zeiden, toen z’ons zagen overvallen;",
+        "„Ontbloot, ontbloot ten grondslag toe hun wallen.”"
+      ],
+      "syllables": [
+        ["Ge-", "denk,", "o", "HEER’,", "ge-", "denk", "aan", "d’E-", "do-", "mie-", "ten,"],
+        ["Aan", "Sa-", "lems", "dag,", "toen", "wij", "ons", "land", "ver-", "lie-", "ten,"],
+        ["Dien", "bitt-", "’ren", "dag,", "zo", "vol", "van", "grie-", "vend", "leed."],
+        ["Gedenk", "aan", "hen,", "die", "zo", "o-", "nt-", "aard", "en", "wreed"],
+        ["Nog", "zei-", "den,", "toen", "z-", "’ons", "zagen", "o-", "ver-", "val-", "len;"],
+        ["„Ont-", "bloot,", "o-", "nt-", "bloot", "ten", "grond-", "slag", "toe", "hun", "wallen.”"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "O Babylon, wij zien eerlang u straffen.",
+        "Gelukkig hij, die u zal loon verschaffen,",
+        "Die u vergeldt al wat g’ons hebt misdaân.",
+        "Gelukkig hij, die u terneer zal slaan,",
+        "Uw kinderkens zal grijpen, o gij trotsen,",
+        "En wredelijk verplett’ren aan de rotsen."
+      ],
+      "syllables": [
+        ["O", "Ba-", "by-", "lon,", "wij", "zien", "eer-", "lang", "u", "straf-", "fen."],
+        ["Ge-", "luk-", "kig", "hij,", "die", "u", "zal", "loon", "ver-", "schaf-", "fen,"],
+        ["Die", "u", "ver-", "geldt", "al", "wat", "g’ons", "hebt", "mis-", "daân."],
+        ["Ge-", "luk-", "kig", "hij,", "die", "u", "ter-", "neer", "zal", "slaan,"],
+        ["Uw", "kin-", "der-", "kens", "zal", "grij-", "pen,", "o", "gij", "trot-", "sen,"],
+        ["En", "wre-", "de-", "lijk", "ver-", "plett-", "’ren", "aan", "de", "rot-", "sen."]
+      ]
+    }
+  ]
+}

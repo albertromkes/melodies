@@ -1,0 +1,192 @@
+{
+  "id": "psalm-130",
+  "number": 130,
+  "title": "Psalm 130",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg 1539 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Uit diepten van ellenden",
+        "Roep ik, met mond en hart,",
+        "Tot U, die heil kunt zenden;",
+        "O HEER’, aanschouw mijn smart;",
+        "Wil naar mijn smeekstem horen;",
+        "Merk op mijn jammerklacht;",
+        "Verleen mij gunstig’ oren,",
+        "Daar ’k in mijn druk versmacht."
+      ],
+      "syllables": [
+        ["Uit", "diepten", "van", "e-", "l-", "len-", "den"],
+        ["Roep", "ik,", "met", "mond", "en", "hart,"],
+        ["Tot", "U,", "die", "heil", "kunt", "zen-", "den;"],
+        ["O", "HEER’,", "aan-", "schouw", "mijn", "smart;"],
+        ["Wil", "naar", "mijn", "smeek-", "stem", "ho-", "ren;"],
+        ["Merk", "op", "mijn", "jam-", "mer-", "klacht;"],
+        ["Ver-", "leen", "mij", "gun-", "stig’", "o-", "ren,"],
+        ["Daar", "’k in", "mijn", "druk", "ver-", "smacht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Zo Gij in ’t recht wilt treden,",
+        "O HEER’, en gadeslaan",
+        "Onz’ ongerechtigheden;",
+        "Ach, wie zou dan bestaan?",
+        "Maar neen, daar is vergeving",
+        "Altijd bij U geweest;",
+        "Dies wordt Gij, HEER’, met beving,",
+        "Recht kinderlijk gevreesd."
+      ],
+      "syllables": [
+        ["Zo", "Gij", "in", "’t recht", "wilt", "tre-", "den,"],
+        ["O", "HEER’,", "en", "ga-", "de-", "slaan"],
+        ["Onz’", "o-", "n-", "ge-", "rech-", "tig-", "he-", "den;"],
+        ["Ach,", "wie", "zou", "dan", "be-", "staan?"],
+        ["Maar", "neen,", "daar", "is", "ver-", "ge-", "ving"],
+        ["A-", "l-", "tijd", "bij", "U", "ge-", "weest;"],
+        ["Dies", "wordt", "Gij,", "HEER’,", "met", "be-", "ving,"],
+        ["Recht", "kin-", "der-", "lijk", "ge-", "vreesd."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Ik blijf den HEER’ verwachten;",
+        "Mijn ziel wacht ongestoord;",
+        "Ik hoop, in al mijn klachten,",
+        "Op Zijn onfeilbaar woord;",
+        "Mijn ziel, vol angst en zorgen,",
+        "Wacht sterker op den HEER’,",
+        "Dan wachters op den morgen;",
+        "Den morgen, ach, wanneer?"
+      ],
+      "syllables": [
+        ["Ik", "blijf", "den", "HEER’", "ver-", "wach-", "ten;"],
+        ["Mijn", "ziel", "wacht", "o-", "n-", "ge-", "stoord;"],
+        ["Ik", "hoop,", "in", "al", "mijn", "klach-", "ten,"],
+        ["Op", "Zijn", "o-", "n-", "feil-", "baar", "woord;"],
+        ["Mijn", "ziel,", "vol", "angst", "en", "zor-", "gen,"],
+        ["Wacht", "ster-", "ker", "op", "den", "HEER’,"],
+        ["Dan", "wach-", "ters", "op", "den", "mor-", "gen;"],
+        ["Den", "mor-", "gen,", "ach,", "wan-", "neer?"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Hoopt op den HEER’, gij vromen;",
+        "Is Israël in nood,",
+        "Erzal verlossing komen;",
+        "Zijn goedheid is zeer groot.",
+        "Hij maakt, op hun gebeden,",
+        "Gans Israël eens vrij",
+        "Van ongerechtigheden;",
+        "Zo doe Hij ook aan mij."
+      ],
+      "syllables": [
+        ["Hoopt", "op", "den", "HEER’,", "gij", "vro-", "men;"],
+        ["Is", "I-", "s-", "ra-", "ël", "in", "nood,"],
+        ["E-", "r-", "zal", "ver-", "los-", "sing", "ko-", "men;"],
+        ["Zijn", "goed-", "heid", "is", "zeer", "groot."],
+        ["Hij", "maakt,", "op", "hun", "ge-", "be-", "den,"],
+        ["Gans", "I-", "s-", "ra-", "ël", "eens", "vrij"],
+        ["Van", "o-", "n-", "ge-", "rech-", "tig-", "he-", "den;"],
+        ["Zo", "doe", "Hij", "ook", "aan", "mij."]
+      ]
+    }
+  ]
+}

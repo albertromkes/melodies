@@ -1,0 +1,175 @@
+{
+  "id": "psalm-150",
+  "number": 150,
+  "title": "Psalm 150",
+  "category": "psalm",
+  "mode": "lydisch (Genève 1562)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Looft God, looft zijn Naam alom;",
+        "Looft Hem in Zijn heiligdom;",
+        "Looft des HEEREN grote macht,",
+        "In den hemel Zijner kracht;",
+        "Looft Hem, om Zijn mogendheden,",
+        "Looft Hem, naar zo menig blijk",
+        "Van Zijn heerlijk koninkrijk,",
+        "Voor Zijn troon en hier beneden."
+      ],
+      "syllables": [
+        ["Looft", "God,", "looft", "zijn", "Naam", "a-", "l-", "om;"],
+        ["Looft", "Hem", "in", "Zijn", "hei-", "lig-", "dom;"],
+        ["Looft", "des", "HEE-", "REN", "gro-", "te", "macht,"],
+        ["In", "den", "he-", "mel", "Zij-", "ner", "kracht;"],
+        ["Looft", "Hem,", "om", "Zijn", "mo-", "gend-", "he-", "den,"],
+        ["Looft", "Hem,", "naar", "zo", "me-", "nig", "blijk"],
+        ["Van", "Zijn", "heer-", "lijk", "ko-", "nink-", "rijk,"],
+        ["Voor", "Zijn", "troon", "en", "hier", "be-", "ne-", "den."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Looft God, met bazuingeklank;",
+        "Geeft Hem eer, bewijst Hem dank;",
+        "Looft Hem, met de harp en luit;",
+        "Looft Hem, met de trom en fluit;",
+        "Looft Hem, op uw blijde snaren;",
+        "Laat zich ’t orgel overal",
+        "Bij het juichend vreugdgeschal,",
+        "Tot des HEEREN glorie, paren."
+      ],
+      "syllables": [
+        ["Looft", "God,", "met", "ba-", "zuin-", "ge-", "klank;"],
+        ["Geeft", "Hem", "eer,", "be-", "wijst", "Hem", "dank;"],
+        ["Looft", "Hem,", "met", "de", "harp", "en", "luit;"],
+        ["Looft", "Hem,", "met", "de", "trom", "en", "fluit;"],
+        ["Looft", "Hem,", "op", "uw", "blij-", "de", "sna-", "ren;"],
+        ["Laat", "zich", "’t o-", "r-", "gel", "o-", "ver-", "al"],
+        ["Bij", "het", "jui-", "chend", "vreugd-", "ge-", "schal,"],
+        ["Tot", "des", "HEE-", "REN", "glo-", "rie,", "pa-", "ren."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Looft God naar Zijn hoog bevel,",
+        "Met het klinkend cimbelspel,",
+        "Looft Hem, op het schel metaal",
+        "Van de vrolijke cimbaal;",
+        "Looft den HEER’, elk moet Hem eren;",
+        "Al wat geest en adem heeft,",
+        "Looft den HEER’, die eeuwig leeft,",
+        "Looft verheugd den HEER’ derheren."
+      ],
+      "syllables": [
+        ["Looft", "God", "naar", "Zijn", "hoog", "be-", "vel,"],
+        ["Met", "het", "klin-", "kend", "cim-", "bel-", "spel,"],
+        ["Looft", "Hem,", "op", "het", "schel", "me-", "taal"],
+        ["Van", "de", "vro-", "lij-", "ke", "cim-", "baal;"],
+        ["Looft", "den", "HEER’,", "elk", "moet", "Hem", "e-", "ren;"],
+        ["Al", "wat", "geest", "en", "a-", "dem", "heeft,"],
+        ["Looft", "den", "HEER’,", "die", "eeu-", "wig", "leeft,"],
+        ["Looft", "ver-", "heugd", "den", "HEER’", "der-", "he-", "ren."]
+      ]
+    }
+  ]
+}

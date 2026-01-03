@@ -1,0 +1,219 @@
+{
+  "id": "psalm-122",
+  "number": 122,
+  "title": "Psalm 122",
+  "category": "psalm",
+  "mode": "lydisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Ik ben verblijd, wanneer men mij",
+        "Godvruchtig opwekt: „Zie wij staan",
+        "Gereed, om naar Gods huis te gaan.",
+        "Kom, ga met ons, en doe als wij.”",
+        "Jeruzalem, dat ik bemin;",
+        "Wij treden uwe poorten in;",
+        "Daar staan, o Godsstad, onze voeten.",
+        "Jeruzalem is wel gebouwd,",
+        "Wel saamgevoegd: wie haar beschouwt,",
+        "Zal haar voor ’s Bouwheers kunstwerk groeten."
+      ],
+      "syllables": [
+        ["Ik", "ben", "ver-", "blijd,", "wan-", "neer", "men", "mij"],
+        ["God-", "vruch-", "tig", "o-", "p-", "wekt:", "„Zie", "wij", "staan"],
+        ["Ge-", "reed,", "om", "naar", "Gods", "huis", "te", "gaan."],
+        ["Kom,", "ga", "met", "ons,", "en", "doe", "als", "wij.”"],
+        ["Je-", "ru-", "za-", "lem,", "dat", "ik", "be-", "min;"],
+        ["Wij", "tre-", "den", "u-", "we", "poor-", "ten", "in;"],
+        ["Daar", "staan,", "o", "Gods-", "stad,", "o-", "n-", "ze", "voe-", "ten."],
+        ["Je-", "ru-", "za-", "lem", "is", "wel", "ge-", "bouwd,"],
+        ["Wel", "saam-", "ge-", "voegd:", "wie", "haar", "be-", "schouwt,"],
+        ["Zal", "haar", "voor", "’s Bouw-", "heers", "kunst-", "werk", "groe-", "ten."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De stammen, naar Gods Naam genoemd,",
+        "Gaan derwaarts op; waar elk zich buigt",
+        "Naar d’ ark, die van Gods gunst getuigt,",
+        "Waar elk Zijn Naam belijdt en roemt;",
+        "Want d’ achtb’re zetel van ’t gericht,",
+        "Is daar voor Davids huis gesticht,",
+        "De rechterstoelen staan daar binnen.",
+        "Bidt, met een algemene stem,",
+        "Om vrede voor Jeruzalem.",
+        "Het ga hun wel, die u beminnen."
+      ],
+      "syllables": [
+        ["De", "stam-", "men,", "naar", "Gods", "Naam", "ge-", "noemd,"],
+        ["Gaan", "der-", "waarts", "op;", "waar", "elk", "zich", "buigt"],
+        ["Naar", "d’ark,", "die", "van", "Gods", "gunst", "ge-", "tuigt,"],
+        ["Waar", "elk", "Zijn", "Naam", "be-", "lijdt", "en", "roemt;"],
+        ["Want", "d’achtb-", "’re", "ze-", "tel", "van", "’t ge-", "richt,"],
+        ["Is", "daar", "voor", "Da-", "vids", "huis", "ge-", "sticht,"],
+        ["De", "rech-", "ter-", "stoe-", "len", "staan", "daar", "bin-", "nen."],
+        ["Bidt,", "met", "een", "a-", "l-", "ge-", "me-", "ne", "stem,"],
+        ["Om", "vre-", "de", "voor", "Je-", "ru-", "za-", "lem."],
+        ["Het", "ga", "hun", "wel,", "die", "u", "be-", "min-", "nen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Dat vreed’, en aangename rust,",
+        "En milde zegen u verblij’;",
+        "Dat welvaart in uw vesting zij,",
+        "In uw paleizen vreugd’ en lust.",
+        "Om vriend en broed’ ren spreek ik nu:",
+        "„De vrede zij en blijv’ in u,",
+        "Nooit moet haar nijd of twist verkloeken.",
+        "Om ’s HEEREN huis, in u gebouwd,",
+        "Waar onze God Zijn woning houdt,",
+        "Zal ik het goede voor u zoeken.”"
+      ],
+      "syllables": [
+        ["Dat", "vreed’,", "en", "aan-", "ge-", "na-", "me", "rust,"],
+        ["En", "mil-", "de", "ze-", "gen", "u", "ver-", "blij’;"],
+        ["Dat", "wel-", "vaart", "in", "uw", "ves-", "ting", "zij,"],
+        ["In", "uw", "pa-", "lei-", "zen", "vreugd’", "en", "lust."],
+        ["Om", "vriend", "en", "broed’", "ren", "spreek", "ik", "nu:"],
+        ["„De", "vre-", "de", "zij", "en", "blij-", "v’in", "u,"],
+        ["Nooit", "moet", "haar", "nijd", "of", "twist", "ver-", "kloe-", "ken."],
+        ["Om", "’s HEE-", "REN", "huis,", "in", "u", "ge-", "bouwd,"],
+        ["Waar", "o-", "n-", "ze", "God", "Zijn", "wo-", "ning", "houdt,"],
+        ["Zal", "ik", "het", "goe-", "de", "voor", "u", "zoe-", "ken.”"]
+      ]
+    }
+  ]
+}

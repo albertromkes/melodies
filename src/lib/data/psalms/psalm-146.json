@@ -1,0 +1,236 @@
+{
+  "id": "psalm-146",
+  "number": 146,
+  "title": "Psalm 146",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Prijs den HEER’ met blijde galmen;",
+        "Gij, mijn ziel, hebt rijke stof;",
+        "’k Zal, zo lang ik leef, mijn psalmen",
+        "Vrolijk wijden aan Zijn lof:",
+        "’k Zal, zo lang ik ’t licht geniet,",
+        "Hem verhogen in mijn lied."
+      ],
+      "syllables": [
+        ["Prijs", "den", "HEER’", "met", "blij-", "de", "gal-", "men;"],
+        ["Gij,", "mijn", "ziel,", "hebt", "rij-", "ke", "stof;"],
+        ["’k Zal,", "zo", "lang", "ik", "leef,", "mijn", "psal-", "men"],
+        ["Vro-", "lijk", "wij-", "den", "aan", "Zijn", "lof:"],
+        ["’k Zal,", "zo", "lang", "ik", "’t licht", "ge-", "niet,"],
+        ["Hem", "ver-", "ho-", "gen", "in", "mijn", "lied."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Vest op prinsen geen betrouwen,",
+        "Waar men nimmer heil bij vindt;",
+        "Zoudt g’uw hoop op mensen bouwen?",
+        "Als Gods hand hun geest ontbindt,",
+        "Keren zij tot d’ aarde weer,",
+        "Storten met hun aanslag neer."
+      ],
+      "syllables": [
+        ["Vest", "op", "prin-", "sen", "geen", "be-", "trou-", "wen,"],
+        ["Waar", "men", "nim-", "mer", "heil", "bij", "vindt;"],
+        ["Zoudt", "g’uw", "hoop", "op", "men-", "sen", "bou-", "wen?"],
+        ["Als", "Gods", "hand", "hun", "geest", "o-", "nt-", "bindt,"],
+        ["Ke-", "ren", "zij", "tot", "d’aar-", "de", "weer,"],
+        ["Stor-", "ten", "met", "hun", "aan-", "slag", "neer."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zalig hij, die in dit leven,",
+        "Jakobs God terhulpe heeft;",
+        "Hij, die door den nood gedreven,",
+        "Zich tot Hem om troost begeeft;",
+        "Die zijn hoop, in ’t hachlijkst lot,",
+        "Vestigt op den HEER’, zijn God."
+      ],
+      "syllables": [
+        ["Za-", "lig", "hij,", "die", "in", "dit", "le-", "ven,"],
+        ["Ja-", "kobs", "God", "ter-", "hul-", "pe", "heeft;"],
+        ["Hij,", "die", "door", "den", "nood", "ge-", "dre-", "ven,"],
+        ["Zich", "tot", "Hem", "om", "troost", "be-", "geeft;"],
+        ["Die", "zijn", "hoop,", "in", "’t hach-", "lijkst", "lot,"],
+        ["Ves-", "tigt", "op", "den", "HEER’,", "zijn", "God."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’t Is de HEER’, Wiens alvermogen",
+        "’t Groot heelal heeft voortgebracht;",
+        "Die genadig, uit den hogen",
+        "Ziet, wie op Zijn bijstand wacht,",
+        "En aan elk, die Hem verbeidt,",
+        "Trouwe houdt in eeuwigheid."
+      ],
+      "syllables": [
+        ["’t Is", "de", "HEER’,", "Wiens", "a-", "l-", "ver-", "mo-", "gen"],
+        ["’t Groot", "heel-", "al", "heeft", "voort-", "ge-", "bracht;"],
+        ["Die", "ge-", "na-", "dig,", "uit", "den", "ho-", "gen"],
+        ["Ziet,", "wie", "op", "Zijn", "bij-", "stand", "wacht,"],
+        ["En", "aan", "elk,", "die", "Hem", "ver-", "beidt,"],
+        ["Trou-", "we", "houdt", "in", "eeu-", "wig-", "heid."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "’t Is de HEER’, die ’t recht derarmen,",
+        "Derverdrukten gelden doet;",
+        "Die, uit liefderijk erbarmen,",
+        "Hongerigen mild’ lijk voedt;",
+        "Die gevangnen vrijheid schenkt,",
+        "En aan hun ellende denkt."
+      ],
+      "syllables": [
+        ["’t Is", "de", "HEER’,", "die", "’t recht", "der-", "ar-", "men,"],
+        ["Der-", "ver-", "druk-", "ten", "gel-", "den", "doet;"],
+        ["Die,", "uit", "lief-", "de-", "rijk", "e-", "r-", "bar-", "men,"],
+        ["Hon-", "ge-", "ri-", "gen", "mild’", "lijk", "voedt;"],
+        ["Die", "ge-", "vang-", "nen", "vrij-", "heid", "schenkt,"],
+        ["En", "aan", "hun", "e-", "l-", "len-", "de", "denkt."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "’t Is de HEER’, Wiens mededogen",
+        "Blinden schenkt het lieflijk licht;",
+        "Wie in ’t stof lag neergebogen,",
+        "Wordt door Hem weer opgericht.",
+        "God, die lust in waarheid heeft,",
+        "Mint hem, die rechtvaardig leeft."
+      ],
+      "syllables": [
+        ["’t Is", "de", "HEER’,", "Wiens", "me-", "de-", "do-", "gen"],
+        ["Blin-", "den", "schenkt", "het", "lief-", "lijk", "licht;"],
+        ["Wie", "in", "’t stof", "lag", "neer-", "ge-", "bo-", "gen,"],
+        ["Wordt", "door", "Hem", "weer", "o-", "p-", "ge-", "richt."],
+        ["God,", "die", "lust", "in", "waar-", "heid", "heeft,"],
+        ["Mint", "hem,", "die", "recht-", "vaar-", "dig", "leeft."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "’t Is de HEER’, die vreemdelingen",
+        "Met een wakend oog beschouwt;",
+        "Weeuw en wees in twistgedingen",
+        "En in kommer staande houdt;",
+        "Maar Zijn arm, dervromen hoop,",
+        "Stuit de bozen in hun loop."
+      ],
+      "syllables": [
+        ["’t Is", "de", "HEER’,", "die", "vreem-", "de-", "lin-", "gen"],
+        ["Met", "een", "wa-", "kend", "oog", "be-", "schouwt;"],
+        ["Weeuw", "en", "wees", "in", "twist-", "ge-", "din-", "gen"],
+        ["En", "in", "kom-", "mer", "staan-", "de", "houdt;"],
+        ["Maar", "Zijn", "arm,", "der-", "vro-", "men", "hoop,"],
+        ["Stuit", "de", "bo-", "zen", "in", "hun", "loop."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "’t Is de HEER’ van alle heren,",
+        "Sions God, geducht in macht,",
+        "Die voor eeuwig zal regeren",
+        "Van geslachte tot geslacht.",
+        "Sion, zing uw God tereer!",
+        "Prijs Zijn grootheid; loof den HEER’."
+      ],
+      "syllables": [
+        ["’t Is", "de", "HEER’", "van", "a-", "l-", "le", "he-", "ren,"],
+        ["Si-", "ons", "God,", "ge-", "ducht", "in", "macht,"],
+        ["Die", "voor", "eeu-", "wig", "zal", "re-", "ge-", "ren"],
+        ["Van", "ge-", "slach-", "te", "tot", "ge-", "slacht."],
+        ["Si-", "on,", "zing", "uw", "God", "te-", "reer!"],
+        ["Prijs", "Zijn", "groot-", "heid;", "loof", "den", "HEER’."]
+      ]
+    }
+  ]
+}

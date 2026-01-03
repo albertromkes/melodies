@@ -1,0 +1,208 @@
+{
+  "id": "psalm-112",
+  "number": 112,
+  "title": "Psalm 112",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Zingt, zingt den lof van ’t Opperwezen.",
+        "Welzalig hij, die God blijft vrezen,",
+        "En Zijn geboden houdt in waarde!",
+        "Zijn zaad zal machtig zijn op aarde;",
+        "Zelfs daalt op zijn nakomelingen",
+        "Een schat van dierb’re zegeningen."
+      ],
+      "syllables": [
+        ["Zingt,", "zingt", "den", "lof", "van", "’t O-", "p-", "per-", "we-", "zen."],
+        ["Wel-", "za-", "lig", "hij,", "die", "God", "blijft", "vre-", "zen,"],
+        ["En", "Zijn", "ge-", "bo-", "den", "houdt", "in", "waar-", "de!"],
+        ["Zijn", "zaad", "zal", "mach-", "tig", "zijn", "op", "aar-", "de;"],
+        ["Zelfs", "daalt", "op", "zijn", "na-", "ko-", "me-", "lin-", "gen"],
+        ["Een", "schat", "van", "dierb-", "’re", "ze-", "ge-", "nin-", "gen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De rijkdom zal zijn huis verzellen;",
+        "Bij have zal hij have tellen,",
+        "Zijn deugd zal nimmer vruchten missen;",
+        "Hem rijst het licht in duisternissen;",
+        "Hij toont zich ieders liefde waardig,",
+        "Is goed, barmhartig en rechtvaardig."
+      ],
+      "syllables": [
+        ["De", "rijk-", "dom", "zal", "zijn", "huis", "ver-", "zel-", "len;"],
+        ["Bij", "ha-", "ve", "zal", "hij", "ha-", "ve", "tel-", "len,"],
+        ["Zijn", "deugd", "zal", "nim-", "mer", "vruch-", "ten", "mis-", "sen;"],
+        ["Hem", "rijst", "het", "licht", "in", "duis-", "ter-", "nis-", "sen;"],
+        ["Hij", "toont", "zich", "ie-", "ders", "lief-", "de", "waar-", "dig,"],
+        ["Is", "goed,", "barm-", "har-", "tig", "en", "recht-", "vaar-", "dig."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Wel hem, die steeds zich zal erbarmen;",
+        "Die van het zijne leent den armen.",
+        "Hij schikt naar ’t recht zijn huisbelangen.",
+        "Nooit zal hij wank’ren in zijn gangen.",
+        "Zijn naam, beroemd door zijn bedrijven,",
+        "Zal eeuwig in gedachtnis blijven."
+      ],
+      "syllables": [
+        ["Wel", "hem,", "die", "steeds", "zich", "zal", "e-", "r-", "bar-", "men;"],
+        ["Die", "van", "het", "zijne", "leent", "den", "a-", "r-", "men."],
+        ["Hij", "schikt", "naar", "’t recht", "zijn", "huis-", "be-", "lan-", "gen."],
+        ["Nooit", "zal", "hij", "wank-", "’ren", "in", "zijn", "gan-", "gen."],
+        ["Zijn", "naam,", "be-", "roemd", "door", "zijn", "be-", "drij-", "ven,"],
+        ["Zal", "eeu-", "wig", "in", "ge-", "dacht-", "nis", "blij-", "ven."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Geen kwaad gerucht zal hem ontzetten,",
+        "Zijn hart is vast in ’s HEEREN wetten,",
+        "Want hij betrouwt op Gods genade;",
+        "Hij vreest voor schande, leed noch schade.",
+        "Wel ondersteund, zal hij niet wijken,",
+        "Tot hij zijn vijand ziet bezwijken."
+      ],
+      "syllables": [
+        ["Geen", "kwaad", "gerucht", "zal", "hem", "o-", "nt-", "zet-", "ten,"],
+        ["Zijn", "hart", "is", "vast", "in", "’s HEE-", "REN", "wet-", "ten,"],
+        ["Want", "hij", "be-", "trouwt", "op", "Gods", "ge-", "na-", "de;"],
+        ["Hij", "vreest", "voor", "schan-", "de,", "leed", "noch", "scha-", "de."],
+        ["Wel", "o-", "n-", "der-", "steund,", "zal", "hij", "niet", "wijken,"],
+        ["Tot", "hij", "zijn", "vij-", "and", "ziet", "be-", "zwij-", "ken."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Hij strooit steeds uit aan alle zijden,",
+        "En geeft hun mild, die nooddruft lijden.",
+        "Zijn recht, hoe dikwijls ook geschonden,",
+        "Steunt eeuwig op onwrikb’re gronden.",
+        "Zijn hoorn en macht zal God verhogen,",
+        "En nimmer zijnen val gedogen."
+      ],
+      "syllables": [
+        ["Hij", "strooit", "steeds", "uit", "aan", "a-", "l-", "le", "zij-", "den,"],
+        ["En", "geeft", "hun", "mild,", "die", "nood-", "druft", "lij-", "den."],
+        ["Zijn", "recht,", "hoe", "dik-", "wijls", "ook", "ge-", "schon-", "den,"],
+        ["Steunt", "eeuwig", "op", "o-", "n-", "wrikb-", "’re", "gron-", "den."],
+        ["Zijn", "hoorn", "en", "macht", "zal", "God", "ver-", "ho-", "gen,"],
+        ["En", "nim-", "mer", "zij-", "nen", "val", "ge-", "do-", "gen."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "De goddeloze zal dit goede",
+        "Van hem aanschouwen, gram te moede,",
+        "Met tandgekners zichzelf verteren;",
+        "De nijd zal zijne smart vermeren;",
+        "Vergeefs wenst hij den val dervromen,",
+        "Want nooit zal God dien wens doen komen."
+      ],
+      "syllables": [
+        ["De", "god-", "de-", "lo-", "ze", "zal", "dit", "goe-", "de"],
+        ["Van", "hem", "aan-", "schou-", "wen,", "gram", "te", "moe-", "de,"],
+        ["Met", "tand-", "ge-", "kners", "zich-", "zelf", "ver-", "te-", "ren;"],
+        ["De", "nijd", "zal", "zij-", "ne", "smart", "ver-", "me-", "ren;"],
+        ["Ver-", "geefs", "wenst", "hij", "den", "val", "der-", "vro-", "men,"],
+        ["Want", "nooit", "zal", "God", "dien", "wens", "doen", "ko-", "men."]
+      ]
+    }
+  ]
+}

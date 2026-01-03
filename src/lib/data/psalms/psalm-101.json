@@ -1,0 +1,188 @@
+{
+  "id": "psalm-101",
+  "number": 101,
+  "title": "Psalm 101",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "’k Zal van de deugd dermilde goedheid zingen,",
+        "Van ’t heilig recht derstrenge rechtsgedingen:",
+        "Een psalmgezang, o hooggeduchte HEER’,",
+        "Uw Naam tereer."
+      ],
+      "syllables": [
+        ["’k Zal", "van", "de", "deugd", "der-", "mil-", "de", "goed-", "heid", "zin-", "gen,"],
+        ["Van", "’t hei-", "lig", "recht", "der-", "stren-", "ge", "rechts-", "ge-", "din-", "gen:"],
+        ["Een", "psalm-", "ge-", "zang,", "o", "hoog-", "ge-", "duch-", "te", "HEER’,"],
+        ["Uw", "Naam", "te-", "reer."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "’k Zal met verstand den weg betreên dervromen.",
+        "Wanneer zult Gij, mijn Bondgod, tot mij komen?",
+        "Ik zal doen zien in al mijn huisbeleid",
+        "D’ oprechtigheid."
+      ],
+      "syllables": [
+        ["’k Zal", "met", "ver-", "stand", "den", "weg", "be-", "treên", "der-", "vro-", "men."],
+        ["Wan-", "neer", "zult", "Gij,", "mijn", "Bond-", "god,", "tot", "mij", "ko-", "men?"],
+        ["Ik", "zal", "doen", "zien", "in", "al", "mijn", "huis-", "be-", "leid"],
+        ["D’o-", "p-", "rech-", "tig-", "heid."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "’k Zal met vermaak naar ’t kwaad niet overhellen,",
+        "Geen godd’ loos stuk mijzelf voor ogen stellen;",
+        "Ik haat het doen derschend’ ren Uwer wet,",
+        "En schuw die smet."
+      ],
+      "syllables": [
+        ["’k Zal", "met", "ver-", "maak", "naar", "’t kwaad", "niet", "o-", "ver-", "hel-", "len,"],
+        ["Geen", "god-", "d’loos", "stuk", "mij-", "zelf", "voor", "o-", "gen", "stel-", "len;"],
+        ["Ik", "haat", "het", "doen", "der-", "schend’", "ren", "U-", "wer", "wet,"],
+        ["En", "schuw", "die", "smet."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’t Verkeerde hart, in wien ’t mij ook moog’ blijken,",
+        "Zal uit mijn huis en van mijn omgang wijken;",
+        "Mijn gunst zal hen, die boze wegen gaan,",
+        "Nooit gadeslaan."
+      ],
+      "syllables": [
+        ["’t Ver-", "keer-", "de", "hart,", "in", "wien", "’t mij", "ook", "moog’", "blij-", "ken,"],
+        ["Zal", "uit", "mijn", "huis", "en", "van", "mijn", "o-", "m-", "gang", "wij-", "ken;"],
+        ["Mijn", "gunst", "zal", "hen,", "die", "bo-", "ze", "we-", "gen", "gaan,"],
+        ["Nooit", "ga-", "de-", "slaan."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "’k Zal over hem, die achterklapt, mij belgen;",
+        "Den lasteraar zijns vriends zal ik verdelgen;",
+        "Die, trots van hart, met nijdig’ ogen ziet,",
+        "Verdraag ik niet."
+      ],
+      "syllables": [
+        ["’k Zal", "over", "hem,", "die", "a-", "ch-", "ter-", "klapt,", "mij", "bel-", "gen;"],
+        ["Den", "las-", "te-", "raar", "zijns", "vriends", "zal", "ik", "ver-", "del-", "gen;"],
+        ["Die,", "trots", "van", "hart,", "met", "nij-", "dig’", "o-", "gen", "ziet,"],
+        ["Ver-", "draag", "ik", "niet."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Ik sla op die getrouw in ’t land zijn d’ ogen;",
+        "Ik zal in eer hen aan mijn zij’ verhogen;",
+        "En doen hem, die in ’t spoor derdeugd zal treên,",
+        "Mijn dienst bekleên."
+      ],
+      "syllables": [
+        ["Ik", "sla", "op", "die", "ge-", "trouw", "in", "’t land", "zijn", "d’o-", "gen;"],
+        ["Ik", "zal", "in", "eer", "hen", "aan", "mijn", "zij’", "ver-", "ho-", "gen;"],
+        ["En", "doen", "hem,", "die", "in", "’t spoor", "der-", "deugd", "zal", "treên,"],
+        ["Mijn", "dienst", "be-", "kleên."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Maar elk, die snood, door listige bedrijven,",
+        "Zijn voordeel zocht, zal in mijn huis niet blijven;",
+        "Geen leugenaar, die waarheid stout verbant,",
+        "Houdt bij mij stand."
+      ],
+      "syllables": [
+        ["Maar", "elk,", "die", "snood,", "door", "lis-", "ti-", "ge", "be-", "drij-", "ven,"],
+        ["Zijn", "voor-", "deel", "zocht,", "zal", "in", "mijn", "huis", "niet", "blij-", "ven;"],
+        ["Geen", "leu-", "ge-", "naar,", "die", "waar-", "heid", "stout", "ver-", "bant,"],
+        ["Houdt", "bij", "mij", "stand."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Ik zal mijn wraak godd’ lozen ieder’ morgen",
+        "Gevoelen doen en ’t recht zijn klem bezorgen,",
+        "Om in de stad des HEEREN niet te voên,",
+        "Die ’t kwade doen."
+      ],
+      "syllables": [
+        ["Ik", "zal", "mijn", "wraak", "god-", "d’lo-", "zen", "ie-", "der’", "mor-", "gen"],
+        ["Ge-", "voe-", "len", "doen", "en", "’t recht", "zijn", "klem", "be-", "zor-", "gen,"],
+        ["Om", "in", "de", "stad", "des", "HEE-", "REN", "niet", "te", "voên,"],
+        ["Die", "’t kwa-", "de", "doen."]
+      ]
+    }
+  ]
+}

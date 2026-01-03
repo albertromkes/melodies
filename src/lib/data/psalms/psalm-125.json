@@ -1,0 +1,160 @@
+{
+  "id": "psalm-125",
+  "number": 125,
+  "title": "Psalm 125",
+  "category": "psalm",
+  "mode": "dorisch (Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Hij zal noch wanklen, noch bezwijken,",
+        "Die op den HEER’ vertrouwt,",
+        "En op Zijn goedheid bouwt;",
+        "Hij zal, als Sions berg, nooit wijken,",
+        "Wiens grondslag door geen aards vermogen",
+        "Ooit wordt bewogen."
+      ],
+      "syllables": [
+        ["Hij", "zal", "noch", "wank-", "len,", "noch", "be-", "zwij-", "ken,"],
+        ["Die", "op", "den", "HEER’", "ver-", "trouwt,"],
+        ["En", "op", "Zijn", "goed-", "heid", "bouwt;"],
+        ["Hij", "zal,", "als", "Si-", "ons", "berg,", "nooit", "wij-", "ken,"],
+        ["Wiens", "grond-", "slag", "door", "geen", "aards", "ver-", "mo-", "gen"],
+        ["Ooit", "wordt", "be-", "wo-", "gen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Gelijk ’t gebergt’, dat, hoog gerezen,",
+        "Om Salem ligt gespreid,",
+        "Zo is, in eeuwigheid,",
+        "De HEER’ rondom hen, die Hem vrezen;",
+        "Rondom Zijn volk, ’t welk Hij wil hoeden",
+        "Voor tegenspoeden."
+      ],
+      "syllables": [
+        ["Ge-", "lijk", "’t ge-", "bergt’,", "dat,", "hoog", "ge-", "re-", "zen,"],
+        ["Om", "Sa-", "lem", "ligt", "ge-", "spreid,"],
+        ["Zo", "is,", "in", "eeu-", "wig-", "heid,"],
+        ["De", "HEER’", "rond-", "om", "hen,", "die", "Hem", "vre-", "zen;"],
+        ["rond-", "om", "Zijn", "volk,", "’t welk", "Hij", "wil", "hoe-", "den"],
+        ["Voor", "te-", "gen-", "spoe-", "den."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Want hoe de bozen zich doen schromen",
+        "Door wrede heerschappij,",
+        "Nog zal hun dwinglandij",
+        "Niet rusten op het lot dervromen,",
+        "Opdat zij nooit, van ’t recht geweken,",
+        "Zichzelven wreken."
+      ],
+      "syllables": [
+        ["Want", "hoe", "de", "bo-", "zen", "zich", "doen", "schro-", "men"],
+        ["Door", "wre-", "de", "heer-", "schap-", "pij,"],
+        ["Nog", "zal", "hun", "dwing-", "lan-", "dij"],
+        ["Niet", "rus-", "ten", "op", "het", "lot", "der-", "vro-", "men,"],
+        ["O-", "p-", "dat", "zij", "nooit,", "van", "’t recht", "ge-", "we-", "ken,"],
+        ["Zich-", "zel-", "ven", "wre-", "ken."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Geef, HEER’, den goeden Uwen zegen;",
+        "Doe wel aan ’t vroom gemoed;",
+        "Maar hem, die onrecht doet,",
+        "En die zich neigt tot kromme wegen,",
+        "Zal God verdoen; doch Isrel leven",
+        "En vrede geven."
+      ],
+      "syllables": [
+        ["Geef,", "HEER’,", "den", "goe-", "den", "U-", "wen", "ze-", "gen;"],
+        ["Doe", "wel", "aan", "’t vroom", "ge-", "moed;"],
+        ["Maar", "hem,", "die", "o-", "n-", "recht", "doet,"],
+        ["En", "die", "zich", "neigt", "tot", "krom-", "me", "we-", "gen,"],
+        ["Zal", "God", "ver-", "doen;", "doch", "I-", "s-", "rel", "leven"],
+        ["En", "vre-", "de", "ge-", "ven."]
+      ]
+    }
+  ]
+}

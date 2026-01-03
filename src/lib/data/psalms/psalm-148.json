@@ -1,0 +1,229 @@
+{
+  "id": "psalm-148",
+  "number": 148,
+  "title": "Psalm 148",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Looft God, zingt eeuwig ’s HEEREN lof,",
+        "Gij, die in ’t glansrijk hemelhof,",
+        "Die in de hoogste plaatsen woont.",
+        "Waar God u Zijn nabijheid toont;",
+        "Looft Hem, gij eng’len, legermachten,",
+        "Die op Zijn wil en wenk blijft wachten",
+        "Looft, held’ re sterren, maan en zon,",
+        "Looft d’ Almacht, looft derlichten bron."
+      ],
+      "syllables": [
+        ["Looft", "God,", "zingt", "eeu-", "wig", "’s HEE-", "REN", "lof,"],
+        ["Gij,", "die", "in", "’t glans-", "rijk", "he-", "mel-", "hof,"],
+        ["Die", "in", "de", "hoog-", "ste", "plaat-", "sen", "woont."],
+        ["Waar", "God", "u", "Zijn", "na-", "bij-", "heid", "toont;"],
+        ["Looft", "Hem,", "gij", "eng-", "’len,", "le-", "ger-", "mach-", "ten,"],
+        ["Die", "op", "Zijn", "wil", "en", "wenk", "blijft", "wach-", "ten"],
+        ["Looft,", "held’", "re", "ster-", "ren,", "maan", "en", "zon,"],
+        ["Looft", "d’A-", "l-", "macht,", "looft", "der-", "lich-", "ten", "bron."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Verbazend hof van d’ Opperheer,",
+        "Gij, hoogste hemel, zing Zijn eer;",
+        "Gij, wateren, die uit de lucht,",
+        "Uw dropp’len stort op veld en vrucht,",
+        "Looft allen, looft Hem met gezangen,",
+        "Hem, die u ’t wezen deed ontvangen,",
+        "Die u een perk, niet t’overtreên,",
+        "Gesteld heeft door all’ eeuwen heen."
+      ],
+      "syllables": [
+        ["Ver-", "ba-", "zend", "hof", "van", "d’O-", "p-", "per-", "heer,"],
+        ["Gij,", "hoog-", "ste", "he-", "mel,", "zing", "Zijn", "eer;"],
+        ["Gij,", "wa-", "te-", "ren,", "die", "uit", "de", "lucht,"],
+        ["Uw", "dropp-", "’len", "stort", "op", "veld", "en", "vrucht,"],
+        ["Looft", "a-", "l-", "len,", "looft", "Hem", "met", "ge-", "zan-", "gen,"],
+        ["Hem,", "die", "u", "’t wezen", "deed", "o-", "nt-", "van-", "gen,"],
+        ["Die", "u", "een", "perk,", "niet", "t-", "’over-", "treên,"],
+        ["Ge-", "steld", "heeft", "door", "all’", "eeu-", "wen", "heen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Loof, aarde, loof Gods wonderdaân;",
+        "Gij, walvis, grondlooz’ oceaan;",
+        "Gij, sneeuw en hagel, damp en gloed;",
+        "Gij, stormwind, die Zijn last voldoet;",
+        "Gij, bergen, heuvels, landen, stromen;",
+        "Gij, dierb’re vrucht- en cederbomen;",
+        "Looft, looft des Scheppers oppermacht,",
+        "Die u uit niets heeft voortgebracht."
+      ],
+      "syllables": [
+        ["Loof,", "aar-", "de,", "loof", "Gods", "won-", "der-", "daân;"],
+        ["Gij,", "wal-", "vis,", "grond-", "looz’", "o-", "ce-", "aan;"],
+        ["Gij,", "sneeuw", "en", "ha-", "gel,", "damp", "en", "gloed;"],
+        ["Gij,", "storm-", "wind,", "die", "Zijn", "last", "vol-", "doet;"],
+        ["Gij,", "ber-", "gen,", "heu-", "vels,", "lan-", "den,", "stro-", "men;"],
+        ["Gij,", "dierb-", "’re", "vrucht-", "en", "ce-", "der-", "bo-", "men;"],
+        ["Looft,", "looft", "des", "Scheppers", "o-", "p-", "per-", "macht,"],
+        ["Die", "u", "uit", "niets", "heeft", "voort-", "ge-", "bracht."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Looft, kruipend wild en tam gediert’;",
+        "Looft, vogels, Hem, die ’t al bestiert!",
+        "Gij, koningen en rechters, saam,",
+        "Gij, vorsten, volken, roemt Gods Naam.",
+        "Gij, maagden, en gij, jongelingen,",
+        "Laat nimmer af Zijn lof te zingen.",
+        "Eerwaarde grijsheid, frisse jeugd,",
+        "Weest in den God uws heils verheugd!"
+      ],
+      "syllables": [
+        ["Looft,", "krui-", "pend", "wild", "en", "tam", "ge-", "diert’;"],
+        ["Looft,", "vo-", "gels,", "Hem,", "die", "’t al", "be-", "stiert!"],
+        ["Gij,", "ko-", "nin-", "gen", "en", "rech-", "ters,", "saam,"],
+        ["Gij,", "vor-", "sten,", "vol-", "ken,", "roemt", "Gods", "Naam."],
+        ["Gij,", "maag-", "den,", "en", "gij,", "jon-", "ge-", "lin-", "gen,"],
+        ["Laat", "nim-", "mer", "af", "Zijn", "lof", "te", "zin-", "gen."],
+        ["Eer-", "waar-", "de", "grijs-", "heid,", "fris-", "se", "jeugd,"],
+        ["Weest", "in", "den", "God", "uws", "heils", "ver-", "heugd!"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Looft, looft, met waar’ erkentenis",
+        "Zijn Naam, die hoog verheven is;",
+        "Dewijl Zijn wond’ re Majesteit",
+        "Door aard’ en hemel is verspreid.",
+        "Hij wou den hoorn, zo vol vermogen,",
+        "Den roem van Israël verhogen.",
+        "Dat woont bij Hem, ’t heeft zingensstof:",
+        "Looft God, zingt eeuwig ’s HEEREN Lof!"
+      ],
+      "syllables": [
+        ["Looft,", "looft,", "met", "waar’", "e-", "r-", "ken-", "te-", "nis"],
+        ["Zijn", "Naam,", "die", "hoog", "ver-", "he-", "ven", "is;"],
+        ["De-", "wijl", "Zijn", "wond’", "re", "Ma-", "jes-", "teit"],
+        ["Door", "aar-", "d’en", "he-", "mel", "is", "ver-", "spreid."],
+        ["Hij", "wou", "den", "hoorn,", "zo", "vol", "ver-", "mo-", "gen,"],
+        ["Den", "roem", "van", "I-", "s-", "ra-", "ël", "ver-", "ho-", "gen."],
+        ["Dat", "woont", "bij", "Hem,", "’t heeft", "zin-", "gens-", "stof:"],
+        ["Looft", "God,", "zingt", "eeu-", "wig", "’s HEE-", "REN", "Lof!"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": "psalm-124",
+  "number": 124,
+  "title": "Psalm 124",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Dat Israël nu zegge, blij van geest:",
+        "Indien de HEER’, die bij ons is geweest,",
+        "Indien de HEER’, die ons heeft bijgestaan,",
+        "Toen ’s vijands heir en aanval werd gevreesd,",
+        "Niet had gered, wij waren lang vergaan."
+      ],
+      "syllables": [
+        ["Dat", "I-", "s-", "ra-", "ël", "nu", "zegge,", "blij", "van", "geest:"],
+        ["I-", "n-", "dien", "de", "HEER’,", "die", "bij", "ons", "is", "ge-", "weest,"],
+        ["I-", "n-", "dien", "de", "HEER’,", "die", "ons", "heeft", "bij-", "ge-", "staan,"],
+        ["Toen", "’s vij-", "ands", "heir", "en", "aan-", "val", "werd", "ge-", "vreesd,"],
+        ["Niet", "had", "ge-", "red,", "wij", "wa-", "ren", "lang", "ver-", "gaan."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Dan hadden zij ons levendig vernield;",
+        "Hun hete toorn had ons gewis ontzield;",
+        "Bedolven in een diepen jammervloed;",
+        "Dan had een stroom, dien niemand tegenhield,",
+        "Ons gans versmoord, had God het niet verhoed."
+      ],
+      "syllables": [
+        ["Dan", "had-", "den", "zij", "ons", "le-", "ven-", "dig", "ver-", "nield;"],
+        ["Hun", "hete", "toorn", "had", "ons", "ge-", "wis", "o-", "nt-", "zield;"],
+        ["Be-", "dol-", "ven", "in", "een", "die-", "pen", "jam-", "mer-", "vloed;"],
+        ["Dan", "had", "een", "stroom,", "dien", "nie-", "mand", "te-", "gen-", "hield,"],
+        ["Ons", "gans", "ver-", "smoord,", "had", "God", "het", "niet", "ver-", "hoed."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Dan had geen mens naar onze klacht gehoord;",
+        "Dan had een zee van rampen ons versmoord.",
+        "Geloofd zij dies de HEER’, die redt van ’t graf,",
+        "Die ons, schoon wreed vervolgd van oord tot oord,",
+        "Tot enen roof niet in hun tanden gaf."
+      ],
+      "syllables": [
+        ["Dan", "had", "geen", "mens", "naar", "o-", "n-", "ze", "klacht", "ge-", "hoord;"],
+        ["Dan", "had", "een", "zee", "van", "ram-", "pen", "ons", "ver-", "smoord."],
+        ["Ge-", "loofd", "zij", "dies", "de", "HEER’,", "die", "redt", "van", "’t graf,"],
+        ["Die", "ons,", "schoon", "wreed", "ver-", "volgd", "van", "oord", "tot", "oord,"],
+        ["Tot", "e-", "nen", "roof", "niet", "in", "hun", "tan-", "den", "gaf."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "W’ontkwamen haast desvogelvangers net,",
+        "Den lozen strik, tot ons bederf gezet:",
+        "De strik brak los, en wij zijn vrij geraakt.",
+        "De HEER’ is ons tot hulp op ons gebed;",
+        "Die God, die aard’ en hemel heeft gemaakt."
+      ],
+      "syllables": [
+        ["W-", "’ont-", "kwa-", "men", "haast", "des-", "vo-", "gel-", "van-", "gers", "net,"],
+        ["Den", "lo-", "zen", "strik,", "tot", "ons", "be-", "derf", "ge-", "zet:"],
+        ["De", "strik", "brak", "los,", "en", "wij", "zijn", "vrij", "ge-", "raakt."],
+        ["De", "HEER’", "is", "ons", "tot", "hulp", "op", "ons", "ge-", "bed;"],
+        ["Die", "God,", "die", "aar-", "d’en", "he-", "mel", "heeft", "ge-", "maakt."]
+      ]
+    }
+  ]
+}

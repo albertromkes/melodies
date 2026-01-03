@@ -1,0 +1,162 @@
+{
+  "id": "psalm-123",
+  "number": 123,
+  "title": "Psalm 123",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Ik hef tot U, die in den hemel zit,",
+        "Mijn ogen op, en bid;",
+        "Gelijk een knecht ziet op de hand zijns heren,",
+        "Om nooddruft te begeren,",
+        "En ’t oog dermaagd is op haar vrouw geslagen,",
+        "Om hulp of gunst te vragen;",
+        "Zo slaan wij ’t oog op onzen HEER’, tot Hij",
+        "Ook ons genadig zij."
+      ],
+      "syllables": [
+        ["Ik", "hef", "tot", "U,", "die", "in", "den", "he-", "mel", "zit,"],
+        ["Mijn", "o-", "gen", "op,", "en", "bid;"],
+        ["Ge-", "lijk", "een", "knecht", "ziet", "op", "de", "hand", "zijns", "he-", "ren,"],
+        ["Om", "nood-", "druft", "te", "be-", "ge-", "ren,"],
+        ["En", "’t oog", "der-", "maagd", "is", "op", "haar", "vrouw", "ge-", "sla-", "gen,"],
+        ["Om", "hulp", "of", "gunst", "te", "vra-", "gen;"],
+        ["Zo", "slaan", "wij", "’t oog", "op", "o-", "n-", "zen", "HEER’,", "tot", "Hij"],
+        ["Ook", "ons", "ge-", "na-", "dig", "zij."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Geef ons genâ, geef ons genâ, o HEER’,",
+        "En red ons tot Uw eer;",
+        "Wij zijn reeds moe van al de schamp’re woorden,",
+        "Die wij van smaders hoorden;",
+        "Ons treurig hart is moe van al het spotten,",
+        "En ’t honend samenrotten",
+        "Derhovaardij, die need’ rigen veracht,",
+        "En weelderig belacht."
+      ],
+      "syllables": [
+        ["Geef", "ons", "ge-", "nâ,", "geef", "ons", "ge-", "nâ,", "o", "HEER’,"],
+        ["En", "red", "ons", "tot", "Uw", "eer;"],
+        ["Wij", "zijn", "reeds", "moe", "van", "al", "de", "schamp-", "’re", "woor-", "den,"],
+        ["Die", "wij", "van", "sma-", "ders", "hoor-", "den;"],
+        ["Ons", "treu-", "rig", "hart", "is", "moe", "van", "al", "het", "spot-", "ten,"],
+        ["En", "’t ho-", "nend", "sa-", "men-", "rot-", "ten"],
+        ["Der-", "ho-", "vaar-", "dij,", "die", "need’", "ri-", "gen", "ver-", "acht,"],
+        ["En", "weel-", "de-", "rig", "be-", "lacht."]
+      ]
+    }
+  ]
+}

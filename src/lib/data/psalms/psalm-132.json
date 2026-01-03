@@ -1,0 +1,280 @@
+{
+  "id": "psalm-132",
+  "number": 132,
+  "title": "Psalm 132",
+  "category": "psalm",
+  "mode": "hypo-frygisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Gedenk aan David, aan zijn leed;",
+        "Gedenk den duur gezworen eed,",
+        "Dien hij, o HEER’, U plechtig deed;",
+        "Dien eed, waarmee zijn hart en mond",
+        "Aan Jakobs God zich dus verbond:"
+      ],
+      "syllables": [
+        ["Ge-", "denk", "aan", "Da-", "vid,", "aan", "zijn", "leed;"],
+        ["Ge-", "denk", "den", "duur", "ge-", "zwo-", "ren", "eed,"],
+        ["Dien", "hij,", "o", "HEER’,", "U", "plech-", "tig", "deed;"],
+        ["Dien", "eed,", "waar-", "mee", "zijn", "hart", "en", "mond"],
+        ["Aan", "Ja-", "kobs", "God", "zich", "dus", "ver-", "bond:"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "„Zo ik in mijne woning tree,",
+        "Of klimm’ op mijne legerstee;",
+        "Zo ik ternachtrust ga in vreê,",
+        "Zo ik de sluimring zelfs geheng’,",
+        "Totdat ik dezen eed volbreng’:”"
+      ],
+      "syllables": [
+        ["„Zo", "ik", "in", "mij-", "ne", "wo-", "ning", "tree,"],
+        ["Of", "klim-", "m’op", "mij-", "ne", "le-", "ger-", "stee;"],
+        ["Zo", "ik", "ter-", "nacht-", "rust", "ga", "in", "vreê,"],
+        ["Zo", "ik", "de", "sluim-", "ring", "zelfs", "ge-", "heng’,"],
+        ["Tot-", "dat", "ik", "dezen", "eed", "vol-", "breng-", "’:”"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "„Tot ik een rustplaats voor den HEER’",
+        "Gevonden hebb’ te Zijner eer,",
+        "Waar Jakobs Machtige verkeer’,",
+        "En Hij, naar mijn gemaakt bestek,",
+        "Zijn vaste woningen betrekk’.”"
+      ],
+      "syllables": [
+        ["„Tot", "ik", "een", "rust-", "plaats", "voor", "den", "HEER’"],
+        ["Ge-", "von-", "den", "hebb’", "te", "Zij-", "ner", "eer,"],
+        ["Waar", "Ja-", "kobs", "Mach-", "ti-", "ge", "ver-", "keer’,"],
+        ["En", "Hij,", "naar", "mijn", "ge-", "maakt", "be-", "stek,"],
+        ["Zijn", "vaste", "wo-", "nin-", "gen", "be-", "trekk-", "’.”"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Ziet, ’t blij gerucht derark liep voort,",
+        "En werd in Efratha gehoord;",
+        "Wij vonden haar in Jaärs oord,",
+        "In ’t bosrijk veld van Kiriath,",
+        "Dat God dusver verkoren had."
+      ],
+      "syllables": [
+        ["Ziet,", "’t blij", "ge-", "rucht", "de-", "rark", "liep", "voort,"],
+        ["En", "werd", "in", "E-", "frat-", "ha", "ge-", "hoord;"],
+        ["Wij", "von-", "den", "haar", "in", "Ja-","ärs", "oord,"],
+        ["In", "’t bos-", "rijk", "veld", "van", "Ki-", "ri-", "ath,"],
+        ["Dat", "God", "dus-", "ver", "ver-", "ko-", "ren", "had."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Wij zullen in Zijn woning gaan;",
+        "Ons buigen, waar Zijn troon zal staan,",
+        "En bidden voor Zijn voetbank aan.",
+        "Sta op tot Uwe rust, o HEER’,",
+        "Met d’ Arke van Uw sterkt’ en eer’!"
+      ],
+      "syllables": [
+        ["Wij", "zul-", "len", "in", "Zijn", "wo-", "ning", "gaan;"],
+        ["Ons", "bui-", "gen,", "waar", "Zijn", "troon", "zal", "staan,"],
+        ["En", "bid-", "den", "voor", "Zijn", "voet-", "bank", "aan."],
+        ["Sta", "op", "tot", "U-", "we", "rust,", "o", "HEER’,"],
+        ["Met", "d’A-", "r-", "ke", "van", "Uw", "sterkt’", "en", "eer’!"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Bekleed, o hoogste Majesteit,",
+        "Uw priesters met gerechtigheid;",
+        "Uw gunstvolk juich’, door U geleid;",
+        "Versmaad hem, dien Gij zalven liet,",
+        "Om Uwen knecht, om David, niet!"
+      ],
+      "syllables": [
+        ["Be-", "kleed,", "o", "hoog-", "ste", "Ma-", "jes-", "teit,"],
+        ["Uw", "pries-", "ters", "met", "ge-", "rech-", "tig-", "heid;"],
+        ["Uw", "gunst-", "volk", "juich’,", "door", "U", "ge-", "leid;"],
+        ["Ver-", "smaad", "hem,", "dien", "Gij", "zal-", "ven", "liet,"],
+        ["Om", "U-", "wen", "knecht,", "om", "Da-", "vid,", "niet!"]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Tot staving van de waarheid, deed",
+        "De HEER’, die van geen wanklen weet,",
+        "Aan David enen duren eed:",
+        "„Ik zal”, dus sprak Hij, „uwen Zoon",
+        "Eens zetten op uw glorietroon.”"
+      ],
+      "syllables": [
+        ["Tot", "sta-", "ving", "van", "de", "waar-", "heid,", "deed"],
+        ["De", "HEER’,", "die", "van", "geen", "wank-", "len", "weet,"],
+        ["Aan", "Da-", "vid", "e-", "nen", "du-", "ren", "eed:"],
+        ["„Ik", "zal”,", "dus", "sprak", "Hij,", "„u-", "wen", "Zoon"],
+        ["Eens", "zet-", "ten", "op", "uw", "glo-", "rie-", "troon.”"]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "„Houdt uw geslacht Mijn heilverbond,",
+        "En ’t vast getuignis van Mijn mond,",
+        "Dat Ik hun leer ten allen stond;",
+        "Dan is hun ’t rijksbestuur bereid,",
+        "Op uwen troon, in eeuwigheid!”"
+      ],
+      "syllables": [
+        ["„Houdt", "uw", "ge-", "slacht", "Mijn", "heil-", "ver-", "bond,"],
+        ["En", "’t vast", "ge-", "tuig-", "nis", "van", "Mijn", "mond,"],
+        ["Dat", "Ik", "hun", "leer", "ten", "a-", "l-", "len", "stond;"],
+        ["Dan", "is", "hun", "’t rijks-", "be-", "stuur", "be-", "reid,"],
+        ["Op", "u-", "wen", "troon,", "in", "eeu-", "wig-", "heid!”"]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Want Sion is van God begeerd,",
+        "’t Wordt met Zijn woning hoog vereerd;",
+        "„Hier”, sprak Hij, die het al beheert,",
+        "„Hier zal Ik wonen naar Mijn lust;",
+        "Hier is in eeuwigheid Mijn rust.”"
+      ],
+      "syllables": [
+        ["Want", "Si-", "on", "is", "van", "God", "be-", "geerd,"],
+        ["’t Wordt", "met", "Zijn", "wo-", "ning", "hoog", "ver-", "eerd;"],
+        ["„Hier”,", "sprak", "Hij,", "die", "het", "al", "be-", "heert,"],
+        ["„Hier", "zal", "Ik", "wo-", "nen", "naar", "Mijn", "lust;"],
+        ["Hier", "is", "in", "eeu-", "wig-", "heid", "Mijn", "rust.”"]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "„’k Zal Sions, ’k zal derarmen spijs,",
+        "Hier zeegnen op de ruimste wijs;",
+        "Hier zal Ik, Mijnen Naam terprijs,",
+        "De priesters met Mijn heil bekleên,",
+        "En ’t volk doen juichen weltevreên.”"
+      ],
+      "syllables": [
+        ["„’k", "Zal", "Sions,", "’k zal", "der-", "ar-", "men", "spijs,"],
+        ["Hier", "zeeg-", "nen", "op", "de", "ruim-", "ste", "wijs;"],
+        ["Hier", "zal", "Ik,", "Mij-", "nen", "Naam", "ter-", "prijs,"],
+        ["De", "pries-", "ters", "met", "Mijn", "heil", "be-", "kleên,"],
+        ["En", "’t volk", "doen", "juichen", "wel-", "te-", "vreê-", "n.”"]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "„Daar zal Ik David door Mijn kracht,",
+        "Een hoorn van rijkdom, eer en macht",
+        "Doen rijzen uit zijn nageslacht.",
+        "’k Heb Mijn gezalfden knecht een licht,",
+        "Een held’ re lampe toegericht.”"
+      ],
+      "syllables": [
+        ["„Daar", "zal", "Ik", "Da-", "vid", "door", "Mijn", "kracht,"],
+        ["Een", "hoorn", "van", "rijk-", "dom,", "eer", "en", "macht"],
+        ["Doen", "rij-", "zen", "uit", "zijn", "na-", "ge-", "slacht."],
+        ["’k Heb", "Mijn", "ge-", "zalf-", "den", "knecht", "een", "licht,"],
+        ["Een", "held’", "re", "lam-", "pe", "toe-", "ge-", "richt.”"]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "„Wat vijand tegen hem zich kant’,",
+        "Mijn hand, Mijn onweerstaanb’re hand,",
+        "Zal hem bekleên met schaamt’ en schand’;",
+        "Maar eeuwig bloeit de gloriekroon",
+        "Op ’t hoofd van Davids groten Zoon.”"
+      ],
+      "syllables": [
+        ["„Wat", "vij-", "and", "te-", "gen", "hem", "zich", "kant’,"],
+        ["Mijn", "hand,", "Mijn", "o-", "n-", "weer-", "staanb-", "’re", "hand,"],
+        ["Zal", "hem", "be-", "kleên", "met", "schaamt’", "en", "schand’;"],
+        ["Maar", "eeu-", "wig", "bloeit", "de", "glo-", "rie-", "kroon"],
+        ["Op", "’t hoofd", "van", "Da-", "vids", "gro-", "ten", "Zoon.”"]
+      ]
+    }
+  ]
+}

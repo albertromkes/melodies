@@ -1,0 +1,164 @@
+{
+  "id": "psalm-129",
+  "number": 129,
+  "title": "Psalm 129",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Men heeft mij fel benauwd van jongs af aan.",
+        "Zegg’ Isrel nu: men juichte, toen wij vielen.",
+        "Men heeft mij reeds van jongs af leed gedaan;",
+        "Geen overmacht kon m’ echter ooit vernielen."
+      ],
+      "syllables": [
+        ["Men", "heeft", "mij", "fel", "be-", "nauwd", "van", "jongs", "af", "aan."],
+        ["Zeg-", "g-", "’Isrel", "nu:", "men", "juich-", "te,", "toen", "wij", "vie-", "len."],
+        ["Men", "heeft", "mij", "reeds", "van", "jongs", "af", "leed", "ge-", "daan;"],
+        ["Geen", "o-", "ver-", "macht", "kon", "m’e-", "ch-", "ter", "ooit", "ver-", "nie-", "len."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Men heeft mijn rug door ploegers diep geploegd,",
+        "Die hebben wreed hun voren lang getogen,",
+        "En smart bij smart tot mijn verderf gevoegd,",
+        "Voor ’t kermen doof, en wars van mededogen."
+      ],
+      "syllables": [
+        ["Men", "heeft", "mijn", "rug", "door", "ploe-", "gers", "diep", "ge-", "ploegd,"],
+        ["Die", "heb-", "ben", "wreed", "hun", "vo-", "ren", "lang", "ge-", "to-", "gen,"],
+        ["En", "smart", "bij", "smart", "tot", "mijn", "ver-", "derf", "ge-", "voegd,"],
+        ["Voor", "’t ker-", "men", "doof,", "en", "wars", "van", "me-", "de-", "do-", "gen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "De HEER’, die goed, doch ook rechtvaardig is,",
+        "Hieuw gunstig af dergoddelozen touwen.",
+        "Dat smaad hen treff’, en dat hun aanslag miss’;",
+        "Drijf hen terug, die Sion rampen brouwen."
+      ],
+      "syllables": [
+        ["De", "HEER’,", "die", "goed,", "doch", "ook", "recht-", "vaar-", "dig", "is,"],
+        ["Hieuw", "gun-", "stig", "af", "der-", "god-", "de-", "lo-", "zen", "tou-", "wen."],
+        ["Dat", "smaad", "hen", "tref-", "f’,", "en", "dat", "hun", "aanslag", "miss’;"],
+        ["Drijf", "hen", "te-", "rug,", "die", "Si-", "on", "ram-", "pen", "brou-", "wen."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Maak hen gelijk aan ’t lichtverdorrend gras,",
+        "Dat hier en ginds gezien wordt op de daken;",
+        "Dat, eer men ’t plukt, alree verwelkerd was,",
+        "Ontbloot van grond om wortels in te maken."
+      ],
+      "syllables": [
+        ["Maak", "hen", "ge-", "lijk", "aan", "’t licht-", "ver-", "dor-", "rend", "gras,"],
+        ["Dat", "hier", "en", "ginds", "ge-", "zien", "wordt", "op", "de", "da-", "ken;"],
+        ["Dat,", "eer", "men", "’t plukt,", "a-", "l-", "ree", "ver-", "wel-", "kerd", "was,"],
+        ["O-", "nt-", "bloot", "van", "grond", "om", "wor-", "tels", "in", "te", "maken."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Maak z’als dat gras, waarmee de maaier nooit,",
+        "Wanneer hij gaart, de nijv’re hand zal vullen;",
+        "Dat in den oogst geen garvenbinders ooit,",
+        "Bijeen gepakt, in d’ armen dragen zullen."
+      ],
+      "syllables": [
+        ["Maak", "z’als", "dat", "gras,", "waar-", "mee", "de", "maai-", "er", "nooit,"],
+        ["Wan-", "neer", "hij", "gaart,", "de", "nijv-", "’re", "hand", "zal", "vul-", "len;"],
+        ["Dat", "in", "den", "oogst", "geen", "gar-", "ven-", "bin-", "ders", "ooit,"],
+        ["Bij-", "een", "ge-", "pakt,", "in", "d’a-", "r-", "men", "dragen", "zul-", "len."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Waarvan ook geen voorbijgaand wandelaar",
+        "Ooit zeggen zal: „God will’ uw oogst vermeren,",
+        "Dat ’s HEEREN gunst zich met uw arbeid paar’;",
+        "Wij zegenen u in den Naam des HEEREN.”"
+      ],
+      "syllables": [
+        ["Waar-", "van", "ook", "geen", "voor-", "bij-", "gaand", "wan-", "de-", "laar"],
+        ["Ooit", "zeg-", "gen", "zal:", "„God", "will’", "uw", "oogst", "ver-", "me-", "ren,"],
+        ["Dat", "’s HEE-", "REN", "gunst", "zich", "met", "uw", "a-", "r-", "beid", "paar’;"],
+        ["Wij", "ze-", "ge-", "nen", "u", "in", "den", "Naam", "des", "HEE-", "REN.”"]
+      ]
+    }
+  ]
+}

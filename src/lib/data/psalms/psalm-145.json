@@ -1,0 +1,285 @@
+{
+  "id": "psalm-145",
+  "number": 145,
+  "title": "Psalm 145",
+  "category": "psalm",
+  "mode": "mixolydisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "O God, mijn God, Gij aller vorsten HEER’,",
+        "Ik zing, verheugd, Uw groten Naam tereer!",
+        "Ik zal den roem van Uwe majesteit",
+        "Verhogen tot in d’ eindlooz’ eeuwigheid;",
+        "’k Zal dag aan dag U eer en dank bewijzen.",
+        "De HEER’ is groot, al ’t schepsel moet Hem prijzen:",
+        "Zijn grootheid streeft het kloekst begrip te boven",
+        "Laat elk geslacht Zijn werk en almacht loven!"
+      ],
+      "syllables": [
+        ["O", "God,", "mijn", "God,", "Gij", "a-", "l-", "ler", "vor-", "sten", "HEER’,"],
+        ["Ik", "zing,", "ver-", "heugd,", "Uw", "gro-", "ten", "Naam", "te-", "reer!"],
+        ["Ik", "zal", "den", "roem", "van", "U-", "we", "ma-", "jes-", "teit"],
+        ["Ver-", "ho-", "gen", "tot", "in", "d’eind-", "looz’", "eeu-", "wig-", "heid;"],
+        ["’k Zal", "dag", "aan", "dag", "U", "eer", "en", "dank", "be-", "wij-", "zen."],
+        ["De", "HEER’", "is", "groot,", "al", "’t schep-", "sel", "moet", "Hem", "prij-", "zen:"],
+        ["Zijn", "groot-", "heid", "streeft", "het", "kloekst", "be-", "grip", "te", "bo-", "ven"],
+        ["Laat", "elk", "ge-", "slacht", "Zijn", "werk", "en", "a-", "l-", "macht", "loven!"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Ik zal, O HEER’, dien ik mijn Koning noem,",
+        "Den luister van Uw majesteit en roem",
+        "Verbreiden, en Uw wonderlijke daân",
+        "Met diep ontzag aandachtig gadeslaan.",
+        "Elks juichend hart zal Uw geducht vermogen,",
+        "De grote kracht van Uwen arm verhogen.",
+        "Ik zal mijn stem met aller lofzang paren,",
+        "En overal Uw grootheid openbaren."
+      ],
+      "syllables": [
+        ["Ik", "zal,", "O", "HEER’,", "dien", "ik", "mijn", "Ko-", "ning", "noem,"],
+        ["Den", "luis-", "ter", "van", "Uw", "ma-", "jes-", "teit", "en", "roem"],
+        ["Ver-", "brei-", "den,", "en", "Uw", "won-", "der-", "lij-", "ke", "daân"],
+        ["Met", "diep", "o-", "nt-", "zag", "aan-", "dach-", "tig", "ga-", "de-", "slaan."],
+        ["Elks", "jui-", "chend", "hart", "zal", "Uw", "ge-", "ducht", "ver-", "mo-", "gen,"],
+        ["De", "gro-", "te", "kracht", "van", "U-", "wen", "arm", "ver-", "ho-", "gen."],
+        ["Ik", "zal", "mijn", "stem", "met", "a-", "l-", "ler", "lof-", "zang", "pa-", "ren,"],
+        ["En", "o-", "ver-", "al", "Uw", "groot-", "heid", "o-", "pen-", "ba-", "ren."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zij zullen, uit de volheid van ’t gemoed,",
+        "Gedachtig aan den milden overvloed",
+        "Van Uwe gunst, die roemen bij elkeen,",
+        "En juichen van al Uw gerechtigheên.",
+        "De HEER’ is goed en vriend’ lijk en weldadig,",
+        "Barmhartig, mild, lankmoedig en genadig;",
+        "Hij doet Zijn gunst aan allen klaar bemerken;",
+        "Zijn goedheid is verspreid op al Zijn werken."
+      ],
+      "syllables": [
+        ["Zij", "zul-", "len,", "uit", "de", "vol-", "heid", "van", "’t ge-", "moed,"],
+        ["Ge-", "dach-", "tig", "aan", "den", "mil-", "den", "o-", "ver-", "vloed"],
+        ["Van", "Uwe", "gunst,", "die", "roe-", "men", "bij", "e-", "lk-", "een,"],
+        ["En", "jui-", "chen", "van", "al", "Uw", "ge-", "rech-", "tig-", "heên."],
+        ["De", "HEER’", "is", "goed", "en", "vriend’", "lijk", "en", "wel-", "da-", "dig,"],
+        ["Barm-", "har-", "tig,", "mild,", "lank-", "moe-", "dig", "en", "ge-", "na-", "dig;"],
+        ["Hij", "doet", "Zijn", "gunst", "aan", "a-", "l-", "len", "klaar", "be-", "mer-", "ken;"],
+        ["Zijn", "goed-", "heid", "is", "ver-", "spreid", "op", "al", "Zijn", "wer-", "ken."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Al wat Gij wrocht, zal juichen tot Uw eer;",
+        "Uw gunstvolk zal verblijd U zeegnen, HEER’,",
+        "En roemen van Uw koninkrijk, Uw macht,",
+        "Uw heerlijkheid en Goddelijke kracht;",
+        "Om, waar zich ’t hart ooit voelt in leerzucht blaken,",
+        "Uw heerlijkheid, Uw macht bekend te maken,",
+        "En d’ eer Uws rijks, zo groot, zo hoog verheven,",
+        "Voor aller oor den hoogsten roem te geven."
+      ],
+      "syllables": [
+        ["Al", "wat", "Gij", "wrocht,", "zal", "jui-", "chen", "tot", "Uw", "eer;"],
+        ["Uw", "gunst-", "volk", "zal", "ver-", "blijd", "U", "zeeg-", "nen,", "HEER’,"],
+        ["En", "roe-", "men", "van", "Uw", "ko-", "nink-", "rijk,", "Uw", "macht,"],
+        ["Uw", "heer-", "lijk-", "heid", "en", "God-", "de-", "lij-", "ke", "kracht;"],
+        ["Om,", "waar", "zich", "’t hart", "ooit", "voelt", "in", "leer-", "zucht", "bla-", "ken,"],
+        ["Uw", "heer-", "lijk-", "heid,", "Uw", "macht", "be-", "kend", "te", "ma-", "ken,"],
+        ["En", "d’eer", "Uws", "rijks,", "zo", "groot,", "zo", "hoog", "ver-", "he-", "ven,"],
+        ["Voor", "a-", "l-", "ler", "oor", "den", "hoog-", "sten", "roem", "te", "ge-", "ven."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Uw heerschappij verduurt zelfs d’ eeuwigheid;",
+        "Uw koninkrijk is eind’ loos uitgebreid.",
+        "Gij ondersteunt hem, die voor ’t onheil zwicht:",
+        "Wie nederstort, wordt door U opgericht.",
+        "’t Ziet al op U; ’t blijft alles op U wachten;",
+        "Gij sterkt door spijs, te rechter tijd, hun krachten;",
+        "G’ontsluit Uw hand, ontfermend en weldadig,",
+        "Opdat Uw gunst, al wat erleeft, verzadig’."
+      ],
+      "syllables": [
+        ["Uw", "heer-", "schap-", "pij", "ver-", "duurt", "zelfs", "d’eeu-", "wig-", "heid;"],
+        ["Uw", "ko-", "nink-", "rijk", "is", "eind’", "loos", "uit-", "ge-", "breid."],
+        ["Gij", "o-", "n-", "der-", "steunt", "hem,", "die", "voor", "’t onheil", "zwicht:"],
+        ["Wie", "ne-", "der-", "stort,", "wordt", "door", "U", "o-", "p-", "ge-", "richt."],
+        ["’t Ziet", "al", "op", "U;", "’t blijft", "a-", "l-", "les", "op", "U", "wach-", "ten;"],
+        ["Gij", "sterkt", "door", "spijs,", "te", "rech-", "ter", "tijd,", "hun", "krach-", "ten;"],
+        ["G-", "’ont-", "sluit", "Uw", "hand,", "o-", "nt-", "fer-", "mend", "en", "weldadig,"],
+        ["Opdat", "Uw", "gunst,", "al", "wat", "e-", "r-", "leeft,", "ver-", "za-", "dig’."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "De HEER’ is recht, in al Zijn weg en werk;",
+        "Zijn goedheid kent in ’t gans heelal geen perk.",
+        "Hij is nabij de ziel, die tot Hem zucht;",
+        "Hij troost het hart, dat schreiend tot Hem vlucht;",
+        "Dat ongeveinsd, in ’t midden derellenden,",
+        "Zich naar Gods troon met zijn gebeên blijft wenden;",
+        "Hij geeft den wens van allen, die Hem vrezen;",
+        "Hun bede heeft Hij nimmer afgewezen."
+      ],
+      "syllables": [
+        ["De", "HEER’", "is", "recht,", "in", "al", "Zijn", "weg", "en", "werk;"],
+        ["Zijn", "goed-", "heid", "kent", "in", "’t gans", "heel-", "al", "geen", "perk."],
+        ["Hij", "is", "na-", "bij", "de", "ziel,", "die", "tot", "Hem", "zucht;"],
+        ["Hij", "troost", "het", "hart,", "dat", "schrei-", "end", "tot", "Hem", "vlucht;"],
+        ["Dat", "o-", "n-", "ge-", "veinsd,", "in", "’t midden", "de-", "rel-", "len-", "den,"],
+        ["Zich", "naar", "Gods", "troon", "met", "zijn", "ge-", "beên", "blijft", "wen-", "den;"],
+        ["Hij", "geeft", "den", "wens", "van", "a-", "l-", "len,", "die", "Hem", "vre-", "zen;"],
+        ["Hun", "bede", "heeft", "Hij", "nim-", "mer", "a-", "f-", "ge-", "we-", "zen."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "De HEER’ bewaart de ziel, die Hem bemint;",
+        "Maar Hij verdelgt, dien Hij godd’ loos bevindt.",
+        "Mijn blijde tong zal roemen in den HEER’,",
+        "En alle vlees zal juichen tot Gods eer."
+      ],
+      "syllables": [
+        ["De", "HEER’", "be-", "waart", "de", "ziel,", "die", "Hem", "be-", "mint;"],
+        ["Maar", "Hij", "ver-", "delgt,", "dien", "Hij", "godd’", "loos", "be-", "vindt."],
+        ["Mijn", "blij-", "de", "tong", "zal", "roe-", "men", "in", "den", "HEER’,"],
+        ["En", "a-", "l-", "le", "vlees", "zal", "jui-", "chen", "tot", "Gods", "eer."]
+      ]
+    }
+  ]
+}

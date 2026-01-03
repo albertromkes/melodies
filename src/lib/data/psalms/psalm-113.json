@@ -1,0 +1,185 @@
+{
+  "id": "psalm-113",
+  "number": 113,
+  "title": "Psalm 113",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Straatsburg/Genève 1542 / Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Gij ’s HEEREN knechten, looft den HEER’;",
+        "Looft Zijnen Naam, verbreidt Zijn eer;",
+        "De Naam des HEEREN zij geprezen!",
+        "Zijn roem zij door ’t heelal verbreid,",
+        "Van nu tot in all’ eeuwigheid;",
+        "Men loov’ ’t aanbidd’ lijk Opperwezen."
+      ],
+      "syllables": [
+        ["Gij", "’s HEE-", "REN", "knech-", "ten,", "looft", "den", "HEER’;"],
+        ["Looft", "Zij-", "nen", "Naam,", "ver-", "breidt", "Zijn", "eer;"],
+        ["De", "Naam", "des", "HEE-", "REN", "zij", "ge-", "pre-", "zen!"],
+        ["Zijn", "roem", "zij", "door", "’t heel-", "al", "ver-", "breid,"],
+        ["Van", "nu", "tot", "in", "all’", "eeu-", "wig-", "heid;"],
+        ["Men", "loov’", "’t aan-", "bid-", "d’lijk", "O-", "p-", "per-", "we-", "zen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Van waar de zon in ’t oosten straalt,",
+        "Tot waar z’in ’t westen nederdaalt,",
+        "Zij ’s HEEREN Name lof gegeven.",
+        "De HEER’ is boven ’t heidendom;",
+        "Zijn heerlijkheid, bekend alom,",
+        "Is boven zon en maan verheven."
+      ],
+      "syllables": [
+        ["Van", "waar", "de", "zon", "in", "’t oos-", "ten", "straalt,"],
+        ["Tot", "waar", "z’in", "’t wes-", "ten", "ne-", "der-", "daalt,"],
+        ["Zij", "’s HEE-", "REN", "Na-", "me", "lof", "ge-", "ge-", "ven."],
+        ["De", "HEER’", "is", "bo-", "ven", "’t hei-", "den-", "dom;"],
+        ["Zijn", "heer-", "lijk-", "heid,", "be-", "kend", "a-", "l-", "om,"],
+        ["Is", "bo-", "ven", "zon", "en", "maan", "ver-", "he-", "ven."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Wie is gelijk aan onzen HEER’,",
+        "Aan God, die, tot Zijn eeuwig’ eer,",
+        "Zijn troon gevest heeft in den hemel?",
+        "Die, daar Hij ’t wereldrond gebiedt,",
+        "Van Zijnen hogen zetel ziet",
+        "Op ’t laag en nietig aards gewemel?"
+      ],
+      "syllables": [
+        ["Wie", "is", "ge-", "lijk", "aan", "o-", "n-", "zen", "HEER’,"],
+        ["Aan", "God,", "die,", "tot", "Zijn", "eeu-", "wig’", "eer,"],
+        ["Zijn", "troon", "ge-", "vest", "heeft", "in", "den", "he-", "mel?"],
+        ["Die,", "daar", "Hij", "’t we-", "reld-", "rond", "ge-", "biedt,"],
+        ["Van", "Zij-", "nen", "ho-", "gen", "ze-", "tel", "ziet"],
+        ["Op", "’t laag", "en", "nie-", "tig", "aards", "ge-", "we-", "mel?"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Wie is aan onzen God gelijk,",
+        "Die armen opricht uit het slijk;",
+        "Nooddruftigen, van elk verstoten,",
+        "Goedgunstig opheft uit het stof,",
+        "En hen, verrijkt met eer en lof,",
+        "Naast prinsen plaatst en wereldgroten?"
+      ],
+      "syllables": [
+        ["Wie", "is", "aan", "o-", "n-", "zen", "God", "ge-", "lijk,"],
+        ["Die", "armen", "o-", "p-", "richt", "uit", "het", "slijk;"],
+        ["Nood-", "druf-", "ti-", "gen,", "van", "elk", "ver-", "sto-", "ten,"],
+        ["Goed-", "gun-", "stig", "o-", "p-", "heft", "uit", "het", "stof,"],
+        ["En", "hen,", "ver-", "rijkt", "met", "eer", "en", "lof,"],
+        ["Naast", "prin-", "sen", "plaatst", "en", "we-", "reld-", "gro-", "ten?"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Wie roemt niet ’s HEEREN wond’ re trouw,",
+        "Die mildelijk d’ onvruchtb’re vrouw,",
+        "Op hare beê, een blijde moeder",
+        "Van liev’ en frisse telgen maakt,",
+        "En dus voor aller welzijn waakt?",
+        "Men loov’ den groten Albehoeder!"
+      ],
+      "syllables": [
+        ["Wie", "roemt", "niet", "’s HEE-", "REN", "wond’", "re", "trouw,"],
+        ["Die", "mil-", "de-", "lijk", "d’o-", "n-", "vruchtb-", "’re", "vrouw,"],
+        ["Op", "ha-", "re", "beê,", "een", "blij-", "de", "moe-", "der"],
+        ["Van", "liev’", "en", "fris-", "se", "tel-", "gen", "maakt,"],
+        ["En", "dus", "voor", "a-", "l-", "ler", "wel-", "zijn", "waakt?"],
+        ["Men", "loov’", "den", "groten", "A-", "l-", "be-", "hoe-", "der!"]
+      ]
+    }
+  ]
+}

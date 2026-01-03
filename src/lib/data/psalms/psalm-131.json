@@ -1,0 +1,124 @@
+{
+  "id": "psalm-131",
+  "number": 131,
+  "title": "Psalm 131",
+  "category": "psalm",
+  "mode": "frygisch (Bourgois 1551)",
+  "keySignature": "Bb",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["eb/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Mijn hart verheft zich niet, o HEER’,",
+        "Mijn ogen zijn niet hoog; ’k verkeer,",
+        "Ik wandel niet in ’t geen te groot,",
+        "Te vreemd is voor Uw gunstgenoot."
+      ],
+      "syllables": [
+        ["Mijn", "hart", "ver-", "heft", "zich", "niet,", "o", "HEER’,"],
+        ["Mijn", "o-", "gen", "zijn", "niet", "hoog;", "’k ver-", "keer,"],
+        ["Ik", "wan-", "del", "niet", "in", "’t geen", "te", "groot,"],
+        ["Te", "vreemd", "is", "voor", "Uw", "gunst-", "ge-", "noot."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Heb ik mijn ziel niet stil gezet,",
+        "En mij verloochend naar Uw wet,",
+        "Gelijk het pas gespeende kind",
+        "Zich stil bij zijne moeder vind?"
+      ],
+      "syllables": [
+        ["Heb", "ik", "mijn", "ziel", "niet", "stil", "ge-", "zet,"],
+        ["En", "mij", "ver-", "loo-", "chend", "naar", "Uw", "wet,"],
+        ["Ge-", "lijk", "het", "pas", "ge-", "speen-", "de", "kind"],
+        ["Zich", "stil", "bij", "zij-", "ne", "moe-", "der", "vind?"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Mijn ziel, die naar den vrede haakt,",
+        "En ’t morrend ongenoegen wraakt,",
+        "Is in mij als een kind gespeend,",
+        "En heeft zich met Uw wil vereend."
+      ],
+      "syllables": [
+        ["Mijn", "ziel,", "die", "naar", "den", "vre-", "de", "haakt,"],
+        ["En", "’t mor-", "rend", "o-", "n-", "ge-", "noe-", "gen", "wraakt,"],
+        ["Is", "in", "mij", "als", "een", "kind", "ge-", "speend,"],
+        ["En", "heeft", "zich", "met", "Uw", "wil", "ver-", "eend."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Dat Isrel op den HEER’ vertrouw’;",
+        "Zijn hoop op Gods ontferming bouw’,",
+        "En stil berust’ in Zijn beleid,",
+        "Van nu tot in all’ eeuwigheid."
+      ],
+      "syllables": [
+        ["Dat", "I-", "s-", "rel", "op", "den", "HEER’", "ver-", "trouw’;"],
+        ["Zijn", "hoop", "op", "Gods", "o-", "nt-", "fer-", "ming", "bouw’,"],
+        ["En", "stil", "be-", "rust’", "in", "Zijn", "be-", "leid,"],
+        ["Van", "nu", "tot", "in", "all’", "eeu-", "wig-", "heid."]
+      ]
+    }
+  ]
+}

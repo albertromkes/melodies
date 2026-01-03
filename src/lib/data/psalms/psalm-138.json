@@ -1,0 +1,257 @@
+{
+  "id": "psalm-138",
+  "number": 138,
+  "title": "Psalm 138",
+  "category": "psalm",
+  "mode": "lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "’k Zal met mijn ganse hart Uw eer",
+        "Vermelden, HEER’,",
+        "U dank bewijzen.",
+        "’k Zal U in ’t midden van de goôn,",
+        "Op hogen toon,",
+        "Met psalmen prijzen;",
+        "Ik zal mij buigen, op Uw eis,",
+        "Naar Uw paleis,",
+        "Het hof derhoven,",
+        "En, om Uw gunst en waarheid saam,",
+        "Uw groten Naam",
+        "Eerbiedig loven."
+      ],
+      "syllables": [
+        ["’k Zal", "met", "mijn", "gan-", "se", "hart", "Uw", "eer"],
+        ["Ver-", "mel-", "den,", "HEER’,"],
+        ["U", "dank", "be-", "wij-", "zen."],
+        ["’k Zal", "U", "in", "’t mid-", "den", "van", "de", "goôn,"],
+        ["Op", "ho-", "gen", "toon,"],
+        ["Met", "psal-", "men", "prij-", "zen;"],
+        ["Ik", "zal", "mij", "bui-", "gen,", "op", "Uw", "eis,"],
+        ["Naar", "Uw", "pa-", "leis,"],
+        ["Het", "hof", "der-", "ho-", "-", "ven,"],
+        ["En,", "om", "Uw", "gunst", "en", "waar-", "heid", "saam,"],
+        ["Uw", "gro-", "ten", "Naam"],
+        ["Eer-", "bie-", "dig", "lo-", "ven."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Door al Uw deugden aangespoord,",
+        "Hebt Gij Uw woord",
+        "En trouw verheven.",
+        "Gij hebt mijn ziel op haar gebed,",
+        "Verhoord, gered,",
+        "Haar kracht gegeven.",
+        "Al ’s aardrijks vorsten zullen, HEER’,",
+        "Uw lof en eer",
+        "Alom doen horen,",
+        "Wanneer de rede van Uw mond,",
+        "Op ’t wereldrond,",
+        "Hun klinkt in d’ oren."
+      ],
+      "syllables": [
+        ["Door", "al", "Uw", "deug-", "den", "aan-", "ge-", "spoord,"],
+        ["Hebt", "Gij", "Uw", "woord"],
+        ["En", "trouw", "ver-", "he-", "ven."],
+        ["Gij", "hebt", "mijn", "ziel", "op", "haar", "ge-", "bed,"],
+        ["Ver-", "hoord,", "ge-", "red,"],
+        ["Haar", "kracht", "ge-", "ge-", "ven."],
+        ["Al", "’s aard-", "rijks", "vor-", "sten", "zul-", "len,", "HEER’,"],
+        ["Uw", "lof", "en", "eer"],
+        ["A-", "l-", "om", "doen", "ho-", "ren,"],
+        ["Wan-", "neer", "de", "re-", "de", "van", "Uw", "mond,"],
+        ["Op", "’t we-", "reld-", "rond,"],
+        ["Hun", "klinkt", "in", "d’o-", "ren."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Dan zingen zij, in God verblijd,",
+        "Aan Hem gewijd,",
+        "Van ’s HEEREN wegen;",
+        "Want groot is ’s HEEREN heerlijkheid,",
+        "Zijn Majesteit",
+        "Ten top gestegen.",
+        "Hij slaat toch, schoon oneindig hoog,",
+        "Op hen het oog,",
+        "Die need’ rig knielen;",
+        "Maar ziet van vermet gramschap aan",
+        "Den ijd’ len waan",
+        "Dertrotse zielen."
+      ],
+      "syllables": [
+        ["Dan", "zin-", "gen", "zij,", "in", "God", "ver-", "blijd,"],
+        ["Aan", "Hem", "ge-", "wijd,"],
+        ["Van", "’s HEE-", "REN", "we-", "gen;"],
+        ["Want", "groot", "is", "’s HEE-", "REN", "heer-", "lijk-", "heid,"],
+        ["Zijn", "Ma-", "jes-", "teit"],
+        ["Ten", "top", "ge-", "ste-", "gen."],
+        ["Hij", "slaat", "toch,", "schoon", "o-", "n-", "ein-", "dig", "hoog,"],
+        ["Op", "hen", "het", "oog,"],
+        ["Die", "need’", "rig", "knie-",  "-", "len;"],
+        ["Maar", "ziet", "van", "ver-", "met", "gram-", "schap", "aan"],
+        ["Den", "ijd’", "len", "waan"],
+        ["Der-", "trot-", "se", "zie-", "len."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Als ik, omringd door tegenspoed,",
+        "Bezwijken moet,",
+        "Schenkt Gij mij leven.",
+        "Is ’t, dat mijns vijands gramschap brandt,",
+        "Uw rechterhand",
+        "Zal redding geven.",
+        "De HEER’ is zo getrouw als sterk,",
+        "Hij zal Zijn werk",
+        "Voor mij volenden,",
+        "Verlaat niet wat Uw hand begon,",
+        "O Levensbron,",
+        "Wil bijstand zenden."
+      ],
+      "syllables": [
+        ["Als", "ik,", "o-", "m-", "ringd", "door", "te-", "gen-", "spoed,"],
+        ["Be-", "zwij-", "ken", "moet,"],
+        ["Schenkt", "Gij", "mij", "le-", "ven."],
+        ["Is", "’t,", "dat", "mijns", "vijands", "gram-", "schap", "brandt,"],
+        ["Uw", "rech-", "ter-", "hand"],
+        ["Zal", "red-", "ding", "ge-", "ven."],
+        ["De", "HEER’", "is", "zo", "ge-", "trouw", "als", "sterk,"],
+        ["Hij", "zal", "Zijn", "werk"],
+        ["Voor", "mij", "vol-", "en-",  "-", "den,"],
+        ["Ver-", "laat", "niet", "wat", "Uw", "hand", "be-", "gon,"],
+        ["O", "Le-", "vens-", "bron,"],
+        ["Wil", "bij-", "stand", "zen-", "den."]
+      ]
+    }
+  ]
+}

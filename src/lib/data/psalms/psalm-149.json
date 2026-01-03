@@ -1,0 +1,219 @@
+{
+  "id": "psalm-149",
+  "number": 149,
+  "title": "Psalm 149",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Looft, looft den HEER’, dien onbedwongen,",
+        "Een nieuw gezang zij toegezongen,",
+        "In ’t midden Zijner gunstelingen,",
+        "Die Hem terere zingen.",
+        "Dat Israël, met blijden klank,",
+        "Zijn milden Schepper loov’ en dank’;",
+        "Dat Sions kroost, met lofgejuich,",
+        "Zich voor zijn Koning buig’."
+      ],
+      "syllables": [
+        ["Looft,", "looft", "den", "HEER’,", "dien", "o-", "n-", "be-", "dwon-", "gen,"],
+        ["Een", "nieuw", "ge-", "zang", "zij", "toe-", "ge-", "zon-", "gen,"],
+        ["In", "’t mid-", "den", "Zij-", "ner", "gun-", "ste-", "lin-", "gen,"],
+        ["Die", "Hem", "te-", "re-", "re", "zin-", "gen."],
+        ["Dat", "I-", "s-", "ra-", "ël,", "met", "blijden", "klank,"],
+        ["Zijn", "mil-", "den", "Schep-", "per", "loov’", "en", "dank’;"],
+        ["Dat", "Si-", "ons", "kroost,", "met", "lof-", "ge-", "juich,"],
+        ["Zich", "voor", "zijn", "Ko-", "ning", "buig’."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Laat d’ ijverige tempelreien",
+        "Op fluiten ’s Hoogsten Naam verbreien;",
+        "Hun psalmgezangen vrolijk paren,",
+        "Met trommelen en snaren;",
+        "Nu God met lust Zijn ogen slaat",
+        "Op Jakobs uitverkoren zaad;",
+        "Zachtmoedigen Zijn gunst betoont,",
+        "En hen met heil bekroont."
+      ],
+      "syllables": [
+        ["Laat", "d’i-", "j-", "ve-", "ri-", "ge", "tem-", "pelrei-", "en"],
+        ["Op", "flui-", "ten", "’s Hoog-", "sten", "Naam", "ver-", "brei-", "en;"],
+        ["Hun", "psalm-", "ge-", "zan-", "gen", "vro-", "lijk", "pa-", "ren,"],
+        ["Met", "trom-", "me-", "len", "en", "sna-", "ren;"],
+        ["Nu", "God", "met", "lust", "Zijn", "o-", "gen", "slaat"],
+        ["Op", "Ja-", "kobs", "uit-", "ver-", "ko-", "ren", "zaad;"],
+        ["Zacht-", "moe-", "di-", "gen", "Zijn", "gunst", "be-", "toont,"],
+        ["En", "hen", "met", "heil", "be-", "kroont."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Op ’t heug’lijkst zien Zijn gunstgenoten,",
+        "Door ’t heilsieraad, hun eer vergroten;",
+        "Dies mogen zij van blijdschap springen,",
+        "En op hun legers zingen.",
+        "Het lied, gewijd aan ’s HEEREN lof,",
+        "Die hoger rijst dan ’t hemelhof,",
+        "Vervult hun keel; hun hand aanvaardt",
+        "Een scherp tweesnijdend zwaard."
+      ],
+      "syllables": [
+        ["Op", "’t heug-", "’lijkst", "zien", "Zijn", "gunst-", "ge-", "no-", "ten,"],
+        ["Door", "’t heil-", "sie-", "raad,", "hun", "eer", "ver-", "gro-", "ten;"],
+        ["Dies", "mo-", "gen", "zij", "van", "blijd-", "schap", "sprin-", "gen,"],
+        ["En", "op", "hun", "le-", "gers", "zin-", "gen."],
+        ["Het", "lied,", "ge-", "wijd", "aan", "’s HEE-", "REN", "lof,"],
+        ["Die", "ho-", "ger", "rijst", "dan", "’t he-", "mel-", "hof,"],
+        ["Ver-", "vult", "hun", "keel;", "hun", "hand", "aan-", "vaardt"],
+        ["Een", "scherp", "twee-", "snij-", "dend", "zwaard."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Dus wil d’ Almachtig’, op hun smeken,",
+        "Door hen zich aan de heid’ nen wreken;",
+        "Door hen de wreev’le volken straffen,",
+        "Elk loon naar werk verschaffen;",
+        "Hun koningen in ketens slaan;",
+        "Hun groten doen in boeien gaan,",
+        "En ’t recht, gelijk ’t beschreven staat,",
+        "Volvoeren naar Zijn raad."
+      ],
+      "syllables": [
+        ["Dus", "wil", "d’A-", "l-", "mach-", "tig’,", "op", "hun", "smeken,"],
+        ["Door", "hen", "zich", "aan", "de", "heid’", "nen", "wre-", "ken;"],
+        ["Door", "hen", "de", "wreev-", "’le", "vol-", "ken", "straf-", "fen,"],
+        ["Elk", "loon", "naar", "werk", "ver-", "schaf-", "fen;"],
+        ["Hun", "ko-", "nin-", "gen", "in", "ke-", "tens", "slaan;"],
+        ["Hun", "gro-", "ten", "doen", "in", "boei-", "en", "gaan,"],
+        ["En", "’t recht,", "ge-", "lijk", "’t be-", "schre-", "ven", "staat,"],
+        ["Vol-", "voe-", "ren", "naar", "Zijn", "raad."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Zo zal de heerlijkheid dervromen",
+        "Op ’t luisterrijkst te voorschijn komen;",
+        "Zo schenkt Gods goedheid hun begeren.",
+        "Lof zij den HEER’ derheren."
+      ],
+      "syllables": [
+        ["Zo", "zal", "de", "heer-", "lijk-", "heid", "der-", "vro-", "men"],
+        ["Op", "’t luis-", "ter-", "rijkst", "te", "voor-", "schijn", "ko-", "men;"],
+        ["Zo", "schenkt", "Gods", "goed-", "heid", "hun", "be-", "ge-", "ren."],
+        ["Lof", "zij", "den", "HEER’", "der-", "he-", "ren."]
+      ]
+    }
+  ]
+}

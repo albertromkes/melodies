@@ -1,0 +1,275 @@
+{
+  "id": "psalm-108",
+  "number": 108,
+  "title": "Psalm 108",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Mijn hart, o Hemelmajesteit,",
+        "Is tot Uw dienst en lof bereid;",
+        "’k Zal zingen voor den Opperheer,",
+        "’k Zal psalmen zingen tot Zijn eer.",
+        "Gij, zachte harp, gij schelle luit,",
+        "Waakt op, dat niets uw klanken stuit’.",
+        "’k Zal in den dageraad ontwaken",
+        "En met gezang mijn God genaken."
+      ],
+      "syllables": [
+        ["Mijn", "hart,", "o", "He-", "mel-", "ma-", "jes-", "teit,"],
+        ["Is", "tot", "Uw", "dienst", "en", "lof", "be-", "reid;"],
+        ["’k Zal", "zingen", "voor", "den", "O-", "p-", "per-", "heer,"],
+        ["’k Zal", "psal-", "men", "zin-", "gen", "tot", "Zijn", "eer."],
+        ["Gij,", "zach-", "te", "harp,", "gij", "schel-", "le", "luit,"],
+        ["Waakt", "op,", "dat", "niets", "uw", "klan-", "ken", "stuit’."],
+        ["’k Zal", "in", "den", "da-", "ge-", "raad", "o-", "nt-", "wa-", "ken"],
+        ["En", "met", "ge-", "zang", "mijn", "God", "ge-", "na-", "ken."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Ik zal, o HEER’, Uw wonderdaân,",
+        "Uw roem den volken doen verstaan;",
+        "Want Uwe goedertierenheid",
+        "Is tot de heemlen uitgebreid.",
+        "Uw waarheid heeft noch paal noch perk,",
+        "Maar streeft tot aan het hoogste zwerk.",
+        "Verhef U boven ’s hemels kringen,",
+        "En leer al d’ aard’ Uw grootheid zingen."
+      ],
+      "syllables": [
+        ["Ik", "zal,", "o", "HEER’,", "Uw", "won-", "der-", "daân,"],
+        ["Uw", "roem", "den", "vol-", "ken", "doen", "ver-", "staan;"],
+        ["Want", "U-", "we", "goe-", "der-", "tie-", "ren-", "heid"],
+        ["Is", "tot", "de", "heem-", "len", "uit-", "ge-", "breid."],
+        ["Uw", "waar-", "heid", "heeft", "noch", "paal", "noch", "perk,"],
+        ["Maar", "streeft", "tot", "aan", "het", "hoog-", "ste", "zwerk."],
+        ["Ver-", "hef", "U", "bo-", "ven", "’s he-", "mels", "krin-", "gen,"],
+        ["En", "leer", "al", "d’aar-", "d’Uw", "groot-", "heid", "zin-", "gen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zo word’ Uw dierbaar volk in ’t end,",
+        "Bevrijd van rampspoed en ellend’;",
+        "O God, verlos ons door Uw hand,",
+        "Verhoor ons, zend ons onderstand!",
+        "Gij hebt tot onze vreugd voorspeld,",
+        "En in Uw heiligdom gemeld,",
+        "Dat Sichem mij zijn Vorst zal heten",
+        "En ik het dal van Sukkoth meten."
+      ],
+      "syllables": [
+        ["Zo", "word’", "Uw", "dier-", "baar", "volk", "in", "’t end,"],
+        ["Bevrijd", "van", "ramp-", "spoed", "en", "e-", "l-", "lend’;"],
+        ["O", "God,", "ver-", "los", "ons", "door", "Uw", "hand,"],
+        ["Verhoor", "ons,", "zend", "ons", "o-", "n-", "der-", "stand!"],
+        ["Gij", "hebt", "tot", "o-", "n-", "ze", "vreugd", "voor-", "speld,"],
+        ["En", "in", "Uw", "hei-", "lig-", "dom", "ge-", "meld,"],
+        ["Dat", "Si-", "chem", "mij", "zijn", "Vorst", "zal", "he-", "ten"],
+        ["En", "ik", "het", "dal", "van", "Suk-", "koth", "me-", "ten."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gans Gilead behoort aan mij;",
+        "’k Voer in Manasse heerschappij;",
+        "Ik zie hen knielen voor mijn kroon,",
+        "Daar ’t moedig Efraïm mijn troon,",
+        "Door zijn geduchte macht versterkt;",
+        "En Judas wijsheid medewerkt,",
+        "Om mijnen zetel vast te zetten,",
+        "Door welgeschikt’ en schrand’ re wetten."
+      ],
+      "syllables": [
+        ["Gans", "Gi-", "le-","ad", "be-", "hoort", "aan", "mij;"],
+        ["’k Voer", "in", "Ma-", "nas-", "se", "heer-", "schap-", "pij;"],
+        ["Ik", "zie", "hen", "knie-", "len", "voor", "mijn", "kroon,"],
+        ["Daar", "’t moe-", "dig", "E-", "fra-", "ïm", "mijn", "troon,"],
+        ["Door", "zijn", "ge-", "duch-", "te", "macht", "ver-", "sterkt;"],
+        ["En", "Ju-", "das", "wijs-", "heid", "me-", "de-", "werkt,"],
+        ["Om", "mij-", "nen", "ze-", "tel", "vast", "te", "zet-", "ten,"],
+        ["Door", "wel-", "ge-", "schikt’", "en", "schrand’", "re", "wet-", "ten."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Gans Moab buigt zich dienstbaar neer",
+        "Erkent mij voor zijn Opperheer,",
+        "Daar ’t, van zijn hogen troon gestort,",
+        "Veracht’lijk mij ten waspot wordt.",
+        "Ik werp mijn schoen op Edoms grond,",
+        "Op Edom, ’t welk mijn macht weerstond.",
+        "’k Juich over u, o Palestijne,",
+        "Als ik in zegepraal verschijne."
+      ],
+      "syllables": [
+        ["Gans", "Mo-", "ab", "buigt", "zich", "dienst-", "baar", "neer"],
+        ["Erkent", "mij", "voor", "zijn", "O-", "p-", "per-", "heer,"],
+        ["Daar", "’t,", "van", "zijn", "hogen", "troon", "ge-", "stort,"],
+        ["Ver-", "acht-", "’lijk", "mij", "ten", "was-", "pot", "wordt."],
+        ["Ik", "werp", "mijn", "schoen", "op", "E-","doms", "grond,"],
+        ["Op", "E-", "dom,", "’t welk", "mijn", "macht", "weer-", "stond."],
+        ["’k Juich", "o-", "ver", "u,", "o", "Pa-", "les-", "tij-", "ne,"],
+        ["Als", "ik", "in", "ze-", "ge-", "praal", "ver-", "schij-", "ne."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Wie heeft mij zoveel heils bereid;",
+        "Wie is ’t, die mij in Edom leidt;",
+        "Wie voert mij in een vaste stad?",
+        "O God, die ons verstoten had;",
+        "Gij, die met onze legerschaar",
+        "Ten strijd niet uittoogt in ’t gevaar.",
+        "O God, Wiens gramschap ons deed vrezen,",
+        "Wiens gunst ons troost; zult Gij ’t niet wezen?"
+      ],
+      "syllables": [
+        ["Wie", "heeft", "mij", "zo-", "veel", "heils", "be-", "reid;"],
+        ["Wie", "is", "’t,", "die", "mij", "in", "Edom", "leidt;"],
+        ["Wie", "voert", "mij", "in", "een", "vas-", "te", "stad?"],
+        ["O", "God,", "die", "ons", "ver-", "sto-", "ten", "had;"],
+        ["Gij,", "die", "met", "o-", "n-", "ze", "le-", "ger-", "schaar"],
+        ["Ten", "strijd", "niet", "uitt-", "oogt", "in", "’t ge-", "vaar."],
+        ["O", "God,", "Wiens", "gram-", "schap", "ons", "deed", "vre-", "zen,"],
+        ["Wiens", "gunst", "ons", "troost;", "zult", "Gij", "’t niet", "we-", "zen?"]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "O God, die ’s lands benauwdheid ziet,",
+        "Red toch Uw volk uit zijn verdriet;",
+        "Want ’s mensen heil is ijdelheid;",
+        "Maar als Gods almacht ons geleidt,",
+        "Dan doen w’in Hem de kloekste daân,",
+        "Zodat wij duizenden verslaan;",
+        "Want allen, die ons wederstreven,",
+        "Zal Hij vertreden en doen sneven!"
+      ],
+      "syllables": [
+        ["O", "God,", "die", "’s lands", "be-", "nauwd-", "heid", "ziet,"],
+        ["Red", "toch", "Uw", "volk", "uit", "zijn", "ver-", "driet;"],
+        ["Want", "’s mensen", "heil", "is", "i-", "j-", "del-", "heid;"],
+        ["Maar", "als", "Gods", "a-", "l-", "macht", "ons", "ge-", "leidt,"],
+        ["Dan", "doen", "w’in", "Hem", "de", "kloek-", "ste", "daân,"],
+        ["Zo-", "dat", "wij", "dui-", "zen-", "den", "ver-", "slaan;"],
+        ["Want", "a-", "l-", "len,", "die", "ons", "we-", "der-", "stre-", "ven,"],
+        ["Zal", "Hij", "ver-", "tre-", "den", "en", "doen", "sne-", "ven!"]
+      ]
+    }
+  ]
+}

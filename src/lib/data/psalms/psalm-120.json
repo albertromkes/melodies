@@ -1,0 +1,202 @@
+{
+  "id": "psalm-120",
+  "number": 120,
+  "title": "Psalm 120",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "’k Riep tot den Oorsprong aller dingen,",
+        "Tot God, in mijn bekommeringen,",
+        "En Hij verhoorde mijn gebeden,",
+        "Naar Zijne goedertierenheden.",
+        "O, HEER’! doe mij den strik ontslippen",
+        "Derveinzerij en valse lippen;",
+        "Behoed mij voor de bitse tong,",
+        "Die mij met leugentaal besprong."
+      ],
+      "syllables": [
+        ["’k Riep", "tot", "den", "Oor-", "sprong", "a-", "l-", "ler", "din-", "gen,"],
+        ["Tot", "God,", "in", "mijn", "be-", "kom-", "me-", "rin-", "gen,"],
+        ["En", "Hij", "ver-", "hoor-", "de", "mijn", "ge-", "be-", "den,"],
+        ["Naar", "Zij-", "ne", "goe-", "der-", "tie-", "ren-", "he-", "den."],
+        ["O,", "HEER’!", "doe", "mij", "den", "strik", "o-", "nt-", "slip-", "pen"],
+        ["Der-", "vein-", "ze-", "rij", "en", "val-", "se", "lip-", "pen;"],
+        ["Be-", "hoed", "mij", "voor", "de", "bit-", "se", "tong,"],
+        ["Die", "mij", "met", "leu-", "gen-", "taal", "be-", "sprong."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Wat voordeel zal ’t bedrog u baren,",
+        "Vermetel rot van lasteraren?",
+        "Wat voordeel zal u in dit leven",
+        "Uw bitse tong, Uw boosheid geven?",
+        "Gij haalt op u, o leugensprekers!",
+        "De pijlen enes sterken wrekers,",
+        "En een jeneverkolengloed,",
+        "Waardoor gij haast verbranden moet."
+      ],
+      "syllables": [
+        ["Wat", "voor-", "deel", "zal", "’t be-", "drog", "u", "ba-", "ren,"],
+        ["Ver-", "me-", "tel", "rot", "van", "las-", "te-", "ra-", "ren?"],
+        ["Wat", "voor-", "deel", "zal", "u", "in", "dit", "le-", "ven"],
+        ["Uw", "bit-", "se", "tong,", "Uw", "boos-", "heid", "ge-", "ven?"],
+        ["Gij", "haalt", "op", "u,", "o", "leu-", "gen-", "spre-", "kers!"],
+        ["De", "pij-", "len", "e-", "nes", "ster-", "ken", "wre-", "kers,"],
+        ["En", "een", "je-", "ne-", "ver-", "ko-", "len-", "gloed,"],
+        ["Waar-", "door", "gij", "haast", "ver-", "bran-", "den", "moet."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Wee mij, die rust en hulp moet derven,",
+        "In Mesech als een vreemd’ ling zwerven,",
+        "En steeds in Kedars tenten wonen,",
+        "Bij mensen, die mij bitter honen!",
+        "Ik heb reeds lang mij opgehouden",
+        "Bij hen, die nooit op God betrouwden;",
+        "Bij hen, die, tot mijn bitterst wee,",
+        "Een afschrik hebben van den vreê."
+      ],
+      "syllables": [
+        ["Wee", "mij,", "die", "rust", "en", "hulp", "moet", "der-", "ven,"],
+        ["In", "Me-", "sech", "als", "een", "vreem-", "d’ling", "zwer-", "ven,"],
+        ["En", "steeds", "in", "Ke-", "dars", "ten-", "ten", "wo-", "nen,"],
+        ["Bij", "men-", "sen,", "die", "mij", "bit-", "ter", "ho-", "nen!"],
+        ["Ik", "heb", "reeds", "lang", "mij", "o-", "p-", "ge-", "hou-", "den"],
+        ["Bij", "hen,", "die", "nooit", "op", "God", "be-", "trouw-", "den;"],
+        ["Bij", "hen,", "die,", "tot", "mijn", "bit-", "terst", "wee,"],
+        ["Een", "a-", "f-", "schrik", "hebben", "van", "den", "vreê."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Ik zoek den vreê steeds aan te kweken;",
+        "Maar kan ernauwelijks van spreken,",
+        "Of ’k zie mijn reden afgebroken,",
+        "En hen tot woed’ en krijg ontstoken."
+      ],
+      "syllables": [
+        ["Ik", "zoek", "den", "vreê", "steeds", "aan", "te", "kwe-", "ken;"],
+        ["Maar", "kan", "e-", "r-", "nau-", "we-", "lijks", "van", "spreken,"],
+        ["Of", "’k zie", "mijn", "reden", "a-", "f-", "ge-", "bro-", "ken,"],
+        ["En", "hen", "tot", "woed’", "en", "krijg", "o-", "nt-", "sto-", "ken."]
+      ]
+    }
+  ]
+}

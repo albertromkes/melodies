@@ -1,0 +1,310 @@
+{
+  "id": "psalm-135",
+  "number": 135,
+  "title": "Psalm 135",
+  "category": "psalm",
+  "mode": "lydisch (Genève 1562)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Prijst den Naam van uwen God,",
+        "’s HEEREN knechten, hier vergaard;",
+        "Prijst Zijn Naam en wijs gebod,",
+        "Daar g’in ’t voorhof staat geschaard,",
+        "En uw ambt bekleedt met eer",
+        "In het huis van onzen HEER’."
+      ],
+      "syllables": [
+        ["Prijst", "den", "Naam", "van", "u-", "wen", "God,"],
+        ["’s HEE-", "REN", "knech-", "ten,", "hier", "ver-", "gaard;"],
+        ["Prijst", "Zijn", "Naam", "en", "wijs", "ge-", "bod,"],
+        ["Daar", "g’in", "’t voor-", "hof", "staat", "ge-", "schaard,"],
+        ["En", "uw", "ambt", "be-", "kleedt", "met", "eer"],
+        ["In", "het", "huis", "van", "o-", "n-", "zen", "HEER’."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "God is goed, looft Hem te zaam",
+        "Met gezang en snarenspel.",
+        "Prijst Zijn liefelijke Naam,",
+        "Want de HEER’ heeft Israël,",
+        "Zich ten eigendom geschikt,",
+        "Jakob door Zijn heil verkwikt."
+      ],
+      "syllables": [
+        ["God", "is", "goed,", "looft", "Hem", "te", "zaam"],
+        ["Met", "ge-", "zang", "en", "sna-", "ren-", "spel."],
+        ["Prijst", "Zijn", "lie-", "fe-", "lij-", "ke", "Naam,"],
+        ["Want", "de", "HEER’", "heeft", "I-", "s-", "ra-", "ël,"],
+        ["Zich", "ten", "ei-", "gen-", "dom", "ge-", "schikt,"],
+        ["Ja-", "kob", "door", "Zijn", "heil", "ver-", "kwikt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "God is groot; ik weet dat Hij",
+        "Hoger is dan alle goôn.",
+        "Onze God voert heerschappij,",
+        "Hij beheerst van Zijnen troon",
+        "Hemel, afgrond, zee en aard’:",
+        "God is aller hulde waard."
+      ],
+      "syllables": [
+        ["God", "is", "groot;", "ik", "weet", "dat", "Hij"],
+        ["Ho-", "ger", "is", "dan", "a-", "l-", "le", "goôn."],
+        ["O-", "n-", "ze", "God", "voert", "heer-", "schap-", "pij,"],
+        ["Hij", "be-", "heerst", "van", "Zij-", "nen", "troon"],
+        ["Hemel,", "a-", "f-", "grond,", "zee", "en", "aard’:"],
+        ["God", "is", "a-", "l-", "ler", "hulde", "waard."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’t Eind deraard’ werpt dampen uit",
+        "Door Gods macht, die ’t al volbrengt,",
+        "En met ’s donders schor geluid",
+        "Bliksemvuur en regen mengt;",
+        "God brengt winden, door een woord,",
+        "Uit zijn schatgewelven voort."
+      ],
+      "syllables": [
+        ["’t Eind", "der-", "aar-", "d’werpt", "dam-", "pen", "uit"],
+        ["Door", "Gods", "macht,", "die", "’t al", "vol-", "brengt,"],
+        ["En", "met", "’s don-", "ders", "schor", "ge-", "luid"],
+        ["Blik-", "sem-", "vuur", "en", "re-", "gen", "mengt;"],
+        ["God", "brengt", "win-", "den,", "door", "een", "woord,"],
+        ["Uit", "zijn", "schat-", "ge-", "wel-", "ven", "voort."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "God, die vrees’lijk is en groot,",
+        "Sloeg, Zijn heilgen Naam tereer,",
+        "Alle d’ eerstgeboornen dood,",
+        "Velde vee en mensen neer;",
+        "Daar Hij teeknen van Zijn kracht",
+        "Over gans Egypte bracht."
+      ],
+      "syllables": [
+        ["God,", "die", "vrees-", "’lijk", "is", "en", "groot,"],
+        ["Sloeg,", "Zijn", "heil-", "gen", "Naam", "te-", "reer,"],
+        ["A-", "l-", "le", "d’eerst-", "ge-", "boor-", "nen", "dood,"],
+        ["Vel-", "de", "vee", "en", "men-", "sen", "neer;"],
+        ["Daar", "Hij", "teek-", "nen", "van", "Zijn", "kracht"],
+        ["O-", "ver", "gans", "E-", "gyp-", "te", "bracht."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Hij verbaasde Faros hof;",
+        "Sloeg de volkeren alom,",
+        "Wierp de koningen in ’t stof:",
+        "Sihon, Og en ’t vorstendom",
+        "Van den trotsen Kananiet,",
+        "En den stouten Amoriet."
+      ],
+      "syllables": [
+        ["Hij", "ver-", "baas-", "de", "Fa-", "ros", "hof;"],
+        ["Sloeg", "de", "vol-", "ke-", "ren", "a-", "l-", "om,"],
+        ["Wierp", "de", "ko-", "nin-", "gen", "in", "’t stof:"],
+        ["Si-", "hon,", "Og", "en", "’t vor-", "sten-", "dom"],
+        ["Van", "den", "trot-", "sen", "Ka-", "na-", "niet,"],
+        ["En", "den", "stou-", "ten", "A-", "mo-", "riet."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Isrel kwam door ’s Hoogsten hand",
+        "In ’t bezit van hunnen staat.",
+        "God gaf hun gezegend land",
+        "Tot een erv’ aan Jakobs zaad.",
+        "HEER’, Uw Naam en majesteit,",
+        "Blijven tot in eeuwigheid."
+      ],
+      "syllables": [
+        ["I-", "s-", "rel", "kwam", "door", "’s Hoog-", "sten", "hand"],
+        ["In", "’t be-", "zit", "van", "hun-", "nen", "staat."],
+        ["God", "gaf", "hun", "ge-", "ze-", "gend", "land"],
+        ["Tot", "een", "erv’", "aan", "Ja-", "kobs", "zaad."],
+        ["HEER’,", "Uw", "Naam", "en", "ma-", "jes-", "teit,"],
+        ["Blij-", "ven", "tot", "in", "eeu-", "wig-", "heid."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Van geslachte tot geslacht",
+        "Wordt, naar onzen duren plicht,",
+        "Bij het volk Uw gunst herdacht,",
+        "Wijl Gij Zelf, o HEER’, hen richt,",
+        "En aan hen, schoon diep in schuld,",
+        "Met berouw gedenken zult."
+      ],
+      "syllables": [
+        ["Van", "ge-", "slach-", "te", "tot", "ge-", "slacht"],
+        ["Wordt,", "naar", "o-", "n-", "zen", "duren", "plicht,"],
+        ["Bij", "het", "volk", "Uw", "gunst", "her-", "dacht,"],
+        ["Wijl", "Gij", "Zelf,", "o", "HEER’,", "hen", "richt,"],
+        ["En", "aan", "hen,", "schoon", "diep", "in", "schuld,"],
+        ["Met", "be-", "rouw", "ge-", "den-", "ken", "zult."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "D’ afgoôn van het heidendom,",
+        "Goud of zilver, goôn in schijn,",
+        "Hebben lippen, maar zijn stom;",
+        "Zij, die ’t werk van mensen zijn,",
+        "Waar men genen geest in vindt,",
+        "Hebben ogen, maar zijn blind."
+      ],
+      "syllables": [
+        ["D’a-", "f-", "goôn", "van", "het", "hei-", "den-", "dom,"],
+        ["Goud", "of", "zil-", "ver,", "goôn", "in", "schijn,"],
+        ["Heb-", "ben", "lip-", "pen,", "maar", "zijn", "stom;"],
+        ["Zij,", "die", "’t werk", "van", "men-", "sen", "zijn,"],
+        ["Waar", "men", "ge-", "nen", "geest", "in", "vindt,"],
+        ["Heb-", "ben", "o-", "gen,", "maar", "zijn", "blind."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Oren ziet men aan hun hoofd,",
+        "Maar zij horen erniet mee;",
+        "Zij, van ademtocht beroofd,",
+        "Zijn nog minder dan het vee.",
+        "Die tot hen om hulp genaakt,",
+        "Worde hun gelijk gemaakt."
+      ],
+      "syllables": [
+        ["O-", "ren", "ziet", "men", "aan", "hun", "hoofd,"],
+        ["Maar", "zij", "horen", "e-", "r-", "niet", "mee;"],
+        ["Zij,", "van", "a-", "dem-", "tocht", "be-", "roofd,"],
+        ["Zijn", "nog", "min-", "der", "dan", "het", "vee."],
+        ["Die", "tot", "hen", "om", "hulp", "ge-", "naakt,"],
+        ["Wor-", "de", "hun", "ge-", "lijk", "ge-", "maakt."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Israëllers, looft al t’zaâm",
+        "Uwen God, den God dereer;",
+        "Loof, Aärons huis, Zijn Naam,",
+        "Huis van Levi, loof den HEER!",
+        "Looft gij allen, die Hem vreest,",
+        "Looft Hem met verheugden geest."
+      ],
+      "syllables": [
+        ["Is","ra-", "ël-", "lers,", "looft", "al", "t’zaâm"],
+        ["U-", "wen", "God,", "den", "God", "der", "eer;"],
+        ["Loof,", "A-", "ä-", "rons", "huis,", "Zijn", "Naam,"],
+        ["Huis", "van", "Le-", "vi,", "loof", "den", "HEER!"],
+        ["Looft", "gij", "al", "len,", "die", "Hem", "vreest,"],
+        ["Looft", "Hem", "met", "ver-", "heug-", "den", "geest."]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "Sion, loof met dankb’re stem",
+        "God, uw HEER’, die eeuwig leeft,",
+        "En het schoon Jeruzalem,",
+        "Door Zijn woning luister geeft.",
+        "Loof Hem voor uw heilrijk lot,",
+        "Loof al juichend uwen God!"
+      ],
+      "syllables": [
+        ["Si-", "on,", "loof", "met", "dank-", "b’re", "stem"],
+        ["God,", "uw", "HEER’,", "die", "eeu-", "wig", "leeft,"],
+        ["En", "het", "schoon", "Je-", "ru-", "za-", "lem,"],
+        ["Door", "Zijn", "wo-", "ning", "luis-", "ter", "geeft."],
+        ["Loof", "Hem", "voor", "uw", "heil-", "rijk", "lot,"],
+        ["Loof", "al", "jui-", "chend", "u-", "wen", "God!"]
+      ]
+    }
+  ]
+}

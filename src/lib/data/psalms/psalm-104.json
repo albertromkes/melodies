@@ -1,0 +1,539 @@
+{
+  "id": "psalm-104",
+  "number": 104,
+  "title": "Psalm 104",
+  "category": "psalm",
+  "mode": "dorisch (Straatsburg/Genève 1542 / Lyon 1548)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["c/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q", "rest": true },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Waak op, mijn ziel, loof d’ Oppermajesteit!",
+        "Wat zijt Gij groot, wat spreidt Uw heerlijkheid,",
+        "Geduchte God, al luisterrijke stralen.",
+        "Zij baart ontzag door al de hemelzalen.",
+        "Het blinkend licht bedekt U als een kleed.",
+        "De hemel, dien G’als een gordijn verbreedt,",
+        "En uitspant voor Uw Goddelijke woning,",
+        "Verbergt voor d’ aard’ Uw prachtigste vertoning."
+      ],
+      "syllables": [
+        ["Waak", "op,", "mijn", "ziel,", "loof", "d’O-", "p-", "per-", "ma-", "jes-", "teit!"],
+        ["Wat", "zijt", "Gij", "groot,", "wat", "spreidt", "Uw", "heer-", "lijk-", "heid,"],
+        ["Ge-", "duch-", "te", "God,", "al", "luis-", "ter-", "rij-", "ke", "stra-", "len."],
+        ["Zij", "baart", "o-", "nt-", "zag", "door", "al", "de", "he-", "mel-", "za-", "len."],
+        ["Het", "blin-", "kend", "licht", "be-", "dekt", "U", "als", "een", "kleed."],
+        ["De", "he-", "mel,", "dien", "G’als", "een", "gor-", "dijn", "ver-", "breedt,"],
+        ["En", "uit-", "spant", "voor", "Uw", "God-", "de-", "lij-", "ke", "wo-", "ning,"],
+        ["Ver-", "bergt", "voor", "d’aard’", "Uw", "prach-", "tig-", "ste", "ver-", "to-", "ning."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Gij zoldert in de waat’ren Uwen troon;",
+        "De wolken, steeds gereed op Uw geboôn,",
+        "Op ’t hoogst vereerd, dat zij haar Koning dragen,",
+        "Verstrekken U als tot een zegewagen.",
+        "Gij wandelt op de vleug’len van den wind,",
+        "Dien G’als ’t heelal aan Uwen dienst verbindt.",
+        "Een geestenheir maakt Gij Uw afgezanten,",
+        "Een vlammend vuur Uw trouwe rijkstrawanten."
+      ],
+      "syllables": [
+        ["Gij", "zol-", "dert", "in", "de", "waat-", "’ren", "U-", "wen", "troon;"],
+        ["De", "wol-", "ken,", "steeds", "ge-", "reed", "op", "Uw", "ge-", "boôn,"],
+        ["Op", "’t hoogst", "ver-", "eerd,", "dat", "zij", "haar", "Ko-", "ning", "dra-", "gen,"],
+        ["Ver-", "strek-", "ken", "U", "als", "tot", "een", "ze-", "ge-", "wa-", "gen."],
+        ["Gij", "wan-", "delt", "op", "de", "vleug-", "’len", "van", "den", "wind,"],
+        ["Dien", "G-", "’als", "’t heel-", "al", "aan", "Uwen", "dienst", "ver-", "bindt."],
+        ["Een", "gees-", "ten-", "heir", "maakt", "Gij", "Uw", "a-", "f-", "ge-", "zan-", "ten,"],
+        ["Een", "vlam-", "mend", "vuur", "Uw", "trou-", "we", "rijk-", "stra-", "wan-", "ten."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Uw wonderkracht heeft in den morgenstond",
+        "Desvluggen tijds, deez’ aarde vast gegrond.",
+        "Wat in haar kreits ooit wanklen moog’ of wijken,",
+        "Zij zal, door U gevestigd, nooit bezwijken.",
+        "Zij, die ten blijk van Uwe macht verstrekt,",
+        "Was eertijds met den afgrond overdekt,",
+        "Als met een kleed. De hoogte van de golven",
+        "Hield al ’t gebergt’ in ’t grond’ loos diep bedolven."
+      ],
+      "syllables": [
+        ["Uw", "won-", "der-", "kracht", "heeft", "in", "den", "mor-", "gen-", "stond"],
+        ["Des-", "vlug-", "gen", "tijds,", "dee-", "z-", "’aarde", "vast", "ge-", "grond."],
+        ["Wat", "in", "haar", "kreits", "ooit", "wank-", "len", "moog’", "of", "wij-", "ken,"],
+        ["Zij", "zal,", "door", "U", "ge-", "ves-", "tigd,", "nooit", "be-", "zwij-", "ken."],
+        ["Zij,", "die", "ten", "blijk", "van", "U-", "we", "macht", "ver-", "strekt,"],
+        ["Was", "eer-", "tijds", "met", "den", "a-", "f-", "grond", "o-", "ver-", "dekt,"],
+        ["Als", "met", "een", "kleed.", "De", "hoog-", "te", "van", "de", "gol-", "ven"],
+        ["Hield", "al", "’t ge-", "bergt’", "in", "’t grond’", "loos", "diep", "be-", "dol-", "ven."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "De Godheid sprak en donderd’ in de lucht.",
+        "De woeste zee, verschrikt door ’t sterk gerucht,",
+        "Vlood haastig heen naar ’t perk, haar aangewezen.",
+        "Het log gevaart’ derbergen, opgerezen,",
+        "Vertoonde ’t eerst zijn korts onzichtb’ren top,",
+        "En hief alom de fiere kruinen op.",
+        "’t Ontelbaar tal van vruchtb’re dalen daalde,",
+        "Terjuister plaats, die Gods bevel bepaalde."
+      ],
+      "syllables": [
+        ["De", "God-", "heid", "sprak", "en", "don-", "der-", "d’in", "de", "lucht."],
+        ["De", "woes-", "te", "zee,", "ver-", "schrikt", "door", "’t sterk", "ge-", "rucht,"],
+        ["Vlood", "haas-", "tig", "heen", "naar", "’t perk,", "haar", "aan-", "ge-", "we-", "zen."],
+        ["Het", "log", "gevaart’", "der-", "ber-", "gen,", "o-", "p-", "ge-", "re-", "zen,"],
+        ["Ver-", "toon-", "de", "’t eerst", "zijn", "korts", "o-", "n-", "zichtb-", "’ren", "top,"],
+        ["En", "hief", "a-", "l-", "om", "de", "fie-", "re", "krui-", "nen", "op."],
+        ["’t O-", "n-", "tel-", "baar", "tal", "van", "vruchtb-", "’re", "dalen", "daal-", "de,"],
+        ["Ter-", "juis-", "ter", "plaats,", "die", "Gods", "be-", "vel", "be-", "paal-", "de."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "D’ ontemb’re zee houdt stand, waar ’t God gebiedt.",
+        "Zij overschrijdt de vaste stranden niet;",
+        "Zij ziet haar macht door hoger macht betomen,",
+        "En zal deez’ aard’ nooit weder overstromen.",
+        "Gods goedheid zendt de koele bronnen uit.",
+        "Zij wandelen, met ruisend stroomgeluid,",
+        "De bergen om, en dwalen en verspreien",
+        "Zich wijd en zijd door beemden en valleien."
+      ],
+      "syllables": [
+        ["D’o-", "n-", "temb-", "’re", "zee", "houdt", "stand,", "waar", "’t God", "gebiedt."],
+        ["Zij", "o-", "ver-", "schrijdt", "de", "vas-", "te", "stran-", "den", "niet;"],
+        ["Zij", "ziet", "haar", "macht", "door", "ho-", "ger", "macht", "be-", "to-", "men,"],
+        ["En", "zal", "dee-", "z-", "’aard’", "nooit", "weder", "o-", "ver-", "stro-", "men."],
+        ["Gods", "goed-", "heid", "zendt", "de", "koe-", "le", "bron-", "nen", "uit."],
+        ["Zij", "wan-", "de-", "len,", "met", "rui-", "send", "stroom-", "ge-", "luid,"],
+        ["De", "ber-", "gen", "om,", "en", "dwa-", "len", "en", "ver-", "sprei-", "en"],
+        ["Zich", "wijd", "en", "zijd", "door", "beem-", "den", "en", "val-", "lei-", "en."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Het nuttig vee en ’t roofziek bosgediert’,",
+        "Zelfs d’ ezel, die door woeste wouden zwiert,",
+        "Die ongetemd, zich kreunt aan juk noch koorden,",
+        "Vindt lafenis aan hare frisse boorden.",
+        "’t Gevogelte, dat in zijn snelle vlucht",
+        "De vlerken klapt en opstijgt naar de lucht,",
+        "Of uit het loof zijn schelle stem laat horen,",
+        "Heeft aan haar zoom zijn woningen verkoren."
+      ],
+      "syllables": [
+        ["Het", "nut-", "tig", "vee", "en", "’t roof-", "ziek", "bos-", "ge-", "diert’,"],
+        ["Zelfs", "d’e-", "zel,", "die", "door", "woes-", "te", "wou-", "den", "zwiert,"],
+        ["Die", "o-", "n-", "ge-", "temd,", "zich", "kreunt", "aan", "juk", "noch", "koorden,"],
+        ["Vindt", "la-", "fe-", "nis", "aan", "ha-", "re", "fris-", "se", "boor-", "den."],
+        ["’t Ge-", "vo-", "gel-", "te,", "dat", "in", "zijn", "snel-", "le", "vlucht"],
+        ["De", "vlerken", "klapt", "en", "o-", "p-", "stijgt", "naar", "de", "lucht,"],
+        ["Of", "uit", "het", "loof", "zijn", "schel-", "le", "stem", "laat", "ho-", "ren,"],
+        ["Heeft", "aan", "haar", "zoom", "zijn", "wo-", "nin-", "gen", "ver-", "ko-", "ren."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "’t Is God, Wiens hand den bergen water schenkt,",
+        "Den drogen grond uit Zijnen hemel drenkt,",
+        "Den regen geeft uit Zijne hoge zalen,",
+        "En vruchtbaarheid doet zweven in de dalen.",
+        "Dan schiet voor ’t vee de teed’ re grasscheut uit;",
+        "Tot ’s mensen dienst ontluikt dan ’t geurig kruid;",
+        "Dan spruit het brood, nog in den halm besloten,",
+        "Uit d’ aarde voort, door milden dauw begoten."
+      ],
+      "syllables": [
+        ["’t Is", "God,", "Wiens", "hand", "den", "ber-", "gen", "wa-", "ter", "schenkt,"],
+        ["Den", "dro-", "gen", "grond", "uit", "Zij-", "nen", "he-", "mel", "drenkt,"],
+        ["Den", "re-", "gen", "geeft", "uit", "Zij-", "ne", "ho-", "ge", "za-", "len,"],
+        ["En", "vrucht-", "baar-", "heid", "doet", "zwe-", "ven", "in", "de", "da-", "len."],
+        ["Dan", "schiet", "voor", "’t vee", "de", "teed’", "re", "gras-", "scheut", "uit;"],
+        ["Tot", "’s men-", "sen", "dienst", "o-", "nt-", "luikt", "dan", "’t geu-", "rig", "kruid;"],
+        ["Dan", "spruit", "het", "brood,", "nog", "in", "den", "halm", "be-", "slo-", "ten,"],
+        ["Uit", "d’aar-", "de", "voort,", "door", "mil-", "den", "dauw", "be-", "go-", "ten."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "God geeft den wijn, tot vreugd voor ’t hart bereid,",
+        "En d’ olie, die een glans op ’t aanschijn spreidt,",
+        "En ’t lieflijk brood, dat onze kracht moet voeden:",
+        "Hij wil ons dus verkwikken en behoeden.",
+        "’t Is God alleen, die door Zijn sterke hand",
+        "Den Libanon met cederen beplant,",
+        "’t Geboomte voedt en kracht schenkt, onder ’t kweken,",
+        "Aan ’t lomm’ rig woud, aan schaduwrijke streken."
+      ],
+      "syllables": [
+        ["God", "geeft", "den", "wijn,", "tot", "vreugd", "voor", "’t hart", "be-", "reid,"],
+        ["En", "d’o-", "lie,", "die", "een", "glans", "op", "’t aan-", "schijn", "spreidt,"],
+        ["En", "’t lief-", "lijk", "brood,", "dat", "o-", "n-", "ze", "kracht", "moet", "voe-", "den:"],
+        ["Hij", "wil", "ons", "dus", "ver-", "kwik-", "ken", "en", "be-", "hoe-", "den."],
+        ["’t Is", "God", "a-", "l-", "leen,", "die", "door", "Zijn", "sterke", "hand"],
+        ["Den", "Li-", "ba-", "non", "met", "ce-", "de-", "ren", "be-", "plant,"],
+        ["’t Ge-", "boom-", "te", "voedt", "en", "kracht", "schenkt,", "o-", "n-", "der", "’t kwe-", "ken,"],
+        ["Aan", "’t lom-", "m’rig", "woud,", "aan", "scha-", "duw-", "rij-", "ke", "stre-", "ken."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Het vogelte vindt schuilplaats in hun loof,",
+        "En vormt zijn nest uit zijn vergaarden roof.",
+        "De dennen zijn, daar z’opgaan als pilaren,",
+        "Het steil verblijf derkleppend’ ooievaren.",
+        "De steenbok springt en klautert, van den top",
+        "Desheuvels, tot de kruin derbergen op.",
+        "De hoge rots houdt in verborgen holen,",
+        "Het schuw konijn voor ons gezicht verscholen."
+      ],
+      "syllables": [
+        ["Het", "vo-", "gel-", "te", "vindt", "schuil-", "plaats", "in", "hun", "loof,"],
+        ["En", "vormt", "zijn", "nest", "uit", "zijn", "ver-", "gaar-", "den", "roof."],
+        ["De", "dennen", "zijn,", "daar", "z-", "’op-", "gaan", "als", "pi-", "la-", "ren,"],
+        ["Het", "steil", "ver-", "blijf", "der-", "klep-", "pend’", "ooi-", "e-", "va-", "ren."],
+        ["De", "steen-", "bok", "springt", "en", "klau-", "tert,", "van", "den", "top"],
+        ["Des-", "heu-", "vels,", "tot", "de", "kruin", "der-", "ber-", "gen", "op."],
+        ["De", "ho-", "ge", "rots", "houdt", "in", "ver-", "bor-", "gen", "ho-", "len,"],
+        ["Het", "schuw", "ko-", "nijn", "voor", "ons", "ge-", "zicht", "ver-", "scho-", "len."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "De gouden zon weet, waar zij schuil moet gaan;",
+        "De wisseling derwisselende maan,",
+        "Aan tijd en loop op ’t wonderbaarst verbonden,",
+        "Verschijnt ons oog op haar bepaalde stonden.",
+        "Gij, HEER’, beschikt door Uw geduchte macht,",
+        "De duisternis, en ’t wordt op aarde nacht;",
+        "Wanneer ’t gediert’ door woud en veld mag dwalen,",
+        "Om voedsel voor het hong’rig nest te halen."
+      ],
+      "syllables": [
+        ["De", "gou-", "den", "zon", "weet,", "waar", "zij", "schuil", "moet", "gaan;"],
+        ["De", "wis-", "se-", "ling", "der-", "wis-", "se-", "len-", "de", "maan,"],
+        ["Aan", "tijd", "en", "loop", "op", "’t won-", "der-", "baarst", "ver-", "bon-", "den,"],
+        ["Ver-", "schijnt", "ons", "oog", "op", "haar", "be-", "paal-", "de", "ston-", "den."],
+        ["Gij,", "HEER’,", "be-", "schikt", "door", "Uw", "ge-", "duch-", "te", "macht,"],
+        ["De", "duis-", "ter-", "nis,", "en", "’t wordt", "op", "aar-", "de", "nacht;"],
+        ["Wan-", "neer", "’t ge-", "diert’", "door", "woud", "en", "veld", "mag", "dwa-", "len,"],
+        ["Om", "voed-", "sel", "voor", "het", "hong-", "’rig", "nest", "te", "ha-", "len."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Het donker bos weergalmt op ’t hees geschreeuw",
+        "Van leeuwenwelp en fieren jongen leeuw,",
+        "Die, heet op roof, in afgelegen hoeken,",
+        "Al brullend, spijs van God, den Gever, zoeken.",
+        "Maar op de komst van licht en dageraad,",
+        "Op ’t zien derzon in ’t luisterrijk gewaad,",
+        "Keert elk van hen naar zijn verborgen kuilen,",
+        "Daar zij, verzaad, zich voor ons oog verschuilen."
+      ],
+      "syllables": [
+        ["Het", "don-", "ker", "bos", "weer-", "galmt", "op", "’t hees", "ge-", "schreeuw"],
+        ["Van", "leeu-", "wen-", "welp", "en", "fie-", "ren", "jon-", "gen", "leeuw,"],
+        ["Die,", "heet", "op", "roof,", "in", "a-", "f-", "ge-", "le-", "gen", "hoeken,"],
+        ["Al", "brul-", "lend,", "spijs", "van", "God,", "den", "Ge-", "ver,", "zoe-", "ken."],
+        ["Maar", "op", "de", "komst", "van", "licht", "en", "da-", "ge-", "raad,"],
+        ["Op", "’t zien", "der-", "zon", "in", "’t luis-", "ter-", "rijk", "ge-", "waad,"],
+        ["Keert", "elk", "van", "hen", "naar", "zijn", "ver-", "bor-", "gen", "kui-", "len,"],
+        ["Daar", "zij,", "ver-", "zaad,", "zich", "voor", "ons", "oog", "ver-", "schui-", "len."]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "Dan wordt de mens door ’t rijzend morgenlicht",
+        "Gewekt, gewenkt tot arbeid, tot zijn plicht;",
+        "Hij plant, hij bouwt; men ziet hem zwoegen, draven;",
+        "Tot ’s avonds toe laat hij niet af van slaven.",
+        "Hoe schoon, hoe groot, o Oppermajesteit,",
+        "Is al Uw werk, gevormd met wijs beleid!",
+        "Uw wijsheid streelt oplettende gemoed’ ren;",
+        "Al ’t aardrijk is vervuld met Uwe goed’ ren."
+      ],
+      "syllables": [
+        ["Dan", "wordt", "de", "mens", "door", "’t rij-", "zend", "mor-", "gen-", "licht"],
+        ["Ge-", "wekt,", "ge-", "wenkt", "tot", "a-", "r-", "beid,", "tot", "zijn", "plicht;"],
+        ["Hij", "plant,", "hij", "bouwt;", "men", "ziet", "hem", "zwoe-", "gen,", "dra-", "ven;"],
+        ["Tot", "’s a-", "vonds", "toe", "laat", "hij", "niet", "af", "van", "sla-", "ven."],
+        ["Hoe", "schoon,", "hoe", "groot,", "o", "O-", "p-", "per-", "ma-", "jes-", "teit,"],
+        ["Is", "al", "Uw", "werk,", "ge-", "vormd", "met", "wijs", "be-", "leid!"],
+        ["Uw", "wijs-", "heid", "streelt", "o-", "p-", "let-", "ten-", "de", "gemoed’", "ren;"],
+        ["Al", "’t aard-", "rijk", "is", "ver-", "vuld", "met", "U-", "we", "goe-", "d’ren."]
+      ]
+    },
+    {
+      "number": 13,
+      "lines": [
+        "D’ onpeilb’re zee bergt in haar ruimen schoot",
+        "Een talloos tal van schepslen, klein en groot,",
+        "Die in haar diept’ al weemlend zich vergaren.",
+        "Het golvend ruim derrusteloze baren,",
+        "Wordt steeds doorkruist van schepen, wijd en zijd;",
+        "Daar zwemt en duikt het schubbig heir om strijd;",
+        "Daar laat Gij zelfs den Leviathan spelen,",
+        "Den schrik derzee in deze vreugde delen."
+      ],
+      "syllables": [
+        ["D’o-", "n-", "peilb-", "’re", "zee", "bergt", "in", "haar", "ruimen", "schoot"],
+        ["Een", "tal-", "loos", "tal", "van", "scheps-", "len,", "klein", "en", "groot,"],
+        ["Die", "in", "haar", "diept’", "al", "weem-", "lend", "zich", "ver-", "ga-", "ren."],
+        ["Het", "gol-", "vend", "ruim", "der-", "rus-", "te-", "lo-", "ze", "ba-", "ren,"],
+        ["Wordt", "steeds", "door-", "kruist", "van", "sche-", "pen,", "wijd", "en", "zijd;"],
+        ["Daar", "zwemt", "en", "duikt", "het", "schub-", "big", "heir", "om", "strijd;"],
+        ["Daar", "laat", "Gij", "zelfs", "den", "Le-", "vi-", "a-", "than", "spe-", "len,"],
+        ["Den", "schrik", "der-", "zee", "in", "de-", "ze", "vreug-", "de", "de-", "len."]
+      ]
+    },
+    {
+      "number": 14,
+      "lines": [
+        "Wat in de lucht, op d’ aard’, in ’t water leeft,",
+        "’t Wacht al op U, die elk zijn spijze geeft;",
+        "’t Wacht al op U, die alles kunt behoeden.",
+        "Als Uwe gunst al ’t schepslenheir wil voeden,",
+        "En liefderijk aan hunne nooddruft denkt,",
+        "Vergaad’ ren zij den voorraad, dien Gij schenkt,",
+        "En worden door Uw goedheid mild bejegend,",
+        "Elk op zijn tijd, in overvloed gezegend."
+      ],
+      "syllables": [
+        ["Wat", "in", "de", "lucht,", "op", "d’aar-", "d’,", "in", "’t water", "leeft,"],
+        ["’t Wacht", "al", "op", "U,", "die", "elk", "zijn", "spij-", "ze", "geeft;"],
+        ["’t Wacht", "al", "op", "U,", "die", "a-", "l-", "les", "kunt", "be-", "hoe-", "den."],
+        ["Als", "U-", "we", "gunst", "al", "’t scheps-", "len-", "heir", "wil", "voe-", "den,"],
+        ["En", "lief-", "de-", "rijk", "aan", "hun-", "ne", "nood-", "druft", "denkt,"],
+        ["Ver-", "gaad’", "ren", "zij", "den", "voor-", "raad,", "dien", "Gij", "schenkt,"],
+        ["En", "wor-", "den", "door", "Uw", "goed-", "heid", "mild", "be-", "je-", "gend,"],
+        ["Elk", "op", "zijn", "tijd,", "in", "o-", "ver-", "vloed", "ge-", "ze-", "gend."]
+      ]
+    },
+    {
+      "number": 15,
+      "lines": [
+        "Verbergt G’, o God, Uw glansrijk aangezicht,",
+        "Dan sidd’ ren zij op ’t missen van dat licht,",
+        "Dat troostrijk licht, waardoor zij ’t licht verwerven.",
+        "Neemt Uwe hand hun adem weg, zij sterven;",
+        "Zij worden stof, gelijk zij zijn geweest.",
+        "Bezielt Gij hen door ’t zenden van Uw Geest,",
+        "Dan ziet men hen weer leven als tevoren;",
+        "Dan wordt al d’ aard met nieuwen glans herboren."
+      ],
+      "syllables": [
+        ["Verbergt", "G’,", "o", "God,", "Uw", "glans-", "rijk", "aan-", "ge-", "zicht,"],
+        ["Dan", "sidd’", "ren", "zij", "op", "’t mis-", "sen", "van", "dat", "licht,"],
+        ["Dat", "troost-", "rijk", "licht,", "waar-", "door", "zij", "’t licht", "ver-", "wer-", "ven."],
+        ["Neemt", "U-", "we", "hand", "hun", "a-", "dem", "weg,", "zij", "ster-", "ven;"],
+        ["Zij", "wor-", "den", "stof,", "ge-", "lijk", "zij", "zijn", "ge-", "weest."],
+        ["Be-", "zielt", "Gij", "hen", "door", "’t zen-", "den", "van", "Uw", "Geest,"],
+        ["Dan", "ziet", "men", "hen", "weer", "le-", "ven", "als", "te-", "vo-", "ren;"],
+        ["Dan", "wordt", "al", "d’aard", "met", "nieu-", "wen", "glans", "her-", "bo-", "ren."]
+      ]
+    },
+    {
+      "number": 16,
+      "lines": [
+        "De heerlijkheid derhoogste Majesteit",
+        "Zij hoog geroemd en duur’ in eeuwigheid;",
+        "Zij blink’ alom en kenn’ noch paal noch perken!",
+        "Dat zich de HEER’ verblijd’ in al Zijn werken.",
+        "Het aardrijk schudt, als God in gramschap blaakt;",
+        "Wanneer Zijn hand de hoge bergen raakt,",
+        "Slaan zij terstond aan ’t sidderen, aan ’t roken,",
+        "Inwendig door Gods almacht aangestoken."
+      ],
+      "syllables": [
+        ["De", "heer-", "lijk-", "heid", "der-", "hoog-", "ste", "Ma-", "jes-", "teit"],
+        ["Zij", "hoog", "ge-", "roemd", "en", "duur’", "in", "eeu-", "wig-", "heid;"],
+        ["Zij", "blin-", "k-", "’alom", "en", "kenn’", "noch", "paal", "noch", "per-", "ken!"],
+        ["Dat", "zich", "de", "HEER’", "ver-", "blijd’", "in", "al", "Zijn", "wer-", "ken."],
+        ["Het", "aard-", "rijk", "schudt,", "als", "God", "in", "gram-", "schap", "blaakt;"],
+        ["Wan-", "neer", "Zijn", "hand", "de", "ho-", "ge", "ber-", "gen", "raakt,"],
+        ["Slaan", "zij", "ter-", "stond", "aan", "’t sid-", "de-", "ren,", "aan", "’t ro-", "ken,"],
+        ["I-", "n-", "wen-", "dig", "door", "Gods", "almacht", "aan-", "ge-", "sto-", "ken."]
+      ]
+    },
+    {
+      "number": 17,
+      "lines": [
+        "Ik zal, zolang ik ’t levenslicht geniet,",
+        "Gods mogendheid verheffen in mijn lied.",
+        "Ik zal mijn God met lofgezangen eren,",
+        "Terwijl ik nog op aarde mag verkeren.",
+        "Mijn aandacht zal op Hem gevestigd staan,",
+        "En met vermaak Zijn grootheid gadeslaan;",
+        "Ik zal mij in den God mijns heils verblijden,",
+        "En dag op dag aan Hem mijn psalmen wijden."
+      ],
+      "syllables": [
+        ["Ik", "zal,", "zo-", "lang", "ik", "’t le-", "vens-", "licht", "ge-", "niet,"],
+        ["Gods", "mo-", "gend-", "heid", "ver-", "hef-", "fen", "in", "mijn", "lied."],
+        ["Ik", "zal", "mijn", "God", "met", "lof-", "ge-", "zan-", "gen", "e-", "ren,"],
+        ["Ter-", "wijl", "ik", "nog", "op", "aar-", "de", "mag", "ver-", "ke-", "ren."],
+        ["Mijn", "aan-", "dacht", "zal", "op", "Hem", "ge-", "ves-", "tigd", "staan,"],
+        ["En", "met", "ver-", "maak", "Zijn", "groot-", "heid", "ga-", "de-", "slaan;"],
+        ["Ik", "zal", "mij", "in", "den", "God", "mijns", "heils", "ver-", "blij-", "den,"],
+        ["En", "dag", "op", "dag", "aan", "Hem", "mijn", "psal-", "men", "wij-", "den."]
+      ]
+    },
+    {
+      "number": 18,
+      "lines": [
+        "De zondaar zal verdelgd zijn op Gods wenk,",
+        "De boosheid zal vergaan, eer ’t iemand denk’!",
+        "Waak op, mijn ziel, wil uwen Schepper eren;",
+        "Gelooft zij God; men loov’ den HEER derheren!"
+      ],
+      "syllables": [
+        ["De", "zon-", "daar", "zal", "ver-", "delgd", "zijn", "op", "Gods", "wenk,"],
+        ["De", "boos-", "heid", "zal", "ver-", "gaan,", "eer", "’t ie-", "mand", "denk’!"],
+        ["Waak", "op,", "mijn", "ziel,", "wil", "u-", "wen", "Schep-", "per", "e-", "ren;"],
+        ["Ge-", "looft", "zij", "God;", "men", "loov’", "den", "HEER", "der-", "he-", "ren!"]
+      ]
+    }
+  ]
+}
