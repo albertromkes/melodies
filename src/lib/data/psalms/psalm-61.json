@@ -1,0 +1,211 @@
+{
+  "id": "psalm-061",
+  "number": 61,
+  "title": "Psalm 61",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Wil, o God, mijn bede horen;",
+        "Neig Uw oren",
+        "Naar mijn zuchten en geween.",
+        "In veraf gelegen streken,",
+        "Schier bezweken,",
+        "Zoek ik heul bij U alleen."
+      ],
+      "syllables": [
+        ["Wil,", "o", "God,", "mijn", "be-", "de", "ho-", "ren;"],
+        ["Neig", "Uw", "o-", "ren"],
+        ["Naar", "mijn", "zuch-", "ten", "en", "ge-", "ween."],
+        ["In", "ver-", "af", "ge-", "le-", "gen", "stre-", "ken,"],
+        ["Schier", "be-", "zwe-", "ken,"],
+        ["Zoek", "ik", "heul", "bij", "U", "al-", "leen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Leid mij, HEER’; ik zou in ’t stijgen",
+        "Nederzijgen;",
+        "Leid mij op een hoge rots,",
+        "Wil mij tot een toevlucht wezen,",
+        "Als voor dezen,",
+        "’s Vijands wreed geweld ten trots."
+      ],
+      "syllables": [
+        ["Leid", "mij,", "HEER’;", "ik", "zou", "in", "’t stij-", "gen"],
+        ["Ne-", "der-", "zij-", "gen;"],
+        ["Leid", "mij", "op", "een", "ho-", "ge", "rots,"],
+        ["Wil", "mij", "tot", "een", "toe-", "vlucht", "we-", "zen,"],
+        ["Als", "voor", "de-", "zen,"],
+        ["’s Vij-", "ands", "wreed", "ge-", "weld", "ten", "trots."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "’k Zal in Uwe tent verkeren,",
+        "HEER’ derheren,",
+        "Voor Uw oog, in eeuwigheid.",
+        "’k Zal op U mijn vast vertrouwen",
+        "Altoos bouwen,",
+        "Door Uw vleug’len overspreid."
+      ],
+      "syllables": [
+        ["’k Zal", "in", "U-", "we", "tent", "ver-", "ke-", "ren,"],
+        ["HEER’", "der-", "he-", "ren,"],
+        ["Voor", "Uw", "oog,", "in", "eeu-", "wig-", "heid."],
+        ["’k Zal", "op", "U", "mijn", "vast", "ver-", "trou-", "wen"],
+        ["Al-", "toos", "bou-", "wen,"],
+        ["Door", "Uw", "vleug-", "’len", "o-", "ver-", "spreid."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Want Uw goedheid, die wij loven,",
+        "Heeft van boven",
+        "Mijn geloft’ en beê gehoord.",
+        "Gij deedt mij tot d’ erfnis komen",
+        "Van de vromen,",
+        "Wien de vrees Uws Naams bekoort."
+      ],
+      "syllables": [
+        ["Want", "Uw", "goed-", "heid,", "die", "wij", "lo-", "ven,"],
+        ["Heeft", "van", "bo-", "ven"],
+        ["Mijn", "ge-", "loft’", "en", "beê", "ge-", "hoord."],
+        ["Gij", "deedt", "mij", "tot", "d’erf-", "nis", "ko-", "men"],
+        ["Van", "de", "vro-", "men,"],
+        ["Wien", "de", "vrees", "Uws", "Naams", "be-", "koort."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Gij zult nieuwe dagen voegen,",
+        "Vol genoegen,",
+        "Bij des Konings levenstijd.",
+        "Zijner jaren tal vermeren,",
+        "In ’t regeren,",
+        "Door Uw gunst van ramp bevrijd."
+      ],
+      "syllables": [
+        ["Gij", "zult", "nieu-", "we", "da-", "gen", "voe-", "gen,"],
+        ["Vol", "ge-", "noe-", "gen,"],
+        ["Bij", "des", "Ko-", "nings", "le-", "vens-", "tijd."],
+        ["Zij-", "ner", "ja-", "ren", "tal", "ver-", "me-", "ren,"],
+        ["In", "’t re-", "ge-", "ren,"],
+        ["Door", "Uw", "gunst", "van", "ramp", "be-", "vrijd."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Hij zal eeuwig in vermogen,",
+        "Voor Uw ogen,",
+        "Zitten op zijn troon, o HEER’.",
+        "Zend Uw waarheid, Uw ontferming",
+        "Terbescherming;",
+        "Zend ze tot zijn wachters neer."
+      ],
+      "syllables": [
+        ["Hij", "zal", "eeu-", "wig", "in", "ver-", "mo-", "gen,"],
+        ["Voor", "Uw", "o-", "gen,"],
+        ["Zit-", "ten", "op", "zijn", "troon,", "o", "HEER’."],
+        ["Zend", "Uw", "waar-", "heid,", "Uw", "ont-", "fer-", "ming"],
+        ["Ter-", "be-", "scher-", "ming;"],
+        ["Zend", "ze", "tot", "zijn", "wach-", "ters", "neer."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "’k Zal dan door mijn blijde galmen,",
+        "Door mijn psalmen,",
+        "Loven Uwe Majesteit;",
+        "Mijn geloften U betalen,",
+        "Menigmalen",
+        "Plechtig aan U toegezeid."
+      ],
+      "syllables": [
+        ["’k Zal", "dan", "door", "mijn", "blij-", "de", "gal-", "men,"],
+        ["Door", "mijn", "psal-", "men,"],
+        ["Lo-", "ven", "U-", "we", "Ma-", "jes-", "teit;"],
+        ["Mijn", "ge-", "lof-", "ten", "U", "be-", "ta-", "len,"],
+        ["Me-", "nig-", "ma-", "len"],
+        ["Plech-", "tig", "aan", "U", "toe-", "ge-", "zeid."]
+      ]
+    }
+  ]
+}

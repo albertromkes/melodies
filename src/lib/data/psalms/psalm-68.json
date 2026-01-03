@@ -1,0 +1,671 @@
+{
+  "id": "psalm-068",
+  "number": 68,
+  "title": "Psalm 68",
+  "category": "psalm",
+  "mode": "lydisch (Genève 1562 / Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "De HEER’ zal opstaan tot den strijd;",
+        "Hij zal Zijn haters, wijd en zijd,",
+        "Verjaagd, verstrooid, doen zuchten;",
+        "Hoe trots Zijn vijand wezen moog’,",
+        "Hij zal voor Zijn ontzagg’lijk oog,",
+        "Al sidderende vluchten.",
+        "Gij zult hen, daar G’in glans verschijnt,",
+        "Als rook en damp, die ras verdwijnt,",
+        "Verdrijven en doen dolen.",
+        "’t Godd’ loze volk wordt haast tot as,",
+        "’t Zal voor Uw oog vergaan als was,",
+        "Dat smelt voor gloende kolen."
+      ],
+      "syllables": [
+        ["De", "HEER’", "zal", "op-", "staan", "tot", "den", "strijd;"],
+        ["Hij", "zal", "Zijn", "ha-", "ters,", "wijd", "en", "zijd,"],
+        ["Ver-", "jaagd,", "ver-", "strooid,", "doen", "zuch-", "ten;"],
+        ["Hoe", "trots", "Zijn", "vij-", "and", "we-", "zen", "moog’,"],
+        ["Hij", "zal", "voor", "Zijn", "ont-", "zagg-", "’lijk", "oog,"],
+        ["Al", "sid-", "de-", "ren-", "de", "vluch-", "ten."],
+        ["Gij", "zult", "hen,", "daar", "G’in", "glans", "ver-", "schijnt,"],
+        ["Als", "rook", "en", "damp,", "die", "ras", "ver-", "dwijnt,"],
+        ["Ver-", "drij-", "ven", "en", "doen", "do-", "len."],
+        ["’t God-", "d’lo-", "ze", "volk", "wordt", "haast", "tot", "as,"],
+        ["’t Zal", "voor", "Uw", "oog", "ver-", "gaan", "als", "was,"],
+        ["Dat", "smelt", "voor", "gloen-", "de", "ko-", "len."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Maar ’t vrome volk, in U verheugd,",
+        "Zal huppelen van zielevreugd,",
+        "Daar zij hun wens verkrijgen.",
+        "Hun blijdschap zal dan, onbepaald,",
+        "Door ’t licht, dat van Zijn aanzicht straalt,",
+        "Ten hoogsten toppunt stijgen.",
+        "Heft Gode blijde psalmen aan;",
+        "Verhoogt, verhoogt voor Hem de baan;",
+        "Laat al wat leeft Hem eren.",
+        "Bereidt den weg, in Hem verblijd,",
+        "Die door de vlakke velden rijdt;",
+        "Zijn Naam is HEER’ derheren."
+      ],
+      "syllables": [
+        ["Maar", "’t vro-", "me", "volk,", "in", "U", "ver-", "heugd,"],
+        ["Zal", "hup-", "pe-", "len", "van", "zie-", "le-", "vreugd,"],
+        ["Daar", "zij", "hun", "wens", "ver-", "krij-", "gen."],
+        ["Hun", "blijd-", "schap", "zal", "dan,", "on-", "be-", "paald,"],
+        ["Door", "’t licht,", "dat", "van", "Zijn", "aan-", "zicht", "straalt,"],
+        ["Ten", "hoog-", "sten", "top-", "punt", "stij-", "gen."],
+        ["Heft", "Go-", "de", "blij-", "de", "psal-", "men", "aan;"],
+        ["Ver-", "hoogt,", "ver-", "hoogt", "voor", "Hem", "de", "baan;"],
+        ["Laat", "al", "wat", "leeft", "Hem", "e-", "ren."],
+        ["Be-", "reidt", "den", "weg,", "in", "Hem", "ver-", "blijd,"],
+        ["Die", "door", "de", "vlak-", "ke", "vel-", "den", "rijdt;"],
+        ["Zijn", "Naam", "is", "HEER’", "der-", "he-", "ren."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Springt op van vreugd, verheft Zijn lof,",
+        "Die, daar Hij woont in ’t hemelhof",
+        "Een Vader is derwezen;",
+        "Die weduwen haar recht verschaft,",
+        "Die streng haar onderdrukkers straft,",
+        "En voor Zijn wraak doet vrezen;",
+        "Een God, die zet, uit mensenmin,",
+        "D’ onvruchtb’ren in een huisgezin;",
+        "En, om Zijn macht te tonen,",
+        "Gevangnen uit de boeien redt;",
+        "Maar die verlaters van Zijn wet",
+        "Doet in het dorre wonen."
+      ],
+      "syllables": [
+        ["Springt", "op", "van", "vreugd,", "ver-", "heft", "Zijn", "lof,"],
+        ["Die,", "daar", "Hij", "woont", "in", "’t he-", "mel-", "hof"],
+        ["Een", "Va-", "der", "is", "der-", "we-", "zen;"],
+        ["Die", "we-", "du-", "wen", "haar", "recht", "ver-", "schaft,"],
+        ["Die", "streng", "haar", "on-", "der-", "druk-", "kers", "straft,"],
+        ["En", "voor", "Zijn", "wraak", "doet", "vre-", "zen;"],
+        ["Een", "God,", "die", "zet,", "uit", "men-", "sen-", "min,"],
+        ["D’on-", "vruchtb-", "’ren", "in", "een", "huis-", "ge-", "zin;"],
+        ["En,", "om", "Zijn", "macht", "te", "to-", "nen,"],
+        ["Ge-", "vang-", "nen", "uit", "de", "boei-", "en", "redt;"],
+        ["Maar", "die", "ver-", "la-", "ters", "van", "Zijn", "wet"],
+        ["Doet", "in", "het", "dor-", "re", "wo-", "nen."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "O God, toen Gij, met majesteit,",
+        "Uw Israël hebt uitgeleid,",
+        "En op Uw heil doen hopen;",
+        "Toen Gij langs Parans woesten grond",
+        "Hun voortoogt, schokte d’ aard’ in ’t rond.",
+        "De hoge heemlen dropen;",
+        "De bergen rezen zelfs omhoog;",
+        "Men zag dit Sinaï voor ’t oog,",
+        "Van Isrels Koning beven.",
+        "Een milden regen zondt G’, o HEER’,",
+        "Op Uw bezwijkend, erfnis neer,",
+        "Om sterkt’ aan haar te geven."
+      ],
+      "syllables": [
+        ["O", "God,", "toen", "Gij,", "met", "ma-", "jes-", "teit,"],
+        ["Uw", "Is-", "ra-", "ël", "hebt", "uit-", "ge-", "leid,"],
+        ["En", "op", "Uw", "heil", "doen", "ho-", "pen;"],
+        ["Toen", "Gij", "langs", "Pa-", "rans", "woes-", "ten", "grond"],
+        ["Hun", "voort-", "oogt,", "schok-", "te", "d’aard’", "in", "’t rond."],
+        ["De", "ho-", "ge", "heem-", "len", "dro-", "pen;"],
+        ["De", "ber-", "gen", "re-", "zen", "zelfs", "om-", "hoog;"],
+        ["Men", "zag", "dit", "Si-", "na-","ï", "voor", "’t oog,"],
+        ["Van", "Is-", "rels", "Ko-", "ning", "be-", "ven."],
+        ["Een", "mil-", "den", "regen", "zondt", "G’,", "o", "HEER’,"],
+        ["Op", "Uw", "be-", "zwij-", "kend,", "erf-", "nis", "neer,"],
+        ["Om", "sterkt’", "aan", "haar", "te", "ge-", "ven."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Uw hoop, Uw kudde woonde daar;",
+        "Uit vrije goedheid waart Gij haar,",
+        "Een vriendelijk beschermer",
+        "En hebt ellendigen dat land,",
+        "Bereid door Uwe sterke hand,",
+        "O Israëls Ontfermer.",
+        "De HEER’ gaf rijke juichensstof,",
+        "Om Zijne wond’ ren en Zijn lof",
+        "Met hart en mond, te melden.",
+        "Men zag welhaast een grote schaar",
+        "Met klanken van de blijdste maar,",
+        "Vervullen berg en velden."
+      ],
+      "syllables": [
+        ["Uw", "hoop,", "Uw", "kud-", "de", "woon-", "de", "daar;"],
+        ["Uit", "vrij-", "e", "goed-", "heid", "waart", "Gij", "haar,"],
+        ["Een", "vrien-", "de-", "lijk", "be-", "scher-", "mer"],
+        ["En", "hebt", "el-", "len-", "di-", "gen", "dat", "land,"],
+        ["Be-", "reid", "door", "U-", "we", "ster-", "ke", "hand,"],
+        ["O", "Is-", "ra-", "ëls", "Ont-", "fer-", "mer."],
+        ["De", "HEER’", "gaf", "rij-", "ke", "jui-", "chens-", "stof,"],
+        ["Om", "Zij-", "ne", "wond’", "ren", "en", "Zijn", "lof"],
+        ["Met", "hart", "en", "mond,", "te", "mel-", "den."],
+        ["Men", "zag", "wel-", "haast", "een", "gro-", "te", "schaar"],
+        ["Met", "klan-", "ken", "van", "de", "blijd-", "ste", "maar,"],
+        ["Ver-", "vul-", "len", "berg", "en", "vel-", "den."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "De koningen, hoe zeer geducht,",
+        "Zijn met hun heiren weggevlucht;",
+        "Zij vloden voor Uw ogen;",
+        "De buit van ’t overwonnen land",
+        "Viel zelfs dervrouwen in de hand,",
+        "Schoon niet mee uitgetogen.",
+        "Al laagt g’, o Isrel, als weleer,",
+        "Gebukt bij tichelstenen neer,",
+        "Toen gij uw juk moest dragen,",
+        "En zwart waart door uw dienstbaarheid,",
+        "U is een beter lot bereid;",
+        "Uw heilzon is aan ’t dagen."
+      ],
+      "syllables": [
+        ["De", "ko-", "nin-", "gen,", "hoe", "zeer", "ge-", "ducht,"],
+        ["Zijn", "met", "hun", "hei-", "ren", "weg-", "ge-", "vlucht;"],
+        ["Zij", "vlo-", "den", "voor", "Uw", "o-", "gen;"],
+        ["De", "buit", "van", "’t o-", "ver-", "won-", "nen", "land"],
+        ["Viel", "zelfs", "der-", "vrou-", "wen", "in", "de", "hand,"],
+        ["Schoon", "niet", "mee", "uit-", "ge-", "to-", "gen."],
+        ["Al", "laagt", "g’,", "o", "Isrel,", "als", "wel-", "eer,"],
+        ["Ge-", "bukt", "bij", "ti-", "chel-", "ste-", "nen", "neer,"],
+        ["Toen", "gij", "uw", "juk", "moest", "dra-", "gen,"],
+        ["En", "zwart", "waart", "door", "uw", "dienst-", "baar-", "heid,"],
+        ["U", "is", "een", "be-", "ter", "lot", "be-", "reid;"],
+        ["Uw", "heil-", "zon", "is", "aan", "’t da-", "gen."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Gelijk een duif, door ’t zilverwit",
+        "En ’t goud, dat op haar veed’ ren zit,",
+        "Bij ’t licht derzonnestralen;",
+        "Verboven and’ re voog’len pronkt,",
+        "Zult gij, door ’t Godd’ lijk oog belonkt,",
+        "Weer met uw schoonheid pralen.",
+        "Wanneer Gods onweerstaanb’re hand",
+        "De vorsten uit het ganse land",
+        "Verstrooid had en verdreven,",
+        "Ontving zijn erfdeel eed’ ler schoon,",
+        "Dan sneeuw, hoe wit zij zich vertoon’,",
+        "Aan Salmon ooit kon geven."
+      ],
+      "syllables": [
+        ["Ge-", "lijk", "een", "duif,", "door", "’t zil-", "ver-", "wit"],
+        ["En", "’t goud,", "dat", "op", "haar", "veed’", "ren", "zit,"],
+        ["Bij", "’t licht", "der-", "zon-", "ne-", "stra-", "len;"],
+        ["Ver-", "bo-", "ven", "and’", "re", "voog-", "’len", "pronkt,"],
+        ["Zult", "gij,", "door", "’t God-", "d’lijk", "oog", "be-", "lonkt,"],
+        ["Weer", "met", "uw", "schoon-", "heid", "pra-", "len."],
+        ["Wan-", "neer", "Gods", "on-", "weer-", "staanb-", "’re", "hand"],
+        ["De", "vor-", "sten", "uit", "het", "gan-", "se", "land"],
+        ["Ver-", "strooid", "had", "en", "ver-", "dre-", "ven,"],
+        ["Ont-", "ving", "zijn", "erf-", "deel", "eed’", "ler", "schoon,"],
+        ["Dan", "sneeuw,", "hoe", "wit", "zij", "zich", "ver-", "toon’,"],
+        ["Aan", "Sal-", "mon", "ooit", "kon", "ge-", "ven."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Dat Bazans hemelhoge berg",
+        "Met al zijn heuv’len Sion terg’,",
+        "En wane t’overtreffen;",
+        "Wat springt gij, bergen, trots omhoog?",
+        "Wat wilt g’u, in dervolk’ren oog,",
+        "Bij Sions berg verheffen?",
+        "God Zelf heeft dezen berg begeerd",
+        "Terwoning, om, aldaar geëerd,",
+        "Zijn heerlijkheid te tonen.",
+        "De HEER’, die hem verkozen heeft,",
+        "Die trouwe houdt en eeuwig leeft,",
+        "Zal hier ook eeuwig wonen."
+      ],
+      "syllables": [
+        ["Dat", "Ba-", "zans", "he-", "mel-", "ho-", "ge", "berg"],
+        ["Met", "al", "zijn", "heuv-", "’len", "Sion", "ter-", "g’,"],
+        ["En", "wa-", "ne", "t-", "’over-", "tref-", "fen;"],
+        ["Wat", "springt", "gij,", "ber-", "gen,", "trots", "om-", "hoog?"],
+        ["Wat", "wilt", "g’u,", "in", "der-", "volk-", "’ren", "oog,"],
+        ["Bij", "Si-", "ons", "berg", "ver-", "hef-", "fen?"],
+        ["God", "Zelf", "heeft", "de-", "zen", "berg", "be-", "geerd"],
+        ["Ter-", "wo-", "ning,", "om,", "al-", "daar", "ge-", "ëerd,"],
+        ["Zijn", "heer-", "lijk-", "heid", "te", "to-", "nen."],
+        ["De", "HEER’,", "die", "hem", "ver-", "ko-", "zen", "heeft,"],
+        ["Die", "trou-", "we", "houdt", "en", "eeu-", "wig", "leeft,"],
+        ["Zal", "hier", "ook", "eeu-", "wig", "wo-", "nen."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Gods wagens, boven ’t luchtig zwerk,",
+        "Zijn tien- en tienmaal duizend sterk;",
+        "Verdubbeld in getalen;",
+        "Bij hen is Zijne Majesteit,",
+        "Een Sinaï in heiligheid,",
+        "Omringd van bliksemstralen;",
+        "Gij voert ten hemel op, vol eer;",
+        "De kerker werd Uw buit, o HEER’.",
+        "Gij zaagt Uw strijd bekronen",
+        "Met gaven, tot dermensen troost,",
+        "Opdat zelfs ’t wederhorig kroost",
+        "Altijd bij U zou wonen."
+      ],
+      "syllables": [
+        ["Gods", "wa-", "gens,", "bo-", "ven", "’t luch-", "tig", "zwerk,"],
+        ["Zijn", "tien-", "en", "tien-", "maal", "dui-", "zend", "sterk;"],
+        ["Ver-", "dub-", "beld", "in", "ge-", "ta-", "len;"],
+        ["Bij", "hen", "is", "Zij-", "ne", "Ma-", "jes-", "teit,"],
+        ["Een", "Si-", "naï", "in", "hei-", "lig-", "heid,", "-"],
+        ["Om-", "ringd", "van", "blik-", "sem-", "stra-", "len;"],
+        ["Gij", "voert", "ten", "he-", "mel", "op,", "vol", "eer;"],
+        ["De", "ker-", "ker", "werd", "Uw", "buit,", "o", "HEER’."],
+        ["Gij", "zaagt", "Uw", "strijd", "be-", "kro-", "nen"],
+        ["Met", "ga-", "ven,", "tot", "der-", "men-", "sen", "troost,"],
+        ["Op-", "dat", "zelfs", "’t we-", "der-", "ho-", "rig", "kroost"],
+        ["Al-", "tijd", "bij", "U", "zou", "wo-", "nen."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Geloofd zij God met diepst ontzag!",
+        "Hij overlaadt ons, dag aan dag,",
+        "Met Zijne gunstbewijzen.",
+        "Die God is onze zaligheid;",
+        "Wie zou die hoogste Majesteit",
+        "Dan niet met eerbied prijzen?",
+        "Die God is ons een God van heil;",
+        "Hij schenkt, uit goedheid, zonder peil,",
+        "Ons ’t eeuwig, zalig leven;",
+        "Hij kan, en wil, en zal in nood,",
+        "Zelfs bij het naad’ ren van den dood,",
+        "Volkomen uitkomst geven."
+      ],
+      "syllables": [
+        ["Ge-", "loofd", "zij", "God", "met", "diepst", "ont-", "zag!"],
+        ["Hij", "o-", "ver-", "laadt", "ons,", "dag", "aan", "dag,"],
+        ["Met", "Zij-", "ne", "gunst-", "be-", "wij-", "zen."],
+        ["Die", "God", "is", "on-", "ze", "za-", "lig-", "heid;"],
+        ["Wie", "zou", "die", "hoog-", "ste", "Ma-", "jes-", "teit"],
+        ["Dan", "niet", "met", "eer-", "bied", "prij-", "zen?"],
+        ["Die", "God", "is", "ons", "een", "God", "van", "heil;"],
+        ["Hij", "schenkt,", "uit", "goed-", "heid,", "zon-", "der", "peil,"],
+        ["Ons", "’t eeu-", "wig,", "za-", "lig", "le-", "ven;"],
+        ["Hij", "kan,", "en", "wil,", "en", "zal", "in", "nood,"],
+        ["Zelfs", "bij", "het", "naad’", "ren", "van", "den", "dood,"],
+        ["Vol-", "ko-", "men", "uit-", "komst", "ge-", "ven."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Gewis, hoe hoog de nood mag gaan,",
+        "God zal Zijns vijands kop verslaan;",
+        "Dien haargen schedel vellen;",
+        "Die trots, wat heilig is, onteert,",
+        "En, daar hij schuld met schuld vermeêrt",
+        "Zich tegen Hem durft stellen.",
+        "De HEER’ heeft Zelf ons toegezeid:",
+        "„’k Zal u door macht en wijs beleid,",
+        "Uit Bazan weer doen komen;",
+        "U zullen, als op Mozes, beê,",
+        "Wanneer uw pad loopt door de zee,",
+        "Geen golven overstromen.”"
+      ],
+      "syllables": [
+        ["Ge-", "wis,", "hoe", "hoog", "de", "nood", "mag", "gaan,"],
+        ["God", "zal", "Zijns", "vij-", "ands", "kop", "ver-", "slaan;"],
+        ["Dien", "haar-", "gen", "sche-", "del", "vel-", "len;"],
+        ["Die", "trots,", "wat", "hei-", "lig", "is,", "ont-", "eert,"],
+        ["En,", "daar", "hij", "schuld", "met", "schuld", "ver-", "meêrt"],
+        ["Zich", "te-", "gen", "Hem", "durft", "stel-", "len."],
+        ["De", "HEER’", "heeft", "Zelf", "ons", "toe-", "ge-", "zeid:"],
+        ["„’k", "Zal", "u", "door", "macht", "en", "wijs", "beleid,"],
+        ["Uit", "Ba-", "zan", "weer", "doen", "ko-", "men;"],
+        ["U", "zul-", "len,", "als", "op", "Mo-", "zes,", "beê,"],
+        ["Wan-", "neer", "uw", "pad", "loopt", "door", "de", "zee,"],
+        ["Geen", "gol-", "ven", "o-", "ver-", "stro-", "men.”"]
+      ]
+    },
+    {
+      "number": 12,
+      "lines": [
+        "„Dan moogt g’in zegepraal uw voet,",
+        "Ja, uwer honden tong, in ’t bloed",
+        "Van elken vijand steken.”",
+        "O grote God, geduchte HEER’,",
+        "Uw gangen, zo vol roem en eer,",
+        "Zijn aan Uw volk gebleken;",
+        "De gangen van mijn God en Vorst,",
+        "Wien, schoon Hij ’s werelds rijkskroon torst,",
+        "Deez’ woningen behaagden.",
+        "De zangrei trad den speelrei voor,",
+        "In ’t midden ging het vrolijk koor",
+        "Dertrommelende maagden."
+      ],
+      "syllables": [
+        ["„Dan", "moogt", "g’in", "ze-", "ge-", "praal", "uw", "voet,"],
+        ["Ja,", "u-", "wer", "hon-", "den", "tong,", "in", "’t bloed"],
+        ["Van", "el-", "ken", "vij-", "and", "ste-", "ken.”"],
+        ["O", "gro-", "te", "God,", "ge-", "duch-", "te", "HEER’,"],
+        ["Uw", "gan-", "gen,", "zo", "vol", "roem", "en", "eer,"],
+        ["Zijn", "aan", "Uw", "volk", "ge-", "ble-", "ken;"],
+        ["De", "gan-", "gen", "van", "mijn", "God", "en", "Vorst,"],
+        ["Wien,", "schoon", "Hij", "’s we-", "relds", "rijks-", "kroon", "torst,"],
+        ["Deez’", "wo-", "nin-", "gen", "be-", "haag-", "den."],
+        ["De", "zan-", "grei", "trad", "den", "speel-", "rei", "voor,"],
+        ["In", "’t mid-", "den", "ging", "het", "vro-", "lijk", "koor"],
+        ["Der-", "trom-", "me-", "len-", "de", "maag-", "den."]
+      ]
+    },
+    {
+      "number": 13,
+      "lines": [
+        "Looft God in Zijn gemeent’ alom,",
+        "Den HEER’, gij, die in ’t heiligdom,",
+        "Als Isrels kroost, moogt naad’ ren,",
+        "Hoe vrolijk gaan de stammen op",
+        "Naar Sions godgewijden top,",
+        "Met Isrels achtb’re vaad’ ren!",
+        "De vorsten van elk huisgezin,",
+        "Zij trekken aan: hier Benjamin;",
+        "– schoon klein, hij mocht regeren –,",
+        "Daar Judas stam, die glorie won;",
+        "Ginds Nafthali en Zebulon,",
+        "Om God, hun Koning, t’eren."
+      ],
+      "syllables": [
+        ["Looft", "God", "in", "Zijn", "ge-", "meent’", "al-", "om,"],
+        ["Den", "HEER’,", "gij,", "die", "in", "’t hei-", "lig-", "dom,"],
+        ["Als", "Is-", "rels", "kroost,", "moogt", "naad’", "ren,"],
+        ["Hoe", "vro-", "lijk", "gaan", "de", "stam-", "men", "op"],
+        ["Naar", "Si-", "ons", "god-", "ge-", "wij-", "den", "top,"],
+        ["Met", "Is-", "rels", "achtb-", "’re", "vaad’", "ren!"],
+        ["De", "vor-", "sten", "van", "elk", "huis-", "ge-", "zin,"],
+        ["Zij", "trek-", "ken", "aan:", "hier", "Ben-", "ja-", "min;"],
+        ["schoon", "klein,", "hij", "mocht", "re-", "ge-","ren"],
+        ["Daar", "Ju-", "das", "stam,", "die", "glo-", "rie", "won;"],
+        ["Ginds", "Naft-", "ha-", "li", "en", "Ze-", "bu-", "lon,"],
+        ["Om", "God,", "hun", "Ko-", "ning,", "t-", "’eren."]
+      ]
+    },
+    {
+      "number": 14,
+      "lines": [
+        "Uw God, o Isrel, heeft de kracht",
+        "Door Zijn bevel u toegebracht.",
+        "O God, schraag dat vermogen.",
+        "Versterk, hetgeen Gij hebt gewrocht,",
+        "En laat Uw hulp, door ons verzocht,",
+        "Uw volk voortaan verhogen.",
+        "Dan passen, Uwen Naam tereer,",
+        "Om Uwes tempels wil, o HEER’,",
+        "De vorsten op Uw wenken;",
+        "Zij zullen U van allen kant;",
+        "Zelfs uit het allerverste land,",
+        "Vereren met geschenken."
+      ],
+      "syllables": [
+        ["Uw", "God,", "o", "Is-", "rel,", "heeft", "de", "kracht"],
+        ["Door", "Zijn", "be-", "vel", "u", "toe-", "ge-", "bracht."],
+        ["O", "God,", "schraag", "dat", "ver-", "mo-", "gen."],
+        ["Ver-", "sterk,", "het-", "geen", "Gij", "hebt", "ge-", "wrocht,"],
+        ["En", "laat", "Uw", "hulp,", "door", "ons", "ver-", "zocht,"],
+        ["Uw", "volk", "voort-", "aan", "ver-", "ho-", "gen."],
+        ["Dan", "pas-", "sen,", "U-", "wen", "Naam", "te-", "reer,"],
+        ["Om", "U-", "wes", "tem-", "pels", "wil,", "o", "HEER’,"],
+        ["De", "vor-", "sten", "op", "Uw", "wen-", "ken;"],
+        ["Zij", "zul-", "len", "U", "van", "al-", "len", "kant;"],
+        ["Zelfs", "uit", "het", "al-", "ler-", "vers-", "te", "land,"],
+        ["Ver-", "e-", "ren", "met", "ge-", "schen-", "ken."]
+      ]
+    },
+    {
+      "number": 15,
+      "lines": [
+        "Scheld met Uw stem het wild gediert’,",
+        "Dat in het riet zo weeld’ rig tiert;",
+        "De stier- en kalverbenden;",
+        "Het volk, dat stukken zilvers geeft,",
+        "En dus zich onderworpen heeft;",
+        "Maar loert op onz’ ellenden.",
+        "Gewis, wij zien hen reeds berooid,",
+        "En ’t oorlogszuchtig volk verstrooid;",
+        "Gezanten zullen naad’ ren;",
+        "Egypte zal met Morenland,",
+        "Tot God verheffen hart en hand,",
+        "Den God van onze vaad’ ren."
+      ],
+      "syllables": [
+        ["Scheld", "met", "Uw", "stem", "het", "wild", "ge-", "diert’,"],
+        ["Dat", "in", "het", "riet", "zo", "weeld’", "rig", "tiert;"],
+        ["De", "stier-", "en", "kal-", "ver-", "ben-", "den;"],
+        ["Het", "volk,", "dat", "stuk-", "ken", "zil-", "vers", "geeft,"],
+        ["En", "dus", "zich", "on-", "der-", "wor-", "pen", "heeft;"],
+        ["Maar", "loert", "op", "onz’", "el-", "len-", "den."],
+        ["Ge-", "wis,", "wij", "zien", "hen", "reeds", "be-", "rooid,"],
+        ["En", "’t oor-", "logs-", "zuch-", "tig", "volk", "ver-", "strooid;"],
+        ["Ge-", "zan-", "ten", "zul-", "len", "naad’", "ren;"],
+        ["E-", "gyp-", "te", "zal", "met", "Mo-", "ren-", "land,"],
+        ["Tot", "God", "ver-", "hef-", "fen", "hart", "en", "hand,"],
+        ["Den", "God", "van", "on-", "ze", "vaad’", "ren."]
+      ]
+    },
+    {
+      "number": 16,
+      "lines": [
+        "Gij koninkrijken, zingt Gods lof;",
+        "Heft psalmen op naar ’t hemelhof",
+        "Van ouds Zijn troon en woning;",
+        "Waar Hij, bekleed met eer en macht,",
+        "Zijn sterke stem verheft met kracht,",
+        "En heerst als Sions Koning.",
+        "Geeft sterkt’ aan onzen God en HEER’;",
+        "Hij heeft in Israël Zijn eer",
+        "En hoogheid willen tonen.",
+        "Erkent dien God; Hij is geducht;",
+        "Hij doet Zijn sterkte boven lucht",
+        "En boven wolken wonen."
+      ],
+      "syllables": [
+        ["Gij", "ko-", "nink-", "rij-", "ken,", "zingt", "Gods", "lof;"],
+        ["Heft", "psal-", "men", "op", "naar", "’t he-", "mel-", "hof"],
+        ["Van", "ouds", "Zijn", "troon", "en", "wo-", "ning;"],
+        ["Waar", "Hij,", "be-", "kleed", "met", "eer", "en", "macht,"],
+        ["Zijn", "ster-", "ke", "stem", "ver-", "heft", "met", "kracht,"],
+        ["En", "heerst", "als", "Si-", "ons", "Ko-", "ning."],
+        ["Geeft", "sterkt’", "aan", "on-", "zen", "God", "en", "HEER’;"],
+        ["Hij", "heeft", "in", "Is-", "ra-", "ël", "Zijn", "eer"],
+        ["En", "hoog-", "heid", "wil-", "len", "to-", "nen."],
+        ["Er-", "kent", "dien", "God;", "Hij", "is", "ge-", "ducht;"],
+        ["Hij", "doet", "Zijn", "sterk-", "te", "bo-", "ven", "lucht"],
+        ["En", "bo-", "ven", "wol-", "ken", "wo-", "nen."]
+      ]
+    },
+    {
+      "number": 17,
+      "lines": [
+        "Hoe groot, hoe vrees’lijk zijt G’alom,",
+        "Uit Uw verheven heiligdom,",
+        "Aanbidd’ lijk Opperwezen!",
+        "’t Is Isrels God, die krachten geeft,",
+        "Van Wien het volk zijn sterkte heeft:",
+        "Looft God; elk moet Hem vrezen."
+      ],
+      "syllables": [
+        ["Hoe", "groot,", "hoe", "vrees-", "’lijk", "zijt", "G-", "’alom,"],
+        ["Uit", "Uw", "ver-", "he-", "ven", "hei-", "lig-", "dom,"],
+        ["Aan-", "bid-", "d’lijk", "Op-", "per-", "we-", "zen!"],
+        ["’t Is", "Is-", "rels", "God,", "die", "krach-", "ten", "geeft,"],
+        ["Van", "Wien", "het", "volk", "zijn", "sterk-", "te", "heeft:"],
+        ["Looft", "God;", "elk", "moet", "Hem", "vre-", "zen."]
+      ]
+    }
+  ]
+}

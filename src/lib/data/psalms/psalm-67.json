@@ -1,0 +1,205 @@
+{
+  "id": "psalm-067",
+  "number": 67,
+  "title": "Psalm 67",
+  "category": "psalm",
+  "mode": "dorisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["e/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "D’ algoede God zij ons genadig,",
+        "En zegen’ ons met overvloed;",
+        "Hij doe Zijn aangezicht gestadig,",
+        "Ons lichten en Hij zij ons goed;",
+        "Opdat elk genegen,",
+        "Zich aan Uwe wegen,",
+        "Op deez’ aarde wenn’;",
+        "En de blinde heiden,",
+        "Nu van God gescheiden,",
+        "Eens Uw heil erkenn’."
+      ],
+      "syllables": [
+        ["D’al-", "goe-", "de", "God", "zij", "ons", "ge-", "na-", "dig,"],
+        ["En", "ze-", "gen’", "ons", "met", "o-", "ver-", "vloed;"],
+        ["Hij", "doe", "Zijn", "aan-", "ge-", "zicht", "ge-", "sta-", "dig,"],
+        ["Ons", "lich-", "ten", "en", "Hij", "zij", "ons", "goed;"],
+        ["Op-", "dat", "elk", "ge-", "ne-", "gen,"],
+        ["Zich", "aan", "U-", "we", "we-", "gen,"],
+        ["Op", "deez’", "aarde", "wen-", "n’;"],
+        ["En", "de", "blin-", "de", "hei-", "den,"],
+        ["Nu", "van", "God", "ge-", "schei-", "den,"],
+        ["Eens", "Uw", "heil", "er-", "ken-", "n’."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De volken zullen U belijden,",
+        "O God, U loven al te zaam.",
+        "De landen zullen zich verblijden,",
+        "En juichen over Uwen Naam.",
+        "Volken zult Gij rechten,",
+        "Hunne zaak beslechten,",
+        "In rechtmatigheid;",
+        "Volken op deez’ aarde,",
+        "Die Uw arm vergaarde,",
+        "Die Gij veilig leidt."
+      ],
+      "syllables": [
+        ["De", "Vol-", "ken", "zul-", "len", "U", "be-", "lij-", "den,"],
+        ["O", "God,", "U", "lo-", "ven", "al", "te", "zaam."],
+        ["De", "lan-", "den", "zul-", "len", "zich", "ver-", "blij-", "den,"],
+        ["En", "jui-", "chen", "o-", "ver", "U-", "wen", "Naam."],
+        ["Vol-", "ken", "zult", "Gij", "rech-", "ten,"],
+        ["Hun-", "ne", "zaak", "be-", "slech-", "ten,"],
+        ["In", "recht-", "ma-", "tig-", "heid;"],
+        ["Vol-", "ken", "op", "deez’", "aar-", "de,"],
+        ["Die", "Uw", "arm", "ver-", "gaar-", "de,"],
+        ["Die", "Gij", "vei-", "lig", "leidt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "De volken zullen, HEER’, U loven;",
+        "O HEER’, U loven altemaal,",
+        "Die d’ aarde vruchtbaar maakt van boven",
+        "Dat z’ons op haar gewas onthaal’.",
+        "God is ons genegen;",
+        "Onze God geeft zegen",
+        "Hij, die alles geeft,",
+        "Hij zal zijn geprezen,",
+        "Hem zal alles vrezen,",
+        "Wat op aarde leeft."
+      ],
+      "syllables": [
+        ["De", "vol-", "ken", "zul-", "len,", "HEER’,", "U", "lo-", "ven;"],
+        ["O", "HEER’,", "U", "lo-", "ven", "al-", "te-", "maal,"],
+        ["Die", "d’aar-", "de", "vrucht-", "baar", "maakt", "van", "bo-", "ven"],
+        ["Dat", "z-", "’ons", "op", "haar", "gewas", "ont-", "haal’."],
+        ["God", "is", "ons", "ge-", "ne-", "gen;"],
+        ["On-", "ze", "God", "geeft", "ze-", "gen"],
+        ["Hij,", "die", "al-", "les", "geeft,"],
+        ["Hij", "zal", "zijn", "ge-", "pre-", "zen,"],
+        ["Hem", "zal", "al-", "les", "vre-", "zen,"],
+        ["Wat", "op", "aar-", "de", "leeft."]
+      ]
+    }
+  ]
+}

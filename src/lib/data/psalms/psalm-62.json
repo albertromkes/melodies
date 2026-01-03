@@ -1,0 +1,242 @@
+{
+  "id": "psalm-062",
+  "number": 62,
+  "title": "Psalm 62",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562 / Lyon 1548)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Mijn ziel is immers stil tot God;",
+        "Van Hem wacht ik een heilrijk lot.",
+        "Hij immers zal mijn rotssteen wezen;",
+        "Mijn heil, mijn hulp in mijn gebrek;",
+        "Mijn toevlucht en mijn hoog vertrek.",
+        "Ik zal geen grote wank’ling vrezen."
+      ],
+      "syllables": [
+        ["Mijn", "ziel", "is", "im-", "mers", "stil", "tot", "God;"],
+        ["Van", "Hem", "wacht", "ik", "een", "heil-", "rijk", "lot."],
+        ["Hij", "im-", "mers", "zal", "mijn", "rots-", "steen", "we-", "zen;"],
+        ["Mijn", "heil,", "mijn", "hulp", "in", "mijn", "ge-", "brek;"],
+        ["Mijn", "toe-", "vlucht", "en", "mijn", "hoog", "ver-", "trek."],
+        ["Ik", "zal", "geen", "gro-", "te", "wank-", "’ling", "vre-", "zen."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Hoe lang, o wreedaards, zoekt gij dan",
+        "Het kwade nog van zulk een man?",
+        "Uw kracht is veel te zwak en teder;",
+        "Haast sterft gij allen door Gods hand.",
+        "Zo stort een ingebogen wand,",
+        "Een aangestoten muur terneder."
+      ],
+      "syllables": [
+        ["Hoe", "lang,", "o", "wreed-", "aards,", "zoekt", "gij", "dan"],
+        ["Het", "kwa-", "de", "nog", "van", "zulk", "een", "man?"],
+        ["Uw", "kracht", "is", "veel", "te", "zwak", "en", "te-", "der;"],
+        ["Haast", "sterft", "gij", "al-", "len", "door", "Gods", "hand."],
+        ["Zo", "stort", "een", "in-", "ge-", "bo-", "gen", "wand,"],
+        ["Een", "aan-", "ge-", "sto-", "ten", "muur", "ter-", "ne-", "der."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zij raadslaan slechts, vervoerd door haat,",
+        "Om hem uit zijnen hogen staat",
+        "Te stoten met bedrog; en zoeken",
+        "Met lust hiertoe een logenvond;",
+        "Zij zeegnen wel met hunnen mond,",
+        "Maar ’t godd’ loos hart doet niets dan vloeken."
+      ],
+      "syllables": [
+        ["Zij", "raad-", "slaan", "slechts,", "ver-", "voerd", "door", "haat,"],
+        ["Om", "hem", "uit", "zij-", "nen", "ho-", "gen", "staat"],
+        ["Te", "sto-", "ten", "met", "be-", "drog;", "en", "zoe-", "ken"],
+        ["Met", "lust", "hier-", "toe", "een", "lo-", "gen-", "vond;"],
+        ["Zij", "zeeg-", "nen", "wel", "met", "hun-", "nen", "mond,"],
+        ["Maar", "’t god-", "d’loos", "hart", "doet", "niets", "dan", "vloe-", "ken."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Doch gij, mijn ziel, het ga zo ’t wil,",
+        "Stel u gerust, zwijg Gode stil.",
+        "Ik wacht op Hem; Zijn hulp zal blijken.",
+        "Hij is mijn rots, mijn heil in nood,",
+        "Mijn hoog vertrek; Zijn macht is groot;",
+        "Ik zal noch wanklen, noch bezwijken."
+      ],
+      "syllables": [
+        ["Doch", "gij,", "mijn", "ziel,", "het", "ga", "zo", "’t wil,"],
+        ["Stel", "u", "ge-", "rust,", "zwijg", "Go-", "de", "stil."],
+        ["Ik", "wacht", "op", "Hem;", "Zijn", "hulp", "zal", "blij-", "ken."],
+        ["Hij", "is", "mijn", "rots,", "mijn", "heil", "in", "nood,"],
+        ["Mijn", "hoog", "ver-", "trek;", "Zijn", "macht", "is", "groot;"],
+        ["Ik", "zal", "noch", "wank-", "len,", "noch", "be-", "zwij-", "ken."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "In God is al mijn heil, mijn eer,",
+        "Mijn sterke rots, mijn tegenweer;",
+        "God is mijn toevlucht in het lijden.",
+        "Vertrouw op Hem, o volk, in smart,",
+        "Stort voor Hem uit uw ganse hart:",
+        "God is een toevlucht t’allen tijde."
+      ],
+      "syllables": [
+        ["In", "God", "is", "al", "mijn", "heil,", "mijn", "eer,"],
+        ["Mijn", "ster-", "ke", "rots,", "mijn", "te-", "gen-", "weer;"],
+        ["God", "is", "mijn", "toe-", "vlucht", "in", "het", "lij-", "den."],
+        ["Ver-", "trouw", "op", "Hem,", "o", "volk,", "in", "smart,"],
+        ["Stort", "voor", "Hem", "uit", "uw", "gan-", "se", "hart:"],
+        ["God", "is", "een", "toe-", "vlucht", "t-", "’al-", "len", "tijde."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Gemene lieden immers zijn",
+        "Slechts ijdelheid, een damp, een schijn;",
+        "De groten anders niet dan logen;",
+        "Zij zouden, hoe hun hart zich vleit,",
+        "Nog lichter zijn dan d’ ijdelheid,",
+        "In ene weegschaal opgewogen."
+      ],
+      "syllables": [
+        ["Ge-", "me-", "ne", "lie-", "den", "im-", "mers", "zijn"],
+        ["Slechts", "ij-", "del-", "heid,", "een", "damp,", "een", "schijn;"],
+        ["De", "gro-", "ten", "an-", "ders", "niet", "dan", "lo-", "gen;"],
+        ["Zij", "zou-", "den,", "hoe", "hun", "hart", "zich", "vleit,"],
+        ["Nog", "lich-", "ter", "zijn", "dan", "d’ij-", "del-", "heid,"],
+        ["In", "e-", "ne", "weeg-", "schaal", "op-", "ge-", "wo-", "gen."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Vertrouwt, wat uw begeert’ ook zij,",
+        "Nooit op geweld of roverij,",
+        "En wordt niet ijdel, als ’t vermogen",
+        "Gedurig aanwast; waakt en let.",
+        "Dat gij het hart ernooit op zet,",
+        "Zo wordt gedoor geen schijn bedrogen."
+      ],
+      "syllables": [
+        ["Ver-", "trouwt,", "wat", "uw", "be-", "geert’", "ook", "zij,"],
+        ["Nooit", "op", "ge-", "weld", "of", "ro-", "ve-", "rij,"],
+        ["En", "wordt", "niet", "ij-", "del,", "als", "’t ver-", "mo-", "gen"],
+        ["Ge-", "du-", "rig", "aan-", "wast;", "waakt", "en", "let."],
+        ["Dat", "gij", "het", "hart", "er-", "nooit", "op", "zet,"],
+        ["Zo", "wordt", "ge-", "door", "geen", "schijn", "be-", "dro-", "gen."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Eenmaal sprak God tot mij een woord,",
+        "Tot tweemaal toe heb ik ’t gehoord;",
+        "Dat ’s HEEREN zijn de sterkt’ en krachten.",
+        "Ook is bij U de goedheid, HEER’;",
+        "Dies heeft van U elk sterv’ling weer,",
+        "Vergelding naar zijn werk te wachten."
+      ],
+      "syllables": [
+        ["Een-", "maal", "sprak", "God", "tot", "mij", "een", "woord,"],
+        ["Tot", "twee-", "maal", "toe", "heb", "ik", "’t ge-", "hoord;"],
+        ["Dat", "’s HEE-", "REN", "zijn", "de", "sterkt’", "en", "krach-", "ten."],
+        ["Ook", "is", "bij", "U", "de", "goed-", "heid,", "HEER’;"],
+        ["Dies", "heeft", "van", "U", "elk", "sterv-", "’ling", "weer,"],
+        ["Ver-", "gel-", "ding", "naar", "zijn", "werk", "te", "wach-", "ten."]
+      ]
+    }
+  ]
+}
