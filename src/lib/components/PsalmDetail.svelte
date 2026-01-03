@@ -28,6 +28,15 @@
     return psalm.verses.map(v => v.number).sort((a, b) => a - b);
   });
 
+  // Detect if the last verse is a half verse (fewer lines than the first verse)
+  let hasHalfVerse = $derived.by<boolean>(() => {
+    if (psalm.verses.length < 2) return false;
+    const firstVerseLines = psalm.verses[0]?.lines?.length ?? 0;
+    const lastVerseLines = psalm.verses[psalm.verses.length - 1]?.lines?.length ?? 0;
+    // Half verse if last verse has significantly fewer lines (less than 75% of first)
+    return lastVerseLines > 0 && lastVerseLines < firstVerseLines * 0.75;
+  });
+
   // Get active verse
   let activeVerse = $derived<VerseLyrics | undefined>(
     psalm.verses.find(v => v.number === activeVerseNumber)
@@ -112,7 +121,12 @@
       ←
     </button>
     <div class="header-center">
-      <h1 class="psalm-title">Psalm {psalm.number}</h1>
+      <h1 class="psalm-title">
+        Psalm {psalm.number}
+        {#if hasHalfVerse}
+          <span class="half-verse-indicator" title="Laatste vers is half">½</span>
+        {/if}
+      </h1>
       <div class="header-controls">
         <div class="transpose-controls">
           <button 
@@ -237,6 +251,17 @@
     margin: 0;
     font-size: 1.1rem;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .half-verse-indicator {
+    font-size: 0.75rem;
+    color: var(--muted-color);
+    opacity: 0.7;
+    font-weight: normal;
+    cursor: help;
   }
 
   .header-controls {
@@ -324,6 +349,10 @@
 
     .psalm-title {
       font-size: 0.9rem;
+    }
+
+    .half-verse-indicator {
+      font-size: 0.65rem;
     }
 
     .header-controls {
