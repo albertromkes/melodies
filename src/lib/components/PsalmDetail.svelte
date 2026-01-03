@@ -201,7 +201,7 @@
   .psalm-detail {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.25rem;
     padding: 0.5rem;
     padding-top: 0;
     max-width: 800px;
@@ -214,23 +214,28 @@
     z-index: 100;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem;
-    margin: -0.5rem -0.5rem 0 -0.5rem;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    margin: 0 -0.5rem;
     background: var(--bg-color);
     border-bottom: 1px solid var(--border-color);
   }
 
   .back-btn {
-    padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.25rem;
     border: 1px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 6px;
     background: var(--bg-color);
     color: var(--text-color);
     cursor: pointer;
     transition: all 0.2s;
     white-space: nowrap;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .back-btn:hover {
@@ -249,15 +254,16 @@
 
   .psalm-title {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 0.3rem;
+    font-weight: bold;
   }
 
   .half-verse-indicator {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     color: var(--muted-color);
     opacity: 0.7;
     font-weight: normal;
@@ -267,24 +273,24 @@
   .header-controls {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.75rem;
   }
 
   .transpose-controls,
   .scale-controls {
     display: flex;
     align-items: center;
-    gap: 0.15rem;
+    gap: 0.25rem;
   }
 
   .control-btn {
-    min-width: 24px;
-    height: 24px;
-    padding: 0 0.3rem;
-    font-size: 0.75rem;
+    min-width: 44px;
+    height: 44px;
+    padding: 0 0.5rem;
+    font-size: 1rem;
     font-weight: 500;
     border: 1px solid var(--border-color);
-    border-radius: 4px;
+    border-radius: 6px;
     background: var(--bg-color);
     color: var(--text-color);
     cursor: pointer;
@@ -311,13 +317,13 @@
   }
 
   .original-btn {
-    font-size: 0.65rem;
+    font-size: 0.85rem;
   }
 
   .scale-value {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     color: var(--muted-color);
-    min-width: 2rem;
+    min-width: 3rem;
     text-align: center;
   }
 
@@ -326,53 +332,57 @@
     border-radius: 8px;
     border: 1px solid var(--border-color);
     overflow: hidden;
+    margin-top: 0;
   }
 
   /* Mobile optimizations */
   @media (max-width: 640px) {
     .psalm-detail {
-      gap: 0.35rem;
+      gap: 0.2rem;
       padding: 0.35rem;
       padding-top: 0;
     }
 
     .psalm-header {
-      gap: 0.35rem;
-      padding: 0.35rem;
+      gap: 0.5rem;
+      padding: 0.5rem;
       margin: 0 -0.35rem;
     }
 
     .back-btn {
-      padding: 0.2rem 0.4rem;
-      font-size: 0.7rem;
+      padding: 0.4rem 0.6rem;
+      font-size: 1.1rem;
+      min-width: 44px;
+      min-height: 44px;
     }
 
     .psalm-title {
-      font-size: 0.9rem;
+      font-size: 1.1rem;
     }
 
     .half-verse-indicator {
-      font-size: 0.65rem;
+      font-size: 0.75rem;
     }
 
     .header-controls {
-      gap: 0.3rem;
+      gap: 0.5rem;
     }
 
     .control-btn {
-      min-width: 20px;
-      height: 20px;
-      font-size: 0.65rem;
-      padding: 0 0.2rem;
+      min-width: 40px;
+      height: 40px;
+      font-size: 0.9rem;
+      padding: 0 0.4rem;
     }
 
     .original-btn {
-      font-size: 0.55rem;
+      font-size: 0.7rem;
+      min-width: 50px;
     }
 
     .scale-value {
-      font-size: 0.6rem;
-      min-width: 1.6rem;
+      font-size: 0.8rem;
+      min-width: 2.5rem;
     }
   }
 </style>
