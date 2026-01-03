@@ -38,22 +38,36 @@ function buildMetaIndex(psalms) {
   }));
 }
 
+function normalizeText(s) {
+  return (s ?? '')
+    .toString()
+    .toLowerCase()
+    .replace(/[’']/g, "'")
+    // Keep letters/numbers/spaces/hyphen; drop punctuation/symbols
+    .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function buildVersesIndex(psalms) {
   // Create MiniSearch index for verse text search
   const miniSearch = new MiniSearch({
     fields: ['text'],        // searchable field
-    storeFields: ['psalmId', 'psalmNumber'], // fields to return with results
+    // Include `text` so the client can do exact phrase filtering when user uses quotes.
+    storeFields: ['psalmId', 'psalmNumber', 'text'],
     idField: 'docId',
   });
   
   // Create documents: one per psalm with all verses combined
   const documents = psalms.map(psalm => {
     // Combine all verse syllables into searchable text
-    const allText = psalm.verses
+    const allTextRaw = psalm.verses
       .flatMap(v => v.syllables || v.lines || [])
       .flat()
       .filter(s => s && s !== '_')
       .join(' ');
+
+    const allText = normalizeText(allTextRaw);
     
     return {
       docId: psalm.id,

@@ -21,6 +21,7 @@
 
   // Search state
   let searchInVerses = $state(false);
+  let useFuzzyVerseSearch = $state(false);
   let psalmsMeta = $state<PsalmMeta[]>([]);
   let versesIndex = $state<MiniSearch | null>(null);
   let versesIndexLoading = $state(false);
@@ -42,7 +43,7 @@
         .then(data => {
           versesIndex = MiniSearch.loadJSON(data, {
             fields: ['text'],
-            storeFields: ['psalmId', 'psalmNumber'],
+            storeFields: ['psalmId', 'psalmNumber', 'text'],
             idField: 'docId',
           });
           versesIndexLoading = false;
@@ -54,8 +55,39 @@
     }
   });
 
+  function normalizeText(s: string): string {
+    return (s ?? '')
+      .toString()
+      .toLowerCase()
+      .replace(/[’']/g, "'")
+      // Keep letters/numbers/spaces/hyphen; drop punctuation/symbols
+      .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function parseQueryWithPhrases(input: string): { remainder: string; phrases: string[] } {
+    const raw = input ?? '';
+    const phrases: string[] = [];
+
+    // Support straight quotes "..." and curly quotes “...”
+    const patterns = [/"([^"]+)"/g, /“([^”]+)”/g];
+
+    let remainder = raw;
+    for (const re of patterns) {
+      remainder = remainder.replace(re, (_m, g1: string) => {
+        const phrase = normalizeText(g1);
+        if (phrase) phrases.push(phrase);
+        return ' ';
+      });
+    }
+
+    return { remainder: normalizeText(remainder), phrases };
+  }
+
   let filteredPsalms = $derived.by(() => {
-    const query = searchQuery.trim().toLowerCase();
+    const queryRaw = searchQuery.trim();
+    const query = queryRaw.toLowerCase();
     if (!query) return psalms;
 
     // Get matching psalm IDs from different search methods
@@ -77,9 +109,21 @@
 
     // Search in verses if enabled and index loaded
     if (searchInVerses && versesIndex) {
-      const results = versesIndex.search(query, { prefix: true, fuzzy: 0.2 });
+      const { remainder, phrases } = parseQueryWithPhrases(queryRaw);
+      const seed = remainder || phrases.join(' ');
+
+      const results = versesIndex.search(seed, { prefix: true, fuzzy: useFuzzyVerseSearch ? 0.2 : 0 });
       results.forEach(result => {
-        matchingIds.add(result.psalmId);
+        if (!phrases.length) {
+          matchingIds.add(result.psalmId);
+          return;
+        }
+
+        const haystack = typeof result.text === 'string' ? result.text : '';
+        const matchesAllPhrases = phrases.every(p => haystack.includes(p));
+        if (matchesAllPhrases) {
+          matchingIds.add(result.psalmId);
+        }
       });
     }
 
@@ -113,6 +157,17 @@
         <span class="loading-indicator">⏳</span>
       {/if}
     </label>
+
+    {#if searchInVerses}
+      <label class="checkbox-label">
+        <input
+          type="checkbox"
+          bind:checked={useFuzzyVerseSearch}
+          disabled={versesIndexLoading}
+        />
+        <span>Fuzzy</span>
+      </label>
+    {/if}
   </div>
 
   <div class="psalms-grid">
