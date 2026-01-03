@@ -60,11 +60,9 @@ function buildVersesIndex(psalms) {
   
   // Create documents: one per psalm with all verses combined
   const documents = psalms.map(psalm => {
-    // Combine all verse syllables into searchable text
+    // Combine all verse lines into searchable text (use lines, not syllables, to keep words intact)
     const allTextRaw = psalm.verses
-      .flatMap(v => v.syllables || v.lines || [])
-      .flat()
-      .filter(s => s && s !== '_')
+      .flatMap(v => v.lines)
       .join(' ');
 
     const allText = normalizeText(allTextRaw);

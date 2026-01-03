@@ -9,6 +9,8 @@
   let currentView = $state<'list' | 'detail'>('list');
   let selectedPsalm = $state<PsalmData | null>(null);
   let searchQuery = $state('');
+  let searchInVerses = $state(false);
+  let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
 
   // Load theme from localStorage on mount
@@ -41,6 +43,14 @@
     searchQuery = query;
   }
 
+  function handleSearchInVersesChange(value: boolean) {
+    searchInVerses = value;
+  }
+
+  function handleUseFuzzyChange(value: boolean) {
+    useFuzzyVerseSearch = value;
+  }
+
   function toggleTheme() {
     theme = theme === 'light' ? 'dark' : 'light';
   }
@@ -59,8 +69,12 @@
       <PsalmList
         {psalms}
         {searchQuery}
+        {searchInVerses}
+        {useFuzzyVerseSearch}
         onSelectPsalm={handleSelectPsalm}
         onSearchChange={handleSearchChange}
+        onSearchInVersesChange={handleSearchInVersesChange}
+        onUseFuzzyChange={handleUseFuzzyChange}
       />
     </main>
   {:else if currentView === 'detail' && selectedPsalm}

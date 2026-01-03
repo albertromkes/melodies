@@ -13,15 +13,15 @@
   interface Props {
     psalms: PsalmData[];
     searchQuery: string;
+    searchInVerses: boolean;
+    useFuzzyVerseSearch: boolean;
     onSelectPsalm: (psalm: PsalmData) => void;
     onSearchChange: (query: string) => void;
+    onSearchInVersesChange: (value: boolean) => void;
+    onUseFuzzyChange: (value: boolean) => void;
   }
 
-  let { psalms, searchQuery, onSelectPsalm, onSearchChange }: Props = $props();
-
-  // Search state
-  let searchInVerses = $state(false);
-  let useFuzzyVerseSearch = $state(false);
+  let { psalms, searchQuery, searchInVerses, useFuzzyVerseSearch, onSelectPsalm, onSearchChange, onSearchInVersesChange, onUseFuzzyChange }: Props = $props();
   let psalmsMeta = $state<PsalmMeta[]>([]);
   let versesIndex = $state<MiniSearch | null>(null);
   let versesIndexLoading = $state(false);
@@ -150,7 +150,8 @@
     <label class="checkbox-label">
       <input
         type="checkbox"
-        bind:checked={searchInVerses}
+        checked={searchInVerses}
+        onchange={(e) => onSearchInVersesChange(e.currentTarget.checked)}
       />
       <span>Search in verses</span>
       {#if versesIndexLoading}
@@ -162,7 +163,8 @@
       <label class="checkbox-label">
         <input
           type="checkbox"
-          bind:checked={useFuzzyVerseSearch}
+          checked={useFuzzyVerseSearch}
+          onchange={(e) => onUseFuzzyChange(e.currentTarget.checked)}
           disabled={versesIndexLoading}
         />
         <span>Fuzzy</span>
