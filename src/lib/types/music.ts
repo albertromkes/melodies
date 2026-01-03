@@ -73,6 +73,8 @@ export interface PsalmData {
   mode?: string;
   /** Source/origin of the melody */
   source?: string;
+  /** Tags for categorization (e.g., ["christmas", "pentecost", "praise"]) */
+  tags?: string[];
   /** Key signature (e.g., "D", "G", "F") */
   keySignature: string;
   /** Time signature as [beats, beatUnit] */

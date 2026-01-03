@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node scripts/build-search-index.mjs && vite build",
+    "build:index": "node scripts/build-search-index.mjs",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json"
   },
@@ -21,6 +22,7 @@
   "dependencies": {
     "hyphenation.nl": "^0.2.1",
     "hypher": "^0.2.5",
+    "minisearch": "^7.2.0",
     "tonal": "^6.4.2",
     "vexflow": "^5.0.0"
   }
