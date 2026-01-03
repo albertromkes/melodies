@@ -1,0 +1,246 @@
+{
+  "id": "psalm-046",
+  "number": 46,
+  "title": "Psalm 46",
+  "category": "psalm",
+  "mode": "mixolydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "God is een toevlucht voor de Zijnen,",
+        "Hun sterkt’, als zij door droefheid kwijnen;",
+        "Zij werden steeds Zijn hulp gewaar,",
+        "In zielsbenauwdheid, in gevaar;",
+        "Dies zal geen vrees ons doen bezwijken,",
+        "Schoon d’ aard’ uit hare plaats mocht wijken,",
+        "Schoon ’t hoogst gebergt’, uit zijne stee,",
+        "Verzet wierd in het hart derzee."
+      ],
+      "syllables": [
+        ["God", "is", "een", "toe-", "vlucht", "voor", "de", "Zij-", "nen,"],
+        ["Hun", "sterkt’,", "als", "zij", "door", "droef-", "heid", "kwij-", "nen;"],
+        ["Zij", "wer-", "den", "steeds", "Zijn", "hulp", "ge-", "waar,"],
+        ["In", "ziels-", "be-", "nauwd-", "heid,", "in", "ge-", "vaar;"],
+        ["Dies", "zal", "geen", "vrees", "ons", "doen", "be-", "zwij-", "ken,"],
+        ["Schoon", "d’aar-", "d’uit", "ha-", "re", "plaats", "mocht", "wij-", "ken,"],
+        ["Schoon", "’t hoogst", "ge-", "bergt’,", "uit", "zij-", "ne", "stee,"],
+        ["Ver-", "zet", "wierd", "in", "het", "hart", "der-", "zee."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Laat vrij het schuimend zeenat bruisen;",
+        "D’ ontroerde waat’ren hevig ruisen;",
+        "De golven mogen, door haar woên,",
+        "Het berggevaarte daav’ren doen:",
+        "De stad, het heiligdom, de woning,",
+        "Van God, den allerhoogsten Koning,",
+        "Wordt in haar muren, t’allen tijd;",
+        "Door beekjes derrivier verblijd."
+      ],
+      "syllables": [
+        ["Laat", "vrij", "het", "schui-", "mend", "zee-", "nat", "brui-", "sen;"],
+        ["D’ont-", "roer-", "de", "waat-", "’ren", "he-", "vig", "rui-", "sen;"],
+        ["De", "gol-", "ven", "mo-", "gen,", "door", "haar", "woên,"],
+        ["Het", "berg-", "ge-", "vaar-", "te", "daav-", "’ren", "doen:"],
+        ["De", "stad,", "het", "hei-", "lig-", "dom,", "de", "wo-", "ning,"],
+        ["Van", "God,", "den", "al-", "ler-", "hoog-", "sten", "Ko-", "ning,"],
+        ["Wordt", "in", "haar", "mu-", "ren,", "t-", "’allen", "tijd;"],
+        ["Door", "beek-", "jes", "der-", "ri-", "vier", "ver-", "blijd."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Geen onheil zal de stad verstoren,",
+        "Waar God Zijn woning heeft verkoren.",
+        "God zal haar redden uit de nood",
+        "Bij ’t dagen van het morgenrood.",
+        "Men zag de heid’ nen kwaad beramen;",
+        "De koninkrijken spanden samen;",
+        "Maar God verhief Zijn stem, en d’ aard’,",
+        "Versmolt, voor ’s Hoogsten toorn vervaard."
+      ],
+      "syllables": [
+        ["Geen", "on-", "heil", "zal", "de", "stad", "ver-", "sto-", "ren,"],
+        ["Waar", "God", "Zijn", "wo-", "ning", "heeft", "ver-", "ko-", "ren."],
+        ["God", "zal", "haar", "red-", "den", "uit", "de", "nood"],
+        ["Bij", "’t da-", "gen", "van", "het", "mor-", "gen-", "rood."],
+        ["Men", "zag", "de", "heid’", "nen", "kwaad", "be-", "ra-", "men;"],
+        ["De", "ko-", "nink-", "rij-", "ken", "span-", "den", "sa-", "men;"],
+        ["Maar", "God", "verhief", "Zijn", "stem,", "en", "d’aar-", "d’,"],
+        ["Ver-", "smolt,", "voor", "’s Hoog-", "sten", "toorn", "ver-", "vaard."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "De HEER’, de God derlegerscharen,",
+        "Is met ons, hoedt ons in gevaren.",
+        "De HEER’ de God van Jakobs zaad,",
+        "Is ons een burg, een toeverlaat.",
+        "Komt, wilt op ’s HEEREN daden merken;",
+        "Aanschouwt des Hoogsten grote werken;",
+        "Zijn macht, die nooit te stuiten is,",
+        "Maakt d’ aarde tot een wildernis."
+      ],
+      "syllables": [
+        ["De", "HEER’,", "de", "God", "der-", "le-", "ger-", "scha-", "ren,"],
+        ["Is", "met", "ons,", "hoedt", "ons", "in", "ge-", "va-", "ren."],
+        ["De", "HEER’", "de", "God", "van", "Ja-", "kobs", "zaad,"],
+        ["Is", "ons", "een", "burg,", "een", "toe-", "ver-", "laat."],
+        ["Komt,", "wilt", "op", "’s HEE-", "REN", "da-", "den", "mer-", "ken;"],
+        ["Aan-", "schouwt", "des", "Hoog-", "sten", "gro-", "te", "wer-", "ken;"],
+        ["Zijn", "macht,", "die", "nooit", "te", "stui-", "ten", "is,"],
+        ["Maakt", "d’aar-", "de", "tot", "een", "wil-", "der-", "nis."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "God stilt, alom, het orelogen;",
+        "Zijn arm verbreekt de taaie bogen,",
+        "Doet spies en speer aan stukken slaan,",
+        "En wagens door het vuur vergaan.",
+        "„Laat af”, dus spreekt de HEER’ derheeren,",
+        "„Weet, Ik ben God; elk moet Mij eren;",
+        "Het heidendom, ja, ’t gans heelal,",
+        "Verhoge Mij met lofgeschal.”"
+      ],
+      "syllables": [
+        ["God", "stilt,", "al-", "om,", "het", "o-", "re-", "lo-", "gen;"],
+        ["Zijn", "arm", "ver-", "breekt", "de", "taai-","e", "bo-", "gen,"],
+        ["Doet", "spies", "en", "speer", "aan", "stuk-", "ken", "slaan,"],
+        ["En", "wa-", "gens", "door", "het", "vuur", "ver-", "gaan."],
+        ["„Laat", "af”,", "dus", "spreekt", "de", "HEER’", "der-", "hee-", "ren,"],
+        ["„Weet,", "Ik", "ben", "God;", "elk", "moet", "Mij", "e-", "ren;"],
+        ["Het", "hei-", "den-", "dom,", "ja,", "’t gans", "heel-", "al,"],
+        ["Ver-", "ho-", "ge", "Mij", "met", "lof-", "ge-", "schal.”"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "De HEER’, de God derlegerscharen,",
+        "Is met ons, hoedt ons in gevaren;",
+        "De HEER’, de God van Jakobs zaad,",
+        "Is ons een burg, een toeverlaat."
+      ],
+      "syllables": [
+        ["De", "HEER’,", "de", "God", "der-", "le-", "ger-", "scha-", "ren,"],
+        ["Is", "met", "ons,", "hoedt", "ons", "in", "ge-", "va-", "ren;"],
+        ["De", "HEER’,", "de", "God", "van", "Ja-", "kobs", "zaad,"],
+        ["Is", "ons", "een", "burg,", "een", "toe-", "ver-", "laat."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "id": "psalm-043",
+  "number": 43,
+  "title": "Psalm 43",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q", "rest": true },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Geduchte God, hoor mijn gebeden;",
+        "Strijd voor mijn recht, en maak mij vrij",
+        "Van hen, die, vol arglistigheden,",
+        "Gerechtigheid en trouw vertreden,",
+        "Opdat mijn ziel Uw naam belij’",
+        "En U geheiligd zij."
+      ],
+      "syllables": [
+        ["Ge-", "duch-", "te", "God,", "hoor", "mijn", "ge-", "be-", "den;"],
+        ["Strijd", "voor", "mijn", "recht,", "en", "maak", "mij", "vrij"],
+        ["Van", "hen,", "die,", "vol", "arg-", "lis-", "tig-", "he-", "den,"],
+        ["Ge-", "rech-", "tig-", "heid", "en", "trouw", "ver-", "tre-", "den,"],
+        ["Op-", "dat", "mijn", "ziel", "Uw", "naam", "be-", "lij’"],
+        ["En", "U", "ge-", "hei-", "ligd", "zij."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Mijn God, ik steun op Uw vermogen,",
+        "Gij zijt de sterkte van mijn hart;",
+        "Waarom verstoot Gij m’ uit Uw ogen,",
+        "Waarom ga ik terneergebogen,",
+        "Door ’s vijands wreed geweld benard,",
+        "Gestaag in ’t aaklig zwart?"
+      ],
+      "syllables": [
+        ["Mijn", "God,", "ik", "steun", "op", "Uw", "ver-", "mo-", "gen,"],
+        ["Gij", "zijt", "de", "sterk-", "te", "van", "mijn", "hart;"],
+        ["Waar-", "om", "ver-", "stoot", "Gij", "m’uit", "Uw", "o-", "gen,"],
+        ["Waar-", "om", "ga", "ik", "ter-", "neer-", "ge-", "bo-", "gen,"],
+        ["Door", "’s vij-", "ands", "wreed", "ge-", "weld", "be-", "nard,"],
+        ["Ge-", "staag", "in", "’t aak-", "lig", "zwart?"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zend HEER’, Uw licht en waarheid neder,",
+        "En breng mij, door dien glans geleid,",
+        "Tot Uw gewijde tente weder",
+        "Dan klimt mijn bange ziel gereder",
+        "Ten berge van Uw heiligheid,",
+        "Daar mij Uw gunst verbeidt."
+      ],
+      "syllables": [
+        ["Zend", "HEER’,", "Uw", "licht", "en", "waar-", "heid", "ne-", "der,"],
+        ["En", "breng", "mij,", "door", "dien", "glans", "ge-", "leid,"],
+        ["Tot", "Uw", "ge-", "wij-", "de", "ten-", "te", "we-", "der"],
+        ["Dan", "klimt", "mijn", "ban-", "ge", "ziel", "ge-", "re-", "der"],
+        ["Ten", "ber-", "ge", "van", "Uw", "hei-", "lig-", "heid,"],
+        ["Daar", "mij", "Uw", "gunst", "ver-", "beidt."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Dan ga ik op tot Gods altaren,",
+        "Tot God, mijn God, de bron van vreugd;",
+        "Dan zal ik, juichend, stem en snaren",
+        "Ten roem van Zijne goedheid paren,",
+        "Die, na kortstondig ongeneugt",
+        "Mij eindeloos verheugt."
+      ],
+      "syllables": [
+        ["Dan", "ga", "ik", "op", "tot", "Gods", "al-", "ta-", "ren,"],
+        ["Tot", "God,", "mijn", "God,", "de", "bron", "van", "vreugd;"],
+        ["Dan", "zal", "ik,", "jui-", "chend,", "stem", "en", "sna-", "ren"],
+        ["Ten", "roem", "van", "Zij-", "ne", "goed-", "heid", "pa-", "ren,"],
+        ["Die,", "na", "kort-", "ston-", "dig", "on-", "ge-", "neugt"],
+        ["Mij", "ein-", "de-", "loos", "ver-", "heugt."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Mijn ziel, hoe treurt gedus verslagen?",
+        "Wat zijt g’onrustig in uw lot?",
+        "Berust in ’s HEEREN welbehagen,",
+        "Hij doet welhaast uw heilzon dagen;",
+        "Uw hoop herleev’, naar Zijn gebod;",
+        "Mijn Redder is mijn God."
+      ],
+      "syllables": [
+        ["Mijn", "ziel,", "hoe", "treurt", "ge-", "dus", "ver-", "sla-", "gen?"],
+        ["Wat", "zijt", "g-", "’on-", "rus-", "tig", "in", "uw", "lot?"],
+        ["Be-", "rust", "in", "’s HEE-", "REN", "wel-", "be-", "ha-", "gen,"],
+        ["Hij", "doet", "wel-", "haast", "uw", "heil-", "zon", "da-", "gen;"],
+        ["Uw", "hoop", "her-", "lee-", "v’,", "naar", "Zijn", "gebod;"],
+        ["Mijn", "Red-", "der", "is", "mijn", "God."]
+      ]
+    }
+  ]
+}

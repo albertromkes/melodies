@@ -1,0 +1,286 @@
+{
+  "id": "psalm-048",
+  "number": 48,
+  "title": "Psalm 48",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "De HEER’ is groot; elk zing’ Zijn lof",
+        "In Salems stad en tempelhof,",
+        "Waar onze God, bij zuiv’re tonen,",
+        "Op Zijnen heilgen berg wil wonen.",
+        "Hoe schoon, hoe welgelegen,",
+        "Wat vreugd voor d’ aard’, wat zegen,",
+        "Is Sions berg! hoe groots, hoe blij,",
+        "Hoe heerlijk aan de noorderzij!",
+        "Wie is ’t, die niet de Godsstad roemt,",
+        "De stad desgroten Konings noemt?"
+      ],
+      "syllables": [
+        ["De", "HEER’", "is", "groot;", "elk", "zing’", "Zijn", "lof"],
+        ["In", "Sa-", "lems", "stad", "en", "tem-", "pel-", "hof,"],
+        ["Waar", "on-", "ze", "God,", "bij", "zuiv-", "’re", "to-", "nen,"],
+        ["Op", "Zij-", "nen", "heil-", "gen", "berg", "wil", "wo-", "nen."],
+        ["Hoe", "schoon,", "hoe", "wel-", "ge-", "le-", "gen,"],
+        ["Wat", "vreugd", "voor", "d’aar-", "d’,", "wat", "zegen,"],
+        ["Is", "Si-", "ons", "berg!", "hoe", "groots,", "hoe", "blij,"],
+        ["Hoe", "heer-", "lijk", "aan", "de", "noor-", "der-", "zij!"],
+        ["Wie", "is", "’t,", "die", "niet", "de", "Godsstad", "roemt,"],
+        ["De", "stad", "des-", "gro-", "ten", "Ko-", "nings", "noemt?"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "In haar paleizen vestigt God",
+        "Zijn troon; wordt daar erkend, een slot,",
+        "Een hoog vertrek voor ’t volk te wezen;",
+        "Geen vorsten heeft men daar te vrezen.",
+        "Pas hadden zij, verbonden,",
+        "Den tocht zich onderwonden;",
+        "Pas hadden zij de stad in ’t oog,",
+        "Of hun verwondring steeg zo hoog,",
+        "Dat, Sion slechts van verte zien,",
+        "Hen straks van schrik terug deed vliên."
+      ],
+      "syllables": [
+        ["In", "haar", "pa-", "lei-", "zen", "ves-", "tigt", "God"],
+        ["Zijn", "troon;", "wordt", "daar", "er-", "kend,", "een", "slot,"],
+        ["Een", "hoog", "ver-", "trek", "voor", "’t volk", "te", "we-", "zen;"],
+        ["Geen", "vor-", "sten", "heeft", "men", "daar", "te", "vre-", "zen."],
+        ["Pas", "had-", "den", "zij,", "ver-", "bon-", "den,"],
+        ["Den", "tocht", "zich", "on-", "der-", "won-", "den;"],
+        ["Pas", "had-", "den", "zij", "de", "stad", "in", "’t oog,"],
+        ["Of", "hun", "ver-", "won-", "dring", "steeg", "zo", "hoog,"],
+        ["Dat,", "Si-", "on", "slechts", "van", "ver-", "te", "zien,"],
+        ["Hen", "straks", "van", "schrik", "te-", "rug", "deed", "vliên."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Daar greep hen beving aan, vervaard,",
+        "Vol smart, gelijk een vrouw die baart.",
+        "Zo doet G’een oostenwind de kielen",
+        "Van Tarsis’ vloot in zee vernielen.",
+        "Wij zagen, ’t geen onz’ oren",
+        "Voorheen slechts mochten horen;",
+        "In deze stad, den troon dereer",
+        "Van God, derlegerscharen HEER’.",
+        "Hij zal, door macht en kloeke daân,",
+        "In eeuwigheid haar vast doen staan."
+      ],
+      "syllables": [
+        ["Daar", "greep", "hen", "be-", "ving", "aan,", "ver-", "vaard,"],
+        ["Vol", "smart,", "ge-", "lijk", "een", "vrouw", "die", "baart."],
+        ["Zo", "doet", "G’een", "oos-", "ten-", "wind", "de", "kie-", "len"],
+        ["Van", "Tar-", "sis’", "vloot", "in", "zee", "ver-", "nie-", "len."],
+        ["Wij", "za-", "gen,", "’t geen", "on-", "z-", "’oren"],
+        ["Voor-", "heen", "slechts", "moch-", "ten", "ho-", "ren;"],
+        ["In", "de-", "ze", "stad,", "den", "troon", "de-", "reer"],
+        ["Van", "God,", "der-", "le-", "ger-", "scha-", "ren", "HEER’."],
+        ["Hij", "zal,", "door", "macht", "en", "kloe-", "ke", "daân,"],
+        ["In", "eeu-", "wig-", "heid", "haar", "vast", "doen", "staan."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Wij, o verheven Majesteit,",
+        "Gedenken Uw weldadigheid",
+        "In ’t midden van Uw heilge woning.",
+        "Gelijk Uw Naam is; grote Koning,",
+        "Bij ons terecht geprezen,",
+        "Zo is Uw roem gerezen,",
+        "En bij de volken zeer vermaand,",
+        "Tot aan het uiterst’ eind deraard.",
+        "Uw rechterhand, die ’t kwaad niet duldt,",
+        "Is met gerechtigheid vervuld."
+      ],
+      "syllables": [
+        ["Wij,", "o", "ver-", "he-", "ven", "Ma-", "jes-", "teit,"],
+        ["Ge-", "den-", "ken", "Uw", "wel-", "da-", "dig-", "heid"],
+        ["In", "’t mid-", "den", "van", "Uw", "heil-", "ge", "wo-", "ning."],
+        ["Ge-", "lijk", "Uw", "Naam", "is;", "gro-", "te", "Ko-", "ning,"],
+        ["Bij", "ons", "te-", "recht", "ge-", "pre-", "zen,"],
+        ["Zo", "is", "Uw", "roem", "ge-", "re-", "zen,"],
+        ["En", "bij", "de", "vol-", "ken", "zeer", "ver-", "maand,"],
+        ["Tot", "aan", "het", "ui-", "ter-", "st’", "eind", "deraard."],
+        ["Uw", "rech-", "ter-", "hand,", "die", "’t kwaad", "niet", "duldt,"],
+        ["Is", "met", "ge-", "rech-", "tig-", "heid", "ver-", "vuld."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Dat Sions berg weergalm’ van vreugd,",
+        "Laat Judas dochters zijn verheugd,",
+        "Wijl Gij haar vijand sloegt in ’t strijden.",
+        "Gaat Sion rond aan alle zijden;",
+        "Telt al den vestingwerken",
+        "En torens, die ’t versterken;",
+        "Ja ziet met een oplettend oog,",
+        "Paleizen steig’ren hemelhoog,",
+        "En stout verduren al ’t geweld,",
+        "Opdat gij ’t aan uw kroost vertelt."
+      ],
+      "syllables": [
+        ["Dat", "Si-", "ons", "berg", "weer-", "galm’", "van", "vreugd,"],
+        ["Laat", "Ju-", "das", "doch-", "ters", "zijn", "ver-", "heugd,"],
+        ["Wijl", "Gij", "haar", "vij-", "and", "sloegt", "in", "’t strij-", "den."],
+        ["Gaat", "Si-", "on", "rond", "aan", "al-", "le", "zij-", "den;"],
+        ["Telt", "al", "den", "ves-", "ting-", "wer-", "ken"],
+        ["En", "to-", "rens,", "die", "’t ver-", "ster-", "ken;"],
+        ["Ja", "ziet", "met", "een", "op-", "let-", "tend", "oog,"],
+        ["Pa-", "lei-", "zen", "steig-", "’ren", "he-", "mel-", "hoog,"],
+        ["En", "stout", "ver-", "du-", "ren", "al", "’t ge-", "weld,"],
+        ["Op-", "dat", "gij", "’t aan", "uw", "kroost", "ver-", "telt."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Want deze God is onze God;",
+        "Hij is ons deel, ons zalig lot,",
+        "Door tijd noch eeuwigheid te scheiden;",
+        "Terdood toe zal Hij ons geleiden."
+      ],
+      "syllables": [
+        ["Want", "de-", "ze", "God", "is", "on-", "ze", "God;"],
+        ["Hij", "is", "ons", "deel,", "ons", "za-", "lig", "lot,"],
+        ["Door", "tijd", "noch", "eeu-", "wig-", "heid", "te", "schei-", "den;"],
+        ["Ter-", "dood", "toe", "zal", "Hij", "ons", "ge-", "lei-", "den."]
+      ]
+    }
+  ]
+}

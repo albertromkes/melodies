@@ -1,0 +1,200 @@
+{
+  "id": "psalm-054",
+  "number": 54,
+  "title": "Psalm 54",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "O God, verlos mij uit den nood,",
+        "En red door Uwen Naam mijn leven:",
+        "Mijn richtzaak zij aan U verbleven;",
+        "Och, of Uw arm mij bijstand bood!",
+        "O God, sla acht op mijn gebed,",
+        "Neig tot mijn rede gunstig d’ oren,",
+        "En wil mijn bitt’re klacht verhoren,",
+        "Zo word’ ik uit den angst gered."
+      ],
+      "syllables": [
+        ["O", "God,", "ver-", "los", "mij", "uit", "den", "nood,"],
+        ["En", "red", "door", "U-", "wen", "Naam", "mijn", "le-", "ven:"],
+        ["Mijn", "richt-", "zaak", "zij", "aan", "U", "ver-", "ble-", "ven;"],
+        ["Och,", "of", "Uw", "arm", "mij", "bij-", "stand", "bood!"],
+        ["O", "God,", "sla", "acht", "op", "mijn", "ge-", "bed,"],
+        ["Neig", "tot", "mijn", "re-", "de", "gun-", "stig", "d’o-", "ren,"],
+        ["En", "wil", "mijn", "bitt-", "’re", "klacht", "ver-", "ho-", "ren,"],
+        ["Zo", "word’", "ik", "uit", "den", "angst", "ge-", "red."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Want vreemden steken ’t hoofd omhoog",
+        "Tot mijn verderf; ik zie tirannen,",
+        "Om mij te doden, samenspannen;",
+        "Zij stellen God zich niet voor ’t oog.",
+        "Zie, God, die nimmer mij vergeet,",
+        "Is mij een helper in mijn lijden.",
+        "Hij voert hen aan, die voor mij strijden,",
+        "En ondersteunt mij in mijn leed."
+      ],
+      "syllables": [
+        ["Want", "vreem-", "den", "ste-", "ken", "’t hoofd", "om-", "hoog"],
+        ["Tot", "mijn", "ver-", "derf;", "ik", "zie", "ti-", "ran-", "nen,"],
+        ["Om", "mij", "te", "do-", "den,", "sa-", "men-", "span-", "nen;"],
+        ["Zij", "stel-", "len", "God", "zich", "niet", "voor", "’t oog."],
+        ["Zie,", "God,", "die", "nim-", "mer", "mij", "ver-", "geet,"],
+        ["Is", "mij", "een", "hel-", "per", "in", "mijn", "lij-", "den."],
+        ["Hij", "voert", "hen", "aan,", "die", "voor", "mij", "strij-", "den,"],
+        ["En", "on-", "der-", "steunt", "mij", "in", "mijn", "leed."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Hij zal dit kwaad, dit boos bestaan,",
+        "Aan mijn verspiederen vergelden.",
+        "Roei uit, die tegen mij zich stelden;",
+        "Het gaat Uw trouw en waarheid aan.",
+        "Ik zal U, met een blij gemoed",
+        "Vrijwillig off’ren, HEER’ derheren.",
+        "Ik zal Uw Naam met lofzang eren;",
+        "Dit eist Uw Naam, want hij is goed."
+      ],
+      "syllables": [
+        ["Hij", "zal", "dit", "kwaad,", "dit", "boos", "be-", "staan,"],
+        ["Aan", "mijn", "ver-", "spie-", "de-", "ren", "ver-", "gel-", "den."],
+        ["Roei", "uit,", "die", "te-", "gen", "mij", "zich", "stel-", "den;"],
+        ["Het", "gaat", "Uw", "trouw", "en", "waar-", "heid", "aan."],
+        ["Ik", "zal", "U,", "met", "een", "blij", "ge-", "moed"],
+        ["Vrij-", "wil-", "lig", "off-", "’ren,", "HEER’", "der-", "he-", "ren."],
+        ["Ik", "zal", "Uw", "Naam", "met", "lof-", "zang", "e-", "ren;"],
+        ["Dit", "eist", "Uw", "Naam,", "want", "hij", "is", "goed."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Want God wil mij Zijn bijstand biên.",
+        "Hij heeft mij ’t onheil doen ontkomen,",
+        "En mijn benauwdheid weggenomen:",
+        "Ik heb mijns vijands val gezien."
+      ],
+      "syllables": [
+        ["Want", "God", "wil", "mij", "Zijn", "bij-", "stand", "biên."],
+        ["Hij", "heeft", "mij", "’t on-", "heil", "doen", "ont-", "ko-", "men,"],
+        ["En", "mijn", "be-", "nauwd-", "heid", "weg-", "ge-", "no-", "men:"],
+        ["Ik", "heb", "mijns", "vij-", "ands", "val", "ge-", "zien."]
+      ]
+    }
+  ]
+}

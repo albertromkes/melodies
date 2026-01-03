@@ -1,0 +1,267 @@
+{
+  "id": "psalm-047",
+  "number": 47,
+  "title": "Psalm 47",
+  "category": "psalm",
+  "mode": "lydisch (Bourgois 1551)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["c#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["c#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Juicht, o volken, juicht,",
+        "Handklapt, en betuigt",
+        "Onzen God uw vreugd.",
+        "Weest te zaam verheugd;",
+        "Zingt des Hoogsten eer;",
+        "Buigt u voor Hem neer.",
+        "Alles ducht Zijn kracht;",
+        "Alles vreest Zijn macht;",
+        "Zijne majasteit,",
+        "Maakt haar heerlijkheid,",
+        "Over ’t rond deraard’,",
+        "Wijd en zijd vermaard."
+      ],
+      "syllables": [
+        ["Juicht,", "o", "vol-", "ken,", "juicht,"],
+        ["Hand-", "klapt,", "en", "be-", "tuigt"],
+        ["On-", "zen", "God", "uw", "vreugd."],
+        ["Weest", "te", "zaam", "ver-", "heugd;"],
+        ["Zingt", "des", "Hoog-", "sten", "eer;"],
+        ["Buigt", "u", "voor", "Hem", "neer."],
+        ["Al-", "les", "ducht", "Zijn", "kracht;"],
+        ["Al-", "les", "vreest", "Zijn", "macht;"],
+        ["Zij-", "ne", "ma-", "jas-", "teit,"],
+        ["Maakt", "haar", "heer-", "lijk-", "heid,"],
+        ["Over", "’t rond", "der-", "aar-", "d’,"],
+        ["Wijd", "en", "zijd", "ver-", "maard."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Naar Gods wijs bestel,",
+        "Op Gods hoog bevel,",
+        "Slaan wij, door Zijn hand,",
+        "Volken aan den band.",
+        "Die, door ons verneerd,",
+        "Door ons overheerd,",
+        "Strekken tot een blijk,",
+        "Hoe Hij, liefderijk,",
+        "Aan Zijn woord gedenkt;",
+        "D’ erfenis ons schenkt,",
+        "Jakobs heerlijkheid,",
+        "Aan hem toegezeid."
+      ],
+      "syllables": [
+        ["Naar", "Gods", "wijs", "be-", "stel,"],
+        ["Op", "Gods", "hoog", "be-", "vel,"],
+        ["Slaan", "wij,", "door", "Zijn", "hand,"],
+        ["Vol-", "ken", "aan", "den", "band."],
+        ["Die,", "door", "ons", "ver-", "neerd,"],
+        ["Door", "ons", "o-", "ver-", "heerd,"],
+        ["Strek-", "ken", "tot", "een", "blijk,"],
+        ["Hoe", "Hij,", "lief-", "de-", "rijk,"],
+        ["Aan", "Zijn", "woord", "ge-", "denkt;"],
+        ["D’er-", "fe-", "nis", "ons", "schenkt,"],
+        ["Ja-", "kobs", "heer-", "lijk-", "heid,"],
+        ["Aan", "hem", "toe-", "ge-", "zeid."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "God vaart, voor het oog,",
+        "Met gejuich omhoog;",
+        "’t Schel bazuingeluid",
+        "Galmt Gods glorie uit.",
+        "Heft den lofzang aan,",
+        "Zingt Zijn wonderdaân,",
+        "Zingt de schoonste stof,",
+        "Zingt des Konings lof,",
+        "Met een zuiv’ren galm,",
+        "Met een blijden psalm.",
+        "Hij, de Vorst deraard’,",
+        "Is die hulde waard."
+      ],
+      "syllables": [
+        ["God", "vaart,", "voor", "het", "oog,"],
+        ["Met", "ge-", "juich", "om-", "hoog;"],
+        ["’t Schel", "ba-", "zuin-", "ge-", "luid"],
+        ["Galmt", "Gods", "glo-", "rie", "uit."],
+        ["Heft", "den", "lof-", "zang", "aan,"],
+        ["Zingt", "Zijn", "won-", "der-", "daân,"],
+        ["Zingt", "de", "schoon-", "ste", "stof,"],
+        ["Zingt", "des", "Ko-", "nings", "lof,"],
+        ["Met", "een", "zuiv-", "’ren", "galm,"],
+        ["Met", "een", "blij-", "den", "psalm."],
+        ["Hij,", "de", "Vorst", "der-", "aar-", "d’,"],
+        ["Is", "die", "hul-", "de", "waard."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Zingt des Hoogsten eer’",
+        "Opdat ieder leer’,",
+        "Hoe Hij heerst alom",
+        "Over ’t heidendom.",
+        "Hoe Hij van Zijn troon",
+        "Geeft Zijn rijksgeboôn,",
+        "Daar het al voor bukt,",
+        "Eed’ len, gans verrukt,",
+        "Nu hun ’t Godd’ lijk licht",
+        "Straalt in ’t aangezicht,",
+        "Delen in ons lot,",
+        "Eren Abrams God."
+      ],
+      "syllables": [
+        ["Zingt", "des", "Hoog-", "sten", "eer’"],
+        ["Op-", "dat", "ie-", "der", "leer’,"],
+        ["Hoe", "Hij", "heerst", "al-", "om"],
+        ["O-", "ver", "’t hei-", "den-", "dom."],
+        ["Hoe", "Hij", "van", "Zijn", "troon"],
+        ["Geeft", "Zijn", "rijks-", "ge-", "boôn,"],
+        ["Daar", "het", "al", "voor", "bukt,"],
+        ["Eed’", "len,", "gans", "ver-", "rukt,"],
+        ["Nu", "hun", "’t Godd’", "lijk", "licht"],
+        ["Straalt", "in", "’t aan-", "ge-", "zicht,"],
+        ["De-", "len", "in", "ons", "lot,"],
+        ["E-", "ren", "A-","brams", "God."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "D’ eersten van den staat,",
+        "Die den onderzaat,",
+        "Naar Gods wijze wet,",
+        "Zijn ten schild gezet,",
+        "Eren ’s Hoogsten macht;",
+        "God munt uit in kracht."
+      ],
+      "syllables": [
+        ["D’eer-", "sten", "van", "den", "staat,"],
+        ["Die", "den", "on-", "der-", "zaat,"],
+        ["Naar", "Gods", "wij-", "ze", "wet,"],
+        ["Zijn", "ten", "schild", "ge-", "zet,"],
+        ["E-", "ren", "’s Hoog-", "sten", "macht;"],
+        ["God", "munt", "uit", "in", "kracht."]
+      ]
+    }
+  ]
+}

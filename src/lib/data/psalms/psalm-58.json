@@ -1,0 +1,242 @@
+{
+  "id": "psalm-058",
+  "number": 58,
+  "title": "Psalm 58",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Genève 1562)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "O, gij vergadering, gezeten",
+        "Om recht te doen, spreekt gij het recht?",
+        "Wordt alles billijk aangelegd;",
+        "Kwijt ieder zich naar zijn geweten;",
+        "En vonnist gij wel inderdaad,",
+        "Zoals met recht en wet bestaat?"
+      ],
+      "syllables": [
+        ["O,", "gij", "ver-", "ga-", "de-", "ring,", "ge-", "ze-", "ten"],
+        ["Om", "recht", "te", "doen,", "spreekt", "gij", "het", "recht?"],
+        ["Wordt", "al-", "les", "bil-", "lijk", "aan-", "ge-", "legd;"],
+        ["Kwijt", "ie-", "der", "zich", "naar", "zijn", "ge-", "we-", "ten;"],
+        ["En", "von-", "nist", "gij", "wel", "in-", "der-", "daad,"],
+        ["Zo-", "als", "met", "recht", "en", "wet", "be-", "staat?"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Neen; gij smeedt ongerechtigheden",
+        "In ’t harte, dat van boosheid zwelt.",
+        "Gij weet op aard’ uw snood geweld,",
+        "In schijn van billijkheid en reden.",
+        "Godd’ lozen zijn van God vervreemd,",
+        "Zo ras hun leven aanvang neemt."
+      ],
+      "syllables": [
+        ["Neen;", "gij", "smeedt", "on-", "ge-", "rech-", "tig-", "he-", "den"],
+        ["In", "’t har-", "te,", "dat", "van", "boos-", "heid", "zwelt."],
+        ["Gij", "weet", "op", "aard’", "uw", "snood", "ge-", "weld,"],
+        ["In", "schijn", "van", "bil-", "lijk-", "heid", "en", "re-", "den."],
+        ["God-", "d’lo-", "zen", "zijn", "van", "God", "ver-", "vreemd,"],
+        ["Zo", "ras", "hun", "le-", "ven", "aan-", "vang", "neemt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "De boze leugensprekers dolen,",
+        "Van ’t uur, dat zij geboren zijn;",
+        "In hart en mond ligt heet venijn,",
+        "Als in een vuurge slang, verscholen.",
+        "Zij geven ’t goede nooit gehoor,",
+        "Maar stoppen, als een adder, ’t oor."
+      ],
+      "syllables": [
+        ["De", "bo-", "ze", "leu-", "gen-", "spre-", "kers", "do-", "len,"],
+        ["Van", "’t uur,", "dat", "zij", "ge-", "bo-", "ren", "zijn;"],
+        ["In", "hart", "en", "mond", "ligt", "heet", "ve-", "nijn,"],
+        ["Als", "in", "een", "vuur-", "ge", "slang,", "ver-", "scho-", "len."],
+        ["Zij", "ge-", "ven", "’t goe-", "de", "nooit", "ge-", "hoor,"],
+        ["Maar", "stop-", "pen,", "als", "een", "ad-", "der,", "’t oor."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gelijk zich die niet laat bezweren,",
+        "Zo willen dezen niet verstaan,",
+        "Verbreek hun tanden, laat voortaan,",
+        "O God, Uw arm hun kracht vernêren.",
+        "Breek jonge leeuwen, heet op buit,",
+        "O HEER’, de wrede tanden uit."
+      ],
+      "syllables": [
+        ["Ge-", "lijk", "zich", "die", "niet", "laat", "be-", "zwe-", "ren,"],
+        ["Zo", "wil-", "len", "de-", "zen", "niet", "ver-", "staan,"],
+        ["Ver-", "breek", "hun", "tan-", "den,", "laat", "voort-", "aan,"],
+        ["O", "God,", "Uw", "arm", "hun", "kracht", "ver-", "nê-", "ren."],
+        ["Breek", "jon-", "ge", "leeu-", "wen,", "heet", "op", "buit,"],
+        ["O", "HEER’,", "de", "wre-", "de", "tan-", "den", "uit."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Smelt hen tot water, laat ze drijven;",
+        "En maak hun pijlen, waar zij boos",
+        "Mee mikken, stomp en krachteloos.",
+        "Laat toch Uw arm hun boog niet stijven,",
+        "Doe hen, in armoe en gebrek",
+        "Vergaan, versmelten, als een slek."
+      ],
+      "syllables": [
+        ["Smelt", "hen", "tot", "wa-", "ter,", "laat", "ze", "drij-", "ven;"],
+        ["En", "maak", "hun", "pij-", "len,", "waar", "zij", "boos"],
+        ["Mee", "mik-", "ken,", "stomp", "en", "krach-", "te-", "loos."],
+        ["Laat", "toch", "Uw", "arm", "hun", "boog", "niet", "stij-", "ven,"],
+        ["Doe", "hen,", "in", "ar-", "moe", "en", "ge-", "brek"],
+        ["Ver-", "gaan,", "ver-", "smel-", "ten,", "als", "een", "slek."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Och, laat hen in hun kwaad niet groeien,",
+        "Maar doe hen als een misdracht zijn.",
+        "Dat nooit de zon hun oog beschijn’.",
+        "Eer dan uw potten zullen gloeien",
+        "Van ’t doornenvuur, stormt Hij gezwind",
+        "Hen weg, als in een wervelwind."
+      ],
+      "syllables": [
+        ["Och,", "laat", "hen", "in", "hun", "kwaad", "niet", "groei-", "en,"],
+        ["Maar", "doe", "hen", "als", "een", "mis-", "dracht", "zijn."],
+        ["Dat", "nooit", "de", "zon", "hun", "oog", "be-", "schijn’."],
+        ["Eer", "dan", "uw", "pot-", "ten", "zul-", "len", "gloei-", "en"],
+        ["Van", "’t door-", "nen-", "vuur,", "stormt", "Hij", "ge-", "zwind"],
+        ["Hen", "weg,", "als", "in", "een", "wer-", "vel-", "wind."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "’t Rechtvaardig volk, gered uit lijden,",
+        "Zal eens, wanneer ’t de wraak aanschouwt,",
+        "In God, Wien ’t zich had toevertrouwd,",
+        "En in Zijn waarheid zich verblijden;",
+        "’t Zal zijne voeten, welgemoed,",
+        "Zelfs wassen in derbozen bloed."
+      ],
+      "syllables": [
+        ["’t Recht-", "vaar-", "dig", "volk,", "ge-", "red", "uit", "lij-", "den,"],
+        ["Zal", "eens,", "wan-", "neer", "’t de", "wraak", "aan-", "schouwt,"],
+        ["In", "God,", "Wien", "’t zich", "had", "toe-", "ver-", "trouwd,"],
+        ["En", "in", "Zijn", "waar-", "heid", "zich", "ver-", "blij-", "den;"],
+        ["’t Zal", "zij-", "ne", "voe-", "ten,", "wel-", "ge-", "moed,"],
+        ["Zelfs", "was-", "sen", "in", "der-", "bo-", "zen", "bloed."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "De mens zal eerlang vrolijk zeggen:",
+        "„Gewis, de deugd geniet haar vrucht;",
+        "Gods grootheid wordt terecht geducht,",
+        "Die loon en straf weet toe te leggen.",
+        "Gewis, daar is een God, die leeft,",
+        "En op deez’ aarde vonnis geeft.”"
+      ],
+      "syllables": [
+        ["De", "mens", "zal", "eer-", "lang", "vro-", "lijk", "zeg-", "gen:"],
+        ["„Ge-", "wis,", "de", "deugd", "ge-", "niet", "haar", "vrucht;"],
+        ["Gods", "groot-", "heid", "wordt", "te-", "recht", "ge-", "ducht,"],
+        ["Die", "loon", "en", "straf", "weet", "toe", "te", "leg-", "gen."],
+        ["Ge-", "wis,", "daar", "is", "een", "God,", "die", "leeft,"],
+        ["En", "op", "dee-", "z-", "’aarde", "von-", "nis", "geeft.”"]
+      ]
+    }
+  ]
+}

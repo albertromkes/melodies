@@ -51,33 +51,51 @@ function fixCompoundSyllables(syllables) {
 // Fix hypher's issue with words starting with vowel-consonant-vowel pattern
 // Words like "ogen", "open", "even", "Uwe" should be split as "o-gen", "o-pen", "e-ven", "U-we"
 // Hypher doesn't split these correctly
+// Also handles accented vowels like â, ê, ô, etc.
+const VOWELS = 'aeiouAEIOUàáâãäåèéêëìíîïòóôõöùúûüÀÁÂÃÄÅÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜ';
+const VOWEL_REGEX = `[${VOWELS}]`;
+
 function fixVowelConsonantVowel(word, syllables) {
-  // Only fix if hypher returned the word unsplit (1 syllable)
-  if (syllables.length !== 1) return syllables;
-  
-  const syl = syllables[0];
-  
-  // Skip proper nouns (capital letter after first char usually indicates proper noun)
-  // But allow words that are ALL caps (like HEER)
-  // Only apply this check for longer words (4+ chars) - very short words like "Uwe" (3 chars, formal pronoun)
-  // are not proper nouns even when capitalized
-  if (syl.length >= 4 && syl[0] === syl[0].toUpperCase() && syl[1] === syl[1].toLowerCase()) {
-    // This looks like a proper noun (e.g., "Adams", "Eden"), don't split
-    // Check if the rest of the word is lowercase
-    const rest = syl.slice(1);
-    if (rest === rest.toLowerCase()) {
-      return syllables;
+  // Handle single-syllable words (hypher didn't split)
+  if (syllables.length === 1) {
+    const syl = syllables[0];
+    
+    // Skip proper nouns (capital letter after first char usually indicates proper noun)
+    // But allow words that are ALL caps (like HEER)
+    // Only apply this check for longer words (5+ chars) - short words like "Over", "Uwe", "Ogen"
+    // are common words that happen to be capitalized at start of sentence
+    if (syl.length >= 5 && syl[0] === syl[0].toUpperCase() && syl[1] === syl[1].toLowerCase()) {
+      // This looks like a proper noun (e.g., "Adams", "Eden"), don't split
+      // Check if the rest of the word is lowercase
+      const rest = syl.slice(1);
+      if (rest === rest.toLowerCase()) {
+        return syllables;
+      }
     }
+    
+    // Check if word matches pattern: vowel + consonant(s) + vowel (+ optional more letters)
+    // Pattern: starts with vowel, then consonant(s), then vowel with optional chars after
+    // Include 'ij' as a Dutch vowel combination
+    const vowelPattern = new RegExp(`^([${VOWELS}]|[iI][jJ])([bcdfghjklmnpqrstvwxz]+)([${VOWELS}].*|[iI][jJ].*)$`, 'i');
+    const match = syl.match(vowelPattern);
+    
+    if (match) {
+      // Split after the first vowel: "ogen" -> ["o", "gen"], "Uwe" -> ["U", "we"]
+      return [match[1], match[2] + match[3]];
+    }
+    
+    return syllables;
   }
   
-  // Check if word matches pattern: vowel + consonant(s) + vowel (+ optional more letters)
-  // Pattern: starts with vowel, then consonant(s), then vowel with optional chars after
-  // Include 'ij' as a Dutch vowel combination
-  const match = syl.match(/^([aeiouAEIOU]|[iI][jJ])([bcdfghjklmnpqrstvwxz]+)([aeiouAEIOU].*|[iI][jJ].*)$/i);
+  // Handle multi-syllable words where the first syllable starts with VCV pattern
+  // e.g., "over-go-ten" -> first syllable "over" should be split to "o-ver"
+  const firstSyl = syllables[0];
+  const vowelPattern = new RegExp(`^([${VOWELS}])([bcdfghjklmnpqrstvwxz]+)([${VOWELS}].*)$`, 'i');
+  const match = firstSyl.match(vowelPattern);
   
   if (match) {
-    // Split after the first vowel: "ogen" -> ["o", "gen"], "Uwe" -> ["U", "we"]
-    return [match[1], match[2] + match[3]];
+    // Split the first syllable: "over" -> ["o", "ver"]
+    return [match[1], match[2] + match[3], ...syllables.slice(1)];
   }
   
   return syllables;
@@ -85,11 +103,20 @@ function fixVowelConsonantVowel(word, syllables) {
 
 // Fix words ending in common suffixes that hypher doesn't split
 // e.g., "fijnste" -> ["fijn", "ste"], "grootste" -> ["groot", "ste"]
+// Also handles short CVCV words with accented vowels like "Genâ" -> ["Ge", "nâ"]
 function fixUnsplitSuffixes(word, syllables) {
   // Only fix if hypher returned the word unsplit (1 syllable)
   if (syllables.length !== 1) return syllables;
   
   const syl = syllables[0];
+  
+  // Handle short CVCV words with accented vowels (e.g., "Genâ" -> "Ge-nâ")
+  // Pattern: consonant + vowel + consonant + accented vowel (+ optional chars)
+  const cvcvPattern = new RegExp(`^([bcdfghjklmnpqrstvwxzBCDFGHJKLMNPQRSTVWXZ][${VOWELS}])([bcdfghjklmnpqrstvwxz][${VOWELS}].*)$`);
+  const cvcvMatch = syl.match(cvcvPattern);
+  if (cvcvMatch) {
+    return [cvcvMatch[1], cvcvMatch[2]];
+  }
   
   // Common Dutch suffixes that should be split
   // -ste (superlative), -heid, -lijk, -nis, -ing, -sel, etc.

@@ -1,0 +1,316 @@
+{
+  "id": "psalm-045",
+  "number": 45,
+  "title": "Psalm 45",
+  "category": "psalm",
+  "mode": "dorisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["e/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Mijn hart, vervuld met heilbespiegelingen,",
+        "Zal ’t schoonste lied van enen Koning zingen,",
+        "Terwijl de Geest mijn gladde tonge drijft,",
+        "Is z’als de pen van een, die vaardig schrijft.",
+        "Bemin’lijk Vorst, uw schoonheid hoog te loven,",
+        "Gaat al het schoon dermensen verte boven;",
+        "Genâ is op uw lippen uitgestort,",
+        "Dies G’eeuwig’lijk van God gezegend wordt."
+      ],
+      "syllables": [
+        ["Mijn", "hart,", "ver-", "vuld", "met", "heil-", "be-", "spie-", "ge-", "lin-", "gen,"],
+        ["Zal", "’t schoon-", "ste", "lied", "van", "e-", "nen", "Ko-", "ning", "zin-", "gen,"],
+        ["Ter-", "wijl", "de", "Geest", "mijn", "glad-", "de", "ton-", "ge", "drijft,"],
+        ["Is", "z’als", "de", "pen", "van", "een,", "die", "vaar-", "dig", "schrijft."],
+        ["Be-", "min-", "’lijk", "Vorst,", "uw", "schoon-", "heid", "hoog", "te", "lo-", "ven,"],
+        ["Gaat", "al", "het", "schoon", "der-", "men-", "sen", "ver-", "te", "bo-", "ven;"],
+        ["Ge-", "nâ", "is", "op", "uw", "lip-", "pen", "uit-", "ge-", "stort,"],
+        ["Dies", "G-", "’eeu-", "wig-", "’lijk", "van", "God", "ge-", "ze-", "gend", "wordt."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Gord, gord, o Held, uw zwaard aan uwe zijde,",
+        "Uw blinkend zwaard, zo scherp gewet ten strijde.",
+        "Vertoon uw glans, vertoon uw majesteit;",
+        "Rijd zegenrijk in uwe heerlijkheid",
+        "Op ’t zuiv’re woord derwaarheid; rijd voorspoedig,",
+        "En heers alom rechtvaardig en zachtmoedig;",
+        "Uw rechterhand zal ’t Godd’ lijk rijk behoen,",
+        "En in den krijg geduchte daden doen."
+      ],
+      "syllables": [
+        ["Gord,", "gord,", "o", "Held,", "uw", "zwaard", "aan", "u-", "we", "zij-", "de,"],
+        ["Uw", "blin-", "kend", "zwaard,", "zo", "scherp", "ge-", "wet", "ten", "strij-", "de."],
+        ["ver-", "toon", "uw", "glans,", "ver-", "toon", "uw", "ma-", "jes-", "teit;"],
+        ["Rijd", "ze-", "gen-", "rijk", "in", "u-", "we", "heer-", "lijk-", "heid"],
+        ["Op", "’t zuiv-", "’re", "woord", "der-", "waar-", "heid;", "rijd", "voor-", "spoe-", "dig,"],
+        ["En", "heers", "al-", "om", "recht-", "vaar-", "dig", "en", "zacht-", "moe-", "dig;"],
+        ["Uw", "rech-", "ter-", "hand", "zal", "’t God-", "d’lijk", "rijk", "be-", "hoen,"],
+        ["En", "in", "den", "krijg", "ge-", "duch-", "te", "da-", "den", "doen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Uw pijlen, fel van uwen boog gedreven,",
+        "Zijn scherp, en doen gehele volken beven;",
+        "Zij vellen neer wat uw vermogen tart,",
+        "En dringen diep in ’s vijands wreev’lig hart.",
+        "Gij zult, o God, in eeuwigheid bekleden,",
+        "Den vasten troon van uw gerechtigheden.",
+        "De rijksstaf, dien uw hoge Majesteit",
+        "In ’t Godsrijk zwaait, heerst met rechtmatigheid."
+      ],
+      "syllables": [
+        ["Uw", "pij-", "len,", "fel", "van", "u-", "wen", "boog", "ge-", "dre-", "ven,"],
+        ["Zijn", "scherp,", "en", "doen", "ge-", "he-", "le", "vol-", "ken", "be-", "ven;"],
+        ["Zij", "vel-", "len", "neer", "wat", "uw", "ver-", "mo-", "gen", "tart,"],
+        ["En", "drin-", "gen", "diep", "in", "’s vij-", "ands", "wreev-", "’lig", "hart."],
+        ["Gij", "zult,", "o", "God,", "in", "eeu-", "wig-", "heid", "be-", "kle-", "den,"],
+        ["Den", "vas-", "ten", "troon", "van", "uw", "ge-", "rech-", "tig-", "he-", "den."],
+        ["De", "rijks-", "staf,", "dien", "uw", "ho-", "ge", "Ma-", "jes-", "teit"],
+        ["In", "’t Gods-", "rijk", "zwaait,", "heerst", "met", "recht-", "ma-", "tig-", "heid."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "O God, uw God heeft mild U overgoten;",
+        "Met vreugdezalf, meer dan uw meegenoten,",
+        "Omdat Uw ziel de goddeloosheid haat,",
+        "En ’t recht bemint. Uw vorst’lijk rijksgewaad",
+        "U toegevoerd uit elpenbenen hoven,",
+        "Vol eed’ len geur, doet elk uw hoogheid loven.",
+        "Hoe ruikt de mirr’ en kassie wijd en zijd,",
+        "En d’ aloë, wier geur uw ziel verblijdt!"
+      ],
+      "syllables": [
+        ["O", "God,", "uw", "God", "heeft", "mild", "U", "o-", "ver-", "go-", "ten;"],
+        ["Met", "vreug-", "de-", "zalf,", "meer", "dan", "uw", "mee-", "ge-", "no-", "ten,"],
+        ["Om-", "dat", "Uw", "ziel", "de", "god-", "de-", "loos-", "heid", "haat,"],
+        ["En", "’t recht", "be-", "mint.", "Uw", "vorst-", "’lijk", "rijks-", "ge-", "waad"],
+        ["U", "toe-", "ge-", "voerd", "uit", "el-", "pen-", "be-", "nen", "ho-", "ven,"],
+        ["Vol", "eed’", "len", "geur,", "doet", "elk", "uw", "hoog-", "heid", "lo-", "ven."],
+        ["Hoe", "ruikt", "de", "mirr’", "en", "kas-", "sie", "wijd", "en", "zijd,"],
+        ["En", "d’a-", "lo-"," ë,", "wier", "geur", "uw", "ziel", "ver-", "blijdt!"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Men ziet u blij, in statelijke reien,",
+        "Door docht’ren zelfs van koningen geleien.",
+        "De koningin staat aan uw rechterhand",
+        "In ’t fijnste goud van Ofirs mijnrijk land.",
+        "O Dochter, hoor, en zie, en neig uw oren;",
+        "Verlaat, vergeet, wat ooit u kon bekoren,",
+        "Uws vaders huis, uw volk, en wat voorheen",
+        "U dierbaar en beminnenswaardig scheen."
+      ],
+      "syllables": [
+        ["Men", "ziet", "u", "blij,", "in", "sta-", "te-", "lij-", "ke", "rei-", "en,"],
+        ["Door", "docht-", "’ren", "zelfs", "van", "ko-", "nin-", "gen", "ge-", "lei-", "en."],
+        ["De", "ko-", "nin-", "gin", "staat", "aan", "uw", "rech-", "ter-", "hand"],
+        ["In", "’t fijn-", "ste", "goud", "van", "O-", "firs", "mijn-", "rijk", "land."],
+        ["O", "Doch-", "ter,", "hoor,", "en", "zie,", "en", "neig", "uw", "o-", "ren;"],
+        ["Ver-", "laat,", "ver-", "geet,", "wat", "ooit", "u", "kon", "be-", "ko-", "ren,"],
+        ["Uws", "va-", "ders", "huis,", "uw", "volk,", "en", "wat", "voor-", "heen"],
+        ["U", "dier-", "baar", "en", "be-", "min-", "nens-", "waar-", "dig", "scheen."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Dan zal de Vorst van al uw schoon getuigen.",
+        "Hij is uw Heer’, dies moet g’u voor Hem buigen.",
+        "’k Zie Tyrus dan, die rijke wereldstad,",
+        "U hulde doen en off’ren schat op schat.",
+        "De Koningstelg, die Hij zijn bruid wil noemen,",
+        "Is meest om haar inwendig schoon te roemen.",
+        "’t Borduursel is, naar vorstelijken staat,",
+        "Van louter goud gewerkt in ’t praalgewaad."
+      ],
+      "syllables": [
+        ["Dan", "zal", "de", "Vorst", "van", "al", "uw", "schoon", "ge-", "tui-", "gen."],
+        ["Hij", "is", "uw", "Heer’,", "dies", "moet", "g’u", "voor", "Hem", "bui-", "gen."],
+        ["’k -", "Zie", "Tyrus", "dan,", "die", "rij-", "ke", "we-", "reld-", "stad,"],
+        ["U", "hul-", "de", "doen", "en", "off-", "’ren", "schat", "op", "schat."],
+        ["De", "Ko-", "ning-", "stelg,", "die", "Hij", "zijn", "bruid", "wil", "noe-", "men,"],
+        ["Is", "meest", "om", "haar", "in-", "wen-", "dig", "schoon", "te", "roe-", "men."],
+        ["’t Bor-", "duur-", "sel", "is,", "naar", "vor-", "ste-", "lij-", "ken", "staat,"],
+        ["Van", "lou-", "ter", "goud", "ge-", "werkt", "in", "’t praal-", "ge-", "waad."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Straks leidt men haar in statie, uit haar woning,",
+        "In kleding, rijk gestikt, tot haren Koning;",
+        "Zo treedt zij voort met al den maagdenstoet,",
+        "Die haar verzelt, U vrolijk tegemoet.",
+        "Zij zullen blij, geleid met lofgezangen,",
+        "De vreugde voên, die afstraalt van haar wangen.",
+        "Tot zij, waar elk gewaagt van haren lof,",
+        "Terbruiloft treên in ’t koninklijke hof."
+      ],
+      "syllables": [
+        ["Straks", "leidt", "men", "haar", "in", "sta-", "tie,", "uit", "haar", "wo-", "ning,"],
+        ["In", "kle-", "ding,", "rijk", "ge-", "stikt,", "tot", "ha-", "ren", "Ko-", "ning;"],
+        ["Zo", "treedt", "zij", "voort", "met", "al", "den", "maag-", "den-", "stoet,"],
+        ["Die", "haar", "ver-", "zelt,", "U", "vro-", "lijk", "te-", "ge-", "moet."],
+        ["Zij", "zul-", "len", "blij,", "ge-", "leid", "met", "lof-", "ge-", "zan-", "gen,"],
+        ["De", "vreug-", "de", "voên,", "die", "af-", "straalt", "van", "haar", "wan-", "gen."],
+        ["Tot", "zij,", "waar", "elk", "ge-", "waagt", "van", "ha-", "ren", "lof,"],
+        ["Ter-", "brui-", "loft", "treên", "in", "’t ko-", "nink-", "lij-", "ke", "hof."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "In plaats van uw doorlucht, en vrome vaad’ ren",
+        "Zult Gij eerlang uw zonen zien vergaad’ ren,",
+        "En stellen hen, door uw geduchte hand,",
+        "Al ’t aardrijk door, in vorstelijken stand.",
+        "Ik zal uw naam bij elk geslacht doen kennen,",
+        "Van kind tot kind zal ’t zich aan U gewennen.",
+        "Zo rolt Uw lof op ’t ruime wereldrond",
+        "In eeuwigheid uit aller volk’ren mond."
+      ],
+      "syllables": [
+        ["In", "plaats", "van", "uw", "door-", "lucht,", "en", "vro-", "me", "vaad’", "ren"],
+        ["Zult", "Gij", "eer-", "lang", "uw", "zo-", "nen", "zien", "ver-", "gaad’", "ren,"],
+        ["En", "stel-", "len", "hen,", "door", "uw", "ge-", "duch-", "te", "hand,"],
+        ["Al", "’t aard-", "rijk", "door,", "in", "vor-", "ste-", "lij-", "ken", "stand."],
+        ["Ik", "zal", "uw", "naam", "bij", "elk", "ge-", "slacht", "doen", "ken-", "nen,"],
+        ["Van", "kind", "tot", "kind", "zal", "’t zich", "aan", "U", "ge-", "wen-", "nen."],
+        ["Zo", "rolt", "Uw", "lof", "op", "’t rui-", "me", "we-", "reld-", "rond"],
+        ["In", "eeu-", "wig-", "heid", "uit", "al-", "ler", "volk-", "’ren", "mond."]
+      ]
+    }
+  ]
+}

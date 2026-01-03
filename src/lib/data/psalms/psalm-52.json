@@ -1,0 +1,217 @@
+{
+  "id": "psalm-052",
+  "number": 52,
+  "title": "Psalm 52",
+  "category": "psalm",
+  "mode": "lydisch (Genève 1554 / Genève 1562)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Waartoe u dus beroemd in ’t kwade,",
+        "Vermeet’le dwingeland?",
+        "Ik steun gerust op Gods genade,",
+        "En trouwen onderstand;",
+        "Zijn goedheid duurt den gansen dag;",
+        "Zijn almacht wekt ontzag."
+      ],
+      "syllables": [
+        ["Waar-", "toe", "u", "dus", "be-", "roemd", "in", "’t kwa-", "de,"],
+        ["Ver-", "meet-", "’le", "dwin-", "ge-", "land?"],
+        ["Ik", "steun", "ge-", "rust", "op", "Gods", "ge-", "na-", "de,"],
+        ["En", "trou-", "wen", "on-", "der-", "stand;"],
+        ["Zijn", "goed-", "heid", "duurt", "den", "gan-", "sen", "dag;"],
+        ["Zijn", "al-", "macht", "wekt", "ont-", "zag."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uw tong, die toelegt om te schaden,",
+        "En als een scheermes snijdt,",
+        "Durft zich met snood bedrog beraden,",
+        "Uit bitt’ren wrok en nijd.",
+        "Gij mint het onrecht; haat de deugd;",
+        "De logen baart u vreugd’."
+      ],
+      "syllables": [
+        ["Uw", "tong,", "die", "toe-", "legt", "om", "te", "scha-", "den,"],
+        ["En", "als", "een", "scheer-", "mes", "snijdt,"],
+        ["Durft", "zich", "met", "snood", "be-", "drog", "be-", "ra-", "den,"],
+        ["Uit", "bitt-", "’ren", "wrok", "en", "nijd."],
+        ["Gij", "mint", "het", "on-", "recht;", "haat", "de", "deugd;"],
+        ["De", "lo-", "gen", "baart", "u", "vreugd’."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gij grieft mij door uw schamp’re woorden,",
+        "Door taal, die mij verbaast.",
+        "Gij tracht mij door uw tong te moorden;",
+        "Maar beef; gij wordt welhaast",
+        "Door God, die uw gedrag verfoeit,",
+        "Voor eeuwig uitgeroeid."
+      ],
+      "syllables": [
+        ["Gij", "grieft", "mij", "door", "uw", "schamp-", "’re", "woor-", "den,"],
+        ["Door", "taal,", "die", "mij", "ver-", "baast."],
+        ["Gij", "tracht", "mij", "door", "uw", "tong", "te", "moor-", "den;"],
+        ["Maar", "beef;", "gij", "wordt", "wel-", "haast"],
+        ["Door", "God,", "die", "uw", "ge-", "drag", "ver-", "foeit,"],
+        ["Voor", "eeu-", "wig", "uit-", "ge-", "roeid."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "God zal u voor Zijn wraak doen bukken,",
+        "En door Zijn sterke hand,",
+        "U uit uw tent en schuilplaats rukken;",
+        "Ontwort’len uit uw stand.",
+        "De vromen zullen, vrij van nood,",
+        "Dan lachen om uw dood."
+      ],
+      "syllables": [
+        ["God", "zal", "u", "voor", "Zijn", "wraak", "doen", "buk-", "ken,"],
+        ["En", "door", "Zijn", "ster-", "ke", "hand,"],
+        ["U", "uit", "uw", "tent", "en", "schuil-", "plaats", "ruk-", "ken;"],
+        ["Ont-", "wort-", "’len", "uit", "uw", "stand."],
+        ["De", "vro-", "men", "zul-", "len,", "vrij", "van", "nood,"],
+        ["Dan", "la-", "chen", "om", "uw", "dood."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "„Zie”, zal men zeggen, „zie den dwaze,",
+        "Die, op zijn rijkdom stout,",
+        "Ons wilde door zijn macht verbazen,",
+        "Op God niet heeft vertrouwd;",
+        "Zijn sterkte kreeg hij door geweld.",
+        "Nu ligt hij neergeveld.”"
+      ],
+      "syllables": [
+        ["„Zie”,", "zal", "men", "zeg-", "gen,", "„zie", "den", "dwa-", "ze,"],
+        ["Die,", "op", "zijn", "rijk-", "dom", "stout,"],
+        ["Ons", "wil-", "de", "door", "zijn", "macht", "ver-", "ba-", "zen,"],
+        ["Op", "God", "niet", "heeft", "ver-", "trouwd;"],
+        ["Zijn", "sterk-", "te", "kreeg", "hij", "door", "ge-", "weld."],
+        ["Nu", "ligt", "hij", "neer-", "ge-", "veld.”"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Maar ik zal als d’ olijfboom groeien,",
+        "In ’t huis desgroten Gods;",
+        "Ik zal in eer en godsvrucht bloeien.",
+        "God is mijn steun en rots;",
+        "Op Zijne gunst, mij toegezeid,",
+        "Vertrouw ’k in eeuwigheid."
+      ],
+      "syllables": [
+        ["Maar", "ik", "zal", "als", "d’o-", "lijf-", "boom", "groei-", "en,"],
+        ["In", "’t huis", "des-", "gro-", "ten", "Gods;"],
+        ["Ik", "zal", "in", "eer", "en", "gods-", "vrucht", "bloei-", "en."],
+        ["God", "is", "mijn", "steun", "en", "rots;"],
+        ["Op", "Zij-", "ne", "gunst,", "mij", "toe-", "ge-", "zeid,"],
+        ["Ver-", "trouw", "’k in", "eeu-", "wig-", "heid."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Mijn God, U zal ik eeuwig loven,",
+        "Omdat Gij ’t hebt gedaan.",
+        "’k Verwacht Uw trouwe hulp van boven;",
+        "Uw waarheid zal bestaan.",
+        "Uw Naam is voor ’t oprecht gemoed,",
+        "Van al Uw gunstvolk goed."
+      ],
+      "syllables": [
+        ["Mijn", "God,", "U", "zal", "ik", "eeu-", "wig", "lo-", "ven,"],
+        ["Om-", "dat", "Gij", "’t hebt", "ge-", "daan."],
+        ["’k Ver-", "wacht", "Uw", "trou-", "we", "hulp", "van", "bo-", "ven;"],
+        ["Uw", "waar-", "heid", "zal", "be-", "staan."],
+        ["Uw", "Naam", "is", "voor", "’t op-", "recht", "ge-", "moed,"],
+        ["Van", "al", "Uw", "gunst-", "volk", "goed."]
+      ]
+    }
+  ]
+}

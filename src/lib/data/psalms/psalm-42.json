@@ -1,0 +1,269 @@
+{
+  "id": "psalm-042",
+  "number": 42,
+  "title": "Psalm 42",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Bourgois 1551)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["c/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "’t Hijgend hert, derjacht ontkomen,",
+        "Schreeuwt niet sterker naar ’t genot",
+        "Van de frisse waterstromen,",
+        "Dan mijn ziel verlangt naar God.",
+        "Ja, mijn ziel dorst naar den HEER’;",
+        "God deslevens, ach, wanneer",
+        "Zal ik naad’ ren voor Uw ogen,",
+        "In Uw huis Uw Naam verhogen?"
+      ],
+      "syllables": [
+        ["’t Hij-", "gend", "hert,", "der-", "jacht", "ont-", "ko-", "men,"],
+        ["Schreeuwt", "niet", "ster-", "ker", "naar", "’t ge-", "not"],
+        ["Van", "de", "fris-", "se", "wa-", "ter-", "stro-", "men,"],
+        ["Dan", "mijn", "ziel", "ver-", "langt", "naar", "God."],
+        ["Ja,", "mijn", "ziel", "dorst", "naar", "den", "HEER’;"],
+        ["God", "de-", "sle-", "vens,", "ach,", "wan-", "neer"],
+        ["Zal", "ik", "naad’", "ren", "voor", "Uw", "o-", "gen,"],
+        ["In", "Uw", "huis", "Uw", "Naam", "ver-", "ho-", "gen?"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "’k Heb mijn tranen, onder ’t klagen,",
+        "Tot mijn spijze, dag en nacht;",
+        "Daar mij spotters durven vragen;",
+        "„Waar is God, dien gij verwacht?”,",
+        "Mijn benauwde ziel versmelt,",
+        "Als zij zich voor ogen stelt,",
+        "Hoe ik onder stem en snaren,",
+        "Feest hield met Gods blijde scharen."
+      ],
+      "syllables": [
+        ["’k Heb", "mijn", "tra-", "nen,", "on-", "der", "’t kla-", "gen,"],
+        ["Tot", "mijn", "spij-", "ze,", "dag", "en", "nacht;"],
+        ["Daar", "mij", "spot-", "ters", "dur-", "ven", "vra-", "gen;"],
+        ["„Waar", "is", "God,", "dien", "gij", "ver-", "wacht?”,"],
+        ["Mijn", "be-", "nauw-", "de", "ziel", "ver-", "smelt,"],
+        ["Als", "zij", "zich", "voor", "o-", "gen", "stelt,"],
+        ["Hoe", "ik", "on-", "der", "stem", "en", "sna-", "ren,"],
+        ["Feest", "hield", "met", "Gods", "blij-", "de", "scha-", "ren."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "O mijn ziel, wat buigt g’u neder?",
+        "Waartoe zijt g’in mij ontrust?",
+        "Voed het oud vertrouwen weder;",
+        "Zoek in ’s Hoogsten lof uw lust;",
+        "Want Gods goedheid zal uw druk",
+        "Eens verwisslen in geluk.",
+        "Hoop op God, sla ’t oog naar boven;",
+        "Want ik zal Zijn Naam nog loven."
+      ],
+      "syllables": [
+        ["O", "mijn", "ziel,", "wat", "buigt", "g’u", "ne-", "der?"],
+        ["Waar-", "toe", "zijt", "g’in", "mij", "ont-", "rust?"],
+        ["Voed", "het", "oud", "ver-", "trou-", "wen", "we-", "der;"],
+        ["Zoek", "in", "’s Hoog-", "sten", "lof", "uw", "lust;"],
+        ["Want", "Gods", "goed-", "heid", "zal", "uw", "druk"],
+        ["Eens", "ver-", "wis-", "slen", "in", "ge-", "luk."],
+        ["Hoop", "op", "God,", "sla", "’t oog", "naar", "bo-", "ven;"],
+        ["Want", "ik", "zal", "Zijn", "Naam", "nog", "lo-", "ven."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’k Denk aan U, o God, in ’t klagen,",
+        "Uit de landstreek der Jordaan.",
+        "Van mijn leed doe ’k Hermon wagen;",
+        "’k Roep van ’t klein gebergt’ U aan.",
+        "’k Zucht, daar kolk en afgrond loeit,",
+        "Daar ’t gedruis derwaat’ren groeit,",
+        "Daar Uw golven, daar Uw baren",
+        "Mijn benauwde ziel vervaren."
+      ],
+      "syllables": [
+        ["’k Denk", "aan", "U,", "o", "God,", "in", "’t kla-", "gen,"],
+        ["Uit", "de", "land-", "streek", "der", "Jor-", "daan."],
+        ["Van", "mijn", "leed", "doe", "’k Her-", "mon", "wa-", "gen;"],
+        ["’k Roep", "van", "’t klein", "ge-", "bergt’", "U", "aan."],
+        ["’k Zucht,", "daar", "kolk", "en", "af-", "grond", "loeit,"],
+        ["Daar", "’t ge-", "druis", "der-", "waat-", "’ren", "groeit,"],
+        ["Daar", "Uw", "gol-", "ven,", "daar", "Uw", "ba-", "ren"],
+        ["Mijn", "be-", "nauw-", "de", "ziel", "ver-", "va-", "ren."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Maar de HEER’ zal uitkomst geven,",
+        "Hij, die ’s daags Zijn gunst gebiedt.",
+        "’k Zal in dit vertrouwen leven,",
+        "En dat melden in mijn lied;",
+        "’k Zal Zijn lof zelfs in den nacht",
+        "Zingen, daar ik Hem verwacht;",
+        "En mijn hart, wat mij moog’ treffen,",
+        "Tot den God mijns levens heffen."
+      ],
+      "syllables": [
+        ["Maar", "de", "HEER’", "zal", "uit-", "komst", "ge-", "ven,"],
+        ["Hij,", "die", "’s daags", "Zijn", "gunst", "ge-", "biedt."],
+        ["’k Zal", "in", "dit", "ver-", "trou-", "wen", "le-", "ven,"],
+        ["En", "dat", "mel-", "den", "in", "mijn", "lied;"],
+        ["’k Zal", "Zijn", "lof", "zelfs", "in", "den", "nacht"],
+        ["Zin-", "gen,", "daar", "ik", "Hem", "ver-", "wacht;"],
+        ["En", "mijn", "hart,", "wat", "mij", "moog’", "tref-", "fen,"],
+        ["Tot", "den", "God", "mijns", "le-", "vens", "hef-", "fen."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "’k Zal tot God, mijn steenrots, spreken:",
+        "„Waarom, HEER’, vergeet Gij mij?",
+        "’k Ga in ’t zwart, door rouw bezweken,",
+        "Om mijns vijands dwinglandij,",
+        "Die mij hoont, mij ’t hart doorboort,",
+        "Dat gestaag deez’ lastring hoort:",
+        "Waar is God, op Wien gij bouwdet,",
+        "En aan Wien g’uw zaak vertrouwdet?”"
+      ],
+      "syllables": [
+        ["’k Zal", "tot", "God,", "mijn", "steen-", "rots,", "spre-", "ken:"],
+        ["„Waar-", "om,", "HEER’,", "ver-", "geet", "Gij", "mij?"],
+        ["’k Ga", "in", "’t zwart,", "door", "rouw", "be-", "zwe-", "ken,"],
+        ["Om", "mijns", "vij-", "ands", "dwing-", "lan-", "dij,"],
+        ["Die", "mij", "hoont,", "mij", "’t hart", "door-", "boort,"],
+        ["Dat", "ge-", "staag", "dee-", "z-", "’lastring", "hoort:"],
+        ["Waar", "is", "God,", "op", "Wien", "gij", "bouw-", "det,"],
+        ["En", "aan", "Wien", "g’uw", "zaak", "ver-", "trouw-", "det?”"]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "O mijn ziel, wat buigt g’u neder?",
+        "Waartoe zijt g’in mij ontrust?",
+        "Voed het oud vertrouwen weder;",
+        "Zoek in ’s Hoogsten lof uw lust;",
+        "Menigwerf heeft Hij uw druk",
+        "Doen verand’ ren in geluk;",
+        "Hoop op Hem, sla ’t oog naar boven.",
+        "Ik zal God, mijn God, nog loven."
+      ],
+      "syllables": [
+        ["O", "mijn", "ziel,", "wat", "buigt", "g’u", "ne-", "der?"],
+        ["Waar-", "toe", "zijt", "g’in", "mij", "ont-", "rust?"],
+        ["Voed", "het", "oud", "ver-", "trou-", "wen", "we-", "der;"],
+        ["Zoek", "in", "’s Hoog-", "sten", "lof", "uw", "lust;"],
+        ["Me-", "nig-", "werf", "heeft", "Hij", "uw", "druk"],
+        ["Doen", "ver-", "and’", "ren", "in", "ge-", "luk;"],
+        ["Hoop", "op", "Hem,", "sla", "’t oog", "naar", "bo-", "ven."],
+        ["Ik", "zal", "God,", "mijn", "God,", "nog", "lo-", "ven."]
+      ]
+    }
+  ]
+}
