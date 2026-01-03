@@ -1,0 +1,149 @@
+{
+  "id": "psalm-087",
+  "number": 87,
+  "title": "Psalm 87",
+  "category": "psalm",
+  "mode": "mixolydisch (Genève 1562)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Zijn grondslag, zijn onwrikb’re vastigheden",
+        "Heeft God gelegd op bergen, Hem gewijd;",
+        "De HEER’, die Zich in Sions heil verblijdt,",
+        "Bemint het meer dan alle Jakobs steden."
+      ],
+      "syllables": [
+        ["Zijn", "grond-", "slag,", "zijn", "on-", "wrikb-", "’re", "vas-", "tig-", "he-", "den"],
+        ["Heeft", "God", "ge-", "legd", "op", "ber-", "gen,", "Hem", "ge-", "wijd;"],
+        ["De", "HEER’,", "die", "Zich", "in", "Si-", "ons", "heil", "ver-", "blijdt,"],
+        ["Be-", "mint", "het", "meer", "dan", "al-", "le", "Ja-", "kobs", "ste-", "den."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Men spreekt van u zeer herelijke dingen,",
+        "O schone stad van Isrels Opperheer.",
+        "’k Zie Rahab, ik zie Babel, tot Uw eer,",
+        "Bij hen geteld, die mijne grootheid zingen."
+      ],
+      "syllables": [
+        ["Men", "spreekt", "van", "u", "zeer", "he-", "re-", "lij-", "ke", "din-", "gen,"],
+        ["O", "scho-", "ne", "stad", "van", "Is-", "rels", "Op-", "per-", "heer."],
+        ["’k Zie", "Ra-", "hab,", "ik", "zie", "Ba-", "bel,", "tot", "Uw", "eer,"],
+        ["Bij", "hen", "ge-", "teld,", "die", "mij-", "ne", "groot-", "heid", "zin-", "gen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "De Filistijn, de Tyriër, de Moren,",
+        "Zijn binnen u, o Godsstad, voortgebracht;",
+        "Van Sion zal het blijde nageslacht",
+        "Haast zeggen: „Deez’ en die is daar geboren”."
+      ],
+      "syllables": [
+        ["De", "Fi-", "lis-", "tijn,", "de", "Ty-", "ri-", "ër,", "de", "Mo-", "ren,"],
+        ["Zijn", "bin-", "nen", "u,", "o", "Gods-", "stad,", "voort-", "ge-", "bracht;"],
+        ["Van", "Si-", "on", "zal", "het", "blij-", "de", "na-", "ge-", "slacht"],
+        ["Haast", "zeg-", "gen:", "„Deez’", "en", "die", "is", "daar", "ge-", "bo-", "ren”."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "God zal hen zelf bevestigen en schragen,",
+        "En op Zijn rol, waar Hij de volken schrijft,",
+        "Hen tellen, als in Isrel ingelijfd,",
+        "En doen den naam van Sions kind’ ren dragen."
+      ],
+      "syllables": [
+        ["God", "zal", "hen", "zelf", "be-", "ves-", "ti-", "gen", "en", "schra-", "gen,"],
+        ["En", "op", "Zijn", "rol,", "waar", "Hij", "de", "vol-", "ken", "schrijft,"],
+        ["Hen", "tel-", "len,", "als", "in", "Is-", "rel", "in-", "ge-", "lijfd,"],
+        ["En", "doen", "den", "naam", "van", "Si-", "ons", "kind’", "ren", "dra-", "gen."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Dan wordt mijn naam met lofgejuich geprezen;",
+        "Dan zullen daar de blijde zangers staan,",
+        "De speellien op de harp en cimbel slaan,",
+        "En binnen u al mijn fonteinen wezen."
+      ],
+      "syllables": [
+        ["Dan", "wordt", "mijn", "naam", "met", "lof-", "ge-", "juich", "ge-", "pre-", "zen;"],
+        ["Dan", "zul-", "len", "daar", "de", "blij-", "de", "zan-", "gers", "staan,"],
+        ["De", "speel-", "lien", "op", "de", "harp", "en", "cim-", "bel", "slaan,"],
+        ["En", "bin-", "nen", "u", "al", "mijn", "fon-", "tei-", "nen", "we-", "zen."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "id": "psalm-079",
+  "number": 79,
+  "title": "Psalm 79",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Getrouwe God, de heid’ nen zijn gekomen,",
+        "Zij hebben stout Uw erfland ingenomen:",
+        "Jeruzalem, de tempel, Uw altaren,",
+        "’t Ligt al verwoest door die geweldenaren!",
+        "Uw knechten zijn geveld",
+        "Door hun verwoed geweld.",
+        "Hun lijken, onbegraven,",
+        "Verzaden na hun dood",
+        "’t Gediert’ in hongersnood:",
+        "En gier en kraai en raven."
+      ],
+      "syllables": [
+        ["Ge-", "trou-", "we", "God,", "de", "heid’", "nen", "zijn", "ge-", "ko-", "men,"],
+        ["Zij", "heb-", "ben", "stout", "Uw", "erf-", "land", "in-", "ge-", "no-", "men:"],
+        ["Je-", "ru-", "za-", "lem,", "de", "tem-", "pel,", "Uw", "al-", "ta-", "ren,"],
+        ["’t Ligt", "al", "ver-", "woest", "door", "die", "ge-", "wel-", "de-", "na-", "ren!"],
+        ["Uw", "knech-", "ten", "zijn", "ge-", "veld"],
+        ["Door", "hun", "ver-", "woed", "ge-", "weld."],
+        ["Hun", "lij-", "ken,", "on-", "be-", "gra-", "ven,"],
+        ["Ver-", "za-", "den", "na", "hun", "dood"],
+        ["’t Ge-", "diert’", "in", "hon-", "gers-", "nood:"],
+        ["En", "gier", "en", "kraai", "en", "ra-", "ven."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Het kost’lijk bloed van Uwe gunstgenoten,",
+        "Als water om Jeruzalem vergoten,",
+        "Doet wijd en zijd desvijands woede blijken;",
+        "Het ganse veld is nu bezaaid met lijken,",
+        "Van d’ eer desgrafs beroofd.",
+        "De nabuur schudt het hoofd",
+        "En lacht met onz’ ellenden.",
+        "Ons deerniswekkend lot,",
+        "Stelt ons ten smaad, ten spot",
+        "Van vreemden en bekenden."
+      ],
+      "syllables": [
+        ["Het", "kost-", "’lijk", "bloed", "van", "U-", "we", "gunst-", "ge-", "no-", "ten,"],
+        ["Als", "wa-", "ter", "om", "Je-", "ru-", "za-", "lem", "ver-", "go-", "ten,"],
+        ["Doet", "wijd", "en", "zijd", "des-", "vij-", "ands", "woe-", "de", "blij-", "ken;"],
+        ["Het", "gan-", "se", "veld", "is", "nu", "be-", "zaaid", "met", "lij-", "ken,"],
+        ["Van", "d’eer", "des-", "grafs", "be-", "roofd."],
+        ["De", "na-", "buur", "schudt", "het", "hoofd"],
+        ["En", "lacht", "met", "onz’", "el-", "len-", "den."],
+        ["Ons", "deer-", "nis-", "wek-", "kend", "lot,"],
+        ["Stelt", "ons", "ten", "smaad,", "ten", "spot"],
+        ["Van", "vreem-", "den", "en", "be-", "ken-", "den."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Hoe lang zult Gij in gramschap zijn ontstoken;",
+        "Zal ’t hevig vuur Uws ijvers eeuwig roken?",
+        "Stort Uwe wraak op hen, die ons verteren,",
+        "Op volken, die Uw groten Naam niet eren;",
+        "Want Isrel, door hun macht",
+        "Verschrikk’lijk omgebracht,",
+        "Ligt in zijn bloed verdronken;",
+        "Zijn woning, al de troost",
+        "En lust van Jakobs kroost,",
+        "Gelijkt thans naar spelonken."
+      ],
+      "syllables": [
+        ["Hoe", "lang", "zult", "Gij", "in", "gram-", "schap", "zijn", "ont-", "sto-", "ken;"],
+        ["Zal", "’t he-", "vig", "vuur", "Uws", "ij-", "vers", "eeu-", "wig", "ro-", "ken?"],
+        ["Stort", "U-", "we", "wraak", "op", "hen,", "die", "ons", "ver-", "te-", "ren,"],
+        ["Op", "vol-", "ken,", "die", "Uw", "gro-", "ten", "Naam", "niet", "e-", "ren;"],
+        ["Want", "Is-", "rel,", "door", "hun", "macht"],
+        ["Ver-", "schrikk-", "’lijk", "om-", "ge-", "bracht,"],
+        ["Ligt", "in", "zijn", "bloed", "ver-", "dron-", "ken;"],
+        ["Zijn", "wo-", "ning,", "al", "de", "troost"],
+        ["En", "lust", "van", "Ja-", "kobs", "kroost,"],
+        ["Ge-", "lijkt", "thans", "naar", "spe-", "lon-", "ken."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gedenk niet meer aan ’t kwaad, dat wij bedreven,",
+        "Onz’ euveldaad word’ ons uit gunst vergeven.",
+        "Waak op, o God, en wil van verder lijden",
+        "Ons klein getal door Uwe kracht bevrijden.",
+        "Help ons, barmhartig HEER’,",
+        "Uw groten Naam tereer;",
+        "Uw trouw koom’ ons te stade;",
+        "Verzoen de zware schuld,",
+        "Die ons met schrik vervult,",
+        "Bewijs ons eens genade!"
+      ],
+      "syllables": [
+        ["Ge-", "denk", "niet", "meer", "aan", "’t kwaad,", "dat", "wij", "be-", "dre-", "ven,"],
+        ["Onz’", "eu-", "vel-", "daad", "word’", "ons", "uit", "gunst", "ver-", "ge-", "ven."],
+        ["Waak", "op,", "o", "God,", "en", "wil", "van", "ver-", "der", "lij-", "den"],
+        ["Ons", "klein", "ge-", "tal", "door", "U-", "we", "kracht", "be-", "vrij-", "den."],
+        ["Help", "ons,", "barm-", "har-", "tig", "HEER’,"],
+        ["Uw", "gro-", "ten", "Naam", "te-", "reer;"],
+        ["Uw", "trouw", "koom’", "ons", "te", "sta-", "de;"],
+        ["Ver-", "zoen", "de", "zwa-", "re", "schuld,"],
+        ["Die", "ons", "met", "schrik", "ver-", "vult,"],
+        ["Be-", "wijs", "ons", "eens", "ge-", "na-", "de!"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Waarom zou zich derheid’ nen macht vermeeren,",
+        "Uw hoog gezag door bitt’ren schimp onteren,",
+        "En vragen door hun trotsen waan bedrogen:",
+        "„Waar is hun God, waar blijkt nu Zijn vermogen?”",
+        "Vergeld hun overmoed,",
+        "Wreek Uwer knechten bloed,",
+        "O God van ons betrouwen;",
+        "Verdedig onze zaak,",
+        "Doe ’t heidendom uw wraak",
+        "Zelfs voor ons oog aanschouwen!"
+      ],
+      "syllables": [
+        ["Waar-", "om", "zou", "zich", "der-", "heid’", "nen", "macht", "ver-", "mee-", "ren,"],
+        ["Uw", "hoog", "ge-", "zag", "door", "bitt-", "’ren", "schimp", "ont-", "e-", "ren,"],
+        ["En", "vra-", "gen", "door", "hun", "trot-", "sen", "waan", "be-", "dro-", "gen:"],
+        ["„Waar", "is", "hun", "God,", "waar", "blijkt", "nu", "Zijn", "ver-", "mo-", "gen?”"],
+        ["Ver-", "geld", "hun", "o-", "ver-", "moed,"],
+        ["Wreek", "U-", "wer", "knech-", "ten", "bloed,"],
+        ["O", "God", "van", "ons", "be-", "trou-", "wen;"],
+        ["Ver-", "de-", "dig", "on-", "ze", "zaak,"],
+        ["Doe", "’t hei-", "den-", "dom", "uw", "wraak"],
+        ["Zelfs", "voor", "ons", "oog", "aan-", "schou-", "wen!"]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Ai, hoor naar hen, die in gevangnis kwijnen,",
+        "Laat hun gekerm voor Uw gezicht verschijnen.",
+        "Bevrijd hen, die gedreigd met doodsgevaren,",
+        "Op Uwe hulp met smekend’ ogen staren.",
+        "Vergeld den wreden smaad,",
+        "Waarmee desnabuurs haat,",
+        "Uw mogendheid dorst schenden.",
+        "Geef hun, o Opperheer,",
+        "Die zevenvoudig weer;",
+        "Zie neer op onz’ ellenden."
+      ],
+      "syllables": [
+        ["Ai,", "hoor", "naar", "hen,", "die", "in", "ge-", "vang-", "nis", "kwij-", "nen,"],
+        ["Laat", "hun", "ge-", "kerm", "voor", "Uw", "ge-", "zicht", "ver-", "schij-", "nen."],
+        ["Be-", "vrijd", "hen,", "die", "ge-", "dreigd", "met", "doods-", "ge-", "va-", "ren,"],
+        ["Op", "U-", "we", "hulp", "met", "sme-", "kend’", "o-", "gen", "sta-", "ren."],
+        ["Ver-", "geld", "den", "wre-", "den", "smaad,"],
+        ["Waar-", "mee", "des-", "na-", "buurs", "haat,"],
+        ["Uw", "mo-", "gend-", "heid", "dorst", "schen-", "den."],
+        ["Geef", "hun,", "o", "Op-", "per-", "heer,"],
+        ["Die", "ze-", "ven-", "vou-", "dig", "weer;"],
+        ["Zie", "neer", "op", "onz’", "el-", "len-", "den."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Zo zullen wij de schapen Uwer weiden,",
+        "In eeuwigheid Uw lof, Uw eer verbreiden,",
+        "En zingen van geslachten tot geslachten;",
+        "Uw trouw, Uw roem, Uw onverwinb’re krachten."
+      ],
+      "syllables": [
+        ["Zo", "zul-", "len", "wij", "de", "scha-", "pen", "U-", "wer", "wei-", "den,"],
+        ["In", "eeu-", "wig-", "heid", "Uw", "lof,", "Uw", "eer", "ver-", "brei-", "den,"],
+        ["En", "zin-", "gen", "van", "ge-", "slach-", "ten", "tot", "ge-", "slach-", "ten;"],
+        ["Uw", "trouw,", "Uw", "roem,", "Uw", "on-", "ver-", "winb-", "’re", "krach-", "ten."]
+      ]
+    }
+  ]
+}

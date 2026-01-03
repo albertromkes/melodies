@@ -1,0 +1,220 @@
+{
+  "id": "psalm-085",
+  "number": 85,
+  "title": "Psalm 85",
+  "category": "psalm",
+  "mode": "mixolydisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Gij hebt Uw land, o HEER’, die gunst betoond,",
+        "Dat Jakobs zaad opnieuw in vrijheid woont.",
+        "De schuld Uws volks hebt G’uit Uw boek gedaan;",
+        "Ook ziet Gij geen van hunne zonden aan;",
+        "Gij vindt in gunst, en niet in wraak, Uw lust;",
+        "De hitte van Uw gramschap is geblust.",
+        "O heilrijk God, weer verder ons verdriet,",
+        "Keer af Uw wraak, en doe Uw toorn te niet."
+      ],
+      "syllables": [
+        ["Gij", "hebt", "Uw", "land,", "o", "HEER’,", "die", "gunst", "be-", "toond,"],
+        ["Dat", "Ja-", "kobs", "zaad", "op-", "nieuw", "in", "vrij-", "heid", "woont."],
+        ["De", "schuld", "Uws", "volks", "hebt", "G’uit", "Uw", "boek", "ge-", "daan;"],
+        ["Ook", "ziet", "Gij", "geen", "van", "hun-", "ne", "zon-", "den", "aan;"],
+        ["Gij", "vindt", "in", "gunst,", "en", "niet", "in", "wraak,", "Uw", "lust;"],
+        ["De", "hit-", "te", "van", "Uw", "gram-", "schap", "is", "ge-", "blust."],
+        ["O", "heil-", "rijk", "God,", "weer", "ver-", "der", "ons", "ver-", "driet,"],
+        ["Keer", "af", "Uw", "wraak,", "en", "doe", "Uw", "toorn", "te", "niet."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Heeft dan, o HEER’, Uw gramschap nimmer end?",
+        "Zal z’eind’ lijk niet eens worden afgewend;",
+        "Of zal Uw toorn ook op ons nakroost woên?",
+        "Zult G’uit den dood ons niet herleven doen,",
+        "Opdat Uw volk zich weer in U verblij’.",
+        "Dat toch, o HEER’, Uw goedheid ons bevrij’.",
+        "Geef ons Uw heil, en red door Uwe hand,",
+        "Uit vrije gunst, het zuchtend vaderland."
+      ],
+      "syllables": [
+        ["Heeft", "dan,", "o", "HEER’,", "Uw", "gram-", "schap", "nim-", "mer", "end?"],
+        ["Zal", "z-", "’eind’", "lijk", "niet", "eens", "worden", "af-", "ge-", "wend;"],
+        ["Of", "zal", "Uw", "toorn", "ook", "op", "ons", "na-", "kroost", "woên?"],
+        ["Zult", "G’uit", "den", "dood", "ons", "niet", "her-", "le-", "ven", "doen,"],
+        ["Op-", "dat", "Uw", "volk", "zich", "weer", "in", "U", "ver-", "blij’."],
+        ["Dat", "toch,", "o", "HEER’,", "Uw", "goed-", "heid", "ons", "be-", "vrij’."],
+        ["Geef", "ons", "Uw", "heil,", "en", "red", "door", "U-", "we", "hand,"],
+        ["Uit", "vrij-","e", "gunst,", "het", "zuch-", "tend", "va-", "der-", "land."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Merk op, mijn ziel, wat antwoord God u geeft;",
+        "Hij spreekt gewis tot elk, die voor Hem leeft,",
+        "Zijn gunstgenoot, van blijden troost en vreê,",
+        "Mits hij niet weer op ’t spoor derdwaasheid tree.",
+        "Voorwaar, Gods heil is reeds nabij ’t geslacht,",
+        "Hetwelk Hem vreest en Zijne hulp verwacht;",
+        "Opdat ereer in onzen lande woon’,",
+        "En zich aldaar op ’t luisterrijkst vertoon’."
+      ],
+      "syllables": [
+        ["Merk", "op,", "mijn", "ziel,", "wat", "ant-", "woord", "God", "u", "geeft;"],
+        ["Hij", "spreekt", "ge-", "wis", "tot", "elk,", "die", "voor", "Hem", "leeft,"],
+        ["Zijn", "gunst-", "ge-", "noot,", "van", "blij-", "den", "troost", "en", "vreê,"],
+        ["Mits", "hij", "niet", "weer", "op", "’t spoor", "der-", "dwaas-", "heid", "tree."],
+        ["Voor-", "waar,", "Gods", "heil", "is", "reeds", "na-", "bij", "’t ge-", "slacht,"],
+        ["Het-", "welk", "Hem", "vreest", "en", "Zij-", "ne", "hulp", "ver-", "wacht;"],
+        ["Op-", "dat", "e-", "reer", "in", "on-", "zen", "lan-", "de", "woon’,"],
+        ["En", "zich", "al-", "daar", "op", "’t luis-", "ter-", "rijkst", "ver-", "toon’."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Dan wordt genâ van waarheid blij ontmoet,",
+        "De vrede met een kus van ’t recht gegroet;",
+        "Dan spruit de trouw uit d’ aarde blij omhoog,",
+        "Gerechtigheid ziet neer van ’s hemels boog;",
+        "Dan zal de HEER’ ons ’t goede weer doen zien;",
+        "Dan zal ons ’t land zijn volle garven biên.",
+        "Gerechtigheid gaat voor Zijn aangezicht,",
+        "Hij zet z’alom, waar Hij Zijn treden richt."
+      ],
+      "syllables": [
+        ["Dan", "wordt", "ge-", "nâ", "van", "waar-", "heid", "blij", "ont-", "moet,"],
+        ["De", "vre-", "de", "met", "een", "kus", "van", "’t recht", "ge-", "groet;"],
+        ["Dan", "spruit", "de", "trouw", "uit", "d’aar-", "de", "blij", "om-", "hoog,"],
+        ["Ge-", "rech-", "tig-", "heid", "ziet", "neer", "van", "’s he-", "mels", "boog;"],
+        ["Dan", "zal", "de", "HEER’", "ons", "’t goe-", "de", "weer", "doen", "zien;"],
+        ["Dan", "zal", "ons", "’t land", "zijn", "vol-", "le", "gar-", "ven", "biên."],
+        ["Ge-", "rech-", "tig-", "heid", "gaat", "voor", "Zijn", "aan-", "ge-", "zicht,"],
+        ["Hij", "zet", "z-", "’a-", "lom,", "waar", "Hij", "Zijn", "treden", "richt."]
+      ]
+    }
+  ]
+}

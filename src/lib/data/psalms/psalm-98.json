@@ -1,0 +1,208 @@
+{
+  "id": "psalm-098",
+  "number": 98,
+  "title": "Psalm 98",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Zingt, zingt een nieuw gezang den HEERE,",
+        "Dien groten God, Die wond’ ren deed.",
+        "Zijn rechterhand, vol sterkt’ en ere,",
+        "Zijn heilig’ arm, wrocht heil na leed.",
+        "Dat heil heeft God nu doen verkonden,",
+        "Nu heeft Hij Zijn gerechtigheid,",
+        "Zo vlekkeloos en ongeschonden.",
+        "Voor ’t heidendom ten toon gespreid."
+      ],
+      "syllables": [
+        ["Zingt,", "zingt", "een", "nieuw", "ge-", "zang", "den", "HEE-", "RE,"],
+        ["Dien", "gro-", "ten", "God,", "Die", "wond’", "ren", "deed."],
+        ["Zijn", "rech-", "ter-", "hand,", "vol", "sterkt’", "en", "e-", "re,"],
+        ["Zijn", "hei-", "lig’", "arm,", "wrocht", "heil", "na", "leed."],
+        ["Dat", "heil", "heeft", "God", "nu", "doen", "ver-", "kon-", "den,"],
+        ["Nu", "heeft", "Hij", "Zijn", "ge-", "rech-", "tig-", "heid,"],
+        ["Zo", "vlek-", "ke-", "loos", "en", "on-", "ge-", "schon-", "den."],
+        ["Voor", "’t hei-", "den-", "dom", "ten", "toon", "ge-", "spreid."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Hij heeft gedacht aan Zijn genade,",
+        "Zijn trouw aan Isrel nooit gekrenkt.",
+        "Dit slaan al ’s aardrijks einden gade,",
+        "Nu onze God Zijn heil om schenkt.",
+        "Juich dan den HEER’ met blijde galmen,",
+        "Gij ganse wereld, juich van vreugd.",
+        "Zing vrolijk in verheven psalmen",
+        "Het heil, dat d’ aard’ in ’t rond verheugt."
+      ],
+      "syllables": [
+        ["Hij", "heeft", "ge-", "dacht", "aan", "Zijn", "ge-", "na-", "de,"],
+        ["Zijn", "trouw", "aan", "Is-", "rel", "nooit", "ge-", "krenkt."],
+        ["Dit", "slaan", "al", "’s aard-", "rijks", "ein-", "den", "ga-", "de,"],
+        ["Nu", "on-", "ze", "God", "Zijn", "heil", "om", "schenkt."],
+        ["Juich", "dan", "den", "HEER’", "met", "blij-", "de", "gal-", "men,"],
+        ["Gij", "gan-", "se", "we-", "reld,", "juich", "van", "vreugd."],
+        ["Zing", "vro-", "lijk", "in", "ver-", "he-", "ven", "psal-", "men"],
+        ["Het", "heil,", "dat", "d’aard’", "in", "’t rond", "ver-", "heugt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Doet bij uw harp de psalmen horen;",
+        "Uw juichstem geev’ den HEERE dank;",
+        "Laat klinken, door uw tempelkoren,",
+        "Trompetten en bazuingeklank.",
+        "Dat ’s HEEREN huis van vreugde druise",
+        "Voor Isrels grote Opperheer;",
+        "De zee met hare volheid bruise,",
+        "De ganse wereld geev’ Hem eer."
+      ],
+      "syllables": [
+        ["Doet", "bij", "uw", "harp", "de", "psal-", "men", "ho-", "ren;"],
+        ["Uw", "juich-", "stem", "gee-", "v’den", "HEE-", "RE", "dank;"],
+        ["Laat", "klin-", "ken,", "door", "uw", "tem-", "pel-", "ko-", "ren,"],
+        ["Trom-", "pet-", "ten", "en", "ba-", "zuin-", "ge-", "klank."],
+        ["Dat", "’s HEE-", "REN", "huis", "van", "vreug-", "de", "drui-", "se"],
+        ["Voor", "Is-", "rels", "gro-", "te", "Op-", "per-", "heer;"],
+        ["De", "zee", "met", "ha-", "re", "vol-", "heid", "brui-", "se,"],
+        ["De", "gan-", "se", "we-", "reld", "geev’", "Hem", "eer."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Laat al de stromen vrolijk zingen,",
+        "De handen klappen naar omhoog;",
+        "’t Gebergte vol van vreugde springen",
+        "En hupp’len voor des HEEREN oog.",
+        "Hij komt, Hij komt, om d’ aard’ te richten,",
+        "De wereld in gerechtigheid;",
+        "Al ’t volk, daar ’t wreed geweld moet zwichten,",
+        "Wordt in rechtmatigheid geleid."
+      ],
+      "syllables": [
+        ["Laat", "al", "de", "stro-", "men", "vro-", "lijk", "zin-", "gen,"],
+        ["De", "han-", "den", "klap-", "pen", "naar", "om-", "hoog;"],
+        ["’t Ge-", "berg-", "te", "vol", "van", "vreug-", "de", "sprin-", "gen"],
+        ["En", "hupp-", "’len", "voor", "des", "HEE-", "REN", "oog."],
+        ["Hij", "komt,", "Hij", "komt,", "om", "d’aard’", "te", "rich-", "ten,"],
+        ["De", "we-", "reld", "in", "ge-", "rech-", "tig-", "heid;"],
+        ["Al", "’t volk,", "daar", "’t wreed", "ge-", "weld", "moet", "zwich-", "ten,"],
+        ["Wordt", "in", "recht-", "ma-", "tig-", "heid", "ge-", "leid."]
+      ]
+    }
+  ]
+}

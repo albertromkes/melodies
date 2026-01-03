@@ -35,7 +35,7 @@ function fixCompoundSyllables(syllables) {
     const syl = syllables[i];
     // Check if this is a single consonant (no vowels) and there's a next syllable
     // Match: single consonant letter (not a vowel) - common linking consonants in Dutch compounds
-    if (i < syllables.length - 1 && /^[bcdfghjklmnpqrstvwxz]$/i.test(syl)) {
+    if (i < syllables.length - 1 && new RegExp(`^[${CONSONANTS}]$`, 'i').test(syl)) {
       // Merge with next syllable
       result.push(syl + syllables[i + 1]);
       i += 2;
@@ -53,6 +53,7 @@ function fixCompoundSyllables(syllables) {
 // Hypher doesn't split these correctly
 // Also handles accented vowels like â, ê, ô, etc.
 const VOWELS = 'aeiouAEIOUàáâãäåèéêëìíîïòóôõöùúûüÀÁÂÃÄÅÈÉÊËÌÍÎÏÒÓÔÕÖÙÚÛÜ';
+const CONSONANTS = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ';
 const VOWEL_REGEX = `[${VOWELS}]`;
 
 function fixVowelConsonantVowel(word, syllables) {
@@ -76,12 +77,18 @@ function fixVowelConsonantVowel(word, syllables) {
     // Check if word matches pattern: vowel + consonant(s) + vowel (+ optional more letters)
     // Pattern: starts with vowel, then consonant(s), then vowel with optional chars after
     // Include 'ij' as a Dutch vowel combination
-    const vowelPattern = new RegExp(`^([${VOWELS}]|[iI][jJ])([bcdfghjklmnpqrstvwxz]+)([${VOWELS}].*|[iI][jJ].*)$`, 'i');
+    const vowelPattern = new RegExp(`^([${VOWELS}]|[iI][jJ])([${CONSONANTS}]+)([${VOWELS}].*|[iI][jJ].*)$`, 'i');
     const match = syl.match(vowelPattern);
     
     if (match) {
-      // Split after the first vowel: "ogen" -> ["o", "gen"], "Uwe" -> ["U", "we"]
-      return [match[1], match[2] + match[3]];
+      // Split after the first vowel, then hyphenate the remainder
+      // e.g., "Egypte" -> "E" + hyphenate("gypte") -> ["E", "gyp", "te"]
+      const remainder = match[2] + match[3];
+      const remainderSyllables = h.hyphenate(remainder);
+      if (remainderSyllables.length > 1) {
+        return [match[1], ...remainderSyllables];
+      }
+      return [match[1], remainder];
     }
     
     return syllables;
@@ -90,12 +97,22 @@ function fixVowelConsonantVowel(word, syllables) {
   // Handle multi-syllable words where the first syllable starts with VCV pattern
   // e.g., "over-go-ten" -> first syllable "over" should be split to "o-ver"
   const firstSyl = syllables[0];
-  const vowelPattern = new RegExp(`^([${VOWELS}])([bcdfghjklmnpqrstvwxz]+)([${VOWELS}].*)$`, 'i');
+  const vowelPattern = new RegExp(`^([${VOWELS}])([${CONSONANTS}]+)([${VOWELS}].*)$`, 'i');
   const match = firstSyl.match(vowelPattern);
   
   if (match) {
     // Split the first syllable: "over" -> ["o", "ver"]
     return [match[1], match[2] + match[3], ...syllables.slice(1)];
+  }
+  
+  // Handle case where first syllable is vowel + consonants (no trailing vowel)
+  // e.g., hypher splits "Egypte" as ["Egyp", "te"] - we want ["E", "gyp", "te"]
+  const vcPattern = new RegExp(`^([${VOWELS}])([${CONSONANTS}]+)$`, 'i');
+  const vcMatch = firstSyl.match(vcPattern);
+  
+  if (vcMatch) {
+    // Split the first syllable: "Egyp" -> ["E", "gyp"]
+    return [vcMatch[1], vcMatch[2], ...syllables.slice(1)];
   }
   
   return syllables;
@@ -112,7 +129,7 @@ function fixUnsplitSuffixes(word, syllables) {
   
   // Handle short CVCV words with accented vowels (e.g., "Genâ" -> "Ge-nâ")
   // Pattern: consonant + vowel + consonant + accented vowel (+ optional chars)
-  const cvcvPattern = new RegExp(`^([bcdfghjklmnpqrstvwxzBCDFGHJKLMNPQRSTVWXZ][${VOWELS}])([bcdfghjklmnpqrstvwxz][${VOWELS}].*)$`);
+  const cvcvPattern = new RegExp(`^([${CONSONANTS}][${VOWELS}])([${CONSONANTS}][${VOWELS}].*)$`);
   const cvcvMatch = syl.match(cvcvPattern);
   if (cvcvMatch) {
     return [cvcvMatch[1], cvcvMatch[2]];

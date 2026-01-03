@@ -1,0 +1,223 @@
+{
+  "id": "psalm-095",
+  "number": 95,
+  "title": "Psalm 95",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562 / Lyon 1548)",
+  "keySignature": "D",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Komt, laat ons samen Isrels HEER’,",
+        "Den rotssteen van ons heil, met eer,",
+        "Met Godgewijden zang ontmoeten.",
+        "Laat ons Zijn gunstrijk aangezicht,",
+        "Met een verheven lofgedicht,",
+        "En blijde psalmen, juichend groeten."
+      ],
+      "syllables": [
+        ["Komt,", "laat", "ons", "sa-", "men", "Is-", "rels", "HEER’,"],
+        ["Den", "rots-", "steen", "van", "ons", "heil,", "met", "eer,"],
+        ["Met", "God-", "ge-", "wij-", "den", "zang", "ont-", "moe-", "ten."],
+        ["Laat", "ons", "Zijn", "gunst-", "rijk", "aan-", "ge-", "zicht,"],
+        ["Met", "een", "ver-", "he-", "ven", "lof-", "ge-", "dicht,"],
+        ["En", "blij-", "de", "psal-", "men,", "jui-", "chend", "groe-", "ten."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De HEER’ is groot, een heerlijk God,",
+        "Een Koning, die het zaligst lot,",
+        "Verboven alle goôn, kan schenken.",
+        "Het diepst van ’s aardrijks ingewand,",
+        "Het hoogst gebergt’ is in Zijn hand;",
+        "’t Is al gehoorzaam op Zijn wenken."
+      ],
+      "syllables": [
+        ["De", "HEER’", "is", "groot,", "een", "heer-", "lijk", "God,"],
+        ["Een", "Ko-", "ning,", "die", "het", "za-", "ligst", "lot,"],
+        ["Ver-", "bo-", "ven", "al-", "le", "goôn,", "kan", "schen-", "ken."],
+        ["Het", "diepst", "van", "’s aard-", "rijks", "in-", "ge-", "wand,"],
+        ["Het", "hoogst", "ge-", "bergt’", "is", "in", "Zijn", "hand;"],
+        ["’t Is", "al", "ge-", "hoor-", "zaam", "op", "Zijn", "wen-", "ken."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zijn is de zee; z’is door Zijn kracht,",
+        "Met al het droge voortgebracht;",
+        "’t Moet alles naar Zijn wetten horen.",
+        "Komt, buigen w’ons dan biddend neer;",
+        "Komt, laat ons knielen voor den HEER’,",
+        "Die ons gemaakt heeft en verkoren."
+      ],
+      "syllables": [
+        ["Zijn", "is", "de", "zee;", "z’is", "door", "Zijn", "kracht,"],
+        ["Met", "al", "het", "dro-", "ge", "voort-", "ge-", "bracht;"],
+        ["’t Moet", "al-", "les", "naar", "Zijn", "wet-", "ten", "ho-", "ren."],
+        ["Komt,", "bui-", "gen", "w’ons", "dan", "bid-", "dend", "neer;"],
+        ["Komt,", "laat", "ons", "knie-", "len", "voor", "den", "HEER’,"],
+        ["Die", "ons", "ge-", "maakt", "heeft", "en", "ver-", "ko-", "ren."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Want Hij is onze God, en wij",
+        "Zijn ’t volk van Zijne heerschappij,",
+        "De schapen, die Zijn hand wil weiden.",
+        "Zo gij Zijn stem dan heden hoort,",
+        "Gelooft Zijn heil- en troostrijk woord;",
+        "Verhardt u niet, maar laat u leiden."
+      ],
+      "syllables": [
+        ["Want", "Hij", "is", "on-", "ze", "God,", "en", "wij"],
+        ["Zijn", "’t volk", "van", "Zij-", "ne", "heer-", "schap-", "pij,"],
+        ["De", "scha-", "pen,", "die", "Zijn", "hand", "wil", "wei-", "den."],
+        ["Zo", "gij", "Zijn", "stem", "dan", "he-", "den", "hoort,"],
+        ["Ge-", "looft", "Zijn", "heil-", "en", "troost-", "rijk", "woord;"],
+        ["Ver-", "hardt", "u", "niet,", "maar", "laat", "u", "lei-", "den."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Verhardt u niet; neemt Zijn genâ",
+        "Ootmoedig aan”. „Laat Meriba,",
+        "Laat Massa u ten afschrik wezen;",
+        "Waar ’k door uw vaders ben verzocht,",
+        "Toen alles, wat Mijn almacht wrocht,",
+        "Hen niet bewoog, om Mij te vrezen."
+      ],
+      "syllables": [
+        ["Ver-", "hardt", "u", "niet;", "neemt", "Zijn", "ge-", "nâ"],
+        ["Oot-", "moe-", "dig", "aan”.", "„Laat", "Me-", "ri-", "ba,"],
+        ["Laat", "Mas-", "sa", "u", "ten", "af-", "schrik", "we-", "zen;"],
+        ["Waar", "’k door", "uw", "va-", "ders", "ben", "ver-", "zocht,"],
+        ["Toen", "al-", "les,", "wat", "Mijn", "al-", "macht", "wrocht,"],
+        ["Hen", "niet", "be-", "woog,", "om", "Mij", "te", "vre-", "zen."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "’k Heb aan dit volk, dat Mij vergat,",
+        "Een langen tijd verdriet gehad,",
+        "Ja, veertig jaar hun hoon verdragen,",
+        "En zei: „Dit volk dat steeds Mij sart,",
+        "Heeft een verdwaasd en dwalend hart;",
+        "’t Schept in Mijn wegen geen behagen.”"
+      ],
+      "syllables": [
+        ["’k Heb", "aan", "dit", "volk,", "dat", "Mij", "ver-", "gat,"],
+        ["Een", "lan-", "gen", "tijd", "ver-", "driet", "ge-", "had,"],
+        ["Ja,", "veer-", "tig", "jaar", "hun", "hoon", "ver-", "dra-", "gen,"],
+        ["En", "zei:", "„Dit", "volk", "dat", "steeds", "Mij", "sart,"],
+        ["Heeft", "een", "ver-", "dwaasd", "en", "dwa-", "lend", "hart;"],
+        ["’t Schept", "in", "Mijn", "we-", "gen", "geen", "be-", "ha-", "gen.”"]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Dies heb Ik, door hun tergend kwaad",
+        "Op ’t hoogst vergramd, dit volk versmaad,",
+        "En met een duren eed gezworen,",
+        "Dat wegens zijn geschonden trouw",
+        "Het nooit Mijn rust genieten zou,",
+        "Die voor Mijn volk nog blijft beschoren."
+      ],
+      "syllables": [
+        ["Dies", "heb", "Ik,", "door", "hun", "ter-", "gend", "kwaad"],
+        ["Op", "’t hoogst", "ver-", "gramd,", "dit", "volk", "ver-", "smaad,"],
+        ["En", "met", "een", "du-", "ren", "eed", "ge-", "zwo-", "ren,"],
+        ["Dat", "we-", "gens", "zijn", "ge-", "schon-", "den", "trouw"],
+        ["Het", "nooit", "Mijn", "rust", "ge-", "nie-", "ten", "zou,"],
+        ["Die", "voor", "Mijn", "volk", "nog", "blijft", "be-", "scho-", "ren."]
+      ]
+    }
+  ]
+}

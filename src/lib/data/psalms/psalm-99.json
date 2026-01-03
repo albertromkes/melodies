@@ -1,0 +1,274 @@
+{
+  "id": "psalm-099",
+  "number": 99,
+  "title": "Psalm 99",
+  "category": "psalm",
+  "mode": "hypo-lydisch (Genève 1562)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "God, de HEER’, regeert.",
+        "Beeft, gij volken eert,",
+        "Eert Zijn hoog bestel,",
+        "Die bij Israël,",
+        "Tussen Cherubs woont",
+        "En Zijn grootheid toont;",
+        "Dat zich d’ aard bewege.",
+        "Hij is Isrels zege!"
+      ],
+      "syllables": [
+        ["God,", "de", "HEER’,", "re-", "geert."],
+        ["Beeft,", "gij", "vol-", "ken", "eert,"],
+        ["Eert", "Zijn", "hoog", "be-", "stel,"],
+        ["Die", "bij", "Is-", "ra-", "ël,"],
+        ["Tus-", "sen", "Che-", "rubs", "woont"],
+        ["En", "Zijn", "groot-", "heid", "toont;"],
+        ["Dat", "zich", "d’aard", "be-", "we-", "ge."],
+        ["Hij", "is", "Is-", "rels", "ze-", "ge!"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "God, die helpt in nood,",
+        "Is in Sion groot.",
+        "Aller volken macht,",
+        "Niets bij Hem geacht;",
+        "Buigt u dan in ’t stof,",
+        "En verheft met lof",
+        "’t Heilig Opperwezen;",
+        "Wilt het eeuwig vrezen."
+      ],
+      "syllables": [
+        ["God,", "die", "helpt", "in", "nood,"],
+        ["Is", "in", "Si-", "on", "groot."],
+        ["Al-", "ler", "vol-", "ken", "macht,"],
+        ["Niets", "bij", "Hem", "ge-", "acht;"],
+        ["Buigt", "u", "dan", "in", "’t stof,"],
+        ["En", "ver-", "heft", "met", "lof"],
+        ["’t Hei-", "lig", "Op-", "per-", "we-", "zen;"],
+        ["Wilt", "het", "eeu-", "wig", "vre-", "zen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Looft met hart en stem,",
+        "Looft de kracht van Hem,",
+        "Die het recht bemint,",
+        "In Zijn rijksbewind.",
+        "’t Recht hebt Gij gestaafd.",
+        "’t Geen G’aan Jakob gaaft,",
+        "Toond’ aan Isrels leden",
+        "Recht en billijkheden."
+      ],
+      "syllables": [
+        ["Looft", "met", "hart", "en", "stem,"],
+        ["Looft", "de", "kracht", "van", "Hem,"],
+        ["Die", "het", "recht", "be-", "mint,"],
+        ["In", "Zijn", "rijks-", "be-", "wind."],
+        ["’t Recht", "hebt", "Gij", "ge-", "staafd."],
+        ["’t Geen", "G-", "’aan", "Jakob", "gaaft,"],
+        ["Toond’", "aan", "Is-", "rels", "le-", "den"],
+        ["Recht", "en", "bil-", "lijk-", "he-", "den."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Roemt nu onzen God.",
+        "Knielt op Zijn gebod,",
+        "Voor Zijn voetbank neer.",
+        "Heilig is de HEER’,",
+        "Op Zijn hogen troon.",
+        "Amrams grote zoon",
+        "En zijn broeder waren",
+        "Bij zijn priesterscharen."
+      ],
+      "syllables": [
+        ["Roemt", "nu", "on-", "zen", "God."],
+        ["Knielt", "op", "Zijn", "ge-", "bod,"],
+        ["Voor", "Zijn", "voet-", "bank", "neer."],
+        ["Hei-", "lig", "is", "de", "HEER’,"],
+        ["Op", "Zijn", "ho-", "gen", "troon."],
+        ["Am-", "rams", "gro-", "te", "zoon"],
+        ["En", "zijn", "broe-", "der", "wa-", "ren"],
+        ["Bij", "zijn", "pries-", "ter-", "scha-", "ren."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Ook was Samuël",
+        "Op Gods hoog bevel,",
+        "Biddend voor Zijn volk,",
+        "Als een hemeltolk.",
+        "Hij en and’ ren meer",
+        "Riepen tot den HEER’,",
+        "Die met gunstig’ oren",
+        "Hun geroep wou horen."
+      ],
+      "syllables": [
+        ["Ook", "was", "Sa-", "mu-", "ël"],
+        ["Op", "Gods", "hoog", "be-", "vel,"],
+        ["Bid-", "dend", "voor", "Zijn", "volk,"],
+        ["Als", "een", "he-", "mel-", "tolk."],
+        ["Hij", "en", "and’", "ren", "meer"],
+        ["Rie-", "pen", "tot", "den", "HEER’,"],
+        ["Die", "met", "gun-", "stig’", "o-", "ren"],
+        ["Hun", "ge-", "roep", "wou", "ho-", "ren."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Uit Zijn heiligdom",
+        "In een wolkkolom,",
+        "Heeft Hij Zijne wet",
+        "Bij hen ingezet,",
+        "Die door ’s HEEREN kracht,",
+        "Van hen werd volbracht.",
+        "’t Nakroost der Hebreeuwen",
+        "Volge dit all’ eeuwen."
+      ],
+      "syllables": [
+        ["Uit", "Zijn", "hei-", "lig-", "dom"],
+        ["In", "een", "wolk-", "ko-", "lom,"],
+        ["Heeft", "Hij", "Zij-", "ne", "wet"],
+        ["Bij", "hen", "in-", "ge-", "zet,"],
+        ["Die", "door", "’s HEE-", "REN", "kracht,"],
+        ["Van", "hen", "werd", "vol-", "bracht."],
+        ["’t Na-", "kroost", "der", "He-", "breeu-", "wen"],
+        ["Vol-", "ge", "dit", "all’", "eeu-", "wen."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Gij, met hen begaan,",
+        "Hebt hun wens voldaan;",
+        "HEER’, die naar Uw woord,",
+        "Hun gebed verhoort,",
+        "Gij, Gij waart hun lot,",
+        "Hun vergevend God;",
+        "Schoon z’ook om hun zonden,",
+        "Straffen ondervonden."
+      ],
+      "syllables": [
+        ["Gij,", "met", "hen", "be-", "gaan,"],
+        ["Hebt", "hun", "wens", "vol-", "daan;"],
+        ["HEER’,", "die", "naar", "Uw", "woord,"],
+        ["Hun", "ge-", "bed", "ver-", "hoort,"],
+        ["Gij,", "Gij", "waart", "hun", "lot,"],
+        ["Hun", "ver-", "ge-", "vend", "God;"],
+        ["Schoon", "z’ook", "om", "hun", "zon-", "den,"],
+        ["Straf-", "fen", "on-", "der-", "von-", "den."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Geeft dan eeuwig’ eer",
+        "Onzen God en HEER’.",
+        "Klimt op Sion, toont",
+        "Eerbied, waar Hij woont,",
+        "Waar Zijn heiligheid",
+        "Haren glans verspreidt;",
+        "Heilig toch en t’eren",
+        "Is de HEER’ derheren."
+      ],
+      "syllables": [
+        ["Geeft", "dan", "eeu-", "wig’", "eer"],
+        ["On-", "zen", "God", "en", "HEER’."],
+        ["Klimt", "op", "Si-", "on,", "toont"],
+        ["Eer-", "bied,", "waar", "Hij", "woont,"],
+        ["Waar", "Zijn", "hei-", "lig-", "heid"],
+        ["Ha-", "ren", "glans", "ver-", "spreidt;"],
+        ["Hei-", "lig", "toch", "en", "t-", "’eren"],
+        ["Is", "de", "HEER’", "der-", "he-", "ren."]
+      ]
+    }
+  ]
+}

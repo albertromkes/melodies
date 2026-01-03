@@ -1,0 +1,232 @@
+{
+  "id": "psalm-096",
+  "number": 96,
+  "title": "Psalm 96",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Zingt, zingt een nieuw gezang den HEERE;",
+        "Zing, aarde, zing dien God terere;",
+        "Looft ’s HEEREN Naam met hart en mond;",
+        "Vermeldt Zijn heil op ’t wereldrond;",
+        "Dat dag aan dag Zijn roem vermeere."
+      ],
+      "syllables": [
+        ["Zingt,", "zingt", "een", "nieuw", "ge-", "zang", "den", "HEE-", "RE;"],
+        ["Zing,", "aar-", "de,", "zing", "dien", "God", "te-", "re-", "re;"],
+        ["Looft", "’s HEE-", "REN", "Naam", "met", "hart", "en", "mond;"],
+        ["Ver-", "meldt", "Zijn", "heil", "op", "’t we-", "reld-", "rond;"],
+        ["Dat", "dag", "aan", "dag", "Zijn", "roem", "ver-", "mee-", "re."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Nu moet uw tong de heid’ nen noden;",
+        "Meldt allen volken Zijn geboden;",
+        "Vertelt Zijn wond’ ren en Zijn eer;",
+        "Groot en prijswaardig is de HEER’,",
+        "En vrees’lijk boven al de goden."
+      ],
+      "syllables": [
+        ["Nu", "moet", "uw", "tong", "de", "heid’", "nen", "no-", "den;"],
+        ["Meldt", "al-", "len", "vol-", "ken", "Zijn", "ge-", "bo-", "den;"],
+        ["Ver-", "telt", "Zijn", "wond’", "ren", "en", "Zijn", "eer;"],
+        ["Groot", "en", "prijs-", "waar-", "dig", "is", "de", "HEER’,"],
+        ["En", "vrees-", "’lijk", "bo-", "ven", "al", "de", "go-", "den."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Al d’ afgoôn zijn slechts ijdelheden,",
+        "Maar God, Die van ons wordt beleden,",
+        "Is ’t, Die de heemlen heeft gesticht",
+        "En voor Zijn Godd’ lijk Aangezicht,",
+        "Zet eer met majesteit haar treden."
+      ],
+      "syllables": [
+        ["Al", "d’af-", "goôn", "zijn", "slechts", "ij-", "del-", "he-", "den,"],
+        ["Maar", "God,", "Die", "van", "ons", "wordt", "be-", "le-", "den,"],
+        ["Is", "’t,", "Die", "de", "heemlen", "heeft", "ge-", "sticht"],
+        ["En", "voor", "Zijn", "Godd’", "lijk", "Aan-", "ge-", "zicht,"],
+        ["Zet", "eer", "met", "ma-", "jes-", "teit", "haar", "tre-", "den."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Hoe blinkt het alles door vertoning",
+        "Van sterkt’ en sieraad in Zijn woning!",
+        "Geef dan, o allerlei geslacht,",
+        "Den roem van heerlijkheid en kracht",
+        "Aan Isrels groten God en Koning."
+      ],
+      "syllables": [
+        ["Hoe", "blinkt", "het", "al-", "les", "door", "ver-", "to-", "ning"],
+        ["Van", "sterkt’", "en", "sie-", "raad", "in", "Zijn", "wo-", "ning!"],
+        ["Geef", "dan,", "o", "al-", "ler-", "lei", "ge-", "slacht,"],
+        ["Den", "roem", "van", "heer-", "lijk-", "heid", "en", "kracht"],
+        ["Aan", "Is-", "rels", "gro-", "ten", "God", "en", "Ko-", "ning."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Geeft d’ eer aan ’t eeuwig Opperwezen;",
+        "Zijn Naam wordt nooit genoeg geprezen.",
+        "Verheft Zijn deugden, blij te moê;",
+        "Brengt in Zijn huis Hem offer toe,",
+        "Hem, Die de volken moeten vrezen."
+      ],
+      "syllables": [
+        ["Geeft", "d’eer", "aan", "’t eeu-", "wig", "Op-", "per-", "we-", "zen;"],
+        ["Zijn", "Naam", "wordt", "nooit", "ge-", "noeg", "ge-", "pre-", "zen."],
+        ["Ver-", "heft", "Zijn", "deug-", "den,", "blij", "te", "moê;"],
+        ["Brengt", "in", "Zijn", "huis", "Hem", "of-", "fer", "toe,"],
+        ["Hem,", "Die", "de", "vol-", "ken", "moe-", "ten", "vre-", "zen."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Aanbidt Hem need’ rig al uw leven,",
+        "Hem, Die, in ’t heiligdom verheven,",
+        "Een Godd’ lijk licht van zich verspreidt;",
+        "Leer, aarde, voor Zijn majesteit,",
+        "Leer voor Zijn Aangezichte beven."
+      ],
+      "syllables": [
+        ["Aan-", "bidt", "Hem", "need’", "rig", "al", "uw", "le-", "ven,"],
+        ["Hem,", "Die,", "in", "’t hei-", "lig-", "dom", "ver-", "he-", "ven,"],
+        ["Een", "Godd’", "lijk", "licht", "van", "zich", "ver-", "spreidt;"],
+        ["Leer,", "aar-", "de,", "voor", "Zijn", "ma-", "jes-", "teit,"],
+        ["Leer", "voor", "Zijn", "Aan-", "ge-", "zich-", "te", "be-", "ven."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Zegt, om de heid’ nen te verlichten;",
+        "„De HEER’ regeert, Die d’ aard’ wou stichten;",
+        "Dies zij, bevestigd t’allen stond,",
+        "Nooit wanklen zal op haren grond.",
+        "Hij zal naar ’t recht de volken richten.”"
+      ],
+      "syllables": [
+        ["Zegt,", "om", "de", "heid’", "nen", "te", "ver-", "lich-", "ten;"],
+        ["„De", "HEER’", "re-", "geert,", "Die", "d’aard’", "wou", "stich-", "ten;"],
+        ["Dies", "zij,", "be-", "ves-", "tigd", "t-", "’allen", "stond,"],
+        ["Nooit", "wank-", "len", "zal", "op", "ha-", "ren", "grond."],
+        ["Hij", "zal", "naar", "’t recht", "de", "vol-", "ken", "rich-", "ten.”"]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Dat zich de hemelen verblijden;",
+        "Verheugd zij d’ aard’, aan alle zijden;",
+        "Verheugd de volheid van de zee.",
+        "Het veld spring’ op met al het vee,",
+        "En ’t woud moet juichend God belijden."
+      ],
+      "syllables": [
+        ["Dat", "zich", "de", "he-", "me-", "len", "ver-", "blij-", "den;"],
+        ["Ver-", "heugd", "zij", "d’aar-", "d’,", "aan", "alle", "zij-", "den;"],
+        ["Ver-", "heugd", "de", "vol-", "heid", "van", "de", "zee."],
+        ["Het", "veld", "spring’", "op", "met", "al", "het", "vee,"],
+        ["En", "’t woud", "moet", "jui-", "chend", "God", "be-", "lij-", "den."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "’t Juich al voor ’t Aangezicht des HEEREN.",
+        "Hij komt, die d’ aarde zal regeren",
+        "En richten vol van majesteit:",
+        "De wereld zal gerechtigheid,",
+        "Het mensdom Zijne waarheid eren."
+      ],
+      "syllables": [
+        ["’t Juich", "al", "voor", "’t Aan-", "ge-", "zicht", "des", "HEE-", "REN."],
+        ["Hij", "komt,", "die", "d’aar-", "de", "zal", "re-", "ge-", "ren"],
+        ["En", "rich-", "ten", "vol", "van", "ma-", "jes-", "teit:"],
+        ["De", "we-", "reld", "zal", "ge-", "rech-", "tig-", "heid,"],
+        ["Het", "mens-", "dom", "Zij-", "ne", "waar-", "heid", "e-", "ren."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "psalm-100",
+  "number": 100,
+  "title": "Psalm 100",
+  "category": "psalm",
+  "mode": "frygisch (Bourgois 1551)",
+  "keySignature": "Bb",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["eb/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Juich aarde, juich alom den HEER’,",
+        "Dient God met blijdschap, geeft Hem eer;",
+        "Komt, nadert voor Zijn aangezicht;",
+        "Zingt Hem een vrolijk lofgedicht."
+      ],
+      "syllables": [
+        ["Juich", "aar-", "de,", "juich", "al-", "om", "den", "HEER’,"],
+        ["Dient", "God", "met", "blijd-", "schap,", "geeft", "Hem", "eer;"],
+        ["Komt,", "na-", "dert", "voor", "Zijn", "aan-", "ge-", "zicht;"],
+        ["Zingt", "Hem", "een", "vro-", "lijk", "lof-", "ge-", "dicht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De HEER’ is God; erkent, dat Hij",
+        "Ons heeft gemaakt (en geenszins wij),",
+        "Tot schapen, die Hij voedt en weidt;",
+        "Een volk, tot Zijnen dienst bereid."
+      ],
+      "syllables": [
+        ["De", "HEER’", "is", "God;", "er-", "kent,", "dat", "Hij"],
+        ["Ons", "heeft", "ge-", "maakt", "(en", "geens-", "zins", "wij),"],
+        ["Tot", "scha-", "pen,", "die", "Hij", "voedt", "en", "weidt;"],
+        ["Een", "volk,", "tot", "Zij-", "nen", "dienst", "be-", "reid."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gaat tot Zijn poorten in met lof,",
+        "Met lofzang in Zijn heilig hof;",
+        "Looft Hem aldaar met hart en stem;",
+        "Prijst Zijnen Naam, verheerlijkt Hem."
+      ],
+      "syllables": [
+        ["Gaat", "tot", "Zijn", "poor-", "ten", "in", "met", "lof,"],
+        ["Met", "lof-", "zang", "in", "Zijn", "hei-", "lig", "hof;"],
+        ["Looft", "Hem", "al-", "daar", "met", "hart", "en", "stem;"],
+        ["Prijst", "Zij-", "nen", "Naam,", "ver-", "heer-", "lijkt", "Hem."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Want goedertieren is de HEER’;",
+        "Zijn goedheid eindigt nimmermeer;",
+        "Zijn trouw en waarheid houdt haar kracht",
+        "Tot in het laatste nageslacht."
+      ],
+      "syllables": [
+        ["Want", "goe-", "der-", "tie-", "ren", "is", "de", "HEER’;"],
+        ["Zijn", "goed-", "heid", "ein-", "digt", "nim-", "mer-", "meer;"],
+        ["Zijn", "trouw", "en", "waar-", "heid", "houdt", "haar", "kracht"],
+        ["Tot", "in", "het", "laat-", "ste", "na-", "ge-", "slacht."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "psalm-076",
+  "number": 76,
+  "title": "Psalm 76",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Genève 1562 / Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "God is bekend bij Judas stam,",
+        "Waar Hij Zijn hogen zetel nam;",
+        "Zijn Naam is groot in Israël;",
+        "In Salem staat op Zijn bevel",
+        "De hutte van dien Hemelkoning;",
+        "Op Sion is Zijn heilge woning."
+      ],
+      "syllables": [
+        ["God", "is", "be-", "kend", "bij", "Ju-", "das", "stam,"],
+        ["Waar", "Hij", "Zijn", "ho-", "gen", "ze-", "tel", "nam;"],
+        ["Zijn", "Naam", "is", "groot", "in", "Is-", "ra-", "ël;"],
+        ["In", "Sa-", "lem", "staat", "op", "Zijn", "be-", "vel"],
+        ["De", "hut-", "te", "van", "dien", "He-", "mel-","ko-", "ning;"],
+        ["Op", "Si-", "on", "is", "Zijn", "heil-", "ge", "wo-", "ning."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Daar heeft de vijand boog en schild",
+        "En vuurge pijlen op verspild.",
+        "God brak het zwaard, bedwong den krijg.",
+        "Dat vrij het roofgebergte zwijg’.",
+        "Uw roem, o groot en heerlijk Wezen,",
+        "Is tot veel hoger top gerezen."
+      ],
+      "syllables": [
+        ["Daar", "heeft", "de", "vij-", "and", "boog", "en", "schild"],
+        ["En", "vuur-", "ge", "pij-", "len", "op", "ver-", "spild."],
+        ["God", "brak", "het", "zwaard,", "be-", "dwong", "den", "krijg."],
+        ["Dat", "vrij", "het", "roof-", "ge-", "berg-", "te", "zwijg’."],
+        ["Uw", "roem,", "o", "groot", "en", "heer-", "lijk", "We-", "zen,"],
+        ["Is", "tot", "veel", "ho-", "ger", "top", "ge-", "re-", "zen."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Stouthartigen zijn daar beroofd;",
+        "Daar sliep èn heir èn opperhoofd.",
+        "De kloekste had geen handen meer,",
+        "Maar viel in ’t stof verslagen neer.",
+        "O God van Jakob, door Uw schelden",
+        "Vergingen paarden, wagens, helden."
+      ],
+      "syllables": [
+        ["Stout-", "har-", "ti-", "gen", "zijn", "daar", "be-", "roofd;"],
+        ["Daar", "sliep", "èn", "heir", "èn", "op-", "per-", "hoofd."],
+        ["De", "kloek-", "ste", "had", "geen", "han-", "den", "meer,"],
+        ["Maar", "viel", "in", "’t stof", "ver-", "sla-", "gen", "neer."],
+        ["O", "God", "van", "Ja-", "kob,", "door", "Uw", "schel-", "den"],
+        ["Ver-", "gin-", "gen", "paar-", "den,", "wa-", "gens,", "hel-", "den."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gij, vrees’lijk zijt Gij in ’t gericht;",
+        "Wie zal bestaan voor Uw gezicht?",
+        "Zo ras Uw mond het vonnis streek,",
+        "Uw oordeel van den hemel bleek,",
+        "Toen vreesde d’ aarde voor Uw ogen;",
+        "Toen werd ze stil door Uw vermogen."
+      ],
+      "syllables": [
+        ["Gij,", "vrees-", "’lijk", "zijt", "Gij", "in", "’t ge-", "richt;"],
+        ["Wie", "zal", "be-", "staan", "voor", "Uw", "ge-", "zicht?"],
+        ["Zo", "ras", "Uw", "mond", "het", "von-", "nis", "streek,"],
+        ["Uw", "oor-", "deel", "van", "den", "he-", "mel", "bleek,"],
+        ["Toen", "vrees-", "de", "d’aar-", "de", "voor", "Uw", "o-", "gen;"],
+        ["Toen", "werd", "ze", "stil", "door", "Uw", "ver-", "mo-", "gen."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Als God terhoge vierschaar steeg,",
+        "’t Zachtmoedig volk verlossing kreeg;",
+        "Ontzette zich het gans heelal.",
+        "Gewis, dermensen gramschap zal,",
+        "Wanneer z’op ’t hevigst is aan ’t blaken,",
+        "Uw groten lof nog groter maken."
+      ],
+      "syllables": [
+        ["Als", "God", "ter-", "ho-", "ge", "vier-", "schaar", "steeg,"],
+        ["’t Zacht-", "moe-", "dig", "volk", "ver-", "los-", "sing", "kreeg;"],
+        ["Ont-", "zet-", "te", "zich", "het", "gans", "heel-", "al."],
+        ["Ge-", "wis,", "der-", "men-", "sen", "gram-", "schap", "zal,"],
+        ["Wan-", "neer", "z’op", "’t he-", "vigst", "is", "aan", "’t bla-", "ken,"],
+        ["Uw", "gro-", "ten", "lof", "nog", "gro-", "ter", "ma-", "ken."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Woedt nog de wraaklust onbeschroomd,",
+        "Die wordt door U ras ingetoomd.",
+        "Doet dan geloften aan den HEER’,",
+        "Betaalt die, uwen God tereer.",
+        "Gij allen, die dien groten Koning",
+        "Omringt in Zijn doorluchte woning."
+      ],
+      "syllables": [
+        ["Woedt", "nog", "de", "wraak-", "lust", "on-", "be-", "schroomd,"],
+        ["Die", "wordt", "door", "U", "ras", "in-", "ge-", "toomd."],
+        ["Doet", "dan", "ge-", "lof-", "ten", "aan", "den", "HEER’,"],
+        ["Be-", "taalt", "die,", "u-", "wen", "God", "te-", "reer."],
+        ["Gij", "al-", "len,", "die", "dien", "gro-", "ten", "Ko-", "ning"],
+        ["Om-", "ringt", "in", "Zijn", "door-", "luch-", "te", "wo-", "ning."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Men voer’ dien God geschenken aan;",
+        "Die vrees’lijk is in al Zijn daân.",
+        "Hij stoot de vorsten weg in ’t graf",
+        "En snijdt hun geest als druiven af,",
+        "Hij, die den koningen deraarde",
+        "Zelfs op hun tronen, vreze baarde."
+      ],
+      "syllables": [
+        ["Men", "voer’", "dien", "God", "ge-", "schen-", "ken", "aan;"],
+        ["Die", "vrees-", "’lijk", "is", "in", "al", "Zijn", "daân."],
+        ["Hij", "stoot", "de", "vor-", "sten", "weg", "in", "’t graf"],
+        ["En", "snijdt", "hun", "geest", "als", "drui-", "ven", "af,"],
+        ["Hij,", "die", "den", "ko-", "nin-", "gen", "der-", "aar-", "de"],
+        ["Zelfs", "op", "hun", "tro-", "nen,", "vre-", "ze", "baar-", "de."]
+      ]
+    }
+  ]
+}

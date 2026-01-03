@@ -1,0 +1,208 @@
+{
+  "id": "psalm-082",
+  "number": 82,
+  "title": "Psalm 82",
+  "category": "psalm",
+  "mode": "mixolydisch (Genève 1562 / Bourgois 1551)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "In d’ achtb’re Godsvergaderingen",
+        "Staat God, als Richter dergedingen.",
+        "Hij oordeelt over goed en kwaad,",
+        "In ’t midden van dergoden raad:",
+        "„Hoe lang zult gij van ’t richtsnoer wijken,",
+        "Een onrechtvaardig vonnis strijken,",
+        "En acht slaan op het aangezicht",
+        "Dergoddelozen in ’t gericht?”"
+      ],
+      "syllables": [
+        ["In", "d’achtb-", "’re", "Gods-", "ver-", "ga-", "de-", "rin-", "gen"],
+        ["Staat", "God,", "als", "Rich-", "ter", "der-", "ge-", "din-", "gen."],
+        ["Hij", "oor-", "deelt", "o-", "ver", "goed", "en", "kwaad,"],
+        ["In", "’t mid-", "den", "van", "der-", "go-", "den", "raad:"],
+        ["„Hoe", "lang", "zult", "gij", "van", "’t richt-", "snoer", "wij-", "ken,"],
+        ["Een", "on-", "recht-", "vaar-", "dig", "von-", "nis", "strij-", "ken,"],
+        ["En", "acht", "slaan", "op", "het", "aan-", "ge-", "zicht"],
+        ["Der-", "god-", "de-", "lo-", "zen", "in", "’t ge-", "richt?”"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Toont aller goden God te vrezen;",
+        "Doet recht aan armen en aan wezen,",
+        "Rechtvaardigt hem, die billijk klaagt,",
+        "Verdrukt of arm uw hulpe vraagt;",
+        "Verlost geringen uit hun lijden,",
+        "En wilt behoeftigen bevrijden,",
+        "Rukt z’uit dergoddelozen hand;",
+        "Gerechtigheid verhoogt een land."
+      ],
+      "syllables": [
+        ["Toont", "al-", "ler", "go-", "den", "God", "te", "vre-", "zen;"],
+        ["Doet", "recht", "aan", "ar-", "men", "en", "aan", "we-", "zen,"],
+        ["Recht-", "vaar-", "digt", "hem,", "die", "bil-", "lijk", "klaagt,"],
+        ["Ver-", "drukt", "of", "arm", "uw", "hul-", "pe", "vraagt;"],
+        ["Ver-", "lost", "ge-", "rin-", "gen", "uit", "hun", "lij-", "den,"],
+        ["En", "wilt", "be-", "hoef-", "ti-", "gen", "be-", "vrij-", "den,"],
+        ["Rukt", "z’uit", "der-", "god-", "de-", "lo-", "zen", "hand;"],
+        ["Ge-", "rech-", "tig-", "heid", "ver-", "hoogt", "een", "land."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Maar ach, hier is het recht vergeten;",
+        "Men heeft noch kennis noch geweten;",
+        "Men wandelt in de duisternis;",
+        "Het wankelt al, wat zeker is;",
+        "Dies ziet men ’s aardrijks grondvest beven",
+        "’k heb wel voorheen u d’ eer gegeven,",
+        "Dat Ik u goden heb genoemd",
+        "En als Gods kinderen geroemd!"
+      ],
+      "syllables": [
+        ["Maar", "ach,", "hier", "is", "het", "recht", "ver-", "ge-", "ten;"],
+        ["Men", "heeft", "noch", "ken-", "nis", "noch", "ge-", "we-", "ten;"],
+        ["Men", "wan-", "delt", "in", "de", "duis-", "ter-", "nis;"],
+        ["Het", "wan-", "kelt", "al,", "wat", "ze-", "ker", "is;"],
+        ["Dies", "ziet", "men", "’s aard-", "rijks", "grond-", "vest", "be-", "ven"],
+        ["’k heb", "wel", "voor-", "heen", "u", "d’eer", "ge-", "ge-", "ven,"],
+        ["Dat", "Ik", "u", "go-", "den", "heb", "ge-", "noemd"],
+        ["En", "als", "Gods", "kin-", "de-", "ren", "ge-", "roemd!"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Gij zult nochtans het leven derven,",
+        "En als gemene mensen sterven;",
+        "Eens storten van den stoel dereer",
+        "In ’t graf, als elk dervorsten, neer.",
+        "Sta op, o God, en wil ontwaken.",
+        "Ai, oordeel ’t aardrijk, richt de zaken;",
+        "Want Gij bezit op aard’ alom",
+        "De volkeren in eigendom."
+      ],
+      "syllables": [
+        ["Gij", "zult", "noch-", "tans", "het", "le-", "ven", "der-", "ven,"],
+        ["En", "als", "ge-", "me-", "ne", "men-", "sen", "ster-", "ven;"],
+        ["Eens", "stor-", "ten", "van", "den", "stoel", "de-", "reer"],
+        ["In", "’t graf,", "als", "elk", "der-", "vor-", "sten,", "neer."],
+        ["Sta", "op,", "o", "God,", "en", "wil", "ont-", "wa-", "ken."],
+        ["Ai,", "oor-", "deel", "’t aard-", "rijk,", "richt", "de", "za-", "ken;"],
+        ["Want", "Gij", "be-", "zit", "op", "aar-", "d’al-", "om"],
+        ["De", "vol-", "ke-", "ren", "in", "ei-", "gen-", "dom."]
+      ]
+    }
+  ]
+}

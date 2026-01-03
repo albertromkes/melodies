@@ -1,0 +1,353 @@
+{
+  "id": "psalm-072",
+  "number": 72,
+  "title": "Psalm 72",
+  "category": "psalm",
+  "mode": "dorisch (Franc 1543 / Lyon 1548)",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Geef, HEER’, den Koning Uwe rechten,",
+        "En Uw gerechtigheid",
+        "Aan ’s Konings zoon om Uwe knechten,",
+        "Te richten met beleid.",
+        "Dan zal Hij al Uw volk beheren,",
+        "Rechtvaardig, wijs en zacht;",
+        "En Uw ellendigen regeren;",
+        "Hun recht doen op hun klacht."
+      ],
+      "syllables": [
+        ["Geef,", "HEER’,", "den", "Ko-", "ning", "U-", "we", "rech-", "ten,"],
+        ["En", "Uw", "ge-", "rech-", "tig-", "heid"],
+        ["Aan", "’s Ko-", "nings", "zoon", "om", "U-", "we", "knech-", "ten,"],
+        ["Te", "rich-", "ten", "met", "be-", "leid."],
+        ["Dan", "zal", "Hij", "al", "Uw", "volk", "be-", "he-", "ren,"],
+        ["Recht-", "vaar-", "dig,", "wijs", "en", "zacht;"],
+        ["En", "Uw", "el-", "len-", "di-", "gen", "re-", "ge-", "ren;"],
+        ["Hun", "recht", "doen", "op", "hun", "klacht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "De bergen zullen vrede dragen,",
+        "De heuvels heilig recht;",
+        "Hij zal hun vrolijk op doen dagen,",
+        "Het heil, hun toegezegd.",
+        "’t Ellendig volk wordt dan uit lijden",
+        "Door Zijnen arm gerukt",
+        "Hij zal nooddruftigen bevrijden;",
+        "Verbrijz’len, wie verdrukt."
+      ],
+      "syllables": [
+        ["De", "ber-", "gen", "zul-", "len", "vre-", "de", "dra-", "gen,"],
+        ["De", "heu-", "vels", "hei-", "lig", "recht;"],
+        ["Hij", "zal", "hun", "vro-", "lijk", "op", "doen", "da-", "gen,"],
+        ["Het", "heil,", "hun", "toe-", "ge-", "zegd."],
+        ["’t El-", "len-", "dig", "volk", "wordt", "dan", "uit", "lij-", "den"],
+        ["Door", "Zij-", "nen", "arm", "ge-", "rukt"],
+        ["Hij", "zal", "nood-", "druf-", "ti-", "gen", "be-", "vrij-", "den;"],
+        ["Ver-", "brijz-", "’len,", "wie", "ver-", "drukt."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Zij zullen U eerbiedig vrezen,",
+        "Zolang erzon of maan",
+        "Bij ’t nageslacht ten licht zal wezen,",
+        "En op- en ondergaan.",
+        "Hij zal gelijk zijn aan den regen,",
+        "Die daalt op ’t late gras;",
+        "Aan droppels, die met milden zegen",
+        "Besproeien ’t veldgewas."
+      ],
+      "syllables": [
+        ["Zij", "zul-", "len", "U", "eer-", "bie-", "dig", "vre-", "zen,"],
+        ["Zo-", "lang", "er-", "zon", "of", "maan"],
+        ["Bij", "’t na-", "ge-", "slacht", "ten", "licht", "zal", "we-", "zen,"],
+        ["En", "op-", "en", "on-", "der-", "gaan."],
+        ["Hij", "zal", "ge-", "lijk", "zijn", "aan", "den", "re-", "gen,"],
+        ["Die", "daalt", "op", "’t la-", "te", "gras;"],
+        ["Aan", "drop-", "pels,", "die", "met", "mil-", "den", "ze-", "gen"],
+        ["Be-", "sproei-", "en", "’t veld-", "ge-", "was."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "’t Rechtvaardig volk zal welig groeien;",
+        "Daar twist en wrok verdwijnt,",
+        "Zal alles door den vrede bloeien,",
+        "Totdat geen maan meer schijnt.",
+        "Van zee tot zee zal Hij regeren,",
+        "Zover men volk’ren kent;",
+        "Men zal Hem van d’ Eufraat vereren,",
+        "Tot aan desaardrijks end."
+      ],
+      "syllables": [
+        ["’t Recht-", "vaar-", "dig", "volk", "zal", "we-", "lig", "groei-", "en;"],
+        ["Daar", "twist", "en", "wrok", "ver-", "dwijnt,"],
+        ["Zal", "al-", "les", "door", "den", "vre-", "de", "bloei-", "en,"],
+        ["Tot-", "dat", "geen", "maan", "meer", "schijnt."],
+        ["Van", "zee", "tot", "zee", "zal", "Hij", "re-", "ge-", "ren,"],
+        ["Zo-", "ver", "men", "volk-", "’ren", "kent;"],
+        ["Men", "zal", "Hem", "van", "d’Eu-", "fraat", "ver-", "e-", "ren,"],
+        ["Tot", "aan", "des-", "aard-", "rijks", "end."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Het woeste volk zal voor Hem knielen;",
+        "Zijn vijand lekt het stof;",
+        "En Tarsis voert, met rijke kielen,",
+        "Geschenken naar Zijn hof.",
+        "Met giften zullen langs de stromen,",
+        "De koningen derzee,",
+        "En Scheba nevens Seba komen,",
+        "Hem smekend om den vreê."
+      ],
+      "syllables": [
+        ["Het", "woes-", "te", "volk", "zal", "voor", "Hem", "knie-", "len;"],
+        ["Zijn", "vij-", "and", "lekt", "het", "stof;"],
+        ["En", "Tar-", "sis", "voert,", "met", "rij-", "ke", "kie-", "len,"],
+        ["Ge-", "schen-", "ken", "naar", "Zijn", "hof."],
+        ["Met", "gif-", "ten", "zul-", "len", "langs", "de", "stro-", "men,"],
+        ["De", "ko-", "nin-", "gen", "der-", "zee,"],
+        ["En", "Sche-", "ba", "ne-", "vens", "Se-", "ba", "ko-", "men,"],
+        ["Hem", "sme-", "kend", "om", "den", "vreê."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Ja, elk dervorsten zal zich buigen",
+        "En vallen voor Hem neer;",
+        "Al ’t heidendom Zijn lof getuigen,",
+        "Dienstvaardig tot Zijn eer.",
+        "’t Behoeftig volk, in hunne noden",
+        "In hun ellend’ en pijn,",
+        "Gans hulpeloos tot Hem gevloden,",
+        "Zal Hij ten redder zijn."
+      ],
+      "syllables": [
+        ["Ja,", "elk", "der-", "vor-", "sten", "zal", "zich", "bui-", "gen"],
+        ["En", "val-", "len", "voor", "Hem", "neer;"],
+        ["Al", "’t hei-", "den-", "dom", "Zijn", "lof", "ge-", "tui-", "gen,"],
+        ["Dienst-", "vaar-", "dig", "tot", "Zijn", "eer."],
+        ["’t Be-", "hoef-", "tig", "volk,", "in", "hun-", "ne", "no-", "den"],
+        ["In", "hun", "el-", "lend’", "en", "pijn,"],
+        ["Gans", "hul-", "pe-", "loos", "tot", "Hem", "ge-", "vlo-", "den,"],
+        ["Zal", "Hij", "ten", "red-", "der", "zijn."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Nooddruftigen zal Hij verschonen;",
+        "Aan armen, uit genâ",
+        "Zijn hulpe terverlossing tonen;",
+        "Hij slaat hun zielen gâ.",
+        "Als hen geweld en list bestrijden,",
+        "Al gaat het nog zo hoog;",
+        "Hun bloed, hun tranen en hun lijden",
+        "Zijn dierbaar in Zijn oog."
+      ],
+      "syllables": [
+        ["Nood-", "druf-", "ti-", "gen", "zal", "Hij", "ver-", "scho-", "nen;"],
+        ["Aan", "ar-", "men,", "uit", "ge-", "nâ"],
+        ["Zijn", "hul-", "pe", "ter-", "ver-", "los-", "sing", "to-", "nen;"],
+        ["Hij", "slaat", "hun", "zie-", "len", "gâ."],
+        ["Als", "hen", "ge-", "weld", "en", "list", "be-", "strij-", "den,"],
+        ["Al", "gaat", "het", "nog", "zo", "hoog;"],
+        ["Hun", "bloed,", "hun", "tra-", "nen", "en", "hun", "lij-", "den"],
+        ["Zijn", "dier-", "baar", "in", "Zijn", "oog."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "„Zo moet de Koning eeuwig leven.”",
+        "Bidt elk met diep ontzag;",
+        "Men zal Hem ’t goud van Scheba geven,",
+        "Hem zeegnen, dag bij dag.",
+        "Is op het land een handvol koren,",
+        "Gekoesterd door de zon,",
+        "’t Zal op ’t gebergt’ geruis doen horen,",
+        "Gelijk de Libanon."
+      ],
+      "syllables": [
+        ["„Zo", "moet", "de", "Ko-", "ning", "eeu-", "wig", "le-", "ven.”"],
+        ["Bidt", "elk", "met", "diep", "ont-", "zag;"],
+        ["Men", "zal", "Hem", "’t goud", "van", "Sche-", "ba", "ge-", "ven,"],
+        ["Hem", "zeeg-", "nen,", "dag", "bij", "dag."],
+        ["Is", "op", "het", "land", "een", "hand-", "vol", "ko-", "ren,"],
+        ["Ge-", "koes-", "terd", "door", "de", "zon,"],
+        ["’t Zal", "op", "’t ge-", "bergt’", "ge-", "ruis", "doen", "ho-", "ren,"],
+        ["Ge-", "lijk", "de", "Li-", "ba-", "non."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "De stedelingen zullen bloeien,",
+        "Gelijk het malse kruid.",
+        "Zijn Naam en roem zal eeuwig groeien;",
+        "Ook zal, eeuw in, eeuw uit,",
+        "Het nageslacht Zijn grootheid zingen,",
+        "Zolang het zonlicht schijn’,",
+        "Hun zal een schat van zegeningen,",
+        "In Hem, ten erfdeel zijn."
+      ],
+      "syllables": [
+        ["De", "ste-", "de-", "lin-", "gen", "zul-", "len", "bloei-", "en,"],
+        ["Ge-", "lijk", "het", "mal-", "se", "kruid."],
+        ["Zijn", "Naam", "en", "roem", "zal", "eeu-", "wig", "groei-", "en;"],
+        ["Ook", "zal,", "eeuw", "in,", "eeuw", "uit,"],
+        ["Het", "na-", "ge-", "slacht", "Zijn", "groot-", "heid", "zin-", "gen,"],
+        ["Zo-", "lang", "het", "zon-", "licht", "schijn’,"],
+        ["Hun", "zal", "een", "schat", "van", "ze-", "ge-", "nin-", "gen,"],
+        ["In", "Hem,", "ten", "erf-", "deel", "zijn."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Dan zal na zoveel gunstbewijzen,",
+        "’t Gezegend heidendom,",
+        "’t Geluk van dezen Koning prijzen,",
+        "Die Davids troon beklom.",
+        "Geloofd zij God, dat eeuwig Wezen,",
+        "Bekleed met mogendheên;",
+        "De HEER’, in Israël geprezen,",
+        "Doet wond’ ren, Hij alleen."
+      ],
+      "syllables": [
+        ["Dan", "zal", "na", "zo-", "veel", "gunst-", "be-", "wij-", "zen,"],
+        ["’t Ge-", "ze-", "gend", "hei-", "den-", "dom,"],
+        ["’t Ge-", "luk", "van", "de-", "zen", "Ko-", "ning", "prij-", "zen,"],
+        ["Die", "Da-", "vids", "troon", "be-", "klom."],
+        ["Ge-", "loofd", "zij", "God,", "dat", "eeu-", "wig", "We-", "zen,"],
+        ["Be-", "kleed", "met", "mo-", "gend-", "heên;"],
+        ["De", "HEER’,", "in", "Is-", "ra-", "ël", "ge-", "pre-", "zen,"],
+        ["Doet", "wond’", "ren,", "Hij", "al-", "leen."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Zijn Naam moet eeuwig eer ontvangen;",
+        "Men loov’ Hem vroeg en spa;",
+        "De wereld hoor’, en volg’ mijn zangen,",
+        "Met amen, amen na."
+      ],
+      "syllables": [
+        ["Zijn", "Naam", "moet", "eeu-", "wig", "eer", "ont-", "van-", "gen;"],
+        ["Men", "loov’", "Hem", "vroeg", "en", "spa;"],
+        ["De", "we-", "reld", "hoor’,", "en", "volg’", "mijn", "zan-", "gen,"],
+        ["Met", "a-", "men,", "a-", "men", "na."]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "psalm-080",
+  "number": 80,
+  "title": "Psalm 80",
+  "category": "psalm",
+  "mode": "dorisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["c/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Neem Isrels Herder, neem teroren;",
+        "Die Jozefs kroost, door U verkoren,",
+        "Als schapen gunstig hebt geleid;",
+        "Die enen troon van heiligheid",
+        "U tussen Cherubs hebt gesticht;",
+        "Verschijn weer blinkend met Uw licht."
+      ],
+      "syllables": [
+        ["Neem", "I-", "s-", "rels", "Her-", "der,", "neem", "ter-", "oren;"],
+        ["Die", "Jo-", "zefs", "kroost,", "door", "U", "ver-", "ko-", "ren,"],
+        ["Als", "scha-", "pen", "gun-", "stig", "hebt", "ge-", "leid;"],
+        ["Die", "e-", "nen", "troon", "van", "hei-", "lig-", "heid"],
+        ["U", "tus-", "sen", "Che-", "rubs", "hebt", "ge-", "sticht;"],
+        ["Ver-", "schijn", "weer", "blin-", "kend", "met", "Uw", "licht."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Die glans straal’ Efraïm in d’ ogen;",
+        "Toon Benjamin Uw groot vermogen;",
+        "Verlos Manasse tot Uw eer.",
+        "Getrouwe Herder, breng ons weer;",
+        "Verlos ons, toon ons ’t lieflijk licht",
+        "Van Uw vertroostend’ aangezicht."
+      ],
+      "syllables": [
+        ["Die", "glans", "straal’", "E-", "fra-", "ïm", "in", "d’o-", "gen;"],
+        ["Toon", "Ben-", "ja-", "min", "Uw", "groot", "ver-", "mo-", "gen;"],
+        ["Ver-", "los", "Ma-", "nas-", "se", "tot", "Uw", "eer."],
+        ["Ge-", "trou-", "we", "Her-", "der,", "breng", "ons", "weer;"],
+        ["Ver-", "los", "ons,", "toon", "ons", "’t lief-", "lijk", "licht"],
+        ["Van", "Uw", "ver-", "troos-", "tend’", "aan-", "ge-", "zicht."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Hoe lang, o HEER’ derlegermachten,",
+        "Verwerpt Gij, toornig, onze klachten?",
+        "Hoe lang verlaat G’ons in den nood?",
+        "Gij spijst Uw volk met tranenbrood;",
+        "Gij drenkt het in zijn jammerstaat,",
+        "Met tranen, uit een volle maat."
+      ],
+      "syllables": [
+        ["Hoe", "lang,", "o", "HEER’", "der-", "le-", "ger-", "mach-", "ten,"],
+        ["Ver-", "werpt", "Gij,", "toor-", "nig,", "o-", "n-", "ze", "klach-", "ten?"],
+        ["Hoe", "lang", "ver-", "laat", "G’ons", "in", "den", "nood?"],
+        ["Gij", "spijst", "Uw", "volk", "met", "tra-", "nen-", "brood;"],
+        ["Gij", "drenkt", "het", "in", "zijn", "jam-", "mer-", "staat,"],
+        ["Met", "tra-", "nen,", "uit", "een", "vol-", "le", "maat."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "In ’t bitter leed, dat wij verduren,",
+        "Zien w’ons aan onze nageburen;",
+        "Helaas, door U ten schimp gesteld,",
+        "Ons door hun twisten neergeveld.",
+        "Wij zien, daar ons hun haat vertreedt,",
+        "Hen spotten om ons harteleed."
+      ],
+      "syllables": [
+        ["In", "’t bit-", "ter", "leed,", "dat", "wij", "ver-", "du-", "ren,"],
+        ["Zien", "w-", "’ons", "aan", "onze", "na-", "ge-", "bu-", "ren;"],
+        ["He-", "laas,", "door", "U", "ten", "schimp", "ge-", "steld,"],
+        ["Ons", "door", "hun", "twis-", "ten", "neer-", "ge-", "veld."],
+        ["Wij", "zien,", "daar", "ons", "hun", "haat", "ver-", "treedt,"],
+        ["Hen", "spot-", "ten", "om", "ons", "har-", "te-", "leed."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Laat ons, o God derlegermachten,",
+        "Niet vruchtloos op Uw bijstand wachten.",
+        "Ga onzen haat’ren zelf te keer;",
+        "Getrouwe Herder, breng ons weer;",
+        "Verlos ons; toon ons ’t lieflijk licht",
+        "Van Uw vertroostend aangezicht."
+      ],
+      "syllables": [
+        ["Laat", "ons,", "o", "God", "der-", "le-", "ger-", "mach-", "ten,"],
+        ["Niet", "vrucht-", "loos", "op", "Uw", "bij-", "stand", "wach-", "ten."],
+        ["Ga", "o-", "n-", "zen", "haat-", "’ren", "zelf", "te", "keer;"],
+        ["Ge-", "trou-", "we", "Her-", "der,", "breng", "ons", "weer;"],
+        ["Ver-", "los", "ons;", "toon", "ons", "’t lief-", "lijk", "licht"],
+        ["Van", "Uw", "ver-", "troos-", "tend", "aan-", "ge-", "zicht."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Gij vondt in ons een welbehagen;",
+        "Gij bracht, o God, in vroeger dagen,",
+        "Uw wijnstok uit Egypteland",
+        "Gij zelf hebt gunstig hem geplant,",
+        "Voor hem de volken uitgeroeid,",
+        "Hem plaats bereid, hem mild besproeid."
+      ],
+      "syllables": [
+        ["Gij", "vondt", "in", "ons", "een", "wel-", "be-", "ha-", "gen;"],
+        ["Gij", "bracht,", "o", "God,", "in", "vroe-", "ger", "da-", "gen,"],
+        ["Uw", "wijn-", "stok", "uit", "E-", "gyp-", "te-", "land"],
+        ["Gij", "zelf", "hebt", "gun-", "stig", "hem", "ge-", "plant,"],
+        ["Voor", "hem", "de", "vol-", "ken", "uit-", "ge-", "roeid,"],
+        ["Hem", "plaats", "be-", "reid,", "hem", "mild", "be-", "sproeid."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Hij heeft zijn wortels uitgeschoten;",
+        "De bergen werden door zijn loten,",
+        "Als waren ’t ceed’ ren, overdekt;",
+        "Hij heeft zijn ranken uitgestrekt,",
+        "In zijnen bloei en frissen staat,",
+        "Tot aan de zee, tot aan d’ Eufraat."
+      ],
+      "syllables": [
+        ["Hij", "heeft", "zijn", "wor-", "tels", "uit-", "ge-", "scho-", "ten;"],
+        ["De", "ber-", "gen", "wer-", "den", "door", "zijn", "lo-", "ten,"],
+        ["Als", "wa-", "ren", "’t ceed’", "ren,", "o-", "ver-", "dekt;"],
+        ["Hij", "heeft", "zijn", "ran-", "ken", "uit-", "ge-", "strekt,"],
+        ["In", "zij-", "nen", "bloei", "en", "fris-", "sen", "staat,"],
+        ["Tot", "aan", "de", "zee,", "tot", "aan", "d’Eu-", "fraat."]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Waarom hebt Gij zijn muur verbroken,",
+        "Hem van Uw zorg en hulp verstoken?",
+        "Men plukt, men trapt hem met den voet.",
+        "Het boszwijn heeft hem omgewroet;",
+        "Het wild gediert’ hem afgeweid;",
+        "Daar ’t zich door ’t ganse land verspreid."
+      ],
+      "syllables": [
+        ["Waar-", "om", "hebt", "Gij", "zijn", "muur", "ver-", "bro-", "ken,"],
+        ["Hem", "van", "Uw", "zorg", "en", "hulp", "ver-", "sto-", "ken?"],
+        ["Men", "plukt,", "men", "trapt", "hem", "met", "den", "voet."],
+        ["Het", "boszwijn", "heeft", "hem", "o-", "m-", "ge-", "wroet;"],
+        ["Het", "wild", "gediert’", "hem", "a-", "f-", "ge-", "weid;"],
+        ["Daar", "’t zich", "door", "’t gan-", "se", "land", "ver-", "spreid."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Keer weer, o God derlegermachten,",
+        "Tot ons, die op Uw bijstand wachten.",
+        "Zie uit den hogen hemel neer,",
+        "Herstel Uw wijnstok als weleer,",
+        "Den stam terliefd’ Uws Zoons geplant,",
+        "Dien Gij gesterkt hebt door Uw hand."
+      ],
+      "syllables": [
+        ["Keer", "weer,", "o", "God", "der-", "le-", "ger-", "mach-", "ten,"],
+        ["Tot", "ons,", "die", "op", "Uw", "bij-", "stand", "wach-", "ten."],
+        ["Zie", "uit", "den", "ho-", "gen", "he-", "mel", "neer,"],
+        ["Her-", "stel", "Uw", "wijn-", "stok", "als", "wel-", "eer,"],
+        ["Den", "stam", "ter-", "liefd’", "Uws", "Zoons", "ge-", "plant,"],
+        ["Dien", "Gij", "ge-", "sterkt", "hebt", "door", "Uw", "hand."]
+      ]
+    },
+    {
+      "number": 10,
+      "lines": [
+        "Hij ligt verbrand en afgehouwen.",
+        "Als Gij verwoest, wie zal dan bouwen?",
+        "Uw hand zij over ’s mensen Zoon,",
+        "Dien G’U gesterkt hebt tot den troon;",
+        "Zo leven wij, door U bevrijd,",
+        "Altoos aan Uwen dienst gewijd."
+      ],
+      "syllables": [
+        ["Hij", "ligt", "verbrand", "en", "a-", "f-", "ge-", "hou-", "wen."],
+        ["Als", "Gij", "ver-", "woest,", "wie", "zal", "dan", "bou-", "wen?"],
+        ["Uw", "hand", "zij", "o-", "ver", "’s men-", "sen", "Zoon,"],
+        ["Dien", "G’U", "ge-", "sterkt", "hebt", "tot", "den", "troon;"],
+        ["Zo", "le-", "ven", "wij,", "door", "U", "be-", "vrijd,"],
+        ["A-", "l-", "toos", "aan", "Uwen", "dienst", "ge-", "wijd."]
+      ]
+    },
+    {
+      "number": 11,
+      "lines": [
+        "Behoud ons, HEER’ derlegermachten,",
+        "Zo zullen w’ons voor afval wachten;",
+        "Zo knielen w’altoos voor U neer.",
+        "Getrouwe Herder, breng ons weer;",
+        "Verlos ons, toon ons ’t lieflijk licht",
+        "Van Uw vertroostend aangezicht."
+      ],
+      "syllables": [
+        ["Be-", "houd", "ons,", "HEER’", "der-", "le-", "ger-", "mach-", "ten,"],
+        ["Zo", "zul-", "len", "w-", "’ons", "voor", "afval", "wach-", "ten;"],
+        ["Zo", "knie-", "len", "w-", "’altoos", "voor", "U", "neer."],
+        ["Ge-", "trou-", "we", "Her-", "der,", "breng", "ons", "weer;"],
+        ["Ver-", "los", "ons,", "toon", "ons", "’t lief-", "lijk", "licht"],
+        ["Van", "Uw", "ver-", "troos-", "tend", "aan-", "ge-", "zicht."]
+      ]
+    }
+  ]
+}

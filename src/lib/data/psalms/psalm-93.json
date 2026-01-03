@@ -1,0 +1,132 @@
+{
+  "id": "psalm-093",
+  "number": 93,
+  "title": "Psalm 93",
+  "category": "psalm",
+  "mode": "hypo-mixolydisch (Genève 1562)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "De HEER’ regeert; de hoogste Majesteit,",
+        "Bekleed met sterkt’, omgord met heerlijkheid,",
+        "Bevestigt d’ aard’ en houdt door Zijne hand",
+        "Dat schoon gebouw onwankelbaar in stand."
+      ],
+      "syllables": [
+        ["De", "HEER’", "re-", "geert;", "de", "hoog-", "ste", "Ma-", "jes-", "teit,"],
+        ["Be-", "kleed", "met", "sterkt’,", "om-", "gord", "met", "heer-", "lijk-", "heid,"],
+        ["Be-", "ves-", "tigt", "d’aar-", "d’en", "houdt", "door", "Zij-", "ne", "hand"],
+        ["Dat", "schoon", "ge-", "bouw", "on-", "wan-", "kel-", "baar", "in", "stand."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Gij hebt Uw troon van eeuwigheid gegrond.",
+        "De waat’ren, HEER’, verheffen zich in ’t rond;",
+        "Rivier en meer verheffen hun geruis;",
+        "Het siddert al op ’t woedend stroomgedruis."
+      ],
+      "syllables": [
+        ["Gij", "hebt", "Uw", "troon", "van", "eeu-", "wig-", "heid", "ge-", "grond."],
+        ["De", "waat-", "’ren,", "HEER’,", "ver-", "hef-", "fen", "zich", "in", "’t rond;"],
+        ["Ri-", "vier", "en", "meer", "ver-", "hef-", "fen", "hun", "ge-", "ruis;"],
+        ["Het", "sid-", "dert", "al", "op", "’t woe-", "dend", "stroom-", "ge-", "druis."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Maar, HEER’, Gij zijt veel sterker dan ’t geweld",
+        "Derwaat’ren, dien Uw almacht palen stelt",
+        "De grote zee zwijgt op Uw wenk en wil,",
+        "Hoe fel zij bruis’, hoe fel zij woede, stil."
+      ],
+      "syllables": [
+        ["Maar,", "HEER’,", "Gij", "zijt", "veel", "ster-", "ker", "dan", "’t ge-", "weld"],
+        ["Der-", "waat-", "’ren,", "dien", "Uw", "al-", "macht", "pa-", "len", "stelt"],
+        ["De", "gro-", "te", "zee", "zwijgt", "op", "Uw", "wenk", "en", "wil,"],
+        ["Hoe", "fel", "zij", "bruis’,", "hoe", "fel", "zij", "woe-", "de,", "stil."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Uw macht is groot, Uw trouw zal nooit vergaan;",
+        "Al wat Gij ooit beloofd hebt, zal bestaan.",
+        "De heiligheid is voor Uw huis, o HEER’,",
+        "Eeuw uit, eeuw in, tot sieraad en tot eer."
+      ],
+      "syllables": [
+        ["Uw", "macht", "is", "groot,", "Uw", "trouw", "zal", "nooit", "ver-", "gaan;"],
+        ["Al", "wat", "Gij", "ooit", "be-", "loofd", "hebt,", "zal", "be-", "staan."],
+        ["De", "hei-", "lig-", "heid", "is", "voor", "Uw", "huis,", "o", "HEER’,"],
+        ["Eeuw", "uit,", "eeuw", "in,", "tot", "sie-", "raad", "en", "tot", "eer."]
+      ]
+    }
+  ]
+}

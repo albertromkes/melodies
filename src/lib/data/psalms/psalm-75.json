@@ -1,0 +1,196 @@
+{
+  "id": "psalm-075",
+  "number": 75,
+  "title": "Psalm 75",
+  "category": "psalm",
+  "mode": "lydisch (Genève 1562)",
+  "keySignature": "F",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "U alleen, U loven wij;",
+        "Ja wij loven U, o HEER’,",
+        "Want Uw Naam, zo rijk van eer,",
+        "Is tot onze vreugd nabij.",
+        "Dies vertelt men in ons land,",
+        "Al de wond’ ren Uwer hand."
+      ],
+      "syllables": [
+        ["U", "al-", "leen,", "U", "lo-", "ven", "wij;"],
+        ["Ja", "wij", "lo-", "ven", "U,", "o", "HEER’,"],
+        ["Want", "Uw", "Naam,", "zo", "rijk", "van", "eer,"],
+        ["Is", "tot", "on-", "ze", "vreugd", "na-", "bij."],
+        ["Dies", "ver-", "telt", "men", "in", "ons", "land,"],
+        ["Al", "de", "wond’", "ren", "U-", "wer", "hand."]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Als ik ’t ambt ontvangen zal,",
+        "Wil ik, volgens eed en plicht,",
+        "Altoos recht doen in ’t gericht.",
+        "Land en volk was in verval;",
+        "Maar zijn pijlers steld’ ik vast,",
+        "Tegen woed’ en overlast."
+      ],
+      "syllables": [
+        ["Als", "ik", "’t ambt", "ont-", "van-", "gen", "zal,"],
+        ["Wil", "ik,", "vol-", "gens", "eed", "en", "plicht,"],
+        ["Al-", "toos", "recht", "doen", "in", "’t ge-", "richt."],
+        ["Land", "en", "volk", "was", "in", "ver-", "val;"],
+        ["Maar", "zijn", "pij-", "lers", "steld’", "ik", "vast,"],
+        ["Te-", "gen", "woed’", "en", "o-", "ver-", "last."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Tot het dom en dwaas geslacht,",
+        "Zeid’ ik: „Wees niet zinneloos.”",
+        "Tot de snoden; „Weest niet boos,",
+        "Dat gij hoornen, sterk van kracht,",
+        "Woedende naar boven steekt,",
+        "En met stijven halze spreekt.”"
+      ],
+      "syllables": [
+        ["Tot", "het", "dom", "en", "dwaas", "ge-", "slacht,"],
+        ["Zeid’", "ik:", "„Wees", "niet", "zin-", "ne-", "loos.”"],
+        ["Tot", "de", "sno-", "den;", "„Weest", "niet", "boos,"],
+        ["Dat", "gij", "hoor-", "nen,", "sterk", "van", "kracht,"],
+        ["Woe-", "den-", "de", "naar", "bo-", "ven", "steekt,"],
+        ["En", "met", "stij-", "ven", "hal-", "ze", "spreekt.”"]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Geen geval, geen zorg, geen list,",
+        "Oost, noch west, noch zandwoestijn,",
+        "Doet ons meer of minder zijn:",
+        "God is rechter, die ’t beslist;",
+        "Die, als aller oppervoogd,",
+        "Deez’ vernedert, dien verhoogt."
+      ],
+      "syllables": [
+        ["Geen", "ge-", "val,", "geen", "zorg,", "geen", "list,"],
+        ["Oost,", "noch", "west,", "noch", "zand-", "woes-", "tijn,"],
+        ["Doet", "ons", "meer", "of", "min-", "der", "zijn:"],
+        ["God", "is", "rech-", "ter,", "die", "’t be-", "slist;"],
+        ["Die,", "als", "al-", "ler", "op-", "per-", "voogd,"],
+        ["Deez’", "ver-", "ne-", "dert,", "dien", "ver-", "hoogt."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Want des HEEREN hand besluit",
+        "Enen kelk vol bitterheid,",
+        "In Zijn gramschap toebereid,",
+        "En Hij drenkt er ’t mensdom uit;",
+        "Doch dergoddelozen mond",
+        "Zuigt Zijn hef uit, tot den grond."
+      ],
+      "syllables": [
+        ["Want", "des", "HEE-", "REN", "hand", "be-", "sluit"],
+        ["E-", "nen", "kelk", "vol", "bit-", "ter-", "heid,"],
+        ["In", "Zijn", "gram-", "schap", "toe-", "be-", "reid,"],
+        ["En", "Hij", "drenkt", "er", "’t mens-", "dom", "uit;"],
+        ["Doch", "der-", "god-", "de-", "lo-", "zen", "mond"],
+        ["Zuigt", "Zijn", "hef", "uit,", "tot", "den", "grond."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "’k Zal dit melden, ’k zal altijd",
+        "Zingen Jakobs God tereer,",
+        "Slaan derbozen hoornen neer,",
+        "Vellen wat Zijn Naam bestrijdt;",
+        "Maar dervromen hoorn en macht",
+        "Zal verhoogd zijn door Gods kracht."
+      ],
+      "syllables": [
+        ["’k Zal", "dit", "mel-", "den,", "’k zal", "al-", "tijd"],
+        ["Zin-", "gen", "Ja-", "kobs", "God", "te-", "reer,"],
+        ["Slaan", "der-", "bo-", "zen", "hoor-", "nen", "neer,"],
+        ["Vel-", "len", "wat", "Zijn", "Naam", "be-", "strijdt;"],
+        ["Maar", "der-", "vro-", "men", "hoorn", "en", "macht"],
+        ["Zal", "ver-", "hoogd", "zijn", "door", "Gods", "kracht."]
+      ]
+    }
+  ]
+}

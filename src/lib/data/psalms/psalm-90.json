@@ -1,0 +1,275 @@
+{
+  "id": "psalm-090",
+  "number": 90,
+  "title": "Psalm 90",
+  "category": "psalm",
+  "mode": "dorisch (Bourgois 1551)",
+  "keySignature": "C",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["d/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Gij zijt, o HEER’, van d’ allervroegste jaren",
+        "Voor ons geweest een toevlucht in gevaren.",
+        "Eer berg en rots uit niet geboren waren,",
+        "Eer d’ aarde rustt’ op hare grondpilaren",
+        "Van eeuwigheid, o God Die eeuwig leeft,",
+        "Zijt Gij de God, Die eind noch oorsprong heeft!"
+      ],
+      "syllables": [
+        ["Gij", "zijt,", "o", "HEER’,", "van", "d’al-", "ler-", "vroeg-", "ste", "ja-", "ren"],
+        ["Voor", "ons", "ge-", "weest", "een", "toe-", "vlucht", "in", "ge-", "va-", "ren."],
+        ["Eer", "berg", "en", "rots", "uit", "niet", "ge-", "bo-", "ren", "wa-", "ren,"],
+        ["Eer", "d’aar-", "de", "rust-", "t’op", "ha-", "re", "grond-", "pi-", "la-", "ren"],
+        ["Van", "eeu-", "wig-", "heid,", "o", "God", "Die", "eeu-", "wig", "leeft,"],
+        ["Zijt", "Gij", "de", "God,", "Die", "eind", "noch", "oor-", "sprong", "heeft!"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uw oppermacht, die wij ootmoedig eren,",
+        "Kan door een wenk den mens zijn broosheid leren.",
+        "Uw wenk alleen, al schijnt ons niets te deren,",
+        "Verbrijzelt ons, doet ons tot aarde keren!",
+        "Want in Uw oog zijn duizend jaren, HEER’,",
+        "Een enkle dag, een nachtwaak, en niets meer."
+      ],
+      "syllables": [
+        ["Uw", "op-", "per-", "macht,", "die", "wij", "oot-", "moe-", "dig", "e-", "ren,"],
+        ["Kan", "door", "een", "wenk", "den", "mens", "zijn", "broos-", "heid", "le-", "ren."],
+        ["Uw", "wenk", "al-", "leen,", "al", "schijnt", "ons", "niets", "te", "de-", "ren,"],
+        ["Ver-", "brij-", "zelt", "ons,", "doet", "ons", "tot", "aar-", "de", "ke-", "ren!"],
+        ["Want", "in", "Uw", "oog", "zijn", "dui-", "zend", "ja-", "ren,", "HEER’,"],
+        ["Een", "en-", "kle", "dag,", "een", "nacht-", "waak,", "en", "niets", "meer."]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Gij overstroomt het mensdom; zijn vermogen",
+        "Is, als een slaap, een ijd’ le droom, vervlogen.",
+        "Zij zijn als ’t gras, dat ’s morgens, overtogen",
+        "Met frissen dauw, in bloei staat voor elks ogen.",
+        "Maar ’s avonds, als het afgesneden wordt,",
+        "Op ’t open veld in weinig tijds verdort."
+      ],
+      "syllables": [
+        ["Gij", "o-", "ver-", "stroomt", "het", "mens-", "dom;", "zijn", "ver-", "mo-", "gen"],
+        ["Is,", "als", "een", "slaap,", "een", "ijd’", "le", "droom,", "ver-", "vlo-", "gen."],
+        ["Zij", "zijn", "als", "’t gras,", "dat", "’s mor-", "gens,", "o-", "ver-", "to-", "gen"],
+        ["Met", "fris-", "sen", "dauw,", "in", "bloei", "staat", "voor", "elks", "o-", "gen."],
+        ["Maar", "’s a-", "vonds,", "als", "het", "af-", "ge-", "sne-", "den", "wordt,"],
+        ["Op", "’t o-", "pen", "veld", "in", "wei-", "nig", "tijds", "ver-", "dort."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Door Uwen toorn vergaat ons kwijnend leven;",
+        "Uw gramschap doet ons hart van doodschrik beven,",
+        "O God, als Gij, in majesteit verheven,",
+        "Het onrecht, dat w’in ’t openbaar bedreven,",
+        "En ’t kwaad, door ons in ’t heimelijk verricht,",
+        "In ’t licht stelt voor Uw glansrijk aangezicht."
+      ],
+      "syllables": [
+        ["Door", "U-", "wen", "toorn", "ver-", "gaat", "ons", "kwij-", "nend", "le-", "ven;"],
+        ["Uw", "gram-", "schap", "doet", "ons", "hart", "van", "dood-", "schrik", "be-", "ven,"],
+        ["O", "God,", "als", "Gij,", "in", "ma-", "jes-", "teit", "ver-", "he-", "ven,"],
+        ["Het", "on-", "recht,", "dat", "w’in", "’t o-", "pen-", "baar", "be-", "dre-", "ven,"],
+        ["En", "’t kwaad,", "door", "ons", "in", "’t hei-", "me-", "lijk", "ver-", "richt,"],
+        ["In", "’t licht", "stelt", "voor", "Uw", "glans-", "rijk", "aan-", "ge-", "zicht."]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "Wanneer Uw toorn en gramschap ons bezwaren,",
+        "Dan wenden, dan verdwijnen onze jaren.",
+        "Wij zien hen als gedachten, henenvaren;",
+        "Of, blijft Uw gunst ons in het leven sparen,",
+        "Dan klimmen wij ten hoogste tot den top",
+        "Van zeventig of tachtig jaren op."
+      ],
+      "syllables": [
+        ["Wan-", "neer", "Uw", "toorn", "en", "gram-", "schap", "ons", "be-", "zwa-", "ren,"],
+        ["Dan", "wen-", "den,", "dan", "ver-", "dwij-", "nen", "on-", "ze", "ja-", "ren."],
+        ["Wij", "zien", "hen", "als", "ge-", "dach-", "ten,", "he-", "nen-", "va-", "ren;"],
+        ["Of,", "blijft", "Uw", "gunst", "ons", "in", "het", "le-", "ven", "spa-", "ren,"],
+        ["Dan", "klim-", "men", "wij", "ten", "hoog-", "ste", "tot", "den", "top"],
+        ["Van", "ze-", "ven-", "tig", "of", "tach-", "tig", "ja-", "ren", "op."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Helaas, het best van onze beste dagen",
+        "Baart dikwijls smart, geeft dikwijls stof tot klagen;",
+        "Daar zorg, verdriet en jammerlijke plagen",
+        "Steeds, beurt om beurt, de matte ziel doorknagen.",
+        "De levensdraad wordt schielijk afgesneên;",
+        "Wij schenen sterk, en ach, wij vliegen heen."
+      ],
+      "syllables": [
+        ["He-", "laas,", "het", "best", "van", "on-", "ze", "bes-", "te", "da-", "gen"],
+        ["Baart", "dik-", "wijls", "smart,", "geeft", "dik-", "wijls", "stof", "tot", "kla-", "gen;"],
+        ["Daar", "zorg,", "ver-", "driet", "en", "jam-", "mer-", "lij-", "ke", "pla-", "gen"],
+        ["Steeds,", "beurt", "om", "beurt,", "de", "mat-", "te", "ziel", "door-", "kna-", "gen."],
+        ["De", "le-", "vens-", "draad", "wordt", "schie-", "lijk", "af-", "ge-", "sneên;"],
+        ["Wij", "sche-", "nen", "sterk,", "en", "ach,", "wij", "vlie-", "gen", "heen."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Wie kent Uw toorn, wie zijn geduchte krachten?",
+        "Wie vreest dien recht geduchtste Macht dermachten?",
+        "Leer ons den tijd deslevens kost’lijk achten,",
+        "Opdat ons hart de wijsheid moog’ betrachten.",
+        "Keer weder HEER’, Uw gunst koom’ ons te stâ.",
+        "Hoe lang ontzegt G’Uw knechten Uw genâ?"
+      ],
+      "syllables": [
+        ["Wie", "kent", "Uw", "toorn,", "wie", "zijn", "ge-", "duch-", "te", "krach-", "ten?"],
+        ["Wie", "vreest", "dien", "recht", "ge-", "ducht-", "ste", "Macht", "der-", "mach-", "ten?"],
+        ["Leer", "ons", "den", "tijd", "de-", "sle-", "vens", "kost-", "’lijk", "ach-", "ten,"],
+        ["Op-", "dat", "ons", "hart", "de", "wijs-", "heid", "moog’", "be-", "trach-", "ten."],
+        ["Keer", "we-", "der", "HEER’,", "Uw", "gunst", "koom’", "ons", "te", "stâ."],
+        ["Hoe", "lang", "ont-", "zegt", "G’Uw", "knech-", "ten", "Uw", "ge-", "nâ?"]
+      ]
+    },
+    {
+      "number": 8,
+      "lines": [
+        "Uw gunst sterkt meer dan d’ uitgezochtste spijzen.",
+        "Laat, met het licht, haar licht voor ons verrijzen;",
+        "Zo zal ons hart op liefelijke wijzen,",
+        "Uw goedheid, al ons ov’rig leven, prijzen.",
+        "Verblijd ons naar de maat van onzen druk,",
+        "En naar den tijd van al ons ongeluk."
+      ],
+      "syllables": [
+        ["Uw", "gunst", "sterkt", "meer", "dan", "d’uit-", "ge-", "zocht-", "ste", "spij-", "zen."],
+        ["Laat,", "met", "het", "licht,", "haar", "licht", "voor", "ons", "ver-", "rij-", "zen;"],
+        ["Zo", "zal", "ons", "hart", "op", "lie-", "fe-", "lij-", "ke", "wij-", "zen,"],
+        ["Uw", "goed-", "heid,", "al", "ons", "ov-", "’rig", "le-", "ven,", "prij-", "zen."],
+        ["Ver-", "blijd", "ons", "naar", "de", "maat", "van", "on-", "zen", "druk,"],
+        ["En", "naar", "den", "tijd", "van", "al", "ons", "on-", "ge-", "luk."]
+      ]
+    },
+    {
+      "number": 9,
+      "lines": [
+        "Laat Uw genâ ons met haar troost verrijken,",
+        "En laat Uw werk aan Uwe knechten blijken,",
+        "Uw heerlijkheid niet van hun kind’ ren wijken;",
+        "Uw liefd’, Uw macht behoed’ ons voor bezwijken.",
+        "Sterk onze hand, en zegen onze vlijt;",
+        "Bekroon ons werk, en nu, en t’allen tijd’."
+      ],
+      "syllables": [
+        ["Laat", "Uw", "ge-", "nâ", "ons", "met", "haar", "troost", "ver-", "rij-", "ken,"],
+        ["En", "laat", "Uw", "werk", "aan", "U-", "we", "knech-", "ten", "blij-", "ken,"],
+        ["Uw", "heer-", "lijk-", "heid", "niet", "van", "hun", "kind’", "ren", "wij-", "ken;"],
+        ["Uw", "liefd’,", "Uw", "macht", "be-", "hoe-", "d’ons", "voor", "be-", "zwij-", "ken."],
+        ["Sterk", "on-", "ze", "hand,", "en", "ze-", "gen", "on-", "ze", "vlijt;"],
+        ["Be-", "kroon", "ons", "werk,", "en", "nu,", "en", "t-", "’allen", "tijd’."]
+      ]
+    }
+  ]
+}
