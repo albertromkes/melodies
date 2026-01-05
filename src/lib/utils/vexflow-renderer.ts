@@ -3,7 +3,7 @@
  * Isolates all VexFlow-specific logic
  */
 
-import { Renderer, Stave, StaveNote, Voice, Formatter, Accidental } from 'vexflow';
+import { Renderer, Stave, StaveNote, Voice, Formatter, Accidental, Barline } from 'vexflow';
 import type { NoteData, Measure } from '../types/music';
 
 /** Configuration for staff rendering */
@@ -27,6 +27,7 @@ interface LineConfig {
   showClef: boolean;
   showKeySignature: boolean;
   showTimeSignature: boolean;
+  isLastLine: boolean;
 }
 
 /**
@@ -83,6 +84,11 @@ function renderLine(
   }
   if (lineConfig.showTimeSignature) {
     stave.addTimeSignature(`${renderConfig.timeSignature[0]}/${renderConfig.timeSignature[1]}`);
+  }
+  
+  // Set end bar line type - double bar for last measure
+  if (lineConfig.isLastLine) {
+    stave.setEndBarType(Barline.type.END);
   }
   
   stave.setContext(context).draw();
@@ -159,12 +165,14 @@ export function renderMultiLineMelody(
   let currentY = 40;
   
   measures.forEach((measure, index) => {
+    const isLastMeasure = index === measures.length - 1;
     const lineConfig: LineConfig = {
       notes: measure.notes,
       lyrics: measure.lyrics,
       showClef: true, // Show clef on all lines
       showKeySignature: true, // Show key sig on all lines
       showTimeSignature: false, //index === 0, // Only show time sig on first line
+      isLastLine: isLastMeasure,
     };
     
     currentY = renderLine(context, lineConfig, config, staveX, currentY, staveWidth);
