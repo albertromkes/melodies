@@ -1,40 +1,99 @@
 /**
- * Build-time script to generate search indexes for psalms.
+ * Build-time script to generate search indexes for all songs (psalms, gezangen, etc.).
  * Generates:
- * - public/search/psalms-meta.json  (small, always loaded - number, title, tags)
+ * - public/search/songs-meta.json   (small, always loaded - number, title, category, tags)
  * - public/search/verses-index.json (larger, lazy-loaded - MiniSearch index of verse text)
+ * - public/search/categories.json   (list of available categories)
  */
 
-import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
+import { readdir, readFile, writeFile, mkdir, stat } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import MiniSearch from 'minisearch';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const PSALMS_DIR = join(__dirname, '..', 'src', 'lib', 'data', 'psalms');
+const DATA_DIR = join(__dirname, '..', 'src', 'lib', 'data');
 const OUTPUT_DIR = join(__dirname, '..', 'public', 'search');
 
-async function loadPsalms() {
-  const files = await readdir(PSALMS_DIR);
-  const psalmFiles = files.filter(f => f.endsWith('.json'));
-  
-  const psalms = [];
-  for (const file of psalmFiles) {
-    const content = await readFile(join(PSALMS_DIR, file), 'utf-8');
-    psalms.push(JSON.parse(content));
-  }
-  
-  // Sort by number
-  psalms.sort((a, b) => a.number - b.number);
-  return psalms;
+// Category display names
+const categoryDisplayNames = {
+  psalm: 'Psalms',
+  psalms: 'Psalms',
+  gezang: 'Gezangen',
+  gezangen: 'Gezangen',
+};
+
+function capitalizeFirst(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-function buildMetaIndex(psalms) {
-  return psalms.map(p => ({
-    id: p.id,
-    number: p.number,
-    title: p.title,
-    tags: p.tags || [],
+async function discoverCategories() {
+  const entries = await readdir(DATA_DIR, { withFileTypes: true });
+  const categories = [];
+  
+  for (const entry of entries) {
+    if (entry.isDirectory()) {
+      // Check if directory contains JSON files
+      const dirPath = join(DATA_DIR, entry.name);
+      const files = await readdir(dirPath);
+      const jsonFiles = files.filter(f => f.endsWith('.json'));
+      
+      if (jsonFiles.length > 0) {
+        categories.push({
+          id: entry.name,
+          name: categoryDisplayNames[entry.name] || capitalizeFirst(entry.name),
+          count: jsonFiles.length,
+        });
+      }
+    }
+  }
+  
+  // Sort: psalms first, then alphabetically
+  return categories.sort((a, b) => {
+    if (a.id === 'psalm' || a.id === 'psalms') return -1;
+    if (b.id === 'psalm' || b.id === 'psalms') return 1;
+    return a.name.localeCompare(b.name);
+  });
+}
+
+async function loadAllSongs(categories) {
+  const songs = [];
+  
+  for (const category of categories) {
+    const categoryDir = join(DATA_DIR, category.id);
+    const files = await readdir(categoryDir);
+    const jsonFiles = files.filter(f => f.endsWith('.json'));
+    
+    for (const file of jsonFiles) {
+      const content = await readFile(join(categoryDir, file), 'utf-8');
+      const song = JSON.parse(content);
+      // Ensure category is set
+      song.category = song.category || category.id;
+      songs.push(song);
+    }
+  }
+  
+  // Sort by category, then by number
+  songs.sort((a, b) => {
+    if (a.category !== b.category) {
+      // Psalms first
+      if (a.category === 'psalms') return -1;
+      if (b.category === 'psalms') return 1;
+      return a.category.localeCompare(b.category);
+    }
+    return a.number - b.number;
+  });
+  
+  return songs;
+}
+
+function buildMetaIndex(songs) {
+  return songs.map(s => ({
+    id: s.id,
+    number: s.number,
+    title: s.title,
+    category: s.category,
+    tags: s.tags || [],
   }));
 }
 
@@ -49,28 +108,29 @@ function normalizeText(s) {
     .trim();
 }
 
-function buildVersesIndex(psalms) {
+function buildVersesIndex(songs) {
   // Create MiniSearch index for verse text search
   const miniSearch = new MiniSearch({
     fields: ['text'],        // searchable field
     // Include `text` so the client can do exact phrase filtering when user uses quotes.
-    storeFields: ['psalmId', 'psalmNumber', 'text'],
+    storeFields: ['songId', 'songNumber', 'category', 'text'],
     idField: 'docId',
   });
   
-  // Create documents: one per psalm with all verses combined
-  const documents = psalms.map(psalm => {
+  // Create documents: one per song with all verses combined
+  const documents = songs.map(song => {
     // Combine all verse lines into searchable text (use lines, not syllables, to keep words intact)
-    const allTextRaw = psalm.verses
+    const allTextRaw = song.verses
       .flatMap(v => v.lines)
       .join(' ');
 
     const allText = normalizeText(allTextRaw);
     
     return {
-      docId: psalm.id,
-      psalmId: psalm.id,
-      psalmNumber: psalm.number,
+      docId: song.id,
+      songId: song.id,
+      songNumber: song.number,
+      category: song.category,
       text: allText,
     };
   });
@@ -86,18 +146,27 @@ async function main() {
   // Ensure output directory exists
   await mkdir(OUTPUT_DIR, { recursive: true });
   
-  // Load all psalms
-  const psalms = await loadPsalms();
-  console.log(`Loaded ${psalms.length} psalms`);
+  // Discover categories
+  const categories = await discoverCategories();
+  console.log(`Found ${categories.length} categories: ${categories.map(c => c.name).join(', ')}`);
+  
+  // Load all songs from all categories
+  const songs = await loadAllSongs(categories);
+  console.log(`Loaded ${songs.length} songs total`);
+  
+  // Write categories index
+  const categoriesPath = join(OUTPUT_DIR, 'categories.json');
+  await writeFile(categoriesPath, JSON.stringify(categories, null, 2));
+  console.log(`Wrote ${categoriesPath}`);
   
   // Build and write metadata index (always loaded)
-  const meta = buildMetaIndex(psalms);
-  const metaPath = join(OUTPUT_DIR, 'psalms-meta.json');
+  const meta = buildMetaIndex(songs);
+  const metaPath = join(OUTPUT_DIR, 'songs-meta.json');
   await writeFile(metaPath, JSON.stringify(meta, null, 2));
   console.log(`Wrote ${metaPath}`);
   
   // Build and write verses index (lazy loaded)
-  const versesIndex = buildVersesIndex(psalms);
+  const versesIndex = buildVersesIndex(songs);
   const versesPath = join(OUTPUT_DIR, 'verses-index.json');
   await writeFile(versesPath, versesIndex);
   console.log(`Wrote ${versesPath}`);

@@ -1,0 +1,33 @@
+{
+  "id": "gezang-001",
+  "number": 1,
+  "title": "Gezang 1",
+  "category": "gezangen",
+  "mode": "Sample hymn",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Dit is een voorbeeld gezang"
+      ],
+      "syllables": [
+        ["Dit", "is", "een", "voor-"]
+      ]
+    }
+  ]
+}

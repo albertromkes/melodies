@@ -1,13 +1,17 @@
 <script lang="ts">
   import type { PsalmData, Theme } from './lib/types/music';
-  import { psalms } from './lib/data/psalms';
-  import PsalmList from './lib/components/PsalmList.svelte';
+  import type { Category } from './lib/types';
+  import { allSongs, getCategories } from './lib/data';
+  import SongList from './lib/components/SongList.svelte';
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
   import ThemeToggle from './lib/components/ThemeToggle.svelte';
 
   // Application state
   let currentView = $state<'list' | 'detail'>('list');
-  let selectedPsalm = $state<PsalmData | null>(null);
+  let selectedSong = $state<PsalmData | null>(null);
+  let categories = $state<Category[]>(getCategories());
+  // Default to first category (psalms should be first due to sorting)
+  let selectedCategory = $state<string | null>(getCategories()[0]?.id ?? null);
   let searchQuery = $state('');
   let searchInVerses = $state(false);
   let useFuzzyVerseSearch = $state(false);
@@ -29,18 +33,26 @@
     localStorage.setItem('psalm-app-theme', theme);
   });
 
-  function handleSelectPsalm(psalm: PsalmData) {
-    selectedPsalm = psalm;
+  function handleSelectSong(song: PsalmData) {
+    selectedSong = song;
     currentView = 'detail';
   }
 
   function handleBack() {
     currentView = 'list';
-    selectedPsalm = null;
+    selectedSong = null;
+  }
+
+  function handleSelectCategory(categoryId: string | null) {
+    selectedCategory = categoryId;
   }
 
   function handleSearchChange(query: string) {
     searchQuery = query;
+    // When searching, search across all categories
+    if (query.trim()) {
+      // Keep selected category for filtering, don't auto-clear
+    }
   }
 
   function handleSearchInVersesChange(value: boolean) {
@@ -54,6 +66,13 @@
   function toggleTheme() {
     theme = theme === 'light' ? 'dark' : 'light';
   }
+
+  // Get app title based on selected category
+  let appTitle = $derived.by(() => {
+    if (!selectedCategory) return 'All Songs';
+    const cat = categories.find(c => c.id === selectedCategory);
+    return cat?.name || 'Songs';
+  });
 </script>
 
 <div class="app">
@@ -61,26 +80,29 @@
 
   {#if currentView === 'list'}
     <header class="app-header">
-      <h1>Psalm Melodies</h1>
-      <p class="subtitle">Select a psalm to view its melody</p>
+      <h1>{appTitle}</h1>
+      <p class="subtitle">Select a song to view its melody</p>
     </header>
     
     <main>
-      <PsalmList
-        {psalms}
+      <SongList
+        songs={allSongs}
+        {categories}
+        {selectedCategory}
         {searchQuery}
         {searchInVerses}
         {useFuzzyVerseSearch}
-        onSelectPsalm={handleSelectPsalm}
+        onSelectSong={handleSelectSong}
+        onSelectCategory={handleSelectCategory}
         onSearchChange={handleSearchChange}
         onSearchInVersesChange={handleSearchInVersesChange}
         onUseFuzzyChange={handleUseFuzzyChange}
       />
     </main>
-  {:else if currentView === 'detail' && selectedPsalm}
+  {:else if currentView === 'detail' && selectedSong}
     <main>
       <PsalmDetail
-        psalm={selectedPsalm}
+        psalm={selectedSong}
         onBack={handleBack}
       />
     </main>
