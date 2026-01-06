@@ -30,14 +30,14 @@
 
 <div class="verse-selector">
   <div class="verse-header">
-    <h3>Lyrics</h3>
+    <h3>Tekst</h3>
     <label class="toggle-label">
       <input
         type="checkbox"
         checked={showLyrics}
         onchange={(e) => onToggleLyrics(e.currentTarget.checked)}
       />
-      Show on staff
+      Toon op notenbalk
     </label>
   </div>
 
@@ -49,7 +49,7 @@
           class:active={activeVerseNumber === verseNum}
           onclick={() => onVerseChange(verseNum)}
         >
-          Verse {verseNum}
+          Vers {verseNum}
         </button>
       {/each}
     </div>
@@ -62,7 +62,7 @@
       </div>
     {/if}
   {:else}
-    <p class="no-verses">No verses available for this psalm.</p>
+    <p class="no-verses">Geen verzen beschikbaar.</p>
   {/if}
 </div>
 

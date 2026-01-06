@@ -6,14 +6,214 @@
   interface Props {
     psalm: PsalmData;
     onBack: () => void;
+    onNextSong?: () => void;
+    onPreviousSong?: () => void;
+    hasNextSong?: boolean;
+    hasPreviousSong?: boolean;
   }
 
-  let { psalm, onBack }: Props = $props();
+  let { psalm, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false }: Props = $props();
 
   // Local state for this psalm view
   let transposeSemitones = $state(0);
   let activeVerseNumber = $state(1);
   let showLyrics = $state(true);
+  
+  // Touch gesture state
+  let touchStartX = $state(0);
+  let touchStartY = $state(0);
+  let touchStartTime = $state(0);
+  let lastTapTime = $state(0);
+  let lastTapX = $state(0);
+  let lastTapY = $state(0);
+  let gestureContainerRef = $state<HTMLElement | null>(null);
+  let staffSectionRef = $state<HTMLElement | null>(null);
+  
+  // Gesture feedback state
+  let gestureIndicator = $state<string | null>(null);
+  let gestureIndicatorTimeout: ReturnType<typeof setTimeout> | null = null;
+  
+  function showGestureIndicator(text: string) {
+    gestureIndicator = text;
+    if (gestureIndicatorTimeout) {
+      clearTimeout(gestureIndicatorTimeout);
+    }
+    gestureIndicatorTimeout = setTimeout(() => {
+      gestureIndicator = null;
+    }, 800);
+  }
+  
+  // Double-tap detection constants
+  const DOUBLE_TAP_DELAY = 300; // ms between taps
+  const DOUBLE_TAP_RADIUS = 50; // pixels - taps must be close together
+  
+  // Screen zone boundaries (percentages)
+  const LEFT_ZONE = 0.3; // Left 30% of screen
+  const RIGHT_ZONE = 0.7; // Right 30% starts at 70%
+  const TOP_ZONE = 0.25; // Top 25%
+  const BOTTOM_ZONE = 0.75; // Bottom 25% starts at 75%
+  
+  // Swipe detection constants
+  const MIN_SWIPE_DISTANCE = 80; // minimum pixels to count as swipe
+  const MAX_SWIPE_TIME = 500; // maximum ms for swipe gesture
+  
+  function handleTap(x: number, y: number) {
+    const now = Date.now();
+    const timeSinceLastTap = now - lastTapTime;
+    const distanceFromLastTap = Math.sqrt(
+      Math.pow(x - lastTapX, 2) + Math.pow(y - lastTapY, 2)
+    );
+    
+    // Check for double tap
+    if (timeSinceLastTap < DOUBLE_TAP_DELAY && distanceFromLastTap < DOUBLE_TAP_RADIUS) {
+      handleDoubleTap(x, y);
+      lastTapTime = 0; // Reset to prevent triple-tap
+    } else {
+      lastTapTime = now;
+      lastTapX = x;
+      lastTapY = y;
+    }
+  }
+  
+  function handleDoubleTap(x: number, y: number) {
+    if (!gestureContainerRef) return;
+    
+    const rect = gestureContainerRef.getBoundingClientRect();
+    const relativeX = (x - rect.left) / rect.width;
+    
+    // Determine which zone was double-tapped
+    // Priority: left/right for song navigation (works anywhere)
+    
+    // Left zone: previous song
+    if (relativeX < LEFT_ZONE) {
+      if (hasPreviousSong && onPreviousSong) {
+        showGestureIndicator('← Vorige');
+        onPreviousSong();
+      }
+      return;
+    }
+    
+    // Right zone: next song
+    if (relativeX > RIGHT_ZONE) {
+      if (hasNextSong && onNextSong) {
+        showGestureIndicator('Volgende →');
+        onNextSong();
+      }
+      return;
+    }
+    
+    // Transpose gestures only work within the staff section
+    if (!staffSectionRef) return;
+    
+    const staffRect = staffSectionRef.getBoundingClientRect();
+    const isWithinStaff = (
+      x >= staffRect.left &&
+      x <= staffRect.right &&
+      y >= staffRect.top &&
+      y <= staffRect.bottom
+    );
+    
+    if (!isWithinStaff) return;
+    
+    // Calculate relative Y position within the staff section
+    const relativeYInStaff = (y - staffRect.top) / staffRect.height;
+    
+    // Top zone of staff: transpose up
+    if (relativeYInStaff < TOP_ZONE) {
+      transposeSemitones++;
+      showGestureIndicator(`↑ +${transposeSemitones}`);
+      return;
+    }
+    
+    // Bottom zone of staff: transpose down
+    if (relativeYInStaff > BOTTOM_ZONE) {
+      transposeSemitones--;
+      showGestureIndicator(`↓ ${transposeSemitones}`);
+      return;
+    }
+    
+    // Center zone of staff: reset transposition
+    if (transposeSemitones !== 0) {
+      transposeSemitones = 0;
+      showGestureIndicator('⟲ Origineel');
+    }
+  }
+  
+  function goToNextVerse() {
+    const currentIndex = allVerseNumbers.indexOf(activeVerseNumber);
+    if (currentIndex < allVerseNumbers.length - 1) {
+      activeVerseNumber = allVerseNumbers[currentIndex + 1];
+      showGestureIndicator(`Vers ${activeVerseNumber}`);
+    }
+  }
+  
+  function goToPreviousVerse() {
+    const currentIndex = allVerseNumbers.indexOf(activeVerseNumber);
+    if (currentIndex > 0) {
+      activeVerseNumber = allVerseNumbers[currentIndex - 1];
+      showGestureIndicator(`Vers ${activeVerseNumber}`);
+    }
+  }
+
+  // Attach touch event listeners using $effect for proper Android WebView support
+  $effect(() => {
+    const container = gestureContainerRef;
+    if (!container) return;
+    
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length !== 1) return;
+      
+      const touch = e.touches[0];
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+      touchStartTime = Date.now();
+    };
+    
+    const onTouchEnd = (e: TouchEvent) => {
+      if (e.changedTouches.length !== 1) return;
+      
+      const touch = e.changedTouches[0];
+      const endX = touch.clientX;
+      const endY = touch.clientY;
+      const endTime = Date.now();
+      
+      const deltaX = endX - touchStartX;
+      const deltaY = endY - touchStartY;
+      const deltaTime = endTime - touchStartTime;
+      const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+      
+      // Check for swipe gesture (horizontal swipe for verse navigation)
+      if (deltaTime < MAX_SWIPE_TIME && Math.abs(deltaX) > MIN_SWIPE_DISTANCE && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+        e.preventDefault();
+        // Horizontal swipe detected
+        if (deltaX < 0) {
+          // Swipe left (from right to middle) → next verse
+          goToNextVerse();
+        } else {
+          // Swipe right (from left to middle) → previous verse
+          goToPreviousVerse();
+        }
+        // Reset tap tracking after swipe
+        lastTapTime = 0;
+        return;
+      }
+      
+      // Check for tap (minimal movement)
+      if (distance < 20 && deltaTime < 300) {
+        handleTap(endX, endY);
+      }
+    };
+    
+    // Add event listeners with passive: false to allow preventDefault
+    container.addEventListener('touchstart', onTouchStart, { passive: true });
+    container.addEventListener('touchend', onTouchEnd, { passive: false });
+    
+    // Cleanup
+    return () => {
+      container.removeEventListener('touchstart', onTouchStart);
+      container.removeEventListener('touchend', onTouchEnd);
+    };
+  });
 
   // Reset verse number when psalm changes
   $effect(() => {
@@ -115,9 +315,19 @@
   }
 </script>
 
-<div class="psalm-detail">
+<div 
+  class="psalm-detail"
+  bind:this={gestureContainerRef}
+>
+  <!-- Gesture indicator overlay -->
+  {#if gestureIndicator}
+    <div class="gesture-indicator">
+      {gestureIndicator}
+    </div>
+  {/if}
+  
   <header class="psalm-header">
-    <button class="back-btn" onclick={onBack} aria-label="Back to psalm list">
+    <button class="back-btn" onclick={onBack} aria-label="Terug naar lijst">
       ←
     </button>
     <div class="header-center">
@@ -132,7 +342,7 @@
           <button 
             class="control-btn" 
             onclick={() => transposeSemitones--}
-            aria-label="Transpose down one semitone"
+            aria-label="Halve toon omlaag"
           >
             −1
           </button>
@@ -140,14 +350,14 @@
             class="control-btn original-btn" 
             class:active={transposeSemitones === 0}
             onclick={() => transposeSemitones = 0}
-            aria-label="Reset to original key"
+            aria-label="Originele toonhoogte"
           >
-            Original
+            Origineel
           </button>
           <button 
             class="control-btn" 
             onclick={() => transposeSemitones++}
-            aria-label="Transpose up one semitone"
+            aria-label="Halve toon omhoog"
           >
             +1
           </button>
@@ -157,7 +367,7 @@
             class="control-btn" 
             onclick={decreaseScale} 
             disabled={scale <= MIN_SCALE}
-            aria-label="Decrease notation size"
+            aria-label="Verkleinen"
           >
             −
           </button>
@@ -166,7 +376,7 @@
             class="control-btn" 
             onclick={increaseScale} 
             disabled={scale >= MAX_SCALE}
-            aria-label="Increase notation size"
+            aria-label="Vergroten"
           >
             +
           </button>
@@ -175,7 +385,7 @@
     </div>
   </header>
 
-  <section class="staff-section">
+  <section class="staff-section" bind:this={staffSectionRef}>
     <StaffDisplay
       {measures}
       keySignature={psalm.keySignature}
@@ -206,6 +416,45 @@
     padding-top: 0;
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
+    touch-action: manipulation; /* Enables tap/swipe but disables double-tap zoom */
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    min-height: 100vh; /* Ensure full height for gesture detection */
+  }
+
+  .gesture-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    z-index: 1000;
+    pointer-events: none;
+    animation: fadeInOut 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(0.8);
+    }
+    15% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
   }
 
   .psalm-header {

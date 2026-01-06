@@ -17,6 +17,25 @@
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
 
+  // Get songs in current category for navigation
+  let songsInCurrentCategory = $derived.by(() => {
+    if (!selectedSong) return [];
+    const currentCategory = selectedSong.category;
+    return allSongs
+      .filter(s => s.category === currentCategory)
+      .sort((a, b) => a.number - b.number);
+  });
+
+  // Current song index for navigation
+  let currentSongIndex = $derived.by(() => {
+    if (!selectedSong) return -1;
+    return songsInCurrentCategory.findIndex(s => s.id === selectedSong!.id);
+  });
+
+  // Navigation availability
+  let hasNextSong = $derived(currentSongIndex >= 0 && currentSongIndex < songsInCurrentCategory.length - 1);
+  let hasPreviousSong = $derived(currentSongIndex > 0);
+
   // Load theme from localStorage on mount
   $effect(() => {
     const savedTheme = localStorage.getItem('psalm-app-theme') as Theme | null;
@@ -41,6 +60,18 @@
   function handleBack() {
     currentView = 'list';
     selectedSong = null;
+  }
+
+  function handleNextSong() {
+    if (hasNextSong) {
+      selectedSong = songsInCurrentCategory[currentSongIndex + 1];
+    }
+  }
+
+  function handlePreviousSong() {
+    if (hasPreviousSong) {
+      selectedSong = songsInCurrentCategory[currentSongIndex - 1];
+    }
   }
 
   function handleSelectCategory(categoryId: string | null) {
@@ -69,9 +100,9 @@
 
   // Get app title based on selected category
   let appTitle = $derived.by(() => {
-    if (!selectedCategory) return 'All Songs';
+    if (!selectedCategory) return 'Alle liederen';
     const cat = categories.find(c => c.id === selectedCategory);
-    return cat?.name || 'Songs';
+    return cat?.name || 'Liederen';
   });
 </script>
 
@@ -81,7 +112,7 @@
   {#if currentView === 'list'}
     <header class="app-header">
       <h1>{appTitle}</h1>
-      <p class="subtitle">Select a song to view its melody</p>
+      <p class="subtitle">Kies een lied om de melodie te bekijken</p>
     </header>
     
     <main>
@@ -104,6 +135,10 @@
       <PsalmDetail
         psalm={selectedSong}
         onBack={handleBack}
+        onNextSong={handleNextSong}
+        onPreviousSong={handlePreviousSong}
+        {hasNextSong}
+        {hasPreviousSong}
       />
     </main>
   {/if}

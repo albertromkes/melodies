@@ -181,7 +181,7 @@
   <div class="search-container">
     <input
       type="search"
-      placeholder="Search by number, title{searchInVerses ? ', or verse text' : ', or tags'}..."
+      placeholder="Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."
       value={searchQuery}
       oninput={(e) => onSearchChange(e.currentTarget.value)}
       class="search-input"
@@ -194,7 +194,7 @@
           checked={searchInVerses}
           onchange={(e) => onSearchInVersesChange(e.currentTarget.checked)}
         />
-        <span>Search in verses</span>
+        <span>Zoek in verzen</span>
         {#if versesIndexLoading}
           <span class="loading-indicator">⏳</span>
         {/if}
@@ -214,7 +214,7 @@
     </div>
     
     {#if searchQuery && !selectedCategory}
-      <p class="search-hint">Searching in all categories</p>
+      <p class="search-hint">Zoeken in alle categorieën</p>
     {/if}
   </div>
 
@@ -242,12 +242,12 @@
   {#if filteredSongs.length === 0}
     <p class="no-results">
       {#if searchQuery}
-        No songs found matching "{searchQuery}"
+        Geen liederen gevonden voor "{searchQuery}"
         {#if selectedCategory}
           in {getCategoryName(selectedCategory)}
         {/if}
       {:else}
-        No songs in this category
+        Geen liederen in deze categorie
       {/if}
     </p>
   {/if}
