@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'nl.psalmmelodies.app',
-  appName: 'Psalm Melodies',
+  appName: 'Psalmen en liederen',
   webDir: 'dist',
   server: {
     // For development, you can enable this to load from your dev server
