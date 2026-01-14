@@ -12,11 +12,12 @@ This document contains essential information for agentic coding agents working o
 - `npm run check` - Run type checking: `svelte-check` + `tsc` for node configs
 
 ### Data Generation Commands
-- `.\generate-psalms.ps1 -PsalmRange 23` - Generate single psalm JSON from ABC notation
+- `.\generate-psalms.ps1 -PsalmNumber 23` - Generate single psalm JSON from ABC notation
 - `.\generate-psalms.ps1 -PsalmRange 23-30` - Generate range of psalms
 - Uses `psalm-melodys.txt` (ABC notation) and web scraping from elrenkema.nl
 - Outputs to `src/lib/data/psalmen/psalm-{number}.json`
 - Requires Node.js for Dutch syllabification (`syllabify-nl.js`)
+- Automatically formats JSON output using `format-psalm.js` for readability
 
 ### Mobile Development (Capacitor)
 - `npm run cap:sync` - Build web app and sync to native platforms
@@ -175,7 +176,7 @@ import { renderStaff } from '../utils/vexflow-renderer';
 ### Running Data Generation
 ```powershell
 # Single psalm
-.\generate-psalms.ps1 -PsalmRange 23
+.\generate-psalms.ps1 -PsalmNumber 23
 
 # Range of psalms  
 .\generate-psalms.ps1 -PsalmRange 23-30
