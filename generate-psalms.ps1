@@ -1013,7 +1013,7 @@ $jsonObj = [ordered]@{
 # Bepaal output bestand
 $currentOutputFile = $OutputFile
 if (-not $currentOutputFile) {
-    $currentOutputFile = "$PSScriptRoot\src\lib\data\psalms\psalm-${PsalmNumber}.json"
+    $currentOutputFile = "$PSScriptRoot\src\lib\data\psalmen\psalm-${PsalmNumber}.json"
 }
 
 # Converteer naar JSON met goede formatting

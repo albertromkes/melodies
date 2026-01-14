@@ -4,7 +4,7 @@
   "title": "Psalm 4",
   "category": "psalm",
   "mode": "dorisch (Straatsburg/Genève 1542 / Bourgois 1551)",
-  "keySignature": "A",
+  "keySignature": "F",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -14,100 +14,100 @@
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" }
+          { "keys": ["g/4"], "duration": "h" }
         ]
       },
       {
@@ -115,24 +115,24 @@
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "q" },
-          { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g#/4"], "duration": "h" },
-          { "keys": ["g#/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "w" }
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f/4"], "duration": "w" }
         ]
       }
     ]
@@ -148,21 +148,21 @@
         "Betoon genâ; hoor mijn gebed.",
         "Wat moogt gij, mannen, toch beginnen?",
         "Zal steeds tot schande zijn mijn eer?",
-        "Zult gij dan d’ijdelheid beminnen;",
+        "Zult gij dan d’ ijdelheid beminnen;",
         "En t’enemaal beroofd van zinnen,",
         "De leugen zoeken, keer op keer?"
       ],
       "syllables": [
-        ["Wil", "mij,", "wan", "neer", "ik", "roep,", "ver", "ho", "ren,"],
-        ["O", "God,", "die", "mij", "ne", "re-", "-chtzaak", "redt,"],
-        ["Gij", "hebt", "in", "angst", "mij", "hulp", "be-", "-scho", "ren,"],
-        ["En", "mij", "doen", "gaan", "in", "rui", "me", "spo", "ren;"],
-        ["Be", "toon", "ge-", "-nâ;", "hoor", "mijn", "ge", "bed."],
-        ["Wat", "moogt", "gij,", "man", "nen,", "toch", "be", "gin", "nen?"],
-        ["Zal", "steeds", "tot", "schan", "de", "zijn", "mijn", "eer?"],
-        ["Zult", "gij", "dan", "d", "’ij", "del", "heid", "be", "min", "nen;"],
-        ["En", "t", "’e", "ne", "maal", "be", "roofd", "van", "zinnen,"],
-        ["De", "leu", "gen", "zoe", "ken,", "keer", "op", "keer?"]
+        ["Wil", "mij,", "wan-", "neer", "ik", "roep,", "ver-", "ho-", "ren,"],
+        ["O", "God,", "die", "mij-", "ne", "recht-", "zaak", "redt,"],
+        ["Gij", "hebt", "in", "angst", "mij", "hulp", "be-", "scho-", "ren,"],
+        ["En", "mij", "doen", "gaan", "in", "rui-", "me", "spo-", "ren;"],
+        ["Be-", "toon", "ge-", "nâ;", "hoor", "mijn", "ge-", "bed."],
+        ["Wat", "moogt", "gij,", "man-", "nen,", "toch", "be-", "gin-", "nen?"],
+        ["Zal", "steeds", "tot", "schan-", "de", "zijn", "mijn", "eer?"],
+        ["Zult", "gij", "dan", "d’i-", "j-", "del-", "heid", "be-", "min-", "nen;"],
+        ["En", "t-", "’e-", "ne-", "maal", "be-", "roofd", "van", "zinnen,"],
+        ["De", "leu-", "gen", "zoe-", "ken,", "keer", "op", "keer?"]
       ]
     },
     {
@@ -180,16 +180,16 @@
         "En weest in all’ ontmoeting stil."
       ],
       "syllables": [
-        ["He", "rin", "nert", "u,", "gij", "roe", "ke", "lo", "zen,"],
-        ["Dat", "zich", "de", "HEER’", "een", "gu-", "-nstge", "noot"],
-        ["Heeft", "af", "ge", "zon", "derd", "en", "ver", "ko", "zen,"],
-        ["Hij", "doet", "mij", "nooit", "van", "schaam", "te", "blo", "zen,"],
-        ["Die,", "als", "ik", "riep,", "mij", "bi-", "-jstand", "bood,"],
-        ["Zijt", "gij", "be", "roerd,", "ontste-", "-ld,", "ver", "le", "gen,"],
-        ["Zo", "zon", "digt", "niet;", "ver", "zaakt", "uw", "wil;"],
-        ["Spree-", "-kt", "in", "uw", "hart;", "her", "denkt", "uw", "wegen,"],
-        ["Op", "’t", "een", "zaam", "bedde", "neer", "ge", "ze", "gen;"],
-        ["En", "weest", "in", "all’", "ont-", "-moe", "ting", "stil."]
+        ["Her-", "in-", "nert", "u,", "gij", "roe-", "ke-", "lo-", "zen,"],
+        ["Dat", "zich", "de", "HEER’", "een", "gunst-", "ge-", "noot"],
+        ["Heeft", "a-", "f-", "ge-", "zon-", "derd", "en", "ver-", "ko-", "zen,"],
+        ["Hij", "doet", "mij", "nooit", "van", "schaam-", "te", "blo-", "zen,"],
+        ["Die,", "als", "ik", "riep,", "mij", "bij-", "stand", "bood,"],
+        ["Zijt", "gij", "beroerd,", "o-", "nt-", "steld,", "ver-", "le-", "gen,"],
+        ["Zo", "zon-", "digt", "niet;", "ver-", "zaakt", "uw", "wil;"],
+        ["Spreekt", "in", "uw", "hart;", "her-", "denkt", "uw", "we-", "gen,"],
+        ["Op", "’t een-", "zaam", "bed-", "de", "neer-", "ge-", "ze-", "gen;"],
+        ["En", "weest", "in", "all’", "o-", "nt-", "moe-", "ting", "stil."]
       ]
     },
     {
@@ -207,23 +207,23 @@
         "En wil Uw rijke gunst ons biên."
       ],
       "syllables": [
-        ["Dan", "zult", "gij", "recht", "naar", "’t", "outer", "tre", "den,"],
-        ["En", "off", "’ren", "God", "een", "rein", "ge", "moed,"],
-        ["Het", "of", "fer", "der", "ge", "re-", "-chtig", "he", "den,"],
-        ["En", "’t", "zuiv’re", "reuk", "werk", "der", "ge", "be", "den;"],
-        ["Bet", "rouwt", "op", "Hem,", "want", "Hij", "is", "goed."],
-        ["Daar", "ve", "len", "twij", "fel", "moe", "dig", "vra", "gen;"],
-        ["„Wie", "zal", "ons", "’t", "goede", "toch", "doen", "zien?”"],
-        ["Doe", "Gij,", "o", "HEER’,", "na", "’t", "angsti-", "-g", "klagen,"],
-        ["Ons", "’t", "lief", "lijk", "licht", "Uws", "aa-", "-nschijns", "dagen,"],
-        ["En", "wil", "Uw", "rij", "ke", "gunst", "ons", "biên."]
+        ["Dan", "zult", "gij", "recht", "naar", "’t ou-", "ter", "tre-", "den,"],
+        ["En", "off-", "’ren", "God", "een", "rein", "ge-", "moed,"],
+        ["Het", "o-", "f-", "fer", "der-", "ge-", "rech-", "tig-", "he-", "den,"],
+        ["En", "’t zuiv-", "’re", "reuk-", "werk", "der-", "ge-", "be-", "den;"],
+        ["Be-", "trouwt", "op", "Hem,", "want", "Hij", "is", "goed."],
+        ["Daar", "ve-", "len", "twij-", "fel-", "moe-", "dig", "vra-", "gen;"],
+        ["„Wie", "zal", "ons", "’t goe-", "de", "toch", "doen", "zien?”"],
+        ["Doe", "Gij,", "o", "HEER’,", "na", "’t a-", "ng-", "stig", "klagen,"],
+        ["Ons", "’t lief-", "lijk", "licht", "Uws", "aan-", "schijns", "da-", "gen,"],
+        ["En", "wil", "Uw", "rij-", "ke", "gunst", "ons", "biên."]
       ]
     },
     {
       "number": 4,
       "lines": [
         "Gij hebt m’ in ’t hart meer vreugd gegeven,",
-        "Dan and’ren smaken in een tijd,",
+        "Dan and’ ren smaken in een tijd,",
         "Als zij, door aards geluk verheven,",
         "Bij koorn en most wellustig leven,",
         "In hunnen overvloed verblijd,",
@@ -234,16 +234,16 @@
         "Zult mij doen zeker wonen, HEER’."
       ],
       "syllables": [
-        ["Gij", "hebt", "m’", "in", "’t", "hart", "meer", "vreugd", "gegeven,"],
-        ["Dan", "and", "’ren", "sma", "ken", "in", "een", "tijd,"],
-        ["Als", "zij,", "door", "aa-", "-rds", "geluk", "ver", "he", "ven,"],
-        ["Bij", "koorn", "en", "most", "wel", "lus", "tig", "le", "ven,"],
-        ["In", "hun", "nen", "o", "ve-", "-rvloed", "ve-", "-rblijd,"],
-        ["Ik", "zal", "ge", "rust", "in", "vre", "de", "sla", "pen,"],
-        ["En", "lig", "gen", "on", "ges", "toord", "ter", "neer;"],
-        ["Want", "Gij", "al", "leen,", "mijn", "schi-", "-ld", "en", "wapen,"],
-        ["Schoon", "’t", "onheil", "schi-", "-jnt", "voor", "mij", "gescha", "pen,"],
-        ["Zult", "mij", "doen", "zeker", "wo", "nen,", "HEER", "’."]
+        ["Gij", "hebt", "m’in", "’t hart", "meer", "vreugd", "ge-", "ge-", "ven,"],
+        ["Dan", "and’", "ren", "sma-", "ken", "in", "een", "tijd,"],
+        ["Als", "zij,", "door", "aards", "ge-", "luk", "ver-", "he-", "ven,"],
+        ["Bij", "koorn", "en", "most", "wel-", "lus-", "tig", "le-", "ven,"],
+        ["In", "hun-", "nen", "o-", "ver-", "vloed", "ver-", "blijd,"],
+        ["Ik", "zal", "ge-", "rust", "in", "vre-", "de", "sla-", "pen,"],
+        ["En", "liggen", "o-", "n-", "ge-", "stoord", "ter-", "neer;"],
+        ["Want", "Gij", "a-", "l-", "leen,", "mijn", "schild", "en", "wapen,"],
+        ["Schoon", "’t o-", "n-", "heil", "schijnt", "voor", "mij", "ge-", "scha-", "pen,"],
+        ["Zult", "mij", "doen", "ze-", "ker", "wo-", "nen,", "HEER’."]
       ]
     }
   ]

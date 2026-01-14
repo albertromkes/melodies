@@ -25,7 +25,7 @@
           { "keys": ["c#/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" , "accidental": { "type": "#", "cautionary": true }},
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -77,7 +77,7 @@
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" , "accidental": { "type": "#", "cautionary": true }},
           { "keys": ["a/4"], "duration": "h" }
         ]
       },

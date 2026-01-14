@@ -4,7 +4,7 @@
   "title": "Psalm 19",
   "category": "psalm",
   "mode": "mixolydisch (Straatsburg 1539 / Lyon 1548)",
-  "keySignature": "D",
+  "keySignature": "G",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -24,7 +24,7 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
@@ -54,7 +54,7 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
@@ -74,7 +74,7 @@
           { "keys": ["d/5"], "duration": "h" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
@@ -84,7 +84,7 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
@@ -105,7 +105,7 @@
           { "keys": ["d/5"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
@@ -161,7 +161,7 @@
         ["Tot", "roem", "van", "Gods", "ge-", "zag,"],
         ["Zijn", "won-", "de-", "ren", "ver-", "ha-", "len."],
         ["Dus", "weet", "ons", "nacht", "bij", "nacht"],
-        ["Zijn", "on-", "be-", "grens-", "de", "macht."],
+        ["Zijn", "o-", "n-", "be-", "grens-", "de", "macht."],
         ["En", "wijs-", "heid", "af", "te", "ma-", "len."]
       ]
     },
@@ -188,12 +188,12 @@
         ["Daar", "is", "geen", "volk", "be-", "kend;"],
         ["Dat,", "zelfs", "tot", "’s we-", "relds", "end,"],
         ["Der-", "heem-", "len", "stem", "niet", "hoort."],
-        ["Hun", "e","ven-", "re-", "dig-", "heid,"],
+        ["Hun", "e-", "ven-", "re-", "dig-", "heid,"],
         ["Heeft", "zich", "zo", "wijd", "ver-", "spreid;"],
         ["Hun", "re-", "de", "klinkt", "zo", "krach-", "tig,"],
         ["Dat", "z’al,", "wat", "d’aard’", "be-", "woont,"],
         ["Het", "merk", "eens", "Schep-", "pers", "toont,"],
-        ["Zo", "gunst-", "rijk", "als", "al-", "mach-", "tig."]
+        ["Zo", "gunstrijk", "als", "a-", "l-", "mach-", "tig."]
       ]
     },
     {
@@ -224,7 +224,7 @@
         ["Zijn", "vuur", "en", "vaart", "doet", "blij-", "ken;"],
         ["Zij", "heeft", "haar", "zwaai", "en", "spoor"],
         ["Den", "gan-", "sen", "he-", "mel", "door;"],
-        ["Niets", "kan", "haar", "gloed", "ont-", "wij-", "ken."]
+        ["Niets", "kan", "haar", "gloed", "o-", "nt-", "wij-", "ken."]
       ]
     },
     {
@@ -280,9 +280,9 @@
         ["Van", "heil,", "dat", "nooit", "ver-", "gaat,"],
         ["Zijn", "dierb-", "’re", "leer", "ver-", "spreidt,"],
         ["Een", "straal", "van", "bil-", "lijk-", "heid;"],
-        ["Daar", "z’all’", "on-", "waar-", "heid", "haat."],
+        ["Daar", "z’all’", "o-", "n-", "waar-", "heid", "haat."],
         ["Z’is", "’t mens-", "dom", "meer-", "der", "waard,"],
-        ["Dan", "’t fijnste", "goud", "op", "aar-", "d’."],
+        ["Dan", "’t fijn-", "ste", "goud", "op", "aard’."],
         ["Niets", "kan", "haar", "glans", "ver-", "do-", "ven."],
         ["Zij", "streeft", "in", "heil-", "zaam", "zoet,"],
         ["Tot", "stre-", "ling", "van", "’t ge-", "moed,"],
@@ -310,7 +310,7 @@
         ["O", "God,", "een", "klaar", "be-", "richt."],
         ["Wat", "is", "’t voor-", "uit-", "zicht", "schoon:"],
         ["Hij,", "die", "op", "U", "ver-", "trouwt,"],
-        ["Uw", "wet-", "ten", "on-", "der-", "houdt,"],
+        ["Uw", "wetten", "o-", "n-", "der-", "houdt,"],
         ["Vindt", "daar-", "in", "gro-", "ten", "loon."],
         ["Maar,", "HEER’,", "wie", "is", "de", "man,"],
         ["Die", "op", "’t nauw-", "keu-", "rigst", "kan,"],
