@@ -60,7 +60,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["c#/5"], "duration": "h" },
@@ -111,7 +111,7 @@
         "Ofschoon tot U mijn goedheid niet kan raken.”"
       ],
       "syllables": [
-        ["Bewaar", "mij", "toch,", "o", "a-", "l-", "ver-", "mo-", "gend", "God."],
+        ["Be-", "waar", "mij", "toch,", "o", "al-", "ver-", "mo-", "gend", "God."],
         ["’k Be-", "trouw", "op", "U;", "schenk", "hulp,", "ver-", "hoor", "mijn", "sme-", "ken."],
         ["O", "mij-", "ne", "ziel,", "gij", "hebt", "vrij-", "moe-", "dig", "tot"],
         ["Uw", "God", "en", "HEER’,", "uw", "Bond-", "god,", "dur-", "ven", "spre-", "ken:"],
@@ -131,10 +131,10 @@
       ],
       "syllables": [
         ["Maar", "’t hei-", "lig", "volk,", "dat", "op", "dee-", "z-", "’aarde", "leeft,"],
-        ["Dat", "heer-", "lijk", "volk,", "mijn", "lust,", "o-", "nt-", "vangt", "al", "’t voor-", "deel."],
+        ["Dat", "heer-", "lijk", "volk,", "mijn", "lust,", "ont-", "vangt", "al", "’t voor-", "deel."],
         ["De", "sno-", "de", "schaar,", "die", "rij-", "ke", "gif-", "ten", "geeft,"],
         ["Aan", "and’", "re", "goôn,", "ver-", "zwaart", "de", "smart", "in", "’t oor-", "deel."],
-        ["’k Zal", "op", "’t a-", "l-", "taar", "hun", "o-", "f-", "fer-", "bloed", "niet", "plengen,"],
+        ["’k Zal", "op", "’t al-", "taar", "hun", "of-", "fer-", "bloed", "niet", "plen-","gen,"],
         ["Noch", "ooit", "hun", "naam", "op", "mij-", "ne", "lip-", "pen", "bren-", "gen."]
       ]
     },
