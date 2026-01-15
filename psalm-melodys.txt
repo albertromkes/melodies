@@ -47,10 +47,10 @@ d2 B A G F E2 D4 |
 
 X: 4
 T: Psalm 4
-G: dorisch
+G: aeolisch
 C: Straatsburg/Genève 1542 / Bourgois 1551
 M: C|
-K: F aeolian
+K: F# aeolian
 A2 A A G E F G A2 G2 z2
 A2 B2 F2 A G A2 G2 F2 z2
 c2 c c F2 c2 B G A2 G2 z2

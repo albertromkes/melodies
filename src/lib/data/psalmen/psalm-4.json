@@ -3,8 +3,8 @@
   "number": 4,
   "title": "Psalm 4",
   "category": "psalm",
-  "mode": "dorisch (Straatsburg/Genève 1542 / Bourgois 1551)",
-  "keySignature": "F",
+  "mode": "aeolisch (Straatsburg/Genève 1542 / Bourgois 1551)",
+  "keySignature": "A",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -14,100 +14,100 @@
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
+          { "keys": ["g#/4"], "duration": "h" }
         ]
       },
       {
@@ -115,24 +115,24 @@
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
+          { "keys": ["g#/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "w" }
         ]
       }
     ]

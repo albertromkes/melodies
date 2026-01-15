@@ -145,6 +145,38 @@ export function transposeNoteData(note: NoteData, semitones: number): NoteData {
 }
 
 /**
+ * Respell a pitch to match the key signature's preference (sharps vs flats)
+ * @param pitch - The pitch in scientific notation
+ * @param keySignature - The target key signature
+ */
+function respellPitch(pitch: string, keySignature: string): string {
+  try {
+    const keyData = Key.majorKey(keySignature);
+    
+    // If we have a flat key (negative alteration), prefer flats
+    // This covers F (-1) through Cb (-7)
+    if (keyData.alteration < 0) {
+      if (pitch.includes('#')) {
+        return Note.enharmonic(pitch);
+      }
+    } 
+    // If we have a sharp key (positive alteration), prefer sharps
+    // This covers G (1) through C# (7)
+    else if (keyData.alteration > 0) {
+      if (pitch.includes('b')) {
+        return Note.enharmonic(pitch);
+      }
+    }
+    // C Major (0) - usually keep as is
+    
+  } catch (e) {
+    // If key parsing fails, keep pitch as is
+  }
+  
+  return pitch;
+}
+
+/**
  * Transpose a NoteData object with key signature awareness for accidentals
  * This properly handles cautionary accidentals (musica ficta)
  * @param note - The note data to transpose
@@ -161,7 +193,12 @@ export function transposeNoteDataWithKey(
 ): NoteData {
   if (semitones === 0 || note.rest) return note;
   
-  const transposedKeys = note.keys.map(key => transposeVexKey(key, semitones));
+  const transposedKeys = note.keys.map(key => {
+    const scientific = vexKeyToScientific(key);
+    const transposed = transposePitch(scientific, semitones);
+    const respelled = respellPitch(transposed, newKey);
+    return scientificToVexKey(respelled);
+  });
   
   // If the original note had an accidental, we need to handle it specially
   if (note.accidental) {
@@ -188,7 +225,8 @@ export function transposeNoteDataWithKey(
       // Create the full pitch and transpose it
       const fullPitch = `${letter.toUpperCase()}${fullAccidental}${octave}`;
       const transposedPitch = transposePitch(fullPitch, semitones);
-      const transposedVexKey = scientificToVexKey(transposedPitch);
+      const respelledPitch = respellPitch(transposedPitch, newKey);
+      const transposedVexKey = scientificToVexKey(respelledPitch);
       
       // Get the accidental of the transposed pitch
       const transposedAcc = getAccidentalFromVexKey(transposedVexKey);
@@ -284,5 +322,22 @@ export function getTransposedKey(originalKey: string, semitones: number): string
   
   // Add octave to make it a valid pitch, transpose, then remove octave
   const transposed = transposePitch(originalKey + '4', semitones);
-  return transposed.slice(0, -1);
+  let key = transposed.slice(0, -1);
+  
+  // Map non-standard VexFlow keys to enharmonic equivalents
+  // VexFlow supports standard keys up to 7 accidentals
+  const enharmonics: Record<string, string> = {
+    'G#': 'Ab', // 8 sharps -> 4 flats
+    'A#': 'Bb', // 10 sharps -> 2 flats
+    'D#': 'Eb', // 9 sharps -> 3 flats
+    'E#': 'F',  // 11 sharps -> 1 flat
+    'B#': 'C',  // 12 sharps -> 0 accidentals
+    'Fb': 'E',  // 8 flats -> 4 sharps
+  };
+  
+  if (enharmonics[key]) {
+    key = enharmonics[key];
+  }
+  
+  return key;
 }
