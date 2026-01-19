@@ -105,7 +105,7 @@ function Get-KeySignature {
             'mixo-lydian' = @{ 'G' = 'C'; 'A' = 'D'; 'B' = 'E'; 'C' = 'F'; 'D' = 'G'; 'E' = 'A'; 'F#' = 'B' }
             # Aeolian (natural minor): root note maps to relative major
             'aeo' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }
-            'aeolian' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }
+            'aeolian' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G' = 'Bb'; 'G#' = 'B' }
             # Minor mode (same as Aeolian)
             'm' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }
             'min' = @{ 'A' = 'C'; 'B' = 'D'; 'C#' = 'E'; 'D' = 'F'; 'E' = 'G'; 'F#' = 'A'; 'G#' = 'B' }

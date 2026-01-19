@@ -1,498 +1,1687 @@
 {
-  "id": "psalm-038",
-  "number": 38,
-  "title": "Psalm 38",
-  "category": "psalm",
-  "mode": "dorisch (Straatsburg/Gen√®ve 1542 / Bourgois 1551)",
-  "keySignature": "G",
-  "timeSignature": [4, 4],
-  "clef": "treble",
-  "melody": {
-    "measures": [
-      {
-        "notes": [
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["b/4"], "duration": "q", "rest": true },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["b/4"], "duration": "q", "rest": true },
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f#/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "w" }
-        ]
-      }
-    ]
-  },
-  "verses": [
-    {
-      "number": 1,
-      "lines": [
-        "Groot en eeuwig Opperwezen,",
-        "Zeer te vrezen,",
-        "Staf mij in Uw gramschap niet;",
-        "Toon mij toch, dat Uw kastijden,",
-        "In mijn lijden,",
-        "Uit geen grimmigheid geschiedt."
-      ],
-      "syllables": [
-        ["Groot", "en", "eeuwig", "O-", "p-", "per-", "we-", "zen,"],
-        ["Zeer", "te", "vre-", "zen,"],
-        ["Staf", "mij", "in", "Uw", "gram-", "schap", "niet;"],
-        ["Toon", "mij", "toch,", "dat", "Uw", "kas-", "tij-", "den,"],
-        ["In", "mijn", "lij-", "den,"],
-        ["Uit", "geen", "grim-", "mig-", "heid", "ge-", "schiedt."]
-      ]
-    },
-    {
-      "number": 2,
-      "lines": [
-        "Want Uw pijlen doen mij dragen",
-        "Bitt‚Äôre plagen;",
-        "Zij doorgrieven vlees en be√™n;",
-        "‚Äôk Voel Uw hand in d‚Äô ongelukken,",
-        "Die mij drukken,",
-        "Neergedaald op al mijn leen."
-      ],
-      "syllables": [
-        ["Want", "Uw", "pij-", "len", "doen", "mij", "dra-", "gen"],
-        ["Bitt-", "‚Äôre", "pla-", "gen;"],
-        ["Zij", "door-", "grie-", "ven", "vlees", "en", "be√™n;"],
-        ["‚Äôk Voel", "Uw", "hand", "in", "d‚Äôo-", "n-", "ge-", "luk-", "ken,"],
-        ["Die", "mij", "druk-", "ken,"],
-        ["Neer-", "ge-", "daald", "op", "al", "mijn", "leen."]
-      ]
-    },
-    {
-      "number": 3,
-      "lines": [
-        "Door Uw gramschap, fel ontstoken,",
-        "Is verbroken",
-        "Al mijn vlees en lichaamskracht.",
-        "Rust, noch vrede wordt gevonden,",
-        "Om mijn zonden,",
-        "In mijn beend‚Äô ren, dag of nacht."
-      ],
-      "syllables": [
-        ["Door", "Uw", "gram-", "schap,", "fel", "o-", "nt-", "sto-", "ken,"],
-        ["Is", "ver-", "bro-", "ken"],
-        ["Al", "mijn", "vlees", "en", "li-", "chaams-", "kracht."],
-        ["Rust,", "noch", "vre-", "de", "wordt", "ge-", "von-", "den,"],
-        ["Om", "mijn", "zon-", "den,"],
-        ["In", "mijn", "beend‚Äô", "ren,", "dag", "of", "nacht."]
-      ]
-    },
-    {
-      "number": 4,
-      "lines": [
-        "Want mijn hoofd is als bedolven",
-        "In de golven",
-        "Van mijn ongerechtighe√™n;",
-        "Zulk een last van zond‚Äô en plagen,",
-        "Niet te dragen,",
-        "Drukt mijn schouders naar beneen."
-      ],
-      "syllables": [
-        ["Want", "mijn", "hoofd", "is", "als", "be-", "dol-", "ven"],
-        ["In", "de", "gol-", "ven"],
-        ["Van", "mijn", "o-", "n-", "ge-", "rech-", "tig-", "he√™n;"],
-        ["Zulk", "een", "last", "van", "zond‚Äô", "en", "pla-", "gen,"],
-        ["Niet", "te", "dra-", "gen,"],
-        ["Drukt", "mijn", "schou-", "ders", "naar", "ben-", "een."]
-      ]
-    },
-    {
-      "number": 5,
-      "lines": [
-        "‚Äôk Voel door stinkend‚Äô etterzweren",
-        "Mij verteren,",
-        "Walg‚Äôlijk zijn zij voor het oog;",
-        "Mijne dwaasheid deed die builen",
-        "Dus vervuilen,",
-        "Daar ze mij tot kwaad bewoog."
-      ],
-      "syllables": [
-        ["‚Äôk Voel", "door", "stinkend‚Äô", "e-", "t-", "ter-", "zwe-", "ren"],
-        ["Mij", "ver-", "te-", "ren,"],
-        ["Walg-", "‚Äôlijk", "zijn", "zij", "voor", "het", "oog;"],
-        ["Mij-", "ne", "dwaas-", "heid", "deed", "die", "bui-", "len"],
-        ["Dus", "ver-", "vui-", "len,"],
-        ["Daar", "ze", "mij", "tot", "kwaad", "be-", "woog."]
-      ]
-    },
-    {
-      "number": 6,
-      "lines": [
-        "‚Äôk Ben, door Uwe wet te schenden,",
-        "Krom van lenden,",
-        "Vol van druk, benauwd van hart.",
-        "Zeer gebogen en verslagen,",
-        "Moe van klagen,",
-        "Ga ik al den dag in ‚Äôt zwart."
-      ],
-      "syllables": [
-        ["‚Äôk Ben,", "door", "U-", "we", "wet", "te", "schen-", "den,"],
-        ["Krom", "van", "len-", "den,"],
-        ["Vol", "van", "druk,", "be-", "nauwd", "van", "hart."],
-        ["Zeer", "ge-", "bo-", "gen", "en", "ver-", "sla-", "gen,"],
-        ["Moe", "van", "kla-", "gen,"],
-        ["Ga", "ik", "al", "den", "dag", "in", "‚Äôt zwart."]
-      ]
-    },
-    {
-      "number": 7,
-      "lines": [
-        "Mijn ontstoken ingewanden",
-        "Doen mij branden,",
-        "En voor elk veracht‚Äôlijk zijn;",
-        "‚Äôk Voel mij van de smart doorsneden;",
-        "In mijn leden",
-        "Is niets heel, of vrij van pijn."
-      ],
-      "syllables": [
-        ["Mijn", "o-", "nt-", "sto-", "ken", "i-", "n-", "ge-", "wan-", "den"],
-        ["Doen", "mij", "bran-", "den,"],
-        ["En", "voor", "elk", "ver-", "acht-", "‚Äôlijk", "zijn;"],
-        ["‚Äôk Voel", "mij", "van", "de", "smart", "door-", "sne-", "den;"],
-        ["In", "mijn", "le-", "den"],
-        ["Is", "niets", "heel,", "of", "vrij", "van", "pijn."]
-      ]
-    },
-    {
-      "number": 8,
-      "lines": [
-        "Uitgeteerd door al mijn klachten",
-        "Zijn mijn krachten,",
-        "Zeer verbrijzeld en vergaan;",
-        "‚Äôk Brul van bitt‚Äôre zielesmarte,",
-        "Want mijn harte",
-        "Is verzwakt, door al Uw slaan."
-      ],
-      "syllables": [
-        ["Uit-", "ge-", "teerd", "door", "al", "mijn", "klach-", "ten"],
-        ["Zijn", "mijn", "krach-", "ten,"],
-        ["Zeer", "ver-", "brij-", "zeld", "en", "ver-", "gaan;"],
-        ["‚Äôk Brul", "van", "bitt-", "‚Äôre", "zie-", "lesmar-", "te,", "-"],
-        ["Want", "mijn", "har-", "te"],
-        ["Is", "ver-", "zwakt,", "door", "al", "Uw", "slaan."]
-      ]
-    },
-    {
-      "number": 9,
-      "lines": [
-        "Maar wat klaag ik, HEER‚Äô derheren?",
-        "Mijn begeren",
-        "Is voor U, in al mijn leed,",
-        "Met mijn zuchten en mijn zorgen,",
-        "Niet verborgen;",
-        "Daar Gij alles ziet en weet."
-      ],
-      "syllables": [
-        ["Maar", "wat", "klaag", "ik,", "HEER‚Äô", "der-", "he-", "ren?"],
-        ["Mijn", "be-", "ge-", "ren"],
-        ["Is", "voor", "U,", "in", "al", "mijn", "leed,"],
-        ["Met", "mijn", "zuch-", "ten", "en", "mijn", "zor-", "gen,"],
-        ["Niet", "ver-", "bor-", "gen;"],
-        ["Daar", "Gij", "a-", "l-", "les", "ziet", "en", "weet."]
-      ]
-    },
-    {
-      "number": 10,
-      "lines": [
-        "‚Äôt Hart schokt in mij heen en weder,",
-        "Op en neder;",
-        "‚Äôt Lichaam valt mij kracht‚Äôloos neer;",
-        "D‚Äô ogen, bijna blind gekreten,",
-        "Uitgebeten,",
-        "Zien het daglicht nauw‚Äôlijks meer."
-      ],
-      "syllables": [
-        ["‚Äôt Hart", "schokt", "in", "mij", "heen", "en", "we-", "der,"],
-        ["Op", "en", "ne-", "der;"],
-        ["‚Äôt Li-", "chaam", "valt", "mij", "kracht-", "‚Äôloos", "neer;"],
-        ["D‚Äôo-", "gen,", "bij-", "na", "blind", "ge-", "kre-", "ten,"],
-        ["Uit-", "ge-", "be-", "ten,"],
-        ["Zien", "het", "dag-", "licht", "nauw-", "‚Äôlijks", "meer."]
-      ]
-    },
-    {
-      "number": 11,
-      "lines": [
-        "Die voorheen mij teer beminden,",
-        "En mijn vrinden",
-        "Wijken, angstig voor mijn plaag;",
-        "Nabestaanden gaan terzijden,",
-        "Wegens ‚Äôt lijden,",
-        "En d‚Äô ellenden, die ik draag."
-      ],
-      "syllables": [
-        ["Die", "voor-", "heen", "mij", "teer", "be-", "min-", "den,"],
-        ["En", "mijn", "vrin-", "den"],
-        ["Wij-", "ken,", "a-", "ng-", "stig", "voor", "mijn", "plaag;"],
-        ["Na-", "be-", "staan-", "den", "gaan", "ter-", "zij-", "den,"],
-        ["We-", "gens", "‚Äôt lij-", "den,"],
-        ["En", "d‚Äôe-", "l-", "len-", "den,", "die", "ik", "draag."]
-      ]
-    },
-    {
-      "number": 12,
-      "lines": [
-        "Zij, die mijnen dood bejagen,",
-        "Leggen lagen,",
-        "Dreigen mij den laatsten slag,",
-        "Spreken, hoe mij ‚Äôt best te krenken;",
-        "En bedenken",
-        "Mijn verderf, den gansen dag."
-      ],
-      "syllables": [
-        ["Zij,", "die", "mij-", "nen", "dood", "be-", "ja-", "gen,"],
-        ["Leg-", "gen", "la-", "gen,"],
-        ["Drei-", "gen", "mij", "den", "laat-", "sten", "slag,"],
-        ["Spre-", "ken,", "hoe", "mij", "‚Äôt best", "te", "kren-", "ken;"],
-        ["En", "be-", "den-", "ken"],
-        ["Mijn", "ver-", "derf,", "den", "gan-", "sen", "dag."]
-      ]
-    },
-    {
-      "number": 13,
-      "lines": [
-        "Maar ik ben, in d‚Äô ongelukken,",
-        "Die mij drukken,",
-        "Als een dove, die niet hoort,",
-        "En uit wiens verstomde lippen",
-        "Niet kan glippen",
-        "‚Äôt Flauwst geluid van enig woord."
-      ],
-      "syllables": [
-        ["Maar", "ik", "ben,", "in", "d‚Äôo-", "n-", "ge-", "luk-", "ken,"],
-        ["Die", "mij", "druk-", "ken,"],
-        ["Als", "een", "do-", "ve,", "die", "niet", "hoort,"],
-        ["En", "uit", "wiens", "ver-", "stom-", "de", "lip-", "pen"],
-        ["Niet", "kan", "glip-", "pen"],
-        ["‚Äôt Flauwst", "ge-", "luid", "van", "e-", "nig", "woord."]
-      ]
-    },
-    {
-      "number": 14,
-      "lines": [
-        "Ja, ik ben als een, wiens oren",
-        "Niet meer horen,",
-        "Wat men zegge, kwaad of goed;",
-        "Wien de tegenre√™n ontbreken,",
-        "Om te spreken,",
-        "En die daarom zwijgen moet."
-      ],
-      "syllables": [
-        ["Ja,", "ik", "ben", "als", "een,", "wiens", "o-", "ren"],
-        ["Niet", "meer", "ho-", "ren,"],
-        ["Wat", "men", "zeg-", "ge,", "kwaad", "of", "goed;"],
-        ["Wien", "de", "te-", "gen-", "re√™n", "o-", "nt-", "bre-", "ken,"],
-        ["Om", "te", "spre-", "ken,"],
-        ["En", "die", "daar-", "om", "zwij-", "gen", "moet."]
-      ]
-    },
-    {
-      "number": 15,
-      "lines": [
-        "Want, o trouw en eeuwig Wezen,",
-        "In mijn vrezen",
-        "Staat mijn hoop op U alleen;",
-        "Gij, mijn God, zult in ellenden",
-        "Bijstand zenden,",
-        "En verhoren mijn gebe√™n."
-      ],
-      "syllables": [
-        ["Want,", "o", "trouw", "en", "eeu-", "wig", "We-", "zen,"],
-        ["In", "mijn", "vre-", "zen"],
-        ["Staat", "mijn", "hoop", "op", "U", "a-", "l-", "leen;"],
-        ["Gij,", "mijn", "God,", "zult", "in", "e-", "l-", "len-", "den"],
-        ["Bij-", "stand", "zen-", "den,"],
-        ["En", "ver-", "ho-", "ren", "mijn", "ge-", "be√™n."]
-      ]
-    },
-    {
-      "number": 16,
-      "lines": [
-        "‚Äôk Zei: ‚ÄûLaat nooit mijn bitter lijden",
-        "Hen verblijden",
-        "In hun trotsen euvelmoed;",
-        "Wijl die bozen juichen zouden,",
-        "Als z‚Äôaanschouwden",
-        "‚Äôt Wanklen van mijn zwakken voet.‚Äù"
-      ],
-      "syllables": [
-        ["‚Äôk Zei:", "‚ÄûLaat", "nooit", "mijn", "bit-", "ter", "lij-", "den"],
-        ["Hen", "ver-", "blij-", "den"],
-        ["In", "hun", "trot-", "sen", "eu-", "vel-", "moed;"],
-        ["Wijl", "die", "bo-", "zen", "jui-", "chen", "zou-", "den,"],
-        ["Als", "z-", "‚Äôaan-", "schouw-", "den"],
-        ["‚Äôt Wank-", "len", "van", "mijn", "zwak-", "ken", "voet.‚Äù"]
-      ]
-    },
-    {
-      "number": 17,
-      "lines": [
-        "Want, o HEER‚Äô, ik ben aan ‚Äôt zinken",
-        "En tot hinken",
-        "Ieder ogenblik gereed.",
-        "‚Äôk Heb mijn smart en onvermogen",
-        "Steeds voor ogen,",
-        "Bij ‚Äôt vooruitzicht van mijn leed."
-      ],
-      "syllables": [
-        ["Want,", "o", "HEER‚Äô,", "ik", "ben", "aan", "‚Äôt zin-", "ken"],
-        ["En", "tot", "hin-", "ken"],
-        ["Ie-", "der", "o-", "gen-", "blik", "ge-", "reed."],
-        ["‚Äôk Heb", "mijn", "smart", "en", "o-", "n-", "ver-", "mo-", "gen"],
-        ["Steeds", "voor", "o-", "gen,"],
-        ["Bij", "‚Äôt voor-", "uit-", "zicht", "van", "mijn", "leed."]
-      ]
-    },
-    {
-      "number": 18,
-      "lines": [
-        "‚Äôk Wil mijn misda√¢n, die U tergen,",
-        "Niet verbergen;",
-        "Ik bedek voor U die niet;",
-        "‚Äôk Ben vanwege al mijn zonden,",
-        "Die mij wonden,",
-        "Vol van kommer en verdriet."
-      ],
-      "syllables": [
-        ["‚Äôk Wil", "mijn", "mis-", "da√¢n,", "die", "U", "ter-", "gen,"],
-        ["Niet", "ver-", "ber-", "gen;"],
-        ["Ik", "be-", "dek", "voor", "U", "die", "niet;"],
-        ["‚Äôk Ben", "van-", "we-", "ge", "al", "mijn", "zon-", "den,"],
-        ["Die", "mij", "won-", "den,"],
-        ["Vol", "van", "kom-", "mer", "en", "ver-", "driet."]
-      ]
-    },
-    {
-      "number": 19,
-      "lines": [
-        "Maar mijn vijand zie ik leven,",
-        "Hoog verheven,",
-        "Machtig, vrij van smart en nood.",
-        "Die, om valse re√™n verbolgen,",
-        "Mij vervolgen,",
-        "Nemen toe en worden groot."
-      ],
-      "syllables": [
-        ["Maar", "mijn", "vij-", "and", "zie", "ik", "le-", "ven,"],
-        ["Hoog", "ver-", "he-", "ven,"],
-        ["Mach-", "tig,", "vrij", "van", "smart", "en", "nood."],
-        ["Die,", "om", "val-", "se", "re√™n", "ver-", "bol-", "gen,"],
-        ["Mij", "ver-", "vol-", "gen,"],
-        ["Ne-", "men", "toe", "en", "wor-", "den", "groot."]
-      ]
-    },
-    {
-      "number": 20,
-      "lines": [
-        "Zij, die kwaad voor goed vergelden,",
-        "Last‚Äôren, schelden,",
-        "En vervolgen mij gestaag.",
-        "Ja, zij zijn op mij gebeten,",
-        "Want zij weten,",
-        "Dat ik naar het goede jaag."
-      ],
-      "syllables": [
-        ["Zij,", "die", "kwaad", "voor", "goed", "ver-", "gel-", "den,"],
-        ["Last-", "‚Äôren,", "schel-", "den,"],
-        ["En", "ver-", "vol-", "gen", "mij", "ge-", "staag."],
-        ["Ja,", "zij", "zijn", "op", "mij", "ge-", "be-", "ten,"],
-        ["Want", "zij", "we-", "ten,"],
-        ["Dat", "ik", "naar", "het", "goe-", "de", "jaag."]
-      ]
-    },
-    {
-      "number": 21,
-      "lines": [
-        "Zie mij, HEER‚Äô, wien elk moet duchten,",
-        "Tot U vluchten.",
-        "O mijn God, verlaat mij niet;",
-        "Blijf niet, wegens mijn gebreken,",
-        "Vergeweken;",
-        "Toon, dat Gij mijn rampen ziet."
-      ],
-      "syllables": [
-        ["Zie", "mij,", "HEER‚Äô,", "wien", "elk", "moet", "duch-", "ten,"],
-        ["Tot", "U", "vluch-", "ten."],
-        ["O", "mijn", "God,", "ver-", "laat", "mij", "niet;"],
-        ["Blijf", "niet,", "we-", "gens", "mijn", "ge-", "bre-", "ken,"],
-        ["Ver-", "ge-", "we-", "ken;"],
-        ["Toon,", "dat", "Gij", "mijn", "ram-", "pen", "ziet."]
-      ]
-    },
-    {
-      "number": 22,
-      "lines": [
-        "HEER‚Äô, ik voel mijn krachten wijken,",
-        "En bezwijken,",
-        "Haast U tot mijn hulp, en red,",
-        "Red mij, Schutsheer, God dergoden,",
-        "Troost in noden,",
-        "Grote Hoorder van ‚Äôt gebed."
-      ],
-      "syllables": [
-        ["HEER‚Äô,", "ik", "voel", "mijn", "krach-", "ten", "wij-", "ken,"],
-        ["En", "be-", "zwij-", "ken,"],
-        ["Haast", "U", "tot", "mijn", "hulp,", "en", "red,"],
-        ["Red", "mij,", "Schuts-", "heer,", "God", "der-", "go-", "den,"],
-        ["Troost", "in", "no-", "den,"],
-        ["Gro-", "te", "Hoor-", "der", "van", "‚Äôt ge-", "bed."]
-      ]
-    }
-  ]
+    "id":  "psalm-038",
+    "number":  38,
+    "title":  "Psalm 38",
+    "category":  "psalm",
+    "mode":  "dorisch (Straatsburg/Gen√®ve 1542 / Bourgois 1551)",
+    "keySignature":  "Bb",
+    "timeSignature":  [
+                          4,
+                          4
+                      ],
+    "clef":  "treble",
+    "melody":  {
+                   "measures":  [
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q",
+                                                          "rest":  true
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q",
+                                                          "rest":  true
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "bb/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "w"
+                                                      }
+                                                  ]
+                                    }
+                                ]
+               },
+    "verses":  [
+                   {
+                       "number":  1,
+                       "lines":  [
+                                     "Groot en eeuwig Opperwezen,",
+                                     "Zeer te vrezen,",
+                                     "Staf mij in Uw gramschap niet;",
+                                     "Toon mij toch, dat Uw kastijden,",
+                                     "In mijn lijden,",
+                                     "Uit geen grimmigheid geschiedt."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Groot",
+                                             "en",
+                                             "eeuwig",
+                                             "O-",
+                                             "p-",
+                                             "per-",
+                                             "we-",
+                                             "zen,"
+                                         ],
+                                         [
+                                             "Zeer",
+                                             "te",
+                                             "vre-",
+                                             "zen,"
+                                         ],
+                                         [
+                                             "Staf",
+                                             "mij",
+                                             "in",
+                                             "Uw",
+                                             "gram-",
+                                             "schap",
+                                             "niet;"
+                                         ],
+                                         [
+                                             "Toon",
+                                             "mij",
+                                             "toch,",
+                                             "dat",
+                                             "Uw",
+                                             "kas-",
+                                             "tij-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "In",
+                                             "mijn",
+                                             "lij-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Uit",
+                                             "geen",
+                                             "grim-",
+                                             "mig-",
+                                             "heid",
+                                             "ge-",
+                                             "schiedt."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  2,
+                       "lines":  [
+                                     "Want Uw pijlen doen mij dragen",
+                                     "Bittíre plagen;",
+                                     "Zij doorgrieven vlees en beÍn;",
+                                     "ík Voel Uw hand in dí ongelukken,",
+                                     "Die mij drukken,",
+                                     "Neergedaald op al mijn leen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Want",
+                                             "Uw",
+                                             "pij-",
+                                             "len",
+                                             "doen",
+                                             "mij",
+                                             "dra-",
+                                             "gen"
+                                         ],
+                                         [
+                                             "Bittíre",
+                                             "pla-",
+                                             "gen;",
+                                             "-"
+                                         ],
+                                         [
+                                             "Zij",
+                                             "door-",
+                                             "grie-",
+                                             "ven",
+                                             "vlees",
+                                             "en",
+                                             "beÍn;"
+                                         ],
+                                         [
+                                             "ík Voel",
+                                             "Uw",
+                                             "hand",
+                                             "in",
+                                             "dío-",
+                                             "n-",
+                                             "ge-",
+                                             "luk-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Die",
+                                             "mij",
+                                             "druk-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Neer-",
+                                             "ge-",
+                                             "daald",
+                                             "op",
+                                             "al",
+                                             "mijn",
+                                             "leen."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  3,
+                       "lines":  [
+                                     "Door Uw gramschap, fel ontstoken,",
+                                     "Is verbroken",
+                                     "Al mijn vlees en lichaamskracht.",
+                                     "Rust, noch vrede wordt gevonden,",
+                                     "Om mijn zonden,",
+                                     "In mijn beendí ren, dag of nacht."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Door",
+                                             "Uw",
+                                             "gramschap,",
+                                             "fel",
+                                             "o-",
+                                             "nt-",
+                                             "sto-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Is",
+                                             "ver-",
+                                             "bro-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "Al",
+                                             "mijn",
+                                             "vlees",
+                                             "en",
+                                             "li-",
+                                             "chaams-",
+                                             "kracht."
+                                         ],
+                                         [
+                                             "Rust,",
+                                             "noch",
+                                             "vre-",
+                                             "de",
+                                             "wordt",
+                                             "ge-",
+                                             "von-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Om",
+                                             "mijn",
+                                             "zon-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "In",
+                                             "mijn",
+                                             "beendí",
+                                             "ren,",
+                                             "dag",
+                                             "of",
+                                             "nacht."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  4,
+                       "lines":  [
+                                     "Want mijn hoofd is als bedolven",
+                                     "In de golven",
+                                     "Van mijn ongerechtigheÍn;",
+                                     "Zulk een last van zondí en plagen,",
+                                     "Niet te dragen,",
+                                     "Drukt mijn schouders naar beneen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Want",
+                                             "mijn",
+                                             "hoofd",
+                                             "is",
+                                             "als",
+                                             "be-",
+                                             "dol-",
+                                             "ven"
+                                         ],
+                                         [
+                                             "In",
+                                             "de",
+                                             "gol-",
+                                             "ven"
+                                         ],
+                                         [
+                                             "Van",
+                                             "mijn",
+                                             "ongerechtigheÍn;",
+                                             "-",
+                                             "-",
+                                             "-",
+                                             "-"
+                                         ],
+                                         [
+                                             "Zulk",
+                                             "een",
+                                             "last",
+                                             "van",
+                                             "zondí",
+                                             "en",
+                                             "pla-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Niet",
+                                             "te",
+                                             "dra-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Drukt",
+                                             "mijn",
+                                             "schou-",
+                                             "ders",
+                                             "naar",
+                                             "ben-",
+                                             "een."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  5,
+                       "lines":  [
+                                     "ík Voel door stinkendí etterzweren",
+                                     "Mij verteren,",
+                                     "Walgílijk zijn zij voor het oog;",
+                                     "Mijne dwaasheid deed die builen",
+                                     "Dus vervuilen,",
+                                     "Daar ze mij tot kwaad bewoog."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "ík Voel",
+                                             "door",
+                                             "stinkendí",
+                                             "e-",
+                                             "t-",
+                                             "ter-",
+                                             "zwe-",
+                                             "ren"
+                                         ],
+                                         [
+                                             "Mij",
+                                             "ver-",
+                                             "te-",
+                                             "ren,"
+                                         ],
+                                         [
+                                             "Walgílijk",
+                                             "zijn",
+                                             "zij",
+                                             "voor",
+                                             "het",
+                                             "oog;",
+                                             "-"
+                                         ],
+                                         [
+                                             "Mij-",
+                                             "ne",
+                                             "dwaas-",
+                                             "heid",
+                                             "deed",
+                                             "die",
+                                             "bui-",
+                                             "len"
+                                         ],
+                                         [
+                                             "Dus",
+                                             "ver-",
+                                             "vui-",
+                                             "len,"
+                                         ],
+                                         [
+                                             "Daar",
+                                             "ze",
+                                             "mij",
+                                             "tot",
+                                             "kwaad",
+                                             "be-",
+                                             "woog."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  6,
+                       "lines":  [
+                                     "ík Ben, door Uwe wet te schenden,",
+                                     "Krom van lenden,",
+                                     "Vol van druk, benauwd van hart.",
+                                     "Zeer gebogen en verslagen,",
+                                     "Moe van klagen,",
+                                     "Ga ik al den dag in ít zwart."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "ík Ben,",
+                                             "door",
+                                             "U-",
+                                             "we",
+                                             "wet",
+                                             "te",
+                                             "schen-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Krom",
+                                             "van",
+                                             "len-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Vol",
+                                             "van",
+                                             "druk,",
+                                             "be-",
+                                             "nauwd",
+                                             "van",
+                                             "hart."
+                                         ],
+                                         [
+                                             "Zeer",
+                                             "ge-",
+                                             "bo-",
+                                             "gen",
+                                             "en",
+                                             "ver-",
+                                             "sla-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Moe",
+                                             "van",
+                                             "kla-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Ga",
+                                             "ik",
+                                             "al",
+                                             "den",
+                                             "dag",
+                                             "in",
+                                             "ít zwart."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  7,
+                       "lines":  [
+                                     "Mijn ontstoken ingewanden",
+                                     "Doen mij branden,",
+                                     "En voor elk verachtílijk zijn;",
+                                     "ík Voel mij van de smart doorsneden;",
+                                     "In mijn leden",
+                                     "Is niets heel, of vrij van pijn."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Mijn",
+                                             "o-",
+                                             "nt-",
+                                             "sto-",
+                                             "ken",
+                                             "i-",
+                                             "n-",
+                                             "ge-",
+                                             "wan-",
+                                             "den"
+                                         ],
+                                         [
+                                             "Doen",
+                                             "mij",
+                                             "bran-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "En",
+                                             "voor",
+                                             "elk",
+                                             "verachtílijk",
+                                             "zijn;",
+                                             "-",
+                                             "-"
+                                         ],
+                                         [
+                                             "ík Voel",
+                                             "mij",
+                                             "van",
+                                             "de",
+                                             "smart",
+                                             "door-",
+                                             "sne-",
+                                             "den;"
+                                         ],
+                                         [
+                                             "In",
+                                             "mijn",
+                                             "le-",
+                                             "den"
+                                         ],
+                                         [
+                                             "Is",
+                                             "niets",
+                                             "heel,",
+                                             "of",
+                                             "vrij",
+                                             "van",
+                                             "pijn."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  8,
+                       "lines":  [
+                                     "Uitgeteerd door al mijn klachten",
+                                     "Zijn mijn krachten,",
+                                     "Zeer verbrijzeld en vergaan;",
+                                     "ík Brul van bittíre zielesmarte,",
+                                     "Want mijn harte",
+                                     "Is verzwakt, door al Uw slaan."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Uit-",
+                                             "ge-",
+                                             "teerd",
+                                             "door",
+                                             "al",
+                                             "mijn",
+                                             "klach-",
+                                             "ten"
+                                         ],
+                                         [
+                                             "Zijn",
+                                             "mijn",
+                                             "krach-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Zeer",
+                                             "ver-",
+                                             "brij-",
+                                             "zeld",
+                                             "en",
+                                             "ver-",
+                                             "gaan;"
+                                         ],
+                                         [
+                                             "ík Brul",
+                                             "van",
+                                             "bittíre",
+                                             "zie-",
+                                             "lesmar-",
+                                             "te,",
+                                             "-",
+                                             "-"
+                                         ],
+                                         [
+                                             "Want",
+                                             "mijn",
+                                             "har-",
+                                             "te"
+                                         ],
+                                         [
+                                             "Is",
+                                             "ver-",
+                                             "zwakt,",
+                                             "door",
+                                             "al",
+                                             "Uw",
+                                             "slaan."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  9,
+                       "lines":  [
+                                     "Maar wat klaag ik, HEERí derheren?",
+                                     "Mijn begeren",
+                                     "Is voor U, in al mijn leed,",
+                                     "Met mijn zuchten en mijn zorgen,",
+                                     "Niet verborgen;",
+                                     "Daar Gij alles ziet en weet."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Maar",
+                                             "wat",
+                                             "klaag",
+                                             "ik,",
+                                             "HEERí",
+                                             "der-",
+                                             "he-",
+                                             "ren?"
+                                         ],
+                                         [
+                                             "Mijn",
+                                             "be-",
+                                             "ge-",
+                                             "ren"
+                                         ],
+                                         [
+                                             "Is",
+                                             "voor",
+                                             "U,",
+                                             "in",
+                                             "al",
+                                             "mijn",
+                                             "leed,"
+                                         ],
+                                         [
+                                             "Met",
+                                             "mijn",
+                                             "zuch-",
+                                             "ten",
+                                             "en",
+                                             "mijn",
+                                             "zor-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Niet",
+                                             "ver-",
+                                             "bor-",
+                                             "gen;"
+                                         ],
+                                         [
+                                             "Daar",
+                                             "Gij",
+                                             "a-",
+                                             "l-",
+                                             "les",
+                                             "ziet",
+                                             "en",
+                                             "weet."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  10,
+                       "lines":  [
+                                     "ít Hart schokt in mij heen en weder,",
+                                     "Op en neder;",
+                                     "ít Lichaam valt mij krachtíloos neer;",
+                                     "Dí ogen, bijna blind gekreten,",
+                                     "Uitgebeten,",
+                                     "Zien het daglicht nauwílijks meer."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "ít Hart",
+                                             "schokt",
+                                             "in",
+                                             "mij",
+                                             "heen",
+                                             "en",
+                                             "we-",
+                                             "der,"
+                                         ],
+                                         [
+                                             "Op",
+                                             "en",
+                                             "ne-",
+                                             "der;"
+                                         ],
+                                         [
+                                             "ít Li-",
+                                             "chaam",
+                                             "valt",
+                                             "mij",
+                                             "krachtíloos",
+                                             "neer;",
+                                             "-"
+                                         ],
+                                         [
+                                             "Dío-",
+                                             "gen,",
+                                             "bij-",
+                                             "na",
+                                             "blind",
+                                             "ge-",
+                                             "kre-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Uit-",
+                                             "ge-",
+                                             "be-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Zien",
+                                             "het",
+                                             "dag-",
+                                             "licht",
+                                             "nauwílijks",
+                                             "meer.",
+                                             "-"
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  11,
+                       "lines":  [
+                                     "Die voorheen mij teer beminden,",
+                                     "En mijn vrinden",
+                                     "Wijken, angstig voor mijn plaag;",
+                                     "Nabestaanden gaan terzijden,",
+                                     "Wegens ít lijden,",
+                                     "En dí ellenden, die ik draag."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Die",
+                                             "voor-",
+                                             "heen",
+                                             "mij",
+                                             "teer",
+                                             "be-",
+                                             "min-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "En",
+                                             "mijn",
+                                             "vrin-",
+                                             "den"
+                                         ],
+                                         [
+                                             "Wij-",
+                                             "ken,",
+                                             "a-",
+                                             "ng-",
+                                             "stig",
+                                             "voor",
+                                             "mijn",
+                                             "plaag;"
+                                         ],
+                                         [
+                                             "Na-",
+                                             "be-",
+                                             "staan-",
+                                             "den",
+                                             "gaan",
+                                             "ter-",
+                                             "zij-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "We-",
+                                             "gens",
+                                             "ít lij-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "En",
+                                             "díe-",
+                                             "l-",
+                                             "len-",
+                                             "den,",
+                                             "die",
+                                             "ik",
+                                             "draag."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  12,
+                       "lines":  [
+                                     "Zij, die mijnen dood bejagen,",
+                                     "Leggen lagen,",
+                                     "Dreigen mij den laatsten slag,",
+                                     "Spreken, hoe mij ít best te krenken;",
+                                     "En bedenken",
+                                     "Mijn verderf, den gansen dag."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Zij,",
+                                             "die",
+                                             "mij-",
+                                             "nen",
+                                             "dood",
+                                             "be-",
+                                             "ja-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Leg-",
+                                             "gen",
+                                             "la-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Drei-",
+                                             "gen",
+                                             "mij",
+                                             "den",
+                                             "laat-",
+                                             "sten",
+                                             "slag,"
+                                         ],
+                                         [
+                                             "Spre-",
+                                             "ken,",
+                                             "hoe",
+                                             "mij",
+                                             "ít best",
+                                             "te",
+                                             "kren-",
+                                             "ken;"
+                                         ],
+                                         [
+                                             "En",
+                                             "be-",
+                                             "den-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "Mijn",
+                                             "ver-",
+                                             "derf,",
+                                             "den",
+                                             "gan-",
+                                             "sen",
+                                             "dag."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  13,
+                       "lines":  [
+                                     "Maar ik ben, in dí ongelukken,",
+                                     "Die mij drukken,",
+                                     "Als een dove, die niet hoort,",
+                                     "En uit wiens verstomde lippen",
+                                     "Niet kan glippen",
+                                     "ít Flauwst geluid van enig woord."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Maar",
+                                             "ik",
+                                             "ben,",
+                                             "in",
+                                             "dío-",
+                                             "n-",
+                                             "ge-",
+                                             "luk-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Die",
+                                             "mij",
+                                             "druk-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "een",
+                                             "do-",
+                                             "ve,",
+                                             "die",
+                                             "niet",
+                                             "hoort,"
+                                         ],
+                                         [
+                                             "En",
+                                             "uit",
+                                             "wiens",
+                                             "ver-",
+                                             "stom-",
+                                             "de",
+                                             "lip-",
+                                             "pen"
+                                         ],
+                                         [
+                                             "Niet",
+                                             "kan",
+                                             "glip-",
+                                             "pen"
+                                         ],
+                                         [
+                                             "ít Flauwst",
+                                             "ge-",
+                                             "luid",
+                                             "van",
+                                             "e-",
+                                             "nig",
+                                             "woord."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  14,
+                       "lines":  [
+                                     "Ja, ik ben als een, wiens oren",
+                                     "Niet meer horen,",
+                                     "Wat men zegge, kwaad of goed;",
+                                     "Wien de tegenreÍn ontbreken,",
+                                     "Om te spreken,",
+                                     "En die daarom zwijgen moet."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Ja,",
+                                             "ik",
+                                             "ben",
+                                             "als",
+                                             "een,",
+                                             "wiens",
+                                             "o-",
+                                             "ren"
+                                         ],
+                                         [
+                                             "Niet",
+                                             "meer",
+                                             "ho-",
+                                             "ren,"
+                                         ],
+                                         [
+                                             "Wat",
+                                             "men",
+                                             "zeg-",
+                                             "ge,",
+                                             "kwaad",
+                                             "of",
+                                             "goed;"
+                                         ],
+                                         [
+                                             "Wien",
+                                             "de",
+                                             "tegenreÍn",
+                                             "o-",
+                                             "nt-",
+                                             "bre-",
+                                             "ken,",
+                                             "-"
+                                         ],
+                                         [
+                                             "Om",
+                                             "te",
+                                             "spre-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "En",
+                                             "die",
+                                             "daar-",
+                                             "om",
+                                             "zwij-",
+                                             "gen",
+                                             "moet."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  15,
+                       "lines":  [
+                                     "Want, o trouw en eeuwig Wezen,",
+                                     "In mijn vrezen",
+                                     "Staat mijn hoop op U alleen;",
+                                     "Gij, mijn God, zult in ellenden",
+                                     "Bijstand zenden,",
+                                     "En verhoren mijn gebeÍn."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Want,",
+                                             "o",
+                                             "trouw",
+                                             "en",
+                                             "eeu-",
+                                             "wig",
+                                             "We-",
+                                             "zen,"
+                                         ],
+                                         [
+                                             "In",
+                                             "mijn",
+                                             "vre-",
+                                             "zen"
+                                         ],
+                                         [
+                                             "Staat",
+                                             "mijn",
+                                             "hoop",
+                                             "op",
+                                             "U",
+                                             "a-",
+                                             "l-",
+                                             "leen;"
+                                         ],
+                                         [
+                                             "Gij,",
+                                             "mijn",
+                                             "God,",
+                                             "zult",
+                                             "in",
+                                             "e-",
+                                             "l-",
+                                             "len-",
+                                             "den"
+                                         ],
+                                         [
+                                             "Bij-",
+                                             "stand",
+                                             "zen-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "En",
+                                             "ver-",
+                                             "ho-",
+                                             "ren",
+                                             "mijn",
+                                             "gebeÍn.",
+                                             "-"
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  16,
+                       "lines":  [
+                                     "ík Zei: ÑLaat nooit mijn bitter lijden",
+                                     "Hen verblijden",
+                                     "In hun trotsen euvelmoed;",
+                                     "Wijl die bozen juichen zouden,",
+                                     "Als zíaanschouwden",
+                                     "ít Wanklen van mijn zwakken voet.î"
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "ík Zei:",
+                                             "ÑLaat",
+                                             "nooit",
+                                             "mijn",
+                                             "bit-",
+                                             "ter",
+                                             "lij-",
+                                             "den"
+                                         ],
+                                         [
+                                             "Hen",
+                                             "ver-",
+                                             "blij-",
+                                             "den"
+                                         ],
+                                         [
+                                             "In",
+                                             "hun",
+                                             "trot-",
+                                             "sen",
+                                             "eu-",
+                                             "vel-",
+                                             "moed;"
+                                         ],
+                                         [
+                                             "Wijl",
+                                             "die",
+                                             "bo-",
+                                             "zen",
+                                             "jui-",
+                                             "chen",
+                                             "zou-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "zíaan-",
+                                             "schouw-",
+                                             "den"
+                                         ],
+                                         [
+                                             "ít Wank-",
+                                             "len",
+                                             "van",
+                                             "mijn",
+                                             "zwak-",
+                                             "ken",
+                                             "voet.î"
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  17,
+                       "lines":  [
+                                     "Want, o HEERí, ik ben aan ít zinken",
+                                     "En tot hinken",
+                                     "Ieder ogenblik gereed.",
+                                     "ík Heb mijn smart en onvermogen",
+                                     "Steeds voor ogen,",
+                                     "Bij ít vooruitzicht van mijn leed."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Want,",
+                                             "o",
+                                             "HEERí,",
+                                             "ik",
+                                             "ben",
+                                             "aan",
+                                             "ít zin-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "En",
+                                             "tot",
+                                             "hin-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "Ie-",
+                                             "der",
+                                             "o-",
+                                             "gen-",
+                                             "blik",
+                                             "ge-",
+                                             "reed."
+                                         ],
+                                         [
+                                             "ík Heb",
+                                             "mijn",
+                                             "smart",
+                                             "en",
+                                             "o-",
+                                             "n-",
+                                             "ver-",
+                                             "mo-",
+                                             "gen"
+                                         ],
+                                         [
+                                             "Steeds",
+                                             "voor",
+                                             "o-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Bij",
+                                             "ít voor-",
+                                             "uit-",
+                                             "zicht",
+                                             "van",
+                                             "mijn",
+                                             "leed."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  18,
+                       "lines":  [
+                                     "ík Wil mijn misda‚n, die U tergen,",
+                                     "Niet verbergen;",
+                                     "Ik bedek voor U die niet;",
+                                     "ík Ben vanwege al mijn zonden,",
+                                     "Die mij wonden,",
+                                     "Vol van kommer en verdriet."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "ík Wil",
+                                             "mijn",
+                                             "misda‚n,",
+                                             "die",
+                                             "U",
+                                             "ter-",
+                                             "gen,",
+                                             "-"
+                                         ],
+                                         [
+                                             "Niet",
+                                             "ver-",
+                                             "ber-",
+                                             "gen;"
+                                         ],
+                                         [
+                                             "Ik",
+                                             "be-",
+                                             "dek",
+                                             "voor",
+                                             "U",
+                                             "die",
+                                             "niet;"
+                                         ],
+                                         [
+                                             "ík Ben",
+                                             "van-",
+                                             "we-",
+                                             "ge",
+                                             "al",
+                                             "mijn",
+                                             "zon-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Die",
+                                             "mij",
+                                             "won-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Vol",
+                                             "van",
+                                             "kom-",
+                                             "mer",
+                                             "en",
+                                             "ver-",
+                                             "driet."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  19,
+                       "lines":  [
+                                     "Maar mijn vijand zie ik leven,",
+                                     "Hoog verheven,",
+                                     "Machtig, vrij van smart en nood.",
+                                     "Die, om valse reÍn verbolgen,",
+                                     "Mij vervolgen,",
+                                     "Nemen toe en worden groot."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Maar",
+                                             "mijn",
+                                             "vij-",
+                                             "and",
+                                             "zie",
+                                             "ik",
+                                             "le-",
+                                             "ven,"
+                                         ],
+                                         [
+                                             "Hoog",
+                                             "ver-",
+                                             "he-",
+                                             "ven,"
+                                         ],
+                                         [
+                                             "Mach-",
+                                             "tig,",
+                                             "vrij",
+                                             "van",
+                                             "smart",
+                                             "en",
+                                             "nood."
+                                         ],
+                                         [
+                                             "Die,",
+                                             "om",
+                                             "val-",
+                                             "se",
+                                             "reÍn",
+                                             "ver-",
+                                             "bol-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Mij",
+                                             "ver-",
+                                             "vol-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Ne-",
+                                             "men",
+                                             "toe",
+                                             "en",
+                                             "wor-",
+                                             "den",
+                                             "groot."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  20,
+                       "lines":  [
+                                     "Zij, die kwaad voor goed vergelden,",
+                                     "Lastíren, schelden,",
+                                     "En vervolgen mij gestaag.",
+                                     "Ja, zij zijn op mij gebeten,",
+                                     "Want zij weten,",
+                                     "Dat ik naar het goede jaag."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Zij,",
+                                             "die",
+                                             "kwaad",
+                                             "voor",
+                                             "goed",
+                                             "ver-",
+                                             "gel-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Lastíren,",
+                                             "schel-",
+                                             "den,",
+                                             "-"
+                                         ],
+                                         [
+                                             "En",
+                                             "ver-",
+                                             "vol-",
+                                             "gen",
+                                             "mij",
+                                             "ge-",
+                                             "staag."
+                                         ],
+                                         [
+                                             "Ja,",
+                                             "zij",
+                                             "zijn",
+                                             "op",
+                                             "mij",
+                                             "ge-",
+                                             "be-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Want",
+                                             "zij",
+                                             "we-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "ik",
+                                             "naar",
+                                             "het",
+                                             "goe-",
+                                             "de",
+                                             "jaag."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  21,
+                       "lines":  [
+                                     "Zie mij, HEERí, wien elk moet duchten,",
+                                     "Tot U vluchten.",
+                                     "O mijn God, verlaat mij niet;",
+                                     "Blijf niet, wegens mijn gebreken,",
+                                     "Vergeweken;",
+                                     "Toon, dat Gij mijn rampen ziet."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Zie",
+                                             "mij,",
+                                             "HEERí,",
+                                             "wien",
+                                             "elk",
+                                             "moet",
+                                             "duch-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Tot",
+                                             "U",
+                                             "vluch-",
+                                             "ten."
+                                         ],
+                                         [
+                                             "O",
+                                             "mijn",
+                                             "God,",
+                                             "ver-",
+                                             "laat",
+                                             "mij",
+                                             "niet;"
+                                         ],
+                                         [
+                                             "Blijf",
+                                             "niet,",
+                                             "we-",
+                                             "gens",
+                                             "mijn",
+                                             "ge-",
+                                             "bre-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Ver-",
+                                             "ge-",
+                                             "we-",
+                                             "ken;"
+                                         ],
+                                         [
+                                             "Toon,",
+                                             "dat",
+                                             "Gij",
+                                             "mijn",
+                                             "ram-",
+                                             "pen",
+                                             "ziet."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  22,
+                       "lines":  [
+                                     "HEERí, ik voel mijn krachten wijken,",
+                                     "En bezwijken,",
+                                     "Haast U tot mijn hulp, en red,",
+                                     "Red mij, Schutsheer, God dergoden,",
+                                     "Troost in noden,",
+                                     "Grote Hoorder van ít gebed."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "HEERí,",
+                                             "ik",
+                                             "voel",
+                                             "mijn",
+                                             "krach-",
+                                             "ten",
+                                             "wij-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "En",
+                                             "be-",
+                                             "zwij-",
+                                             "ken,"
+                                         ],
+                                         [
+                                             "Haast",
+                                             "U",
+                                             "tot",
+                                             "mijn",
+                                             "hulp,",
+                                             "en",
+                                             "red,"
+                                         ],
+                                         [
+                                             "Red",
+                                             "mij,",
+                                             "Schuts-",
+                                             "heer,",
+                                             "God",
+                                             "der-",
+                                             "go-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Troost",
+                                             "in",
+                                             "no-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "Gro-",
+                                             "te",
+                                             "Hoor-",
+                                             "der",
+                                             "van",
+                                             "ít ge-",
+                                             "bed."
+                                         ]
+                                     ]
+                   }
+               ]
 }
