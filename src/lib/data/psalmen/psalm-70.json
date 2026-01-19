@@ -4,7 +4,7 @@
   "title": "Psalm 70",
   "category": "psalm",
   "mode": "hypo-frygisch (Bourgois 1551)",
-  "keySignature": "F",
+  "keySignature": "D",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -12,13 +12,13 @@
       {
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
@@ -26,60 +26,60 @@
           { "keys": ["d/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" }
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["d/5"], "duration": "h" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["d/4"], "duration": "h" }
         ]
@@ -89,24 +89,24 @@
           { "keys": ["d/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
+          { "keys": ["f#/4"], "duration": "w" }
         ]
       }
     ]
@@ -127,9 +127,9 @@
       "syllables": [
         ["Daal", "haas-", "tig", "ter-", "ver-", "los-", "sing", "neer,"],
         ["O", "God,", "en", "red", "mij", "uit", "ge-", "va-", "ren,"],
-        ["Uit", "ang-", "sten,", "die", "mijn", "ziel", "be-", "zwa-", "ren,"],
+        ["Uit", "a-", "ng-", "sten,", "die", "mijn", "ziel", "be-", "zwa-", "ren,"],
         ["Spoed", "U", "te", "mij-", "ner", "hulp,", "o", "HEER’."],
-        ["Laat", "al-", "len,", "die", "mijn", "ziel", "be-", "la-", "gen,"],
+        ["Laat", "a-", "l-", "len,", "die", "mijn", "ziel", "be-", "la-", "gen,"],
         ["Be-", "schaamd", "en", "schaam-", "rood", "van", "mij", "vliên;"],
         ["Laat,", "die", "met", "vreugd", "mijn", "ram-", "pen", "zien,"],
         ["In", "hun-", "ne", "wen-", "sen", "nim-", "mer", "sla-", "gen."]
@@ -148,14 +148,14 @@
         "En zingen: „God zij hoog verheven!”"
       ],
       "syllables": [
-        ["Laat", "al-", "len,", "die,", "met", "schamp-", "’ren", "spot,"],
-        ["Mij", "ho-", "nen,", "ter-", "gen", "en", "ont-", "e-", "ren,"],
+        ["Laat", "a-", "l-", "len,", "die,", "met", "schamp’ren", "spot,"],
+        ["Mij", "honen,", "ter-", "gen", "en", "o-", "nt-", "e-", "ren,"],
         ["Hun", "schimp", "ten", "loon,", "te-", "rug-", "ge-", "ke-", "ren;"],
         ["Ver-", "gaan", "op", "Uw", "ge-", "ducht", "ge-", "bod."],
         ["Laat", "hen,", "die", "zich", "tot", "U", "be-", "ge-", "ven,"],
         ["Hen,", "die", "Uw", "heil", "be-", "min-", "nen,", "HEER’,"],
         ["Ge-", "du-", "rig", "jui-", "chen", "tot", "Uw", "eer,"],
-        ["En", "zin-", "gen:", "„God", "zij", "hoog", "ver-", "he-", "ven!”"]
+        ["En", "zin-", "gen:", "„God", "zij", "hoog", "verheven!”", "-", "-"]
       ]
     },
     {
@@ -168,7 +168,7 @@
       ],
       "syllables": [
         ["Ik", "ben", "nood-", "druf-", "tig,", "arm", "en", "naakt;"],
-        ["O", "God,", "mijn", "Hel-", "per", "uit", "el-", "len-", "den."],
+        ["O", "God,", "mijn", "Helper", "uit", "e-", "l-", "len-", "den."],
         ["Haast", "U", "tot", "mij;", "wil", "bij-", "stand", "zen-", "den;"],
         ["Uw", "komst", "is", "’t,", "die", "mijn", "heil", "volmaakt."]
       ]

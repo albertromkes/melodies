@@ -11,13 +11,21 @@ This document contains essential information for agentic coding agents working o
 - `npm run preview` - Preview production build locally
 - `npm run check` - Run type checking: `svelte-check` + `tsc` for node configs
 
+### Generating a psalm using the powershell script (IMPORTANT!) ###
+
+To generate a psalm, use 'generate-psalms.ps1'. Run it like this:
+`powershell.exe -File ".\generate-psalms.ps1" -PsalmNumber {number} -InputFile ".\psalm-melodys.txt"`
+
+After that, format the newly generated psalm as follows:
+`node "C:\personal\music-2\format-psalm.js" "C:\personal\music-2\src\lib\data\psalmen\{psalm-70.json}"`
+
 ### Data Generation Commands
-- `.\generate-psalms.ps1 -PsalmNumber 23` - Generate single psalm JSON from ABC notation
-- `.\generate-psalms.ps1 -PsalmRange 23-30` - Generate range of psalms
+- `.\generate-psalms.ps1 -PsalmNumber 23` - Generate single psalm JSON from ABC notation (See 'Generating a psalm using the powershell script (IMPORTANT!))
+- `.\generate-psalms.ps1 -PsalmRange 23-30` - Generate range of psalms (See 'Generating a psalm using the powershell script (IMPORTANT!))
 - Uses `psalm-melodys.txt` (ABC notation) and web scraping from elrenkema.nl
 - Outputs to `src/lib/data/psalmen/psalm-{number}.json`
 - Requires Node.js for Dutch syllabification (`syllabify-nl.js`)
-- Automatically formats JSON output using `format-psalm.js` for readability
+- Automatically formats JSON output using `format-psalm.js` for readability (See 'Generating a psalm using the powershell script (IMPORTANT!))
 
 ### Mobile Development (Capacitor)
 - `npm run cap:sync` - Build web app and sync to native platforms

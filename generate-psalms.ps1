@@ -94,8 +94,8 @@ function Get-KeySignature {
             'dor' = @{ 'D' = 'C'; 'E' = 'D'; 'F#' = 'E'; 'G' = 'F'; 'A' = 'G'; 'B' = 'A'; 'C' = 'Bb' }
             'dorian' = @{ 'D' = 'C'; 'E' = 'D'; 'F#' = 'E'; 'G' = 'F'; 'A' = 'G'; 'B' = 'A'; 'C' = 'Bb' }
             # Phrygian mode: root note maps to major key a major third below
-            'phr' = @{ 'E' = 'C'; 'F#' = 'D'; 'G#' = 'E'; 'A' = 'F'; 'B' = 'G'; 'C#' = 'A'; 'D' = 'Bb' }
-            'phrygian' = @{ 'E' = 'C'; 'F#' = 'D'; 'G#' = 'E'; 'A' = 'F'; 'B' = 'G'; 'C#' = 'A'; 'D' = 'Bb' }
+            'phr' = @{ 'E' = 'C'; 'F#' = 'D'; 'G#' = 'E'; 'A' = 'F'; 'B' = 'G'; 'C#' = 'A'; 'D' = 'D' }
+            'phrygian' = @{ 'E' = 'C'; 'F#' = 'D'; 'G#' = 'E'; 'A' = 'F'; 'B' = 'G'; 'C#' = 'A'; 'D' = 'D' }
             # Lydian mode: root note maps to major key a fourth below
             'lyd' = @{ 'F' = 'C'; 'G' = 'D'; 'A' = 'E'; 'Bb' = 'F'; 'C' = 'G'; 'D' = 'A'; 'E' = 'B' }
             'lydian' = @{ 'F' = 'C'; 'G' = 'D'; 'A' = 'E'; 'Bb' = 'F'; 'C' = 'G'; 'D' = 'A'; 'E' = 'B' }
@@ -1025,7 +1025,8 @@ $json | Out-File -FilePath $currentOutputFile -Encoding UTF8
 Write-Host "`n[6] JSON formatteren met format-psalm.js" -ForegroundColor Yellow
 
 # Run format-psalm.js om de JSON netjes te formatteren
-$formatScript = "$PSScriptRoot\format-psalm.js"
+#$formatScript = "$PSScriptRoot\format-psalm.js"
+$formatScript = Join-Path $PSScriptRoot "format-psalm.js"
 if (Test-Path $formatScript) {
     try {
         $nodeResult = & node $formatScript $currentOutputFile 2>&1

@@ -1,282 +1,1140 @@
-{
-  "id": "psalm-083",
-  "number": 83,
-  "title": "Psalm 83",
-  "category": "psalm",
-  "mode": "frygisch (Genève 1562)",
-  "keySignature": "F",
-  "timeSignature": [4, 4],
-  "clef": "treble",
-  "melody": {
-    "measures": [
-      {
-        "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["d/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["f/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" }
-        ]
-      },
-      {
-        "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
-        ]
-      }
-    ]
-  },
-  "verses": [
-    {
-      "number": 1,
-      "lines": [
-        "Zwijg niet, o God, houd U niet doof.",
-        "Wij worden, zo Gij zwijgt, ten roof;",
-        "Wees toch niet stil, ai, wil ontwaken;",
-        "Want zie, o God, Uw haters maken",
-        "Een krijgsgetier om zich te wreken;",
-        "Zij durven stout den kop opsteken."
-      ],
-      "syllables": [
-        ["Zwijg", "niet,", "o", "God,", "houd", "U", "niet", "doof."],
-        ["Wij", "wor-", "den,", "zo", "Gij", "zwijgt,", "ten", "roof;"],
-        ["Wees", "toch", "niet", "stil,", "ai,", "wil", "ont-", "wa-", "ken;"],
-        ["Want", "zie,", "o", "God,", "Uw", "ha-", "ters", "ma-", "ken"],
-        ["Een", "krijgs-", "ge-", "tier", "om", "zich", "te", "wre-", "ken;"],
-        ["Zij", "dur-", "ven", "stout", "den", "kop", "op-", "ste-", "ken."]
-      ]
-    },
-    {
-      "number": 2,
-      "lines": [
-        "Hun aanslag is verwoed en boos;",
-        "Zij zoeken, heimelijk en loos,",
-        "Uw volk, dat zij zo bits verachten,",
-        "Te dempen met vereende krachten;",
-        "Dat Gij, met zoveel gunst en zorgen,",
-        "Houdt, als een schat, bij U verborgen."
-      ],
-      "syllables": [
-        ["Hun", "aan-", "slag", "is", "ver-", "woed", "en", "boos;"],
-        ["Zij", "zoe-", "ken,", "hei-", "me-", "lijk", "en", "loos,"],
-        ["Uw", "volk,", "dat", "zij", "zo", "bits", "ver-", "ach-", "ten,"],
-        ["Te", "dem-", "pen", "met", "ver-", "een-", "de", "krach-", "ten;"],
-        ["Dat", "Gij,", "met", "zo-", "veel", "gunst", "en", "zor-", "gen,"],
-        ["Houdt,", "als", "een", "schat,", "bij", "U", "ver-", "bor-", "gen."]
-      ]
-    },
-    {
-      "number": 3,
-      "lines": [
-        "Zij zeiden stout, en heet op buit:",
-        "„Komt aan, men roei’ gans Isrel uit;",
-        "Opdat dit volk, gelijk voor dezen,",
-        "Voortaan geen volk meer moge wezen;",
-        "Dat niemand Isrels naam doe horen,",
-        "Dat zijn gedachtnis ga verloren.”"
-      ],
-      "syllables": [
-        ["Zij", "zei-", "den", "stout,", "en", "heet", "op", "buit:"],
-        ["„Komt", "aan,", "men", "roei’", "gans", "Is-", "rel", "uit;"],
-        ["Op-", "dat", "dit", "volk,", "ge-", "lijk", "voor", "de-", "zen,"],
-        ["Voort-", "aan", "geen", "volk", "meer", "mo-", "ge", "we-", "zen;"],
-        ["Dat", "nie-", "mand", "Is-", "rels", "naam", "doe", "ho-", "ren,"],
-        ["Dat", "zijn", "ge-", "dacht-", "nis", "ga", "ver-", "lo-", "ren.”"]
-      ]
-    },
-    {
-      "number": 4,
-      "lines": [
-        "Want samen zijn zij ’t eens geraakt;",
-        "’t Verbond is tegen U gemaakt;",
-        "Daar zien wij Edoms tenten naad’ ren;",
-        "Ginds Ismaël zich saam vergaad’ ren;",
-        "De Moabieten, Hagarenen",
-        "En Gebal zich in ’t veld verenen."
-      ],
-      "syllables": [
-        ["Want", "sa-", "men", "zijn", "zij", "’t eens", "ge-", "raakt;"],
-        ["’t Ver-", "bond", "is", "te-", "gen", "U", "ge-", "maakt;"],
-        ["Daar", "zien", "wij", "E-","doms", "ten-", "ten", "naad’", "ren;"],
-        ["Ginds", "Is-", "ma-", "ël", "zich", "saam", "ver-", "gaad’", "ren;"],
-        ["De", "Mo-", "a-", "bie-", "ten,", "Ha-", "ga-", "re-", "nen"],
-        ["En", "Ge-", "bal", "zich", "in", "’t veld", "ver-", "e-", "nen."]
-      ]
-    },
-    {
-      "number": 5,
-      "lines": [
-        "Met hen trekt Ammon éne lijn,",
-        "En Amalek, en Palestijn,",
-        "En die in ’t rijke Tyrus wonen;",
-        "Ook liet zich Assur bij hen tronen,",
-        "Een machtig rijk, waarop zij leunen,",
-        "En Lots ontaarde kinders steunen."
-      ],
-      "syllables": [
-        ["Met", "hen", "trekt", "Am-", "mon", "é-", "ne", "lijn,"],
-        ["En", "A-", "ma-", "lek,", "en", "Pa-", "les-", "tijn,"],
-        ["En", "die", "in", "’t rij-", "ke", "Ty-", "rus", "wo-", "nen;"],
-        ["Ook", "liet", "zich", "As-", "sur", "bij", "hen", "tro-", "nen,"],
-        ["Een", "mach-", "tig", "rijk,", "waar-", "op", "zij", "leu-", "nen,"],
-        ["En", "Lots", "ont-", "aar-", "de", "kin-", "ders", "steu-", "nen."]
-      ]
-    },
-    {
-      "number": 6,
-      "lines": [
-        "Dat hen, o God, Uw gramschap sla,",
-        "Als Midian, als Sisera,",
-        "Als Jabin, die bij Kisons stromen",
-        "En t’Endor gans zijn omgekomen,",
-        "Wanneer Uw ijver niemand spaarde,",
-        "Maar hen vertrad als slijk deraarde."
-      ],
-      "syllables": [
-        ["Dat", "hen,", "o", "God,", "Uw", "gram-", "schap", "sla,"],
-        ["Als", "Mi-", "di-", "an,", "als", "Sis-", "e-", "ra,"],
-        ["Als", "Ja-", "bin,", "die", "bij", "Ki-", "sons", "stro-", "men"],
-        ["En", "t-", "’Endor", "gans", "zijn", "om-", "ge-", "ko-", "men,"],
-        ["Wan-", "neer", "Uw", "ij-", "ver", "nie-", "mand", "spaar-", "de,"],
-        ["Maar", "hen", "ver-", "trad", "als", "slijk", "der-", "aar-", "de."]
-      ]
-    },
-    {
-      "number": 7,
-      "lines": [
-        "Sla hen en hunne prinsen, HEER’,",
-        "Als Oreb en als Zeëb neer.",
-        "Doe al hun vorsten, hoe verheven,",
-        "Als Zebah en Zalmuna sneven;",
-        "Die met geweld Gods land en daken",
-        "Zich wilden terbezitting maken."
-      ],
-      "syllables": [
-        ["Sla", "hen", "en", "hun-", "ne", "prin-", "sen,", "HEER’,"],
-        ["Als", "O-", "reb", "en", "als", "Ze-", "ëb", "neer."],
-        ["Doe", "al", "hun", "vor-", "sten,", "hoe", "ver-", "he-", "ven,"],
-        ["Als", "Ze-", "bah", "en", "Zal-", "mu-", "na", "sne-", "ven;"],
-        ["Die", "met", "ge-", "weld", "Gods", "land", "en", "da-", "ken"],
-        ["Zich", "wil-", "den", "ter-", "be-", "zit-", "ting", "ma-", "ken."]
-      ]
-    },
-    {
-      "number": 8,
-      "lines": [
-        "Maak dat dit volk geen rustplaats vind’;",
-        "Verstrooi hen door een wervelwind",
-        "Als stoppels, door een storm gedreven,",
-        "Als wouden, ’t vuur terprooi gegeven,",
-        "Als bergen, in wier ingewanden",
-        "Ontstoken pik en zwavel branden."
-      ],
-      "syllables": [
-        ["Maak", "dat", "dit", "volk", "geen", "rust-", "plaats", "vind’;"],
-        ["Ver-", "strooi", "hen", "door", "een", "wer-", "vel-", "wind"],
-        ["Als", "stop-", "pels,", "door", "een", "storm", "ge-", "dre-", "ven,"],
-        ["Als", "wou-", "den,", "’t vuur", "ter-", "prooi", "ge-", "ge-", "ven,"],
-        ["Als", "ber-", "gen,", "in", "wier", "in-", "ge-", "wan-", "den"],
-        ["Ont-", "sto-", "ken", "pik", "en", "zwa-", "vel", "bran-", "den."]
-      ]
-    },
-    {
-      "number": 9,
-      "lines": [
-        "Vervolg ze dus van oord tot oord,",
-        "En drijf ze met Uw onweer voort.",
-        "Verschrik hen met Uw dwarrelwinden.",
-        "Zodat zij rust noch schuilplaats vinden.",
-        "Doe hen, o HEER’, vol schande vlieden,",
-        "Opdat z’Uw Naam eens hulde bieden."
-      ],
-      "syllables": [
-        ["Ver-", "volg", "ze", "dus", "van", "oord", "tot", "oord,"],
-        ["En", "drijf", "ze", "met", "Uw", "on-", "weer", "voort."],
-        ["Ver-", "schrik", "hen", "met", "Uw", "dwar-", "rel-", "win-", "den."],
-        ["Zo-", "dat", "zij", "rust", "noch", "schuil-", "plaats", "vin-", "den."],
-        ["Doe", "hen,", "o", "HEER’,", "vol", "schan-", "de", "vlie-", "den,"],
-        ["Op-", "dat", "z’Uw", "Naam", "eens", "hul-", "de", "bie-", "den."]
-      ]
-    },
-    {
-      "number": 10,
-      "lines": [
-        "Beschaam, verschrik hen eeuwig’lijk;",
-        "Dat ieder schaamrood rugwaarts wijk’.",
-        "Verniel hun heiren; doe hen weten,",
-        "Dat Gij alleen de HEER’ moogt heten;",
-        "Die grote Naam van ’t hoogste Wezen.",
-        "Doe ’t wereldrond eerbiedig vrezen."
-      ],
-      "syllables": [
-        ["Be-", "schaam,", "ver-", "schrik", "hen", "eeu-", "wig-", "’lijk;"],
-        ["Dat", "ie-", "der", "schaam-", "rood", "rug-", "waarts", "wijk’."],
-        ["Ver-", "niel", "hun", "hei-", "ren;", "doe", "hen", "we-", "ten,"],
-        ["Dat", "Gij", "al-", "leen", "de", "HEER’", "moogt", "he-", "ten;"],
-        ["Die", "gro-", "te", "Naam", "van", "’t hoog-", "ste", "We-", "zen."],
-        ["Doe", "’t we-", "reld-", "rond", "eer-", "bie-", "dig", "vre-", "zen."]
-      ]
-    }
-  ]
+﻿{
+    "id":  "psalm-083",
+    "number":  83,
+    "title":  "Psalm 83",
+    "category":  "psalm",
+    "mode":  "frygisch (GenÃ¨ve 1562)",
+    "keySignature":  "D",
+    "timeSignature":  [
+                          4,
+                          4
+                      ],
+    "clef":  "treble",
+    "melody":  {
+                   "measures":  [
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "d/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      }
+                                                  ]
+                                    },
+                                    {
+                                        "lyrics":  "",
+                                        "notes":  [
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "d/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "c#/5"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "b/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "a/4"
+                                                                   ],
+                                                          "duration":  "q"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "g/4"
+                                                                   ],
+                                                          "duration":  "h"
+                                                      },
+                                                      {
+                                                          "keys":  [
+                                                                       "f#/4"
+                                                                   ],
+                                                          "duration":  "w"
+                                                      }
+                                                  ]
+                                    }
+                                ]
+               },
+    "verses":  [
+                   {
+                       "number":  1,
+                       "lines":  [
+                                     "Zwijg niet, o God, houd U niet doof.",
+                                     "Wij worden, zo Gij zwijgt, ten roof;",
+                                     "Wees toch niet stil, ai, wil ontwaken;",
+                                     "Want zie, o God, Uw haters maken",
+                                     "Een krijgsgetier om zich te wreken;",
+                                     "Zij durven stout den kop opsteken."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Zwijg",
+                                             "niet,",
+                                             "o",
+                                             "God,",
+                                             "houd",
+                                             "U",
+                                             "niet",
+                                             "doof."
+                                         ],
+                                         [
+                                             "Wij",
+                                             "wor-",
+                                             "den,",
+                                             "zo",
+                                             "Gij",
+                                             "zwijgt,",
+                                             "ten",
+                                             "roof;"
+                                         ],
+                                         [
+                                             "Wees",
+                                             "toch",
+                                             "niet",
+                                             "stil,",
+                                             "ai,",
+                                             "wil",
+                                             "o-",
+                                             "nt-",
+                                             "wa-",
+                                             "ken;"
+                                         ],
+                                         [
+                                             "Want",
+                                             "zie,",
+                                             "o",
+                                             "God,",
+                                             "Uw",
+                                             "ha-",
+                                             "ters",
+                                             "ma-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "Een",
+                                             "krijgs-",
+                                             "ge-",
+                                             "tier",
+                                             "om",
+                                             "zich",
+                                             "te",
+                                             "wre-",
+                                             "ken;"
+                                         ],
+                                         [
+                                             "Zij",
+                                             "durven",
+                                             "stout",
+                                             "den",
+                                             "kop",
+                                             "o-",
+                                             "p-",
+                                             "ste-",
+                                             "ken."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  2,
+                       "lines":  [
+                                     "Hun aanslag is verwoed en boos;",
+                                     "Zij zoeken, heimelijk en loos,",
+                                     "Uw volk, dat zij zo bits verachten,",
+                                     "Te dempen met vereende krachten;",
+                                     "Dat Gij, met zoveel gunst en zorgen,",
+                                     "Houdt, als een schat, bij U verborgen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Hun",
+                                             "aan-",
+                                             "slag",
+                                             "is",
+                                             "ver-",
+                                             "woed",
+                                             "en",
+                                             "boos;"
+                                         ],
+                                         [
+                                             "Zij",
+                                             "zoe-",
+                                             "ken,",
+                                             "hei-",
+                                             "me-",
+                                             "lijk",
+                                             "en",
+                                             "loos,"
+                                         ],
+                                         [
+                                             "Uw",
+                                             "volk,",
+                                             "dat",
+                                             "zij",
+                                             "zo",
+                                             "bits",
+                                             "ver-",
+                                             "ach-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Te",
+                                             "dem-",
+                                             "pen",
+                                             "met",
+                                             "ver-",
+                                             "een-",
+                                             "de",
+                                             "krach-",
+                                             "ten;"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "Gij,",
+                                             "met",
+                                             "zo-",
+                                             "veel",
+                                             "gunst",
+                                             "en",
+                                             "zor-",
+                                             "gen,"
+                                         ],
+                                         [
+                                             "Houdt,",
+                                             "als",
+                                             "een",
+                                             "schat,",
+                                             "bij",
+                                             "U",
+                                             "ver-",
+                                             "bor-",
+                                             "gen."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  3,
+                       "lines":  [
+                                     "Zij zeiden stout, en heet op buit:",
+                                     "„Komt aan, men roei’ gans Isrel uit;",
+                                     "Opdat dit volk, gelijk voor dezen,",
+                                     "Voortaan geen volk meer moge wezen;",
+                                     "Dat niemand Isrels naam doe horen,",
+                                     "Dat zijn gedachtnis ga verloren.”"
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Zij",
+                                             "zei-",
+                                             "den",
+                                             "stout,",
+                                             "en",
+                                             "heet",
+                                             "op",
+                                             "buit:"
+                                         ],
+                                         [
+                                             "„Komt",
+                                             "aan,",
+                                             "men",
+                                             "roei’",
+                                             "gans",
+                                             "I-",
+                                             "s-",
+                                             "rel",
+                                             "uit;"
+                                         ],
+                                         [
+                                             "O-",
+                                             "p-",
+                                             "dat",
+                                             "dit",
+                                             "volk,",
+                                             "ge-",
+                                             "lijk",
+                                             "voor",
+                                             "de-",
+                                             "zen,"
+                                         ],
+                                         [
+                                             "Voort-",
+                                             "aan",
+                                             "geen",
+                                             "volk",
+                                             "meer",
+                                             "mo-",
+                                             "ge",
+                                             "we-",
+                                             "zen;"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "niemand",
+                                             "I-",
+                                             "s-",
+                                             "rels",
+                                             "naam",
+                                             "doe",
+                                             "ho-",
+                                             "ren,"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "zijn",
+                                             "ge-",
+                                             "dacht-",
+                                             "nis",
+                                             "ga",
+                                             "verloren.”",
+                                             "-",
+                                             "-"
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  4,
+                       "lines":  [
+                                     "Want samen zijn zij ’t eens geraakt;",
+                                     "’t Verbond is tegen U gemaakt;",
+                                     "Daar zien wij Edoms tenten naad’ ren;",
+                                     "Ginds Ismaël zich saam vergaad’ ren;",
+                                     "De Moabieten, Hagarenen",
+                                     "En Gebal zich in ’t veld verenen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Want",
+                                             "sa-",
+                                             "men",
+                                             "zijn",
+                                             "zij",
+                                             "’t eens",
+                                             "ge-",
+                                             "raakt;"
+                                         ],
+                                         [
+                                             "’t Ver-",
+                                             "bond",
+                                             "is",
+                                             "te-",
+                                             "gen",
+                                             "U",
+                                             "ge-",
+                                             "maakt;"
+                                         ],
+                                         [
+                                             "Daar",
+                                             "zien",
+                                             "wij",
+                                             "Edoms",
+                                             "ten-",
+                                             "ten",
+                                             "naad’",
+                                             "ren;",
+                                             "-"
+                                         ],
+                                         [
+                                             "Ginds",
+                                             "Ismaël",
+                                             "zich",
+                                             "saam",
+                                             "vergaad’",
+                                             "ren;",
+                                             "-",
+                                             "-",
+                                             "-"
+                                         ],
+                                         [
+                                             "De",
+                                             "Mo-",
+                                             "a-",
+                                             "bie-",
+                                             "ten,",
+                                             "Ha-",
+                                             "ga-",
+                                             "re-",
+                                             "nen"
+                                         ],
+                                         [
+                                             "En",
+                                             "Ge-",
+                                             "bal",
+                                             "zich",
+                                             "in",
+                                             "’t veld",
+                                             "ver-",
+                                             "e-",
+                                             "nen."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  5,
+                       "lines":  [
+                                     "Met hen trekt Ammon éne lijn,",
+                                     "En Amalek, en Palestijn,",
+                                     "En die in ’t rijke Tyrus wonen;",
+                                     "Ook liet zich Assur bij hen tronen,",
+                                     "Een machtig rijk, waarop zij leunen,",
+                                     "En Lots ontaarde kinders steunen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Met",
+                                             "hen",
+                                             "trekt",
+                                             "A-",
+                                             "m-",
+                                             "mon",
+                                             "éne",
+                                             "lijn,"
+                                         ],
+                                         [
+                                             "En",
+                                             "A-",
+                                             "ma-",
+                                             "lek,",
+                                             "en",
+                                             "Pa-",
+                                             "les-",
+                                             "tijn,"
+                                         ],
+                                         [
+                                             "En",
+                                             "die",
+                                             "in",
+                                             "’t rij-",
+                                             "ke",
+                                             "Tyrus",
+                                             "wo-",
+                                             "nen;",
+                                             "-"
+                                         ],
+                                         [
+                                             "Ook",
+                                             "liet",
+                                             "zich",
+                                             "A-",
+                                             "s-",
+                                             "sur",
+                                             "bij",
+                                             "hen",
+                                             "tro-",
+                                             "nen,"
+                                         ],
+                                         [
+                                             "Een",
+                                             "mach-",
+                                             "tig",
+                                             "rijk,",
+                                             "waar-",
+                                             "op",
+                                             "zij",
+                                             "leu-",
+                                             "nen,"
+                                         ],
+                                         [
+                                             "En",
+                                             "Lots",
+                                             "o-",
+                                             "nt-",
+                                             "aar-",
+                                             "de",
+                                             "kin-",
+                                             "ders",
+                                             "steu-",
+                                             "nen."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  6,
+                       "lines":  [
+                                     "Dat hen, o God, Uw gramschap sla,",
+                                     "Als Midian, als Sisera,",
+                                     "Als Jabin, die bij Kisons stromen",
+                                     "En t’Endor gans zijn omgekomen,",
+                                     "Wanneer Uw ijver niemand spaarde,",
+                                     "Maar hen vertrad als slijk deraarde."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Dat",
+                                             "hen,",
+                                             "o",
+                                             "God,",
+                                             "Uw",
+                                             "gram-",
+                                             "schap",
+                                             "sla,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "Mi-",
+                                             "di-",
+                                             "an,",
+                                             "als",
+                                             "Sis-",
+                                             "e-",
+                                             "ra,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "Ja-",
+                                             "bin,",
+                                             "die",
+                                             "bij",
+                                             "Ki-",
+                                             "sons",
+                                             "stro-",
+                                             "men"
+                                         ],
+                                         [
+                                             "En",
+                                             "t’Endor",
+                                             "gans",
+                                             "zijn",
+                                             "o-",
+                                             "m-",
+                                             "ge-",
+                                             "ko-",
+                                             "men,"
+                                         ],
+                                         [
+                                             "Wanneer",
+                                             "Uw",
+                                             "i-",
+                                             "j-",
+                                             "ver",
+                                             "nie-",
+                                             "mand",
+                                             "spaar-",
+                                             "de,"
+                                         ],
+                                         [
+                                             "Maar",
+                                             "hen",
+                                             "ver-",
+                                             "trad",
+                                             "als",
+                                             "slijk",
+                                             "der-",
+                                             "aar-",
+                                             "de."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  7,
+                       "lines":  [
+                                     "Sla hen en hunne prinsen, HEER’,",
+                                     "Als Oreb en als Zeëb neer.",
+                                     "Doe al hun vorsten, hoe verheven,",
+                                     "Als Zebah en Zalmuna sneven;",
+                                     "Die met geweld Gods land en daken",
+                                     "Zich wilden terbezitting maken."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Sla",
+                                             "hen",
+                                             "en",
+                                             "hun-",
+                                             "ne",
+                                             "prin-",
+                                             "sen,",
+                                             "HEER’,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "O-",
+                                             "reb",
+                                             "en",
+                                             "als",
+                                             "Zeëb",
+                                             "neer.",
+                                             "-"
+                                         ],
+                                         [
+                                             "Doe",
+                                             "al",
+                                             "hun",
+                                             "vor-",
+                                             "sten,",
+                                             "hoe",
+                                             "ver-",
+                                             "he-",
+                                             "ven,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "Ze-",
+                                             "bah",
+                                             "en",
+                                             "Zal-",
+                                             "mu-",
+                                             "na",
+                                             "sne-",
+                                             "ven;"
+                                         ],
+                                         [
+                                             "Die",
+                                             "met",
+                                             "ge-",
+                                             "weld",
+                                             "Gods",
+                                             "land",
+                                             "en",
+                                             "da-",
+                                             "ken"
+                                         ],
+                                         [
+                                             "Zich",
+                                             "wil-",
+                                             "den",
+                                             "ter-",
+                                             "be-",
+                                             "zit-",
+                                             "ting",
+                                             "ma-",
+                                             "ken."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  8,
+                       "lines":  [
+                                     "Maak dat dit volk geen rustplaats vind’;",
+                                     "Verstrooi hen door een wervelwind",
+                                     "Als stoppels, door een storm gedreven,",
+                                     "Als wouden, ’t vuur terprooi gegeven,",
+                                     "Als bergen, in wier ingewanden",
+                                     "Ontstoken pik en zwavel branden."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Maak",
+                                             "dat",
+                                             "dit",
+                                             "volk",
+                                             "geen",
+                                             "rust-",
+                                             "plaats",
+                                             "vind’;"
+                                         ],
+                                         [
+                                             "Ver-",
+                                             "strooi",
+                                             "hen",
+                                             "door",
+                                             "een",
+                                             "wer-",
+                                             "vel-",
+                                             "wind"
+                                         ],
+                                         [
+                                             "Als",
+                                             "stop-",
+                                             "pels,",
+                                             "door",
+                                             "een",
+                                             "storm",
+                                             "ge-",
+                                             "dre-",
+                                             "ven,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "wou-",
+                                             "den,",
+                                             "’t vuur",
+                                             "ter-",
+                                             "prooi",
+                                             "ge-",
+                                             "ge-",
+                                             "ven,"
+                                         ],
+                                         [
+                                             "Als",
+                                             "bergen,",
+                                             "in",
+                                             "wier",
+                                             "i-",
+                                             "n-",
+                                             "ge-",
+                                             "wan-",
+                                             "den"
+                                         ],
+                                         [
+                                             "O-",
+                                             "nt-",
+                                             "sto-",
+                                             "ken",
+                                             "pik",
+                                             "en",
+                                             "zwa-",
+                                             "vel",
+                                             "bran-",
+                                             "den."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  9,
+                       "lines":  [
+                                     "Vervolg ze dus van oord tot oord,",
+                                     "En drijf ze met Uw onweer voort.",
+                                     "Verschrik hen met Uw dwarrelwinden.",
+                                     "Zodat zij rust noch schuilplaats vinden.",
+                                     "Doe hen, o HEER’, vol schande vlieden,",
+                                     "Opdat z’Uw Naam eens hulde bieden."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Ver-",
+                                             "volg",
+                                             "ze",
+                                             "dus",
+                                             "van",
+                                             "oord",
+                                             "tot",
+                                             "oord,"
+                                         ],
+                                         [
+                                             "En",
+                                             "drijf",
+                                             "ze",
+                                             "met",
+                                             "Uw",
+                                             "o-",
+                                             "n-",
+                                             "weer",
+                                             "voort."
+                                         ],
+                                         [
+                                             "Ver-",
+                                             "schrik",
+                                             "hen",
+                                             "met",
+                                             "Uw",
+                                             "dwar-",
+                                             "rel-",
+                                             "win-",
+                                             "den."
+                                         ],
+                                         [
+                                             "Zo-",
+                                             "dat",
+                                             "zij",
+                                             "rust",
+                                             "noch",
+                                             "schuil-",
+                                             "plaats",
+                                             "vin-",
+                                             "den."
+                                         ],
+                                         [
+                                             "Doe",
+                                             "hen,",
+                                             "o",
+                                             "HEER’,",
+                                             "vol",
+                                             "schan-",
+                                             "de",
+                                             "vlie-",
+                                             "den,"
+                                         ],
+                                         [
+                                             "O-",
+                                             "p-",
+                                             "dat",
+                                             "z’Uw",
+                                             "Naam",
+                                             "eens",
+                                             "hul-",
+                                             "de",
+                                             "bie-",
+                                             "den."
+                                         ]
+                                     ]
+                   },
+                   {
+                       "number":  10,
+                       "lines":  [
+                                     "Beschaam, verschrik hen eeuwig’lijk;",
+                                     "Dat ieder schaamrood rugwaarts wijk’.",
+                                     "Verniel hun heiren; doe hen weten,",
+                                     "Dat Gij alleen de HEER’ moogt heten;",
+                                     "Die grote Naam van ’t hoogste Wezen.",
+                                     "Doe ’t wereldrond eerbiedig vrezen."
+                                 ],
+                       "syllables":  [
+                                         [
+                                             "Be-",
+                                             "schaam,",
+                                             "ver-",
+                                             "schrik",
+                                             "hen",
+                                             "eeuwig’lijk;",
+                                             "-",
+                                             "-"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "ie-",
+                                             "der",
+                                             "schaam-",
+                                             "rood",
+                                             "rug-",
+                                             "waarts",
+                                             "wijk’."
+                                         ],
+                                         [
+                                             "Ver-",
+                                             "niel",
+                                             "hun",
+                                             "hei-",
+                                             "ren;",
+                                             "doe",
+                                             "hen",
+                                             "we-",
+                                             "ten,"
+                                         ],
+                                         [
+                                             "Dat",
+                                             "Gij",
+                                             "a-",
+                                             "l-",
+                                             "leen",
+                                             "de",
+                                             "HEER’",
+                                             "moogt",
+                                             "he-",
+                                             "ten;"
+                                         ],
+                                         [
+                                             "Die",
+                                             "gro-",
+                                             "te",
+                                             "Naam",
+                                             "van",
+                                             "’t hoog-",
+                                             "ste",
+                                             "We-",
+                                             "zen."
+                                         ],
+                                         [
+                                             "Doe",
+                                             "’t we-",
+                                             "reld-",
+                                             "rond",
+                                             "eer-",
+                                             "bie-",
+                                             "dig",
+                                             "vre-",
+                                             "zen."
+                                         ]
+                                     ]
+                   }
+               ]
 }

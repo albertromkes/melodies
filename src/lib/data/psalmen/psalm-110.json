@@ -1,718 +1,179 @@
 {
-    "id":  "psalm-110",
-    "number":  110,
-    "title":  "Psalm 110",
-    "category":  "psalm",
-    "mode":  "hypo-dorisch (Franc 1543 / Bourgois 1551)",
-    "keySignature":  "Bb",
-    "timeSignature":  [
-                          4,
-                          4
-                      ],
-    "clef":  "treble",
-    "melody":  {
-                   "measures":  [
-                                    {
-                                        "lyrics":  "",
-                                        "notes":  [
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "f/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "c/5"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "d/5"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "c/5"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      }
-                                                  ]
-                                    },
-                                    {
-                                        "lyrics":  "",
-                                        "notes":  [
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "f/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "f#/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      }
-                                                  ]
-                                    },
-                                    {
-                                        "lyrics":  "",
-                                        "notes":  [
-                                                      {
-                                                          "keys":  [
-                                                                       "d/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "f/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "f/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "eb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "d/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      }
-                                                  ]
-                                    },
-                                    {
-                                        "lyrics":  "",
-                                        "notes":  [
-                                                      {
-                                                          "keys":  [
-                                                                       "f/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "c/5"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "q"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "bb/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "a/4"
-                                                                   ],
-                                                          "duration":  "h"
-                                                      },
-                                                      {
-                                                          "keys":  [
-                                                                       "g/4"
-                                                                   ],
-                                                          "duration":  "w"
-                                                      }
-                                                  ]
-                                    }
-                                ]
-               },
-    "verses":  [
-                   {
-                       "number":  1,
-                       "lines":  [
-                                     "Dus heeft de HEERí tot mijnen Heerí gesproken:",
-                                     "ÑZit op den troon terrechterhand naast Mij,",
-                                     "Tot Ik de macht Uws vijands hebbí verbroken,",
-                                     "En u zijn nek tot ene voetbank zij.î"
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "Dus",
-                                             "heeft",
-                                             "de",
-                                             "HEERí",
-                                             "tot",
-                                             "mij-",
-                                             "nen",
-                                             "Heerí",
-                                             "ge-",
-                                             "spro-",
-                                             "ken:"
-                                         ],
-                                         [
-                                             "ÑZit",
-                                             "op",
-                                             "den",
-                                             "troon",
-                                             "ter-",
-                                             "rech-",
-                                             "ter-",
-                                             "hand",
-                                             "naast",
-                                             "Mij,"
-                                         ],
-                                         [
-                                             "Tot",
-                                             "Ik",
-                                             "de",
-                                             "macht",
-                                             "Uws",
-                                             "vij-",
-                                             "a-",
-                                             "n-",
-                                             "ds",
-                                             "hebbí",
-                                             "verbroken,"
-                                         ],
-                                         [
-                                             "En",
-                                             "u",
-                                             "zijn",
-                                             "nek",
-                                             "tot",
-                                             "e-",
-                                             "ne",
-                                             "voet-",
-                                             "bank",
-                                             "zij.î"
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  2,
-                       "lines":  [
-                                     "Uit Sion zal de HEERí Uw schepter zenden,",
-                                     "Den schepter van Uw oppermogendheid,",
-                                     "En zeggen: ÑHeers tot ís werelds uiterstí enden,",
-                                     "Zover de macht Uws vijands zich verspreidt.î"
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "Uit",
-                                             "Si-",
-                                             "on",
-                                             "zal",
-                                             "de",
-                                             "HEERí",
-                                             "Uw",
-                                             "schep-",
-                                             "ter",
-                                             "zen-",
-                                             "den,"
-                                         ],
-                                         [
-                                             "Den",
-                                             "schepter",
-                                             "van",
-                                             "Uw",
-                                             "o-",
-                                             "p-",
-                                             "per-",
-                                             "mo-",
-                                             "gend-",
-                                             "heid,"
-                                         ],
-                                         [
-                                             "En",
-                                             "zeg-",
-                                             "gen:",
-                                             "ÑHeers",
-                                             "tot",
-                                             "ís we-",
-                                             "relds",
-                                             "uiterstí",
-                                             "e-",
-                                             "n-",
-                                             "den,"
-                                         ],
-                                         [
-                                             "Zover",
-                                             "de",
-                                             "macht",
-                                             "Uws",
-                                             "vij-",
-                                             "a-",
-                                             "n-",
-                                             "ds",
-                                             "zich",
-                                             "verspreidt.î"
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  3,
-                       "lines":  [
-                                     "Uw volk zal op Uw heirdag tot het strijden",
-                                     "Gewillig zijn, in heilig krijgssieraad.",
-                                     "U zal de dauw van Uwe jeugd verblijden,",
-                                     "Geboren uit den vroegen dageraad."
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "Uw",
-                                             "volk",
-                                             "zal",
-                                             "op",
-                                             "Uw",
-                                             "heir-",
-                                             "dag",
-                                             "tot",
-                                             "het",
-                                             "strij-",
-                                             "den"
-                                         ],
-                                         [
-                                             "Ge-",
-                                             "wil-",
-                                             "lig",
-                                             "zijn,",
-                                             "in",
-                                             "hei-",
-                                             "lig",
-                                             "krijgs-",
-                                             "sie-",
-                                             "raad."
-                                         ],
-                                         [
-                                             "U",
-                                             "zal",
-                                             "de",
-                                             "dauw",
-                                             "van",
-                                             "U-",
-                                             "we",
-                                             "jeugd",
-                                             "ver-",
-                                             "blij-",
-                                             "den,"
-                                         ],
-                                         [
-                                             "Ge-",
-                                             "bo-",
-                                             "ren",
-                                             "uit",
-                                             "den",
-                                             "vroe-",
-                                             "gen",
-                                             "da-",
-                                             "ge-",
-                                             "raad."
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  4,
-                       "lines":  [
-                                     "U heeft de HEERí, Wien ít nooit berouwt, gezworen:",
-                                     "Ñík Heb U, Mijn volk tot heil, Mijn Naam ten prijs,",
-                                     "In Mijnen raad het priesterambt beschoren,",
-                                     "Dat eeuwig duurt naar Melchizedeks wijs.î"
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "U",
-                                             "heeft",
-                                             "de",
-                                             "HEERí,",
-                                             "Wien",
-                                             "ít nooit",
-                                             "be-",
-                                             "rouwt,",
-                                             "ge-",
-                                             "zwo-",
-                                             "ren:"
-                                         ],
-                                         [
-                                             "Ñík",
-                                             "HebU,",
-                                             "Mijn",
-                                             "volk",
-                                             "tot",
-                                             "heil,",
-                                             "Mijn",
-                                             "Naam",
-                                             "ten",
-                                             "prijs,"
-                                         ],
-                                         [
-                                             "In",
-                                             "Mij-",
-                                             "nen",
-                                             "raad",
-                                             "het",
-                                             "pries-",
-                                             "ter-",
-                                             "ambt",
-                                             "be-",
-                                             "scho-",
-                                             "ren,"
-                                         ],
-                                         [
-                                             "Dat",
-                                             "eeu-",
-                                             "wig",
-                                             "duurt",
-                                             "naar",
-                                             "Mel-",
-                                             "chi-",
-                                             "ze-",
-                                             "deks",
-                                             "wijs.î"
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  5,
-                       "lines":  [
-                                     "De HEERí zal steeds Uw rechterhand verzellen,",
-                                     "Zijn mogendheid met U ten strijde gaan,",
-                                     "En koningen, die tegen U zich stellen,",
-                                     "Ten dage van Zijn grimmigheid verslaan."
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "De",
-                                             "HEERí",
-                                             "zal",
-                                             "steeds",
-                                             "Uw",
-                                             "rech-",
-                                             "ter-",
-                                             "hand",
-                                             "ver-",
-                                             "zel-",
-                                             "len,"
-                                         ],
-                                         [
-                                             "Zijn",
-                                             "mo-",
-                                             "gend-",
-                                             "heid",
-                                             "met",
-                                             "U",
-                                             "ten",
-                                             "strij-",
-                                             "de",
-                                             "gaan,"
-                                         ],
-                                         [
-                                             "En",
-                                             "ko-",
-                                             "nin-",
-                                             "gen,",
-                                             "die",
-                                             "te-",
-                                             "gen",
-                                             "U",
-                                             "zich",
-                                             "stel-",
-                                             "len,"
-                                         ],
-                                         [
-                                             "Ten",
-                                             "da-",
-                                             "ge",
-                                             "van",
-                                             "Zijn",
-                                             "grim-",
-                                             "mig-",
-                                             "heid",
-                                             "ver-",
-                                             "slaan."
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  6,
-                       "lines":  [
-                                     "Hij zal naar ít recht de woeste heidí nen richten,",
-                                     "Met lijken ít veld bezaaien door Zijn hand.",
-                                     "Zijn strijdbíre hand zal straks het hoofd doen zwichten,",
-                                     "ít Weerbarstig hoofd van een zeer machtig land."
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "Hij",
-                                             "zal",
-                                             "naar",
-                                             "ít recht",
-                                             "de",
-                                             "woes-",
-                                             "te",
-                                             "heidí",
-                                             "nen",
-                                             "rich-",
-                                             "ten,"
-                                         ],
-                                         [
-                                             "Met",
-                                             "lij-",
-                                             "ken",
-                                             "ít veld",
-                                             "be-",
-                                             "zaai-",
-                                             "en",
-                                             "door",
-                                             "Zijn",
-                                             "hand."
-                                         ],
-                                         [
-                                             "Zijn",
-                                             "strijdbíre",
-                                             "hand",
-                                             "zal",
-                                             "straks",
-                                             "het",
-                                             "hoofd",
-                                             "doen",
-                                             "zwich-",
-                                             "ten,",
-                                             "-"
-                                         ],
-                                         [
-                                             "ít Weer-",
-                                             "bar-",
-                                             "stig",
-                                             "hoofd",
-                                             "van",
-                                             "een",
-                                             "zeer",
-                                             "mach-",
-                                             "tig",
-                                             "land."
-                                         ]
-                                     ]
-                   },
-                   {
-                       "number":  7,
-                       "lines":  [
-                                     "Hij zal op weg eens drinken uit de beken,",
-                                     "Daar Hij gevaar, noch strijd, noch moeití ontziet;",
-                                     "Daarom zal Hij het hoofd naar boven steken,",
-                                     "Met eer bekroond in ít Goddí lijk rijksgebied."
-                                 ],
-                       "syllables":  [
-                                         [
-                                             "Hij",
-                                             "zal",
-                                             "op",
-                                             "weg",
-                                             "eens",
-                                             "drin-",
-                                             "ken",
-                                             "uit",
-                                             "de",
-                                             "be-",
-                                             "ken,"
-                                         ],
-                                         [
-                                             "Daar",
-                                             "Hij",
-                                             "gevaar,",
-                                             "noch",
-                                             "strijd,",
-                                             "noch",
-                                             "moeití",
-                                             "o-",
-                                             "nt-",
-                                             "ziet;"
-                                         ],
-                                         [
-                                             "Daar-",
-                                             "om",
-                                             "zal",
-                                             "Hij",
-                                             "het",
-                                             "hoofd",
-                                             "naar",
-                                             "bo-",
-                                             "ven",
-                                             "ste-",
-                                             "ken,"
-                                         ],
-                                         [
-                                             "Met",
-                                             "eer",
-                                             "be-",
-                                             "kroond",
-                                             "in",
-                                             "ít Goddí",
-                                             "lijk",
-                                             "rijks-",
-                                             "ge-",
-                                             "bied."
-                                         ]
-                                     ]
-                   }
-               ]
+  "id": "psalm-110",
+  "number": 110,
+  "title": "Psalm 110",
+  "category": "psalm",
+  "mode": "hypo-dorisch (Franc 1543 / Bourgois 1551)",
+  "keySignature": "Bb",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["d/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" , "accidental": { "type": "#"}},
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "h" , "accidental": { "type": "#"}},
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["eb/4"], "duration": "h" },
+          { "keys": ["d/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Dus heeft de HEER‚Äô tot mijnen Heer‚Äô gesproken:",
+        "‚ÄûZit op den troon terrechterhand naast Mij,",
+        "Tot Ik de macht Uws vijands hebb‚Äô verbroken,",
+        "En u zijn nek tot ene voetbank zij.‚Äù"
+      ],
+      "syllables": [
+        ["Dus", "heeft", "de", "HEER‚Äô", "tot", "mij-", "nen", "Heer‚Äô", "ge-", "spro-", "ken:"],
+        ["‚ÄûZit", "op", "den", "troon", "ter-", "rech-", "ter-", "hand", "naast", "Mij,"],
+        ["Tot", "Ik", "de", "macht", "Uws", "vij-", "ands", "hebb‚Äô", "ver-", "bro-", "ken,"],
+        ["En", "u", "zijn", "nek", "tot", "e-", "ne", "voet-", "bank", "zij.‚Äù"]
+      ]
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Uit Sion zal de HEER‚Äô Uw schepter zenden,",
+        "Den schepter van Uw oppermogendheid,",
+        "En zeggen: ‚ÄûHeers tot ‚Äôs werelds uiterst‚Äô enden,",
+        "Zover de macht Uws vijands zich verspreidt.‚Äù"
+      ],
+      "syllables": [
+        ["Uit", "Si-", "on", "zal", "de", "HEER‚Äô", "Uw", "schep-", "ter", "zen-", "den,"],
+        ["Den", "schepter", "van", "Uw", "o-", "p-", "per-", "mo-", "gend-", "heid,"],
+        ["En", "zeg-", "gen:", "‚ÄûHeers", "tot", "‚Äôs we-", "relds", "ui-", "ter-", "st‚Äô", "enden,"],
+        ["Zo-", "ver", "de", "macht", "Uws", "vij-", "ands", "zich", "ver-", "spreidt.‚Äù"]
+      ]
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Uw volk zal op Uw heirdag tot het strijden",
+        "Gewillig zijn, in heilig krijgssieraad.",
+        "U zal de dauw van Uwe jeugd verblijden,",
+        "Geboren uit den vroegen dageraad."
+      ],
+      "syllables": [
+        ["Uw", "volk", "zal", "op", "Uw", "heir-", "dag", "tot", "het", "strij-", "den"],
+        ["Ge-", "wil-", "lig", "zijn,", "in", "hei-", "lig", "krijgs-", "sie-", "raad."],
+        ["U", "zal", "de", "dauw", "van", "U-", "we", "jeugd", "ver-", "blij-", "den,"],
+        ["Ge-", "bo-", "ren", "uit", "den", "vroe-", "gen", "da-", "ge-", "raad."]
+      ]
+    },
+    {
+      "number": 4,
+      "lines": [
+        "U heeft de HEER‚Äô, Wien ‚Äôt nooit berouwt, gezworen:",
+        "‚Äû‚Äôk Heb U, Mijn volk tot heil, Mijn Naam ten prijs,",
+        "In Mijnen raad het priesterambt beschoren,",
+        "Dat eeuwig duurt naar Melchizedeks wijs.‚Äù"
+      ],
+      "syllables": [
+        ["U", "heeft", "de", "HEER‚Äô,", "Wien", "‚Äôt nooit", "be-", "rouwt,", "ge-", "zwo-", "ren:"],
+        ["‚Äû‚Äôk", "HebU,", "Mijn", "volk", "tot", "heil,", "Mijn", "Naam", "ten", "prijs,"],
+        ["In", "Mij-", "nen", "raad", "het", "pries-", "ter-", "ambt", "be-", "scho-", "ren,"],
+        ["Dat", "eeu-", "wig", "duurt", "naar", "Mel-", "chi-", "ze-", "deks", "wijs.‚Äù"]
+      ]
+    },
+    {
+      "number": 5,
+      "lines": [
+        "De HEER‚Äô zal steeds Uw rechterhand verzellen,",
+        "Zijn mogendheid met U ten strijde gaan,",
+        "En koningen, die tegen U zich stellen,",
+        "Ten dage van Zijn grimmigheid verslaan."
+      ],
+      "syllables": [
+        ["De", "HEER‚Äô", "zal", "steeds", "Uw", "rech-", "ter-", "hand", "ver-", "zel-", "len,"],
+        ["Zijn", "mo-", "gend-", "heid", "met", "U", "ten", "strij-", "de", "gaan,"],
+        ["En", "ko-", "nin-", "gen,", "die", "te-", "gen", "U", "zich", "stel-", "len,"],
+        ["Ten", "da-", "ge", "van", "Zijn", "grim-", "mig-", "heid", "ver-", "slaan."]
+      ]
+    },
+    {
+      "number": 6,
+      "lines": [
+        "Hij zal naar ‚Äôt recht de woeste heid‚Äô nen richten,",
+        "Met lijken ‚Äôt veld bezaaien door Zijn hand.",
+        "Zijn strijdb‚Äôre hand zal straks het hoofd doen zwichten,",
+        "‚Äôt Weerbarstig hoofd van een zeer machtig land."
+      ],
+      "syllables": [
+        ["Hij", "zal", "naar", "‚Äôt recht", "de", "woes-", "te", "heid‚Äô", "nen", "rich-", "ten,"],
+        ["Met", "lij-", "ken", "‚Äôt veld", "be-", "zaai-", "en", "door", "Zijn", "hand."],
+        ["Zijn", "strijdb-", "‚Äôre", "hand", "zal", "straks", "het", "hoofd", "doen", "zwich-", "ten,"],
+        ["‚Äôt Weer-", "bar-", "stig", "hoofd", "van", "een", "zeer", "mach-", "tig", "land."]
+      ]
+    },
+    {
+      "number": 7,
+      "lines": [
+        "Hij zal op weg eens drinken uit de beken,",
+        "Daar Hij gevaar, noch strijd, noch moeit‚Äô ontziet;",
+        "Daarom zal Hij het hoofd naar boven steken,",
+        "Met eer bekroond in ‚Äôt Godd‚Äô lijk rijksgebied."
+      ],
+      "syllables": [
+        ["Hij", "zal", "op", "weg", "eens", "drin-", "ken", "uit", "de", "be-", "ken,"],
+        ["Daar", "Hij", "gevaar,", "noch", "strijd,", "noch", "moeit‚Äô", "o-", "nt-", "ziet;"],
+        ["Daar-", "om", "zal", "Hij", "het", "hoofd", "naar", "bo-", "ven", "ste-", "ken,"],
+        ["Met", "eer", "be-", "kroond", "in", "‚Äôt Godd‚Äô", "lijk", "rijks-", "ge-", "bied."]
+      ]
+    }
+  ]
 }

@@ -29,7 +29,7 @@
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" , "accidental": { "type": "#"}},
           { "keys": ["d/5"], "duration": "h" }
         ]
       },

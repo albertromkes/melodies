@@ -993,7 +993,7 @@ T: Psalm 70
 G: hypo-frygisch
 C: Bourgois 1551
 M: C|
-K: F phrygian
+K: D
 G2 F2 A2 B A G E F2 z2
 D2 A A B2 B2 d d c2 B2 z2
 F2 B B A2 d2 d c B2 A2 z2
@@ -1174,7 +1174,7 @@ T: Psalm 83
 G: frygisch
 C: Genève 1562
 M: C|
-K: F phrygian
+K: D phrygian
 B2 A A B2 d2 c c B2 z2
 A2 B c d c B2 B2 A2 z2
 B2 d c B A F A G2 F2 z2

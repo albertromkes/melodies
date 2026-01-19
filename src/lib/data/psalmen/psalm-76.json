@@ -17,7 +17,7 @@
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["g/4"], "duration": "h" }
         ]
       },
@@ -99,9 +99,9 @@
       "syllables": [
         ["God", "is", "be-", "kend", "bij", "Ju-", "das", "stam,"],
         ["Waar", "Hij", "Zijn", "ho-", "gen", "ze-", "tel", "nam;"],
-        ["Zijn", "Naam", "is", "groot", "in", "Is-", "ra-", "ël;"],
+        ["Zijn", "Naam", "is", "groot", "in", "I-", "s-", "ra-", "ël;"],
         ["In", "Sa-", "lem", "staat", "op", "Zijn", "be-", "vel"],
-        ["De", "hut-", "te", "van", "dien", "He-", "mel-","ko-", "ning;"],
+        ["De", "hut-", "te", "van", "dien", "He-", "melko-", "ning;", "-"],
         ["Op", "Si-", "on", "is", "Zijn", "heil-", "ge", "wo-", "ning."]
       ]
     },
@@ -136,7 +136,7 @@
       ],
       "syllables": [
         ["Stout-", "har-", "ti-", "gen", "zijn", "daar", "be-", "roofd;"],
-        ["Daar", "sliep", "èn", "heir", "èn", "op-", "per-", "hoofd."],
+        ["Daar", "sliep", "èn", "heir", "èn", "o-", "p-", "per-", "hoofd."],
         ["De", "kloek-", "ste", "had", "geen", "han-", "den", "meer,"],
         ["Maar", "viel", "in", "’t stof", "ver-", "sla-", "gen", "neer."],
         ["O", "God", "van", "Ja-", "kob,", "door", "Uw", "schel-", "den"],
@@ -175,7 +175,7 @@
       "syllables": [
         ["Als", "God", "ter-", "ho-", "ge", "vier-", "schaar", "steeg,"],
         ["’t Zacht-", "moe-", "dig", "volk", "ver-", "los-", "sing", "kreeg;"],
-        ["Ont-", "zet-", "te", "zich", "het", "gans", "heel-", "al."],
+        ["O-", "nt-", "zet-", "te", "zich", "het", "gans", "heelal."],
         ["Ge-", "wis,", "der-", "men-", "sen", "gram-", "schap", "zal,"],
         ["Wan-", "neer", "z’op", "’t he-", "vigst", "is", "aan", "’t bla-", "ken,"],
         ["Uw", "gro-", "ten", "lof", "nog", "gro-", "ter", "ma-", "ken."]
@@ -192,12 +192,12 @@
         "Omringt in Zijn doorluchte woning."
       ],
       "syllables": [
-        ["Woedt", "nog", "de", "wraak-", "lust", "on-", "be-", "schroomd,"],
-        ["Die", "wordt", "door", "U", "ras", "in-", "ge-", "toomd."],
+        ["Woedt", "nog", "de", "wraaklust", "o-", "n-", "be-", "schroomd,"],
+        ["Die", "wordt", "door", "U", "ras", "i-", "n-", "ge-", "toomd."],
         ["Doet", "dan", "ge-", "lof-", "ten", "aan", "den", "HEER’,"],
         ["Be-", "taalt", "die,", "u-", "wen", "God", "te-", "reer."],
-        ["Gij", "al-", "len,", "die", "dien", "gro-", "ten", "Ko-", "ning"],
-        ["Om-", "ringt", "in", "Zijn", "door-", "luch-", "te", "wo-", "ning."]
+        ["Gij", "a-", "l-", "len,", "die", "dien", "gro-", "ten", "Koning"],
+        ["O-", "m-", "ringt", "in", "Zijn", "door-", "luch-", "te", "woning."]
       ]
     },
     {

@@ -13,7 +13,7 @@
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["bb/4"], "duration": "q" },
@@ -25,7 +25,7 @@
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["bb/4"], "duration": "q" },

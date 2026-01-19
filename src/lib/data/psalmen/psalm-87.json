@@ -4,7 +4,7 @@
   "title": "Psalm 87",
   "category": "psalm",
   "mode": "mixolydisch (Genève 1562)",
-  "keySignature": "F",
+  "keySignature": "Bb",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -79,10 +79,10 @@
         "Bemint het meer dan alle Jakobs steden."
       ],
       "syllables": [
-        ["Zijn", "grond-", "slag,", "zijn", "on-", "wrikb-", "’re", "vas-", "tig-", "he-", "den"],
+        ["Zijn", "grond-", "slag,", "zijn", "o-", "n-", "wrikb-", "’re", "vas-", "tig-", "he-", "den"],
         ["Heeft", "God", "ge-", "legd", "op", "ber-", "gen,", "Hem", "ge-", "wijd;"],
         ["De", "HEER’,", "die", "Zich", "in", "Si-", "ons", "heil", "ver-", "blijdt,"],
-        ["Be-", "mint", "het", "meer", "dan", "al-", "le", "Ja-", "kobs", "ste-", "den."]
+        ["Be-", "mint", "het", "meer", "dan", "a-", "l-", "le", "Ja-", "kobs", "ste-", "den."]
       ]
     },
     {
@@ -95,7 +95,7 @@
       ],
       "syllables": [
         ["Men", "spreekt", "van", "u", "zeer", "he-", "re-", "lij-", "ke", "din-", "gen,"],
-        ["O", "scho-", "ne", "stad", "van", "Is-", "rels", "Op-", "per-", "heer."],
+        ["O", "scho-", "ne", "stad", "van", "Isrels", "O-", "p-", "per-", "heer."],
         ["’k Zie", "Ra-", "hab,", "ik", "zie", "Ba-", "bel,", "tot", "Uw", "eer,"],
         ["Bij", "hen", "ge-", "teld,", "die", "mij-", "ne", "groot-", "heid", "zin-", "gen."]
       ]
@@ -126,7 +126,7 @@
       "syllables": [
         ["God", "zal", "hen", "zelf", "be-", "ves-", "ti-", "gen", "en", "schra-", "gen,"],
         ["En", "op", "Zijn", "rol,", "waar", "Hij", "de", "vol-", "ken", "schrijft,"],
-        ["Hen", "tel-", "len,", "als", "in", "Is-", "rel", "in-", "ge-", "lijfd,"],
+        ["Hen", "tel-", "len,", "als", "in", "Isrel", "i-", "n-", "ge-", "lijfd,"],
         ["En", "doen", "den", "naam", "van", "Si-", "ons", "kind’", "ren", "dra-", "gen."]
       ]
     },

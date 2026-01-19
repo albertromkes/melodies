@@ -66,7 +66,7 @@ async function loadAllSongs(categories) {
     
     for (const file of jsonFiles) {
       const content = await readFile(join(categoryDir, file), 'utf-8');
-      const song = JSON.parse(content);
+      const song = JSON.parse(content.replace(/^\uFEFF/, ''));
       // Ensure category is set
       song.category = song.category || category.id;
       songs.push(song);
