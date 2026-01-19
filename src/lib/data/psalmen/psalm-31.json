@@ -50,7 +50,7 @@
           { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" }
         ]
@@ -62,7 +62,7 @@
           { "keys": ["c/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" , "accidental": { "type": "#"}},
           { "keys": ["a/4"], "duration": "h" }
         ]
       },

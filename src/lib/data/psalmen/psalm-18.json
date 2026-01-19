@@ -129,7 +129,7 @@
   },
   "verses": [
     {
-      "number": "Voorzang",
+      "number": 0,
       "lines": [
         "Nu zal mijn ziel, nu zullen al mijn zinnen,",
         "O God, mijn sterkt’, U hartelijk beminnen.",
@@ -156,10 +156,10 @@
         "En door den dood mij strik op strik gelegd."
       ],
       "syllables": [
-        ["’k -", "Be-", "trouw", "op", "God,", "Hij", "is", "mijn", "schild", "in", "’t strij-", "den,"],
+        ["’k Be-", "trouw", "op", "God,", "Hij", "is", "mijn", "schild", "in", "’t strij-", "den,"],
         ["De", "hoorn", "mijns", "heils,", "mijn", "hoog", "ver-", "trek", "in", "lij-", "den,"],
         ["’k Aan-", "riep", "den", "HEER’,", "Wiens", "lof", "mijn", "harp", "ver-", "meldt,"],
-        ["En", "werd", "ver-", "lost", "van", "’s -", "vij-", "ands", "boos", "geweld,"],
+        ["En", "werd", "ver-", "lost", "van", "’s vij-", "ands", "boos", "ge-", "weld,"],
         ["De", "dood", "bracht", "mij,", "ge-", "boeid,", "in", "na-", "re", "stre-", "ken,"],
         ["Bij", "Be-", "li-", "als", "ver-", "schrik-", "ke-", "lij-", "ke", "be-", "ken."],
         ["Een", "hel-", "se", "band", "was", "om", "mijn", "heup", "ge-", "hecht,"],
@@ -179,14 +179,14 @@
         "Door ’t vrees’lijk vuur van Gods ontvlamd gezicht."
       ],
       "syllables": [
-        ["’k Riep", "tot", "den", "HEER’,", "in", "’t mid-", "den", "dier", "el-", "len-", "den,"],
-        ["Tot", "mij-", "nen", "God,", "op-", "dat", "Hij", "hulp", "zou", "zen-", "den."],
+        ["’k Riep", "tot", "den", "HEER’,", "in", "’t mid-", "den", "dier", "e-", "l-", "len-", "den,"],
+        ["Tot", "mij-", "nen", "God,", "o-", "p-", "dat", "Hij", "hulp", "zou", "zen-", "den."],
         ["Mijn", "klaag-", "stem", "drong", "tot", "in", "Zijn", "troon-", "zaal", "door,"],
         ["Aan", "mijn", "ge-", "roep", "gaf", "Hij", "in", "gunst", "ge-", "hoor."],
         ["Toen", "beef-", "de", "d’aar-", "d’,", "al", "gol-", "vend", "als", "de", "baren;"],
         ["Het", "hoogst", "ge-", "bergt’", "werd", "op", "zijn", "grond-", "pi-", "la-", "ren;"],
         ["Be-", "roerd,", "ge-", "schokt,", "ge-", "rukt", "uit", "zijn", "ge-", "wricht,"],
-        ["Door", "’t vrees-", "’-", "lijk", "vuur", "van", "Gods", "ont-", "vlamd", "gezicht."]
+        ["Door", "’t vrees-", "’lijk", "vuur", "van", "Gods", "o-", "nt-", "vlamd", "gezicht."]
       ]
     },
     {
@@ -207,7 +207,7 @@
         ["Stak", "ko-", "len", "aan,", "en", "wat", "Hem", "te-", "gen-", "stond."],
         ["Hij", "boog", "het", "zwerk,", "en", "daal-", "de", "neer;", "de", "grond"],
         ["Waar-", "op", "Hij", "trad,", "was,", "in", "het", "oog", "der-", "vol-", "ken,"],
-        ["Gans", "zwart", "door", "dicht", "op-", "een-", "ge-", "pak-", "te", "wol-", "ken."],
+        ["Gans", "zwart", "door", "dicht", "o-", "p-", "een-", "ge-", "pak-", "te", "wolken."],
         ["Zijn", "wa-", "gen", "was", "een", "Che-", "rub,", "ja", "ge-", "zwind"],
         ["Voer", "Hij", "en", "vloog", "op", "vleug-", "’len", "van", "den", "wind."]
       ]
@@ -228,8 +228,8 @@
         ["In", "Zij-", "ne", "tent,", "rond-", "om", "Hem", "zo", "vol", "luis-", "ter,"],
         ["Hield", "Hij", "Zich", "schuil,", "ver-", "borg", "Zich", "in", "het", "duis-", "ter;"],
         ["Door", "wolk", "op", "wolk,", "met", "kracht", "te", "zaam", "ge-", "prest,"],
-        ["En", "op-", "ge-", "hoopt", "in", "’t brui-", "ne", "lucht-", "ge-", "west."],
-        ["Zijn", "gloed", "ont-", "bond", "der-", "wol-", "ken", "vas-", "te", "ban-", "den,"],
+        ["En", "o-", "p-", "ge-", "hoopt", "in", "’t bruine", "lucht-", "ge-", "west."],
+        ["Zijn", "gloed", "o-", "nt-", "bond", "der-", "wol-", "ken", "vaste", "ban-", "den,"],
         ["Toen", "daal-", "de", "vuur", "en", "ha-", "gel", "op", "de", "lan-", "den."],
         ["De", "don-", "der", "klonk", "door", "gans", "den", "he-", "mel", "heen:"],
         ["God", "gaf", "Zijn", "stem,", "en", "’t vuur", "viel", "naar", "ben-", "een."]
@@ -250,9 +250,9 @@
       "syllables": [
         ["Hij", "deed", "vol", "kracht", "hen", "voor", "Zijn", "pij-", "len", "zwich-", "ten,"],
         ["Ver-", "schrik-", "te", "hen", "door", "blik-", "sem-", "schicht", "op", "schich-", "ten,"],
-        ["De", "diep-", "ste", "kolk", "droogd’", "op", "een", "o-","gen-", "blik,"],
-        ["en", "’t hart", "der-", "aar-", "d’ont-", "bloot-", "te", "zich", "van", "schrik,"],
-        ["Wan-", "neer", "Gij", "scholdt,", "Uw", "a-", "dem,", "fel", "ont-", "sto-", "ken,"],
+        ["De", "diep-", "ste", "kolk", "droogd’", "op", "een", "o-", "gen-", "blik,"],
+        ["en", "’t hart", "deraard’", "o-", "nt-", "bloot-", "te", "zich", "van", "schrik,"],
+        ["Wan-", "neer", "Gij", "scholdt,", "Uw", "adem,", "fel", "o-", "nt-", "sto-", "ken,"],
         ["Deed", "dus,", "o", "HEER’,", "en", "land", "en", "wa-", "ter", "ro-", "ken."],
         ["Hij", "zond", "mij", "hulp,", "Hij", "nam", "mij,", "op", "mijn", "beê,"],
         ["En", "trok", "mij", "uit", "een", "gro-", "te", "jam-", "mer-", "zee."]
@@ -271,13 +271,13 @@
         "En schonk mij ’t loon, den reinen toegezegd."
       ],
       "syllables": [
-        ["Ik", "werd", "verlost", "van", "’s -", "vij-", "ands", "le-", "ger-", "scha-", "ren,"],
+        ["Ik", "werd", "ver-", "lost", "van", "’s vij-", "ands", "le-", "ger-", "scha-", "ren,"],
         ["En", "’s ha-", "ters", "hand,", "wijl", "zij", "te", "mach-", "tig", "wa-", "ren."],
         ["Men", "viel", "mij", "aan", "ten", "da-", "ge", "van", "mijn", "smart,"],
         ["Maar", "toen", "was", "God", "het", "steun-", "sel", "van", "mijn", "hart."],
         ["Hij", "trok", "mij", "uit,", "en", "bracht", "m’in", "rui-", "mer", "we-", "gen."],
         ["Want", "Hij", "had", "lust", "aan", "mij,", "Zijn", "knecht,", "ge-", "kre-", "gen."],
-        ["De", "HEER’", "ver-", "gold", "mijn", "on-", "schuld", "naar", "het", "recht,"],
+        ["De", "HEER’", "vergold", "mijn", "o-", "n-", "schuld", "naar", "het", "recht,"],
         ["En", "schonk", "mij", "’t loon,", "den", "rei-", "nen", "toe-", "ge-", "zegd."]
       ]
     },
@@ -298,10 +298,10 @@
         ["En", "niet", "godd’", "loos", "met", "mij-", "nen", "God", "ge-", "han-", "deld."],
         ["Ik", "hield", "ge-", "staag", "Zijn", "rech-", "ten", "in", "het", "oog,"],
         ["Ter-", "wijl", "Zijn", "wet", "mijn", "ziel", "tot", "deugd", "be-", "woog."],
-        ["Ik", "werd", "op-", "recht", "en", "vroom", "bij", "Hem", "be-", "von-", "den,"],
+        ["Ik", "werd", "o-", "p-", "recht", "en", "vroom", "bij", "Hem", "be-", "von-", "den,"],
         ["Ik", "wacht-", "te", "mij", "zorg-", "vul-", "dig", "van", "mijn", "zon-", "den."],
         ["Dies", "liet", "mij", "God", "ook", "naar", "mijn", "recht", "ge-", "schien,"],
-        ["En", "heeft", "in", "gunst", "mijn", "on-", "schuld", "aan-", "ge-", "zien."]
+        ["En", "heeft", "in", "gunst", "mijn", "o-", "n-", "schuld", "aan-", "ge-", "zien."]
       ]
     },
     {
@@ -318,7 +318,7 @@
       ],
       "syllables": [
         ["Hun", "zijt", "Gij", "goed,", "die", "goe-", "der-", "tie-", "ren", "hand’", "len;"],
-        ["Op-", "recht", "bij", "hen,", "die", "in", "op-", "recht-", "heid", "wand’", "len."],
+        ["Oprecht", "bij", "hen,", "die", "in", "o-", "p-", "recht-", "heid", "wand’", "len."],
         ["Gij", "houdt", "U", "rein", "bij", "hen,", "die", "rein", "zijn,", "maar"],
         ["Ver-", "keer-", "den", "toont", "Gij", "U", "een", "wor-", "ste-", "laar."],
         ["Want", "Gij", "ver-", "lost", "het", "volk,", "door", "druk", "ge-", "bo-", "gen,"],
@@ -347,7 +347,7 @@
         ["Hij", "is", "een", "schild", "en", "schuts-", "heer", "voor", "den", "vro-", "me,"],
         ["Voor", "wie", "tot", "Hem", "de", "toe-", "vlucht", "heeft", "ge-", "no-", "men,"],
         ["Wie", "is", "een", "God,", "als", "Hij,", "in", "te-", "gen-", "heên?"],
-        ["Wie", "is", "een", "rots,", "dan", "on-", "ze", "God", "al-", "leen?"]
+        ["Wie", "is", "een", "rots,", "dan", "onze", "God", "a-", "l-", "leen?"]
       ]
     },
     {
@@ -363,11 +363,11 @@
         "Uw goedheid heeft mijn grootheid uitgewerkt."
       ],
       "syllables": [
-        ["’t Is", "God,", "die", "mij", "met", "sterk-", "te", "wil", "om-", "gor-", "den;"],
-        ["Hij", "doet", "mijn", "weg", "vol-", "ko-", "men", "ef-", "fen", "wor-", "den."],
+        ["’t Is", "God,", "die", "mij", "met", "sterkte", "wil", "o-", "m-", "gor-", "den;"],
+        ["Hij", "doet", "mijn", "weg", "vol-", "ko-", "men", "e-", "f-", "fen", "wor-", "den."],
         ["Maakt,", "dat", "mijn", "voet", "als", "die", "der-", "hin-", "den", "snelt,"],
         ["Ter-", "wijl", "Hij", "mij", "op", "mij-", "ne", "hoog-", "ten", "stelt,"],
-        ["Hij", "leert", "mijn", "hand", "held-", "haf-", "tig", "or-","e-", "lo-", "gen."],
+        ["Hij", "leert", "mijn", "hand", "held-", "haf-", "tig", "o-", "re-", "lo-", "gen."],
         ["Mijn", "strijd-", "baar’", "arm", "ver-", "breekt", "zelfs", "sta-", "len", "bo-", "gen,"],
         ["Mij", "gaaft", "G’Uw", "schild,", "Uw", "hand", "heeft", "mij", "ge-", "sterkt."],
         ["Uw", "goed-", "heid", "heeft", "mijn", "groot-", "heid", "uit-", "ge-", "werkt."]
@@ -409,7 +409,7 @@
         "En als het slijk derstraten weggevaagd."
       ],
       "syllables": [
-        ["Gij", "hebt", "mij,", "HEER’,", "met", "kracht", "om-", "gord", "tot", "strij-", "den."],
+        ["Gij", "hebt", "mij,", "HEER’,", "met", "kracht", "o-", "m-", "gord", "tot", "strij-", "den."],
         ["Mijn", "vij-", "and", "moest,", "ver-", "ne-", "derd,", "straf-", "fen", "lij-", "den."],
         ["Hij", "vlood", "vol", "schrik,", "wijl", "hij", "geen", "kracht", "be-", "hield;"],
         ["Mijn", "ha-", "ter", "werd", "door", "mij-", "ne", "hand", "ver-", "nield."],
@@ -434,12 +434,12 @@
       "syllables": [
         ["Gij", "hebt", "mij", "uit", "den", "twist", "des-", "volks", "ver-", "he-", "ven,"],
         ["En", "tot", "een", "hoofd", "den", "hei-", "de-", "nen", "ge-", "ge-", "ven."],
-        ["Ik", "stel-", "de", "’t volk,", "mij", "on-", "be-", "kend,", "de", "wet;"],
+        ["Ik", "stelde", "’t volk,", "mij", "o-", "n-", "be-", "kend,", "de", "wet;"],
         ["Zo", "ras", "ik", "sprak,", "werd", "op", "mijn", "wil", "ge-", "let."],
         ["De", "vreem-", "de", "zelfs", "zag", "mij", "vol", "schrik", "naar", "d’o-", "gen,"],
         ["Lag", "voor", "mijn", "troon", "ge-", "veins-", "d’lijk", "neer-", "ge-", "bo-", "gen."],
         ["Zij", "vie-", "len", "neer,", "zij", "sid-", "der-", "den", "van", "schrik,"],
-        ["In", "burg", "en", "slot,", "op", "ie-", "der", "o-","gen-", "blik."]
+        ["In", "burg", "en", "slot,", "op", "ie-", "der", "o-", "gen-", "blik."]
       ]
     },
     {
@@ -458,7 +458,7 @@
         ["Zo", "leeft", "de", "HEER’,", "mijn", "rots-", "steen", "zij", "ge-", "pre-", "zen;"],
         ["De", "God", "mijns", "heils", "moet", "steeds", "ver-", "heer-", "lijkt", "we-", "zen;"],
         ["Die", "God,", "die", "mij", "vol-", "ko-", "men", "wraak", "ver-", "schaft,"],
-        ["En", "volk", "op", "volk", "mij", "on-", "der-", "werpt", "en", "straft,"],
+        ["En", "volk", "op", "volk", "mij", "o-", "n-", "der-", "werpt", "en", "straft,"],
         ["Die", "mij", "ver-", "lost", "uit", "mijns", "ver-", "vol-", "gers", "han-", "den;"],
         ["Die", "mij", "ver-", "hoogt,", "mijn", "vij-", "and", "slaat", "in", "ban-", "den."],
         ["Ja,", "Gij", "ver-", "hoogt", "mij", "bo-", "ven", "al", "’t ge-", "weld,"],

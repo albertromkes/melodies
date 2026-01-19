@@ -4,7 +4,7 @@
   "title": "Psalm 27",
   "category": "psalm",
   "mode": "mixolydisch (Bourgois 1551)",
-  "keySignature": "D",
+  "keySignature": "G",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -18,7 +18,7 @@
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
@@ -47,7 +47,7 @@
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
@@ -70,14 +70,14 @@
       {
         "notes": [
           { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" , "accidental": { "type": "#"}},
           { "keys": ["d/5"], "duration": "h" }
         ]
       },
@@ -86,8 +86,8 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
@@ -98,8 +98,8 @@
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["c#/5"], "duration": "q" },
-          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["c/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
@@ -111,7 +111,7 @@
       },
       {
         "notes": [
-          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["c/5"], "duration": "h" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["b/4"], "duration": "q" },
@@ -146,7 +146,7 @@
         ["Wan-", "neer", "de", "macht", "der-", "bo-", "zen", "sloeg", "aan", "’t woên,"],
         ["En", "aan-", "rukt", "om", "zich", "met", "mijn", "vlees", "te", "voên."],
         ["Stiet", "zelf", "dit", "rot,", "dat", "mij", "be-", "nauwt", "en", "haat,"],
-        ["Den", "voet", "en", "viel,", "om-", "dat", "het", "God", "ver-", "laat."]
+        ["Den", "voet", "en", "viel,", "o-", "m-", "dat", "het", "God", "ver-", "laat."]
       ]
     },
     {
@@ -162,7 +162,7 @@
         "In ’s HEEREN huis mocht wonen hier beneen."
       ],
       "syllables": [
-        ["Al", "zie", "ik", "zelfs", "een", "le-", "ger", "mij", "om-", "rin-", "gen,"],
+        ["Al", "zie", "ik", "zelfs", "een", "leger", "mij", "o-", "m-", "rin-", "gen,"],
         ["Nog", "vrees", "ik", "niet,", "’k ver-", "laat", "mij", "op", "den", "HEER’!"],
         ["Al", "wil", "men", "mij", "door", "e-", "nen", "oor-", "log", "dwin-", "gen,"],
         ["’k Leg", "mij", "ge-", "rust", "hier-", "op", "ver-", "trou-", "wend", "naar."],
@@ -186,13 +186,13 @@
       ],
       "syllables": [
         ["Och,", "mocht", "ik", "in", "die", "hei-", "li-", "ge", "ge-", "bou-", "wen,"],
-        ["De", "vrij-","e", "gunst,", "die", "eeu-", "wig", "Hem", "be-", "woog;"],
+        ["De", "vrije", "gunst,", "die", "eeu-", "wig", "Hem", "be-", "woog;", "-"],
         ["Zijn", "lief-", "lijk-", "heid", "en", "scho-", "nen", "dienst", "aan-", "schou-", "wen!"],
         ["Hier", "weidt", "mijn", "oog", "met", "een", "ver-", "wond-", "rend", "oog."],
         ["Want", "God", "zal", "mij,", "opdat", "Hij", "mij", "be-", "schut-", "t’,"],
         ["In", "ramp", "en", "nood", "ver-", "ste-", "ken", "in", "Zijn", "hut;"],
         ["Mij", "ber-", "gen", "in", "’t ver-", "bor-", "gen", "van", "Zijn", "tent"],
-        ["en", "op", "een", "rots", "ver-", "ho-", "gen", "uit", "d’el-", "lend’."]
+        ["en", "op", "een", "rots", "ver-", "ho-", "gen", "uit", "d’e-", "l-", "lend’."]
       ]
     },
     {
@@ -210,12 +210,12 @@
       "syllables": [
         ["God", "zal", "mijn", "hoofd", "nu", "bo-", "ven", "’s vij-", "ands", "ben-", "den"],
         ["Ver-", "ho-", "gen:", "dies", "wil", "ik,", "met", "blij", "ge-", "schal,"],
-        ["In", "Zij-", "ne", "tent", "het", "of-", "fer", "op-", "waarts", "zen-", "den,"],
+        ["In", "Zij-", "ne", "tent", "het", "offer", "o-", "p-", "waarts", "zen-", "den,"],
         ["Daar", "psalm", "en", "lied", "Zijn", "lof", "ver-", "mel-", "den", "zal."],
         ["Ver-", "hoor,", "o", "HEER’,", "toon", "mij", "een", "gun-", "stig", "oog;"],
-        ["Ik", "zal", "mijn", "stem", "ver-", "hef-", "fen", "naar", "om-", "hoog:"],
-        ["Ver-", "hoor", "mij", "toch,", "be-", "wijs", "mij", "Uw", "ge-","nâ,"],
-        ["En", "ant-", "woord", "mij,", "die", "voor", "Uw", "aan-", "zicht", "sta."]
+        ["Ik", "zal", "mijn", "stem", "ver-", "hef-", "fen", "naar", "o-", "m-", "hoog:"],
+        ["Ver-", "hoor", "mij", "toch,", "be-", "wijs", "mij", "Uw", "ge-", "nâ,"],
+        ["En", "a-", "nt-", "woord", "mij,", "die", "voor", "Uw", "aanzicht", "sta."]
       ]
     },
     {
@@ -231,10 +231,10 @@
         "O God mijns heils, begeef, verlaat mij niet."
       ],
       "syllables": [
-        ["Mijn", "hart", "zegt", "mij,", "o", "HEER’,", "van", "Uw-" ,"ent-", "we-", "gen:"],
+        ["Mijn", "hart", "zegt", "mij,", "o", "HEER’,", "van", "U-", "went-", "we-", "gen:"],
         ["„Zoek", "door", "ge-", "beên", "met", "ernst", "mijn", "aan-", "ge-", "zicht!”"],
         ["Dat", "wil,", "dat", "zal", "ik", "doen;", "ik", "zoek", "den", "ze-", "gen"],
-        ["Al-", "leen", "bij", "U,", "o", "bron", "van", "troost", "en", "licht!"],
+        ["A-", "l-", "leen", "bij", "U,", "o", "bron", "van", "troost", "en", "licht!"],
         ["Ver-", "berg", "toch", "niet", "Uw", "oog", "van", "mij,", "o", "HEER’"],
         ["Ik", "ben", "Uw", "knecht,", "zie", "niet", "in", "toor-", "ne", "neer."],
         ["Gij", "waart", "mijn", "hulp", "in", "al", "mijn", "ziels-", "ver-", "driet."],
@@ -257,11 +257,11 @@
         ["Want,", "schoon", "ik", "zelfs", "van", "Va-", "der", "en", "van", "moe-", "der"],
         ["Ver-", "la-", "ten", "ben,", "de", "HEER’", "is", "goed", "en", "groot;"],
         ["Hij", "is", "en", "blijft", "mijn", "Va-", "der", "en", "Be-", "hoe-", "der,"],
-        ["Leer", "mij,", "o", "God,", "Uw", "weg", "in", "al-", "len", "nood!"],
+        ["Leer", "mij,", "o", "God,", "Uw", "weg", "in", "a-", "l-", "len", "nood!"],
         ["Be-", "stuur,", "om", "mijns", "ver-", "spie-", "ders", "wil,", "mijn", "voet"],
-        ["Op", "’t ef-", "fen", "pad,", "dat", "’s vij-", "ands", "eu-", "vel-", "moed,"],
+        ["Op", "’t e-", "f-", "fen", "pad,", "dat", "’s vij-", "ands", "eu-", "vel-", "moed,"],
         ["Mij", "nimmer", "tref-", "f’;", "ver-", "voerd", "door", "list", "en", "dwang,"],
-        ["Ge-", "tuigt", "men", "vals", "tot", "mij-", "nen", "on-", "der-", "gang."]
+        ["Ge-", "tuigt", "men", "vals", "tot", "mijnen", "o-", "n-", "der-", "gang."]
       ]
     },
     {
@@ -282,7 +282,7 @@
         ["Mijn", "God,", "waar", "was", "mijn", "hoop,", "mijn", "moed,", "ge-", "ble-", "ven?"],
         ["Ik", "was", "ver-", "gaan", "in", "al", "mijn", "smart", "en", "rouw."],
         ["Wacht", "op", "den", "HEER’,", "god-", "vruch-", "te", "schaar,", "houd", "moed!"],
-        ["Hij", "is", "ge-", "trouw,", "de", "bron", "van", "al-", "le", "goed."],
+        ["Hij", "is", "ge-", "trouw,", "de", "bron", "van", "a-", "l-", "le", "goed."],
         ["Zo", "daalt", "Zijn", "kracht", "op", "u", "in", "zwak-", "heid", "neer."],
         ["Wacht", "dan,", "ja", "wacht,", "ver-", "laat", "u", "op", "den", "HEER’."]
       ]

@@ -13,7 +13,7 @@
         "notes": [
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["b/4"], "duration": "q" },
-          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["c#/5"], "duration": "q" },
