@@ -220,6 +220,16 @@ npm run build:index
 
 ## Critical Reminders for Agents
 
+### PSALM GENERATION (CRITICAL - READ THIS FIRST)
+**NEVER manually generate psalms or format JSON files. ALWAYS use the PowerShell script:**
+```powershell
+.\generate-psalms.ps1 -PsalmNumber {number}
+```
+- This script handles ABC notation parsing, web scraping, Dutch syllabification, AND automatic JSON formatting
+- The formatting happens automatically via `format-psalm.js` - you never need to manually format psalm JSON
+- After generation, rebuild the search index with `npm run build:index`
+
+### TOP 10 REMINDERS
 1. **Musical correctness overrides all other concerns**
 2. **Use established music libraries - never reinvent music theory**
 3. **Maintain Svelte 5 rune patterns throughout**
