@@ -17,7 +17,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q", "accidental": { "type": "#"} },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -29,7 +29,7 @@
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q", "accidental": { "type": "#"} },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -52,7 +52,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -64,7 +64,7 @@
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g/4"], "duration": "q" , "accidental": { "type": "#"}},
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
