@@ -1834,7 +1834,7 @@ T: Psalm 132
 G: hypo-frygisch
 C: Bourgois 1551
 M: C|
-K: F phrygian
+K: F# phrygian
 F2 E G F2 B2 A G F2 z2
 F2 G F E D G2 F2 E2 z2
 B2 c d B d c2 B2 A2 z2

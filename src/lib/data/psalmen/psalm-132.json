@@ -4,69 +4,69 @@
   "title": "Psalm 132",
   "category": "psalm",
   "mode": "hypo-frygisch (Bourgois 1551)",
-  "keySignature": "F",
+  "keySignature": "D",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
     "measures": [
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "h" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" }
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
+          { "keys": ["f#/4"], "duration": "w" }
         ]
       }
     ]
@@ -103,7 +103,7 @@
         ["Of", "klim-", "m’op", "mij-", "ne", "le-", "ger-", "stee;"],
         ["Zo", "ik", "ter-", "nacht-", "rust", "ga", "in", "vreê,"],
         ["Zo", "ik", "de", "sluim-", "ring", "zelfs", "ge-", "heng’,"],
-        ["Tot-", "dat", "ik", "dezen", "eed", "vol-", "breng-", "’:”"]
+        ["Tot-", "dat", "ik", "de-", "zen", "eed", "vol-", "breng-"]
       ]
     },
     {
@@ -120,7 +120,7 @@
         ["Ge-", "von-", "den", "hebb’", "te", "Zij-", "ner", "eer,"],
         ["Waar", "Ja-", "kobs", "Mach-", "ti-", "ge", "ver-", "keer’,"],
         ["En", "Hij,", "naar", "mijn", "ge-", "maakt", "be-", "stek,"],
-        ["Zijn", "vaste", "wo-", "nin-", "gen", "be-", "trekk-", "’.”"]
+        ["Zijn", "vas-", "te", "wo-", "nin-", "gen", "be-", "trekk-’.”"]
       ]
     },
     {
@@ -239,7 +239,7 @@
         ["Hier", "zeeg-", "nen", "op", "de", "ruim-", "ste", "wijs;"],
         ["Hier", "zal", "Ik,", "Mij-", "nen", "Naam", "ter-", "prijs,"],
         ["De", "pries-", "ters", "met", "Mijn", "heil", "be-", "kleên,"],
-        ["En", "’t volk", "doen", "juichen", "wel-", "te-", "vreê-", "n.”"]
+        ["En", "’t volk", "doen", "jui-", "chen", "wel-", "te-", "vreê-”"]
       ]
     },
     {
