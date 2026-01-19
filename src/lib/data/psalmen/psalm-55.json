@@ -78,7 +78,7 @@
           { "keys": ["c#/5"], "duration": "q" },
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["c#/5"], "duration": "h" },
-          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" , "accidental": { "type": "#"}},
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
           { "keys": ["c#/5"], "duration": "h" },
