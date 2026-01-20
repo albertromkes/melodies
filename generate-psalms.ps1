@@ -240,24 +240,58 @@ function Parse-MelodyLine {
     )
     
     $notes = @()
+    $chords = @()
     $expandedLine = $Line -replace '(\w\d?)-(\w)', '$1 $2'
     
+    # Pattern to match chord symbols in ABC notation: "Dm", "G", "Am7", etc.
+    $chordPattern = '"([^"]+)"'
     $notePattern = '[\^_=]?[A-Ga-g][,'']*/?\d*'
     $restPattern = 'z\d*'
     
-    $tokens = [regex]::Matches($expandedLine, "($notePattern|$restPattern)")
+    # First, extract all chord symbols and their positions
+    $chordMatches = [regex]::Matches($expandedLine, $chordPattern)
+    $chordPositions = @{}
+    
+    foreach ($chordMatch in $chordMatches) {
+        $chordSymbol = $chordMatch.Groups[1].Value
+        $chordIndex = $chordMatch.Index
+        $chordPositions[$chordIndex] = $chordSymbol
+    }
+    
+    # Remove chord symbols from line for note parsing
+    $lineWithoutChords = $expandedLine -replace $chordPattern, ''
+    
+    $tokens = [regex]::Matches($lineWithoutChords, "($notePattern|$restPattern)")
+    
+    $noteIndex = 0
+    $lastChordPos = -1
     
     foreach ($token in $tokens) {
         $noteStr = $token.Value.Trim()
         if ($noteStr) {
+            # Check if there's a chord before this note position
+            foreach ($chordPos in ($chordPositions.Keys | Sort-Object)) {
+                if ($chordPos -gt $lastChordPos -and $chordPos -le $token.Index) {
+                    $chords += @{
+                        symbol = $chordPositions[$chordPos]
+                        position = $noteIndex
+                    }
+                    $lastChordPos = $chordPos
+                }
+            }
+            
             $note = Convert-AbcNoteToVexflow -AbcNote $noteStr -KeySignature $KeySignature
             if ($note) {
                 $notes += $note
+                $noteIndex++
             }
         }
     }
     
-    return $notes
+    return @{
+        notes = $notes
+        chords = $chords
+    }
 }
 
 function Get-PsalmMelodyFromAbc {
@@ -937,7 +971,9 @@ Write-Host "`n[2] Melodie converteren naar VexFlow formaat" -ForegroundColor Yel
 
 $measures = @()
 foreach ($line in $psalmMelody.MelodyLines) {
-    $notes = Parse-MelodyLine -Line $line -KeySignature $psalmMelody.KeySignature
+    $result = Parse-MelodyLine -Line $line -KeySignature $psalmMelody.KeySignature
+    $notes = $result.notes
+    $chords = $result.chords
     
     if ($notes.Count -gt 0) {
         $measureNotes = @()
@@ -952,10 +988,24 @@ foreach ($line in $psalmMelody.MelodyLines) {
             $measureNotes += $noteObj
         }
         
-        $measures += @{
+        $measureObj = @{
             lyrics = ""
             notes = $measureNotes
         }
+        
+        # Add chords if present
+        if ($chords -and $chords.Count -gt 0) {
+            $measureChords = @()
+            foreach ($c in $chords) {
+                $measureChords += [ordered]@{
+                    symbol = $c.symbol
+                    position = $c.position
+                }
+            }
+            $measureObj.chords = $measureChords
+        }
+        
+        $measures += $measureObj
     }
 }
 

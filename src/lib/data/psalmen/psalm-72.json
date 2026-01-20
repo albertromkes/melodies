@@ -20,6 +20,12 @@
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "Em", "position": 0 },                    
+          { "symbol": "Am", "position": 5 },
+          { "symbol": "D", "position": 7 },
+          { "symbol": "G", "position": 8 }
         ]
       },
       {
@@ -30,6 +36,12 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "AM", "position": 0 },        
+          { "symbol": "Em", "position": 3 },
+          { "symbol": "Bm", "position": 4 },
+          { "symbol": "Em", "position": 5 }
         ]
       },
       {
@@ -43,6 +55,13 @@
           { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "Bm", "position": 0 },
+          { "symbol": "Em", "position": 3 },
+          { "symbol": "Am", "position": 5 },
+          { "symbol": "D", "position": 7 },
+          { "symbol": "G", "position": 8 }
         ]
       },
       {
@@ -53,6 +72,12 @@
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "Am", "position": 0 },
+          { "symbol": "Em", "position": 3 },
+          { "symbol": "Bm", "position": 4 },
+          { "symbol": "Em", "position": 5 }
         ]
       },
       {
@@ -66,6 +91,12 @@
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "C", "position": 0 },
+          { "symbol": "D", "position": 3 },
+          { "symbol": "G", "position": 7 },
+          { "symbol": "D", "position": 8 }
         ]
       },
       {
@@ -76,6 +107,12 @@
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "G", "position": 0 },
+          { "symbol": "C", "position": 1 },
+          { "symbol": "D", "position": 3 },
+          { "symbol": "G", "position": 5 }
         ]
       },
       {
@@ -89,6 +126,12 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["f#/4"], "duration": "h" }
+        ],
+        "chords": [
+          { "symbol": "Em", "position": 0 },
+          { "symbol": "Bm", "position": 3 },
+          { "symbol": "Em", "position": 7 },
+          { "symbol": "Bm", "position": 8 }
         ]
       },
       {
@@ -99,6 +142,12 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "w" }
+        ],
+        "chords": [
+          { "symbol": "Em", "position": 0 },
+          { "symbol": "Am", "position": 1 },
+          { "symbol": "Bm", "position": 3 },
+           { "symbol": "Em", "position": 5 }
         ]
       }
     ]

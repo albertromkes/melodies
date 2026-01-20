@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import type { Measure, NoteData } from '../types/music';
+  import type { Measure, NoteData, ChordData } from '../types/music';
   import { transposeNotesWithKey, getTransposedKey } from '../utils/transposition';
   import { renderMultiLineMelody, calculateMultiLineDimensions, type RenderConfig } from '../utils/vexflow-renderer';
 
@@ -10,10 +10,11 @@
     timeSignature: [number, number];
     transposeSemitones: number;
     showLyrics: boolean;
+    showChords: boolean;
     scale: number;
   }
 
-  let { measures, keySignature, timeSignature, transposeSemitones, showLyrics, scale }: Props = $props();
+  let { measures, keySignature, timeSignature, transposeSemitones, showLyrics, showChords, scale }: Props = $props();
 
   let containerRef: HTMLDivElement | null = $state(null);
   let containerWidth = $state(600);
@@ -195,6 +196,61 @@
           });
         }
       }
+      
+      // Render chord symbols above the staff
+      if (showChords) {
+        const chordSvg = containerRef.querySelector('svg');
+        if (chordSvg) {
+          const chordVexflowGroup = chordSvg.querySelector('g') || chordSvg;
+          const chordFontSize = 12;
+          const staves = chordSvg.querySelectorAll('.vf-stave');
+          
+          transposedMeasures.forEach((measure, index) => {
+            if (!measure.chords || measure.chords.length === 0) return;
+            
+            const stave = staves[index];
+            if (!stave) return;
+            
+            const stavePath = stave.querySelector('path');
+            const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
+            
+            const chordsY = staveYPos - 25;
+            
+            const allNotes = chordSvg.querySelectorAll('.vf-stavenote');
+            const staveNotes: { x: number; width: number }[] = [];
+            
+            allNotes.forEach((note) => {
+              const rect = note.querySelector('rect');
+              if (rect) {
+                const noteY = parseFloat(rect.getAttribute('y') || '0');
+                const noteX = parseFloat(rect.getAttribute('x') || '0');
+                const noteWidth = parseFloat(rect.getAttribute('width') || '12');
+                
+                if (noteY >= staveYPos - 50 && noteY <= staveYPos + 60) {
+                  staveNotes.push({ x: noteX, width: noteWidth });
+                }
+              }
+            });
+            
+            staveNotes.sort((a, b) => a.x - b.x);
+            
+            measure.chords.forEach((chord) => {
+              const svgNote = staveNotes[chord.position];
+              if (!svgNote) return;
+              
+              const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+              textEl.setAttribute('x', String(svgNote.x));
+              textEl.setAttribute('y', String(chordsY));
+              textEl.setAttribute('class', 'chord-symbol');
+              textEl.setAttribute('fill', 'currentColor');
+              textEl.setAttribute('font-size', `${chordFontSize}px`);
+              textEl.setAttribute('font-weight', 'bold');
+              textEl.textContent = chord.symbol;
+              chordVexflowGroup.appendChild(textEl);
+            });
+          });
+        }
+      }
     }
   });
 
@@ -267,6 +323,13 @@
 
   .staff-container :global(.melisma-line) {
     stroke: #1a1a2e;
+  }
+
+  .staff-container :global(.chord-symbol) {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    fill: #2563eb;
   }
 
   /* Mobile optimizations */

@@ -32,11 +32,23 @@ export interface NoteData {
   syllable?: string;
 }
 
+/** Chord annotation data for display above the staff */
+export interface ChordData {
+  /** Chord symbol (e.g., "Dm", "F", "G", "Am7", "Bm") */
+  symbol: string;
+  /** Index of the note this chord applies to (0-based) */
+  position: number;
+  /** How many notes this chord spans (default: until next chord or end of measure) */
+  duration?: number;
+}
+
 /** A measure/line containing notes and optional lyrics */
 export interface Measure {
   notes: NoteData[];
   /** Lyrics text for this line (displayed below the staff) */
   lyrics?: string;
+  /** Chord annotations for this measure (displayed above the staff) */
+  chords?: ChordData[];
 }
 
 /** A verse with lyrics (one line per measure) */

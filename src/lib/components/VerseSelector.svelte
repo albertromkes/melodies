@@ -5,11 +5,13 @@
     verses: VerseLyrics[];
     activeVerseNumber: number;
     showLyrics: boolean;
+    showChords: boolean;
     onVerseChange: (verseNumber: number) => void;
     onToggleLyrics: (show: boolean) => void;
+    onToggleChords: (show: boolean) => void;
   }
 
-  let { verses, activeVerseNumber, showLyrics, onVerseChange, onToggleLyrics }: Props = $props();
+  let { verses, activeVerseNumber, showLyrics, showChords, onVerseChange, onToggleLyrics, onToggleChords }: Props = $props();
 
   // Get all verse numbers
   let allVerseNumbers = $derived.by<number[]>(() => {
@@ -31,14 +33,24 @@
 <div class="verse-selector">
   <div class="verse-header">
     <h3>Tekst</h3>
-    <label class="toggle-label">
-      <input
-        type="checkbox"
-        checked={showLyrics}
-        onchange={(e) => onToggleLyrics(e.currentTarget.checked)}
-      />
-      Toon op notenbalk
-    </label>
+    <div class="toggle-group">
+      <label class="toggle-label">
+        <input
+          type="checkbox"
+          checked={showLyrics}
+          onchange={(e) => onToggleLyrics(e.currentTarget.checked)}
+        />
+        Toon tekst
+      </label>
+      <label class="toggle-label">
+        <input
+          type="checkbox"
+          checked={showChords}
+          onchange={(e) => onToggleChords(e.currentTarget.checked)}
+        />
+        Toon akkoorden
+      </label>
+    </div>
   </div>
 
   {#if totalVerses > 0}
@@ -87,6 +99,12 @@
     margin: 0;
     font-size: 1rem;
     color: var(--text-color);
+  }
+
+  .toggle-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .toggle-label {

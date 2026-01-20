@@ -2,6 +2,7 @@
   import type { PsalmData, Measure, VerseLyrics } from '../types/music';
   import StaffDisplay from './StaffDisplay.svelte';
   import VerseSelector from './VerseSelector.svelte';
+  import { transposeChordsInMeasure } from '../utils/harmonization';
 
   interface Props {
     psalm: PsalmData;
@@ -20,6 +21,7 @@
   // Local state for this psalm view
   let activeVerseNumber = $state(1);
   let showLyrics = $state(true);
+  let showChords = $state(false);
   
   // Touch gesture state
   let touchStartX = $state(0);
@@ -366,6 +368,9 @@
         const newLyrics = activeVerse!.lines[measureIndex] ?? '';
         const syllablesForMeasure = activeVerse!.syllables?.[measureIndex];
         
+        // Transpose chords if present
+        const transposedChords = transposeChordsInMeasure(measure.chords, transposeSemitones);
+        
         // If we have syllables for this measure, apply them to notes
         if (syllablesForMeasure) {
           let syllableIndex = 0;
@@ -381,7 +386,8 @@
           return {
             ...measure,
             lyrics: newLyrics,
-            notes: notesWithSyllables
+            notes: notesWithSyllables,
+            chords: transposedChords
           };
         }
         
@@ -389,13 +395,17 @@
         return {
           ...measure,
           lyrics: newLyrics,
-          notes: measure.notes.map(n => ({ ...n, syllable: undefined }))
+          notes: measure.notes.map(n => ({ ...n, syllable: undefined })),
+          chords: transposedChords
         };
       });
     }
     
-    // Fallback to melody without lyrics
-    return psalm.melody.measures;
+    // Fallback to melody without lyrics (but still transpose chords)
+    return psalm.melody.measures.map(measure => ({
+      ...measure,
+      chords: transposeChordsInMeasure(measure.chords, transposeSemitones)
+    }));
   });
 
   function handleTranspose(semitones: number) {
@@ -410,6 +420,10 @@
 
   function handleToggleLyrics(show: boolean) {
     showLyrics = show;
+  }
+
+  function handleToggleChords(show: boolean) {
+    showChords = show;
   }
 
   // Scale state for notation size
@@ -512,6 +526,7 @@
       timeSignature={psalm.timeSignature}
       {transposeSemitones}
       {showLyrics}
+      {showChords}
       {scale}
     />
   </section>
@@ -521,8 +536,10 @@
       verses={psalm.verses}
       {activeVerseNumber}
       {showLyrics}
+      {showChords}
       onVerseChange={handleVerseChange}
       onToggleLyrics={handleToggleLyrics}
+      onToggleChords={handleToggleChords}
     />
   </section>
 </div>
