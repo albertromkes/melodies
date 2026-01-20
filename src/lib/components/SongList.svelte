@@ -37,6 +37,16 @@
   let versesIndex = $state<MiniSearch | null>(null);
   let versesIndexLoading = $state(false);
 
+  // Detect Android for optimized keyboard
+  let isAndroid = $state(false);
+  let useNumberPad = $state(false);
+
+  // Detect Android platform and check if Psalms category is selected
+  $effect(() => {
+    isAndroid = navigator.userAgent.includes('Android');
+    useNumberPad = isAndroid && (selectedCategory === 'psalms' || selectedCategory === 'psalmen' || selectedCategory === null);
+  });
+
   // Load metadata index on mount
   $effect(() => {
     fetch('/search/songs-meta.json')
@@ -187,11 +197,13 @@
       </button>
     </div>
     <input
-      type="search"
-      placeholder="Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."
+      type={useNumberPad ? "tel" : "search"}
+      inputmode={useNumberPad ? "numeric" : undefined}
+      pattern={useNumberPad ? "[0-9]*" : undefined}
+      placeholder={useNumberPad ? "Zoek psalmnummer..." : "Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."}
       value={searchQuery}
       oninput={(e) => onSearchChange(e.currentTarget.value)}
-      class="search-input"
+      class="search-input {useNumberPad ? 'numeric-keyboard' : ''}"
     />
     
     <div class="search-options">
@@ -362,6 +374,12 @@
   .search-input:focus {
     outline: none;
     border-color: var(--primary-color);
+  }
+
+  .search-input.numeric-keyboard {
+    font-size: 1.5rem;
+    letter-spacing: 0.2em;
+    text-align: center;
   }
 
   .search-options {

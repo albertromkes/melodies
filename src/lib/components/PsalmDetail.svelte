@@ -5,6 +5,8 @@
 
   interface Props {
     psalm: PsalmData;
+    transposeSemitones: number;
+    onTransposeChange?: (value: number) => void;
     onBack: () => void;
     onNextSong?: () => void;
     onPreviousSong?: () => void;
@@ -13,10 +15,9 @@
     onToggleTheme?: () => void;
   }
 
-  let { psalm, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false, onToggleTheme }: Props = $props();
+  let { psalm, transposeSemitones, onTransposeChange, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false, onToggleTheme }: Props = $props();
 
   // Local state for this psalm view
-  let transposeSemitones = $state(0);
   let activeVerseNumber = $state(1);
   let showLyrics = $state(true);
   
@@ -127,21 +128,29 @@
     
     // Top zone of staff: transpose up
     if (relativeYInStaff < TOP_ZONE) {
-      transposeSemitones++;
-      showGestureIndicator(`↑ +${transposeSemitones}`);
+      const newTranspose = Math.min(transposeSemitones + 1, 3);
+      if (onTransposeChange) {
+        onTransposeChange(newTranspose);
+      }
+      showGestureIndicator(`↑ +${newTranspose}`);
       return;
     }
-    
+
     // Bottom zone of staff: transpose down
     if (relativeYInStaff > BOTTOM_ZONE) {
-      transposeSemitones--;
-      showGestureIndicator(`↓ ${transposeSemitones}`);
+      const newTranspose = Math.max(transposeSemitones - 1, -3);
+      if (onTransposeChange) {
+        onTransposeChange(newTranspose);
+      }
+      showGestureIndicator(`↓ ${newTranspose}`);
       return;
     }
-    
+
     // Center zone of staff: reset transposition
     if (transposeSemitones !== 0) {
-      transposeSemitones = 0;
+      if (onTransposeChange) {
+        onTransposeChange(0);
+      }
       showGestureIndicator('⟲ Origineel');
     }
   }
@@ -200,19 +209,120 @@
     }
   }
 
+  // Swipe tooltip state
+  let swipeTooltip = $state<string | null>(null);
+  let swipeTooltipTimeout: ReturnType<typeof setTimeout> | null = null;
+
+  function showSwipeTooltip(text: string) {
+    swipeTooltip = text;
+    if (swipeTooltipTimeout) {
+      clearTimeout(swipeTooltipTimeout);
+    }
+    swipeTooltipTimeout = setTimeout(() => {
+      swipeTooltip = null;
+    }, 1000);
+  }
+
   // Attach touch event listeners using $effect for proper Android WebView support
   $effect(() => {
     const container = gestureContainerRef;
     if (!container) return;
 
-    // Add event listeners with passive: false to allow preventDefault
-    container.addEventListener('touchstart', handleTouchStart, { passive: true });
-    container.addEventListener('touchend', handleTouchEnd, { passive: false });
+    const onTouchStart = (e: TouchEvent) => {
+      if (e.touches.length !== 1) return;
+
+      const touch = e.touches[0];
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+      touchStartTime = Date.now();
+
+      // Start long press timer for theme toggle
+      if (longPressTimer) clearTimeout(longPressTimer);
+      longPressTimer = setTimeout(() => {
+        if (onToggleTheme) {
+          showGestureIndicator('🌙 Thema gewijzigd');
+          onToggleTheme();
+        }
+      }, LONG_PRESS_DELAY);
+    };
+
+    const onTouchMove = (e: TouchEvent) => {
+      if (e.touches.length !== 1 || !touchStartTime) return;
+
+      const touch = e.touches[0];
+      const deltaX = touch.clientX - touchStartX;
+      const deltaY = touch.clientY - touchStartY;
+      const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+
+      // Show swipe tooltip for verse navigation
+      if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+        const currentIndex = allVerseNumbers.indexOf(activeVerseNumber);
+        if (deltaX < 0 && currentIndex < allVerseNumbers.length - 1) {
+          // Swipe left - show next verse
+          showSwipeTooltip(`→ Vers ${allVerseNumbers[currentIndex + 1]}`);
+        } else if (deltaX > 0 && currentIndex > 0) {
+          // Swipe right - show previous verse
+          showSwipeTooltip(`← Vers ${allVerseNumbers[currentIndex - 1]}`);
+        }
+      }
+    };
+
+    const onTouchEnd = (e: TouchEvent) => {
+      // Clear swipe tooltip
+      if (swipeTooltipTimeout) {
+        clearTimeout(swipeTooltipTimeout);
+        swipeTooltipTimeout = null;
+      }
+      swipeTooltip = null;
+
+      // Clear long press timer
+      if (longPressTimer) {
+        clearTimeout(longPressTimer);
+        longPressTimer = null;
+      }
+
+      if (e.changedTouches.length !== 1) return;
+
+      const touch = e.changedTouches[0];
+      const endX = touch.clientX;
+      const endY = touch.clientY;
+      const endTime = Date.now();
+
+      const deltaX = endX - touchStartX;
+      const deltaY = endY - touchStartY;
+      const deltaTime = endTime - touchStartTime;
+      const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+
+      // Check for swipe gesture (horizontal swipe for verse navigation)
+      if (deltaTime < MAX_SWIPE_TIME && Math.abs(deltaX) > MIN_SWIPE_DISTANCE && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+        e.preventDefault();
+        // Horizontal swipe detected
+        if (deltaX < 0) {
+          // Swipe left (from right to middle) → next verse
+          goToNextVerse();
+        } else {
+          // Swipe right (from left to middle) → previous verse
+          goToPreviousVerse();
+        }
+        return;
+      }
+
+      // Check for tap (minimal movement)
+      if (distance < 20 && deltaTime < 300) {
+        handleTap(endX, endY);
+      }
+    };
+
+    // Add event listeners
+    container.addEventListener('touchstart', onTouchStart, { passive: true });
+    container.addEventListener('touchmove', onTouchMove, { passive: true });
+    container.addEventListener('touchend', onTouchEnd, { passive: false });
 
     // Cleanup
     return () => {
-      container.removeEventListener('touchstart', handleTouchStart);
-      container.removeEventListener('touchend', handleTouchEnd);
+      container.removeEventListener('touchstart', onTouchStart);
+      container.removeEventListener('touchmove', onTouchMove);
+      container.removeEventListener('touchend', onTouchEnd);
     };
   });
 
@@ -289,7 +399,9 @@
   });
 
   function handleTranspose(semitones: number) {
-    transposeSemitones = semitones;
+    if (onTransposeChange) {
+      onTransposeChange(semitones);
+    }
   }
 
   function handleVerseChange(verseNumber: number) {
@@ -326,6 +438,13 @@
       {gestureIndicator}
     </div>
   {/if}
+
+  <!-- Swipe tooltip overlay -->
+  {#if swipeTooltip}
+    <div class="swipe-tooltip">
+      {swipeTooltip}
+    </div>
+  {/if}
   
   <header class="psalm-header">
     <button class="back-btn" onclick={onBack} aria-label="Terug naar lijst">
@@ -340,24 +459,24 @@
       </h1>
       <div class="header-controls">
         <div class="transpose-controls">
-          <button 
-            class="control-btn" 
-            onclick={() => transposeSemitones--}
+          <button
+            class="control-btn"
+            onclick={() => handleTranspose(Math.max(transposeSemitones - 1, -3))}
             aria-label="Halve toon omlaag"
           >
             −1
           </button>
-          <button 
-            class="control-btn original-btn" 
+          <button
+            class="control-btn original-btn"
             class:active={transposeSemitones === 0}
-            onclick={() => transposeSemitones = 0}
+            onclick={() => handleTranspose(0)}
             aria-label="Originele toonhoogte"
           >
             Origineel
           </button>
-          <button 
-            class="control-btn" 
-            onclick={() => transposeSemitones++}
+          <button
+            class="control-btn"
+            onclick={() => handleTranspose(Math.min(transposeSemitones + 1, 3))}
             aria-label="Halve toon omhoog"
           >
             +1
@@ -441,6 +560,23 @@
     animation: fadeInOut 0.8s ease-out forwards;
   }
 
+  .swipe-tooltip {
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    z-index: 1000;
+    pointer-events: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    animation: tooltipFadeIn 0.2s ease-out;
+  }
+
   @keyframes fadeInOut {
     0% {
       opacity: 0;
@@ -455,6 +591,17 @@
     }
     100% {
       opacity: 0;
+    }
+  }
+
+  @keyframes tooltipFadeIn {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -50%) translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%) translateY(0);
     }
   }
 

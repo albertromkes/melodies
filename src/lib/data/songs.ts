@@ -70,9 +70,11 @@ export function getCategories(): Category[] {
       count,
     }))
     .sort((a, b) => {
-      // Psalms always first (handle both 'psalm' and 'psalms')
-      if (a.id === 'psalm' || a.id === 'psalms') return -1;
-      if (b.id === 'psalm' || b.id === 'psalms') return 1;
+      // Psalms always first (handle 'psalm', 'psalms', and 'psalmen')
+      if ((a.id === 'psalm' || a.id === 'psalms' || a.id === 'psalmen') &&
+          (b.id !== 'psalm' && b.id !== 'psalms' && b.id !== 'psalmen')) return -1;
+      if ((b.id === 'psalm' || b.id === 'psalms' || b.id === 'psalmen') &&
+          (a.id !== 'psalm' && a.id !== 'psalms' && a.id !== 'psalmen')) return 1;
       return a.name.localeCompare(b.name);
     });
 }

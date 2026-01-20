@@ -10,13 +10,16 @@
   let currentView = $state<'list' | 'detail'>('list');
   let selectedSong = $state<PsalmData | null>(null);
   let categories = $state<Category[]>(getCategories());
-  // Default to first category (psalms should be first due to sorting)
-  let selectedCategory = $state<string | null>(getCategories()[0]?.id ?? null);
+  // Default to psalms category explicitly
+  let selectedCategory = $state<string | null>('psalms');
   let searchQuery = $state('');
   let searchInVerses = $state(false);
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
   let showSettings = $state(false);
+
+  // Song-level transposition persistence (key: songId, value: semitones)
+  let songTranspositions = $state<Record<string, number>>({});
 
   // Get songs in current category for navigation
   let songsInCurrentCategory = $derived.by(() => {
@@ -31,6 +34,12 @@
   let currentSongIndex = $derived.by(() => {
     if (!selectedSong) return -1;
     return songsInCurrentCategory.findIndex(s => s.id === selectedSong!.id);
+  });
+
+  // Current song transposition (loads from object, defaults to 0)
+  let currentTransposeSemitones = $derived.by(() => {
+    if (!selectedSong) return 0;
+    return songTranspositions[selectedSong.id] ?? 0;
   });
 
   // Navigation availability
@@ -56,6 +65,7 @@
   function handleSelectSong(song: PsalmData) {
     selectedSong = song;
     currentView = 'detail';
+    // Transposition will be loaded automatically via derived state
   }
 
   function handleBack() {
@@ -65,13 +75,23 @@
 
   function handleNextSong() {
     if (hasNextSong) {
+      // Save current transposition before switching
+      if (selectedSong) {
+        songTranspositions[selectedSong.id] = currentTransposeSemitones;
+      }
       selectedSong = songsInCurrentCategory[currentSongIndex + 1];
+      // New song's transposition will be loaded automatically
     }
   }
 
   function handlePreviousSong() {
     if (hasPreviousSong) {
+      // Save current transposition before switching
+      if (selectedSong) {
+        songTranspositions[selectedSong.id] = currentTransposeSemitones;
+      }
       selectedSong = songsInCurrentCategory[currentSongIndex - 1];
+      // New song's transposition will be loaded automatically
     }
   }
 
@@ -97,6 +117,12 @@
 
   function toggleTheme() {
     theme = theme === 'light' ? 'dark' : 'light';
+  }
+
+  function handleTransposeChange(newTranspose: number) {
+    if (selectedSong) {
+      songTranspositions[selectedSong.id] = newTranspose;
+    }
   }
 
   function openSettings() {
@@ -143,6 +169,8 @@
     <main>
       <PsalmDetail
         psalm={selectedSong}
+        transposeSemitones={currentTransposeSemitones}
+        onTransposeChange={handleTransposeChange}
         onBack={handleBack}
         onNextSong={handleNextSong}
         onPreviousSong={handlePreviousSong}
