@@ -15,20 +15,22 @@
     onSearchChange: (query: string) => void;
     onSearchInVersesChange: (value: boolean) => void;
     onUseFuzzyChange: (value: boolean) => void;
+    onOpenSettings: () => void;
   }
 
-  let { 
-    songs, 
+  let {
+    songs,
     categories,
     selectedCategory,
-    searchQuery, 
-    searchInVerses, 
-    useFuzzyVerseSearch, 
-    onSelectSong, 
+    searchQuery,
+    searchInVerses,
+    useFuzzyVerseSearch,
+    onSelectSong,
     onSelectCategory,
-    onSearchChange, 
-    onSearchInVersesChange, 
-    onUseFuzzyChange 
+    onSearchChange,
+    onSearchInVersesChange,
+    onUseFuzzyChange,
+    onOpenSettings
   }: Props = $props();
   
   let songsMeta = $state<SongMeta[]>([]);
@@ -179,6 +181,11 @@
 
   <!-- Search container -->
   <div class="search-container">
+    <div class="search-header">
+      <button class="settings-button" onclick={onOpenSettings} aria-label="Instellingen">
+        ⚙️
+      </button>
+    </div>
     <input
       type="search"
       placeholder="Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."
@@ -314,6 +321,31 @@
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+  }
+
+  .search-header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.5rem;
+  }
+
+  .settings-button {
+    width: 44px;
+    height: 44px;
+    border: 1px solid var(--border-color);
+    border-radius: 50%;
+    background: var(--card-bg);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    font-size: 1.25rem;
+  }
+
+  .settings-button:hover {
+    border-color: var(--primary-color);
+    transform: scale(1.05);
   }
 
   .search-input {

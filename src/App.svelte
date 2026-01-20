@@ -4,7 +4,7 @@
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
-  import ThemeToggle from './lib/components/ThemeToggle.svelte';
+  import Settings from './lib/components/Settings.svelte';
 
   // Application state
   let currentView = $state<'list' | 'detail'>('list');
@@ -16,6 +16,7 @@
   let searchInVerses = $state(false);
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
+  let showSettings = $state(false);
 
   // Get songs in current category for navigation
   let songsInCurrentCategory = $derived.by(() => {
@@ -98,6 +99,14 @@
     theme = theme === 'light' ? 'dark' : 'light';
   }
 
+  function openSettings() {
+    showSettings = true;
+  }
+
+  function closeSettings() {
+    showSettings = false;
+  }
+
   // Get app title based on selected category
   let appTitle = $derived.by(() => {
     if (!selectedCategory) return 'Alle liederen';
@@ -107,7 +116,6 @@
 </script>
 
 <div class="app">
-  <ThemeToggle {theme} onToggle={toggleTheme} />
 
   {#if currentView === 'list'}
     <header class="app-header">
@@ -128,6 +136,7 @@
         onSearchChange={handleSearchChange}
         onSearchInVersesChange={handleSearchInVersesChange}
         onUseFuzzyChange={handleUseFuzzyChange}
+        onOpenSettings={openSettings}
       />
     </main>
   {:else if currentView === 'detail' && selectedSong}
@@ -139,8 +148,13 @@
         onPreviousSong={handlePreviousSong}
         {hasNextSong}
         {hasPreviousSong}
+        onToggleTheme={toggleTheme}
       />
     </main>
+  {/if}
+
+  {#if showSettings}
+    <Settings {theme} onToggleTheme={toggleTheme} onClose={closeSettings} />
   {/if}
 </div>
 

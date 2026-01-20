@@ -10,9 +10,10 @@
     onPreviousSong?: () => void;
     hasNextSong?: boolean;
     hasPreviousSong?: boolean;
+    onToggleTheme?: () => void;
   }
 
-  let { psalm, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false }: Props = $props();
+  let { psalm, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false, onToggleTheme }: Props = $props();
 
   // Local state for this psalm view
   let transposeSemitones = $state(0);
@@ -32,6 +33,9 @@
   // Gesture feedback state
   let gestureIndicator = $state<string | null>(null);
   let gestureIndicatorTimeout: ReturnType<typeof setTimeout> | null = null;
+
+  // Long press state
+  let longPressTimer: ReturnType<typeof setTimeout> | null = null;
   
   function showGestureIndicator(text: string) {
     gestureIndicator = text;
@@ -52,6 +56,9 @@
   const RIGHT_ZONE = 0.7; // Right 30% starts at 70%
   const TOP_ZONE = 0.25; // Top 25%
   const BOTTOM_ZONE = 0.75; // Bottom 25% starts at 75%
+
+  // Long press detection constants
+  const LONG_PRESS_DELAY = 500; // ms to trigger long press
   
   // Swipe detection constants
   const MIN_SWIPE_DISTANCE = 80; // minimum pixels to count as swipe
@@ -138,7 +145,45 @@
       showGestureIndicator('⟲ Origineel');
     }
   }
-  
+
+  function handleTouchStart(e: TouchEvent) {
+    if (!gestureContainerRef) return;
+
+    const touch = e.touches[0];
+    touchStartX = touch.clientX;
+    touchStartY = touch.clientY;
+    touchStartTime = Date.now();
+
+    // Start long press timer for theme toggle
+    if (longPressTimer) clearTimeout(longPressTimer);
+    longPressTimer = setTimeout(() => {
+      if (onToggleTheme) {
+        showGestureIndicator('🌙 Thema gewijzigd');
+        onToggleTheme();
+      }
+    }, LONG_PRESS_DELAY);
+  }
+
+  function handleTouchEnd(e: TouchEvent) {
+    // Clear long press timer
+    if (longPressTimer) {
+      clearTimeout(longPressTimer);
+      longPressTimer = null;
+    }
+
+    const touchEndTime = Date.now();
+    const touchDuration = touchEndTime - touchStartTime;
+
+    // If it was a long press, don't handle other gestures
+    if (touchDuration >= LONG_PRESS_DELAY) {
+      return;
+    }
+
+    // Handle tap/double tap for existing gestures
+    const touch = e.changedTouches[0];
+    handleTap(touch.clientX, touch.clientY);
+  }
+
   function goToNextVerse() {
     const currentIndex = allVerseNumbers.indexOf(activeVerseNumber);
     if (currentIndex < allVerseNumbers.length - 1) {
@@ -159,59 +204,15 @@
   $effect(() => {
     const container = gestureContainerRef;
     if (!container) return;
-    
-    const onTouchStart = (e: TouchEvent) => {
-      if (e.touches.length !== 1) return;
-      
-      const touch = e.touches[0];
-      touchStartX = touch.clientX;
-      touchStartY = touch.clientY;
-      touchStartTime = Date.now();
-    };
-    
-    const onTouchEnd = (e: TouchEvent) => {
-      if (e.changedTouches.length !== 1) return;
-      
-      const touch = e.changedTouches[0];
-      const endX = touch.clientX;
-      const endY = touch.clientY;
-      const endTime = Date.now();
-      
-      const deltaX = endX - touchStartX;
-      const deltaY = endY - touchStartY;
-      const deltaTime = endTime - touchStartTime;
-      const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
-      
-      // Check for swipe gesture (horizontal swipe for verse navigation)
-      if (deltaTime < MAX_SWIPE_TIME && Math.abs(deltaX) > MIN_SWIPE_DISTANCE && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
-        e.preventDefault();
-        // Horizontal swipe detected
-        if (deltaX < 0) {
-          // Swipe left (from right to middle) → next verse
-          goToNextVerse();
-        } else {
-          // Swipe right (from left to middle) → previous verse
-          goToPreviousVerse();
-        }
-        // Reset tap tracking after swipe
-        lastTapTime = 0;
-        return;
-      }
-      
-      // Check for tap (minimal movement)
-      if (distance < 20 && deltaTime < 300) {
-        handleTap(endX, endY);
-      }
-    };
-    
+
     // Add event listeners with passive: false to allow preventDefault
-    container.addEventListener('touchstart', onTouchStart, { passive: true });
-    container.addEventListener('touchend', onTouchEnd, { passive: false });
-    
+    container.addEventListener('touchstart', handleTouchStart, { passive: true });
+    container.addEventListener('touchend', handleTouchEnd, { passive: false });
+
     // Cleanup
     return () => {
-      container.removeEventListener('touchstart', onTouchStart);
-      container.removeEventListener('touchend', onTouchEnd);
+      container.removeEventListener('touchstart', handleTouchStart);
+      container.removeEventListener('touchend', handleTouchEnd);
     };
   });
 
