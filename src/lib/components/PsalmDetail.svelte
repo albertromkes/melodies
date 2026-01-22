@@ -2,11 +2,13 @@
   import type { PsalmData, Measure, VerseLyrics } from '../types/music';
   import StaffDisplay from './StaffDisplay.svelte';
   import VerseSelector from './VerseSelector.svelte';
-  import { transposeChordsInMeasure } from '../utils/harmonization';
+  import { transposeChordsInMeasure, hasChordNotations } from '../utils/harmonization';
 
   interface Props {
     psalm: PsalmData;
     transposeSemitones: number;
+    showLyricsByDefault?: boolean;
+    showChordsByDefault?: boolean;
     onTransposeChange?: (value: number) => void;
     onBack: () => void;
     onNextSong?: () => void;
@@ -16,12 +18,30 @@
     onToggleTheme?: () => void;
   }
 
-  let { psalm, transposeSemitones, onTransposeChange, onBack, onNextSong, onPreviousSong, hasNextSong = false, hasPreviousSong = false, onToggleTheme }: Props = $props();
+  let { 
+    psalm, 
+    transposeSemitones, 
+    showLyricsByDefault = true,
+    showChordsByDefault = false,
+    onTransposeChange, 
+    onBack, 
+    onNextSong, 
+    onPreviousSong, 
+    hasNextSong = false, 
+    hasPreviousSong = false, 
+    onToggleTheme 
+  }: Props = $props();
 
   // Local state for this psalm view
   let activeVerseNumber = $state(1);
-  let showLyrics = $state(true);
-  let showChords = $state(false);
+  let showLyrics = $state(showLyricsByDefault);
+  let showChords = $state(showChordsByDefault);
+
+  // Initialize state when props change
+  $effect(() => {
+    showLyrics = showLyricsByDefault;
+    showChords = showChordsByDefault;
+  });
   
   // Touch gesture state
   let touchStartX = $state(0);
@@ -350,6 +370,9 @@
     return lastVerseLines > 0 && lastVerseLines < firstVerseLines * 0.75;
   });
 
+  // Check if this psalm has chord notations
+  let hasChords = $derived(hasChordNotations(psalm));
+
   // Get active verse
   let activeVerse = $derived<VerseLyrics | undefined>(
     psalm.verses.find(v => v.number === activeVerseNumber)
@@ -537,6 +560,7 @@
       {activeVerseNumber}
       {showLyrics}
       {showChords}
+      {hasChords}
       onVerseChange={handleVerseChange}
       onToggleLyrics={handleToggleLyrics}
       onToggleChords={handleToggleChords}

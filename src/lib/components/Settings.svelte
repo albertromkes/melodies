@@ -1,13 +1,23 @@
 <script lang="ts">
-  import type { Theme } from '../types/music';
+  import type { Theme, UserPreferences } from '../types/music';
 
   interface Props {
     theme: Theme;
+    preferences: UserPreferences;
     onToggleTheme: () => void;
+    onUpdatePreferences: (preferences: Partial<UserPreferences>) => void;
     onClose: () => void;
   }
 
-  let { theme, onToggleTheme, onClose }: Props = $props();
+  let { theme, preferences, onToggleTheme, onUpdatePreferences, onClose }: Props = $props();
+
+  function handleToggleLyricsDefault() {
+    onUpdatePreferences({ showLyricsByDefault: !preferences.showLyricsByDefault });
+  }
+
+  function handleToggleChordsDefault() {
+    onUpdatePreferences({ showChordsByDefault: !preferences.showChordsByDefault });
+  }
 </script>
 
 <div class="settings-overlay" onclick={onClose} role="dialog" aria-modal="true" aria-labelledby="settings-title">
@@ -49,6 +59,34 @@
             </div>
           </button>
         </div>
+      </div>
+
+      <div class="setting-group">
+        <h3>Tekstweergave</h3>
+        <p>Standaardinstelling voor het tonen van tekst tussen notenbalken</p>
+        
+        <label class="setting-toggle">
+          <input
+            type="checkbox"
+            checked={preferences.showLyricsByDefault}
+            onchange={handleToggleLyricsDefault}
+          />
+          <span class="toggle-label-text">Toon tekst tussen notenbalken</span>
+        </label>
+      </div>
+
+      <div class="setting-group">
+        <h3>Akoordenweergave</h3>
+        <p>Standaardinstelling voor het tonen van akkoordnotatie</p>
+        
+        <label class="setting-toggle">
+          <input
+            type="checkbox"
+            checked={preferences.showChordsByDefault}
+            onchange={handleToggleChordsDefault}
+          />
+          <span class="toggle-label-text">Toon akkoordnotatie</span>
+        </label>
       </div>
 
       <div class="setting-group">
@@ -177,6 +215,36 @@
 
   .preview-icon {
     font-size: 1.5rem;
+  }
+
+  .setting-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem;
+    background: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: 1rem;
+  }
+
+  .setting-toggle:hover {
+    border-color: var(--primary-color);
+  }
+
+  .setting-toggle input {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .toggle-label-text {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    font-weight: 500;
+    flex: 1;
   }
 
   .version {

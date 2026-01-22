@@ -1,5 +1,5 @@
 import { Mode, Note, Chord, Interval } from 'tonal';
-import type { ChordData } from '../types/music';
+import type { ChordData, PsalmData } from '../types/music';
 
 const MODE_MAP: Record<string, string> = {
   'ionian': 'major',
@@ -111,4 +111,15 @@ export function generateChordsForMelody(
   });
   
   return chords;
+}
+
+/**
+ * Checks if a psalm has any chord notations in its melody
+ * @param psalm The psalm data to check
+ * @returns true if any measure contains chord data
+ */
+export function hasChordNotations(psalm: PsalmData): boolean {
+  return psalm.melody.measures.some(measure => 
+    measure.chords && measure.chords.length > 0
+  );
 }

@@ -1,10 +1,16 @@
 <script lang="ts">
-  import type { PsalmData, Theme } from './lib/types/music';
+  import type { PsalmData, Theme, UserPreferences } from './lib/types/music';
   import type { Category } from './lib/types';
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
   import Settings from './lib/components/Settings.svelte';
+
+  // Default preferences
+  const DEFAULT_PREFERENCES: UserPreferences = {
+    showLyricsByDefault: true,
+    showChordsByDefault: false,
+  };
 
   // Application state
   let currentView = $state<'list' | 'detail'>('list');
@@ -20,6 +26,9 @@
 
   // Song-level transposition persistence (key: songId, value: semitones)
   let songTranspositions = $state<Record<string, number>>({});
+
+  // User preferences state
+  let preferences = $state<UserPreferences>({ ...DEFAULT_PREFERENCES });
 
   // Get songs in current category for navigation
   let songsInCurrentCategory = $derived.by(() => {
@@ -60,6 +69,24 @@
   $effect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('psalm-app-theme', theme);
+  });
+
+  // Load preferences from localStorage on mount
+  $effect(() => {
+    const savedPreferences = localStorage.getItem('psalm-app-preferences');
+    if (savedPreferences) {
+      try {
+        const parsed = JSON.parse(savedPreferences);
+        preferences = { ...DEFAULT_PREFERENCES, ...parsed };
+      } catch {
+        // Keep defaults if JSON is invalid
+      }
+    }
+  });
+
+  // Save preferences to localStorage when they change
+  $effect(() => {
+    localStorage.setItem('psalm-app-preferences', JSON.stringify(preferences));
   });
 
   function handleSelectSong(song: PsalmData) {
@@ -133,6 +160,10 @@
     showSettings = false;
   }
 
+  function handleUpdatePreferences(updates: Partial<UserPreferences>) {
+    preferences = { ...preferences, ...updates };
+  }
+
   // Get app title based on selected category
   let appTitle = $derived.by(() => {
     if (!selectedCategory) return 'Alle liederen';
@@ -170,6 +201,8 @@
       <PsalmDetail
         psalm={selectedSong}
         transposeSemitones={currentTransposeSemitones}
+        showLyricsByDefault={preferences.showLyricsByDefault}
+        showChordsByDefault={preferences.showChordsByDefault}
         onTransposeChange={handleTransposeChange}
         onBack={handleBack}
         onNextSong={handleNextSong}
@@ -182,7 +215,13 @@
   {/if}
 
   {#if showSettings}
-    <Settings {theme} onToggleTheme={toggleTheme} onClose={closeSettings} />
+    <Settings 
+      {theme} 
+      {preferences} 
+      onToggleTheme={toggleTheme} 
+      onUpdatePreferences={handleUpdatePreferences} 
+      onClose={closeSettings} 
+    />
   {/if}
 </div>
 

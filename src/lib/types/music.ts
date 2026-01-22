@@ -113,3 +113,11 @@ export interface PsalmDisplayState {
 
 /** Theme options */
 export type Theme = 'light' | 'dark';
+
+/** User preferences for display defaults */
+export interface UserPreferences {
+  /** Default setting for showing lyrics between staves */
+  showLyricsByDefault: boolean;
+  /** Default setting for showing chord notation */
+  showChordsByDefault: boolean;
+}

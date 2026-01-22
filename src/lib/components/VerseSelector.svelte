@@ -6,12 +6,13 @@
     activeVerseNumber: number;
     showLyrics: boolean;
     showChords: boolean;
+    hasChords: boolean;
     onVerseChange: (verseNumber: number) => void;
     onToggleLyrics: (show: boolean) => void;
     onToggleChords: (show: boolean) => void;
   }
 
-  let { verses, activeVerseNumber, showLyrics, showChords, onVerseChange, onToggleLyrics, onToggleChords }: Props = $props();
+  let { verses, activeVerseNumber, showLyrics, showChords, hasChords, onVerseChange, onToggleLyrics, onToggleChords }: Props = $props();
 
   // Get all verse numbers
   let allVerseNumbers = $derived.by<number[]>(() => {
@@ -42,14 +43,16 @@
         />
         Toon tekst
       </label>
-      <label class="toggle-label">
-        <input
-          type="checkbox"
-          checked={showChords}
-          onchange={(e) => onToggleChords(e.currentTarget.checked)}
-        />
-        Toon akkoorden
-      </label>
+      {#if hasChords}
+        <label class="toggle-label">
+          <input
+            type="checkbox"
+            checked={showChords}
+            onchange={(e) => onToggleChords(e.currentTarget.checked)}
+          />
+          Toon akkoorden
+        </label>
+      {/if}
     </div>
   </div>
 
