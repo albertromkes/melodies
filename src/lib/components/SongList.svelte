@@ -12,7 +12,7 @@
     useFuzzyVerseSearch: boolean;
     onSelectSong: (song: PsalmData) => void;
     onSelectCategory: (categoryId: string | null) => void;
-    onSearchChange: (query: string) => void;
+    onSearchChange: (query: string, searchType?: 'number' | 'text') => void;
     onSearchInVersesChange: (value: boolean) => void;
     onUseFuzzyChange: (value: boolean) => void;
     onOpenSettings: () => void;
@@ -165,6 +165,22 @@
     return categoryFilteredSongs.filter(song => matchingIds.has(song.id));
   });
 
+  // Detect if search is primarily numeric (psalm number search)
+  function detectSearchType(query: string): 'number' | 'text' {
+    const trimmed = query.trim();
+    // Consider it a number search if it starts with digits and matches psalm numbers
+    if (/^\d+$/.test(trimmed) && parseInt(trimmed) <= 150) {
+      return 'number';
+    }
+    return 'text';
+  }
+
+  // Enhanced search change handler with type detection
+  function handleSearchInput(query: string) {
+    const searchType = query.trim() ? detectSearchType(query) : undefined;
+    onSearchChange(query, searchType);
+  }
+
   // Get display name for category
   function getCategoryName(categoryId: string): string {
     const cat = categories.find(c => c.id === categoryId);
@@ -202,7 +218,7 @@
       pattern={useNumberPad ? "[0-9]*" : undefined}
       placeholder={useNumberPad ? "Zoek psalmnummer..." : "Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."}
       value={searchQuery}
-      oninput={(e) => onSearchChange(e.currentTarget.value)}
+      oninput={(e) => handleSearchInput(e.currentTarget.value)}
       class="search-input {useNumberPad ? 'numeric-keyboard' : ''}"
     />
     

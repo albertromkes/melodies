@@ -5,6 +5,7 @@
   import SongList from './lib/components/SongList.svelte';
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
   import Settings from './lib/components/Settings.svelte';
+  import { setupBackButtonHandler, exitApp } from './lib/utils/capacitor';
 
   // Default preferences
   const DEFAULT_PREFERENCES: UserPreferences = {
@@ -23,6 +24,11 @@
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
   let showSettings = $state(false);
+
+  // Back button state management
+  let lastSearchType = $state<'number' | 'text' | null>(null);
+  let lastSearchQuery = $state('');
+  let hasNavigatedFromSearch = $state(false);
 
   // Song-level transposition persistence (key: songId, value: semitones)
   let songTranspositions = $state<Record<string, number>>({});
@@ -89,9 +95,20 @@
     localStorage.setItem('psalm-app-preferences', JSON.stringify(preferences));
   });
 
+  // Setup hardware back button handler on mount
+  $effect(() => {
+    setupBackButtonHandler(handleHardwareBackButton);
+  });
+
   function handleSelectSong(song: PsalmData) {
     selectedSong = song;
     currentView = 'detail';
+    
+    // Track if we navigated from a search
+    if (lastSearchQuery.trim()) {
+      hasNavigatedFromSearch = true;
+    }
+    
     // Transposition will be loaded automatically via derived state
   }
 
@@ -99,6 +116,35 @@
     currentView = 'list';
     selectedSong = null;
   }
+
+function handleClearSearch() {
+    searchQuery = '';
+    lastSearchType = null;
+    lastSearchQuery = '';
+    hasNavigatedFromSearch = false;
+  }
+
+// Enhanced hardware back button handler
+function handleHardwareBackButton() {
+  if (currentView === 'detail') {
+    // Always go back to list from detail
+    handleBack();
+  } else if (currentView === 'list') {
+    // On list screen: handle search or exit
+    if (searchQuery.trim()) {
+      if (lastSearchType === 'number' && hasNavigatedFromSearch) {
+        // Clear number search and exit search context
+        handleClearSearch();
+      } else {
+        // Text search or haven't navigated: exit app
+        exitApp();
+      }
+    } else {
+      // Not searching: exit app
+      exitApp();
+    }
+  }
+}
 
   function handleNextSong() {
     if (hasNextSong) {
@@ -126,8 +172,10 @@
     selectedCategory = categoryId;
   }
 
-  function handleSearchChange(query: string) {
+  function handleSearchChange(query: string, searchType?: 'number' | 'text') {
     searchQuery = query;
+    lastSearchType = query.trim() ? (searchType || null) : null;
+    lastSearchQuery = query;
     // When searching, search across all categories
     if (query.trim()) {
       // Keep selected category for filtering, don't auto-clear

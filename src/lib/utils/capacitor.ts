@@ -1,6 +1,7 @@
 import { Capacitor } from '@capacitor/core';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { SplashScreen } from '@capacitor/splash-screen';
+import { App } from '@capacitor/app';
 
 /**
  * Check if running as a native app (Android/iOS)
@@ -60,5 +61,41 @@ export async function setStatusBarTheme(isDark: boolean): Promise<void> {
     }
   } catch (error) {
     console.warn('Status bar update error:', error);
+  }
+}
+
+/**
+ * Setup Android hardware back button handler
+ * This enables custom handling of the back button press
+ */
+export async function setupBackButtonHandler(
+  onBackButton: () => void
+): Promise<void> {
+  if (!Capacitor.isNativePlatform() || Capacitor.getPlatform() !== 'android') {
+    return;
+  }
+
+  try {
+    await App.addListener('backButton', onBackButton);
+  } catch (error) {
+    console.warn('Failed to setup back button handler:', error);
+  }
+}
+
+/**
+ * Exit the native app
+ * This should typically be called from the back button handler when appropriate
+ */
+export async function exitApp(): Promise<void> {
+  if (!Capacitor.isNativePlatform()) {
+    // On web, we can't exit the app, but we could navigate back
+    window.history.back();
+    return;
+  }
+
+  try {
+    await App.exitApp();
+  } catch (error) {
+    console.warn('Failed to exit app:', error);
   }
 }
