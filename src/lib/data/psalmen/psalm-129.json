@@ -42,7 +42,7 @@
         "notes": [
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["c/5"], "duration": "q" },
@@ -82,7 +82,7 @@
         ["Men", "heeft", "mij", "fel", "be-", "nauwd", "van", "jongs", "af", "aan."],
         ["Zeg-", "g-", "’Isrel", "nu:", "men", "juich-", "te,", "toen", "wij", "vie-", "len."],
         ["Men", "heeft", "mij", "reeds", "van", "jongs", "af", "leed", "ge-", "daan;"],
-        ["Geen", "o-", "ver-", "macht", "kon", "m’e-", "ch-", "ter", "ooit", "ver-", "nie-", "len."]
+        ["Geen", "o-", "ver-", "macht", "kon", "m’ech-", "ter", "ooit", "ver-", "nie-", "len."]
       ]
     },
     {
