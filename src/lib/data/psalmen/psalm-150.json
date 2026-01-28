@@ -16,7 +16,7 @@
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -27,7 +27,7 @@
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -72,7 +72,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -83,7 +83,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "q" },
-          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -115,7 +115,7 @@
         "Voor Zijn troon en hier beneden."
       ],
       "syllables": [
-        ["Looft", "God,", "looft", "zijn", "Naam", "a-", "l-", "om;"],
+        ["Looft", "God,", "looft", "zijn", "Naam", "al-", "om;"],
         ["Looft", "Hem", "in", "Zijn", "hei-", "lig-", "dom;"],
         ["Looft", "des", "HEE-", "REN", "gro-", "te", "macht,"],
         ["In", "den", "he-", "mel", "Zij-", "ner", "kracht;"],
@@ -143,7 +143,7 @@
         ["Looft", "Hem,", "met", "de", "harp", "en", "luit;"],
         ["Looft", "Hem,", "met", "de", "trom", "en", "fluit;"],
         ["Looft", "Hem,", "op", "uw", "blij-", "de", "sna-", "ren;"],
-        ["Laat", "zich", "’t o-", "r-", "gel", "o-", "ver-", "al"],
+        ["Laat", "zich", "’t or-", "gel", "o-", "ver-", "al"],
         ["Bij", "het", "jui-", "chend", "vreugd-", "ge-", "schal,"],
         ["Tot", "des", "HEE-", "REN", "glo-", "rie,", "pa-", "ren."]
       ]

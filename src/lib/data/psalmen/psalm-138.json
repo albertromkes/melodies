@@ -105,7 +105,7 @@
           { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["f#/4"], "duration": "h" },
-          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g#/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
