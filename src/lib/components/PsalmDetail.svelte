@@ -59,6 +59,7 @@
 
   // Long press state
   let longPressTimer: ReturnType<typeof setTimeout> | null = null;
+  let longPressCancelled = $state(false);
   
   function showGestureIndicator(text: string) {
     gestureIndicator = text;
@@ -81,7 +82,8 @@
   const BOTTOM_ZONE = 0.75; // Bottom 25% starts at 75%
 
   // Long press detection constants
-  const LONG_PRESS_DELAY = 500; // ms to trigger long press
+  const LONG_PRESS_DELAY = 1000; // ms to trigger long press
+  const LONG_PRESS_MOVE_TOLERANCE = 12; // pixels before canceling long press
   
   // Swipe detection constants
   const MIN_SWIPE_DISTANCE = 80; // minimum pixels to count as swipe
@@ -257,11 +259,12 @@
       touchStartX = touch.clientX;
       touchStartY = touch.clientY;
       touchStartTime = Date.now();
+      longPressCancelled = false;
 
       // Start long press timer for theme toggle
       if (longPressTimer) clearTimeout(longPressTimer);
       longPressTimer = setTimeout(() => {
-        if (onToggleTheme) {
+        if (!longPressCancelled && onToggleTheme) {
           showGestureIndicator('🌙 Thema gewijzigd');
           onToggleTheme();
         }
@@ -275,6 +278,14 @@
       const deltaX = touch.clientX - touchStartX;
       const deltaY = touch.clientY - touchStartY;
       const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+
+      if (distance > LONG_PRESS_MOVE_TOLERANCE) {
+        longPressCancelled = true;
+        if (longPressTimer) {
+          clearTimeout(longPressTimer);
+          longPressTimer = null;
+        }
+      }
 
       // Show swipe tooltip for verse navigation
       if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
