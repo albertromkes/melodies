@@ -554,6 +554,10 @@
   </header>
 
   <section class="staff-section" bind:this={staffSectionRef}>
+    <!-- Verse watermark indicator -->
+    <div class="verse-watermark" aria-hidden="true">
+      <span class="verse-watermark-text">Vers {activeVerseNumber}</span>
+    </div>
     <StaffDisplay
       {measures}
       keySignature={psalm.keySignature}
@@ -780,8 +784,44 @@
     background: var(--card-bg);
     border-radius: 8px;
     border: 1px solid var(--border-color);
-    overflow: hidden;
     margin-top: 0;
+    position: relative;
+  }
+
+  .verse-watermark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+    opacity: 0.1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+  }
+
+  .staff-section :global(.staff-display) {
+    position: relative;
+    z-index: 1;
+  }
+
+  .verse-watermark-text {
+    font-size: 12rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .verse-watermark-text {
+      font-size: 6rem;
+    }
   }
 
   /* Mobile optimizations */

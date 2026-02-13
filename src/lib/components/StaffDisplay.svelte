@@ -285,6 +285,7 @@
   .staff-display {
     display: flex;
     flex-direction: column;
+    position: relative;
   }
 
   .staff-container {
