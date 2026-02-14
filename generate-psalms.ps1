@@ -906,7 +906,7 @@ function Get-MatchedSyllables {
 function Get-DutchSyllables {
     param(
         [string[]]$Words,
-        [string]$NodeScriptPath = "$PSScriptRoot\syllabify-nl.js"
+        [string]$NodeScriptPath = "$PSScriptRoot/syllabify-nl.js"
     )
 
     if (-not (Test-Path $NodeScriptPath)) {
@@ -1063,7 +1063,7 @@ $jsonObj = [ordered]@{
 # Bepaal output bestand
 $currentOutputFile = $OutputFile
 if (-not $currentOutputFile) {
-    $currentOutputFile = "$PSScriptRoot\src\lib\data\psalmen\psalm-${PsalmNumber}.json"
+    $currentOutputFile = "src/lib/data/psalmen/psalm-${PsalmNumber}.json"
 }
 
 # Converteer naar JSON met goede formatting
@@ -1076,7 +1076,7 @@ Write-Host "`n[6] JSON formatteren met format-psalm.js" -ForegroundColor Yellow
 
 # Run format-psalm.js om de JSON netjes te formatteren
 #$formatScript = "$PSScriptRoot\format-psalm.js"
-$formatScript = Join-Path $PSScriptRoot "format-psalm.js"
+$formatScript = "format-psalm.js"
 if (Test-Path $formatScript) {
     try {
         $nodeResult = & node $formatScript $currentOutputFile 2>&1

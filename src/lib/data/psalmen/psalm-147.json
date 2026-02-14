@@ -4,7 +4,7 @@
   "title": "Psalm 147",
   "category": "psalm",
   "mode": "hypo-frygisch (Genève 1562)",
-  "keySignature": "F",
+  "keySignature": "D",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
@@ -13,63 +13,63 @@
         "notes": [
           { "keys": ["d/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
           { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["e/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "h" },
           { "keys": ["d/4"], "duration": "h" }
         ]
@@ -77,13 +77,13 @@
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
@@ -91,26 +91,26 @@
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" },
-          { "keys": ["c/5"], "duration": "q" },
-          { "keys": ["a#/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["d/5"], "duration": "q" },
-          { "keys": ["c/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "h" }
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["b/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["d/5"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
+          { "keys": ["f#/4"], "duration": "w" }
         ]
       }
     ]
@@ -136,7 +136,7 @@
         ["De", "HEER’", "wil", "ons", "in", "gunst", "aan-", "schou-", "wen,"],
         ["Hij", "wil", "Je-", "ru-", "za-", "lem", "her-", "bou-", "wen,"],
         ["Ver-", "ga-", "ren", "en", "in", "vreê", "doen", "le-", "ven,"],
-        ["Hen,", "die", "uit", "I-", "s-", "rel", "zijn", "ver-", "dre-", "ven."]
+        ["Hen,", "die", "uit", "Is-", "rel", "zijn", "ver-", "dre-", "ven."]
       ]
     },
     {
@@ -159,7 +159,7 @@
         ["Hij", "telt", "het", "groot", "ge-", "tal", "der-", "star-", "ren,"],
         ["Die", "’t scherpst", "ge-", "zicht", "op", "aard’", "ver-", "war-", "ren."],
         ["Hij", "roept", "dat", "tal-", "loos", "heir", "te", "za-", "men"],
-        ["En", "noemt", "die", "a-", "l-", "le", "bij", "haar", "na-", "men."]
+        ["En", "noemt", "die", "al-", "le", "bij", "haar", "na-", "men."]
       ]
     },
     {
@@ -182,7 +182,7 @@
         ["Zacht-", "moe-", "di-", "gen", "wil", "Hij", "be-", "wa-", "ren,"],
         ["Hij", "houdt", "ze", "staand’", "in", "hun", "ge-", "va-", "ren,"],
         ["Maar", "god-", "de-", "lo-", "zen", "doet", "Hij", "buk-", "ken,"],
-        ["Be-", "zwij-", "ken", "onder", "d’o-", "n-", "ge-", "luk-", "ken."]
+        ["Be-", "zwij-", "ken", "onder", "d’on-", "ge-", "luk-", "ken."]
       ]
     },
     {
@@ -340,7 +340,7 @@
         ["Deed", "I-", "s-", "rel", "op", "Zijn", "woor-", "den", "let-", "ten."],
         ["Hij", "leer-", "de", "z’in", "Zijn", "we-", "gen", "wand’", "len."],
         ["Zo", "wou", "Hij", "met", "geen", "vol-", "ken", "hand’", "len:"],
-        ["Die", "moes-","ten", "Zijn", "ge-", "tui-", "ge-", "nis-", "sen"],
+        ["Die", "moesten", "Zijn", "ge-", "tui-", "ge-", "nis-", "sen", "-"],
         ["En", "Zijn", "ver-", "bonds-", "ge-", "hei-", "men", "mis-", "sen."],
         ["Laat", "dan", "Gods", "lof", "ten", "he-", "mel", "rij-", "zen;"],
         ["Laat", "al", "wat", "a-", "dem", "heeft", "Hem", "prij-", "zen!"]

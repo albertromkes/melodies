@@ -4,34 +4,34 @@
   "title": "Psalm 141",
   "category": "psalm",
   "mode": "hypo-frygisch (Genève 1562)",
-  "keySignature": "F",
+  "keySignature": "D",
   "timeSignature": [4, 4],
   "clef": "treble",
   "melody": {
     "measures": [
       {
         "notes": [
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" }
         ]
       },
       {
         "notes": [
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["bb/4"], "duration": "q" },
-          { "keys": ["bb/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" }
+          { "keys": ["f#/4"], "duration": "h" }
         ]
       },
       {
@@ -39,9 +39,9 @@
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["e/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["g/4"], "duration": "q" },
-          { "keys": ["f/4"], "duration": "h" },
+          { "keys": ["f#/4"], "duration": "h" },
           { "keys": ["e/4"], "duration": "q" },
           { "keys": ["d/4"], "duration": "h" }
         ]
@@ -49,14 +49,14 @@
       {
         "notes": [
           { "keys": ["d/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "h" },
           { "keys": ["a/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "q" },
           { "keys": ["a/4"], "duration": "q" },
           { "keys": ["g/4"], "duration": "h" },
-          { "keys": ["f/4"], "duration": "w" }
+          { "keys": ["f#/4"], "duration": "w" }
         ]
       }
     ]

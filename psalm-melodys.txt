@@ -1950,7 +1950,7 @@ T: Psalm 141
 G: hypo-frygisch
 C: Genève 1562
 M: C|
-K: F phrygian
+K: D phrygian
 F2 E D2 F A2 G F B2 A2 z2
 A2 B B A2 F G2 E F2 z2
 A2 G E F2 G F2 E D2 z2
@@ -2027,7 +2027,7 @@ T: Psalm 147
 G: hypo-frygisch
 C: Genève 1562
 M: C|
-K: F phrygian
+K: D phrygian
 D2 A2 B2 A B d c B2 A2 z2
 B2 B c d2 B2 A G F2 E2 z2
 E2 F G A2 F2 G A B2 A2 z2
