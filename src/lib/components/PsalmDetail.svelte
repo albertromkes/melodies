@@ -556,7 +556,7 @@
   <section class="staff-section" bind:this={staffSectionRef}>
     <!-- Verse watermark indicator -->
     <div class="verse-watermark" aria-hidden="true">
-      <span class="verse-watermark-text">Vers {activeVerseNumber}</span>
+      <span class="verse-watermark-text">{activeVerseNumber}</span>
     </div>
     <StaffDisplay
       {measures}
