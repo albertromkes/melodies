@@ -57,6 +57,27 @@ For Cloudflare Pages, the build command is `npm run build` and publish directory
 
 #### Android
 
+##### Updating App Version
+
+Version is managed in `package.json`. Before building a new APK:
+
+1. Update version in `package.json`:
+   ```json
+   {
+     "version": "1.2.0",
+     "versionCode": 3
+   }
+   ```
+
+2. Sync version to native projects:
+   ```bash
+   npm run version:sync
+   ```
+
+3. Open Android Studio and build signed APK
+
+> **Note:** `version` follows semver (e.g., "1.2.0"). `versionCode` is an integer that must increment with each release.
+
 ```bash
 # Build and sync web assets to Android
 npm run cap:sync
