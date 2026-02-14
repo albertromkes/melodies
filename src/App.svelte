@@ -11,6 +11,7 @@
   const DEFAULT_PREFERENCES: UserPreferences = {
     showLyricsByDefault: true,
     showChordsByDefault: false,
+    showVerseWatermark: true,
   };
 
   // Application state
@@ -251,6 +252,7 @@ function handleHardwareBackButton() {
         transposeSemitones={currentTransposeSemitones}
         showLyricsByDefault={preferences.showLyricsByDefault}
         showChordsByDefault={preferences.showChordsByDefault}
+        showVerseWatermark={preferences.showVerseWatermark}
         onTransposeChange={handleTransposeChange}
         onBack={handleBack}
         onNextSong={handleNextSong}

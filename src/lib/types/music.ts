@@ -120,4 +120,6 @@ export interface UserPreferences {
   showLyricsByDefault: boolean;
   /** Default setting for showing chord notation */
   showChordsByDefault: boolean;
+  /** Show verse number watermark on staff */
+  showVerseWatermark: boolean;
 }

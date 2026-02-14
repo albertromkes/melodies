@@ -9,6 +9,7 @@
     transposeSemitones: number;
     showLyricsByDefault?: boolean;
     showChordsByDefault?: boolean;
+    showVerseWatermark?: boolean;
     onTransposeChange?: (value: number) => void;
     onBack: () => void;
     onNextSong?: () => void;
@@ -23,6 +24,7 @@
     transposeSemitones, 
     showLyricsByDefault = true,
     showChordsByDefault = false,
+    showVerseWatermark = true,
     onTransposeChange, 
     onBack, 
     onNextSong, 
@@ -554,10 +556,12 @@
   </header>
 
   <section class="staff-section" bind:this={staffSectionRef}>
-    <!-- Verse watermark indicator -->
-    <div class="verse-watermark" aria-hidden="true">
-      <span class="verse-watermark-text">{activeVerseNumber}</span>
-    </div>
+    {#if showVerseWatermark}
+      <!-- Verse watermark indicator -->
+      <div class="verse-watermark" aria-hidden="true">
+        <span class="verse-watermark-text">{activeVerseNumber}</span>
+      </div>
+    {/if}
     <StaffDisplay
       {measures}
       keySignature={psalm.keySignature}

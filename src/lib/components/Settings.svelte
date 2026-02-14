@@ -18,6 +18,10 @@
   function handleToggleChordsDefault() {
     onUpdatePreferences({ showChordsByDefault: !preferences.showChordsByDefault });
   }
+
+  function handleToggleVerseWatermark() {
+    onUpdatePreferences({ showVerseWatermark: !preferences.showVerseWatermark });
+  }
 </script>
 
 <div class="settings-overlay" onclick={onClose} role="dialog" aria-modal="true" aria-labelledby="settings-title">
@@ -86,6 +90,20 @@
             onchange={handleToggleChordsDefault}
           />
           <span class="toggle-label-text">Toon akkoordnotatie</span>
+        </label>
+      </div>
+
+      <div class="setting-group">
+        <h3>Vers watermark</h3>
+        <p>Toon het versnummer als watermark op de notenbalk</p>
+        
+        <label class="setting-toggle">
+          <input
+            type="checkbox"
+            checked={preferences.showVerseWatermark}
+            onchange={handleToggleVerseWatermark}
+          />
+          <span class="toggle-label-text">Toon vers watermark</span>
         </label>
       </div>
 
