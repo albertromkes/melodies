@@ -1,0 +1,141 @@
+{
+  "id": "lied-001",
+  "number": 1,
+  "title": "Lichtstad met uw paarlen poorten",
+  "category": "lied",
+  "keySignature": "D",
+  "timeSignature": [
+    4,
+    4
+  ],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          {
+            "keys": [
+              "D/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "E/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "F#/4"
+            ],
+            "duration": "h",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "G/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "B/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "G/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "F#/4"
+            ],
+            "duration": "h",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "E/4"
+            ],
+            "duration": "h"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "D/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "C#/5"
+            ],
+            "duration": "q",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "B/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+        "Lyrics for \"Lichtstad met uw paarlen poorten\" will be added manually"
+      ],
+      "syllables": [
+        [
+          "Ly-ri-cs-fo-r-\"Li-chtsta",
+          "d-me-t-u-w-paa-rle",
+          "n-poo-rte-n\"-wi-ll-be",
+          "a-dde-d-ma-nua-lly"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "lied-001",
+  "number": 1,
+  "title": "lied 001",
+  "category": "lied",
+  "keySignature": "D",
+  "timeSignature": [
+    4,
+    4
+  ],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          {
+            "keys": [
+              "D/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "E/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "F#/4"
+            ],
+            "duration": "h",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "G/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "B/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "G/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "F#/4"
+            ],
+            "duration": "h",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "E/4"
+            ],
+            "duration": "h"
+          }
+        ]
+      },
+      {
+        "notes": [
+          {
+            "keys": [
+              "D/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "C#/5"
+            ],
+            "duration": "q",
+            "accidental": {
+              "type": "#"
+            }
+          },
+          {
+            "keys": [
+              "B/4"
+            ],
+            "duration": "q"
+          },
+          {
+            "keys": [
+              "A/4"
+            ],
+            "duration": "q"
+          }
+        ]
+      }
+    ]
+  },
+  "verses": []
+}
