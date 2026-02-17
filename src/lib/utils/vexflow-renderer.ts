@@ -3,7 +3,7 @@
  * Isolates all VexFlow-specific logic
  */
 
-import { Renderer, Stave, StaveNote, Voice, Formatter, Accidental, Barline } from 'vexflow';
+import { Renderer, Stave, StaveNote, Voice, Formatter, Accidental, Barline, Dot } from 'vexflow';
 import type { NoteData, Measure } from '../types/music';
 
 /** Configuration for staff rendering */
@@ -31,18 +31,38 @@ interface LineConfig {
 }
 
 /**
+ * Parse a duration string that may include a dot suffix.
+ * E.g., "qd" -> { baseDuration: "q", dotted: true }
+ *        "8d" -> { baseDuration: "8", dotted: true }
+ *        "h"  -> { baseDuration: "h", dotted: false }
+ */
+function parseDuration(duration: string): { baseDuration: string; dotted: boolean } {
+  if (duration.endsWith('d') && duration.length > 1) {
+    return { baseDuration: duration.slice(0, -1), dotted: true };
+  }
+  return { baseDuration: duration, dotted: false };
+}
+
+/**
  * Create VexFlow StaveNotes from note data
  * Notes are already in VexFlow format (keys: ["a/4"])
+ * Handles dotted durations (e.g., "qd", "8d", "hd")
  * Handles cautionary accidentals (musica ficta) when specified
  */
 function createStaveNotes(notes: NoteData[]): StaveNote[] {
   return notes.map((note) => {
-    const duration = note.rest ? note.duration + 'r' : note.duration;
+    const { baseDuration, dotted } = parseDuration(note.duration);
+    const duration = note.rest ? baseDuration + 'r' : baseDuration;
     
     const staveNote = new StaveNote({
       keys: note.keys,
       duration: duration,
     });
+    
+    // Add dot modifier for dotted durations
+    if (dotted) {
+      Dot.buildAndAttach([staveNote], { all: true });
+    }
     
     // Add explicit accidental if specified (for musica ficta / cautionary accidentals)
     if (note.accidental) {

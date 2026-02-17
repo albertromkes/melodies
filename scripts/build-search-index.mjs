@@ -17,11 +17,30 @@ const OUTPUT_DIR = join(__dirname, '..', 'public', 'search');
 
 // Category display names
 const categoryDisplayNames = {
-  psalm: 'Psalms',
-  psalms: 'Psalms',
+  psalm: 'Psalmen',
+  psalms: 'Psalmen',
+  psalmen: 'Psalmen',
   gezang: 'Gezangen',
   gezangen: 'Gezangen',
 };
+
+const categoryAliases = {
+  psalm: 'psalmen',
+  psalms: 'psalmen',
+  psalmen: 'psalmen',
+  gezang: 'gezangen',
+  gezangen: 'gezangen',
+};
+
+function normalizeCategoryId(categoryId) {
+  if (!categoryId) return 'unknown';
+  const normalized = categoryId.toLowerCase();
+  return categoryAliases[normalized] || normalized;
+}
+
+function isPsalmenCategory(categoryId) {
+  return normalizeCategoryId(categoryId) === 'psalmen';
+}
 
 function capitalizeFirst(str) {
   return str.charAt(0).toUpperCase() + str.slice(1);
@@ -40,9 +59,10 @@ async function discoverCategories() {
       
       if (jsonFiles.length > 0) {
         categories.push({
-          id: entry.name,
-          name: categoryDisplayNames[entry.name] || capitalizeFirst(entry.name),
+          id: normalizeCategoryId(entry.name),
+          name: categoryDisplayNames[normalizeCategoryId(entry.name)] || capitalizeFirst(entry.name),
           count: jsonFiles.length,
+          sourceDir: entry.name,
         });
       }
     }
@@ -50,8 +70,8 @@ async function discoverCategories() {
   
   // Sort: psalms first, then alphabetically
   return categories.sort((a, b) => {
-    if (a.id === 'psalm' || a.id === 'psalms') return -1;
-    if (b.id === 'psalm' || b.id === 'psalms') return 1;
+    if (isPsalmenCategory(a.id) && !isPsalmenCategory(b.id)) return -1;
+    if (isPsalmenCategory(b.id) && !isPsalmenCategory(a.id)) return 1;
     return a.name.localeCompare(b.name);
   });
 }
@@ -60,15 +80,15 @@ async function loadAllSongs(categories) {
   const songs = [];
   
   for (const category of categories) {
-    const categoryDir = join(DATA_DIR, category.id);
+    const categoryDir = join(DATA_DIR, category.sourceDir);
     const files = await readdir(categoryDir);
     const jsonFiles = files.filter(f => f.endsWith('.json'));
     
     for (const file of jsonFiles) {
       const content = await readFile(join(categoryDir, file), 'utf-8');
       const song = JSON.parse(content.replace(/^\uFEFF/, ''));
-      // Ensure category is set
-      song.category = song.category || category.id;
+      // Normalize category aliases for consistent runtime/index behavior
+      song.category = normalizeCategoryId(song.category || category.id);
       songs.push(song);
     }
   }
@@ -76,9 +96,9 @@ async function loadAllSongs(categories) {
   // Sort by category, then by number
   songs.sort((a, b) => {
     if (a.category !== b.category) {
-      // Psalms first
-      if (a.category === 'psalms') return -1;
-      if (b.category === 'psalms') return 1;
+      // Psalmen first
+      if (isPsalmenCategory(a.category) && !isPsalmenCategory(b.category)) return -1;
+      if (isPsalmenCategory(b.category) && !isPsalmenCategory(a.category)) return 1;
       return a.category.localeCompare(b.category);
     }
     return a.number - b.number;
@@ -155,8 +175,9 @@ async function main() {
   console.log(`Loaded ${songs.length} songs total`);
   
   // Write categories index
+  const categoriesForIndex = categories.map(({ sourceDir, ...category }) => category);
   const categoriesPath = join(OUTPUT_DIR, 'categories.json');
-  await writeFile(categoriesPath, JSON.stringify(categories, null, 2));
+  await writeFile(categoriesPath, JSON.stringify(categoriesForIndex, null, 2));
   console.log(`Wrote ${categoriesPath}`);
   
   // Build and write metadata index (always loaded)

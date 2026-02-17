@@ -398,7 +398,10 @@
     // If we have an active verse, apply its lyrics/syllables to the melody
     if (activeVerse) {
       const lineCount = activeVerse.lines.length;
-      const measuresToUse = psalm.melody.measures.slice(0, lineCount);
+      // If the verse has lyrics lines, slice measures to match; otherwise use all measures
+      const measuresToUse = lineCount > 0
+        ? psalm.melody.measures.slice(0, lineCount)
+        : psalm.melody.measures;
       
       return measuresToUse.map((measure, measureIndex) => {
         const newLyrics = activeVerse!.lines[measureIndex] ?? '';

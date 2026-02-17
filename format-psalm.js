@@ -21,7 +21,9 @@ push(1, `"id": ${JSON.stringify(data.id)},`);
 push(1, `"number": ${data.number},`);
 push(1, `"title": ${JSON.stringify(data.title)},`);
 push(1, `"category": ${JSON.stringify(data.category)},`);
-push(1, `"mode": ${JSON.stringify(data.mode)},`);
+if (data.mode !== undefined && data.mode !== null) {
+  push(1, `"mode": ${JSON.stringify(data.mode)},`);
+}
 push(1, `"keySignature": ${JSON.stringify(data.keySignature)},`);
 push(1, `"timeSignature": [${data.timeSignature.join(', ')}],`);
 push(1, `"clef": ${JSON.stringify(data.clef)},`);
@@ -41,6 +43,13 @@ measures.forEach((measure, measureIdx) => {
     parts.push(`"duration": ${JSON.stringify(note.duration)}`);
     if (note.rest === true) {
       parts.push('"rest": true');
+    }
+    if (note.accidental) {
+      const accParts = [`"type": ${JSON.stringify(note.accidental.type)}`];
+      if (note.accidental.cautionary === true) {
+        accParts.push('"cautionary": true');
+      }
+      parts.push(`"accidental": { ${accParts.join(', ')} }`);
     }
     const noteLine = `{ ${parts.join(', ')} }${noteIdx < measure.notes.length - 1 ? ',' : ''}`;
     push(5, noteLine);

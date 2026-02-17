@@ -32,21 +32,31 @@
 
   // Re-render when dependencies change
   $effect(() => {
-    if (containerRef && transposedMeasures.length > 0) {
-      const dimensions = calculateMultiLineDimensions(transposedMeasures.length, containerWidth, showLyrics, scale);
-      
-      const config: RenderConfig = {
-        width: dimensions.width,
-        keySignature: displayKey,
-        timeSignature: timeSignature,
-        showLyrics: showLyrics,
-        scale: scale,
-      };
+    if (!containerRef) return;
 
+    const dimensions = calculateMultiLineDimensions(transposedMeasures.length, containerWidth, showLyrics, scale);
+
+    const config: RenderConfig = {
+      width: dimensions.width,
+      keySignature: displayKey,
+      timeSignature: timeSignature,
+      showLyrics: showLyrics,
+      scale: scale,
+    };
+
+    try {
       renderMultiLineMelody(containerRef, transposedMeasures, config);
-      
-      // Add lyrics text below each staff line after rendering
-      if (showLyrics) {
+    } catch (e) {
+      console.error('[StaffDisplay] VexFlow rendering failed:', e);
+      return;
+    }
+
+    if (transposedMeasures.length === 0) {
+      return;
+    }
+
+    // Add lyrics text below each staff line after rendering
+    if (showLyrics) {
         const svg = containerRef.querySelector('svg');
         if (svg) {
           // Find the VexFlow transform group to append text inside it
@@ -197,59 +207,58 @@
         }
       }
       
-      // Render chord symbols above the staff
-      if (showChords) {
-        const chordSvg = containerRef.querySelector('svg');
-        if (chordSvg) {
-          const chordVexflowGroup = chordSvg.querySelector('g') || chordSvg;
-          const chordFontSize = 12;
-          const staves = chordSvg.querySelectorAll('.vf-stave');
-          
-          transposedMeasures.forEach((measure, index) => {
-            if (!measure.chords || measure.chords.length === 0) return;
-            
-            const stave = staves[index];
-            if (!stave) return;
-            
-            const stavePath = stave.querySelector('path');
-            const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
-            
-            const chordsY = staveYPos - 25;
-            
-            const allNotes = chordSvg.querySelectorAll('.vf-stavenote');
-            const staveNotes: { x: number; width: number }[] = [];
-            
-            allNotes.forEach((note) => {
-              const rect = note.querySelector('rect');
-              if (rect) {
-                const noteY = parseFloat(rect.getAttribute('y') || '0');
-                const noteX = parseFloat(rect.getAttribute('x') || '0');
-                const noteWidth = parseFloat(rect.getAttribute('width') || '12');
-                
-                if (noteY >= staveYPos - 50 && noteY <= staveYPos + 60) {
-                  staveNotes.push({ x: noteX, width: noteWidth });
-                }
+    // Render chord symbols above the staff
+    if (showChords) {
+      const chordSvg = containerRef.querySelector('svg');
+      if (chordSvg) {
+        const chordVexflowGroup = chordSvg.querySelector('g') || chordSvg;
+        const chordFontSize = 12;
+        const staves = chordSvg.querySelectorAll('.vf-stave');
+
+        transposedMeasures.forEach((measure, index) => {
+          if (!measure.chords || measure.chords.length === 0) return;
+
+          const stave = staves[index];
+          if (!stave) return;
+
+          const stavePath = stave.querySelector('path');
+          const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
+
+          const chordsY = staveYPos - 25;
+
+          const allNotes = chordSvg.querySelectorAll('.vf-stavenote');
+          const staveNotes: { x: number; width: number }[] = [];
+
+          allNotes.forEach((note) => {
+            const rect = note.querySelector('rect');
+            if (rect) {
+              const noteY = parseFloat(rect.getAttribute('y') || '0');
+              const noteX = parseFloat(rect.getAttribute('x') || '0');
+              const noteWidth = parseFloat(rect.getAttribute('width') || '12');
+
+              if (noteY >= staveYPos - 50 && noteY <= staveYPos + 60) {
+                staveNotes.push({ x: noteX, width: noteWidth });
               }
-            });
-            
-            staveNotes.sort((a, b) => a.x - b.x);
-            
-            measure.chords.forEach((chord) => {
-              const svgNote = staveNotes[chord.position];
-              if (!svgNote) return;
-              
-              const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-              textEl.setAttribute('x', String(svgNote.x));
-              textEl.setAttribute('y', String(chordsY));
-              textEl.setAttribute('class', 'chord-symbol');
-              textEl.setAttribute('fill', 'currentColor');
-              textEl.setAttribute('font-size', `${chordFontSize}px`);
-              textEl.setAttribute('font-weight', 'bold');
-              textEl.textContent = chord.symbol;
-              chordVexflowGroup.appendChild(textEl);
-            });
+            }
           });
-        }
+
+          staveNotes.sort((a, b) => a.x - b.x);
+
+          measure.chords.forEach((chord) => {
+            const svgNote = staveNotes[chord.position];
+            if (!svgNote) return;
+
+            const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+            textEl.setAttribute('x', String(svgNote.x));
+            textEl.setAttribute('y', String(chordsY));
+            textEl.setAttribute('class', 'chord-symbol');
+            textEl.setAttribute('fill', 'currentColor');
+            textEl.setAttribute('font-size', `${chordFontSize}px`);
+            textEl.setAttribute('font-weight', 'bold');
+            textEl.textContent = chord.symbol;
+            chordVexflowGroup.appendChild(textEl);
+          });
+        });
       }
     }
   });

@@ -1,12 +1,17 @@
 [
   {
+    "id": "psalmen",
+    "name": "Psalmen",
+    "count": 150
+  },
+  {
     "id": "gezangen",
     "name": "Gezangen",
     "count": 1
   },
   {
-    "id": "psalmen",
-    "name": "Psalmen",
-    "count": 150
+    "id": "liedereen",
+    "name": "Liedereen",
+    "count": 1
   }
 ]

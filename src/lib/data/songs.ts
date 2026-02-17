@@ -14,18 +14,34 @@ const songModules = import.meta.glob<{ default: PsalmData }>(
   { eager: true }
 );
 
-// Category display names (can be extended)
+const CATEGORY_ALIASES: Record<string, string> = {
+  psalm: 'psalmen',
+  psalms: 'psalmen',
+  psalmen: 'psalmen',
+  gezang: 'gezangen',
+  gezangen: 'gezangen',
+};
+
+// Category display names (GUI is Dutch)
 const categoryDisplayNames: Record<string, string> = {
-  psalm: 'Psalms',
-  psalms: 'Psalms',
-  gezang: 'Gezangen',
+  psalmen: 'Psalmen',
   gezangen: 'Gezangen',
 };
+
+function normalizeCategoryId(categoryId: string | undefined): string {
+  if (!categoryId) return 'unknown';
+  const normalized = categoryId.toLowerCase();
+  return CATEGORY_ALIASES[normalized] ?? normalized;
+}
+
+function isPsalmenCategory(categoryId: string): boolean {
+  return normalizeCategoryId(categoryId) === 'psalmen';
+}
 
 // Extract category from file path (e.g., './psalms/psalm-1.json' -> 'psalms')
 function getCategoryFromPath(path: string): string {
   const match = path.match(/^\.\/([^/]+)\//);
-  return match ? match[1] : 'unknown';
+  return normalizeCategoryId(match ? match[1] : 'unknown');
 }
 
 // Collect all songs with their categories
@@ -40,7 +56,7 @@ const allSongsRaw: SongWithCategory[] = Object.entries(songModules)
     return {
       ...song,
       // Always use folder name as category for consistency
-      category: folderCategory,
+      category: normalizeCategoryId(folderCategory),
     };
   })
   .sort((a, b) => {
@@ -70,11 +86,9 @@ export function getCategories(): Category[] {
       count,
     }))
     .sort((a, b) => {
-      // Psalms always first (handle 'psalm', 'psalms', and 'psalmen')
-      if ((a.id === 'psalm' || a.id === 'psalms' || a.id === 'psalmen') &&
-          (b.id !== 'psalm' && b.id !== 'psalms' && b.id !== 'psalmen')) return -1;
-      if ((b.id === 'psalm' || b.id === 'psalms' || b.id === 'psalmen') &&
-          (a.id !== 'psalm' && a.id !== 'psalms' && a.id !== 'psalmen')) return 1;
+      // Psalmen always first
+      if (isPsalmenCategory(a.id) && !isPsalmenCategory(b.id)) return -1;
+      if (isPsalmenCategory(b.id) && !isPsalmenCategory(a.id)) return 1;
       return a.name.localeCompare(b.name);
     });
 }
@@ -85,8 +99,9 @@ function capitalizeFirst(str: string): string {
 
 /** Get songs by category */
 export function getSongsByCategory(categoryId: string): PsalmData[] {
+  const normalizedCategoryId = normalizeCategoryId(categoryId);
   return allSongsRaw
-    .filter(song => song.category === categoryId)
+    .filter(song => song.category === normalizedCategoryId)
     .sort((a, b) => a.number - b.number);
 }
 
@@ -97,8 +112,9 @@ export function getSongById(id: string): PsalmData | undefined {
 
 /** Get a song by number and category */
 export function getSongByNumber(num: number, categoryId?: string): PsalmData | undefined {
+  const normalizedCategoryId = categoryId ? normalizeCategoryId(categoryId) : undefined;
   if (categoryId) {
-    return allSongsRaw.find(s => s.number === num && s.category === categoryId);
+    return allSongsRaw.find(s => s.number === num && s.category === normalizedCategoryId);
   }
   return allSongsRaw.find(s => s.number === num);
 }
@@ -112,4 +128,4 @@ export function getMelodyNotes(song: PsalmData) {
 }
 
 // Re-export psalms for backward compatibility
-export const psalms = getSongsByCategory('psalms');
+export const psalms = getSongsByCategory('psalmen');

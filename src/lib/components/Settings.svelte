@@ -1,4 +1,5 @@
 <script lang="ts">
+  import pkg from '../../../package.json';
   import type { Theme, UserPreferences } from '../types/music';
 
   interface Props {
@@ -10,6 +11,7 @@
   }
 
   let { theme, preferences, onToggleTheme, onUpdatePreferences, onClose }: Props = $props();
+  const appVersion = pkg.version;
 
   function handleToggleLyricsDefault() {
     onUpdatePreferences({ showLyricsByDefault: !preferences.showLyricsByDefault });
@@ -110,7 +112,7 @@
       <div class="setting-group">
         <h3>Over deze app</h3>
         <p>Psalm Melodies - Nederlandse psalm melodieën</p>
-        <p class="version">Versie 1.0.0</p>
+        <p class="version">Versie {appVersion}</p>
       </div>
     </div>
   </div>

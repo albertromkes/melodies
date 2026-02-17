@@ -44,7 +44,7 @@
   // Detect Android platform and check if Psalms category is selected
   $effect(() => {
     isAndroid = navigator.userAgent.includes('Android');
-    useNumberPad = isAndroid && (selectedCategory === 'psalms' || selectedCategory === 'psalmen' || selectedCategory === null);
+    useNumberPad = isAndroid && (selectedCategory === 'psalmen' || selectedCategory === 'psalm' || selectedCategory === 'psalms' || selectedCategory === null);
   });
 
   // Load metadata index on mount
@@ -80,7 +80,7 @@
     return (s ?? '')
       .toString()
       .toLowerCase()
-      .replace(/['']/g, "'")
+      .replace(/[’']/g, "'")
       .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
       .replace(/\s+/g, ' ')
       .trim();
@@ -90,7 +90,7 @@
     const raw = input ?? '';
     const phrases: string[] = [];
 
-    const patterns = [/"([^"]+)"/g, /"([^"]+)"/g];
+    const patterns = [/"([^"]+)"/g, /“([^”]+)”/g];
 
     let remainder = raw;
     for (const re of patterns) {
@@ -107,7 +107,7 @@
   // Filter songs based on selected category (before search)
   let categoryFilteredSongs = $derived.by(() => {
     if (!selectedCategory) return songs;
-    return songs.filter(song => (song.category || 'psalms') === selectedCategory);
+    return songs.filter(song => (song.category || 'psalmen') === selectedCategory);
   });
 
   let filteredSongs = $derived.by(() => {
@@ -168,8 +168,18 @@
   // Detect if search is primarily numeric (psalm number search)
   function detectSearchType(query: string): 'number' | 'text' {
     const trimmed = query.trim();
-    // Consider it a number search if it starts with digits and matches psalm numbers
-    if (/^\d+$/.test(trimmed) && parseInt(trimmed) <= 150) {
+    // Consider it number search when the query is numeric and matches known song numbers
+    if (/^\d+$/.test(trimmed)) {
+      const hasMatchingNumberPrefix = categoryFilteredSongs.some(song =>
+        song.number.toString().startsWith(trimmed)
+      );
+      if (hasMatchingNumberPrefix) {
+        return 'number';
+      }
+    }
+
+    // Fallback for numeric queries that might match cross-category searches
+    if (/^\d+$/.test(trimmed) && songs.some(song => song.number.toString().startsWith(trimmed))) {
       return 'number';
     }
     return 'text';

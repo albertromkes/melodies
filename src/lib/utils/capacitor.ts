@@ -28,8 +28,8 @@ export async function initCapacitor(): Promise<void> {
   }
 
   try {
-    // Configure status bar for native platforms
-    await StatusBar.setStyle({ style: Style.Light });
+    // Configure status bar defaults for native platforms
+    await StatusBar.setStyle({ style: Style.Dark });
     
     if (Capacitor.getPlatform() === 'android') {
       // Make status bar transparent on Android
@@ -52,7 +52,7 @@ export async function setStatusBarTheme(isDark: boolean): Promise<void> {
   }
 
   try {
-    await StatusBar.setStyle({ style: isDark ? Style.Dark : Style.Light });
+    await StatusBar.setStyle({ style: isDark ? Style.Light : Style.Dark });
     
     if (Capacitor.getPlatform() === 'android') {
       await StatusBar.setBackgroundColor({ 
@@ -70,13 +70,16 @@ export async function setStatusBarTheme(isDark: boolean): Promise<void> {
  */
 export async function setupBackButtonHandler(
   onBackButton: () => void
-): Promise<void> {
+): Promise<(() => void) | void> {
   if (!Capacitor.isNativePlatform() || Capacitor.getPlatform() !== 'android') {
     return;
   }
 
   try {
-    await App.addListener('backButton', onBackButton);
+    const listener = await App.addListener('backButton', onBackButton);
+    return () => {
+      void listener.remove();
+    };
   } catch (error) {
     console.warn('Failed to setup back button handler:', error);
   }

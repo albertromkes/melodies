@@ -1,0 +1,270 @@
+{
+  "id": "lied-score",
+  "number": 1,
+  "title": "Lichtstad met uw Paarlen Poorten",
+  "category": "liedereen",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "qd" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["g/4"], "duration": "16" },
+          { "keys": ["b/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "qd" },
+          { "keys": ["c/5"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" },
+          { "keys": ["g/4"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "qd" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8d" },
+          { "keys": ["d/4"], "duration": "16" },
+          { "keys": ["d/4"], "duration": "8d" },
+          { "keys": ["d/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "8d" },
+          { "keys": ["e/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "qd" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" },
+          { "keys": ["g/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c/5"], "duration": "qd" },
+          { "keys": ["c/5"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" },
+          { "keys": ["g/4"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "qd" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8d" },
+          { "keys": ["d/4"], "duration": "16" },
+          { "keys": ["d/4"], "duration": "8d" },
+          { "keys": ["d/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "q" },
+          { "keys": ["f#/4"], "duration": "8" },
+          { "keys": ["e/4"], "duration": "8" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" },
+          { "keys": ["a/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c#/5"], "duration": "qd" },
+          { "keys": ["c#/5"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8d" },
+          { "keys": ["a/4"], "duration": "16" },
+          { "keys": ["c#/5"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "qd" },
+          { "keys": ["d/5"], "duration": "8" },
+          { "keys": ["c#/5"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["c#/5"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c#/5"], "duration": "qd" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["e/4"], "duration": "16" },
+          { "keys": ["e/4"], "duration": "8d" },
+          { "keys": ["e/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "8d" },
+          { "keys": ["f#/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "qd" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["c#/5"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c#/5"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["d/5"], "duration": "qd" },
+          { "keys": ["d/5"], "duration": "8" },
+          { "keys": ["c#/5"], "duration": "8d" },
+          { "keys": ["b/4"], "duration": "16" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["c#/5"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "w" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["c#/5"], "duration": "qd" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8d" },
+          { "keys": ["e/4"], "duration": "16" },
+          { "keys": ["e/4"], "duration": "8d" },
+          { "keys": ["e/4"], "duration": "16" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["f#/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "q" },
+          { "keys": ["g#/4"], "duration": "8" },
+          { "keys": ["f#/4"], "duration": "8" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["e/4"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["c#/5"], "duration": "q" },
+          { "keys": ["b/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["a/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+      ],
+      "syllables": [
+      ]
+    }
+  ]
+}

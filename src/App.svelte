@@ -5,7 +5,7 @@
   import SongList from './lib/components/SongList.svelte';
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
   import Settings from './lib/components/Settings.svelte';
-  import { setupBackButtonHandler, exitApp } from './lib/utils/capacitor';
+  import { setupBackButtonHandler, exitApp, setStatusBarTheme } from './lib/utils/capacitor';
 
   // Default preferences
   const DEFAULT_PREFERENCES: UserPreferences = {
@@ -18,8 +18,8 @@
   let currentView = $state<'list' | 'detail'>('list');
   let selectedSong = $state<PsalmData | null>(null);
   let categories = $state<Category[]>(getCategories());
-  // Default to psalms category explicitly
-  let selectedCategory = $state<string | null>('psalms');
+  // Default to psalmen category explicitly
+  let selectedCategory = $state<string | null>('psalmen');
   let searchQuery = $state('');
   let searchInVerses = $state(false);
   let useFuzzyVerseSearch = $state(false);
@@ -76,6 +76,7 @@
   $effect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('psalm-app-theme', theme);
+    void setStatusBarTheme(theme === 'dark');
   });
 
   // Load preferences from localStorage on mount
@@ -98,7 +99,21 @@
 
   // Setup hardware back button handler on mount
   $effect(() => {
-    setupBackButtonHandler(handleHardwareBackButton);
+    let disposed = false;
+    let removeListener: (() => void) | void;
+
+    void setupBackButtonHandler(handleHardwareBackButton).then((cleanup) => {
+      if (disposed) {
+        cleanup?.();
+        return;
+      }
+      removeListener = cleanup;
+    });
+
+    return () => {
+      disposed = true;
+      removeListener?.();
+    };
   });
 
   function handleSelectSong(song: PsalmData) {
