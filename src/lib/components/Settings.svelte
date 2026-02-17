@@ -24,10 +24,30 @@
   function handleToggleVerseWatermark() {
     onUpdatePreferences({ showVerseWatermark: !preferences.showVerseWatermark });
   }
+
+  function handleOverlayClick(event: MouseEvent) {
+    if (event.target === event.currentTarget) {
+      onClose();
+    }
+  }
+
+  function handleOverlayKeydown(event: KeyboardEvent) {
+    if (event.key === 'Escape' || event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      onClose();
+    }
+  }
 </script>
 
-<div class="settings-overlay" onclick={onClose} role="dialog" aria-modal="true" aria-labelledby="settings-title">
-  <div class="settings-panel" onclick={(e) => e.stopPropagation()}>
+<div
+  class="settings-overlay"
+  role="button"
+  tabindex="0"
+  aria-label="Sluit instellingen"
+  onclick={handleOverlayClick}
+  onkeydown={handleOverlayKeydown}
+>
+  <div class="settings-panel" role="dialog" aria-modal="true" aria-labelledby="settings-title">
     <div class="settings-header">
       <h2 id="settings-title">Instellingen</h2>
       <button class="close-button" onclick={onClose} aria-label="Sluiten">
