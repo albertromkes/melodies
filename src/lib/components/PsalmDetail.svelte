@@ -479,6 +479,12 @@
   function decreaseScale() {
     scale = Math.max(MIN_SCALE, Math.round((scale - SCALE_STEP) * 10) / 10);
   }
+
+  let headerTitle = $derived.by(() => {
+    const trimmedTitle = psalm.title?.trim();
+    if (trimmedTitle) return trimmedTitle;
+    return `Psalm ${psalm.number}`;
+  });
 </script>
 
 <div 
@@ -505,7 +511,7 @@
     </button>
     <div class="header-center">
       <h1 class="psalm-title">
-        Psalm {psalm.number}
+        {headerTitle}
         {#if hasHalfVerse}
           <span class="half-verse-indicator" title="Laatste vers is half">½</span>
         {/if}
