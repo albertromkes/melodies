@@ -49,7 +49,7 @@ param(
     [Parameter(ParameterSetName = "All")]
     [switch]$All,
 
-    [string]$OutputDir = "src/lib/data/liedereen",
+    [string]$OutputDir = "src/lib/data/liederen",
 
     [int]$PartIndex = 1,
 
@@ -448,7 +448,7 @@ function Convert-MusicXmlToVexFlow {
         id            = $songId
         number        = $songNum
         title         = $songTitle
-        category      = "liedereen"
+        category      = "liederen"
         keySignature  = $keySig
         timeSignature = $timeSig
         clef          = "treble"
@@ -583,7 +583,7 @@ else {
     Write-Host "  pwsh convert-musicxml.ps1 -All"
     Write-Host ""
     Write-Host "Options:"
-    Write-Host "  -OutputDir <dir>      Output directory (default: src/lib/data/liedereen)"
+    Write-Host "  -OutputDir <dir>      Output directory (default: src/lib/data/liederen)"
     Write-Host "  -PartIndex <n>        Part to extract, 1-based (default: 1)"
     Write-Host "  -VoiceNumber <n>      Voice to extract (default: 1)"
     Write-Host "  -Id <string>          Custom song ID"

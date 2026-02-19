@@ -1064,8 +1064,22 @@
   {
     "id": "lied-score",
     "number": 1,
-    "title": "Lied 1",
-    "category": "liedereen",
+    "title": "Lichtstad met uw Paarlen Poorten",
+    "category": "liederen",
+    "tags": []
+  },
+  {
+    "id": "lied-Is dat, is dat mijn Koning",
+    "number": 4,
+    "title": "Als ik in gedachten sta",
+    "category": "liederen",
+    "tags": []
+  },
+  {
+    "id": "lied-De Heer is mijn Herder",
+    "number": 7,
+    "title": "De Heer is mijn Herder",
+    "category": "liederen",
     "tags": []
   }
 ]
