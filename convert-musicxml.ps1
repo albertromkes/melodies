@@ -246,8 +246,43 @@ function Convert-MusicXmlToVexFlow {
     Write-Host "  Measures in XML: $($xmlMeasures.Count)"
 
     $vexMeasures = @()
+    $lineNotes = @()
+    $hasExplicitSystemBreaks = $false
 
     foreach ($xmlMeasure in $xmlMeasures) {
+        $printNode = $xmlMeasure.SelectSingleNode("print")
+        if ($printNode) {
+            $newSystem = $printNode.GetAttribute("new-system")
+            $newPage = $printNode.GetAttribute("new-page")
+            if ($newSystem -eq "yes" -or $newPage -eq "yes") {
+                $hasExplicitSystemBreaks = $true
+                break
+            }
+        }
+    }
+
+    foreach ($xmlMeasure in $xmlMeasures) {
+        $startsNewSystem = $false
+        if ($hasExplicitSystemBreaks) {
+            $printNode = $xmlMeasure.SelectSingleNode("print")
+            if ($printNode) {
+                $newSystem = $printNode.GetAttribute("new-system")
+                $newPage = $printNode.GetAttribute("new-page")
+                if ($newSystem -eq "yes" -or $newPage -eq "yes") {
+                    $startsNewSystem = $true
+                }
+            }
+        }
+
+        # MusicXML uses <print new-system="yes"> on the first measure of a new system.
+        # Flush the previous line before processing this measure.
+        if ($startsNewSystem -and $lineNotes.Count -gt 0) {
+            $vexMeasures += [ordered]@{
+                notes = $lineNotes
+            }
+            $lineNotes = @()
+        }
+
         $notes = @()
         $xmlNotes = @($xmlMeasure.SelectNodes("note"))
 
@@ -344,9 +379,21 @@ function Convert-MusicXmlToVexFlow {
         }
 
         if ($notes.Count -gt 0) {
-            $vexMeasures += [ordered]@{
-                notes = $notes
+            if ($hasExplicitSystemBreaks) {
+                $lineNotes += $notes
             }
+            else {
+                # Backward-compatible behavior when no explicit system breaks are present.
+                $vexMeasures += [ordered]@{
+                    notes = $notes
+                }
+            }
+        }
+    }
+
+    if ($hasExplicitSystemBreaks -and $lineNotes.Count -gt 0) {
+        $vexMeasures += [ordered]@{
+            notes = $lineNotes
         }
     }
 
