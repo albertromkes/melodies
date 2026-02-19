@@ -198,6 +198,38 @@ function Get-TimeSignatureFromXml {
 }
 
 # ============================================================================
+# EXTRACT TITLE FROM MUSICXML
+# ============================================================================
+
+function Get-TitleFromXml {
+    param(
+        [System.Xml.XmlElement]$ScorePartwise
+    )
+
+    # Prefer explicit score title fields when available.
+    $candidateNodes = @(
+        $ScorePartwise.SelectSingleNode("work/work-title"),
+        $ScorePartwise.SelectSingleNode("movement-title"),
+        $ScorePartwise.SelectSingleNode("credit[credit-type='title']/credit-words"),
+        $ScorePartwise.SelectSingleNode("credit[not(credit-type)]/credit-words")
+    )
+
+    foreach ($node in $candidateNodes) {
+        if ($node) {
+            $title = $node.InnerText
+            if ($title) {
+                $trimmed = $title.Trim()
+                if ($trimmed.Length -gt 0) {
+                    return $trimmed
+                }
+            }
+        }
+    }
+
+    return $null
+}
+
+# ============================================================================
 # CONVERT A SINGLE MUSICXML FILE
 # ============================================================================
 
@@ -403,11 +435,13 @@ function Convert-MusicXmlToVexFlow {
         Write-Host "  Total notes (voice $VoiceNumber): $totalNotes"
     }
 
-    # Build song ID and metadata
     $baseName = [System.IO.Path]::GetFileNameWithoutExtension($FilePath)
+    $xmlTitle = Get-TitleFromXml -ScorePartwise $scorePw
+
+    # Build song ID and metadata
     $songId = if ($SongId) { $SongId } else { "lied-$baseName" }
     $songNum = if ($SongNumber -gt 0) { $SongNumber } else { Get-NextSongNumber -OutputDir $OutputDir }
-    $songTitle = if ($SongTitle) { $SongTitle } else { "Lied $songNum" }
+    $songTitle = if ($SongTitle) { $SongTitle } elseif ($xmlTitle) { $xmlTitle } else { $baseName }
 
     # Build PsalmData JSON object (no 'mode' field if not applicable)
     $psalmData = [ordered]@{
