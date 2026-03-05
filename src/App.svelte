@@ -3,10 +3,11 @@
   import type { Category } from './lib/types';
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
-  import PsalmDetail from './lib/components/PsalmDetail.svelte';
-  import Settings from './lib/components/Settings.svelte';
   import { setupBackButtonHandler, exitApp, setStatusBarTheme } from './lib/utils/capacitor';
   import { clampTranspose } from './lib/constants/transposition';
+
+  type PsalmDetailComponentType = typeof import('./lib/components/PsalmDetail.svelte').default;
+  type SettingsComponentType = typeof import('./lib/components/Settings.svelte').default;
 
   // Default preferences
   const DEFAULT_PREFERENCES: UserPreferences = {
@@ -26,6 +27,8 @@
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
   let showSettings = $state(false);
+  let PsalmDetailComponent = $state<PsalmDetailComponentType | null>(null);
+  let SettingsComponent = $state<SettingsComponentType | null>(null);
 
   // Back button state management
   let lastSearchType = $state<'number' | 'text' | null>(null);
@@ -114,6 +117,24 @@
       disposed = true;
       removeListener?.();
     };
+  });
+
+  // Lazy-load detail view component (includes heavy rendering path)
+  $effect(() => {
+    if (currentView === 'detail' && !PsalmDetailComponent) {
+      void import('./lib/components/PsalmDetail.svelte').then((module) => {
+        PsalmDetailComponent = module.default;
+      });
+    }
+  });
+
+  // Lazy-load settings component
+  $effect(() => {
+    if (showSettings && !SettingsComponent) {
+      void import('./lib/components/Settings.svelte').then((module) => {
+        SettingsComponent = module.default;
+      });
+    }
   });
 
   function handleSelectSong(song: PsalmData) {
@@ -260,31 +281,37 @@ function handleHardwareBackButton() {
     </main>
   {:else if currentView === 'detail' && selectedSong}
     <main>
-      <PsalmDetail
-        psalm={selectedSong}
-        transposeSemitones={currentTransposeSemitones}
-        showLyricsByDefault={preferences.showLyricsByDefault}
-        showChordsByDefault={preferences.showChordsByDefault}
-        showVerseWatermark={preferences.showVerseWatermark}
-        onTransposeChange={handleTransposeChange}
-        onBack={handleBack}
-        onNextSong={handleNextSong}
-        onPreviousSong={handlePreviousSong}
-        {hasNextSong}
-        {hasPreviousSong}
-        onToggleTheme={toggleTheme}
-      />
+      {#if PsalmDetailComponent}
+        <PsalmDetailComponent
+          psalm={selectedSong}
+          transposeSemitones={currentTransposeSemitones}
+          showLyricsByDefault={preferences.showLyricsByDefault}
+          showChordsByDefault={preferences.showChordsByDefault}
+          showVerseWatermark={preferences.showVerseWatermark}
+          onTransposeChange={handleTransposeChange}
+          onBack={handleBack}
+          onNextSong={handleNextSong}
+          onPreviousSong={handlePreviousSong}
+          {hasNextSong}
+          {hasPreviousSong}
+          onToggleTheme={toggleTheme}
+        />
+      {:else}
+        <div class="view-loading">Melodie laden...</div>
+      {/if}
     </main>
   {/if}
 
   {#if showSettings}
-    <Settings 
-      {theme} 
-      {preferences} 
-      onToggleTheme={toggleTheme} 
-      onUpdatePreferences={handleUpdatePreferences} 
-      onClose={closeSettings} 
-    />
+    {#if SettingsComponent}
+      <SettingsComponent
+        {theme}
+        {preferences}
+        onToggleTheme={toggleTheme}
+        onUpdatePreferences={handleUpdatePreferences}
+        onClose={closeSettings}
+      />
+    {/if}
   {/if}
 </div>
 
@@ -314,5 +341,14 @@ function handleHardwareBackButton() {
   main {
     max-width: 800px;
     margin: 0 auto;
+  }
+
+  .view-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: var(--muted-color);
+    font-size: 1rem;
   }
 </style>

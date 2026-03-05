@@ -10,6 +10,14 @@
     getSortedVerseNumbers,
     hasHalfLastVerse,
   } from './psalm-detail.logic';
+  import {
+    getSwipePreviewText,
+    isDoubleTap,
+    isTapGesture,
+    resolveDoubleTapAction,
+    resolveSwipeAction,
+    shouldCancelLongPress,
+  } from './psalm-gesture.logic';
 
   interface Props {
     psalm: PsalmData;
@@ -105,8 +113,7 @@
       Math.pow(x - lastTapX, 2) + Math.pow(y - lastTapY, 2)
     );
     
-    // Check for double tap
-    if (timeSinceLastTap < DOUBLE_TAP_DELAY && distanceFromLastTap < DOUBLE_TAP_RADIUS) {
+    if (isDoubleTap(timeSinceLastTap, distanceFromLastTap, DOUBLE_TAP_DELAY, DOUBLE_TAP_RADIUS)) {
       handleDoubleTap(x, y);
       lastTapTime = 0; // Reset to prevent triple-tap
     } else {
@@ -118,73 +125,52 @@
   
   function handleDoubleTap(x: number, y: number) {
     if (!gestureContainerRef) return;
-    
-    const rect = gestureContainerRef.getBoundingClientRect();
-    const relativeX = (x - rect.left) / rect.width;
-    
-    // Determine which zone was double-tapped
-    // Priority: left/right for song navigation (works anywhere)
-    
-    // Left zone: previous song
-    if (relativeX < LEFT_ZONE) {
-      if (hasPreviousSong && onPreviousSong) {
+
+    const action = resolveDoubleTapAction({
+      x,
+      y,
+      containerRect: gestureContainerRef.getBoundingClientRect(),
+      staffRect: staffSectionRef ? staffSectionRef.getBoundingClientRect() : null,
+      hasPreviousSong,
+      hasNextSong,
+      transposeSemitones,
+      minTranspose: MIN_TRANSPOSE,
+      maxTranspose: MAX_TRANSPOSE,
+      leftZone: LEFT_ZONE,
+      rightZone: RIGHT_ZONE,
+      topZone: TOP_ZONE,
+      bottomZone: BOTTOM_ZONE,
+    });
+
+    if (action.type === 'previous-song') {
+      if (onPreviousSong) {
         showGestureIndicator('← Vorige');
         onPreviousSong();
       }
       return;
     }
-    
-    // Right zone: next song
-    if (relativeX > RIGHT_ZONE) {
-      if (hasNextSong && onNextSong) {
+
+    if (action.type === 'next-song') {
+      if (onNextSong) {
         showGestureIndicator('Volgende →');
         onNextSong();
       }
       return;
     }
-    
-    // Transpose gestures only work within the staff section
-    if (!staffSectionRef) return;
-    
-    const staffRect = staffSectionRef.getBoundingClientRect();
-    const isWithinStaff = (
-      x >= staffRect.left &&
-      x <= staffRect.right &&
-      y >= staffRect.top &&
-      y <= staffRect.bottom
-    );
-    
-    if (!isWithinStaff) return;
-    
-    // Calculate relative Y position within the staff section
-    const relativeYInStaff = (y - staffRect.top) / staffRect.height;
-    
-    // Top zone of staff: transpose up
-    if (relativeYInStaff < TOP_ZONE) {
-      const newTranspose = Math.min(transposeSemitones + 1, MAX_TRANSPOSE);
+
+    if (action.type === 'transpose') {
+      const newTranspose = action.value;
       if (onTransposeChange) {
         onTransposeChange(newTranspose);
       }
-      showGestureIndicator(`↑ +${newTranspose}`);
-      return;
-    }
 
-    // Bottom zone of staff: transpose down
-    if (relativeYInStaff > BOTTOM_ZONE) {
-      const newTranspose = Math.max(transposeSemitones - 1, MIN_TRANSPOSE);
-      if (onTransposeChange) {
-        onTransposeChange(newTranspose);
+      if (newTranspose > transposeSemitones) {
+        showGestureIndicator(`↑ +${newTranspose}`);
+      } else if (newTranspose < transposeSemitones) {
+        showGestureIndicator(`↓ ${newTranspose}`);
+      } else if (newTranspose === 0) {
+        showGestureIndicator('⟲ Origineel');
       }
-      showGestureIndicator(`↓ ${newTranspose}`);
-      return;
-    }
-
-    // Center zone of staff: reset transposition
-    if (transposeSemitones !== 0) {
-      if (onTransposeChange) {
-        onTransposeChange(0);
-      }
-      showGestureIndicator('⟲ Origineel');
     }
   }
 
@@ -248,9 +234,8 @@
       const touch = e.touches[0];
       const deltaX = touch.clientX - touchStartX;
       const deltaY = touch.clientY - touchStartY;
-      const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
 
-      if (distance > LONG_PRESS_MOVE_TOLERANCE) {
+      if (shouldCancelLongPress(deltaX, deltaY, LONG_PRESS_MOVE_TOLERANCE)) {
         longPressCancelled = true;
         if (longPressTimer) {
           clearTimeout(longPressTimer);
@@ -258,16 +243,9 @@
         }
       }
 
-      // Show swipe tooltip for verse navigation
-      if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
-        const currentIndex = allVerseNumbers.indexOf(activeVerseNumber);
-        if (deltaX < 0 && currentIndex < allVerseNumbers.length - 1) {
-          // Swipe left - show next verse
-          showSwipeTooltip(`→ Vers ${allVerseNumbers[currentIndex + 1]}`);
-        } else if (deltaX > 0 && currentIndex > 0) {
-          // Swipe right - show previous verse
-          showSwipeTooltip(`← Vers ${allVerseNumbers[currentIndex - 1]}`);
-        }
+      const swipePreview = getSwipePreviewText(deltaX, deltaY, allVerseNumbers, activeVerseNumber);
+      if (swipePreview) {
+        showSwipeTooltip(swipePreview);
       }
     };
 
@@ -297,22 +275,18 @@
       const deltaTime = endTime - touchStartTime;
       const distance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
 
-      // Check for swipe gesture (horizontal swipe for verse navigation)
-      if (deltaTime < MAX_SWIPE_TIME && Math.abs(deltaX) > MIN_SWIPE_DISTANCE && Math.abs(deltaX) > Math.abs(deltaY) * 1.5) {
+      const swipeAction = resolveSwipeAction(deltaX, deltaY, deltaTime, MIN_SWIPE_DISTANCE, MAX_SWIPE_TIME);
+      if (swipeAction) {
         e.preventDefault();
-        // Horizontal swipe detected
-        if (deltaX < 0) {
-          // Swipe left (from right to middle) → next verse
+        if (swipeAction === 'next-verse') {
           goToNextVerse();
         } else {
-          // Swipe right (from left to middle) → previous verse
           goToPreviousVerse();
         }
         return;
       }
 
-      // Check for tap (minimal movement)
-      if (distance < 20 && deltaTime < 300) {
+      if (isTapGesture(distance, deltaTime)) {
         handleTap(endX, endY);
       }
     };

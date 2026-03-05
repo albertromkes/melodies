@@ -3,10 +3,11 @@
   import type { PsalmData } from '../types/music';
   import type { Category, SongMeta } from '../types';
   import { isPrimaryCategory, normalizeCategoryId } from '../data/category-utils';
-  import {
-    detectNumericSearchType,
-  } from '../utils/search';
+  import { detectNumericSearchType } from '../utils/search';
   import { filterSongs } from './song-list.logic';
+  import SongListCategoryTabs from './SongListCategoryTabs.svelte';
+  import SongListSearchControls from './SongListSearchControls.svelte';
+  import SongListResults from './SongListResults.svelte';
 
   interface Props {
     songs: PsalmData[];
@@ -113,111 +114,31 @@
     onSearchChange(query, searchType);
   }
 
-  // Get display name for category
-  function getCategoryName(categoryId: string): string {
-    const cat = categories.find(c => c.id === categoryId);
-    return cat?.name || categoryId;
-  }
 </script>
 
 <div class="song-list">
-  <!-- Category selector - only show if more than one category -->
-  {#if categories.length > 1}
-    <div class="category-selector">
-      {#each categories as category (category.id)}
-        <button
-          class="category-button"
-          class:selected={selectedCategory === category.id}
-          onclick={() => onSelectCategory(category.id)}
-      >
-        {category.name}
-        <span class="category-count">{category.count}</span>
-      </button>
-    {/each}
-  </div>
-  {/if}
+  <SongListCategoryTabs {categories} {selectedCategory} {onSelectCategory} />
 
-  <!-- Search container -->
-  <div class="search-container">
-    <div class="search-header">
-      <button class="settings-button" onclick={onOpenSettings} aria-label="Instellingen">
-        ⚙️
-      </button>
-    </div>
-    <input
-      type={useNumberPad ? "tel" : "search"}
-      inputmode={useNumberPad ? "numeric" : undefined}
-      pattern={useNumberPad ? "[0-9]*" : undefined}
-      placeholder={useNumberPad ? "Zoek psalmnummer..." : "Zoek op nummer, titel{searchInVerses ? ', of verstekst' : ', of tags'}..."}
-      value={searchQuery}
-      oninput={(e) => handleSearchInput(e.currentTarget.value)}
-      class="search-input {useNumberPad ? 'numeric-keyboard' : ''}"
-    />
-    
-    <div class="search-options">
-      <label class="checkbox-label">
-        <input
-          type="checkbox"
-          checked={searchInVerses}
-          onchange={(e) => onSearchInVersesChange(e.currentTarget.checked)}
-        />
-        <span>Zoek in verzen</span>
-        {#if versesIndexLoading}
-          <span class="loading-indicator">⏳</span>
-        {/if}
-      </label>
+  <SongListSearchControls
+    {useNumberPad}
+    {searchQuery}
+    {searchInVerses}
+    {useFuzzyVerseSearch}
+    {versesIndexLoading}
+    {selectedCategory}
+    onSearchInput={handleSearchInput}
+    {onSearchInVersesChange}
+    {onUseFuzzyChange}
+    {onOpenSettings}
+  />
 
-      {#if searchInVerses}
-        <label class="checkbox-label">
-          <input
-            type="checkbox"
-            checked={useFuzzyVerseSearch}
-            onchange={(e) => onUseFuzzyChange(e.currentTarget.checked)}
-            disabled={versesIndexLoading}
-          />
-          <span>Fuzzy</span>
-        </label>
-      {/if}
-    </div>
-    
-    {#if searchQuery && !selectedCategory}
-      <p class="search-hint">Zoeken in alle categorieën</p>
-    {/if}
-  </div>
-
-  <!-- Songs grid -->
-  <div class="songs-grid">
-    {#each filteredSongs as song (song.id)}
-      <button
-        class="song-button"
-        onclick={() => onSelectSong(song)}
-      >
-        <span class="song-number">{song.number}</span>
-        <div class="song-info">
-          <span class="song-title">{song.title}</span>
-          {#if !selectedCategory && song.category && !isPrimaryCategory(song.category)}
-            <span class="song-category">{getCategoryName(song.category)}</span>
-          {/if}
-        </div>
-        {#if song.mode}
-          <span class="song-mode">{song.mode}</span>
-        {/if}
-      </button>
-    {/each}
-  </div>
-
-  {#if filteredSongs.length === 0}
-    <p class="no-results">
-      {#if searchQuery}
-        Geen liederen gevonden voor "{searchQuery}"
-        {#if selectedCategory}
-          in {getCategoryName(selectedCategory)}
-        {/if}
-      {:else}
-        Geen liederen in deze categorie
-      {/if}
-    </p>
-  {/if}
+  <SongListResults
+    {filteredSongs}
+    {searchQuery}
+    {selectedCategory}
+    {categories}
+    {onSelectSong}
+  />
 </div>
 
 <style>
@@ -226,221 +147,5 @@
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
-  }
-
-  .category-selector {
-    display: flex;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .category-button {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.625rem 1rem;
-    font-size: 0.9375rem;
-    font-weight: 500;
-    background: var(--card-bg);
-    border: 2px solid var(--border-color);
-    border-radius: 8px;
-    cursor: pointer;
-    color: var(--text-color);
-    transition: all 0.2s;
-    min-height: 44px;
-  }
-
-  .category-button:hover {
-    background: var(--card-hover-bg);
-    border-color: var(--primary-color);
-  }
-
-  .category-button.selected {
-    background: var(--primary-color);
-    border-color: var(--primary-color);
-    color: white;
-  }
-
-  .category-count {
-    font-size: 0.75rem;
-    padding: 0.125rem 0.375rem;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-  }
-
-  .category-button.selected .category-count {
-    background: rgba(255, 255, 255, 0.2);
-  }
-
-  .search-container {
-    position: sticky;
-    top: 0;
-    background: var(--bg-color);
-    padding: 0.5rem 0;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .search-header {
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 0.5rem;
-  }
-
-  .settings-button {
-    width: 44px;
-    height: 44px;
-    border: 1px solid var(--border-color);
-    border-radius: 50%;
-    background: var(--card-bg);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s;
-    font-size: 1.25rem;
-  }
-
-  .settings-button:hover {
-    border-color: var(--primary-color);
-    transform: scale(1.05);
-  }
-
-  .search-input {
-    width: 100%;
-    padding: 0.75rem 1rem;
-    font-size: 1rem;
-    border: 2px solid var(--border-color);
-    border-radius: 8px;
-    background: var(--input-bg);
-    color: var(--text-color);
-    transition: border-color 0.2s;
-  }
-
-  .search-input:focus {
-    outline: none;
-    border-color: var(--primary-color);
-  }
-
-  .search-input.numeric-keyboard {
-    font-size: 1.5rem;
-    letter-spacing: 0.2em;
-    text-align: center;
-  }
-
-  .search-options {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-  }
-
-  .checkbox-label {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    font-size: 0.875rem;
-    color: var(--muted-color);
-    cursor: pointer;
-    user-select: none;
-  }
-
-  .checkbox-label input[type="checkbox"] {
-    width: 1rem;
-    height: 1rem;
-    cursor: pointer;
-    accent-color: var(--primary-color);
-  }
-
-  .search-hint {
-    font-size: 0.75rem;
-    color: var(--muted-color);
-    margin: 0;
-  }
-
-  .loading-indicator {
-    font-size: 0.75rem;
-    animation: pulse 1s infinite;
-  }
-
-  @keyframes pulse {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.5; }
-  }
-
-  .songs-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .song-button {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    background: var(--card-bg);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    cursor: pointer;
-    text-align: left;
-    transition: all 0.2s;
-  }
-
-  .song-button:hover {
-    background: var(--card-hover-bg);
-    border-color: var(--primary-color);
-    transform: translateY(-1px);
-  }
-
-  .song-button:active {
-    transform: translateY(0);
-  }
-
-  .song-number {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    min-width: 3rem;
-  }
-
-  .song-info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
-  }
-
-  .song-title {
-    font-size: 1rem;
-    color: var(--text-color);
-  }
-
-  .song-category {
-    font-size: 0.75rem;
-    color: var(--muted-color);
-  }
-
-  .song-mode {
-    font-size: 0.75rem;
-    color: var(--muted-color);
-    background: var(--tag-bg);
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    display: none;
-  }
-
-  /* Show mode on larger screens */
-  @media (min-width: 480px) {
-    .song-mode {
-      display: block;
-    }
-  }
-
-  .no-results {
-    text-align: center;
-    color: var(--muted-color);
-    padding: 2rem;
   }
 </style>
