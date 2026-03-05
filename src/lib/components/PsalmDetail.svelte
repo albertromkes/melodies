@@ -766,9 +766,11 @@
     justify-content: center;
   }
 
-  .control-btn:hover:not(:disabled) {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+  @media (hover: hover) and (pointer: fine) {
+    .control-btn:hover:not(:disabled):not(.active) {
+      border-color: var(--primary-color);
+      color: var(--primary-color);
+    }
   }
 
   .control-btn:disabled {
@@ -779,6 +781,11 @@
   .control-btn.active {
     background: var(--primary-color);
     border-color: var(--primary-color);
+    color: white;
+  }
+
+  .control-btn.active:hover,
+  .control-btn.active:focus-visible {
     color: white;
   }
 
