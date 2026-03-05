@@ -2,8 +2,14 @@
   import type { PsalmData, Measure, VerseLyrics } from '../types/music';
   import StaffDisplay from './StaffDisplay.svelte';
   import VerseSelector from './VerseSelector.svelte';
-  import { transposeChordsInMeasure, hasChordNotations } from '../utils/harmonization';
+  import { hasChordNotations } from '../utils/harmonization';
   import { MIN_TRANSPOSE, MAX_TRANSPOSE } from '../constants/transposition';
+  import {
+    buildMeasuresForVerse,
+    getHeaderTitle,
+    getSortedVerseNumbers,
+    hasHalfLastVerse,
+  } from './psalm-detail.logic';
 
   interface Props {
     psalm: PsalmData;
@@ -331,16 +337,12 @@
 
   // Get all verse numbers available
   let allVerseNumbers = $derived.by<number[]>(() => {
-    return psalm.verses.map(v => v.number).sort((a, b) => a - b);
+    return getSortedVerseNumbers(psalm.verses);
   });
 
   // Detect if the last verse is a half verse (fewer lines than the first verse)
   let hasHalfVerse = $derived.by<boolean>(() => {
-    if (psalm.verses.length < 2) return false;
-    const firstVerseLines = psalm.verses[0]?.lines?.length ?? 0;
-    const lastVerseLines = psalm.verses[psalm.verses.length - 1]?.lines?.length ?? 0;
-    // Half verse if last verse has significantly fewer lines (less than 75% of first)
-    return lastVerseLines > 0 && lastVerseLines < firstVerseLines * 0.75;
+    return hasHalfLastVerse(psalm.verses);
   });
 
   // Check if this psalm has chord notations
@@ -353,58 +355,7 @@
 
   // Get measures with the correct lyrics applied
   let measures = $derived.by<Measure[]>(() => {
-    if (!psalm.melody?.measures) return [];
-    
-    // If we have an active verse, apply its lyrics/syllables to the melody
-    if (activeVerse) {
-      const lineCount = activeVerse.lines.length;
-      // If the verse has lyrics lines, slice measures to match; otherwise use all measures
-      const measuresToUse = lineCount > 0
-        ? psalm.melody.measures.slice(0, lineCount)
-        : psalm.melody.measures;
-      
-      return measuresToUse.map((measure, measureIndex) => {
-        const newLyrics = activeVerse!.lines[measureIndex] ?? '';
-        const syllablesForMeasure = activeVerse!.syllables?.[measureIndex];
-        
-        // Transpose chords if present
-        const transposedChords = transposeChordsInMeasure(measure.chords, transposeSemitones);
-        
-        // If we have syllables for this measure, apply them to notes
-        if (syllablesForMeasure) {
-          let syllableIndex = 0;
-          const notesWithSyllables = measure.notes.map(note => {
-            // Skip rests, they don't get syllables
-            if (note.rest) {
-              return { ...note, syllable: undefined };
-            }
-            const syllable = syllablesForMeasure[syllableIndex] ?? '';
-            syllableIndex++;
-            return { ...note, syllable };
-          });
-          return {
-            ...measure,
-            lyrics: newLyrics,
-            notes: notesWithSyllables,
-            chords: transposedChords
-          };
-        }
-        
-        // No syllables defined, just replace lyrics string
-        return {
-          ...measure,
-          lyrics: newLyrics,
-          notes: measure.notes.map(n => ({ ...n, syllable: undefined })),
-          chords: transposedChords
-        };
-      });
-    }
-    
-    // Fallback to melody without lyrics (but still transpose chords)
-    return psalm.melody.measures.map(measure => ({
-      ...measure,
-      chords: transposeChordsInMeasure(measure.chords, transposeSemitones)
-    }));
+    return buildMeasuresForVerse(psalm, activeVerse, transposeSemitones);
   });
 
   function handleTranspose(semitones: number) {
@@ -441,9 +392,7 @@
   }
 
   let headerTitle = $derived.by(() => {
-    const trimmedTitle = psalm.title?.trim();
-    if (trimmedTitle) return trimmedTitle;
-    return `Psalm ${psalm.number}`;
+    return getHeaderTitle(psalm);
   });
 </script>
 

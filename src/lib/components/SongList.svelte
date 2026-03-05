@@ -5,8 +5,8 @@
   import { isPrimaryCategory, normalizeCategoryId } from '../data/category-utils';
   import {
     detectNumericSearchType,
-    parseSearchQueryWithPhrases,
   } from '../utils/search';
+  import { filterSongs } from './song-list.logic';
 
   interface Props {
     songs: PsalmData[];
@@ -89,58 +89,15 @@
   });
 
   let filteredSongs = $derived.by(() => {
-    const queryRaw = searchQuery.trim();
-    const query = queryRaw.toLowerCase();
-    
-    // If no search query, return category-filtered songs
-    if (!query) return categoryFilteredSongs;
-
-    // Get matching song IDs from different search methods
-    const matchingIds = new Set<string>();
-
-    // Always search by number
-    songs.forEach(song => {
-      if (song.number.toString().includes(searchQuery)) {
-        matchingIds.add(song.id);
-      }
+    return filterSongs({
+      songs,
+      categoryFilteredSongs,
+      songsMeta,
+      searchQuery,
+      searchInVerses,
+      useFuzzyVerseSearch,
+      versesIndex,
     });
-
-    // Search tags from metadata
-    songsMeta.forEach(meta => {
-      if (meta.tags.some(tag => tag.toLowerCase().includes(query))) {
-        matchingIds.add(meta.id);
-      }
-    });
-
-    // Search in verses if enabled and index loaded
-    if (searchInVerses && versesIndex) {
-      const { remainder, phrases } = parseSearchQueryWithPhrases(queryRaw);
-      const seed = remainder || phrases.join(' ');
-
-      const results = versesIndex.search(seed, { prefix: true, fuzzy: useFuzzyVerseSearch ? 0.2 : 0 });
-      results.forEach(result => {
-        if (!phrases.length) {
-          matchingIds.add(result.songId);
-          return;
-        }
-
-        const haystack = typeof result.text === 'string' ? result.text : '';
-        const matchesAllPhrases = phrases.every(p => haystack.includes(p));
-        if (matchesAllPhrases) {
-          matchingIds.add(result.songId);
-        }
-      });
-    }
-
-    // Also check title (always)
-    songs.forEach(song => {
-      if (song.title.toLowerCase().includes(query)) {
-        matchingIds.add(song.id);
-      }
-    });
-
-    // Apply category filter to search results
-    return categoryFilteredSongs.filter(song => matchingIds.has(song.id));
   });
 
   // Detect if search is primarily numeric (psalm number search)
