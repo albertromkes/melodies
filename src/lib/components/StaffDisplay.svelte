@@ -18,6 +18,9 @@
 
   let containerRef: HTMLDivElement | null = $state(null);
   let containerWidth = $state(600);
+  let renderFrameId: number | null = null;
+  let fontRenderFrameId: number | null = null;
+  let renderGeneration = 0;
 
   // Compute transposed key first (needed for note transposition with accidentals)
   let displayKey = $derived(getTransposedKey(keySignature, transposeSemitones));
@@ -30,18 +33,35 @@
     }))
   );
 
-  // Re-render when dependencies change
-  $effect(() => {
-    if (!containerRef) return;
+  function clearScheduledRenders() {
+    if (renderFrameId !== null) {
+      cancelAnimationFrame(renderFrameId);
+      renderFrameId = null;
+    }
+    if (fontRenderFrameId !== null) {
+      cancelAnimationFrame(fontRenderFrameId);
+      fontRenderFrameId = null;
+    }
+  }
 
-    const dimensions = calculateMultiLineDimensions(transposedMeasures.length, containerWidth, showLyrics, scale);
+  function renderStaff() {
+    if (!containerRef) return;
+    if (transposedMeasures.length === 0) {
+      containerRef.innerHTML = '';
+      return;
+    }
+
+    const measuredWidth = containerRef.clientWidth || containerWidth;
+    if (measuredWidth <= 0) return;
+
+    const dimensions = calculateMultiLineDimensions(transposedMeasures.length, measuredWidth, showLyrics, scale);
 
     const config: RenderConfig = {
       width: dimensions.width,
       keySignature: displayKey,
-      timeSignature: timeSignature,
-      showLyrics: showLyrics,
-      scale: scale,
+      timeSignature,
+      showLyrics,
+      scale,
     };
 
     try {
@@ -261,6 +281,47 @@
         });
       }
     }
+  }
+
+  function scheduleRender() {
+    renderGeneration += 1;
+    const currentGeneration = renderGeneration;
+    clearScheduledRenders();
+
+    renderFrameId = requestAnimationFrame(() => {
+      renderFrameId = null;
+      if (currentGeneration !== renderGeneration) return;
+
+      renderStaff();
+
+      if (typeof document !== 'undefined' && 'fonts' in document) {
+        void document.fonts.ready.then(() => {
+          if (currentGeneration !== renderGeneration) return;
+          fontRenderFrameId = requestAnimationFrame(() => {
+            fontRenderFrameId = null;
+            if (currentGeneration !== renderGeneration) return;
+            renderStaff();
+          });
+        });
+      }
+    });
+  }
+
+  $effect(() => {
+    containerRef;
+    containerWidth;
+    transposedMeasures;
+    displayKey;
+    timeSignature;
+    showLyrics;
+    showChords;
+    scale;
+
+    scheduleRender();
+
+    return () => {
+      clearScheduledRenders();
+    };
   });
 
   onMount(() => {
