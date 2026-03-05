@@ -37,8 +37,8 @@
 
   // Local state for this psalm view
   let activeVerseNumber = $state(1);
-  let showLyrics = $state(showLyricsByDefault);
-  let showChords = $state(showChordsByDefault);
+  let showLyrics = $state(true);
+  let showChords = $state(false);
 
   // Initialize state when props change
   $effect(() => {
@@ -180,44 +180,6 @@
       }
       showGestureIndicator('⟲ Origineel');
     }
-  }
-
-  function handleTouchStart(e: TouchEvent) {
-    if (!gestureContainerRef) return;
-
-    const touch = e.touches[0];
-    touchStartX = touch.clientX;
-    touchStartY = touch.clientY;
-    touchStartTime = Date.now();
-
-    // Start long press timer for theme toggle
-    if (longPressTimer) clearTimeout(longPressTimer);
-    longPressTimer = setTimeout(() => {
-      if (onToggleTheme) {
-        showGestureIndicator('🌙 Thema gewijzigd');
-        onToggleTheme();
-      }
-    }, LONG_PRESS_DELAY);
-  }
-
-  function handleTouchEnd(e: TouchEvent) {
-    // Clear long press timer
-    if (longPressTimer) {
-      clearTimeout(longPressTimer);
-      longPressTimer = null;
-    }
-
-    const touchEndTime = Date.now();
-    const touchDuration = touchEndTime - touchStartTime;
-
-    // If it was a long press, don't handle other gestures
-    if (touchDuration >= LONG_PRESS_DELAY) {
-      return;
-    }
-
-    // Handle tap/double tap for existing gestures
-    const touch = e.changedTouches[0];
-    handleTap(touch.clientX, touch.clientY);
   }
 
   function goToNextVerse() {
@@ -366,9 +328,6 @@
   $effect(() => {
     activeVerseNumber = psalm.verses.length > 0 ? 1 : 0;
   });
-
-  // Get total number of available verses
-  let totalVerses = $derived(psalm.verses.length);
 
   // Get all verse numbers available
   let allVerseNumbers = $derived.by<number[]>(() => {

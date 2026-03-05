@@ -18,7 +18,7 @@
   // Application state
   let currentView = $state<'list' | 'detail'>('list');
   let selectedSong = $state<PsalmData | null>(null);
-  let categories = $state<Category[]>(getCategories());
+  const categories: Category[] = getCategories();
   // Default to psalmen category explicitly
   let selectedCategory = $state<string | null>('psalmen');
   let searchQuery = $state('');
@@ -29,7 +29,6 @@
 
   // Back button state management
   let lastSearchType = $state<'number' | 'text' | null>(null);
-  let lastSearchQuery = $state('');
   let hasNavigatedFromSearch = $state(false);
 
   // Song-level transposition persistence (key: songId, value: semitones)
@@ -122,7 +121,7 @@
     currentView = 'detail';
     
     // Track if we navigated from a search
-    if (lastSearchQuery.trim()) {
+    if (searchQuery.trim()) {
       hasNavigatedFromSearch = true;
     }
     
@@ -137,7 +136,6 @@
 function handleClearSearch() {
     searchQuery = '';
     lastSearchType = null;
-    lastSearchQuery = '';
     hasNavigatedFromSearch = false;
   }
 
@@ -192,7 +190,6 @@ function handleHardwareBackButton() {
   function handleSearchChange(query: string, searchType?: 'number' | 'text') {
     searchQuery = query;
     lastSearchType = query.trim() ? (searchType || null) : null;
-    lastSearchQuery = query;
     // When searching, search across all categories
     if (query.trim()) {
       // Keep selected category for filtering, don't auto-clear

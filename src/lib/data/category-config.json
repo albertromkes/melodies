@@ -1,0 +1,14 @@
+{
+  "aliases": {
+    "psalm": "psalmen",
+    "psalms": "psalmen",
+    "psalmen": "psalmen",
+    "gezang": "gezangen",
+    "gezangen": "gezangen"
+  },
+  "displayNames": {
+    "psalmen": "Psalmen",
+    "gezangen": "Gezangen"
+  },
+  "primaryCategory": "psalmen"
+}

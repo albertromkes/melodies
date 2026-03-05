@@ -127,24 +127,6 @@ export function transposeVexKey(vexKey: string, semitones: number): string {
 }
 
 /**
- * Transpose a NoteData object
- * @param note - The note data to transpose
- * @param semitones - Number of semitones to transpose
- * @returns A new NoteData with transposed keys
- */
-export function transposeNoteData(note: NoteData, semitones: number): NoteData {
-  if (semitones === 0 || note.rest) return note;
-  
-  return {
-    ...note,
-    keys: note.keys.map(key => transposeVexKey(key, semitones)),
-    // Remove accidental when transposing - it will be recalculated
-    // based on the new key signature by transposeNoteDataWithKey
-    accidental: undefined,
-  };
-}
-
-/**
  * Respell a pitch to match the key signature's preference (sharps vs flats)
  * @param pitch - The pitch in scientific notation
  * @param keySignature - The target key signature
@@ -272,17 +254,6 @@ export function transposeNoteDataWithKey(
 }
 
 /**
- * Transpose an array of notes
- * @param notes - Array of NoteData to transpose
- * @param semitones - Number of semitones to transpose
- * @returns New array with transposed notes
- */
-export function transposeNotes(notes: NoteData[], semitones: number): NoteData[] {
-  if (semitones === 0) return notes;
-  return notes.map(note => transposeNoteData(note, semitones));
-}
-
-/**
  * Transpose an array of notes with key signature awareness
  * This properly handles cautionary accidentals (musica ficta)
  * @param notes - Array of NoteData to transpose
@@ -299,16 +270,6 @@ export function transposeNotesWithKey(
 ): NoteData[] {
   if (semitones === 0) return notes;
   return notes.map(note => transposeNoteDataWithKey(note, semitones, originalKey, newKey));
-}
-
-/**
- * Get the display name for a transposition amount
- * @param semitones - Number of semitones
- * @returns Human-readable string (e.g., "+2", "-3", "Original")
- */
-export function getTranspositionLabel(semitones: number): string {
-  if (semitones === 0) return 'Original';
-  return semitones > 0 ? `+${semitones}` : `${semitones}`;
 }
 
 /**

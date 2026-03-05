@@ -216,25 +216,6 @@ export function renderMultiLineMelody(
 }
 
 /**
- * Render notes to a canvas/SVG element (legacy single-line mode)
- * @param container - DOM element to render into
- * @param notes - Array of notes in NoteData format
- * @param config - Rendering configuration
- */
-export function renderMelody(
-  container: HTMLDivElement,
-  notes: NoteData[],
-  config: RenderConfig & { height: number; syllables?: string[] }
-): void {
-  // Convert to single measure for backwards compatibility
-  const measures: Measure[] = [{
-    notes: notes,
-  }];
-  
-  renderMultiLineMelody(container, measures, config);
-}
-
-/**
  * Calculate appropriate container dimensions for multi-line rendering
  */
 export function calculateMultiLineDimensions(
@@ -252,17 +233,5 @@ export function calculateMultiLineDimensions(
     width: minWidth,
     // Total height in scaled pixels
     height: Math.max(200, (measureCount * (lineHeight + lyricsSpace) + 60) * scale),
-  };
-}
-
-/**
- * Calculate appropriate container dimensions based on number of notes
- */
-export function calculateDimensions(noteCount: number, containerWidth: number): { width: number; height: number } {
-  const minWidth = Math.max(containerWidth, 300);
-  
-  return {
-    width: minWidth,
-    height: 200,
   };
 }

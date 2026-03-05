@@ -6,6 +6,11 @@
 
 import type { PsalmData } from '../types/music';
 import type { Category } from '../types';
+import {
+  getCategoryDisplayName,
+  isPrimaryCategory,
+  normalizeCategoryId,
+} from './category-utils';
 
 // Import all JSON files from all category folders using Vite's glob import
 // This pattern matches: ./psalms/*.json, ./gezangen/*.json, etc.
@@ -13,30 +18,6 @@ const songModules = import.meta.glob<{ default: PsalmData }>(
   ['./*/*.json', '!./index.ts', '!./psalms.ts', '!./songs.ts'],
   { eager: true }
 );
-
-const CATEGORY_ALIASES: Record<string, string> = {
-  psalm: 'psalmen',
-  psalms: 'psalmen',
-  psalmen: 'psalmen',
-  gezang: 'gezangen',
-  gezangen: 'gezangen',
-};
-
-// Category display names (GUI is Dutch)
-const categoryDisplayNames: Record<string, string> = {
-  psalmen: 'Psalmen',
-  gezangen: 'Gezangen',
-};
-
-function normalizeCategoryId(categoryId: string | undefined): string {
-  if (!categoryId) return 'unknown';
-  const normalized = categoryId.toLowerCase();
-  return CATEGORY_ALIASES[normalized] ?? normalized;
-}
-
-function isPsalmenCategory(categoryId: string): boolean {
-  return normalizeCategoryId(categoryId) === 'psalmen';
-}
 
 // Extract category from file path (e.g., './psalms/psalm-1.json' -> 'psalms')
 function getCategoryFromPath(path: string): string {
@@ -82,19 +63,15 @@ export function getCategories(): Category[] {
   return Array.from(categoryCounts.entries())
     .map(([id, count]) => ({
       id,
-      name: categoryDisplayNames[id] || capitalizeFirst(id),
+      name: getCategoryDisplayName(id),
       count,
     }))
     .sort((a, b) => {
       // Psalmen always first
-      if (isPsalmenCategory(a.id) && !isPsalmenCategory(b.id)) return -1;
-      if (isPsalmenCategory(b.id) && !isPsalmenCategory(a.id)) return 1;
+      if (isPrimaryCategory(a.id) && !isPrimaryCategory(b.id)) return -1;
+      if (isPrimaryCategory(b.id) && !isPrimaryCategory(a.id)) return 1;
       return a.name.localeCompare(b.name);
     });
-}
-
-function capitalizeFirst(str: string): string {
-  return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
 /** Get songs by category */

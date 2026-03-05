@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import type { Measure, NoteData, ChordData } from '../types/music';
+  import type { Measure } from '../types/music';
   import { transposeNotesWithKey, getTransposedKey } from '../utils/transposition';
   import { renderMultiLineMelody, calculateMultiLineDimensions, type RenderConfig } from '../utils/vexflow-renderer';
 

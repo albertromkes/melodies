@@ -27,6 +27,7 @@ dist-ssr
 
 # Android
 android/app/build/
+android/app/release/
 android/.gradle/
 android/build/
 android/capacitor-cordova-android-plugins/build/
@@ -42,3 +43,6 @@ ios/App/App.xcodeproj/xcuserdata/
 ios/DerivedData/
 *.ipa
 *.mobileprovision
+
+# Local session notes
+session-*.md

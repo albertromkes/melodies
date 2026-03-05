@@ -9,10 +9,8 @@ src/lib/components/
 ├── PsalmDetail.svelte       # Main view controller & gesture orchestrator
 ├── StaffDisplay.svelte      # VexFlow SVG renderer with dynamic lyric placement
 ├── VerseSelector.svelte     # Verse navigation & lyrics visibility toggle
-├── PsalmList.svelte         # Searchable index of all psalms
-├── SongList.svelte          # Reusable list display for search results
-├── TransposeControls.svelte # Pitch adjustment UI
-└── ThemeToggle.svelte       # Global light/dark mode switcher
+├── SongList.svelte          # Searchable list display for songs
+└── Settings.svelte          # App preferences modal
 ```
 
 ## WHERE TO LOOK
@@ -22,7 +20,7 @@ src/lib/components/
 | **Musical Notation** | `StaffDisplay.svelte` | VexFlow SVG generation + manual syllable injection |
 | **Responsive Scaling** | `StaffDisplay.svelte` | `ResizeObserver` + `$state` for width tracking |
 | **State Management** | `PsalmDetail.svelte` | `$state` for transpose, verse, and scale |
-| **Search UI** | `PsalmList.svelte` | MiniSearch integration with reactive filtering |
+| **Search UI** | `SongList.svelte` | MiniSearch integration with reactive filtering |
 
 ## UNIQUE STYLES
 - **Svelte 5 Runes**: Strict adherence to `$state()`, `$derived()`, and `$props()`. Avoid legacy Svelte 4 store patterns where runes suffice.

@@ -2,6 +2,11 @@
   import MiniSearch from 'minisearch';
   import type { PsalmData } from '../types/music';
   import type { Category, SongMeta } from '../types';
+  import { isPrimaryCategory, normalizeCategoryId } from '../data/category-utils';
+  import {
+    detectNumericSearchType,
+    parseSearchQueryWithPhrases,
+  } from '../utils/search';
 
   interface Props {
     songs: PsalmData[];
@@ -44,7 +49,7 @@
   // Detect Android platform and check if Psalms category is selected
   $effect(() => {
     isAndroid = navigator.userAgent.includes('Android');
-    useNumberPad = isAndroid && (selectedCategory === 'psalmen' || selectedCategory === 'psalm' || selectedCategory === 'psalms' || selectedCategory === null);
+    useNumberPad = isAndroid && (!selectedCategory || isPrimaryCategory(selectedCategory));
   });
 
   // Load metadata index on mount
@@ -76,38 +81,11 @@
     }
   });
 
-  function normalizeText(s: string): string {
-    return (s ?? '')
-      .toString()
-      .toLowerCase()
-      .replace(/[’']/g, "'")
-      .replace(/[^\p{L}\p{N}\s-]+/gu, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
-
-  function parseQueryWithPhrases(input: string): { remainder: string; phrases: string[] } {
-    const raw = input ?? '';
-    const phrases: string[] = [];
-
-    const patterns = [/"([^"]+)"/g, /“([^”]+)”/g];
-
-    let remainder = raw;
-    for (const re of patterns) {
-      remainder = remainder.replace(re, (_m, g1: string) => {
-        const phrase = normalizeText(g1);
-        if (phrase) phrases.push(phrase);
-        return ' ';
-      });
-    }
-
-    return { remainder: normalizeText(remainder), phrases };
-  }
-
   // Filter songs based on selected category (before search)
   let categoryFilteredSongs = $derived.by(() => {
     if (!selectedCategory) return songs;
-    return songs.filter(song => (song.category || 'psalmen') === selectedCategory);
+    const normalizedSelectedCategory = normalizeCategoryId(selectedCategory);
+    return songs.filter((song) => normalizeCategoryId(song.category || 'psalmen') === normalizedSelectedCategory);
   });
 
   let filteredSongs = $derived.by(() => {
@@ -136,7 +114,7 @@
 
     // Search in verses if enabled and index loaded
     if (searchInVerses && versesIndex) {
-      const { remainder, phrases } = parseQueryWithPhrases(queryRaw);
+      const { remainder, phrases } = parseSearchQueryWithPhrases(queryRaw);
       const seed = remainder || phrases.join(' ');
 
       const results = versesIndex.search(seed, { prefix: true, fuzzy: useFuzzyVerseSearch ? 0.2 : 0 });
@@ -166,28 +144,15 @@
   });
 
   // Detect if search is primarily numeric (psalm number search)
-  function detectSearchType(query: string): 'number' | 'text' {
-    const trimmed = query.trim();
-    // Consider it number search when the query is numeric and matches known song numbers
-    if (/^\d+$/.test(trimmed)) {
-      const hasMatchingNumberPrefix = categoryFilteredSongs.some(song =>
-        song.number.toString().startsWith(trimmed)
-      );
-      if (hasMatchingNumberPrefix) {
-        return 'number';
-      }
-    }
-
-    // Fallback for numeric queries that might match cross-category searches
-    if (/^\d+$/.test(trimmed) && songs.some(song => song.number.toString().startsWith(trimmed))) {
-      return 'number';
-    }
-    return 'text';
-  }
-
   // Enhanced search change handler with type detection
   function handleSearchInput(query: string) {
-    const searchType = query.trim() ? detectSearchType(query) : undefined;
+    const searchType = query.trim()
+      ? detectNumericSearchType(
+        query,
+        categoryFilteredSongs.map((song) => song.number),
+        songs.map((song) => song.number)
+      )
+      : undefined;
     onSearchChange(query, searchType);
   }
 
@@ -273,7 +238,7 @@
         <span class="song-number">{song.number}</span>
         <div class="song-info">
           <span class="song-title">{song.title}</span>
-          {#if !selectedCategory && song.category && song.category !== 'psalms'}
+          {#if !selectedCategory && song.category && !isPrimaryCategory(song.category)}
             <span class="song-category">{getCategoryName(song.category)}</span>
           {/if}
         </div>

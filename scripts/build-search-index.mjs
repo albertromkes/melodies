@@ -6,7 +6,7 @@
  * - public/search/categories.json   (list of available categories)
  */
 
-import { readdir, readFile, writeFile, mkdir, stat } from 'fs/promises';
+import { readdir, readFile, writeFile, mkdir } from 'fs/promises';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import MiniSearch from 'minisearch';
@@ -14,23 +14,12 @@ import MiniSearch from 'minisearch';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'src', 'lib', 'data');
 const OUTPUT_DIR = join(__dirname, '..', 'public', 'search');
+const CATEGORY_CONFIG_PATH = join(__dirname, '..', 'src', 'lib', 'data', 'category-config.json');
 
-// Category display names
-const categoryDisplayNames = {
-  psalm: 'Psalmen',
-  psalms: 'Psalmen',
-  psalmen: 'Psalmen',
-  gezang: 'Gezangen',
-  gezangen: 'Gezangen',
-};
-
-const categoryAliases = {
-  psalm: 'psalmen',
-  psalms: 'psalmen',
-  psalmen: 'psalmen',
-  gezang: 'gezangen',
-  gezangen: 'gezangen',
-};
+const categoryConfig = JSON.parse(await readFile(CATEGORY_CONFIG_PATH, 'utf-8'));
+const categoryAliases = categoryConfig.aliases;
+const categoryDisplayNames = categoryConfig.displayNames;
+const primaryCategory = categoryConfig.primaryCategory;
 
 function normalizeCategoryId(categoryId) {
   if (!categoryId) return 'unknown';
@@ -39,7 +28,7 @@ function normalizeCategoryId(categoryId) {
 }
 
 function isPsalmenCategory(categoryId) {
-  return normalizeCategoryId(categoryId) === 'psalmen';
+  return normalizeCategoryId(categoryId) === primaryCategory;
 }
 
 function capitalizeFirst(str) {
@@ -60,7 +49,7 @@ async function discoverCategories() {
       if (jsonFiles.length > 0) {
         categories.push({
           id: normalizeCategoryId(entry.name),
-          name: categoryDisplayNames[normalizeCategoryId(entry.name)] || capitalizeFirst(entry.name),
+          name: categoryDisplayNames[normalizeCategoryId(entry.name)] || capitalizeFirst(normalizeCategoryId(entry.name)),
           count: jsonFiles.length,
           sourceDir: entry.name,
         });
