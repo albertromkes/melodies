@@ -6,6 +6,7 @@
   import PsalmDetail from './lib/components/PsalmDetail.svelte';
   import Settings from './lib/components/Settings.svelte';
   import { setupBackButtonHandler, exitApp, setStatusBarTheme } from './lib/utils/capacitor';
+  import { clampTranspose } from './lib/constants/transposition';
 
   // Default preferences
   const DEFAULT_PREFERENCES: UserPreferences = {
@@ -212,7 +213,7 @@ function handleHardwareBackButton() {
 
   function handleTransposeChange(newTranspose: number) {
     if (selectedSong) {
-      songTranspositions[selectedSong.id] = newTranspose;
+      songTranspositions[selectedSong.id] = clampTranspose(newTranspose);
     }
   }
 

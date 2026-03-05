@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { MIN_TRANSPOSE, MAX_TRANSPOSE } from '../constants/transposition';
+
   interface Props {
     currentSemitones: number;
     onTranspose: (semitones: number) => void;
@@ -7,7 +9,10 @@
   let { currentSemitones, onTranspose }: Props = $props();
 
   // Preset transpositions as favorites
-  const presets = [-3, -2, -1, 0, 1, 2, 3];
+  const presets = Array.from(
+    { length: MAX_TRANSPOSE - MIN_TRANSPOSE + 1 },
+    (_, i) => MIN_TRANSPOSE + i
+  );
 
   function getLabel(semitones: number): string {
     if (semitones === 0) return 'Original';

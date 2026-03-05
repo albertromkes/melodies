@@ -3,6 +3,7 @@
   import StaffDisplay from './StaffDisplay.svelte';
   import VerseSelector from './VerseSelector.svelte';
   import { transposeChordsInMeasure, hasChordNotations } from '../utils/harmonization';
+  import { MIN_TRANSPOSE, MAX_TRANSPOSE } from '../constants/transposition';
 
   interface Props {
     psalm: PsalmData;
@@ -154,7 +155,7 @@
     
     // Top zone of staff: transpose up
     if (relativeYInStaff < TOP_ZONE) {
-      const newTranspose = Math.min(transposeSemitones + 1, 3);
+      const newTranspose = Math.min(transposeSemitones + 1, MAX_TRANSPOSE);
       if (onTransposeChange) {
         onTransposeChange(newTranspose);
       }
@@ -164,7 +165,7 @@
 
     // Bottom zone of staff: transpose down
     if (relativeYInStaff > BOTTOM_ZONE) {
-      const newTranspose = Math.max(transposeSemitones - 1, -3);
+      const newTranspose = Math.max(transposeSemitones - 1, MIN_TRANSPOSE);
       if (onTransposeChange) {
         onTransposeChange(newTranspose);
       }
@@ -520,7 +521,7 @@
         <div class="transpose-controls">
           <button
             class="control-btn"
-            onclick={() => handleTranspose(Math.max(transposeSemitones - 1, -3))}
+            onclick={() => handleTranspose(Math.max(transposeSemitones - 1, MIN_TRANSPOSE))}
             aria-label="Halve toon omlaag"
           >
             −1
@@ -535,7 +536,7 @@
           </button>
           <button
             class="control-btn"
-            onclick={() => handleTranspose(Math.min(transposeSemitones + 1, 3))}
+            onclick={() => handleTranspose(Math.min(transposeSemitones + 1, MAX_TRANSPOSE))}
             aria-label="Halve toon omhoog"
           >
             +1
