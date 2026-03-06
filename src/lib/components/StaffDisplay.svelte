@@ -44,6 +44,61 @@
     }
   }
 
+  function renderWholeLineLyrics(
+    svg: SVGSVGElement,
+    vexflowGroup: SVGGElement | SVGSVGElement,
+    staves: NodeListOf<Element>,
+    measure: Measure,
+    index: number,
+    lyricsFontSize: number
+  ) {
+    if (!measure.lyrics) return;
+
+    const stave = staves[index];
+    if (!stave) return;
+
+    const stavePath = stave.querySelector('path');
+    const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
+    const lyricsY = staveYPos + 70;
+
+    const allNotes = svg.querySelectorAll('.vf-stavenote');
+    const staveNotes: {x: number, isRest: boolean}[] = [];
+
+    allNotes.forEach((note) => {
+      const rect = note.querySelector('rect');
+      if (rect) {
+        const noteY = parseFloat(rect.getAttribute('y') || '0');
+        const noteHeight = parseFloat(rect.getAttribute('height') || '0');
+        const noteX = parseFloat(rect.getAttribute('x') || '0');
+
+        if (noteY >= staveYPos - 50 && noteY <= staveYPos + 60) {
+          const isRest = noteHeight < 20;
+          staveNotes.push({ x: noteX, isRest });
+        }
+      }
+    });
+
+    staveNotes.sort((a, b) => a.x - b.x);
+    const nonRestNotes = staveNotes.filter(n => !n.isRest);
+
+    if (nonRestNotes.length > 0) {
+      const firstNoteX = nonRestNotes[0].x;
+      const lastNoteX = nonRestNotes[nonRestNotes.length - 1].x + 12;
+      const textWidth = lastNoteX - firstNoteX;
+
+      const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      textEl.setAttribute('x', String(firstNoteX));
+      textEl.setAttribute('y', String(lyricsY));
+      textEl.setAttribute('class', 'lyrics-line');
+      textEl.setAttribute('fill', 'currentColor');
+      textEl.setAttribute('font-size', `${lyricsFontSize}px`);
+      textEl.setAttribute('textLength', String(textWidth));
+      textEl.setAttribute('lengthAdjust', 'spacing');
+      textEl.textContent = measure.lyrics;
+      vexflowGroup.appendChild(textEl);
+    }
+  }
+
   function renderStaff() {
     if (!containerRef) return;
     if (transposedMeasures.length === 0) {
@@ -130,7 +185,12 @@
                 // Data notes and SVG notes are in the same order (both include rests)
                 // We iterate through both together, placing syllables only for non-rest notes
                 const allMeasureNotes = measure.notes;
-                
+
+                if (staveNotes.length !== allMeasureNotes.length) {
+                  renderWholeLineLyrics(svg, vexflowGroup, staves, measure, index, lyricsFontSize);
+                  return;
+                }
+
                 // Find the last syllable index for special end-alignment
                 let lastSyllableDataIdx = -1;
                 allMeasureNotes.forEach((n, i) => {
@@ -175,53 +235,7 @@
                 });
               }
             } else if (measure.lyrics) {
-              // Legacy whole-line lyrics rendering (stretched text)
-              const stave = staves[index];
-              if (stave) {
-                const stavePath = stave.querySelector('path');
-                const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
-                
-                // Position lyrics below the stave
-                const lyricsY = staveYPos + 70;
-                
-                const allNotes = svg.querySelectorAll('.vf-stavenote');
-                const staveNotes: {x: number, isRest: boolean}[] = [];
-                
-                allNotes.forEach((note) => {
-                  const rect = note.querySelector('rect');
-                  if (rect) {
-                    const noteY = parseFloat(rect.getAttribute('y') || '0');
-                    const noteHeight = parseFloat(rect.getAttribute('height') || '0');
-                    const noteX = parseFloat(rect.getAttribute('x') || '0');
-                    
-                    // Use tighter range to avoid overlap with adjacent staves
-                    if (noteY >= staveYPos - 50 && noteY <= staveYPos + 60) {
-                      const isRest = noteHeight < 20;
-                      staveNotes.push({ x: noteX, isRest });
-                    }
-                  }
-                });
-                
-                staveNotes.sort((a, b) => a.x - b.x);
-                const nonRestNotes = staveNotes.filter(n => !n.isRest);
-                
-                if (nonRestNotes.length > 0) {
-                  const firstNoteX = nonRestNotes[0].x;
-                  const lastNoteX = nonRestNotes[nonRestNotes.length - 1].x + 12;
-                  const textWidth = lastNoteX - firstNoteX;
-                  
-                  const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-                  textEl.setAttribute('x', String(firstNoteX));
-                  textEl.setAttribute('y', String(lyricsY));
-                  textEl.setAttribute('class', 'lyrics-line');
-                  textEl.setAttribute('fill', 'currentColor');
-                  textEl.setAttribute('font-size', `${lyricsFontSize}px`);
-                  textEl.setAttribute('textLength', String(textWidth));
-                  textEl.setAttribute('lengthAdjust', 'spacing');
-                  textEl.textContent = measure.lyrics;
-                  vexflowGroup.appendChild(textEl);
-                }
-              }
+              renderWholeLineLyrics(svg, vexflowGroup, staves, measure, index, lyricsFontSize);
             }
           });
         }

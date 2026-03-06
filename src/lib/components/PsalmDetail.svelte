@@ -306,7 +306,7 @@
 
   // Reset verse number when psalm changes
   $effect(() => {
-    activeVerseNumber = psalm.verses.length > 0 ? 1 : 0;
+    activeVerseNumber = psalm.verses.length > 0 ? getSortedVerseNumbers(psalm.verses)[0] : 0;
   });
 
   // Get all verse numbers available

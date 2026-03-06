@@ -40,8 +40,29 @@ export function buildMeasuresForVerse(
     const newLyrics = activeVerse.lines[measureIndex] ?? '';
     const syllablesForMeasure = activeVerse.syllables?.[measureIndex];
     const transposedChords = transposeChordsInMeasure(measure.chords, transposeSemitones);
+    const notesWithoutSyllables = measure.notes.map((note) => ({ ...note, syllable: undefined }));
 
     if (syllablesForMeasure) {
+      const noteCount = measure.notes.filter((note) => !note.rest).length;
+      const syllableCount = syllablesForMeasure.length;
+
+      if (syllableCount !== noteCount) {
+        console.warn('[lyrics] syllable mismatch', {
+          psalm: psalm.id,
+          verse: activeVerse.number,
+          measure: measureIndex + 1,
+          noteCount,
+          syllableCount,
+        });
+
+        return {
+          ...measure,
+          lyrics: newLyrics,
+          notes: notesWithoutSyllables,
+          chords: transposedChords,
+        };
+      }
+
       let syllableIndex = 0;
       const notesWithSyllables = measure.notes.map((note) => {
         if (note.rest) {
@@ -64,7 +85,7 @@ export function buildMeasuresForVerse(
     return {
       ...measure,
       lyrics: newLyrics,
-      notes: measure.notes.map((note) => ({ ...note, syllable: undefined })),
+      notes: notesWithoutSyllables,
       chords: transposedChords,
     };
   });

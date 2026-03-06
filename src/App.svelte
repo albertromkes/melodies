@@ -162,6 +162,11 @@ function handleClearSearch() {
 
 // Enhanced hardware back button handler
 function handleHardwareBackButton() {
+  if (showSettings) {
+    closeSettings();
+    return;
+  }
+
   if (currentView === 'detail') {
     // Always go back to list from detail
     handleBack();

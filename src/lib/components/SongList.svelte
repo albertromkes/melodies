@@ -83,9 +83,11 @@
   });
 
   // Filter songs based on selected category (before search)
+  let effectiveCategory = $derived(searchQuery.trim() ? null : selectedCategory);
+
   let categoryFilteredSongs = $derived.by(() => {
-    if (!selectedCategory) return songs;
-    const normalizedSelectedCategory = normalizeCategoryId(selectedCategory);
+    if (!effectiveCategory) return songs;
+    const normalizedSelectedCategory = normalizeCategoryId(effectiveCategory);
     return songs.filter((song) => normalizeCategoryId(song.category || 'psalmen') === normalizedSelectedCategory);
   });
 
@@ -125,7 +127,7 @@
     {searchInVerses}
     {useFuzzyVerseSearch}
     {versesIndexLoading}
-    {selectedCategory}
+    selectedCategory={effectiveCategory}
     onSearchInput={handleSearchInput}
     {onSearchInVersesChange}
     {onUseFuzzyChange}
@@ -135,7 +137,7 @@
   <SongListResults
     {filteredSongs}
     {searchQuery}
-    {selectedCategory}
+    selectedCategory={effectiveCategory}
     {categories}
     {onSelectSong}
   />

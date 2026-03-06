@@ -35,7 +35,7 @@ export function filterSongs({
   const matchingIds = new Set<string>();
 
   songs.forEach((song) => {
-    if (song.number.toString().includes(searchQuery)) {
+    if (song.number.toString().includes(queryRaw)) {
       matchingIds.add(song.id);
     }
   });
