@@ -16,8 +16,29 @@ export interface RenderConfig {
   timeSignature: [number, number];
   /** Whether to show lyrics */
   showLyrics: boolean;
+  /** Whether to show chord symbols */
+  showChords?: boolean;
   /** Scale factor for notation size (default: 1.0) */
   scale?: number;
+}
+
+const BASE_LINE_HEIGHT = 95;
+const CHORD_LINE_PADDING = 14;
+const DEFAULT_TOP_MARGIN = 40;
+const CHORD_TOP_MARGIN = 50;
+const DEFAULT_VERTICAL_MARGIN = 60;
+const CHORD_VERTICAL_MARGIN = 72;
+
+function getLineHeight(showChords: boolean): number {
+  return BASE_LINE_HEIGHT + (showChords ? CHORD_LINE_PADDING : 0);
+}
+
+function getTopMargin(showChords: boolean): number {
+  return showChords ? CHORD_TOP_MARGIN : DEFAULT_TOP_MARGIN;
+}
+
+function getVerticalMargin(showChords: boolean): number {
+  return showChords ? CHORD_VERTICAL_MARGIN : DEFAULT_VERTICAL_MARGIN;
 }
 
 /** Configuration for a single line/stave */
@@ -115,9 +136,10 @@ function renderLine(
   
   // Create notes
   const staveNotes = createStaveNotes(lineConfig.notes);
+  const lineHeight = getLineHeight(Boolean(renderConfig.showChords));
   
   if (staveNotes.length === 0) {
-    return staveY + 95; // Return next Y position even for empty stave
+    return staveY + lineHeight; // Return next Y position even for empty stave
   }
   
   // Create voice and add notes
@@ -151,7 +173,7 @@ function renderLine(
   voice.draw(context, stave);
   
   // Return next Y position (line height - tighter spacing)
-  return staveY + 95;
+  return staveY + lineHeight;
 }
 
 /**
@@ -174,13 +196,13 @@ export function renderMultiLineMelody(
   
   // Apply scale (default 1.0)
   const scale = config.scale ?? 1.0;
+  const lineHeight = getLineHeight(Boolean(config.showChords));
+  const verticalMargin = getVerticalMargin(Boolean(config.showChords));
   
   // Calculate total height needed (scaled)
-  // Base line height of 95 units, plus space for lyrics below each line
-  const lineHeight = 95;
   const lyricsSpace = config.showLyrics ? 30 : 0;
   // Total height in scaled pixels
-  const totalHeight = (measures.length * (lineHeight + lyricsSpace) + 60) * scale;
+  const totalHeight = (measures.length * (lineHeight + lyricsSpace) + verticalMargin) * scale;
   
   // Create renderer
   const renderer = new Renderer(container, Renderer.Backends.SVG);
@@ -193,7 +215,7 @@ export function renderMultiLineMelody(
   // Render each measure as a separate line (use unscaled coordinates since context is scaled)
   const staveWidth = (config.width / scale) - 20;
   const staveX = 10;
-  let currentY = 40;
+  let currentY = getTopMargin(Boolean(config.showChords));
   
   measures.forEach((measure, index) => {
     const isLastMeasure = index === measures.length - 1;
@@ -222,16 +244,17 @@ export function calculateMultiLineDimensions(
   measureCount: number, 
   containerWidth: number,
   showLyrics: boolean,
+  showChords: boolean,
   scale: number = 1.0
 ): { width: number; height: number } {
   const minWidth = Math.max(containerWidth, 300);
-  // Base line height of 95 units, plus space for lyrics below each line
-  const lineHeight = 95;
+  const lineHeight = getLineHeight(showChords);
   const lyricsSpace = showLyrics ? 30 : 0;
+  const verticalMargin = getVerticalMargin(showChords);
   
   return {
     width: minWidth,
     // Total height in scaled pixels
-    height: Math.max(200, (measureCount * (lineHeight + lyricsSpace) + 60) * scale),
+    height: Math.max(200, (measureCount * (lineHeight + lyricsSpace) + verticalMargin) * scale),
   };
 }

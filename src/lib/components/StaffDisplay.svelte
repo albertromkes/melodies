@@ -22,6 +22,10 @@
   let fontRenderFrameId: number | null = null;
   let renderGeneration = 0;
 
+  const CHORD_FONT_SIZE = 13;
+  const CHORD_VERTICAL_OFFSET = 30;
+  const CHORD_MIN_GAP = 8;
+
   // Compute transposed key first (needed for note transposition with accidentals)
   let displayKey = $derived(getTransposedKey(keySignature, transposeSemitones));
   
@@ -99,6 +103,55 @@
     }
   }
 
+  function getCenteredChordX(
+    staveNotes: { x: number; width: number }[],
+    position: number,
+    duration?: number
+  ): number | null {
+    const startNote = staveNotes[position];
+    if (!startNote) return null;
+
+    const chordSpan = Math.max(duration ?? 1, 1);
+    const endIndex = Math.min(position + chordSpan - 1, staveNotes.length - 1);
+    const endNote = staveNotes[endIndex] ?? startNote;
+    const startCenter = startNote.x + (startNote.width / 2);
+    const endCenter = endNote.x + (endNote.width / 2);
+
+    return (startCenter + endCenter) / 2;
+  }
+
+  function placeChordLabel(
+    parent: SVGGElement | SVGSVGElement,
+    x: number,
+    y: number,
+    symbol: string,
+    previousRightEdge: number | null
+  ): number {
+    const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    textEl.setAttribute('x', String(x));
+    textEl.setAttribute('y', String(y));
+    textEl.setAttribute('class', 'chord-symbol');
+    textEl.setAttribute('fill', 'currentColor');
+    textEl.setAttribute('font-size', `${CHORD_FONT_SIZE}px`);
+    textEl.setAttribute('font-weight', '600');
+    textEl.setAttribute('text-anchor', 'middle');
+    textEl.textContent = symbol;
+    parent.appendChild(textEl);
+
+    let bbox = textEl.getBBox();
+
+    if (previousRightEdge !== null) {
+      const minimumLeftEdge = previousRightEdge + CHORD_MIN_GAP;
+      if (bbox.x < minimumLeftEdge) {
+        const adjustedX = x + (minimumLeftEdge - bbox.x);
+        textEl.setAttribute('x', String(adjustedX));
+        bbox = textEl.getBBox();
+      }
+    }
+
+    return bbox.x + bbox.width;
+  }
+
   function renderStaff() {
     if (!containerRef) return;
     if (transposedMeasures.length === 0) {
@@ -109,13 +162,14 @@
     const measuredWidth = containerRef.clientWidth || containerWidth;
     if (measuredWidth <= 0) return;
 
-    const dimensions = calculateMultiLineDimensions(transposedMeasures.length, measuredWidth, showLyrics, scale);
+    const dimensions = calculateMultiLineDimensions(transposedMeasures.length, measuredWidth, showLyrics, showChords, scale);
 
     const config: RenderConfig = {
       width: dimensions.width,
       keySignature: displayKey,
       timeSignature,
       showLyrics,
+      showChords,
       scale,
     };
 
@@ -243,14 +297,13 @@
       
     // Render chord symbols above the staff
     if (showChords) {
-      const chordSvg = containerRef.querySelector('svg');
-      if (chordSvg) {
-        const chordVexflowGroup = chordSvg.querySelector('g') || chordSvg;
-        const chordFontSize = 12;
-        const staves = chordSvg.querySelectorAll('.vf-stave');
+        const chordSvg = containerRef.querySelector('svg');
+        if (chordSvg) {
+          const chordVexflowGroup = chordSvg.querySelector('g') || chordSvg;
+          const staves = chordSvg.querySelectorAll('.vf-stave');
 
-        transposedMeasures.forEach((measure, index) => {
-          if (!measure.chords || measure.chords.length === 0) return;
+          transposedMeasures.forEach((measure, index) => {
+            if (!measure.chords || measure.chords.length === 0) return;
 
           const stave = staves[index];
           if (!stave) return;
@@ -258,10 +311,10 @@
           const stavePath = stave.querySelector('path');
           const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
 
-          const chordsY = staveYPos - 25;
+            const chordsY = staveYPos - CHORD_VERTICAL_OFFSET;
 
-          const allNotes = chordSvg.querySelectorAll('.vf-stavenote');
-          const staveNotes: { x: number; width: number }[] = [];
+            const allNotes = chordSvg.querySelectorAll('.vf-stavenote');
+            const staveNotes: { x: number; width: number }[] = [];
 
           allNotes.forEach((note) => {
             const rect = note.querySelector('rect');
@@ -276,24 +329,23 @@
             }
           });
 
-          staveNotes.sort((a, b) => a.x - b.x);
+            staveNotes.sort((a, b) => a.x - b.x);
+            let previousRightEdge: number | null = null;
 
-          measure.chords.forEach((chord) => {
-            const svgNote = staveNotes[chord.position];
-            if (!svgNote) return;
+            measure.chords.forEach((chord) => {
+              const chordX = getCenteredChordX(staveNotes, chord.position, chord.duration);
+              if (chordX === null) return;
 
-            const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-            textEl.setAttribute('x', String(svgNote.x));
-            textEl.setAttribute('y', String(chordsY));
-            textEl.setAttribute('class', 'chord-symbol');
-            textEl.setAttribute('fill', 'currentColor');
-            textEl.setAttribute('font-size', `${chordFontSize}px`);
-            textEl.setAttribute('font-weight', 'bold');
-            textEl.textContent = chord.symbol;
-            chordVexflowGroup.appendChild(textEl);
+              previousRightEdge = placeChordLabel(
+                chordVexflowGroup,
+                chordX,
+                chordsY,
+                chord.symbol,
+                previousRightEdge
+              );
+            });
           });
-        });
-      }
+        }
     }
   }
 
@@ -411,10 +463,15 @@
   }
 
   .staff-container :global(.chord-symbol) {
-    font-family: 'Arial', 'Helvetica', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    fill: #2563eb;
+    font-family: 'Trebuchet MS', 'Avenir Next', 'Segoe UI', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    fill: #1d4ed8;
+    paint-order: stroke;
+    stroke: rgba(255, 255, 255, 0.92);
+    stroke-width: 1.4px;
+    stroke-linejoin: round;
   }
 
   /* Mobile optimizations */
