@@ -24,6 +24,13 @@
     onUseFuzzyChange,
     onOpenSettings,
   }: Props = $props();
+
+  let searchInput: HTMLInputElement | null = null;
+
+  function clearSearch() {
+    onSearchInput('');
+    searchInput?.focus();
+  }
 </script>
 
 <div class="search-container">
@@ -32,15 +39,25 @@
       ⚙️
     </button>
   </div>
-  <input
-    type={useNumberPad ? 'tel' : 'search'}
-    inputmode={useNumberPad ? 'numeric' : undefined}
-    pattern={useNumberPad ? '[0-9]*' : undefined}
-    placeholder={useNumberPad ? "Zoek psalmnummer..." : `Zoek op nummer, titel${searchInVerses ? ', of verstekst' : ', of tags'}...`}
-    value={searchQuery}
-    oninput={(e) => onSearchInput(e.currentTarget.value)}
-    class="search-input {useNumberPad ? 'numeric-keyboard' : ''}"
-  />
+  <div class="search-input-wrapper">
+    <input
+      bind:this={searchInput}
+      type={useNumberPad ? 'tel' : 'search'}
+      inputmode={useNumberPad ? 'numeric' : undefined}
+      pattern={useNumberPad ? '[0-9]*' : undefined}
+      placeholder={useNumberPad ? "Zoek psalmnummer..." : `Zoek op nummer, titel${searchInVerses ? ', of verstekst' : ', of tags'}...`}
+      value={searchQuery}
+      oninput={(e) => onSearchInput(e.currentTarget.value)}
+      class="search-input {useNumberPad ? 'numeric-keyboard' : ''}"
+      aria-label="Zoek op lied"
+    />
+
+    {#if searchQuery}
+      <button class="clear-search-button" onclick={clearSearch} aria-label="Zoekopdracht wissen">
+        x
+      </button>
+    {/if}
+  </div>
 
   <div class="search-options">
     <label class="checkbox-label">
@@ -112,7 +129,7 @@
 
   .search-input {
     width: 100%;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 3rem 0.75rem 1rem;
     font-size: 1rem;
     border: 2px solid var(--border-color);
     border-radius: 8px;
@@ -130,6 +147,36 @@
     font-size: 1.5rem;
     letter-spacing: 0.2em;
     text-align: center;
+  }
+
+  .search-input-wrapper {
+    position: relative;
+  }
+
+  .clear-search-button {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--border-color) 45%, transparent);
+    color: var(--text-color);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .clear-search-button:hover,
+  .clear-search-button:focus-visible {
+    background: color-mix(in srgb, var(--primary-color) 22%, var(--input-bg));
+    outline: none;
   }
 
   .search-options {

@@ -47,10 +47,10 @@
   let isAndroid = $state(false);
   let useNumberPad = $state(false);
 
-  // Detect Android platform and check if Psalms category is selected
+  // Detect Android platform and only prefer the number pad for psalm-number searches
   $effect(() => {
     isAndroid = navigator.userAgent.includes('Android');
-    useNumberPad = isAndroid && (!selectedCategory || isPrimaryCategory(selectedCategory));
+    useNumberPad = isAndroid && !!selectedCategory && isPrimaryCategory(selectedCategory) && !searchInVerses;
   });
 
   // Load metadata index on mount
