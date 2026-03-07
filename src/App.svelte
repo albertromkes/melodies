@@ -3,7 +3,7 @@
   import type { Category } from './lib/types';
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
-  import { setupBackButtonHandler, exitApp, setStatusBarTheme } from './lib/utils/capacitor';
+  import { setupBackButtonHandler, exitApp, setStatusBarTheme, isNativePlatform, getPlatform } from './lib/utils/capacitor';
   import { clampTranspose } from './lib/constants/transposition';
 
   type PsalmDetailComponentType = typeof import('./lib/components/PsalmDetail.svelte').default;
@@ -39,6 +39,8 @@
 
   // User preferences state
   let preferences = $state<UserPreferences>({ ...DEFAULT_PREFERENCES });
+  const nativeApp = isNativePlatform();
+  const platform = nativeApp ? getPlatform() : 'web';
 
   // Get songs in current category for navigation
   let songsInCurrentCategory = $derived.by(() => {
@@ -260,7 +262,14 @@ function handleHardwareBackButton() {
   });
 </script>
 
-<div class="app">
+<div
+  class="app"
+  class:list-view={currentView === 'list'}
+  class:detail-view={currentView === 'detail'}
+  class:native-app={nativeApp}
+  class:android-app={platform === 'android'}
+  class:web-app={!nativeApp}
+>
 
   {#if currentView === 'list'}
     <header class="app-header">
@@ -323,12 +332,25 @@ function handleHardwareBackButton() {
 <style>
   .app {
     min-height: 100vh;
-    padding-bottom: 2rem;
+    min-height: 100dvh;
+    --list-safe-top: 0px;
+    --detail-safe-top: 0px;
+    --detail-safe-bottom: 0px;
+  }
+
+  .app.native-app {
+    --list-safe-top: var(--safe-area-top);
+    --detail-safe-top: var(--safe-area-top);
+    --detail-safe-bottom: var(--safe-area-bottom);
+  }
+
+  .app.list-view {
+    padding-bottom: calc(2rem + var(--detail-safe-bottom));
   }
 
   .app-header {
     text-align: center;
-    padding: 2rem 1rem 1rem;
+    padding: calc(var(--list-safe-top) + 2rem) calc(1rem + var(--safe-area-right)) 1rem calc(1rem + var(--safe-area-left));
   }
 
   .app-header h1 {

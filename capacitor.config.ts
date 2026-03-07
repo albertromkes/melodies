@@ -10,12 +10,13 @@ const config: CapacitorConfig = {
     // cleartext: true
   },
   plugins: {
-    StatusBar: {
-      style: 'dark',
-      backgroundColor: '#ffffff'
+    SystemBars: {
+      insetsHandling: 'css',
+      style: 'DARK'
     },
     SplashScreen: {
-      launchShowDuration: 2000,
+      launchAutoHide: false,
+      launchFadeOutDuration: 0,
       backgroundColor: '#ffffff',
       showSpinner: false,
       androidScaleType: 'CENTER_CROP',

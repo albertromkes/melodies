@@ -101,10 +101,126 @@
   // Long press detection constants
   const LONG_PRESS_DELAY = 1000; // ms to trigger long press
   const LONG_PRESS_MOVE_TOLERANCE = 12; // pixels before canceling long press
+
+  const TRANSPOSE_DOCK_STORAGE_KEY = 'psalm-detail-transpose-dock-position';
+  const TRANSPOSE_DOCK_LONG_PRESS_DELAY = 350;
+  const TRANSPOSE_DOCK_DOUBLE_TAP_DELAY = 260;
+  const TRANSPOSE_DOCK_MOVE_TOLERANCE = 10;
+  const TRANSPOSE_DOCK_MARGIN = 12;
   
   // Swipe detection constants
   const MIN_SWIPE_DISTANCE = 80; // minimum pixels to count as swipe
   const MAX_SWIPE_TIME = 500; // maximum ms for swipe gesture
+
+  let transposeDockRef = $state<HTMLElement | null>(null);
+  let movableTransposeDock = $state(false);
+  let transposeDockPosition = $state<{ x: number; y: number } | null>(null);
+  let transposeDockDimensions = $state({ width: 180, height: 56 });
+  let transposeDockDragging = $state(false);
+  let transposeDockPointerId = $state<number | null>(null);
+  let transposeDockPressPoint = $state({ x: 0, y: 0 });
+  let transposeDockDragOffset = $state({ x: 0, y: 0 });
+  let transposeDockLongPressTimer: ReturnType<typeof setTimeout> | null = null;
+  let transposeDockSuppressClick = $state(false);
+  let transposeDockTapTimeout: ReturnType<typeof setTimeout> | null = null;
+  let lastTransposeDockTapTime = $state(0);
+
+  function getIsMovableTransposeDock(): boolean {
+    if (typeof window === 'undefined') {
+      return false;
+    }
+
+    return window.innerWidth <= 640 || window.matchMedia('(pointer: coarse)').matches;
+  }
+
+  function getSafeInset(variable: '--safe-area-top' | '--safe-area-bottom'): number {
+    if (typeof window === 'undefined') {
+      return 0;
+    }
+
+    const value = getComputedStyle(document.documentElement).getPropertyValue(variable).trim();
+    const parsed = Number.parseFloat(value);
+    return Number.isFinite(parsed) ? parsed : 0;
+  }
+
+  function getTransposeDockBounds() {
+    if (typeof window === 'undefined') {
+      return {
+        minLeft: TRANSPOSE_DOCK_MARGIN,
+        maxLeft: TRANSPOSE_DOCK_MARGIN,
+        minTop: TRANSPOSE_DOCK_MARGIN,
+        maxTop: TRANSPOSE_DOCK_MARGIN,
+      };
+    }
+
+    const width = transposeDockDimensions.width;
+    const height = transposeDockDimensions.height;
+    const minLeft = TRANSPOSE_DOCK_MARGIN;
+    const maxLeft = Math.max(minLeft, window.innerWidth - width - TRANSPOSE_DOCK_MARGIN);
+    const minTop = getSafeInset('--safe-area-top') + TRANSPOSE_DOCK_MARGIN;
+    const maxTop = Math.max(
+      minTop,
+      window.innerHeight - height - getSafeInset('--safe-area-bottom') - TRANSPOSE_DOCK_MARGIN
+    );
+
+    return { minLeft, maxLeft, minTop, maxTop };
+  }
+
+  function clampTransposeDockPixelPosition(left: number, top: number) {
+    const bounds = getTransposeDockBounds();
+
+    return {
+      left: Math.min(Math.max(left, bounds.minLeft), bounds.maxLeft),
+      top: Math.min(Math.max(top, bounds.minTop), bounds.maxTop),
+    };
+  }
+
+  function normalizeTransposeDockPosition(left: number, top: number) {
+    const bounds = getTransposeDockBounds();
+    const xRange = Math.max(1, bounds.maxLeft - bounds.minLeft);
+    const yRange = Math.max(1, bounds.maxTop - bounds.minTop);
+    const clamped = clampTransposeDockPixelPosition(left, top);
+
+    return {
+      x: (clamped.left - bounds.minLeft) / xRange,
+      y: (clamped.top - bounds.minTop) / yRange,
+    };
+  }
+
+  function denormalizeTransposeDockPosition(position: { x: number; y: number }) {
+    const bounds = getTransposeDockBounds();
+
+    return clampTransposeDockPixelPosition(
+      bounds.minLeft + position.x * Math.max(1, bounds.maxLeft - bounds.minLeft),
+      bounds.minTop + position.y * Math.max(1, bounds.maxTop - bounds.minTop)
+    );
+  }
+
+  function saveTransposeDockPosition(position: { x: number; y: number } | null) {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    if (!position) {
+      window.localStorage.removeItem(TRANSPOSE_DOCK_STORAGE_KEY);
+      return;
+    }
+
+    window.localStorage.setItem(TRANSPOSE_DOCK_STORAGE_KEY, JSON.stringify(position));
+  }
+
+  function resetTransposeDockPosition(showHint = true) {
+    transposeDockPosition = null;
+    saveTransposeDockPosition(null);
+
+    if (showHint && movableTransposeDock) {
+      showGestureIndicator('Regelaar teruggezet');
+    }
+  }
+
+  function isOverlayInteractionTarget(target: EventTarget | null): boolean {
+    return target instanceof Element && target.closest('.transpose-dock, .scale-popover, .psalm-header') !== null;
+  }
   
   function handleTap(x: number, y: number) {
     const now = Date.now();
@@ -121,6 +237,207 @@
       lastTapX = x;
       lastTapY = y;
     }
+  }
+
+  function clearTransposeDockLongPressTimer() {
+    if (transposeDockLongPressTimer) {
+      clearTimeout(transposeDockLongPressTimer);
+      transposeDockLongPressTimer = null;
+    }
+  }
+
+  function updateTransposeDockMeasurements() {
+    if (!transposeDockRef) {
+      return;
+    }
+
+    const rect = transposeDockRef.getBoundingClientRect();
+    transposeDockDimensions = {
+      width: rect.width,
+      height: rect.height,
+    };
+  }
+
+  function updateTransposeDockPositionFromPointer(clientX: number, clientY: number) {
+    const clamped = clampTransposeDockPixelPosition(
+      clientX - transposeDockDragOffset.x,
+      clientY - transposeDockDragOffset.y
+    );
+
+    transposeDockPosition = normalizeTransposeDockPosition(clamped.left, clamped.top);
+  }
+
+  function handleTransposeDockPointerMove(event: PointerEvent) {
+    if (event.pointerId !== transposeDockPointerId) {
+      return;
+    }
+
+    const movedX = event.clientX - transposeDockPressPoint.x;
+    const movedY = event.clientY - transposeDockPressPoint.y;
+
+    if (!transposeDockDragging) {
+      if (shouldCancelLongPress(movedX, movedY, TRANSPOSE_DOCK_MOVE_TOLERANCE)) {
+        clearTransposeDockLongPressTimer();
+        transposeDockPointerId = null;
+      }
+      return;
+    }
+
+    event.preventDefault();
+    updateTransposeDockPositionFromPointer(event.clientX, event.clientY);
+  }
+
+  function finishTransposeDockDrag(pointerId: number) {
+    if (pointerId !== transposeDockPointerId) {
+      return;
+    }
+
+    clearTransposeDockLongPressTimer();
+
+    if (transposeDockDragging && transposeDockPosition) {
+      saveTransposeDockPosition(transposeDockPosition);
+      showGestureIndicator('Regelaar verplaatst');
+    }
+
+    transposeDockDragging = false;
+    transposeDockPointerId = null;
+  }
+
+  function handleTransposeDockPointerUp(event: PointerEvent) {
+    finishTransposeDockDrag(event.pointerId);
+  }
+
+  function handleTransposeDockPointerCancel(event: PointerEvent) {
+    finishTransposeDockDrag(event.pointerId);
+  }
+
+  function handleTransposeDockHandlePointerDown(event: PointerEvent) {
+    if (!movableTransposeDock || !transposeDockRef) {
+      return;
+    }
+
+    if (event.pointerType === 'mouse' && event.button !== 0) {
+      return;
+    }
+
+    updateTransposeDockMeasurements();
+
+    const rect = transposeDockRef.getBoundingClientRect();
+    transposeDockPressPoint = { x: event.clientX, y: event.clientY };
+    transposeDockDragOffset = {
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+    };
+    transposeDockPointerId = event.pointerId;
+    transposeDockSuppressClick = false;
+
+    clearTransposeDockLongPressTimer();
+    transposeDockLongPressTimer = setTimeout(() => {
+      if (transposeDockPointerId !== event.pointerId) {
+        return;
+      }
+
+      transposeDockDragging = true;
+      transposeDockSuppressClick = true;
+      transposeDockRef?.setPointerCapture(event.pointerId);
+      showGestureIndicator('Sleep regelaar');
+      updateTransposeDockPositionFromPointer(event.clientX, event.clientY);
+    }, TRANSPOSE_DOCK_LONG_PRESS_DELAY);
+  }
+
+  function handleTransposeDockHandlePointerMove(event: PointerEvent) {
+    if (!movableTransposeDock) {
+      return;
+    }
+
+    handleTransposeDockPointerMove(event);
+  }
+
+  function handleTransposeDockHandlePointerUp(event: PointerEvent) {
+    clearTransposeDockLongPressTimer();
+
+    if (transposeDockDragging) {
+      handleTransposeDockPointerUp(event);
+      return;
+    }
+
+    if (event.pointerId === transposeDockPointerId) {
+      transposeDockPointerId = null;
+    }
+
+    if (!movableTransposeDock) {
+      return;
+    }
+
+    const now = Date.now();
+    if (now - lastTransposeDockTapTime <= TRANSPOSE_DOCK_DOUBLE_TAP_DELAY) {
+      if (transposeDockTapTimeout) {
+        clearTimeout(transposeDockTapTimeout);
+        transposeDockTapTimeout = null;
+      }
+
+      lastTransposeDockTapTime = 0;
+      resetTransposeDockPosition();
+      transposeDockSuppressClick = true;
+      return;
+    }
+
+    lastTransposeDockTapTime = now;
+    if (transposeDockTapTimeout) {
+      clearTimeout(transposeDockTapTimeout);
+    }
+    transposeDockTapTimeout = setTimeout(() => {
+      lastTransposeDockTapTime = 0;
+      transposeDockTapTimeout = null;
+    }, TRANSPOSE_DOCK_DOUBLE_TAP_DELAY);
+  }
+
+  function handleTransposeDockHandlePointerCancel(event: PointerEvent) {
+    clearTransposeDockLongPressTimer();
+
+    if (transposeDockDragging) {
+      handleTransposeDockPointerCancel(event);
+    } else if (event.pointerId === transposeDockPointerId) {
+      transposeDockPointerId = null;
+    }
+  }
+
+  function handleTransposeDockContainerPointerMove(event: PointerEvent) {
+    if (!movableTransposeDock) {
+      return;
+    }
+
+    handleTransposeDockPointerMove(event);
+  }
+
+  function handleTransposeDockContainerPointerUp(event: PointerEvent) {
+    if (!movableTransposeDock || !transposeDockDragging) {
+      return;
+    }
+
+    handleTransposeDockPointerUp(event);
+  }
+
+  function handleTransposeDockContainerPointerCancel(event: PointerEvent) {
+    if (!movableTransposeDock || !transposeDockDragging) {
+      return;
+    }
+
+    handleTransposeDockPointerCancel(event);
+  }
+
+  function handleTransposeDockButtonClick(event: MouseEvent, semitones: number) {
+    handleTranspose(semitones);
+  }
+
+  function handleTransposeDockResetClick(event: MouseEvent) {
+    if (transposeDockSuppressClick) {
+      event.preventDefault();
+      transposeDockSuppressClick = false;
+      return;
+    }
+
+    handleTranspose(0);
   }
   
   function handleDoubleTap(x: number, y: number) {
@@ -210,6 +527,10 @@
     if (!container) return;
 
     const onTouchStart = (e: TouchEvent) => {
+      if (isOverlayInteractionTarget(e.target)) {
+        return;
+      }
+
       if (e.touches.length !== 1) return;
 
       const touch = e.touches[0];
@@ -229,6 +550,10 @@
     };
 
     const onTouchMove = (e: TouchEvent) => {
+      if (isOverlayInteractionTarget(e.target)) {
+        return;
+      }
+
       if (e.touches.length !== 1 || !touchStartTime) return;
 
       const touch = e.touches[0];
@@ -250,6 +575,10 @@
     };
 
     const onTouchEnd = (e: TouchEvent) => {
+      if (isOverlayInteractionTarget(e.target)) {
+        return;
+      }
+
       // Clear swipe tooltip
       if (swipeTooltipTimeout) {
         clearTimeout(swipeTooltipTimeout);
@@ -365,8 +694,90 @@
     scale = Math.max(MIN_SCALE, Math.round((scale - SCALE_STEP) * 10) / 10);
   }
 
+  let showScaleMenu = $state(false);
+
+  function toggleScaleMenu() {
+    showScaleMenu = !showScaleMenu;
+  }
+
   let headerTitle = $derived.by(() => {
     return getHeaderTitle(psalm);
+  });
+
+  let transposeLabel = $derived.by(() => {
+    if (transposeSemitones === 0) {
+      return 'Orig.';
+    }
+
+    return transposeSemitones > 0 ? `+${transposeSemitones}` : `${transposeSemitones}`;
+  });
+
+  let transposeDockStyle = $derived.by(() => {
+    if (!movableTransposeDock || !transposeDockPosition) {
+      return undefined;
+    }
+
+    const position = denormalizeTransposeDockPosition(transposeDockPosition);
+    return `left: ${position.left}px; top: ${position.top}px; right: auto; bottom: auto; transform: none;`;
+  });
+
+  $effect(() => {
+    movableTransposeDock = getIsMovableTransposeDock();
+
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    if (!movableTransposeDock) {
+      transposeDockPosition = null;
+      return;
+    }
+
+    const savedPosition = window.localStorage.getItem(TRANSPOSE_DOCK_STORAGE_KEY);
+    if (savedPosition) {
+      try {
+        const parsed = JSON.parse(savedPosition) as { x?: number; y?: number };
+        if (typeof parsed.x === 'number' && typeof parsed.y === 'number') {
+          transposeDockPosition = {
+            x: Math.min(Math.max(parsed.x, 0), 1),
+            y: Math.min(Math.max(parsed.y, 0), 1),
+          };
+        }
+      } catch {
+        transposeDockPosition = null;
+      }
+    }
+
+    updateTransposeDockMeasurements();
+
+    const handleResize = () => {
+      movableTransposeDock = getIsMovableTransposeDock();
+      updateTransposeDockMeasurements();
+      if (!movableTransposeDock || !transposeDockPosition) {
+        return;
+      }
+
+      transposeDockPosition = normalizeTransposeDockPosition(
+        denormalizeTransposeDockPosition(transposeDockPosition).left,
+        denormalizeTransposeDockPosition(transposeDockPosition).top
+      );
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      clearTransposeDockLongPressTimer();
+      if (transposeDockTapTimeout) {
+        clearTimeout(transposeDockTapTimeout);
+        transposeDockTapTimeout = null;
+      }
+    };
+  });
+
+  $effect(() => {
+    transposeDockRef;
+    updateTransposeDockMeasurements();
   });
 </script>
 
@@ -392,59 +803,43 @@
     <button class="back-btn" onclick={onBack} aria-label="Terug naar lijst">
       ←
     </button>
-    <div class="header-center">
-      <h1 class="psalm-title">
-        {headerTitle}
-        {#if hasHalfVerse}
-          <span class="half-verse-indicator" title="Laatste vers is half">½</span>
-        {/if}
-      </h1>
-      <div class="header-controls">
-        <div class="transpose-controls">
-          <button
-            class="control-btn"
-            onclick={() => handleTranspose(Math.max(transposeSemitones - 1, MIN_TRANSPOSE))}
-            aria-label="Halve toon omlaag"
-          >
-            −1
-          </button>
-          <button
-            class="control-btn original-btn"
-            class:active={transposeSemitones === 0}
-            onclick={() => handleTranspose(0)}
-            aria-label="Originele toonhoogte"
-          >
-            Origineel
-          </button>
-          <button
-            class="control-btn"
-            onclick={() => handleTranspose(Math.min(transposeSemitones + 1, MAX_TRANSPOSE))}
-            aria-label="Halve toon omhoog"
-          >
-            +1
-          </button>
-        </div>
-        <div class="scale-controls">
-          <button 
-            class="control-btn" 
-            onclick={decreaseScale} 
-            disabled={scale <= MIN_SCALE}
-            aria-label="Verkleinen"
-          >
-            −
-          </button>
-          <span class="scale-value">{Math.round(scale * 100)}%</span>
-          <button 
-            class="control-btn" 
-            onclick={increaseScale} 
-            disabled={scale >= MAX_SCALE}
-            aria-label="Vergroten"
-          >
-            +
-          </button>
-        </div>
+    <h1 class="psalm-title">
+      {headerTitle}
+      {#if hasHalfVerse}
+        <span class="half-verse-indicator" title="Laatste vers is half">½</span>
+      {/if}
+    </h1>
+    <button
+      class="control-btn zoom-toggle"
+      class:active={showScaleMenu}
+      onclick={toggleScaleMenu}
+      aria-label="Zoomopties"
+      aria-expanded={showScaleMenu}
+    >
+      {Math.round(scale * 100)}%
+    </button>
+
+    {#if showScaleMenu}
+      <div class="scale-popover" role="group" aria-label="Zoom bedienen">
+        <button
+          class="control-btn scale-step-btn"
+          onclick={decreaseScale}
+          disabled={scale <= MIN_SCALE}
+          aria-label="Verkleinen"
+        >
+          −
+        </button>
+        <span class="scale-value">{Math.round(scale * 100)}%</span>
+        <button
+          class="control-btn scale-step-btn"
+          onclick={increaseScale}
+          disabled={scale >= MAX_SCALE}
+          aria-label="Vergroten"
+        >
+          +
+        </button>
       </div>
-    </div>
+    {/if}
   </header>
 
   <section class="staff-section" bind:this={staffSectionRef}>
@@ -465,6 +860,47 @@
     />
   </section>
 
+  <div
+    class="transpose-dock"
+    class:movable={movableTransposeDock}
+    class:dragging={transposeDockDragging}
+    style={transposeDockStyle}
+    bind:this={transposeDockRef}
+    onpointermove={handleTransposeDockContainerPointerMove}
+    onpointerup={handleTransposeDockContainerPointerUp}
+    onpointercancel={handleTransposeDockContainerPointerCancel}
+    role="group"
+    aria-label="Transponeren"
+  >
+    <button
+      class="control-btn transpose-dock-btn"
+      onclick={(event) => handleTransposeDockButtonClick(event, Math.max(transposeSemitones - 1, MIN_TRANSPOSE))}
+      aria-label="Halve toon omlaag"
+    >
+      −1
+    </button>
+    <button
+      class="control-btn transpose-status"
+      class:active={transposeSemitones === 0}
+      class:shifted={transposeSemitones !== 0}
+      onclick={handleTransposeDockResetClick}
+      onpointerdown={handleTransposeDockHandlePointerDown}
+      onpointermove={handleTransposeDockHandlePointerMove}
+      onpointerup={handleTransposeDockHandlePointerUp}
+      onpointercancel={handleTransposeDockHandlePointerCancel}
+      aria-label="Terug naar originele toonhoogte"
+    >
+      {transposeLabel}
+    </button>
+    <button
+      class="control-btn transpose-dock-btn"
+      onclick={(event) => handleTransposeDockButtonClick(event, Math.min(transposeSemitones + 1, MAX_TRANSPOSE))}
+      aria-label="Halve toon omhoog"
+    >
+      +1
+    </button>
+  </div>
+
   <section class="verse-section">
     <VerseSelector
       verses={psalm.verses}
@@ -484,7 +920,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-    padding: 0.5rem;
+    padding: 0 0.5rem calc(5.75rem + var(--detail-safe-bottom));
     padding-top: 0;
     max-width: 800px;
     margin: 0 auto;
@@ -494,6 +930,7 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     min-height: 100vh; /* Ensure full height for gesture detection */
+    min-height: 100dvh;
   }
 
   .gesture-indicator {
@@ -561,10 +998,11 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
     align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem;
+    gap: 0.65rem;
+    padding: calc(var(--detail-safe-top) + 0.1rem) 0.75rem 0.45rem;
     margin: 0 -0.5rem;
     background: var(--bg-color);
     border-bottom: 1px solid var(--border-color);
@@ -592,23 +1030,19 @@
     color: var(--primary-color);
   }
 
-  .header-center {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    flex-wrap: wrap;
-  }
-
   .psalm-title {
     margin: 0;
-    font-size: 1.25rem;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.15rem;
     color: var(--primary-color);
     display: flex;
     align-items: center;
     gap: 0.3rem;
     font-weight: bold;
+    line-height: 1.15;
   }
 
   .half-verse-indicator {
@@ -619,24 +1053,11 @@
     cursor: help;
   }
 
-  .header-controls {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-  }
-
-  .transpose-controls,
-  .scale-controls {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-  }
-
   .control-btn {
-    min-width: 44px;
-    height: 44px;
+    min-width: 40px;
+    height: 40px;
     padding: 0 0.5rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 500;
     border: 1px solid var(--border-color);
     border-radius: 6px;
@@ -672,12 +1093,34 @@
     color: white;
   }
 
-  .original-btn {
-    font-size: 0.85rem;
+  .zoom-toggle {
+    min-width: 54px;
+    font-size: 0.78rem;
+    justify-self: end;
+  }
+
+  .scale-popover {
+    position: absolute;
+    top: calc(100% - 0.15rem);
+    right: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem;
+    border: 1px solid var(--border-color);
+    border-radius: 14px;
+    background: color-mix(in srgb, var(--bg-color) 92%, white 8%);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(10px);
+  }
+
+  .scale-step-btn {
+    min-width: 34px;
+    height: 34px;
   }
 
   .scale-value {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     color: var(--muted-color);
     min-width: 3rem;
     text-align: center;
@@ -689,6 +1132,68 @@
     border: 1px solid var(--border-color);
     margin-top: 0;
     position: relative;
+  }
+
+  .transpose-dock {
+    position: fixed;
+    left: 50%;
+    bottom: calc(0.85rem + var(--detail-safe-bottom));
+    transform: translateX(-50%);
+    z-index: 120;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem;
+    border: 1px solid color-mix(in srgb, var(--border-color) 85%, transparent 15%);
+    border-radius: 18px;
+    background: color-mix(in srgb, var(--bg-color) 88%, white 12%);
+    box-shadow: 0 16px 40px rgba(15, 23, 42, 0.16);
+    backdrop-filter: blur(14px);
+    touch-action: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, opacity 0.2s ease;
+  }
+
+  .transpose-dock.movable {
+    cursor: grab;
+  }
+
+  .transpose-dock.dragging {
+    cursor: grabbing;
+    box-shadow: 0 20px 48px rgba(15, 23, 42, 0.22);
+    opacity: 0.96;
+  }
+
+  .transpose-dock-btn {
+    min-width: 56px;
+    height: 48px;
+    font-size: 1rem;
+  }
+
+  .transpose-status {
+    min-width: 72px;
+    height: 48px;
+    padding: 0 0.85rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    position: relative;
+  }
+
+  .transpose-dock.movable .transpose-status::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.35rem;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 3px;
+    border-radius: 999px;
+    background: color-mix(in srgb, currentColor 22%, transparent 78%);
+  }
+
+  .transpose-status.shifted {
+    background: color-mix(in srgb, var(--primary-color) 14%, var(--bg-color) 86%);
+    border-color: color-mix(in srgb, var(--primary-color) 55%, var(--border-color) 45%);
+    color: var(--primary-color);
   }
 
   .verse-watermark {
@@ -731,13 +1236,14 @@
   @media (max-width: 640px) {
     .psalm-detail {
       gap: 0.2rem;
-      padding: 0.35rem;
+      padding: 0 0.35rem calc(5.25rem + var(--detail-safe-bottom));
       padding-top: 0;
     }
 
     .psalm-header {
+      grid-template-columns: auto minmax(0, 1fr) auto;
       gap: 0.5rem;
-      padding: 0.5rem;
+      padding: calc(var(--detail-safe-top) + 0.05rem) 0.5rem 0.35rem;
       margin: 0 -0.35rem;
     }
 
@@ -749,32 +1255,65 @@
     }
 
     .psalm-title {
-      font-size: 1.1rem;
+      font-size: 1rem;
     }
 
     .half-verse-indicator {
       font-size: 0.75rem;
     }
 
-    .header-controls {
-      gap: 0.5rem;
+    .zoom-toggle {
+      min-width: 50px;
+      height: 36px;
+      font-size: 0.72rem;
     }
 
     .control-btn {
-      min-width: 40px;
-      height: 40px;
-      font-size: 0.9rem;
-      padding: 0 0.4rem;
-    }
-
-    .original-btn {
-      font-size: 0.7rem;
-      min-width: 50px;
+      min-width: 36px;
+      height: 36px;
+      font-size: 0.85rem;
+      padding: 0 0.35rem;
     }
 
     .scale-value {
-      font-size: 0.8rem;
-      min-width: 2.5rem;
+      font-size: 0.75rem;
+      min-width: 2.2rem;
+    }
+
+    .scale-popover {
+      right: 0.35rem;
+      padding: 0.3rem;
+    }
+
+    .transpose-dock {
+      gap: 0.3rem;
+      padding: 0.35rem;
+      border-radius: 16px;
+    }
+
+    .transpose-dock-btn {
+      min-width: 52px;
+      height: 44px;
+      font-size: 0.95rem;
+    }
+
+    .transpose-status {
+      min-width: 68px;
+      height: 44px;
+      font-size: 0.84rem;
+    }
+  }
+
+  @media (min-width: 641px) {
+    .psalm-detail {
+      padding-bottom: 1rem;
+    }
+
+    .transpose-dock {
+      left: auto;
+      right: max(1rem, calc(50vw - 390px));
+      bottom: 1rem;
+      transform: none;
     }
   }
 </style>
