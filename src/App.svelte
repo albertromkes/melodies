@@ -142,6 +142,7 @@
   function handleSelectSong(song: PsalmData) {
     selectedSong = song;
     currentView = 'detail';
+    resetDetailScroll();
     
     // Track if we navigated from a search
     if (searchQuery.trim()) {
@@ -154,6 +155,18 @@
   function handleBack() {
     currentView = 'list';
     selectedSong = null;
+  }
+
+  function resetDetailScroll() {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    });
   }
 
 function handleClearSearch() {
@@ -196,6 +209,7 @@ function handleHardwareBackButton() {
         songTranspositions[selectedSong.id] = currentTransposeSemitones;
       }
       selectedSong = songsInCurrentCategory[currentSongIndex + 1];
+      resetDetailScroll();
       // New song's transposition will be loaded automatically
     }
   }
@@ -207,6 +221,7 @@ function handleHardwareBackButton() {
         songTranspositions[selectedSong.id] = currentTransposeSemitones;
       }
       selectedSong = songsInCurrentCategory[currentSongIndex - 1];
+      resetDetailScroll();
       // New song's transposition will be loaded automatically
     }
   }
