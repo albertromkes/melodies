@@ -1,8 +1,8 @@
 {
   "name": "psalm-melodies",
   "private": true,
-  "version": "1.4.0",
-  "versionCode": 5,
+  "version": "1.5.0",
+  "versionCode": 6,
   "type": "module",
   "scripts": {
     "predev": "node scripts/build-search-index.mjs",
