@@ -27,8 +27,9 @@ export async function initCapacitor(): Promise<void> {
   }
 
   try {
-    // Configure status bar defaults for native platforms
-    await SystemBars.setStyle({ style: SystemBarsStyle.Dark });
+    // Ensure system bars remain visible and readable on startup
+    await SystemBars.show();
+    await SystemBars.setStyle({ style: SystemBarsStyle.Light });
 
     // Hide splash screen after app is ready
     await SplashScreen.hide();
@@ -46,8 +47,9 @@ export async function setStatusBarTheme(isDark: boolean): Promise<void> {
   }
 
   try {
+    await SystemBars.show();
     await SystemBars.setStyle({
-      style: isDark ? SystemBarsStyle.Light : SystemBarsStyle.Dark,
+      style: isDark ? SystemBarsStyle.Dark : SystemBarsStyle.Light,
     });
   } catch (error) {
     console.warn('Status bar update error:', error);

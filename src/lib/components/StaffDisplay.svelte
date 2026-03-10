@@ -48,6 +48,13 @@
     }
   }
 
+  function getContainerContentWidth(container: HTMLDivElement): number {
+    const computedStyle = window.getComputedStyle(container);
+    const paddingLeft = Number.parseFloat(computedStyle.paddingLeft) || 0;
+    const paddingRight = Number.parseFloat(computedStyle.paddingRight) || 0;
+    return Math.max(container.clientWidth - paddingLeft - paddingRight, 0);
+  }
+
   function renderWholeLineLyrics(
     svg: SVGSVGElement,
     vexflowGroup: SVGGElement | SVGSVGElement,
@@ -159,7 +166,7 @@
       return;
     }
 
-    const measuredWidth = containerRef.clientWidth || containerWidth;
+    const measuredWidth = getContainerContentWidth(containerRef) || containerWidth;
     if (measuredWidth <= 0) return;
 
     const dimensions = calculateMultiLineDimensions(transposedMeasures.length, measuredWidth, showLyrics, showChords, scale);
@@ -393,11 +400,16 @@
   onMount(() => {
     // Set up resize observer for responsive rendering
     if (containerRef) {
-      containerWidth = containerRef.clientWidth || 600;
-      
+      containerWidth = getContainerContentWidth(containerRef) || 600;
+
       const resizeObserver = new ResizeObserver((entries) => {
         for (const entry of entries) {
-          containerWidth = entry.contentRect.width;
+          const target = entry.target;
+          if (target instanceof HTMLDivElement) {
+            containerWidth = getContainerContentWidth(target) || entry.contentRect.width;
+          } else {
+            containerWidth = entry.contentRect.width;
+          }
         }
       });
       
@@ -429,7 +441,7 @@
     min-height: 100px;
     background: var(--staff-bg);
     border-radius: 8px;
-    overflow-x: auto;
+    overflow-x: hidden;
     padding: 0.25rem;
     padding-right: 1rem;
     /* Force dark color for musical notation on white background */
