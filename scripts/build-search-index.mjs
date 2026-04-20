@@ -122,27 +122,34 @@ function buildVersesIndex(songs) {
   const miniSearch = new MiniSearch({
     fields: ['text'],        // searchable field
     // Include `text` so the client can do exact phrase filtering when user uses quotes.
-    storeFields: ['songId', 'songNumber', 'category', 'text'],
+    storeFields: ['songId', 'songNumber', 'category', 'verseNumber', 'text', 'lines'],
     idField: 'docId',
   });
   
-  // Create documents: one per song with all verses combined
-  const documents = songs.map(song => {
-    // Combine all verse lines into searchable text (use lines, not syllables, to keep words intact)
-    const allTextRaw = song.verses
-      .flatMap(v => v.lines)
-      .join(' ');
+  // Create documents: one per verse so the UI can show which verses matched.
+  const documents = songs.flatMap(song => song.verses.flatMap((verse) => {
+    const lines = Array.isArray(verse.lines)
+      ? verse.lines.filter((line) => typeof line === 'string' && line.trim())
+      : [];
+    if (lines.length === 0) {
+      return [];
+    }
 
-    const allText = normalizeText(allTextRaw);
-    
-    return {
-      docId: song.id,
+    const text = normalizeText(lines.join(' '));
+    if (!text) {
+      return [];
+    }
+
+    return [{
+      docId: `${song.id}::${verse.number}`,
       songId: song.id,
       songNumber: song.number,
       category: song.category,
-      text: allText,
-    };
-  });
+      verseNumber: verse.number,
+      text,
+      lines,
+    }];
+  }));
   
   miniSearch.addAll(documents);
   

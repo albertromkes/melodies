@@ -22,6 +22,7 @@
   interface Props {
     psalm: PsalmData;
     transposeSemitones: number;
+    initialVerseNumber?: number;
     showLyricsByDefault?: boolean;
     showChordsByDefault?: boolean;
     showVerseWatermark?: boolean;
@@ -37,6 +38,7 @@
   let { 
     psalm, 
     transposeSemitones, 
+    initialVerseNumber,
     showLyricsByDefault = true,
     showChordsByDefault = false,
     showVerseWatermark = true,
@@ -635,7 +637,15 @@
 
   // Reset verse number when psalm changes
   $effect(() => {
-    activeVerseNumber = psalm.verses.length > 0 ? getSortedVerseNumbers(psalm.verses)[0] : 0;
+    const sortedVerseNumbers = getSortedVerseNumbers(psalm.verses);
+    if (sortedVerseNumbers.length === 0) {
+      activeVerseNumber = 0;
+      return;
+    }
+
+    activeVerseNumber = typeof initialVerseNumber === 'number' && sortedVerseNumbers.includes(initialVerseNumber)
+      ? initialVerseNumber
+      : sortedVerseNumbers[0];
   });
 
   // Get all verse numbers available

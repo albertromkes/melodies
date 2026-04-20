@@ -1,7 +1,7 @@
 <script lang="ts">
   import MiniSearch from 'minisearch';
   import type { PsalmData } from '../types/music';
-  import type { Category, SongMeta } from '../types';
+  import type { Category, SongMeta, SongSearchResult, SongSelectionOptions } from '../types';
   import { isPrimaryCategory, normalizeCategoryId } from '../data/category-utils';
   import { detectNumericSearchType } from '../utils/search';
   import { filterSongs } from './song-list.logic';
@@ -16,7 +16,7 @@
     searchQuery: string;
     searchInVerses: boolean;
     useFuzzyVerseSearch: boolean;
-    onSelectSong: (song: PsalmData) => void;
+    onSelectSong: (song: PsalmData, options?: SongSelectionOptions) => void;
     onSelectCategory: (categoryId: string | null) => void;
     onSearchChange: (query: string, searchType?: 'number' | 'text') => void;
     onSearchInVersesChange: (value: boolean) => void;
@@ -70,7 +70,7 @@
         .then(data => {
           versesIndex = MiniSearch.loadJSON(data, {
             fields: ['text'],
-            storeFields: ['songId', 'songNumber', 'category', 'text'],
+            storeFields: ['songId', 'songNumber', 'category', 'verseNumber', 'text', 'lines'],
             idField: 'docId',
           });
           versesIndexLoading = false;
@@ -91,7 +91,7 @@
     return songs.filter((song) => normalizeCategoryId(song.category || 'psalmen') === normalizedSelectedCategory);
   });
 
-  let filteredSongs = $derived.by(() => {
+  let filteredSongs = $derived.by<SongSearchResult[]>(() => {
     return filterSongs({
       songs,
       categoryFilteredSongs,
@@ -102,6 +102,10 @@
       versesIndex,
     });
   });
+
+  function handleSelectSong(song: PsalmData, options?: SongSelectionOptions) {
+    onSelectSong(song, options);
+  }
 
   // Detect if search is primarily numeric (psalm number search)
   // Enhanced search change handler with type detection
@@ -139,7 +143,7 @@
     {searchQuery}
     selectedCategory={effectiveCategory}
     {categories}
-    {onSelectSong}
+    onSelectSong={handleSelectSong}
   />
 </div>
 

@@ -1,3 +1,5 @@
+import type { PsalmData } from './music';
+
 // Types barrel export
 export * from './music';
 
@@ -18,4 +20,21 @@ export interface SongMeta {
   title: string;
   category: string;
   tags: string[];
+}
+
+/** Verse-level preview for a song search result */
+export interface SongVerseMatch {
+  verseNumber: number;
+  snippet: string;
+}
+
+/** Song plus verse previews for search results */
+export interface SongSearchResult {
+  song: PsalmData;
+  matchedVerses: SongVerseMatch[];
+}
+
+/** Optional selection options when opening a song */
+export interface SongSelectionOptions {
+  initialVerseNumber?: number;
 }

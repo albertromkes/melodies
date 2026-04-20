@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { PsalmData, Theme, UserPreferences } from './lib/types/music';
-  import type { Category } from './lib/types';
+  import type { Category, SongSelectionOptions } from './lib/types';
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
   import { setupBackButtonHandler, exitApp, setStatusBarTheme, isNativePlatform, getPlatform } from './lib/utils/capacitor';
@@ -36,6 +36,8 @@
 
   // Song-level transposition persistence (key: songId, value: semitones)
   let songTranspositions = $state<Record<string, number>>({});
+  let selectedVerseNumber = $state<number | null>(null);
+  let listScrollPosition = $state(0);
 
   // User preferences state
   let preferences = $state<UserPreferences>({ ...DEFAULT_PREFERENCES });
@@ -139,8 +141,10 @@
     }
   });
 
-  function handleSelectSong(song: PsalmData) {
+  function handleSelectSong(song: PsalmData, options?: SongSelectionOptions) {
+    saveListScrollPosition();
     selectedSong = song;
+    selectedVerseNumber = options?.initialVerseNumber ?? null;
     currentView = 'detail';
     resetDetailScroll();
     
@@ -155,6 +159,28 @@
   function handleBack() {
     currentView = 'list';
     selectedSong = null;
+    selectedVerseNumber = null;
+    restoreListScroll();
+  }
+
+  function saveListScrollPosition() {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    listScrollPosition = window.scrollY;
+  }
+
+  function restoreListScroll() {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: listScrollPosition, left: 0, behavior: 'auto' });
+      document.documentElement.scrollTop = listScrollPosition;
+      document.body.scrollTop = listScrollPosition;
+    });
   }
 
   function resetDetailScroll() {
@@ -209,6 +235,7 @@ function handleHardwareBackButton() {
         songTranspositions[selectedSong.id] = currentTransposeSemitones;
       }
       selectedSong = songsInCurrentCategory[currentSongIndex + 1];
+      selectedVerseNumber = null;
       resetDetailScroll();
       // New song's transposition will be loaded automatically
     }
@@ -221,6 +248,7 @@ function handleHardwareBackButton() {
         songTranspositions[selectedSong.id] = currentTransposeSemitones;
       }
       selectedSong = songsInCurrentCategory[currentSongIndex - 1];
+      selectedVerseNumber = null;
       resetDetailScroll();
       // New song's transposition will be loaded automatically
     }
@@ -286,7 +314,7 @@ function handleHardwareBackButton() {
   class:web-app={!nativeApp}
 >
 
-  {#if currentView === 'list'}
+  <div class="list-shell" class:hidden={currentView !== 'list'} aria-hidden={currentView !== 'list'}>
     <header class="app-header">
       <h1>{appTitle}</h1>
       <p class="subtitle">Kies een lied om de melodie te bekijken</p>
@@ -308,7 +336,9 @@ function handleHardwareBackButton() {
         onOpenSettings={openSettings}
       />
     </main>
-  {:else if currentView === 'detail' && selectedSong}
+  </div>
+
+  {#if currentView === 'detail' && selectedSong}
     <main>
       {#if PsalmDetailComponent}
         <PsalmDetailComponent
@@ -317,6 +347,7 @@ function handleHardwareBackButton() {
           showLyricsByDefault={preferences.showLyricsByDefault}
           showChordsByDefault={preferences.showChordsByDefault}
           showVerseWatermark={preferences.showVerseWatermark}
+          initialVerseNumber={selectedVerseNumber ?? undefined}
           onTransposeChange={handleTransposeChange}
           onBack={handleBack}
           onNextSong={handleNextSong}
@@ -361,6 +392,10 @@ function handleHardwareBackButton() {
 
   .app.list-view {
     padding-bottom: calc(2rem + var(--detail-safe-bottom));
+  }
+
+  .list-shell.hidden {
+    display: none;
   }
 
   .app-header {
