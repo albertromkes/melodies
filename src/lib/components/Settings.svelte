@@ -5,12 +5,14 @@
   interface Props {
     theme: Theme;
     preferences: UserPreferences;
+    setlistCount: number;
+    onOpenSetlist: () => void;
     onToggleTheme: () => void;
     onUpdatePreferences: (preferences: Partial<UserPreferences>) => void;
     onClose: () => void;
   }
 
-  let { theme, preferences, onToggleTheme, onUpdatePreferences, onClose }: Props = $props();
+  let { theme, preferences, setlistCount, onOpenSetlist, onToggleTheme, onUpdatePreferences, onClose }: Props = $props();
   const appVersion = pkg.version;
 
   function handleToggleLyricsDefault() {
@@ -127,6 +129,15 @@
           />
           <span class="toggle-label-text">Toon vers watermark</span>
         </label>
+      </div>
+
+      <div class="setting-group">
+        <h3>Dienstlijst</h3>
+        <p>Beheer liederen voor de dienst</p>
+
+        <button class="action-row" onclick={onOpenSetlist}>
+          {setlistCount > 0 ? `Open dienstlijst (${setlistCount})` : 'Open dienstlijst'}
+        </button>
       </div>
 
       <div class="setting-group">
@@ -290,6 +301,25 @@
   .version {
     font-size: 0.8rem;
     color: var(--muted-color);
+  }
+
+  .action-row {
+    width: 100%;
+    min-height: 46px;
+    padding: 0.9rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    text-align: left;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .action-row:hover {
+    border-color: var(--primary-color);
   }
 
   @keyframes fadeIn {

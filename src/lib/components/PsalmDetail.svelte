@@ -32,6 +32,8 @@
     hasNextSong?: boolean;
     hasPreviousSong?: boolean;
     onToggleTheme?: () => void;
+    onAddToSetlist?: () => void;
+    setlistPositionLabel?: string | null;
   }
 
   let { 
@@ -46,7 +48,9 @@
     onPreviousSong, 
     hasNextSong = false, 
     hasPreviousSong = false, 
-    onToggleTheme 
+    onToggleTheme,
+    onAddToSetlist,
+    setlistPositionLabel = null,
   }: Props = $props();
 
   // Local state for this psalm view
@@ -803,21 +807,36 @@
     <button class="back-btn" onclick={onBack} aria-label="Terug naar lijst">
       ←
     </button>
-    <h1 class="psalm-title">
-      {headerTitle}
-      {#if hasHalfVerse}
-        <span class="half-verse-indicator" title="Laatste vers is half">½</span>
+    <div class="header-copy">
+      <h1 class="psalm-title">
+        {headerTitle}
+        {#if hasHalfVerse}
+          <span class="half-verse-indicator" title="Laatste vers is half">½</span>
+        {/if}
+      </h1>
+      {#if setlistPositionLabel}
+        <p class="setlist-position">{setlistPositionLabel}</p>
       {/if}
-    </h1>
-    <button
-      class="control-btn zoom-toggle"
-      class:active={showScaleMenu}
-      onclick={toggleScaleMenu}
-      aria-label="Zoomopties"
-      aria-expanded={showScaleMenu}
-    >
-      {Math.round(scale * 100)}%
-    </button>
+    </div>
+    <div class="header-actions">
+      <button
+        class="control-btn add-to-setlist-btn"
+        onclick={() => onAddToSetlist?.()}
+        aria-label="Voeg toe aan dienstlijst"
+        title="Voeg toe aan dienstlijst"
+      >
+        +
+      </button>
+      <button
+        class="control-btn zoom-toggle"
+        class:active={showScaleMenu}
+        onclick={toggleScaleMenu}
+        aria-label="Zoomopties"
+        aria-expanded={showScaleMenu}
+      >
+        {Math.round(scale * 100)}%
+      </button>
+    </div>
 
     {#if showScaleMenu}
       <div class="scale-popover" role="group" aria-label="Zoom bedienen">
@@ -1008,6 +1027,21 @@
     border-bottom: 1px solid var(--border-color);
   }
 
+  .header-copy {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .header-actions {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    justify-self: end;
+    position: relative;
+  }
+
   .back-btn {
     padding: 0.5rem 0.75rem;
     font-size: 1.25rem;
@@ -1051,6 +1085,13 @@
     opacity: 0.7;
     font-weight: normal;
     cursor: help;
+  }
+
+  .setlist-position {
+    margin: 0;
+    color: var(--muted-color);
+    font-size: 0.78rem;
+    line-height: 1.1;
   }
 
   .control-btn {
@@ -1099,10 +1140,16 @@
     justify-self: end;
   }
 
+  .add-to-setlist-btn {
+    min-width: 40px;
+    font-size: 1.05rem;
+    font-weight: 700;
+  }
+
   .scale-popover {
     position: absolute;
     top: calc(100% - 0.15rem);
-    right: 0.75rem;
+    right: 0;
     display: flex;
     align-items: center;
     gap: 0.3rem;
@@ -1256,6 +1303,10 @@
 
     .psalm-title {
       font-size: 1rem;
+    }
+
+    .setlist-position {
+      font-size: 0.72rem;
     }
 
     .half-verse-indicator {

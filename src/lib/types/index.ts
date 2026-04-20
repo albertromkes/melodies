@@ -1,5 +1,6 @@
 // Types barrel export
 export * from './music';
+export * from './setlist';
 
 /** Category metadata */
 export interface Category {

@@ -1,13 +1,29 @@
 <script lang="ts">
   import type { PsalmData, Theme, UserPreferences } from './lib/types/music';
   import type { Category } from './lib/types';
+  import type { ActiveSetlist, NavigationContext } from './lib/types/setlist';
   import { allSongs, getCategories } from './lib/data';
   import SongList from './lib/components/SongList.svelte';
   import { setupBackButtonHandler, exitApp, setStatusBarTheme, isNativePlatform, getPlatform } from './lib/utils/capacitor';
   import { clampTranspose } from './lib/constants/transposition';
+  import {
+    addSongToSetlist,
+    clearSetlist,
+    createDefaultActiveSetlist,
+    getNextSetlistItem,
+    getPreviousSetlistItem,
+    loadActiveSetlist,
+    moveSetlistItemDown,
+    moveSetlistItemUp,
+    removeSetlistItem,
+    resolveRenderableSetlistItems,
+    saveActiveSetlist,
+    updateSetlistItemTranspose,
+  } from './lib/utils/setlist';
 
   type PsalmDetailComponentType = typeof import('./lib/components/PsalmDetail.svelte').default;
   type SettingsComponentType = typeof import('./lib/components/Settings.svelte').default;
+  type SetlistPanelComponentType = typeof import('./lib/components/SetlistPanel.svelte').default;
 
   // Default preferences
   const DEFAULT_PREFERENCES: UserPreferences = {
@@ -27,8 +43,14 @@
   let useFuzzyVerseSearch = $state(false);
   let theme = $state<Theme>('dark');
   let showSettings = $state(false);
+  let showSetlist = $state(false);
   let PsalmDetailComponent = $state<PsalmDetailComponentType | null>(null);
   let SettingsComponent = $state<SettingsComponentType | null>(null);
+  let SetlistPanelComponent = $state<SetlistPanelComponentType | null>(null);
+  let activeSetlist = $state<ActiveSetlist>(createDefaultActiveSetlist());
+  let navigationContext = $state<NavigationContext>({ type: 'category' });
+  let setlistToast = $state<string | null>(null);
+  let hasLoadedActiveSetlist = $state(false);
 
   // Back button state management
   let lastSearchType = $state<'number' | 'text' | null>(null);
@@ -36,6 +58,7 @@
 
   // Song-level transposition persistence (key: songId, value: semitones)
   let songTranspositions = $state<Record<string, number>>({});
+  let setlistToastTimeout: ReturnType<typeof setTimeout> | null = null;
 
   // User preferences state
   let preferences = $state<UserPreferences>({ ...DEFAULT_PREFERENCES });
@@ -57,15 +80,51 @@
     return songsInCurrentCategory.findIndex(s => s.id === selectedSong!.id);
   });
 
+  let renderableSetlistItems = $derived.by(() => {
+    return resolveRenderableSetlistItems(activeSetlist, allSongs);
+  });
+
+  let currentSetlistItem = $derived.by(() => {
+    if (navigationContext.type !== 'setlist') return null;
+    const itemId = navigationContext.itemId;
+    return activeSetlist.items.find((item) => item.id === itemId) ?? null;
+  });
+
+  let currentSetlistRenderableIndex = $derived.by(() => {
+    if (!currentSetlistItem) return -1;
+    return renderableSetlistItems.findIndex(({ item }) => item.id === currentSetlistItem.id);
+  });
+
+  let setlistPositionLabel = $derived.by(() => {
+    if (currentSetlistRenderableIndex < 0) return null;
+    return `Dienst ${currentSetlistRenderableIndex + 1}/${renderableSetlistItems.length}`;
+  });
+
   // Current song transposition (loads from object, defaults to 0)
   let currentTransposeSemitones = $derived.by(() => {
     if (!selectedSong) return 0;
+    if (navigationContext.type === 'setlist') {
+      return currentSetlistItem?.transposeSemitones ?? 0;
+    }
     return songTranspositions[selectedSong.id] ?? 0;
   });
 
   // Navigation availability
-  let hasNextSong = $derived(currentSongIndex >= 0 && currentSongIndex < songsInCurrentCategory.length - 1);
-  let hasPreviousSong = $derived(currentSongIndex > 0);
+  let hasNextSong = $derived.by(() => {
+    if (navigationContext.type === 'setlist') {
+      return currentSetlistRenderableIndex >= 0 && currentSetlistRenderableIndex < renderableSetlistItems.length - 1;
+    }
+
+    return currentSongIndex >= 0 && currentSongIndex < songsInCurrentCategory.length - 1;
+  });
+
+  let hasPreviousSong = $derived.by(() => {
+    if (navigationContext.type === 'setlist') {
+      return currentSetlistRenderableIndex > 0;
+    }
+
+    return currentSongIndex > 0;
+  });
 
   // Load theme from localStorage on mount
   $effect(() => {
@@ -100,6 +159,36 @@
   // Save preferences to localStorage when they change
   $effect(() => {
     localStorage.setItem('psalm-app-preferences', JSON.stringify(preferences));
+  });
+
+  // Load active setlist once on mount
+  $effect(() => {
+    if (hasLoadedActiveSetlist) {
+      return;
+    }
+
+    const validSongIds = new Set(allSongs.map((song) => song.id));
+    const loadedSetlist = loadActiveSetlist();
+    const items = loadedSetlist.items.filter((item) => validSongIds.has(item.songId));
+
+    activeSetlist = items.length === loadedSetlist.items.length
+      ? loadedSetlist
+      : {
+          ...loadedSetlist,
+          items,
+          updatedAt: Date.now(),
+        };
+
+    hasLoadedActiveSetlist = true;
+  });
+
+  // Save setlist whenever it changes
+  $effect(() => {
+    if (!hasLoadedActiveSetlist) {
+      return;
+    }
+
+    saveActiveSetlist(activeSetlist);
   });
 
   // Setup hardware back button handler on mount
@@ -139,9 +228,27 @@
     }
   });
 
+  // Lazy-load setlist component
+  $effect(() => {
+    if (showSetlist && !SetlistPanelComponent) {
+      void import('./lib/components/SetlistPanel.svelte').then((module) => {
+        SetlistPanelComponent = module.default;
+      });
+    }
+  });
+
+  $effect(() => {
+    return () => {
+      if (setlistToastTimeout) {
+        clearTimeout(setlistToastTimeout);
+      }
+    };
+  });
+
   function handleSelectSong(song: PsalmData) {
     selectedSong = song;
     currentView = 'detail';
+    navigationContext = { type: 'category' };
     resetDetailScroll();
     
     // Track if we navigated from a search
@@ -155,6 +262,7 @@
   function handleBack() {
     currentView = 'list';
     selectedSong = null;
+    navigationContext = { type: 'category' };
   }
 
   function resetDetailScroll() {
@@ -169,60 +277,89 @@
     });
   }
 
-function handleClearSearch() {
+  function handleClearSearch() {
     searchQuery = '';
     lastSearchType = null;
     hasNavigatedFromSearch = false;
   }
 
-// Enhanced hardware back button handler
-function handleHardwareBackButton() {
-  if (showSettings) {
-    closeSettings();
-    return;
-  }
+  // Enhanced hardware back button handler
+  function handleHardwareBackButton() {
+    if (showSettings) {
+      closeSettings();
+      return;
+    }
 
-  if (currentView === 'detail') {
-    // Always go back to list from detail
-    handleBack();
-  } else if (currentView === 'list') {
-    // On list screen: handle search or exit
-    if (searchQuery.trim()) {
-      if (lastSearchType === 'number' && hasNavigatedFromSearch) {
-        // Clear number search and exit search context
-        handleClearSearch();
+    if (showSetlist) {
+      closeSetlist();
+      return;
+    }
+
+    if (currentView === 'detail') {
+      // Always go back to list from detail
+      handleBack();
+    } else if (currentView === 'list') {
+      // On list screen: handle search or exit
+      if (searchQuery.trim()) {
+        if (lastSearchType === 'number' && hasNavigatedFromSearch) {
+          // Clear number search and exit search context
+          handleClearSearch();
+        } else {
+          // Text search or haven't navigated: exit app
+          exitApp();
+        }
       } else {
-        // Text search or haven't navigated: exit app
+        // Not searching: exit app
         exitApp();
       }
-    } else {
-      // Not searching: exit app
-      exitApp();
     }
   }
-}
 
   function handleNextSong() {
-    if (hasNextSong) {
-      // Save current transposition before switching
-      if (selectedSong) {
-        songTranspositions[selectedSong.id] = currentTransposeSemitones;
+    if (navigationContext.type === 'setlist') {
+      const nextItem = getNextSetlistItem(activeSetlist, navigationContext.itemId);
+      if (!nextItem) {
+        return;
       }
+
+      const song = allSongs.find((entry) => entry.id === nextItem.songId);
+      if (!song) {
+        return;
+      }
+
+      selectedSong = song;
+      navigationContext = { type: 'setlist', itemId: nextItem.id };
+      resetDetailScroll();
+      return;
+    }
+
+    if (hasNextSong) {
       selectedSong = songsInCurrentCategory[currentSongIndex + 1];
       resetDetailScroll();
-      // New song's transposition will be loaded automatically
     }
   }
 
   function handlePreviousSong() {
-    if (hasPreviousSong) {
-      // Save current transposition before switching
-      if (selectedSong) {
-        songTranspositions[selectedSong.id] = currentTransposeSemitones;
+    if (navigationContext.type === 'setlist') {
+      const previousItem = getPreviousSetlistItem(activeSetlist, navigationContext.itemId);
+      if (!previousItem) {
+        return;
       }
+
+      const song = allSongs.find((entry) => entry.id === previousItem.songId);
+      if (!song) {
+        return;
+      }
+
+      selectedSong = song;
+      navigationContext = { type: 'setlist', itemId: previousItem.id };
+      resetDetailScroll();
+      return;
+    }
+
+    if (hasPreviousSong) {
       selectedSong = songsInCurrentCategory[currentSongIndex - 1];
       resetDetailScroll();
-      // New song's transposition will be loaded automatically
     }
   }
 
@@ -252,9 +389,18 @@ function handleHardwareBackButton() {
   }
 
   function handleTransposeChange(newTranspose: number) {
-    if (selectedSong) {
-      songTranspositions[selectedSong.id] = clampTranspose(newTranspose);
+    if (!selectedSong) {
+      return;
     }
+
+    const clampedTranspose = clampTranspose(newTranspose);
+
+    if (navigationContext.type === 'setlist') {
+      handleUpdateCurrentSetlistItemTranspose(clampedTranspose);
+      return;
+    }
+
+    songTranspositions[selectedSong.id] = clampedTranspose;
   }
 
   function openSettings() {
@@ -263,6 +409,91 @@ function handleHardwareBackButton() {
 
   function closeSettings() {
     showSettings = false;
+  }
+
+  function openSetlist() {
+    showSettings = false;
+    showSetlist = true;
+  }
+
+  function closeSetlist() {
+    showSetlist = false;
+  }
+
+  function handleAddCurrentSongToSetlist() {
+    if (!selectedSong) {
+      return;
+    }
+
+    activeSetlist = addSongToSetlist(activeSetlist, selectedSong.id, currentTransposeSemitones);
+    setlistToast = 'Toegevoegd aan dienstlijst';
+
+    if (setlistToastTimeout) {
+      clearTimeout(setlistToastTimeout);
+    }
+
+    setlistToastTimeout = setTimeout(() => {
+      setlistToast = null;
+      setlistToastTimeout = null;
+    }, 1000);
+  }
+
+  function handleOpenSongFromSetlist(itemId: string) {
+    const item = activeSetlist.items.find((entry) => entry.id === itemId);
+    if (!item) {
+      return;
+    }
+
+    const song = allSongs.find((entry) => entry.id === item.songId);
+    if (!song) {
+      return;
+    }
+
+    selectedSong = song;
+    currentView = 'detail';
+    navigationContext = { type: 'setlist', itemId };
+    resetDetailScroll();
+    closeSetlist();
+  }
+
+  function handleRemoveSetlistItem(itemId: string) {
+    const isCurrentItem = navigationContext.type === 'setlist' && navigationContext.itemId === itemId;
+    const nextSetlist = removeSetlistItem(activeSetlist, itemId);
+
+    activeSetlist = nextSetlist;
+
+    if (isCurrentItem) {
+      currentView = 'list';
+      selectedSong = null;
+      navigationContext = { type: 'category' };
+    }
+  }
+
+  function handleMoveSetlistItemUp(itemId: string) {
+    activeSetlist = moveSetlistItemUp(activeSetlist, itemId);
+  }
+
+  function handleMoveSetlistItemDown(itemId: string) {
+    activeSetlist = moveSetlistItemDown(activeSetlist, itemId);
+  }
+
+  function handleClearSetlist() {
+    const wasInSetlistContext = navigationContext.type === 'setlist';
+    activeSetlist = clearSetlist(activeSetlist);
+
+    if (wasInSetlistContext) {
+      currentView = 'list';
+      selectedSong = null;
+      navigationContext = { type: 'category' };
+    }
+  }
+
+  function handleUpdateCurrentSetlistItemTranspose(newTranspose: number) {
+    if (navigationContext.type !== 'setlist') {
+      return;
+    }
+
+    activeSetlist = updateSetlistItemTranspose(activeSetlist, navigationContext.itemId, newTranspose);
   }
 
   function handleUpdatePreferences(updates: Partial<UserPreferences>) {
@@ -324,6 +555,8 @@ function handleHardwareBackButton() {
           {hasNextSong}
           {hasPreviousSong}
           onToggleTheme={toggleTheme}
+          onAddToSetlist={handleAddCurrentSongToSetlist}
+          {setlistPositionLabel}
         />
       {:else}
         <div class="view-loading">Melodie laden...</div>
@@ -336,11 +569,33 @@ function handleHardwareBackButton() {
       <SettingsComponent
         {theme}
         {preferences}
+        setlistCount={activeSetlist.items.length}
+        onOpenSetlist={openSetlist}
         onToggleTheme={toggleTheme}
         onUpdatePreferences={handleUpdatePreferences}
         onClose={closeSettings}
       />
     {/if}
+  {/if}
+
+  {#if showSetlist}
+    {#if SetlistPanelComponent}
+      <SetlistPanelComponent
+        setlistName={activeSetlist.name}
+        items={renderableSetlistItems}
+        activeItemId={navigationContext.type === 'setlist' ? navigationContext.itemId : null}
+        onOpenItem={handleOpenSongFromSetlist}
+        onMoveItemUp={handleMoveSetlistItemUp}
+        onMoveItemDown={handleMoveSetlistItemDown}
+        onRemoveItem={handleRemoveSetlistItem}
+        onClear={handleClearSetlist}
+        onClose={closeSetlist}
+      />
+    {/if}
+  {/if}
+
+  {#if setlistToast}
+    <div class="setlist-toast" role="status" aria-live="polite">{setlistToast}</div>
   {/if}
 </div>
 
@@ -392,5 +647,21 @@ function handleHardwareBackButton() {
     min-height: 50vh;
     color: var(--muted-color);
     font-size: 1rem;
+  }
+
+  .setlist-toast {
+    position: fixed;
+    left: 50%;
+    bottom: calc(6.2rem + var(--detail-safe-bottom));
+    transform: translateX(-50%);
+    padding: 0.7rem 1rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--bg-color) 84%, black 16%);
+    color: var(--text-color);
+    border: 1px solid color-mix(in srgb, var(--border-color) 70%, transparent 30%);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+    z-index: 1100;
+    font-size: 0.9rem;
+    white-space: nowrap;
   }
 </style>
