@@ -1,8 +1,8 @@
 {
   "name": "psalm-melodies",
   "private": true,
-  "version": "1.6.0",
-  "versionCode": 7,
+  "version": "1.7.0",
+  "versionCode": 8,
   "type": "module",
   "scripts": {
     "predev": "node scripts/build-search-index.mjs",
@@ -37,6 +37,7 @@
     "@capacitor/core": "^8.2.0",
     "@capacitor/ios": "^8.2.0",
     "@capacitor/splash-screen": "^8.0.1",
+    "@capgo/capacitor-keep-awake": "^8.1.10",
     "hyphenation.nl": "^0.2.1",
     "hypher": "^0.2.5",
     "minisearch": "^7.2.0",

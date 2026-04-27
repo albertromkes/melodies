@@ -1,6 +1,7 @@
 import { Capacitor, SystemBars, SystemBarsStyle } from '@capacitor/core';
 import { SplashScreen } from '@capacitor/splash-screen';
 import { App } from '@capacitor/app';
+import { KeepAwake } from '@capgo/capacitor-keep-awake';
 
 /**
  * Check if running as a native app (Android/iOS)
@@ -30,11 +31,60 @@ export async function initCapacitor(): Promise<void> {
     // Ensure system bars remain visible and readable on startup
     await SystemBars.show();
     await SystemBars.setStyle({ style: SystemBarsStyle.Light });
+    await enableKeepAwake();
+
+    await App.addListener('appStateChange', ({ isActive }) => {
+      if (isActive) {
+        void enableKeepAwake();
+      } else {
+        void disableKeepAwake();
+      }
+    });
 
     // Hide splash screen after app is ready
     await SplashScreen.hide();
   } catch (error) {
     console.warn('Capacitor initialization error:', error);
+  }
+}
+
+/**
+ * Prevent the device from sleeping while the native app is active
+ */
+export async function enableKeepAwake(): Promise<void> {
+  if (!Capacitor.isNativePlatform()) {
+    return;
+  }
+
+  try {
+    const { isSupported } = await KeepAwake.isSupported();
+    if (!isSupported) {
+      return;
+    }
+
+    await KeepAwake.keepAwake();
+  } catch (error) {
+    console.warn('Failed to enable keep awake:', error);
+  }
+}
+
+/**
+ * Allow the device to sleep when the native app is no longer active
+ */
+export async function disableKeepAwake(): Promise<void> {
+  if (!Capacitor.isNativePlatform()) {
+    return;
+  }
+
+  try {
+    const { isSupported } = await KeepAwake.isSupported();
+    if (!isSupported) {
+      return;
+    }
+
+    await KeepAwake.allowSleep();
+  } catch (error) {
+    console.warn('Failed to disable keep awake:', error);
   }
 }
 
