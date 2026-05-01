@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "outDir": "./.tmp/test-build",
+    "rootDir": ".",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo",
+    "types": ["node"]
+  },
+  "include": [
+    "src/lib/types/**/*.ts",
+    "src/lib/utils/transposition.ts",
+    "tests/**/*.ts"
+  ]
+}

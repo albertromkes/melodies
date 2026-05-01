@@ -9,6 +9,7 @@
     "dev": "vite",
     "build": "node scripts/build-search-index.mjs && vite build",
     "build:index": "node scripts/build-search-index.mjs",
+    "test:transpose": "tsc -p tsconfig.test.json && node --test .tmp/test-build/tests/transposition.test.js",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
     "cap:init": "npx cap init",

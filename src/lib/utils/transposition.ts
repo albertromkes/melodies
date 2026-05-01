@@ -299,6 +299,20 @@ export function getTransposedKey(originalKey: string, semitones: number): string
   if (enharmonics[key]) {
     key = enharmonics[key];
   }
+
+  const enharmonicKey = Note.enharmonic(key + '4').slice(0, -1);
+  if (enharmonicKey && enharmonicKey !== key) {
+    try {
+      const keyAlteration = Math.abs(Key.majorKey(key).alteration);
+      const enharmonicAlteration = Math.abs(Key.majorKey(enharmonicKey).alteration);
+
+      if (enharmonicAlteration < keyAlteration) {
+        key = enharmonicKey;
+      }
+    } catch {
+      // If tonal cannot parse either key, keep the transposed spelling.
+    }
+  }
   
   return key;
 }
