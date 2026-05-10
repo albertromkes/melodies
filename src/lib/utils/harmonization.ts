@@ -1,4 +1,5 @@
 import { Chord, Interval, Note } from 'tonal';
+import { transposePitch } from './transposition.js';
 import type { ChordData, PsalmData } from '../types/music';
 
 export function transposeChordSymbol(chordSymbol: string, semitones: number): string {
@@ -15,6 +16,16 @@ export function transposeChordSymbol(chordSymbol: string, semitones: number): st
   if (!transposedTonic) return chordSymbol;
   
   const simplifiedTonic = Note.simplify(transposedTonic) || transposedTonic;
+  
+  if (chordSymbol.includes('/')) {
+    const slashIndex = chordSymbol.indexOf('/');
+    const rootPart = chordSymbol.slice(0, slashIndex);
+    const bassPart = chordSymbol.slice(slashIndex + 1);
+    
+    const transposedBass = transposePitch(bassPart, semitones);
+    const qualityPart = rootPart.slice(chord.tonic.length);
+    return `${simplifiedTonic}${qualityPart}/${transposedBass}`;
+  }
   
   const qualityPart = chordSymbol.slice(chord.tonic.length);
   

@@ -150,19 +150,12 @@ function renderLine(
   
   voice.addTickables(staveNotes);
   
-  // Apply accidentals automatically based on key signature
-  // Only for notes that don't already have explicit accidentals
-  const notesWithoutExplicitAccidentals = staveNotes.filter((staveNote, index) => !lineConfig.notes[index].accidental);
-  if (notesWithoutExplicitAccidentals.length > 0) {
-    // Create a filtered voice with only notes needing automatic accidentals
-    const filteredVoice = new Voice({
-      numBeats: renderConfig.timeSignature[0],
-      beatValue: renderConfig.timeSignature[1],
-    }).setStrict(false);
-    
-    filteredVoice.addTickables(notesWithoutExplicitAccidentals);
-    Accidental.applyAccidentals([filteredVoice], renderConfig.keySignature);
-  }
+  // Apply accidentals automatically based on key signature across all notes
+  // in the measure so that same-measure cancellation accidentals are correct.
+  // Notes with explicit accidentals already have their modifier attached, and
+  // applyAccidentals uses modifiedPitches tracking to add cancellation
+  // accidentals on later notes (e.g., F# followed by F natural gets a natural).
+  Accidental.applyAccidentals([voice], renderConfig.keySignature);
   
   // Format to fit stave, using options to reduce minimum width per note
   const formatter = new Formatter({ softmaxFactor: 10, globalSoftmax: true });

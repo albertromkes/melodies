@@ -163,7 +163,7 @@ function respellPitch(pitch: string, keySignature: string): string {
  * This properly handles cautionary accidentals (musica ficta)
  * @param note - The note data to transpose
  * @param semitones - Number of semitones to transpose
- * @param originalKey - Original key signature
+ * @param originalKey - Original key signature (reserved for future key-aware validation)
  * @param newKey - New key signature after transposition
  * @returns A new NoteData with transposed keys and correct accidentals
  */
@@ -193,13 +193,17 @@ export function transposeNoteDataWithKey(
     if (match) {
       const [, letter, existingAcc, octave] = match;
       
-      // The full pitch including the explicit accidental
+     // The full pitch including the explicit accidental
       // e.g., "a/4" with accidental "#" means A#4
       let fullAccidental = existingAcc;
       if (accType === '#' && !existingAcc.includes('#')) {
         fullAccidental = existingAcc + '#';
       } else if (accType === 'b' && !existingAcc.includes('b')) {
         fullAccidental = existingAcc + 'b';
+      } else if (accType === '##') {
+        fullAccidental = '##';
+      } else if (accType === 'bb') {
+        fullAccidental = 'bb';
       } else if (accType === 'n') {
         fullAccidental = ''; // Natural removes any accidental
       }
@@ -219,29 +223,29 @@ export function transposeNoteDataWithKey(
         const transposedLetter = transposedMatch[1];
         
         if (needsExplicitAccidental(transposedLetter, transposedAcc, newKey)) {
-          // We need an explicit accidental
+         // We need an explicit accidental
           const accidentalType = transposedAcc ? accidentalStringToType(transposedAcc) : 'n';
           
           if (accidentalType) {
-            return {
-              ...note,
-              keys: [transposedVexKey],
-              accidental: {
-                type: accidentalType,
-                cautionary: note.accidental.cautionary,
-              },
-            };
-          }
-        }
-      }
-      
-      // No explicit accidental needed - the key signature handles it
-      // But we still use the transposed pitch (which might have the accidental built-in)
-      return {
-        ...note,
-        keys: [transposedVexKey],
-        accidental: undefined,
-      };
+             return {
+               ...note,
+               keys: [transposedVexKey, ...transposedKeys.slice(1)],
+               accidental: {
+                 type: accidentalType,
+                 cautionary: note.accidental.cautionary,
+               },
+             };
+           }
+         }
+       }
+       
+       // No explicit accidental needed - the key signature handles it
+       // But we still use the transposed pitch (which might have the accidental built-in)
+       return {
+         ...note,
+         keys: [transposedVexKey, ...transposedKeys.slice(1)],
+         accidental: undefined,
+       };
     }
   }
   
@@ -258,7 +262,7 @@ export function transposeNoteDataWithKey(
  * This properly handles cautionary accidentals (musica ficta)
  * @param notes - Array of NoteData to transpose
  * @param semitones - Number of semitones to transpose
- * @param originalKey - Original key signature
+ * @param originalKey - Original key signature (reserved for future key-aware validation)
  * @param newKey - New key signature after transposition
  * @returns New array with transposed notes and correct accidentals
  */
