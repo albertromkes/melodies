@@ -26,8 +26,9 @@ const BASE_LINE_HEIGHT = 95;
 const CHORD_LINE_PADDING = 14;
 const DEFAULT_TOP_MARGIN = 40;
 const CHORD_TOP_MARGIN = 50;
-const DEFAULT_VERTICAL_MARGIN = 60;
-const CHORD_VERTICAL_MARGIN = 72;
+const DEFAULT_VERTICAL_MARGIN = 80;
+const CHORD_VERTICAL_MARGIN = 92;
+const LYRICS_LINE_SPACING = 50;
 
 function getLineHeight(showChords: boolean): number {
   return BASE_LINE_HEIGHT + (showChords ? CHORD_LINE_PADDING : 0);
@@ -193,7 +194,7 @@ export function renderMultiLineMelody(
   const verticalMargin = getVerticalMargin(Boolean(config.showChords));
   
   // Calculate total height needed (scaled)
-  const lyricsSpace = config.showLyrics ? 30 : 0;
+  const lyricsSpace = config.showLyrics ? LYRICS_LINE_SPACING : 0;
   // Total height in scaled pixels
   const totalHeight = (measures.length * (lineHeight + lyricsSpace) + verticalMargin) * scale;
   
@@ -242,7 +243,7 @@ export function calculateMultiLineDimensions(
 ): { width: number; height: number } {
   const minWidth = Math.max(containerWidth, 300);
   const lineHeight = getLineHeight(showChords);
-  const lyricsSpace = showLyrics ? 30 : 0;
+  const lyricsSpace = showLyrics ? LYRICS_LINE_SPACING : 0;
   const verticalMargin = getVerticalMargin(showChords);
   
   return {

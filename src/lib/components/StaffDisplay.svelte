@@ -70,7 +70,7 @@
 
     const stavePath = stave.querySelector('path');
     const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
-    const lyricsY = staveYPos + 70;
+    const lyricsY = staveYPos + 80; // 40 for staff height + 40 for clearance (increased from 30)
 
     const allNotes = svg.querySelectorAll('.vf-stavenote');
     const staveNotes: {x: number, isRest: boolean}[] = [];
@@ -96,6 +96,10 @@
       const firstNoteX = nonRestNotes[0].x;
       const lastNoteX = nonRestNotes[nonRestNotes.length - 1].x + 12;
       const textWidth = lastNoteX - firstNoteX;
+      // Add horizontal padding to prevent text compression/overlap.
+      // Without padding, lengthAdjust: 'spacing' squashes characters when
+      // the text string is longer than the available note span.
+      const paddedWidth = textWidth + 20;
 
       const textEl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
       textEl.setAttribute('x', String(firstNoteX));
@@ -103,7 +107,7 @@
       textEl.setAttribute('class', 'lyrics-line');
       textEl.setAttribute('fill', 'currentColor');
       textEl.setAttribute('font-size', `${lyricsFontSize}px`);
-      textEl.setAttribute('textLength', String(textWidth));
+      textEl.setAttribute('textLength', String(paddedWidth));
       textEl.setAttribute('lengthAdjust', 'spacing');
       textEl.textContent = measure.lyrics;
       vexflowGroup.appendChild(textEl);
@@ -218,7 +222,7 @@
                 const staveYPos = stavePath ? parseFloat(stavePath.getAttribute('d')?.split(' ')[1] || '0') : 0;
                 
                 // Position lyrics below the stave: stave top + 40 (5 lines) + offset for notes below staff
-                const lyricsY = staveYPos + 70; // 40 for staff height + 30 for clearance
+                const lyricsY = staveYPos + 80; // 40 for staff height + 40 for clearance (increased from 30)
                 
                 // Find all stavenotes that belong to this stave (by Y position proximity)
                 // This includes both notes AND rests - VexFlow renders both as .vf-stavenote
