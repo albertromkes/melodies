@@ -4,6 +4,16 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [svelte()],
+  server: {
+    watch: {
+      ignored: [
+        '**/android/.gradle/**',
+        '**/android/**/build/**',
+        '**/ios/**/build/**',
+        '**/ios/Pods/**',
+      ],
+    },
+  },
   build: {
     rollupOptions: {
       output: {
