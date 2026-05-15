@@ -65,9 +65,42 @@
     {
       "number": 1,
       "lines": [
+        "Alles is gereed, in het Vaderhuis",
+        "in het Vaderhuis, in het Vaderhuis",
+        "Alles is gereed, in het Vaderhui",
+        "en daar is vreugd’ vreugd’ vreugd’"
       ],
-      "syllables": [
-      ]
+      "syllables": []
+    },
+    {
+      "number": 2,
+      "lines": [
+        "Jezus is de weg, naar het Vaderhuis",
+        "naar het Vaderhuis, naar het Vaderhuis.",
+        "Jezus is de weg, naar het Vaderhuis,",
+        "daar is vreugd’ vreugd’ vreugd’."
+      ],
+      "syllables": []
+    },
+    {
+      "number": 3,
+      "lines": [
+        "Kom en ga met mij, naar het Vaderhuis,",
+        "naar het Vaderhuis, naar het Vaderhuis.",
+        "Kom en ga met mij, naar het Vaderhuis,",
+        "daar is vreugd’ vreugd’ vreugd’."
+      ],
+      "syllables": []
+    },
+    {
+      "number": 4,
+      "lines": [
+        "Ja, ik zal daar zijn in het Vaderhuis,",
+        "in het Vaderhuis, in het Vaderhuis.",
+        "Ja, ik zal daar zijn in het Vaderhuis,",
+        "daar is vreugd', vreugd', vreugd'."
+      ],
+      "syllables": []
     }
   ]
 }
