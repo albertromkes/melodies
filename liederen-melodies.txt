@@ -1,0 +1,19 @@
+title: Al heeft Hij ons verlaten
+kind: 3 flats
+lines:
+E2,G1 A1 B1, B1 A2, G2
+A1, G1, E1, F1, F1, E2
+E2, G1, A1, B1, B1, A2, G2
+A1, G1, E1, F1, F1, E2
+B1, e2, d2, c1, B2, A1-cancel, B2
+G1, B1, B1, A1, G1, F2
+G1, E1, E1, F1, G1, A2, G2
+B1, A2, G1, F1, F1, E4
+
+title: Alles is gereed in het Vaderhuis
+kind: 1 sharp
+lines:
+B8, B8, A8-sharp, B8, G2, A8, G8, E8, G8, D2
+G8, G8, F8, G8, A2, A8, A8, G8, A8, B2
+B8, B8, A8-sharp, B8, G2, A8, G8, E8, G8, D1
+G8, A8, B2, A2, G4

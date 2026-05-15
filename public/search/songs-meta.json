@@ -1062,9 +1062,23 @@
     "tags": []
   },
   {
-    "id": "lied-score",
+    "id": "lied-Al heeft Hij ons verlaten",
+    "number": 1,
+    "title": "Al heeft Hij ons verlaten",
+    "category": "liederen",
+    "tags": []
+  },
+  {
+    "id": "lied-Lichtstad met uw paarlen poorten",
     "number": 1,
     "title": "Lichtstad met uw Paarlen Poorten",
+    "category": "liederen",
+    "tags": []
+  },
+  {
+    "id": "lied-Alles is gereed in het Vaderhuis",
+    "number": 2,
+    "title": "Alles is gereed in het Vaderhuis",
     "category": "liederen",
     "tags": []
   },

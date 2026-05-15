@@ -1,0 +1,73 @@
+{
+  "id": "lied-Alles is gereed in het Vaderhuis",
+  "number": 2,
+  "title": "Alles is gereed in het Vaderhuis",
+  "category": "liederen",
+  "keySignature": "G",
+  "timeSignature": [4, 4],
+  "clef": "treble",
+  "melody": {
+    "measures": [
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["a#/4"], "duration": "8", "accidental": { "type": "#" } },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["e/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["d/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["f#/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "h" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["a#/4"], "duration": "8", "accidental": { "type": "#" } },
+          { "keys": ["b/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["e/4"], "duration": "8" },
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["d/4"], "duration": "q" }
+        ]
+      },
+      {
+        "notes": [
+          { "keys": ["g/4"], "duration": "8" },
+          { "keys": ["a/4"], "duration": "8" },
+          { "keys": ["b/4"], "duration": "h" },
+          { "keys": ["a/4"], "duration": "h" },
+          { "keys": ["g/4"], "duration": "w" }
+        ]
+      }
+    ]
+  },
+  "verses": [
+    {
+      "number": 1,
+      "lines": [
+      ],
+      "syllables": [
+      ]
+    }
+  ]
+}
